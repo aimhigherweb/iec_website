@@ -1,0 +1,13 @@
+Title: Nicole Richards
+
+----
+
+Job-title: job title
+
+----
+
+Photo: icon03.png
+
+----
+
+Text: text

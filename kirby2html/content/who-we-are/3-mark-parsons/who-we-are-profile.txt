@@ -1,0 +1,37 @@
+Title: Mark Parsons
+
+----
+
+Job-title: Optometrist
+
+----
+
+Photo: mark-1.jpg
+
+----
+
+Text: 
+
+Mark is a graduate of Melbourne University with a special interest in contact lenses and childrens’ vision. 
+Professional Associations
+Member, former councillor and former President of Optometrists Association of Australia (S.A.Div.).
+Member, Contact Lens Society of Australia.
+Member, Australian College of Behavioural Optometry
+Member, SPELD SA Council
+Fellow, Victorian College of Optometry
+Former Board Member, ProVision Australia
+Former Presiding member, Optometrists Board of South Australia
+
+----
+
+Skills: 
+
+- 
+  skill_name: COLORIMETRY
+  rating: "100"
+- 
+  skill_name: EYEWEAR EXPERT
+  rating: "95"
+- 
+  skill_name: GENERAL OPTOMETRY
+  rating: "95"

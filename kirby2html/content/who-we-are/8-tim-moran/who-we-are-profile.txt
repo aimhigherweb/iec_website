@@ -1,0 +1,35 @@
+Title: Tim Moran
+
+----
+
+Job-title: Optical Technician
+
+----
+
+Photo: tim-1.jpg
+
+----
+
+Text: 
+
+Tim started Optical Dispensing before some of our other staff members were born! Qualified Optical Technicians and Dispensers are hard to come by these days and we are therefore lucky to have his expertise in practice. The most popular man in the business is on hand to dispense, repair and fit all types of spectacles. 
+Tim's positive attitude is infectious. 
+
+His optimism also transcends to Gliderol Stadium were you'll always find Tim getting behind the mighty tigers. Glenelg born and bred, Tim's a South Aussie through and through and he will have you smiling from ear to ear.
+
+----
+
+Skills: 
+
+- 
+  skill_name: DISPENSING
+  rating: "100"
+- 
+  skill_name: DEDICATION
+  rating: "90"
+- 
+  skill_name: SMILEY
+  rating: "100"
+- 
+  skill_name: STORY TELLING
+  rating: "95"
