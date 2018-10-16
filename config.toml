@@ -1,0 +1,4 @@
+# baseURL is empty for checking on localhost replace with http://innovativeeyecare.com.au/ when uploading to server
+baseURL = ""
+languageCode = "en-us"
+title = "Hugo: Innovative Eye Care"
