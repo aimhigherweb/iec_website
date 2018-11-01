@@ -2,6 +2,7 @@
 title: Lachlan Hoy
 viewport: 'width=device-width, initial-scale=1.0'
 layout: who
+foldernum: 1
 jobtitle: Therapeutic Optometrist BAppSc(Optom)Hons FIAO FCCLSA
 photo: /who-we-are/lachlan-hoy/lachlan-hoy.jpg
 skill1: ORTHO-K CORNEAL RESHAPING

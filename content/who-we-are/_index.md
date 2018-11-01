@@ -465,7 +465,7 @@ Joanna is a member of Optometry South Australia, the Cornea and Contact Lens Soc
 </li>
 <li class="employee-box open-close">
 <div class="employee-inner hover-elem">
-<img src="/who-we-are/5-georgia-turner/georgia-1.jpg">
+<img src="/who-we-are/georgia-turner/georgia-1.jpg">
 <a href="#" class="employee-inner__rollover opener">
 <div class="employee-inner__rollover__box">
 <strong class="name">Georgia Hoy</strong>
@@ -524,7 +524,7 @@ Joanna is a member of Optometry South Australia, the Cornea and Contact Lens Soc
 </li>
 <li class="employee-box open-close">
 <div class="employee-inner hover-elem">
-<img src="/who-we-are/6-sheralyn-stillert/sheralyn-1.jpg">
+<img src="/who-we-are/sheralyn-stillert/sheralyn-1.jpg">
 <a href="#" class="employee-inner__rollover opener">
 <div class="employee-inner__rollover__box">
 <strong class="name">Sheralyn Stillert</strong>
@@ -584,7 +584,7 @@ Shaking cancer off twice, proves there's nothing that can hold this groover down
 </li>
 <li class="employee-box open-close">
 <div class="employee-inner hover-elem">
-<img src="/who-we-are/7-jane-scotcher/jane-1.jpg">
+<img src="/who-we-are/jane-scotcher/jane-1.jpg">
 <a href="#" class="employee-inner__rollover opener">
 <div class="employee-inner__rollover__box">
 <strong class="name">Jane Scotcher</strong>
@@ -644,7 +644,7 @@ Where you might not expect to find Jane is on a red hot Honda motorcycle! Ask he
 </li>
 <li class="employee-box open-close">
 <div class="employee-inner hover-elem">
-<img src="/who-we-are/8-tim-moran/tim-1.jpg">
+<img src="/who-we-are/tim-moran/tim-1.jpg">
 <a href="#" class="employee-inner__rollover opener">
 <div class="employee-inner__rollover__box">
 <strong class="name">Tim Moran</strong>
@@ -705,7 +705,7 @@ Tim's positive attitude is infectious. </p>
 </li>
 <li class="employee-box open-close">
 <div class="employee-inner hover-elem">
-<img src="/who-we-are/9-millie-meegan/millie-1.jpg">
+<img src="/who-we-are/millie-meegan/millie-1.jpg">
 <a href="#" class="employee-inner__rollover opener">
 <div class="employee-inner__rollover__box">
 <strong class="name">Millie Meegan</strong>
@@ -759,7 +759,7 @@ Tim's positive attitude is infectious. </p>
 </li>
 <li class="employee-box open-close">
 <div class="employee-inner hover-elem">
-<img src="/who-we-are/10-sally-spencer/sally-1.jpg">
+<img src="/who-we-are/sally-spencer/sally-1.jpg">
 <a href="#" class="employee-inner__rollover opener">
 <div class="employee-inner__rollover__box">
 <strong class="name">Sally Spencer</strong>
@@ -819,7 +819,7 @@ Tim's positive attitude is infectious. </p>
 </li>
 <li class="employee-box open-close">
 <div class="employee-inner hover-elem">
-<img src="/who-we-are/11-kevin-rooney/imagelayer.jpg">
+<img src="/who-we-are/kevin-rooney/imagelayer.jpg">
 <a href="#" class="employee-inner__rollover opener">
 <div class="employee-inner__rollover__box">
 <strong class="name">Kevin Rooney</strong>
@@ -855,7 +855,7 @@ Tim's positive attitude is infectious. </p>
 </li>
 <li class="employee-box open-close">
 <div class="employee-inner hover-elem">
-<img src="/who-we-are/12-christine-swaine/152176496376828479-1.png">
+<img src="/who-we-are/christine-swaine/152176496376828479-1.png">
 <a href="#" class="employee-inner__rollover opener">
 <div class="employee-inner__rollover__box">
 <strong class="name">Christine Swaine</strong>

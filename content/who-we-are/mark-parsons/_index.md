@@ -2,6 +2,7 @@
 title: Mark Parsons
 viewport: 'width=device-width, initial-scale=1.0'
 layout: who
+foldernum: 3
 jobtitle: Optometrist
 photo: /who-we-are/mark-parsons/mark-1.jpg
 skill1: COLORIMETRY

@@ -1,0 +1,9 @@
+Title: Error
+
+----
+
+Text: 
+
+We've recently upgraded this site, so the page you're looking for might have moved. Browse the menu above to find it, or (link: /contact text: contact us).
+
+Looking for the online booking form? (link: /contact text: Click here) to view our practices and make an appointment!
