@@ -1,0 +1,15 @@
+---
+title: 
+viewport: 'width=device-width, initial-scale=1.0'
+layout: bloglayout
+date: 
+author: 
+author_url: /who-we-are/karl-evans
+author_image: 
+preview_image: 
+foldernum: 
+category: []
+tag: []
+---
+
+
