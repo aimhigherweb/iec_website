@@ -152,7 +152,7 @@ My name is Katie and I am a fifth year optometry student from Flinders Universit
 </li>
 <li class="blog-post-box">
 <a href="/blog/research-project-orthokeratology-myopia-glaucoma">
-<img src="/blog/20180109-research-project-orthokeratology-myopia-glaucoma/children-myopia-glaucoma.jpg" alt="">
+<img src="/blog/research-project-orthokeratology-myopia-glaucoma/children-myopia-glaucoma.jpg" alt="">
 <div class="blog-list__title">
 Research project: ortho-k, myopia &amp; glaucoma </div>
 <div class="blog-list__byline">
@@ -167,7 +167,7 @@ The eye is one of the most complex systems of the human body.1 Parts of the eye 
 </li>
 <li class="blog-post-box">
 <a href="/blog/blepharitis-and-dry-eye-chicken-or-the-egg">
-<img src="/blog/20171205-blepharitis-and-dry-eye-chicken-or-the-egg/demodex-preview.jpg" alt="">
+<img src="/blog/blepharitis-and-dry-eye-chicken-or-the-egg/demodex-preview.jpg" alt="">
  <div class="blog-list__title">
 Blepharitis and dry eye, chicken or the egg? </div>
 <div class="blog-list__byline">
@@ -182,7 +182,7 @@ For many years, blepharitis and dry eye disease (DED) have been thought to be tw
 </li>
 <li class="blog-post-box">
 <a href="/blog/dry-eye-disease-and-the-dews-ii-report">
-<img src="/blog/20171103-dry-eye-disease-and-the-dews-ii-report/dry-eye-and-dews-ii.jpg" alt="">
+<img src="/blog/dry-eye-disease-and-the-dews-ii-report/dry-eye-and-dews-ii.jpg" alt="">
 <div class="blog-list__title">
 Dry eye disease and the DEWS II </div>
 <div class="blog-list__byline">
@@ -197,7 +197,7 @@ Dry eye disease is a common condition that coincides with a variety of signs, sy
 </li>
 <li class="blog-post-box">
 <a href="/blog/coopervision-myday-toric-launch">
-<img src="/blog/20170925-coopervision-myday-toric-launch/myday-toric-coopervision.jpg" alt="">
+<img src="/blog/coopervision-myday-toric-launch/myday-toric-coopervision.jpg" alt="">
 <div class="blog-list__title">
 Coopervision MyDay Toric launch </div>
 <div class="blog-list__byline">
@@ -212,7 +212,7 @@ Nearly all new contact lenses now use silicone as a vital component of the lens 
 </li>
 <li class="blog-post-box">
 <a href="/blog/see-our-new-office-fit-out">
- <img src="/blog/20170918-see-our-new-office-fit-out/barber_72dpi_600px-4.jpg" alt="">
+ <img src="/blog/see-our-new-office-fit-out/barber_72dpi_600px-4.jpg" alt="">
 <div class="blog-list__title">
 See our new office refurbishment! </div>
 <div class="blog-list__byline">
@@ -227,7 +227,7 @@ We are very excited to show off our new office refurbishment at the Hutt Street 
 </li>
 <li class="blog-post-box">
 <a href="/blog/spring-summer-2017-trend-report">
-<img src="/blog/20170911-spring-summer-2017-trend-report/jane-1.jpg" alt="">
+<img src="/blog/spring-summer-2017-trend-report/jane-1.jpg" alt="">
 <div class="blog-list__title">
 Spring/summer 2017 trend report </div>
 <div class="blog-list__byline">
@@ -242,7 +242,7 @@ By JANE SCOTCHER </div>
 </li>
 <li class="blog-post-box">
 <a href="/blog/shaw-lenses">
-<img src="/blog/20170906-shaw-lenses/shaw-lenses.jpg" alt="">
+<img src="/blog/shaw-lenses/shaw-lenses.jpg" alt="">
 <div class="blog-list__title">
 Lazy eyes and Shaw lenses </div>
 <div class="blog-list__byline">
@@ -257,7 +257,7 @@ Have you got an eye that’s just been lying about and not getting used much? Ha
 </li>
 <li class="blog-post-box">
 <a href="/blog/fourth-year-flinders-university-optometry">
-<img src="/blog/20170904-fourth-year-flinders-university-optometry/melina-placement.jpg" alt="">
+<img src="/blog/fourth-year-flinders-university-optometry/melina-placement.jpg" alt="">
 <div class="blog-list__title">
 Melina's student placement at IEC </div>
 <div class="blog-list__byline">
@@ -272,7 +272,7 @@ My name is Melina and I am an optometry student in my fourth year of study at Fl
 </li>
 <li class="blog-post-box">
 <a href="/blog/vision-training-more-than-meets-the-eye">
-<img src="/blog/20170829-vision-training-more-than-meets-the-eye/visiontraining1.jpg" alt="">
+<img src="/blog/vision-training-more-than-meets-the-eye/visiontraining1.jpg" alt="">
 <div class="blog-list__title">
 Vision training: there's more than meets the eye! </div>
 <div class="blog-list__byline">
@@ -287,7 +287,7 @@ Optometrists are here to help you see better! There are a number of ways in whic
 </li>
 <li class="blog-post-box">
 <a href="/blog/colour-vision-deficiencies">
-<img src="/blog/20170821-colour-vision-deficiencies/cvd.png" alt="">
+<img src="/blog/colour-vision-deficiencies/cvd.png" alt="">
 <div class="blog-list__title">
 Colour vision deficiencies </div>
 <div class="blog-list__byline">
@@ -302,7 +302,7 @@ Colour is not always as simple as it looks. Like many aspects of our perception 
 </li>
 <li class="blog-post-box">
 <a href="/blog/dry-or-water-eyes-the-solution-may-be-a-plumbing-job">
-<img src="/blog/20170814-dry-or-water-eyes-the-solution-may-be-a-plumbing-job/vibe.jpg" alt="">
+<img src="/blog/dry-or-water-eyes-the-solution-may-be-a-plumbing-job/vibe.jpg" alt="">
 <div class="blog-list__title">
 Dry or watery eyes? The solution may be a plumbing job </div>
 <div class="blog-list__byline">
