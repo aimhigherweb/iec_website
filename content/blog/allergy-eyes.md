@@ -1,15 +1,10 @@
 ---
 title: Allergy eyes
-viewport: 'width=device-width, initial-scale=1.0'
 layout: bloglayout
-date: 2018-09-21
+date: 2018-09-21T00:00:00.000Z
 author: Karl Evans
 author_url: /who-we-are/karl-evans
-author_image: 
-preview_image: bees-pollinating.jpg
-foldernum: 20180921
-category: []
-tag: []
+preview_image: /uploads/bees-pollinating.jpg
 ---
 
 Irritated, red eyes can be caused by a number of different maladies but if itchiness is present then this symptom points strongly to allergy eyes.
