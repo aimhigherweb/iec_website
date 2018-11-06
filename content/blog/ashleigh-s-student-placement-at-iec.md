@@ -1,7 +1,6 @@
 ---
 title: "Ashleigh's student placement at IEC"
 viewport: 'width=device-width, initial-scale=1.0'
-layout: bloglayout
 date: 2018-05-21
 author: Ashleigh Beck
 author_url: 
