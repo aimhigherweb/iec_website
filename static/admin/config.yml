@@ -1,5 +1,6 @@
 backend:
   name: git-gateway
+publish_mode: editorial_workflow
 accept_roles: #optional - accepts all users if left out
   - editor
 media_folder: "static/uploads" # Media files will be stored in the repo under images/uploads
