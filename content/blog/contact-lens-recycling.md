@@ -1,15 +1,10 @@
 ---
 title: Contact Lens Recycling
-viewport: 'width=device-width, initial-scale=1.0'
 layout: bloglayout
-date: 2018-09-11
+date: 2018-09-11T00:00:00.000Z
 author: Karl Evans
 author_url: /who-we-are/karl-evans
-author_image: 
-preview_image: bl_accepted_waste-v3-au-02.jpg
-foldernum: 20180911
-category: []
-tag: []
+preview_image: /uploads/bees-pollinating.jpg
 ---
 
 Disposable contact lens wear does create waste. The amount varies with monthlies having about half the amount of waste of dailies, while non-disposables have twice as much waste as daily disposable lenses. This waste should certainly not be disposed of in the waste water system  https://www.bbc.com/news/science-environment-45222865. But there is now a way to dispose of used contact lenses that allows them to be recycled. 
