@@ -1,15 +1,27 @@
 # IEC-Website 
 
-## ported from Kirby to Hugo 
-
-- All assets (images, videos, css and js) are under /static/assets.
-- All templating is done using the layouts folder. 
-- Section folders who, what, resources and blog each have a template.txt file. To create a new page in that section, create a folder (under the section folder), copy the template.txt to _index.md under that new folder, update metadata and add content in that .md file. The new folder name will be in the URL/permalink, so use appropriate string. 
-
-### Metadata 
-
-- The metadata **foldernum** in the _index.md file is the old number prefix of the folder, and to be used in looping, if required. 
-- The metadata **preview-image** is kept for future use, if required. 
-- The metadata **intro** was attempted in the what section, but due to non-standard and HTML content it was not possible to integrate it as hugo metadata. 
+This is the website for Innovative Eye Care optometry practice in Adelaide, South Australia.
 
 
+## Building
+
+To build and serve:
+```
+hugo serve
+```
+
+Or to just build to `public` directory:
+
+```
+hugo
+```
+
+
+## Hosting
+We use Netlify for hosting.
+This is wired up to github, and will automatically deploy on push to master.
+
+
+## CMS
+This uses the Netlify CMS wired up to Netlify authentication for user management, and commits content changes to the repo on github.
+Netlify CMS is a single page react app - there is no back-end server required.
