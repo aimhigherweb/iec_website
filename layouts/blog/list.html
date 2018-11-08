@@ -1,45 +1,52 @@
-
 {{ partial "header.html" . }}
 
 {{ partial "topnav.html" . }}
 
 <div class="intro-section" style="background-image: url(/assets/images/intro-bg.png);">
-<div class="container">
-<div class="intro-section__wrap">
-<div class="intro-section__heading">
-<h2 class="intro-section__title">Blog</h2>
-</div>
-<div class="intro-section__row">
-<div class="intro-section__col intro-section__col_content">
-<p>The optometrists of Innovative Eye Care have a wide scope of expertise. Our blog provides a platform for our practitioners and staff to share a little more about their professional interests and experiences. As well as some weird and wonderful case studies, you’ll be kept up to date with practice news, the latest research and treatment options, products we love and fashion trends in our retail space.</p> </div>
-</div>
-</div>
-</div>
-<span class="intro-section__rectangle">
-<img src="/assets/images/rectangle-img.png" alt="image description">
-</span>
+  <div class="container">
+    <div class="intro-section__wrap">
+      <div class="intro-section__heading">
+        <h2 class="intro-section__title">Blog</h2>
+      </div>
+      <div class="intro-section__row">
+        <div class="intro-section__col intro-section__col_content">
+          <p>The optometrists of Innovative Eye Care have a wide scope of expertise. Our blog
+            provides a platform for our practitioners and staff to share a little more about their
+            professional interests and experiences. As well as some weird and wonderful case
+            studies, you’ll be kept up to date with practice news, the latest research and treatment
+            options, products we love and fashion trends in our retail space.</p></div>
+      </div>
+    </div>
+  </div>
+  <span class="intro-section__rectangle">
+    <img src="/assets/images/rectangle-img.png" alt="image description">
+  </span>
 </div>
 <div class="content-section blog-list">
-<ul class="blog-post-list">
-        {{ range (where .Data.Pages "Type" "blog") }}
-            <li class="blog-post-box">
-            <a href="/blog/allergy-eyes">
-                    <img src={{ .Params.Preview_Image}} alt="">
-            <div class="blog-list__title">
-            {{ .Title }}
-            </div>
-            <div class="blog-list__byline">
-            On <span style="text-transform: uppercase"> 21 September 2018</span>
-            &middot;
-            By KARL EVANS </div>
-            <div class="blog-list__border-bottom"></div>
-            <div class="blog-list__preview">
-            Irritated, red eyes can be caused by a number of different maladies but if itchiness is present then this symptom points strongly to allergy eyes. Eye allergies are an over sensitivity to a harmless… </div>
-            <button class="blog-list__button">READ MORE</button>
-            </a>
-            </li>
-		{{ end }}
-</ul>
+  <ul class="blog-post-list">
+    {{ range (where .Data.Pages "Type" "blog") }}
+    <li class="blog-post-box">
+      <a href="/blog/allergy-eyes">
+        <img src={{ .Params.Preview_Image}} alt="">
+        <div class="blog-list__title">
+          {{ .Title }}
+        </div>
+        <div class="blog-list__byline">
+          On <span style="text-transform: uppercase"> 21 September 2018</span>
+          &middot;
+          By KARL EVANS
+        </div>
+        <div class="blog-list__border-bottom"></div>
+        <div class="blog-list__preview">
+          Irritated, red eyes can be caused by a number of different maladies but if itchiness is
+          present then this symptom points strongly to allergy eyes. Eye allergies are an over
+          sensitivity to a harmless…
+        </div>
+        <button class="blog-list__button">READ MORE</button>
+      </a>
+    </li>
+    {{ end }}
+  </ul>
 </div>
 
 {{ partial "footer.html" . }}

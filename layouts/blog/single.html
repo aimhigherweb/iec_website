@@ -3,34 +3,34 @@
 {{ partial "topnav.html" . }}
 
 <div class="content-section">
-<div class="employee-box open-close ">
-<div class="employee-slide ">
-<div class="employee-slide__inner" style="padding-top:20px;">
-<div class="container">
-<div class="content-wrap">
+  <div class="employee-box open-close ">
+    <div class="employee-slide ">
+      <div class="employee-slide__inner" style="padding-top:20px;">
+        <div class="container">
+          <div class="content-wrap">
 
-<h3>{{ .Title }}</h3>
+            <h3>{{ .Title }}</h3>
 
-<div class="employee-slide__row">
-<div class="employee-slide__col employee-slide__col-content">
+            <div class="employee-slide__row">
+              <div class="employee-slide__col employee-slide__col-content">
 
-<div class="employee-heading">
+                <div class="employee-heading">
 
-<p>{{ .Date.Format "2 January 2006" }}</p>
+                  <p>{{ .Date.Format "2 January 2006" }}</p>
 
-<p><a href="{{ .Params.author_url }}">{{ .Params.author }}</a></p>
+                  <p><a href="{{ .Params.author_url }}">{{ .Params.author }}</a></p>
 
-</div>
+                </div>
 
-{{ .Content }}
+                {{ .Content }}
 
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 
 <!-- {{ partial "online-booking.html" . }} -->

@@ -3,134 +3,141 @@
 {{ partial "topnav.html" . }}
 
 <div class="intro-section" style="background-image: url(/assets/images/intro-bg.png);">
-<div class="container">
-<div class="intro-section__wrap">
-<div class="intro-section__heading">
-<h2 class="intro-section__title">Who We Are</h2>
-</div>
-<div class="intro-section__row">
-<div class="intro-section__col intro-section__col_content">
-<p><b>We are a team of industry leaders.</b> As practitioners, we firmly believe in comprehensive care. As innovators, we provide this care with the most up-to-date technology, knowledge, products and services available. As people, we value each one of our patients and their individual needs.</p>
-<p>Our practice is proudly independent and South Australian owned and operated. Part of a long legacy of optometry in Adelaide and surrounds, we welcome generations of family members as they continue in our care.</p>
-<h3>Book online - it’s easy</h3>
-<a href="http://innovativeeyecare.com.au/contact" class="btn btn_medium btn--light-blue">BOOK now</a>
-</div>
-<div class="intro-section__col intro-section__col_sidebar">
-<ul class="intro-section__list">
-<li>
-<span class="ico-holder">
-<img src="/assets/images/icon01.png">
-</span>
-<a href="/what-we-do/eyewear-collections">
-<span class="list-text">Eyewear Experts</span>
-</a>
-</li>
-<li>
-<span class="ico-holder">
-<img src="/assets/images/icon02.png">
-</span>
+  <div class="container">
+    <div class="intro-section__wrap">
+      <div class="intro-section__heading">
+        <h2 class="intro-section__title">Who We Are</h2>
+      </div>
+      <div class="intro-section__row">
+        <div class="intro-section__col intro-section__col_content">
+          <p><b>We are a team of industry leaders.</b> As practitioners, we firmly believe in
+            comprehensive care. As innovators, we provide this care with the most up-to-date
+            technology, knowledge, products and services available. As people, we value each one of
+            our patients and their individual needs.</p>
+          <p>Our practice is proudly independent and South Australian owned and operated. Part of a
+            long legacy of optometry in Adelaide and surrounds, we welcome generations of family
+            members as they continue in our care.</p>
+          <h3>Book online - it’s easy</h3>
+          <a href="http://innovativeeyecare.com.au/contact" class="btn btn_medium btn--light-blue">
+            BOOK now
+          </a>
+        </div>
+        <div class="intro-section__col intro-section__col_sidebar">
+          <ul class="intro-section__list">
+            <li>
+              <span class="ico-holder">
+                <img src="/assets/images/icon01.png">
+              </span>
+              <a href="/what-we-do/eyewear-collections">
+                <span class="list-text">Eyewear Experts</span>
+              </a>
+            </li>
+            <li>
+              <span class="ico-holder">
+                <img src="/assets/images/icon02.png">
+              </span>
 
-<a href="/what-we-do/contact-lenses">
-<span class="list-text">Bespoke Contact Lenses</span>
-</a>
-</li>
-<li>
-<span class="ico-holder">
-<img src="/assets/images/icon03.png">
-</span>
-<a href="/what-we-do/childrens-vision">
-<span class="list-text">Paediatric Vision</span>
-</a>
-</li>
-<li>
-<span class="ico-holder">
-<img src="/assets/images/icon04.png">
-</span>
-<a href="/what-we-do/dry-eye-disease">
-<span class="list-text">Dry Eye Clinic</span>
-</a>
-</li>
-<li>
-<span class="ico-holder">
-<img src="/assets/images/icon05.png">
-</span>
-<a href="/what-we-do/oct">
-<span class="list-text">Advanced Imaging Technology</span>
-</a>
-</li>
-<li>
-<span class="ico-holder">
-<img src="/assets/images/icon06.png">
-</span>
-<a href="/what-we-do/orthokeratology-corneal-reshaping">
-<span class="list-text">Ortho-K: Overnight  Vision Correction</span>
-</a>
-</li>
-</ul>
-</div>
-</div>
-</div>
-</div>
-<span class="intro-section__rectangle"> 
-<img src="/assets/images/rectangle-img.png" alt="image description">
-</span>
+              <a href="/what-we-do/contact-lenses">
+                <span class="list-text">Bespoke Contact Lenses</span>
+              </a>
+            </li>
+            <li>
+              <span class="ico-holder">
+                <img src="/assets/images/icon03.png">
+              </span>
+              <a href="/what-we-do/childrens-vision">
+                <span class="list-text">Paediatric Vision</span>
+              </a>
+            </li>
+            <li>
+              <span class="ico-holder">
+                <img src="/assets/images/icon04.png">
+              </span>
+              <a href="/what-we-do/dry-eye-disease">
+                <span class="list-text">Dry Eye Clinic</span>
+              </a>
+            </li>
+            <li>
+              <span class="ico-holder">
+                <img src="/assets/images/icon05.png">
+              </span>
+              <a href="/what-we-do/oct">
+                <span class="list-text">Advanced Imaging Technology</span>
+              </a>
+            </li>
+            <li>
+              <span class="ico-holder">
+                <img src="/assets/images/icon06.png">
+              </span>
+              <a href="/what-we-do/orthokeratology-corneal-reshaping">
+                <span class="list-text">Ortho-K: Overnight  Vision Correction</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <span class="intro-section__rectangle">
+    <img src="/assets/images/rectangle-img.png" alt="image description">
+  </span>
 </div>
 <div class="content-section">
-<div class="employee-box open-close ">
-<div class="employee-slide ">
-<div class="employee-slide__inner" style="padding-top:10px;">
-<div class="container">
-<div class="content-wrap">
-<h3>
-{{ .Title }}
-</h3>
-<div class="employee-slide__row">
-<div class="employee-slide__col employee-slide__col-content">
-<div class="employee-heading">
-<h4>
-{{ .Params.jobtitle }}
-</h4>
-</div>
-{{ .Content }}
-</div>
-<div class="employee-slide__col employee-slide__col-sidebar">
-<img src="{{ .Params.photo }}" style="margin-bottom:50px;">
-<div class="employee-heading">
-<h4>Interests</h4>
-</div>
-<ul class="progress-list">
-<li>
-<strong class="progress-list__label">{{ .Params.skill1 }}</strong>
-<div class="progressbar">
-<span class="line" style="width: {{ .Params.rating1 }}%"></span>
-</div>
-</li>
-<li>
-<strong class="progress-list__label">{{ .Params.skill2 }}</strong>
-<div class="progressbar">
-<span class="line" style="width: {{ .Params.rating2 }}%"></span>
-</div>
-</li>
-<li>
-<strong class="progress-list__label">{{ .Params.skill3 }}</strong>
-<div class="progressbar">
-<span class="line" style="width: {{ .Params.rating3 }}%"></span>
-</div>
-</li>
-<li>
-<strong class="progress-list__label">{{ .Params.skill4 }}</strong>
-<div class="progressbar">
-<span class="line" style="width: {{ .Params.rating4 }}%"></span>
-</div>
-</li>
-</ul>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
+  <div class="employee-box open-close ">
+    <div class="employee-slide ">
+      <div class="employee-slide__inner" style="padding-top:10px;">
+        <div class="container">
+          <div class="content-wrap">
+            <h3>
+              {{ .Title }}
+            </h3>
+            <div class="employee-slide__row">
+              <div class="employee-slide__col employee-slide__col-content">
+                <div class="employee-heading">
+                  <h4>
+                    {{ .Params.jobtitle }}
+                  </h4>
+                </div>
+                {{ .Content }}
+              </div>
+              <div class="employee-slide__col employee-slide__col-sidebar">
+                <img src="{{ .Params.photo }}" style="margin-bottom:50px;">
+                <div class="employee-heading">
+                  <h4>Interests</h4>
+                </div>
+                <ul class="progress-list">
+                  <li>
+                    <strong class="progress-list__label">{{ .Params.skill1 }}</strong>
+                    <div class="progressbar">
+                      <span class="line" style="width: {{ .Params.rating1 }}%"></span>
+                    </div>
+                  </li>
+                  <li>
+                    <strong class="progress-list__label">{{ .Params.skill2 }}</strong>
+                    <div class="progressbar">
+                      <span class="line" style="width: {{ .Params.rating2 }}%"></span>
+                    </div>
+                  </li>
+                  <li>
+                    <strong class="progress-list__label">{{ .Params.skill3 }}</strong>
+                    <div class="progressbar">
+                      <span class="line" style="width: {{ .Params.rating3 }}%"></span>
+                    </div>
+                  </li>
+                  <li>
+                    <strong class="progress-list__label">{{ .Params.skill4 }}</strong>
+                    <div class="progressbar">
+                      <span class="line" style="width: {{ .Params.rating4 }}%"></span>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 
 {{ partial "online-booking.html" . }}
