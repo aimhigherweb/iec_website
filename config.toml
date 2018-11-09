@@ -2,3 +2,5 @@
 baseURL = ""
 languageCode = "en-us"
 title = "Hugo: Innovative Eye Care"
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
