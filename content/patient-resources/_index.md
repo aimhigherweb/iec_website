@@ -1,3 +1,7 @@
+---
+title: Patient Resource
+seo_title:
+---
 <div class="content-section">
 <div class="container">
 <div class="content-section__haeding">

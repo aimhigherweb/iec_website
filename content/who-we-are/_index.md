@@ -1,3 +1,8 @@
+---
+title: Who We Are
+seo_title:
+---
+
 <div class="who-we-are__header content-section simple-section content-section--white-color content-section--with-overlay white--overlay text-center" style="background-image: url(/assets/images/WHO-WE-ARE_HeaderImage.jpg);">
 <div class="container">
 <div class="content-section__haeding video-section__heading">
@@ -5,7 +10,7 @@
 </div>
 <div class="main-video__container" hidden>
 <video id="main-video" class="video-js vjs-default-skin vjs-big-play-centered" controls preload="auto" data-setup='{"fluid":true}'>
-<source src="assets/videos/who-we-are.mp4" type='video/mp4' />
+<source src="/assets/videos/who-we-are.mp4" type='video/mp4' />
 </video>
 </div>
 <button id="play-video-button" onclick="playMainVideo();" class="btn btn--transparent">WATCH VIDEO</button>
