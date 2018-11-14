@@ -23,18 +23,17 @@
 <ul class="blog-post-list">
         {{ range (where .Data.Pages "Type" "blog") }}
             <li class="blog-post-box">
-            <a href="/blog/allergy-eyes">
-                    <img src={{ .Params.Preview_Image}} alt="">
+            <a href="/blog/{{ .File.BaseFileName }}">
+                    <img src={{ .Params.Preview_Image }} alt="">
             <div class="blog-list__title">
             {{ .Title }}
             </div>
             <div class="blog-list__byline">
-            On <span style="text-transform: uppercase"> 21 September 2018</span>
+            On <span style="text-transform: uppercase">{{ .Date.Format "2 January 2006" }}</span>
             &middot;
-            By KARL EVANS </div>
+            By {{ .Params.author }}</div>
             <div class="blog-list__border-bottom"></div>
-            <div class="blog-list__preview">
-            Irritated, red eyes can be caused by a number of different maladies but if itchiness is present then this symptom points strongly to allergy eyes. Eye allergies are an over sensitivity to a harmless… </div>
+            <div class="blog-list__preview">{{ .Summary }}</div>
             <button class="blog-list__button">READ MORE</button>
             </a>
             </li>
