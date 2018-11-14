@@ -2,3 +2,8 @@
 baseURL = ""
 languageCode = "en-us"
 title = "Hugo: Innovative Eye Care"
+enableRobotsTXT = true
+canonifyURLs = true
+# and if you think your md file names or locations might change:
+[permalinks]
+    post = "/blog/:title/"
