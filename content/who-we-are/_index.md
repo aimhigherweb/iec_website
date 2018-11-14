@@ -6,7 +6,7 @@ seo_title:
 <div class="who-we-are__header content-section simple-section content-section--white-color content-section--with-overlay white--overlay text-center" style="background-image: url(/assets/images/WHO-WE-ARE_HeaderImage.jpg);">
 <div class="container">
 <div class="content-section__haeding video-section__heading">
-<strong class="haeding__top-text top-text--small">Who We Are</strong>
+<h1 class="haeding__top-text top-text--small">Who We Are</h1>
 </div>
 <div class="main-video__container" hidden>
 <video id="main-video" class="video-js vjs-default-skin vjs-big-play-centered" controls preload="auto" data-setup='{"fluid":true}'>

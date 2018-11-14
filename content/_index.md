@@ -9,7 +9,7 @@ viewport: 'width=device-width, initial-scale=1.0'
 
 Experience Premium Optometry
 
-<strong class="haeding__top-text top-text--small">Welcome to Innovative Eye Care</strong>
+<h1 class="haeding__top-text top-text--small">Welcome to Innovative Eye Care</h1>
 
 Optometrists in Adelaide, South Australia
 

@@ -2908,16 +2908,16 @@ h2 {
     @media (min-width: 1024px) {
       .employee-slide__inner .content-wrap {
         padding-left: 35px; } }
-  .employee-slide__inner h3 {
+  .employee-slide__inner h1, h3 {
     font: bold 25px/1.1 "Montserrat", "Arial", "Helvetica Neue", "Helvetica", sans-serif;
     margin-bottom: 30px;
     text-transform: uppercase;
     color: #4c8dc7; }
     @media (min-width: 768px) {
-      .employee-slide__inner h3 {
+      .employee-slide__inner h1, h3 {
         margin-bottom: 10px; } }
     @media (min-width: 1024px) {
-      .employee-slide__inner h3 {
+      .employee-slide__inner h1, h3 {
         font-size: 35px; } }
 
 @media (min-width: 768px) {
