@@ -1,11 +1,7 @@
 ---
 title: Vision Training - Extreme Near Motility
-viewport: 'width=device-width, initial-scale=1.0'
-layout: resources
-foldernum: 14
 category: [Vision Training]
-tag: []
-preview-image: 30eed4c17f0ea228d95e3c6f8f612670367b25d6.jpg
+preview_image: 30eed4c17f0ea228d95e3c6f8f612670367b25d6.jpg
 ---
 
 

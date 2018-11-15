@@ -1,11 +1,7 @@
 ---
 title: Nutrition and Supplements for Age-Related Macular Degeneration
-viewport: 'width=device-width, initial-scale=1.0'
-layout: resources
-foldernum: 7
 category: [Nutrition for Eye Health]
-tag: []
-preview-image: eyehealth.jpg
+preview_image: eyehealth.jpg
 ---
 
 Nutrition plays an important role in optimising retinal health and reducing the risk of macular degeneration. Eating a healthy, well-balanced diet which includes eye health foods will be good for overall wellbeing as well as eye health. For some people an appropriate supplement may also be an important consideration. See our store for cookbooks incorporating ingredients proven to aid eye health.

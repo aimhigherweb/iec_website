@@ -1,0 +1,27 @@
+{{ partial "header.html" . }}
+
+{{ partial "topnav.html" . }}
+
+<div class="content-section">
+<div class="container">
+<div class="content-section__haeding">
+<h2>Patient Resources</h2>
+<p>Your eye care routine will often involve at-home care which our informative team will instruct you in at your appointment. Here you will find useful follow-up resources on how to care for your contact lenses, insert your eye drops or complete your vision training exercises.</p></div>
+</div>
+<div>
+<ul class="team">
+        {{ range (where .Data.Pages "Type" "patient-resources") }}
+			<li>
+				<div style="border: 1px solid grey; padding: 10px; margin-left: 10px; margin-right: 10px; margin: 20px; text-align: center">
+					<a href="/patient-resources/{{ .File.BaseFileName }}">
+					<img src="/uploads/{{ .Params.Preview_Image }}">
+					<div class="title">{{ .Title }}</div>
+					<div class="intro"></div>
+					</a>
+				</div>
+			</li>
+		{{ end }}
+</ul>
+</div>
+
+{{ partial "footer.html" . }}

@@ -1,11 +1,7 @@
 ---
 title: Vision Training with Saccade Pens
-viewport: 'width=device-width, initial-scale=1.0'
-layout: resources
-foldernum: 15
 category: [Vision Training]
-tag: []
-preview-image: saccade-2-pens-preview.jpg
+preview_image: saccade-2-pens-preview.jpg
 ---
 
 Saccade pens will help to train accuracy of eye movements and ocular coordination. Saccades are the quick movements of the eyes when someone’s gaze shifts from one point to the next. Smooth pursuits are the movements used as we follow an object slowly moving in space. To read we use a combination of saccades and smooth movements. Some people have poor control of their tracking and eye movements. This can cause problems when reading because the eyes will not accurately move to the next word or line on a page or the gaze will be unstable and poorly controlled. Sometimes people will need to hold a finger under each word to guide them where to look: we call this proprioception. By practising moving the eyes from point to point, the visual system should improve its speed and accuracy of ocular movements.

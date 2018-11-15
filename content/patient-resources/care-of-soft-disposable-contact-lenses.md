@@ -1,11 +1,7 @@
 ---
 title: Care of Soft Disposable Contact Lenses
-viewport: 'width=device-width, initial-scale=1.0'
-layout: resources
-foldernum: 5
 category: [Contact Lens Instructions]
-tag: []
-preview-image: oct-soft-lens-preview.jpg
+preview_image: oct-soft-lens-preview.jpg
 ---
 
 As with anything regarding your eye health, appropriate care and products are important when using soft disposable contact lenses.

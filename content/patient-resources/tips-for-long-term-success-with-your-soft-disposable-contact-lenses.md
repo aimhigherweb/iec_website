@@ -1,11 +1,7 @@
 ---
 title: Long-Term Success With Soft Disposable Contact Lenses
-viewport: 'width=device-width, initial-scale=1.0'
-layout: resources
-foldernum: 6
 category: [Contact Lens Instructions]
-tag: []
-preview-image: tips-on-cl.jpg
+preview_image: tips-on-cl.jpg
 ---
 
 <br>

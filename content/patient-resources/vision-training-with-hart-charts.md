@@ -1,11 +1,7 @@
 ---
 title: Vision Training with Hart Charts
-viewport: 'width=device-width, initial-scale=1.0'
-layout: resources
-foldernum: 13
 category: [Vision Training]
-tag: []
-preview-image: hart-chart-preview.jpg
+preview_image: hart-chart-preview.jpg
 ---
 
 Hart charts help to train our eyes in accommodation, which is changing our focusing from distance to near. Specifically, Hart Charts help to improve accommodative facility - the ability to increase and decrease our focusing on demand. A variety of binocular vision problems cause a decrease in our ability to accurately focus: some people focus too much and cannot relax; other focus too little and experience blurry vision for close tasks. 

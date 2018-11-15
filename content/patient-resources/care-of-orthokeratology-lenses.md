@@ -1,11 +1,7 @@
 ---
 title: Care of Orthokeratology Lenses
-viewport: 'width=device-width, initial-scale=1.0'
-layout: resources
-foldernum: 2
 category: [Contact Lens Instructions]
-tag: []
-preview-image: ok-corneal-topo.jpg
+preview_image: ok-corneal-topo.jpg
 ---
 
 # Safety & hygiene
