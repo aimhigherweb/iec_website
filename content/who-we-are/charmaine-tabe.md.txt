@@ -1,9 +1,8 @@
 ---
 title: Charmaine Tabe
-viewport: 'width=device-width, initial-scale=1.0'
-layout: who
+date: 2018-10-31
 jobtitle: Patient Care Manager
-photo: /who-we-are/charmaine-tabe/eye-care-adelaide-charmaine-kies.jpg
+photo: eye-care-adelaide-charmaine-kies.jpg
 skill1: 
 rating1: 
 skill2: 

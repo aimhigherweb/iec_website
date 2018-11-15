@@ -1,10 +1,8 @@
 ---
 title: Mark Parsons
-viewport: 'width=device-width, initial-scale=1.0'
-layout: who
-foldernum: 3
+date: 2018-11-10
 jobtitle: Optometrist
-photo: /who-we-are/mark-parsons/mark-1.jpg
+photo: mark-1.jpg
 skill1: COLORIMETRY
 rating1: 100
 skill2: EYEWEAR EXPERT

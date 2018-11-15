@@ -1,10 +1,8 @@
 ---
 title: Sheralyn Stillert
-viewport: 'width=device-width, initial-scale=1.0'
-layout: who
-foldernum: 6
+date: 2018-11-07
 jobtitle: Customer Service
-photo: /who-we-are/sheralyn-stillert/sheralyn-1.jpg
+photo: sheralyn-1.jpg
 skill1: EASYGOING
 rating1: 100
 skill2: WARM

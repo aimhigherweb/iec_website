@@ -1,9 +1,8 @@
 ---
 title: Nicole Richards
-viewport: 'width=device-width, initial-scale=1.0'
-layout: who
+date: 2018-10-31
 jobtitle: 
-photo: /who-we-are/nicole-richards/icon03.png
+photo: icon03.png
 skill1: 
 rating1: 
 skill2: 

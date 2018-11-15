@@ -1,10 +1,8 @@
 ---
 title: Christine Swaine
-viewport: 'width=device-width, initial-scale=1.0'
-layout: who
-foldernum: 12
+date: 2018-11-01
 jobtitle: Administration Officer
-photo: /who-we-are/christine-swaine/152176496376828479-1.png
+photo: 152176496376828479-1.png
 skill1: BOSS LADY
 rating1: 100
 skill2: ORGANISED

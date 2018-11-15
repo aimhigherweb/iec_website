@@ -1,9 +1,8 @@
 ---
 title: Peter Gallagher
-viewport: 'width=device-width, initial-scale=1.0'
-layout: who
+date: 2018-10-31
 jobtitle: 
-photo: /who-we-are/peter-gallagher/icon03.png
+photo: icon03.png
 skill1: DISPENSING
 rating1: 100
 skill2: 

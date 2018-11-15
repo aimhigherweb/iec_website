@@ -1,10 +1,8 @@
 ---
 title: Kevin Rooney
-viewport: 'width=device-width, initial-scale=1.0'
-layout: who
-foldernum: 11
+date: 2018-11-02
 jobtitle: Optometrist
-photo: /who-we-are/kevin-rooney/imagelayer.jpg
+photo: imagelayer.jpg
 skill1: 
 rating1: 
 skill2: 

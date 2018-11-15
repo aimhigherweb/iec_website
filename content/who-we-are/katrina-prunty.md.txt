@@ -1,9 +1,8 @@
 ---
 title: Katrina Prunty
-viewport: 'width=device-width, initial-scale=1.0'
-layout: who
+date: 2018-10-31
 jobtitle: Administration Officer
-photo: /who-we-are/katrina-prunty/eye-care-adelaide-katrina-prunty.jpg
+photo: eye-care-adelaide-katrina-prunty.jpg
 skill1: 
 rating1: 
 skill2: 

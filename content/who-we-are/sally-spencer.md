@@ -1,10 +1,8 @@
 ---
 title: Sally Spencer
-viewport: 'width=device-width, initial-scale=1.0'
-layout: who
-foldernum: 10
+date: 2018-11-03
 jobtitle: Administration Officer Woodville
-photo: /who-we-are/sally-spencer/sally-1.jpg
+photo: sally-1.jpg
 skill1: DILIGENCE
 rating1: 100
 skill2: EMPATHY

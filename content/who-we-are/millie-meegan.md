@@ -1,10 +1,8 @@
 ---
 title: Millie Meegan
-viewport: 'width=device-width, initial-scale=1.0'
-layout: who
-foldernum: 9
+date: 2018-11-04
 jobtitle: Administration & Patient Care
-photo: /who-we-are/millie-meegan/millie-1.jpg
+photo: millie-1.jpg
 skill1: Imaging
 rating1: 99
 skill2: Positivity

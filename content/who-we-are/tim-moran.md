@@ -1,10 +1,8 @@
 ---
 title: Tim Moran
-viewport: 'width=device-width, initial-scale=1.0'
-layout: who
-foldernum: 8
+date: 2018-11-05
 jobtitle: Optical Technician
-photo: /who-we-are/tim-moran/tim-1.jpg
+photo: tim-1.jpg
 skill1: DISPENSING
 rating1: 100
 skill2: DEDICATION

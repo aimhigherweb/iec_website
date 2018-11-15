@@ -1,10 +1,8 @@
 ---
 title: Georgia Hoy
-viewport: 'width=device-width, initial-scale=1.0'
-layout: who
-foldernum: 5
+date: 2018-11-08
 jobtitle: Operations Manager
-photo: /who-we-are/georgia-turner/georgia-1.jpg
+photo: georgia-1.jpg
 skill1: SPREAD SHEET LOVER
 rating1: 100
 skill2: HARD WORKING

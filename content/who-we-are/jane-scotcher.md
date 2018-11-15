@@ -1,10 +1,8 @@
 ---
 title: Jane Scotcher
-viewport: 'width=device-width, initial-scale=1.0'
-layout: who
-foldernum: 7
+date: 2018-11-06
 jobtitle: Optical Curator
-photo: /who-we-are/jane-scotcher/jane-1.jpg
+photo: jane-1.jpg
 skill1: DISPENSING
 rating1: 100
 skill2: OPTICAL CURATOR
