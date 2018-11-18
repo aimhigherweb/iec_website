@@ -19,3 +19,31 @@ collections:
     - {label: "Author URL", name: "author_url", widget: "string"}
     - {label: "Preview Image", name: "preview_image", widget: "image"}
     - {label: "Body", name: "body", widget: "markdown"}
+- name: "patient-resources" # Used in routes, e.g., /admin/collections/blog
+  label: "Patient Resources" # Used in the UI
+  folder: "content/patient-resources" # The path to the folder where the documents are stored
+  create: true # Allow users to create new documents in this collection
+  slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+  fields: # The fields for each document, usually in front matter
+    - {label: "Title", name: "title", widget: "string"}
+    - {label: "Category", name: "category", widget: "string"}
+    - {label: "Preview Image", name: "preview_image", widget: "image"}
+    - {label: "Body", name: "body", widget: "markdown"}
+- name: "who-we-are" # Used in routes, e.g., /admin/collections/blog
+  label: "Who We Are" # Used in the UI
+  folder: "content/who-we-are" # The path to the folder where the documents are stored
+  create: true # Allow users to create new documents in this collection
+  slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+  fields: # The fields for each document, usually in front matter
+    - {label: "Title", name: "title", widget: "string"}
+    - {label: "Job Title", name: "jobtitle", widget: "string"}
+    - {label: "Photo", name: "photo", widget: "image"}
+    - {label: "Body", name: "body", widget: "markdown"}
+    - {label: "Skill 1", name: "skill1", widget: "string"}
+    - {label: "Rating 1", name: "rating1", widget: "number", valueType: "int"}
+    - {label: "Skill 2", name: "skill2", widget: "string"}
+    - {label: "Rating 2", name: "rating2", widget: "number", valueType: "int"}
+    - {label: "Skill 3", name: "skill3", widget: "string"}
+    - {label: "Rating 3", name: "rating3", widget: "number", valueType: "int"}
+    - {label: "Skill 4", name: "skill4", widget: "string"}
+    - {label: "Rating 4", name: "rating4", widget: "number", valueType: "int"}
