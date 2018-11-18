@@ -12,7 +12,7 @@
 <div class="intro-section__row">
 <div class="intro-section__col intro-section__col_content">
 <p>Search for patient resources, blog posts, and information about our practice</p>
-    <form>
+    <form action="{{ "search" | absURL }}">
       <input id="search-query" name="s"/>
       <input type="submit" class="button" value="Search">
     </form>
