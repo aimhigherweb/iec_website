@@ -3,20 +3,20 @@ title: What We Do
 seo_title:
 ---
 
-<div class="who-we-are__header content-section simple-section content-section--white-color content-section--with-overlay white--overlay text-center" style="background-image: url(/assets/images/WHAT_WE-DO_HeaderImage.jpg);">
+<div class="who-we-are__header content-section simple-section content-section--white-color content-section--with-overlay white--overlay text-center" style="background-image: url(/images/WHAT_WE-DO_HeaderImage.jpg);">
 <div class="container">
 <div class="content-section__haeding video-section__heading">
 <h1 class="haeding__top-text top-text--small">What We Do</h1>
 </div>
 <div class="main-video__container" hidden>
 <video id="main-video" class="video-js vjs-default-skin vjs-big-play-centered" controls preload="auto" data-setup='{"fluid":true}'>
-<source src="/assets/videos/what-we-do.mp4" type='video/mp4' />
+<source src="/videos/what-we-do.mp4" type='video/mp4' />
 </video>
 </div>
 <button id="play-video-button" onclick="playMainVideo();" class="btn btn--transparent">WATCH VIDEO</button>
 </div>
 </div>
-<div class="intro-section" style="background-image: url(/assets/images/intro-bg.png);">
+<div class="intro-section" style="background-image: url(/images/intro-bg.png);">
 <div class="container">
 <div class="intro-section__wrap">
 <div class="intro-section__row">
@@ -28,7 +28,7 @@ seo_title:
 <ul class="intro-section__list">
 <li>
 <span class="ico-holder">
-<img src="/assets/images/icon01.png">
+<img src="/images/icon01.png">
 </span>
 <a href="/what-we-do/eyewear-collections">
 <span class="list-text">Eyewear Experts</span>
@@ -36,7 +36,7 @@ seo_title:
 </li>
 <li>
 <span class="ico-holder">
-<img src="/assets/images/icon02.png">
+<img src="/images/icon02.png">
 </span>
 <a href="/what-we-do/contact-lenses">
 <span class="list-text">Bespoke Contact Lenses</span>
@@ -44,7 +44,7 @@ seo_title:
 </li>
 <li>
 <span class="ico-holder">
-<img src="/assets/images/icon03.png">
+<img src="/images/icon03.png">
 </span>
 <a href="/what-we-do/childrens-vision">
 <span class="list-text">Paediatric Vision</span>
@@ -52,7 +52,7 @@ seo_title:
 </li>
 <li>
 <span class="ico-holder">
-<img src="/assets/images/icon04.png">
+<img src="/images/icon04.png">
 </span>
 <a href="/what-we-do/dry-eye-disease">
 <span class="list-text">Dry Eye Clinic</span>
@@ -60,7 +60,7 @@ seo_title:
 </li>
 <li>
 <span class="ico-holder">
-<img src="/assets/images/icon05.png">
+<img src="/images/icon05.png">
 </span>
 <a href="/what-we-do/oct">
 <span class="list-text">Advanced Imaging Technology</span>
@@ -68,7 +68,7 @@ seo_title:
 </li>
 <li>
 <span class="ico-holder">
-<img src="/assets/images/icon06.png">
+<img src="/images/icon06.png">
 </span>
 <a href="/what-we-do/orthokeratology-corneal-reshaping">
 <span class="list-text">Ortho-K: Overnight  Vision Correction</span>
@@ -80,23 +80,23 @@ seo_title:
 </div>
 </div>
 <span class="intro-section__rectangle">
-<img src="/assets/images/rectangle-img.png" alt="image description">
+<img src="/images/rectangle-img.png" alt="image description">
 </span>
 </div>
 <div class="what-we-do-section">
 <ul class="what-we-do-list">
 <li class="what-we-do-box">
-<div class="what-we-do-inner hover-elem" style="background-image: url(/assets/images/1-Consultations.jpg);">
+<div class="what-we-do-inner hover-elem" style="background-image: url(/images/1-Consultations.jpg);">
 <div class="overlay"  >
 <div class="services__icon">
-<img src="/assets/images/icon01.png" alt="image description">
+<img src="/images/icon01.png" alt="image description">
 </div>
 <strong class="services__title">Consultations </strong>
 </div>
 <div class="what-we-do-inner__rollover opener">
 <div class="what-we-do-inner__rollover__box">
 <div class="what-we-do-inner__icon">
-<img src="/assets/images/icon01.png" alt="image description">
+<img src="/images/icon01.png" alt="image description">
 </div>
 <strong class="name">Consultations</strong>
 <span class="description">We welcome all new patients. Book online or give us a call today.</span>
@@ -110,17 +110,17 @@ seo_title:
 </div>
 </li>
 <li class="what-we-do-box">
-<div class="what-we-do-inner hover-elem" style="background-image: url(/assets/images/2-EyewearExperts.jpg);">
+<div class="what-we-do-inner hover-elem" style="background-image: url(/images/2-EyewearExperts.jpg);">
 <div class="overlay"  >
 <div class="services__icon">
-<img src="/assets/images/icon07.png" alt="image description">
+<img src="/images/icon07.png" alt="image description">
 </div>
 <strong class="services__title">Eyewear Experts </strong>
 </div>
 <div class="what-we-do-inner__rollover opener">
 <div class="what-we-do-inner__rollover__box">
 <div class="what-we-do-inner__icon">
-<img src="/assets/images/icon07.png" alt="image description">
+<img src="/images/icon07.png" alt="image description">
 </div>
 <strong class="name">Eyewear Experts</strong>
 <span class="description">You see the world through your eyewear. We want to enhance it with quality frames and lenses.</span>
@@ -135,17 +135,17 @@ seo_title:
 </div>
 </li>
 <li class="what-we-do-box">
-<div class="what-we-do-inner hover-elem" style="background-image: url(/assets/images/3-ContactLenses.jpg);">
+<div class="what-we-do-inner hover-elem" style="background-image: url(/images/3-ContactLenses.jpg);">
 <div class="overlay"  >
 <div class="services__icon">
-<img src="/assets/images/icon02.png" alt="image description">
+<img src="/images/icon02.png" alt="image description">
 </div>
 <strong class="services__title">Contact Lenses </strong>
 </div>
 <div class="what-we-do-inner__rollover opener">
 <div class="what-we-do-inner__rollover__box">
 <div class="what-we-do-inner__icon">
-<img src="/assets/images/icon02.png" alt="image description">
+<img src="/images/icon02.png" alt="image description">
 </div>
 <strong class="name">Contact Lenses</strong>
 <span class="description">We fit rigid and soft lenses to your eyes. Benefit from the latest in contact lens technology.</span>
@@ -162,17 +162,17 @@ seo_title:
 </div>
 </li>
 <li class="what-we-do-box">
-<div class="what-we-do-inner hover-elem" style="background-image: url(/assets/images/4-Ortho-K.jpg);">
+<div class="what-we-do-inner hover-elem" style="background-image: url(/images/4-Ortho-K.jpg);">
 <div class="overlay"  >
 <div class="services__icon">
-<img src="/assets/images/icon06.png" alt="image description">
+<img src="/images/icon06.png" alt="image description">
 </div>
 <strong class="services__title">Ortho-K </strong>
 </div>
 <div class="what-we-do-inner__rollover opener">
 <div class="what-we-do-inner__rollover__box">
 <div class="what-we-do-inner__icon">
-<img src="/assets/images/icon06.png" alt="image description">
+<img src="/images/icon06.png" alt="image description">
 </div>
 <strong class="name">Ortho-K</strong>
 <span class="description">Experience the freedom of ortho-K overnight reshaping contact lens molds.</span>
@@ -187,17 +187,17 @@ seo_title:
 </div>
 </li>
 <li class="what-we-do-box">
-<div class="what-we-do-inner hover-elem" style="background-image: url(/assets/images/5-RefractiveConditions.jpg);">
+<div class="what-we-do-inner hover-elem" style="background-image: url(/images/5-RefractiveConditions.jpg);">
 <div class="overlay"  >
 <div class="services__icon">
-<img src="/assets/images/icon08.png" alt="image description">
+<img src="/images/icon08.png" alt="image description">
 </div>
 <strong class="services__title">Refractive Conditions </strong>
 </div>
 <div class="what-we-do-inner__rollover opener">
 <div class="what-we-do-inner__rollover__box">
 <div class="what-we-do-inner__icon">
-<img src="/assets/images/icon08.png" alt="image description">
+<img src="/images/icon08.png" alt="image description">
 </div>
 <strong class="name">Refractive Conditions</strong>
 <span class="description">Are you long-sighted or short-sighted? Is your vision changing? What does it all mean?</span>
@@ -215,17 +215,17 @@ seo_title:
 </div>
 </li>
 <li class="what-we-do-box">
-<div class="what-we-do-inner hover-elem" style="background-image: url(/assets/images/6-PaediatricVision.jpg);">
+<div class="what-we-do-inner hover-elem" style="background-image: url(/images/6-PaediatricVision.jpg);">
 <div class="overlay"  >
 <div class="services__icon">
-<img src="/assets/images/icon03.png" alt="image description">
+<img src="/images/icon03.png" alt="image description">
 </div>
 <strong class="services__title">Paediatric Vision </strong>
 </div>
 <div class="what-we-do-inner__rollover opener">
 <div class="what-we-do-inner__rollover__box">
 <div class="what-we-do-inner__icon">
-<img src="/assets/images/icon03.png" alt="image description">
+<img src="/images/icon03.png" alt="image description">
 </div>
 <strong class="name">Paediatric Vision</strong>
 <span class="description">Children’s vision is crucial to learning and quality of life. Help your child achieve their very best sight!</span>
@@ -241,17 +241,17 @@ seo_title:
 </div>
 </li>
 <li class="what-we-do-box">
-<div class="what-we-do-inner hover-elem" style="background-image: url(/assets/images/7-DryEyeClinic.jpg);">
+<div class="what-we-do-inner hover-elem" style="background-image: url(/images/7-DryEyeClinic.jpg);">
 <div class="overlay"  >
 <div class="services__icon">
-<img src="/assets/images/icon04.png" alt="image description">
+<img src="/images/icon04.png" alt="image description">
 </div>
 <strong class="services__title">Dry Eye Clinic </strong>
 </div>
 <div class="what-we-do-inner__rollover opener">
 <div class="what-we-do-inner__rollover__box">
 <div class="what-we-do-inner__icon">
-<img src="/assets/images/icon04.png" alt="image description">
+<img src="/images/icon04.png" alt="image description">
 </div>
 <strong class="name">Dry Eye Clinic</strong>
 <span class="description">Dry eye disease is debilitating, but it is treatable. What is the cause of your dry eye disease?</span>
@@ -269,17 +269,17 @@ seo_title:
 </div>
 </li>
 <li class="what-we-do-box">
-<div class="what-we-do-inner hover-elem" style="background-image: url(/assets/images/8-AcuteRedEyes.jpg);">
+<div class="what-we-do-inner hover-elem" style="background-image: url(/images/8-AcuteRedEyes.jpg);">
 <div class="overlay"  >
 <div class="services__icon">
-<img src="/assets/images/icon09.png" alt="image description">
+<img src="/images/icon09.png" alt="image description">
 </div>
 <strong class="services__title">Acute Red Eyes </strong>
 </div>
 <div class="what-we-do-inner__rollover opener">
 <div class="what-we-do-inner__rollover__box">
 <div class="what-we-do-inner__icon">
-<img src="/assets/images/icon09.png" alt="image description">
+<img src="/images/icon09.png" alt="image description">
 </div>
 <strong class="name">Acute Red Eyes</strong>
 <span class="description">If you have a sudden-onset red eye condition, it is critical to see a health professional to reduce the risk of permanent damage.</span>
@@ -297,17 +297,17 @@ seo_title:
 </div>
 </li>
 <li class="what-we-do-box">
-<div class="what-we-do-inner hover-elem" style="background-image: url(/assets/images/9-AdvancedImagingTechnology.jpg);">
+<div class="what-we-do-inner hover-elem" style="background-image: url(/images/9-AdvancedImagingTechnology.jpg);">
 <div class="overlay"  >
 <div class="services__icon">
-<img src="/assets/images/icon05.png" alt="image description">
+<img src="/images/icon05.png" alt="image description">
 </div>
 <strong class="services__title">Advanced Imaging Technology </strong>
 </div>
 <div class="what-we-do-inner__rollover opener">
 <div class="what-we-do-inner__rollover__box">
 <div class="what-we-do-inner__icon">
-<img src="/assets/images/icon05.png" alt="image description">
+<img src="/images/icon05.png" alt="image description">
 </div>
 <strong class="name">Advanced Imaging Technology</strong>
 <span class="description">As innovators, we love technology. Your optometric care is more scientific and accurate than ever before.</span>
@@ -325,17 +325,17 @@ seo_title:
 </div>
 </li>
 <li class="what-we-do-box">
-<div class="what-we-do-inner hover-elem" style="background-image: url(/assets/images/10-EyeDisease.jpg);">
+<div class="what-we-do-inner hover-elem" style="background-image: url(/images/10-EyeDisease.jpg);">
 <div class="overlay"  >
 <div class="services__icon">
-<img src="/assets/images/icon10.png" alt="image description">
+<img src="/images/icon10.png" alt="image description">
 </div>
 <strong class="services__title">Eye Disease </strong>
 </div>
 <div class="what-we-do-inner__rollover opener">
 <div class="what-we-do-inner__rollover__box">
 <div class="what-we-do-inner__icon">
-<img src="/assets/images/icon10.png" alt="image description">
+<img src="/images/icon10.png" alt="image description">
 </div>
 <strong class="name">Eye Disease</strong>
 <span class="description">We diagnose, monitor and treat a variety of eye diseases. Talk to us about your eye health and preventive measures.</span>
@@ -353,7 +353,7 @@ seo_title:
 </div>
 </li>
 <li class="what-we-do-box what-we-do-box-double">
-<div class="what-we-do-inner hover-elem" style="background-image: url('/assets/images/img30-lilac.jpg');">
+<div class="what-we-do-inner hover-elem" style="background-image: url('/images/img30-lilac.jpg');">
 <div class="container">
 <div class="content-section--white-color">
 <div class="content-section__haeding haeding__with-extra-border">
@@ -368,7 +368,7 @@ seo_title:
 </ul>
 </div>
 <div class="content-section online-book-section"
- style="background-image: url(/assets/images/img38.jpg);">
+ style="background-image: url(/images/img38.jpg);">
 <div class="container">
 <div class="online-box">
 <div class="online-box-heading">

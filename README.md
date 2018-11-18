@@ -5,21 +5,31 @@ This is the website for Innovative Eye Care optometry practice in Adelaide, Sout
 
 ## Building
 
-To build and serve:
+To build and serve for development:
+
 ```
 hugo serve
 ```
 
-Or to just build to `public` directory:
+Or:
+```
+hugo serve --disableFastRender
+```
 
-```
-hugo
-```
+
+## Project structure and asset pipeline
+We use the Hugo asset pipeline to build scss files. 
+See [here](https://blog.fullstackdigital.com/how-to-use-hugo-template-variables-in-scss-files-in-2018-b8a834accce).
+
+This requires installing the Hugo extended version. 
+On Windows, this is done using `choco install hugo-extended`, and it should be just as easy on other Linux/MacOS.
+
+We use a site structure similar to [here](https://github.com/gohugoio/hugoDocs/tree/master/static). 
 
 
 ## Hosting
 We use Netlify for hosting.
-This is wired up to github, and will automatically deploy on push to master.
+This is wired up to github, and will automatically deploy on commits to master.
 
 
 ## CMS
