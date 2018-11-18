@@ -174,7 +174,7 @@ Innovative Eye Care has two convenient locations in South Australia - Hutt Stree
 <ul class="team-list">
 <li class="employee-box open-close">
 <div class="employee-inner hover-elem">
-<img src="/who-we-are/lachlan-hoy/lachlan-hoy.jpg">
+<img src="/uploads/lachlan-hoy.jpg">
 <a href="/who-we-are/lachlan-hoy" class="employee-inner__rollover ">
 <div class="employee-inner__rollover__box">
 <strong class="name">Lachlan Hoy</strong>
@@ -186,7 +186,7 @@ Innovative Eye Care has two convenient locations in South Australia - Hutt Stree
 </li>
 <li class="employee-box open-close">
 <div class="employee-inner hover-elem">
-<img src="/who-we-are/karl-evans/karl-1.jpg">
+<img src="/uploads/karl-1.jpg">
 <a href="/who-we-are/karl-evans" class="employee-inner__rollover ">
 <div class="employee-inner__rollover__box">
 <strong class="name">Karl Evans</strong>
@@ -198,7 +198,7 @@ Innovative Eye Care has two convenient locations in South Australia - Hutt Stree
 </li>
 <li class="employee-box open-close">
 <div class="employee-inner hover-elem">
-<img src="/who-we-are/mark-parsons/mark-1.jpg">
+<img src="/uploads/mark-1.jpg">
 <a href="/who-we-are/mark-parsons" class="employee-inner__rollover ">
 <div class="employee-inner__rollover__box">
 <strong class="name">Mark Parsons</strong>
@@ -210,7 +210,7 @@ Innovative Eye Care has two convenient locations in South Australia - Hutt Stree
 </li>
 <li class="employee-box open-close">
 <div class="employee-inner hover-elem">
-<img src="/who-we-are/joanna-rohrlach/joanna-1.jpg">
+<img src="/uploads/joanna-1.jpg">
 <a href="/who-we-are/joanna-rohrlach" class="employee-inner__rollover ">
 <div class="employee-inner__rollover__box">
 <strong class="name">Joanna Rohrlach</strong>
