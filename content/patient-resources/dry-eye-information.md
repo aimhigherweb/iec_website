@@ -1,6 +1,6 @@
 ---
 title: Dry Eye Information
-category: []
+category: 
 preview_image: dry-eye.jpg
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Vision Training Push-Up Exercises
-category: [Vision Training]
+category: Vision Training
 preview_image: saccadepenspreview.jpg
 ---
 

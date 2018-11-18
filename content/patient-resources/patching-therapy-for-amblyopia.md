@@ -1,6 +1,6 @@
 ---
 title: Patching Therapy for Amblyopia
-category: [Vision Therapy]
+category: Vision Therapy
 preview_image: patches-preview.jpg
 ---
 

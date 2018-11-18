@@ -1,9 +1,10 @@
 ---
 title: Care of Rigid Gas Permeable Lenses
-category: [Contact Lens Instructions]
+category: Contact Lens Instructions
 preview_image: rgp-edit.jpg
 ---
 
+Hello Jake.
 Rigid Gas Permeable (RGP) contact lenses are a recognised safe form of vision correction.<sup>1</sup> However, incorrect care of contact lenses can increase the risk of eye infections and corneal ulcers. Risk factors for contact lens related corneal infection include improper lens cleaning and disinfection, poor hygiene practices and smoking.<sup>2</sup> Following your optometrist's hygiene regime, along with regular reviews, will minimise this risk.
 
 Always thoroughly wash your hands with an antibacterial-based hand wash and dry them with a clean lint-free towel before handling, removing or inserting your lenses. Make sure to clean all parts of your hands, including between the fingers and dry thoroughly.

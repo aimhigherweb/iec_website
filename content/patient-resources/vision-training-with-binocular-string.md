@@ -1,6 +1,6 @@
 ---
 title: Vision Training with Binocular String
-category: [Vision Training]
+category: Vision Training
 preview_image: vision-training-with-binocular-string.jpg
 ---
 

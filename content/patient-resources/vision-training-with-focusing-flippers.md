@@ -1,6 +1,6 @@
 ---
 title: Vision Training with Focusing Flippers
-category: [Vision Training]
+category: Vision Training
 preview_image: vision-training-flippers.jpg
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Vision Training with Hart Charts
-category: [Vision Training]
+category: Vision Training
 preview_image: hart-chart-preview.jpg
 ---
 

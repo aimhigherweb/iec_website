@@ -1,6 +1,6 @@
 ---
 title: Nutrition and Supplements for Age-Related Macular Degeneration
-category: [Nutrition for Eye Health]
+category: Nutrition for Eye Health
 preview_image: eyehealth.jpg
 ---
 

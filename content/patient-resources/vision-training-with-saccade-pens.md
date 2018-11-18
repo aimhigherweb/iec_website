@@ -1,6 +1,6 @@
 ---
 title: Vision Training with Saccade Pens
-category: [Vision Training]
+category: Vision Training
 preview_image: saccade-2-pens-preview.jpg
 ---
 

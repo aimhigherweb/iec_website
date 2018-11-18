@@ -1,6 +1,6 @@
 ---
 title: Vision Training with Saccade Pyramids
-category: [Vision Training]
+category: Vision Training
 preview_image: saccade-preview.jpg
 ---
 
