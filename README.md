@@ -2,6 +2,9 @@
 
 This is the website for Innovative Eye Care optometry practice in Adelaide, South Australia.
 
+We use Netlify for hosting.
+This is wired up to github, and will automatically deploy on commits to master.
+
 
 ## Building
 
@@ -26,10 +29,11 @@ On Windows, this is done using `choco install hugo-extended`, and it should be j
 
 We use a site structure similar to [here](https://github.com/gohugoio/hugoDocs/tree/master/static). 
 
+Unfortunately, Netlify doesn't currently support the Hugo extended version - see [here](https://discourse.gohugo.io/t/netlify-and-hugo-pipes/13145).
+The fix for the moment is to commit the `resources` directory, which will force Hugo to skip the build step.
+This is a better alternative to building manually, because it still allows you to use the asset pipeline syntax in the templates.
 
-## Hosting
-We use Netlify for hosting.
-This is wired up to github, and will automatically deploy on commits to master.
+It does mean that you need to run `hugo` locally to build the resources when the scss changes.
 
 
 ## CMS
