@@ -2,6 +2,7 @@
   width: 100%;
   position: relative;
   overflow: hidden;
+  padding-top: 0px;
 }
 
 h2 {
@@ -692,6 +693,9 @@ h2 {
 
 .who-we-are__header {
   min-height: 550px;
+  @include media("<tablet") {
+    min-height: 150px;
+  }
 }
 
 

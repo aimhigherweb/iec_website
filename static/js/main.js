@@ -407,9 +407,6 @@ function initHeaderFixed() {
 
 	function resizeHandler() {
 		var headerHeight = header.outerHeight();
-		wrapper.css({
-			'padding-top':headerHeight
-		});
 	}
 
 	resizeHandler();
