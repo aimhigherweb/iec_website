@@ -5,7 +5,7 @@ preview_image: ok-corneal-topo.jpg
 ---
 # Safety & hygiene
 
-Orthokeratology is a safe, reversible and effective vision correction solution.<sup>1,2</sup> However, incorrect care of contact lenses and solutions can increase the risk for eye infections and corneal ulcers. Risk factors for acquiring an eye infection include improper lens cleaning and disinfection, poor hygiene practices and smoking. Following your practitioner's hygiene regime, along with regular reviews, will minimise this risk.
+Orthokeratology, is a safe, reversible and effective vision correction solution.<sup>1,2</sup> However, incorrect care of contact lenses and solutions can increase the risk for eye infections and corneal ulcers. Risk factors for acquiring an eye infection include improper lens cleaning and disinfection, poor hygiene practices and smoking. Following your practitioner's hygiene regime, along with regular reviews, will minimise this risk.
 
 * Thoroughly wash hands and fingers with an antibacterial based hand wash
 * Dry hands with a lint free towel
@@ -17,7 +17,7 @@ Always wash and rinse your hands thoroughly and dry them with a lint-free towel/
 
 # Insertion
 
-<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\[if IE]><iframe frameborder="0" type="text/html" src="https://www.youtube.com/embed/1hP44Sr7pU8" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\[endif]--><!--\[if !IE]> <--><object data="https://www.youtube.com/embed/1hP44Sr7pU8" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://www.youtube.com/embed/1hP44Sr7pU8">Insertion</a></object><!--> <!\[endif]--></div>
+<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\\[if IE]><iframe frameborder="0" type="text/html" src="https://www.youtube.com/embed/1hP44Sr7pU8" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\\[endif]--><!--\\[if !IE]> <--><object data="https://www.youtube.com/embed/1hP44Sr7pU8" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://www.youtube.com/embed/1hP44Sr7pU8">Insertion</a></object><!--> <!\\[endif]--></div>
 
 <br>
 
