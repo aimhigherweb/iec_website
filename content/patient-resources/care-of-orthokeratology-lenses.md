@@ -5,7 +5,7 @@ preview_image: ok-corneal-topo.jpg
 ---
 # Safety & hygiene
 
-Orthokeratology, is a safe, reversible and effective vision correction solution.<sup>1,2</sup> However, incorrect care of contact lenses and solutions can increase the risk for eye infections and corneal ulcers. Risk factors for acquiring an eye infection include improper lens cleaning and disinfection, poor hygiene practices and smoking. Following your practitioner's hygiene regime, along with regular reviews, will minimise this risk.
+Orthokeratology is a safe, reversible and effective vision correction solution.<sup>1,2</sup> However, incorrect care of contact lenses and solutions can increase the risk for eye infections and corneal ulcers. Risk factors for acquiring an eye infection include improper lens cleaning and disinfection, poor hygiene practices and smoking. Following your practitioner's hygiene regime, along with regular reviews, will minimise this risk.
 
 * Thoroughly wash hands and fingers with an antibacterial based hand wash
 * Dry hands with a lint free towel
