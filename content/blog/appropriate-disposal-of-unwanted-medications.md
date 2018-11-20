@@ -1,8 +1,8 @@
 ---
 title: Appropriate disposal of unwanted medications
-date: 2018-06-01
+date: 2018-06-01T00:00:00.000Z
 author: Karl Evans
-author_url: /who-we-are/karl-evans
+author_url: karlson
 preview_image: /uploads/disposing-medications.jpg
 ---
 
