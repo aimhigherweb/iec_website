@@ -1,5 +1,5 @@
 ---
-title: Allergy eyes
+title: Allergy eye
 date: 2018-09-21T00:00:00.000Z
 author: Karl Evans
 author_url: /who-we-are/karl-evans
