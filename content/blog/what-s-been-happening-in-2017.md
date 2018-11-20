@@ -1,5 +1,5 @@
 ---
-title: "What\'s been happening in 2017"
+title: "What's been happening in 2017"
 date: 2017-12-31
 author: Georgia Turner
 author_url: /who-we-are/georgia-turner/
