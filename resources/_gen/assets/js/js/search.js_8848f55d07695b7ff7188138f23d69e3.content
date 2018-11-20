@@ -110,7 +110,6 @@ function render(templateString, data) {
   for (key in data) {
     find = '\\$\\{\\s*' + key + '\\s*\\}';
     re = new RegExp(find, 'g');
-    console.log(templateString);
     templateString = templateString.replace(re, data[key]);
   }
   return templateString;
