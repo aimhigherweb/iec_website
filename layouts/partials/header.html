@@ -6,8 +6,14 @@
     {{ partial "seo_schema" . }}
     <title>{{.Title}}</title>
     <link rel="shortcut icon" href="/images/favicon.ico" />
-    <script src="/js/jquery.min.js" type="text/javascript"></script>
-    <script src="/js/main.js" type="text/javascript"></script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" >
+      </script>
+
+    {{ $main_js := resources.Get "js/main.js" | resources.Fingerprint }}
+    <script src="{{ $main_js.Permalink }}" >
+    </script>
+
     <link
       href="https://fonts.googleapis.com/css?family=Open+Sans:400,700"
       rel="stylesheet"
@@ -18,10 +24,14 @@
       rel="stylesheet"
       type="text/css"
     />
+
     {{ $styles := resources.Get "scss/main.scss" | toCSS (dict "enableSourceMap" true) }}
     <link rel="stylesheet" href="{{$styles.Permalink}}"/>
 
-    <script src="/js/practice-booker.js" type="text/javascript"></script>
+    {{ $practice_booker_js := resources.Get "js/practice-booker.js" | fingerprint }}
+    <script src="{{ $practice_booker_js.Permalink }}">
+    </script>
+
     <link rel="stylesheet" href="/css/video-js.min.css" />
     <script src="/js/video.min.js" type="text/javascript"></script>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>

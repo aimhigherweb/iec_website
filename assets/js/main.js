@@ -1,5 +1,5 @@
 // page init
-jQuery(window).load(function(){
+jQuery(window).on('load', function(){
     initSameHeight();
 	initMobileNav();
 	initHeaderFixed();
