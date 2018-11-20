@@ -1,12 +1,7 @@
 ---
 title: Eyewear Collections
-viewport: 'width=device-width, initial-scale=1.0'
-layout: what
-foldernum: 53
-category: [eyewear-experts]
-tag: []
+category: eyewear-experts
 preview-image: prodesign-advertisement.jpg
-intro: 
 ---
 
 <div class="employee-heading">

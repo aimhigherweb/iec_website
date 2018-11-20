@@ -1,12 +1,7 @@
 ---
 title: "Ortho-K: What To Expect"
-viewport: 'width=device-width, initial-scale=1.0'
-layout: what
-foldernum: 33
-category: [orthok]
-tag: []
+category: orthok
 preview-image: 
-intro: 
 ---
 
 <div class="employee-heading">

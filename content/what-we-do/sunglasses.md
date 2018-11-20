@@ -1,12 +1,7 @@
 ---
 title: Sunglasses
-viewport: 'width=device-width, initial-scale=1.0'
-layout: what
-foldernum: 52
-category: [eyewear-experts]
-tag: []
+category: eyewear-experts
 preview-image: sunglasses.jpg
-intro: 
 ---
 
 <div class="employee-heading">

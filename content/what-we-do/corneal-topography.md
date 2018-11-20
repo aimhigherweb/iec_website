@@ -1,12 +1,7 @@
 ---
 title: Corneal Topography
-viewport: 'width=device-width, initial-scale=1.0'
-layout: what
-foldernum: 41
-category: [advanced-imaging-technology]
-tag: []
+category: advanced-imaging-technology
 preview-image: corneal-topo.png
-intro: 
 ---
 
 <div class="employee-heading">

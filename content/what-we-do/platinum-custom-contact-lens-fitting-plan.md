@@ -1,12 +1,7 @@
 ---
 title: Platinum Custom Contact Lens Fitting Plan
-viewport: 'width=device-width, initial-scale=1.0'
-layout: what
-foldernum: 
-category: [contact-lenses]
-tag: []
+category: contact-lenses
 preview-image: 3b0e35756aebae3192c2a692e5ae79e7324a0c56_platinum-plan-photo.jpg
-intro: 
 ---
 
 <div class="employee-heading">

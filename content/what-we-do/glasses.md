@@ -1,12 +1,7 @@
 ---
 title: Spectacle Lenses
-viewport: 'width=device-width, initial-scale=1.0'
-layout: what
-foldernum: 51
-category: [eyewear-experts]
-tag: []
+category: eyewear-experts
 preview-image: spec_lenses.jpg
-intro: 
 ---
 
 <div class="employee-heading">

@@ -1,12 +1,7 @@
 ---
 title: Vision Training
-viewport: 'width=device-width, initial-scale=1.0'
-layout: what
-foldernum: 18
-category: [paediatric-vision]
-tag: []
+category: paediatric-vision
 preview-image: vision-training-implements.jpg
-intro: 
 ---
 
 <div class="employee-heading">

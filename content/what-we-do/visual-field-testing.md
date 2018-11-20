@@ -1,12 +1,7 @@
 ---
 title: Visual Field Testing
-viewport: 'width=device-width, initial-scale=1.0'
-layout: what
-foldernum: 42
-category: [advanced-imaging-technology]
-tag: []
+category: advanced-imaging-technology
 preview-image: hep_500x428.jpg
-intro: 
 ---
 
 <div class="employee-heading">
@@ -31,4 +26,3 @@ This has lead to a visual field defect as seen in the test below. Sadly, as you 
 
 CAPTION: Results from a visual field test. Note: The NO means zero vision. Corresponding areas of the retina have been superimposed over the visual field to show which part of the retina has lost its sight.
 
-In the early stages of glaucoma, only the peripheral vision is affected. Most people will not notice the peripheral vision loss until it is too late. Regular eye tests and early detection will prevent this from ever occurring.

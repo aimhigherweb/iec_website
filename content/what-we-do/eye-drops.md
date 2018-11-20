@@ -1,16 +1,10 @@
 ---
 title: Inserting Eye Drops Correctly
-viewport: 'width=device-width, initial-scale=1.0'
-layout: what
-foldernum: 26
-category: [dry-eye-clinic]
-tag: []
+category: dry-eye-clinic
 preview-image: eye-drops.jpg
-intro: 
 ---
 
 <div class="employee-heading">
-<p>Many patients with eye diseases including <a href="/what-we-do/glaucoma">glaucoma</a>, <a href="/what-we-do/keratitis">corneal infections</a>, <a href="/what-we-do/keratitis">iritis and uveitis</a>, and <a href="/what-we-do/dry-eye-disease">dry eye</a> rely on efficient and correct use of eye drops to manage their condition. Eye drops can sometimes be difficult to use properly, and this can lead to a lack of noticeable treatment and wastage of the drops.</p>
 <p>At Innovative Eye Care, we are also proud to operate an <a href="http://eyesolutions.com.au/collections/dry-eye-treatments">online store</a> to make a range of lubricating eye drops available for our patients and customers.</p>
 </div>
 
@@ -55,7 +49,6 @@ No. An undisturbed night is more important, but if prescribed for use three or m
 
 #### Are my eye drops supposed to sting when I put them in?
 
-All drops may cause some burning or stinging when instilled. Often, this effect is due not to the drug but to the antibacterial preservatives in the solution. It is rarely intolerable and can be used to advantage, since it lets the patient know that the drop went into the eye. If you are experiencing a high degree of discomfort you should report this to your optometrist, as there may be different options for you.
 
 #### If I have two lots of drops due at the same time, can I put them in together?
 

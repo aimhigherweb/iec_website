@@ -1,12 +1,7 @@
 ---
 title: Optical and Ultrasound Biometry
-viewport: 'width=device-width, initial-scale=1.0'
-layout: what
-foldernum: 43
-category: [advanced-imaging-technology]
-tag: []
+category: advanced-imaging-technology
 preview-image: 
-intro: 
 ---
 
 <div class="employee-heading">

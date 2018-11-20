@@ -1,12 +1,7 @@
 ---
 title: "Flashes, Floaters, Retinal Tear & Detachment"
-viewport: 'width=device-width, initial-scale=1.0'
-layout: what
-foldernum: 9
-category: [acute-red-eyes]
-tag: []
+category: acute-red-eyes
 preview-image: flashes-and-floaters.jpg
-intro: 
 ---
 
 <div class="employee-heading">
@@ -33,7 +28,6 @@ When the vitreous gel pulls on the retina, you may see what looks like flashing 
 
 For most patients, the appearance of floaters and flashes is a sign of a posterior vitreous detachment. As we grow older the vitreous (the clear gelatinous fluid that fills the inside of your eye) changes and becomes more liquefied. As it loses its structure, it gradually pulls away from the inside surface of the eye. When this occurs acutely it is called a posterior vitreous detachment. This is a normal part of the eyes getting older. There is generally no treatment required for a posteior vitreous detachment. With time the floaters will settle due to gravity and the brain will adapt to seeing the drifting shapes as they are always present. 
 
-A small percentage of patients may develop retinal tears or detachment when their vitreous tugs on attached areas of retina as it collapses. Sometimes there is bleeding inside the eye that may appear as new floaters. There may not be any additional symptoms to a standard posterior vitreous detachment. Because of this, it is recommended that you consult your optometrist urgently if you notice these symptoms – especially if you are short-sighted or have a recent history of head or eye trauma:
   * A sudden increase in size and number of floaters
   * A sudden appearance of flashes
   * A shadow or curtain appearing in the periphery (side) of your field of vision

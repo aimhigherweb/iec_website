@@ -1,12 +1,7 @@
 ---
 title: Meibomian Gland Dysfunction
-viewport: 'width=device-width, initial-scale=1.0'
-layout: what
-foldernum: 22
-category: [dry-eye-clinic]
-tag: []
+category: dry-eye-clinic
 preview-image: mgd-expression.jpg
-intro: 
 ---
 
 <div class="employee-heading">
@@ -21,7 +16,6 @@ When the meibomian glands number about 25 to 30 and normally slowly release oil 
 
 CAPTION: Figure 1: Meibomian Glands
 
-Sometimes the oil becomes slightly thicker than normal which can lead to blockage of the narrow duct which takes the oil from the gland to the tear film. Dry eye and irritation occur as the stabilising oil cannot reach the tear film. This is called Meibomian Gland Dysfunction (MGD) and is also referred to as posterior blepharitis, as naturally occurring bacteria can cause the oils to thicken and stagnate.
 
 Severe blockage can lead to much enlarged glands (a cyst) or even infection. It is therefore important to firstly unclog the blocked glands, and secondly prevent them from blocking up again - as much as possible.
 

@@ -1,12 +1,7 @@
 ---
 title: BlephEx
-viewport: 'width=device-width, initial-scale=1.0'
-layout: what
-foldernum: 23
-category: [dry-eye-clinic]
-tag: []
+category: dry-eye-clinic
 preview-image: blephex.gif
-intro: 
 ---
 
 <div class="employee-heading">

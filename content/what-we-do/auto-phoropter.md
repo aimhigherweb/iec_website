@@ -1,12 +1,7 @@
 ---
 title: "The Amazing Auto-Phoropter!"
-viewport: 'width=device-width, initial-scale=1.0'
-layout: what
-foldernum: 44
-category: [advanced-imaging-technology]
-tag: []
+category: advanced-imaging-technology
 preview-image: ee4e43c2e44fa8335334d76acda595c42011f491.jpg
-intro: 
 ---
 
 <div class="employee-heading">

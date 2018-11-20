@@ -1,12 +1,7 @@
 ---
 title: Keratitis
-viewport: 'width=device-width, initial-scale=1.0'
-layout: what
-foldernum: 47
-category: [acute-red-eyes]
-tag: []
+category: acute-red-eyes
 preview-image: keratitis.jpg
-intro: 
 ---
 
 <div class="employee-heading">

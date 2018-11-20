@@ -1,12 +1,7 @@
 ---
 title: Iritis & Anterior Uveitis
-viewport: 'width=device-width, initial-scale=1.0'
-layout: what
-foldernum: 49
-category: [acute-red-eyes]
-tag: []
+category: acute-red-eyes
 preview-image: iritis-uveitis.jpg
-intro: 
 ---
 
 <div class="employee-heading">

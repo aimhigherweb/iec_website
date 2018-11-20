@@ -1,12 +1,7 @@
 ---
 title: Orthokeratology for Myopia
-viewport: 'width=device-width, initial-scale=1.0'
-layout: what
-foldernum: 34
-category: [orthok]
-tag: []
+category: orthok
 preview-image: ok-flower.jpg
-intro: 
 ---
 
 <div class="employee-heading">
@@ -31,7 +26,6 @@ The increase in myopia cases is worryingly high across the world.
 
 We have not missed out close to home, either:
 
-  * <i>In Australia, 30% of Australian school leavers are myopic — and this percentage is on the rise</i>
 
 #### Progression and associated risks
 

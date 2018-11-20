@@ -1,12 +1,7 @@
 ---
 title: Scleral Contact Lenses
-viewport: 'width=device-width, initial-scale=1.0'
-layout: what
-foldernum: 13
-category: [contact-lenses]
-tag: []
+category: contact-lenses
 preview-image: scleral.jpg
-intro: 
 ---
 
 <div class="employee-heading">

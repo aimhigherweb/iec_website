@@ -1,12 +1,7 @@
 ---
 title: Keratoconus
-viewport: 'width=device-width, initial-scale=1.0'
-layout: what
-foldernum: 4
-category: [eye-disease]
-tag: []
+category: eye-disease
 preview-image: keratoconus.jpg
-intro: 
 ---
 
 <div class="employee-heading">
@@ -28,7 +23,6 @@ CAPTION: A side profile of an eye with keratoconus. Note the protrusion, and bul
 
 <br>
 
-Early in the course of this disorder, resulting visual changes can present like any other form of refractive error including [short-sightedness](/what-we-do/myopia), [long-sightedness](/what-we-do/hyperopia) or [astigmatism](/what-we-do/astigmatism).<sup>3</sup> Very early keratoconus may be corrected with spectacles or soft contact lenses. As the disease progresses the cornea becomes more distorted, leading to poor vision even with these corrections.<sup>4</sup> Corneal [rigid gas-permeable (RGP) lenses](/what-we-do/gas-permeable-contact-lenses) or [scleral lenses](/what-we-do/scleral-contact-lenses) are useful at this stage as the strong polymer the lenses are made from does not drape over the irregular corneal shape but instead holds its form, thus creating a new and regular front surface of the eye.<sup>5</sup> This will provide the best vision for someone with keratoconus.
 
 ![](/uploads/keratoconus-rgp.jpg)
 
@@ -40,7 +34,6 @@ The older, most frequently cited conjectured prevalence of keratoconus was estim
 
 # How is keratoconus diagnosed?
 
-At Innovative Eye Care we use the latest technologies to diagnose the condition at its earliest stages and to monitor any changes in progression. It is difficult to make an accurate diagnosis without the use of such equipment, and it also allows our team to manage sub-clinical cases.<sup>12</sup> There are 3 different types of cones present in keratoconus; central nipple cone, low oval cone and globus cone, with the latter being the least common.<sup>13</sup>
 
 Unfortunately, being a multifactorial disease, onset and progression is extremely variable between different people, and even between different eyes of the same person. Keratoconus is very unpredictable and can progress rapidly over a short period of time, before stabilising for months or years, then progressing again.<sup>14</sup>
 

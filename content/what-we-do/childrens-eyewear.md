@@ -1,12 +1,7 @@
 ---
 title: Eyewear for Children
-viewport: 'width=device-width, initial-scale=1.0'
-layout: what
-foldernum: 54
-category: [eyewear-experts]
-tag: []
+category: eyewear-experts
 preview-image: nike-fw15-a4-landscape-kid-male-opt.jpg
-intro: 
 ---
 
 <div class="employee-heading">

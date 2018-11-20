@@ -1,12 +1,7 @@
 ---
 title: Dry Eye Disease
-viewport: 'width=device-width, initial-scale=1.0'
-layout: what
-foldernum: 20
-category: [dry-eye-clinic]
-tag: []
+category: dry-eye-clinic
 preview-image: dry-eye.jpg
-intro: 
 ---
 
 <div class="employee-heading">

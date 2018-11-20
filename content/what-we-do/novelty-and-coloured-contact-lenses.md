@@ -1,12 +1,7 @@
 ---
 title: Novelty and Coloured Contact Lenses
-viewport: 'width=device-width, initial-scale=1.0'
-layout: what
-foldernum: 15
-category: [contact-lenses]
-tag: []
+category: contact-lenses
 preview-image: coloured-cl.jpg
-intro: 
 ---
 
 <div class="employee-heading">

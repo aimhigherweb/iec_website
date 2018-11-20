@@ -1,16 +1,10 @@
 ---
 title: Shaw Lenses
-viewport: 'width=device-width, initial-scale=1.0'
-layout: what
-foldernum: 
-category: [eyewear-experts]
-tag: []
+category: eyewear-experts
 preview-image: 
-intro: 
 ---
 
 <div class="employee-heading">
-<!-- intro goes here -->
 </div>
 
 Some eyes are not matched and one side requires a prescription that is stronger than the other side. This creates a problem with unequal image sizes and unequal image alignment when looking away from the lens centre. The different image sizes for each eye make it hard for the brain to combine the information together. The different image alignments is created by different prism lens effects away from the optical centres requiring unnatural eye muscle movements. Luckily there are parameters of lens design that can be tailored to address most of these problems.

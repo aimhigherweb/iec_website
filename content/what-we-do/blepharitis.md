@@ -1,12 +1,7 @@
 ---
 title: Blepharitis
-viewport: 'width=device-width, initial-scale=1.0'
-layout: what
-foldernum: 21
-category: [dry-eye-clinic]
-tag: []
+category: dry-eye-clinic
 preview-image: anterior-blepharitis.jpg
-intro: 
 ---
 
 <div class="employee-heading">

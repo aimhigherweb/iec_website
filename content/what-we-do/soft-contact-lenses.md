@@ -1,12 +1,7 @@
 ---
 title: Soft Contact Lenses
-viewport: 'width=device-width, initial-scale=1.0'
-layout: what
-foldernum: 11
-category: [contact-lenses]
-tag: []
+category: contact-lenses
 preview-image: soft-contact-2.jpg
-intro: 
 ---
 
 <div class="employee-heading">
@@ -28,7 +23,6 @@ Silicone-hydrogels are available in daily and monthly modalities. Daily lenses a
 
 #### How do I know if soft contact lenses are right for me?
 
-Soft lenses are perfect for people with a range of refractive conditions who like the convenience of a disposable lens. A list of advantages and disadvantages of soft disposable lenses can be found [here](/what-we-do/contact-lenses). If you are interested in knowing what is involved in owning soft lenses, take a look at [this page](/patient-resources/care-of-soft-disposable-contact-lenses) on caring for soft lenses, and [this page](/patient-resources/tips-for-long-term-success-with-your-soft-disposable-contact-lenses) on long-term success with soft lenses.
 
 #### What are the alternatives to soft lenses?
 

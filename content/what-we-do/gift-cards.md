@@ -1,12 +1,7 @@
 ---
 title: Gift Cards
-viewport: 'width=device-width, initial-scale=1.0'
-layout: what
-foldernum: 3
-category: [consultations]
-tag: []
+category: consultations
 preview-image: gift-card.jpg
-intro: 
 ---
 
 <div class="employee-heading">

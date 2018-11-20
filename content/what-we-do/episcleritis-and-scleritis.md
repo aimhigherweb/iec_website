@@ -1,12 +1,7 @@
 ---
 title: "Episcleritis & Scleritis"
-viewport: 'width=device-width, initial-scale=1.0'
-layout: what
-foldernum: 46
-category: [acute-red-eyes]
-tag: []
+category: acute-red-eyes
 preview-image: scleritis3.jpg
-intro: 
 ---
 
 <div class="employee-heading">

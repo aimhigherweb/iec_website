@@ -1,12 +1,7 @@
 ---
 title: Eye Test
-viewport: 'width=device-width, initial-scale=1.0'
-layout: what
-foldernum: 1
-category: [consultations]
-tag: []
+category: consultations
 preview-image: consultation-room.jpg
-intro: 
 ---
 
 <div class="employee-heading">

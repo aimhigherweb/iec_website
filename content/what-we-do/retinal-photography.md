@@ -1,12 +1,7 @@
 ---
 title: Digital Retinal Photography
-viewport: 'width=device-width, initial-scale=1.0'
-layout: what
-foldernum: 38
-category: [advanced-imaging-technology]
-tag: []
+category: advanced-imaging-technology
 preview-image: myelinated-nfl.jpg
-intro: 
 ---
 
 <div class="employee-heading">

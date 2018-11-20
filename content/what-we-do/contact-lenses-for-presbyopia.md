@@ -1,12 +1,7 @@
 ---
 title: Contact Lenses For Presbyopia
-viewport: 'width=device-width, initial-scale=1.0'
-layout: what
-foldernum: 14
-category: [contact-lenses]
-tag: []
+category: contact-lenses
 preview-image: color-eye.jpg
-intro: 
 ---
 
 <div class="employee-heading">

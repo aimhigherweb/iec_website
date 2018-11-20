@@ -1,12 +1,7 @@
 ---
 title: "IPL (Intense Pulse Light)"
-viewport: 'width=device-width, initial-scale=1.0'
-layout: what
-foldernum: 24
-category: [dry-eye-clinic]
-tag: []
+category: dry-eye-clinic
 preview-image: ipl-machine.jpg
-intro: 
 ---
 
 <div class="employee-heading">

@@ -1,12 +1,7 @@
 ---
 title: Digital Eye Strain
-viewport: 'width=device-width, initial-scale=1.0'
-layout: what
-foldernum: 36
-category: [refractive-conditions]
-tag: []
+category: refractive-conditions
 preview-image: computer-vision-syndrome-1.jpg
-intro: 
 ---
 
 <div class="employee-heading">

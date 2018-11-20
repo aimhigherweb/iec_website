@@ -1,16 +1,11 @@
 ---
 title: Kensie
 viewport: 'width=device-width, initial-scale=1.0'
-layout: what
-foldernum: 
-category: [eyewear-experts]
-tag: []
+category: eyewear-experts]
 preview-image: 
-intro: 
 ---
 
 <div class="employee-heading">
-<!-- intro goes here -->
 </div>
 
 # Kensie Eyewear

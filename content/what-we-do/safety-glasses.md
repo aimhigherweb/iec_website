@@ -1,12 +1,7 @@
 ---
 title: Safety Glasses
-viewport: 'width=device-width, initial-scale=1.0'
-layout: what
-foldernum: 
-category: [eyewear-experts]
-tag: []
+category: eyewear-experts
 preview-image: safety-glasses.jpg
-intro: 
 ---
 
 <div class="employee-heading">

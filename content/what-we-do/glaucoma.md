@@ -1,12 +1,7 @@
 ---
 title: Glaucoma
-viewport: 'width=device-width, initial-scale=1.0'
-layout: what
-foldernum: 5
-category: [eye-disease]
-tag: []
+category: eye-disease
 preview-image: glaucoma.jpg
-intro: 
 ---
 
 <div class="employee-heading">
@@ -23,7 +18,6 @@ The glaucomas are a range of eye diseases that cause optic nerve damage and can 
 
 Glaucoma typically progresses slowly over time and patients are not aware of high pressure in their eyes. However, some patients may have a sudden increase of pressure if the area of the eye that drains fluid, called the anterior chamber angle, closes suddenly. This will cause aching in the eye, blurry or hazy vision around lights, and sometimes nausea and vomiting. Emergency care is needed to lower the pressure and prevent permanent vision loss. Individuals at risk of this acute angle-closure glaucoma will often be referred for a prophylactic laser treatment to create a 'safety valve' in the iris tissue to prevent this pressure rise occurring.
 
-Typically, it is the outermost part of your vision (peripheral vision) that is affected first in glaucoma. In most cases, this vision loss is not detected by the sufferer until the advanced stages, when both their central and peripheral vision is affected. If the entire nerve is destroyed, complete blindness results. It is estimated that around 300,000 Australians have glaucoma, with half going undiagnosed. The direct medical costs of glaucoma are almost $150 million annually.
 
 ![](/uploads/glaucoma-effect.jpg)
 
@@ -47,7 +41,6 @@ These days, we have [advanced technology](/what-we-do/oct) at our disposal that 
 
 CAPTION: Scans taken by the Heidelberg Spectralis OCT that reveals indications of glaucoma, including hemisphere thickness asymmetry, neuroretinal fibre layer thickness and anterior chamber depth.
 
-The information from these tests provides an indication of the presence or stage of this potentially blinding disease. Not all of these tests are necessary for every person, nor at every visit.
 
 #### How is glaucoma treated?
 

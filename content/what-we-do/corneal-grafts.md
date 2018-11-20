@@ -1,12 +1,7 @@
 ---
 title: Corneal Grafts
-viewport: 'width=device-width, initial-scale=1.0'
-layout: what
-foldernum: 56
-category: [eye-disease]
-tag: []
+category: eye-disease
 preview-image: corneal-graft.jpg
-intro: 
 ---
 
 <div class="employee-heading">

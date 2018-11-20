@@ -1,12 +1,7 @@
 ---
 title: Exam Billing
-viewport: 'width=device-width, initial-scale=1.0'
-layout: what
-foldernum: 2
-category: [consultations]
-tag: []
+category: consultations
 preview-image: innovative-eye-care-medicare-eye.jpg
-intro: 
 ---
 
 <div class="employee-heading">

@@ -1,12 +1,7 @@
 ---
 title: Signs of a Vision Problem in Children
-viewport: 'width=device-width, initial-scale=1.0'
-layout: what
-foldernum: 17
-category: [paediatric-vision]
-tag: []
+category: paediatric-vision
 preview-image: 0aded48b23e39439e9eff0706f97a488b601e42a_child-reading.jpg
-intro: 
 ---
 
 

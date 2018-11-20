@@ -1,12 +1,7 @@
 ---
 title: Macular Degeneration
-viewport: 'width=device-width, initial-scale=1.0'
-layout: what
-foldernum: 7
-category: [eye-disease]
-tag: []
+category: eye-disease
 preview-image: age-related-macular-degeneration-geographic-atrophy.jpg
-intro: 
 ---
 
 <div class="employee-heading">
@@ -34,7 +29,6 @@ The more common and less advanced of the two types, it affects 85 to 90 percent 
 
 #### Wet AMD
 
-This is the advanced stage of this disease. It is characterised by abnormal blood vessel growth behind the macula. These vessels may leak blood or fluid, which causes the macula to lift from its normal location. This results in straight lines and objects appearing curved or wavy. Objects such as vertical blinds, door frames, and flagpoles appear distorted as a symptom of wet macular degeneration. Compared to dry AMD, wet AMD causes more rapid and dramatic decreases in central vision.
 
 <div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--[if IE]><iframe frameborder="0" type="text/html" src="https://2689-2347.captiv8online.com/animations/embed/one/t-l-t-d-m-ul-d-t-o?player_width=100%&player_height=100%&site_company_language=34&autostart=false" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><![endif]--><!--[if !IE]> <--><object data="https://2689-2347.captiv8online.com/animations/embed/one/t-l-t-d-m-ul-d-t-o?player_width=100%&player_height=100%&site_company_language=34&autostart=false" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://2689-2347.captiv8online.com/animations/embed/one/t-l-t-d-m-ul-d-t-o?player_width=100%&player_height=100%&site_company_language=34&autostart=false">AMD: Wet</a></object><!--> <![endif]--></div>
 

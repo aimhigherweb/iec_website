@@ -1,12 +1,7 @@
 ---
 title: Foreign Body Removal
-viewport: 'width=device-width, initial-scale=1.0'
-layout: what
-foldernum: 50
-category: [acute-red-eyes]
-tag: []
+category: acute-red-eyes
 preview-image: foreign-body-in-eye.jpg
-intro: 
 ---
 
 <div class="employee-heading">

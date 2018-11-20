@@ -1,12 +1,7 @@
 ---
 title: Myopia Control
-viewport: 'width=device-width, initial-scale=1.0'
-layout: what
-foldernum: 28
-category: [refractive-conditions]
-tag: []
+category: refractive-conditions
 preview-image: myopia-control-1.jpg
-intro: 
 ---
 
 <div class="employee-heading">

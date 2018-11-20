@@ -1,12 +1,7 @@
 ---
 title: Pterygium and Pinguecula
-viewport: 'width=device-width, initial-scale=1.0'
-layout: what
-foldernum: 55
-category: [eye-disease]
-tag: []
+category: eye-disease
 preview-image: pterygium.png
-intro: 
 ---
 
 <div class="employee-heading">

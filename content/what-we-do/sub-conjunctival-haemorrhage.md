@@ -1,12 +1,7 @@
 ---
 title: Sub-Conjunctival Haemorrhage
-viewport: 'width=device-width, initial-scale=1.0'
-layout: what
-foldernum: 48
-category: [acute-red-eyes]
-tag: []
+category: acute-red-eyes
 preview-image: sub-conjunctival-haemorrhage.jpg
-intro: 
 ---
 
 <div class="employee-heading">

@@ -1,12 +1,7 @@
 ---
 title: Optical Coherence Tomography (OCT)
-viewport: 'width=device-width, initial-scale=1.0'
-layout: what
-foldernum: 40
-category: [advanced-imaging-technology]
-tag: []
+category: advanced-imaging-technology
 preview-image: spectralis-untersuchung_600x399.jpg
-intro: 
 ---
 
 <div class="employee-heading">

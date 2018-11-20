@@ -1,12 +1,7 @@
 ---
 title: Diabetes & The Eye
-viewport: 'width=device-width, initial-scale=1.0'
-layout: what
-foldernum: 8
-category: [eye-disease]
-tag: []
+category: eye-disease
 preview-image: diabetic_retinopathy.jpg
-intro: 
 ---
 
 <div class="employee-heading">
@@ -17,7 +12,6 @@ intro:
 
 <br>
 
-Vision changes are one of the main ways that diabetes causes disease in the body and optometrists play a fundamental role in diagnosing the changes to the eyes in diabetics in the early stages when they respond best to treatment. Once diagnosed it is important that all diabetics have the health of their eyes comprehensively examined at least every 2 years. Diabetes can affect all parts of the eyes – the cornea, the lens and the retina. Many diabetic problems can also occur without any obvious visual symptoms. The fact that the health of the eyes also directly relates to the health of the rest of the body highlights how important monitoring a diabetic’s ocular health is.
 
 # Diabetic retinopathy
 
@@ -37,7 +31,6 @@ CAPTION: Several moderate-sized haemorrhages in the retina of someone with moder
 
 #### Proliferative retinopathy
 
-This condition is more serious and requires early treatment to prevent serious vision loss. Your optometrist can recognise signs that this condition might develop, or detect it in its early stages. Once proliferative retinopathy has been diagnosed, your optometrist will refer you to an eye surgeon for further appraisal and probable laser treatment. Treatment of this condition has a better chance of success if it is applied very early. 
 
 Proliferative changes occur if areas of the retina become starved of oxygen (ischaemic). This leads to fragile new blood vessels (neovascularisation) growing to resupply the ischaemic tissue. Unfortunately these vessels leak easily and can bleed, causing sudden vision loss. If these new vessels scar and constrict they can pull on the retina and lead to a retinal detachment. Patients may need pan-retinal photo-coagulation if their retina is very ischaemic. This is a procedure where laser burns are used to kill off some of the less-important peripheral retina. This decreases the oxygen demand of the central retina and helps prevents further changes.
 

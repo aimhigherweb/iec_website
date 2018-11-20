@@ -1,12 +1,7 @@
 ---
 title: Colorimetry
-viewport: 'width=device-width, initial-scale=1.0'
-layout: what
-foldernum: 57
-category: [paediatric-vision]
-tag: []
+category: paediatric-vision
 preview-image: pattern-glare-test-2.jpg
-intro: 
 ---
 
 <div class="employee-heading">

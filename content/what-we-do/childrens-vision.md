@@ -1,12 +1,7 @@
 ---
 title: Children's Vision
-viewport: 'width=device-width, initial-scale=1.0'
-layout: what
-foldernum: 16
-category: [paediatric-vision]
-tag: []
+category: paediatric-vision
 preview-image: child-reading-2.jpg
-intro: 
 ---
 
 <div class="employee-heading">

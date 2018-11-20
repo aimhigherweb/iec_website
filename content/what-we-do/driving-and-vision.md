@@ -1,12 +1,7 @@
 ---
 title: Driving and Vision
-viewport: 'width=device-width, initial-scale=1.0'
-layout: what
-foldernum: 45
-category: [refractive-conditions]
-tag: []
+category: refractive-conditions
 preview-image: landscape-driving.jpg
-intro: 
 ---
 
 <div class="employee-heading">

@@ -1,12 +1,7 @@
 ---
 title: "Ortho-K: Corneal Reshaping"
-viewport: 'width=device-width, initial-scale=1.0'
-layout: what
-foldernum: 32
-category: [orthok]
-tag: []
+category: orthok
 preview-image: ml-1.jpg
-intro: 
 ---
 
 <div class="employee-heading">
