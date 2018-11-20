@@ -1,12 +1,7 @@
 ---
 title: Amblyopia
-viewport: 'width=device-width, initial-scale=1.0'
-layout: what
-foldernum: 19
-category: [paediatric-vision]
-tag: []
+category: paediatric-vision
 preview-image: brain-amblyopia.jpg
-intro: 
 ---
 
 <div class="employee-heading">

@@ -1,12 +1,7 @@
 ---
 title: Astigmatism
-viewport: 'width=device-width, initial-scale=1.0'
-layout: what
-foldernum: 31
-category: [refractive-conditions]
-tag: []
+category: refractive-conditions
 preview-image: astigmatism-topo.jpg
-intro: 
 ---
 
 <div class="employee-heading">

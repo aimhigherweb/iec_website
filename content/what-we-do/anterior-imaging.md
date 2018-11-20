@@ -1,12 +1,7 @@
 ---
 title: Digital Anterior Photography
-viewport: 'width=device-width, initial-scale=1.0'
-layout: what
-foldernum: 39
-category: [advanced-imaging-technology]
-tag: []
+category: advanced-imaging-technology
 preview-image: anterior-photography-collage.png
-intro: 
 ---
 
 <div class="employee-heading">
