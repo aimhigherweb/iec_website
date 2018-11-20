@@ -1,11 +1,10 @@
 ---
-title: "Helpful or hype? Blue light filters"
-date: 2018-08-07
+title: Helpful or hype? Blue light filters
+date: 2018-08-07T00:00:00.000Z
 author: Millie Meegan
 author_url: /who-we-are/millie-meegan
 preview_image: /uploads/blue-light-power-button.jpg
 ---
-
 In recent years the conversation surrounding the effects of blue light has been steadily growing. What began as investigations into the sleep cycle of photosynthetic marine plankton in the 1950s has rapidly progressed to today's detailed research of the human response to different wavelengths and the impact it has on the many facets of our complicated physiology.<sup>1</sup> The findings of this research seems to suggest that the wavelength of visible light that is most harmful to humans is at around 435 nm – blue-violet light on the visible spectrum.<sup>2</sup> As the global population is increasingly exposed to blue-violet light due to everyday technology like smartphones, laptops and flourescent lighting, the discussion of blue light hazards has found its way into the spotlight. Several tech companies like Apple, Microsoft and Samsung offer blue light filters for almost all of their digital products and blue light filter coatings for spectacle lenses are becoming more and more common. But how does blue light filtering stack up against the hype?
 
 ![](light-spectrum.jpg)
