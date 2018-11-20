@@ -66,7 +66,14 @@ function populateResults(result){
       snippet += contents.substring(0,summaryInclude*2);
     }
     //pull template from hugo templarte definition
-    var templateDefinition = $('#search-result-template').html();
+    var templateDefinition = " <div id='summary-${key}'> \
+        <h4><a href='${link}'>${title}</a></h4> \
+        <p>${snippet}....</p> \
+        ${ isset tags }<p>Tags: ${tags}</p>${ end } \
+        ${ isset categories }<p>Categories: ${categories}</p>${ end } \
+      </div>";
+
+
     //replace values
     var output = render(templateDefinition,{key:key,title:value.item.title,link:value.item.permalink,tags:value.item.tags,categories:value.item.categories,snippet:snippet});
     $('#search-results').append(output);
@@ -83,6 +90,7 @@ function param(name) {
 }
 
 function render(templateString, data) {
+
   var conditionalMatches,conditionalPattern,copy;
   conditionalPattern = /\$\{\s*isset ([a-zA-Z]*) \s*\}(.*)\$\{\s*end\s*}/g;
   //since loop below depends on re.lastInxdex, we use a copy to capture any manipulations whilst inside the loop
@@ -102,6 +110,7 @@ function render(templateString, data) {
   for (key in data) {
     find = '\\$\\{\\s*' + key + '\\s*\\}';
     re = new RegExp(find, 'g');
+    console.log(templateString);
     templateString = templateString.replace(re, data[key]);
   }
   return templateString;
