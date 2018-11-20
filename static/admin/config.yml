@@ -9,12 +9,12 @@ collections:
   create: true # Allow users to create new documents in this collection
   slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
   fields: # The fields for each document, usually in front matter
-    - {label: "Title", name: "title", widget: "string"}
-    - {label: "Publish Date", name: "date", widget: "datetime"}
-    - {label: "Author", name: "author", widget: "string"}
-    - {label: "Author URL", name: "author_url", widget: "string"}
-    - {label: "Preview Image", name: "preview_image", widget: "image"}
-    - {label: "Body", name: "body", widget: "markdown"}
+    - {label: "Title", name: "title", widget: "string", optional: true}
+    - {label: "Publish Date", name: "date", widget: "datetime", optional: true}
+    - {label: "Author", name: "author", widget: "string", optional: true}
+    - {label: "Author URL", name: "author_url", widget: "string", optional: true}
+    - {label: "Preview Image", name: "preview_image", widget: "image", optional: true}
+    - {label: "Body", name: "body", widget: "markdown", optional: true}
 - name: "patient-resources" # Used in routes, e.g., /admin/collections/blog
   label: "Patient Resources" # Used in the UI
   folder: "content/patient-resources" # The path to the folder where the documents are stored
