@@ -3,7 +3,6 @@ title: Long-Term Success With Soft Disposable Contact Lenses
 category: Contact Lens Instructions
 preview_image: tips-on-cl.jpg
 ---
-
 #### Only wear your lenses as they are prescribed by your optometrist
 
 Daily lenses are meant to be worn once and thrown away and monthly lenses are designed for a month’s worth (30 days) of wear before being replaced. It can be helpful to mark in your diary/calendar when you first opened a new pair of lenses so you can keep track of how old they are. Do not sleep in your lenses unless your optometrist has advised that this is acceptable. Over-wearing of your contact lenses puts you at greater risk of adverse contact lens-related events, such as infections that could blind the affected eye!
@@ -36,7 +35,7 @@ Contact lenses are encouraged to have an annual eye check. This is to ensure tha
 
 Do not use any product that is past its expiry date. It is a good idea to mark the date of opening on your bottle of solution so that you know when it needs to be thrown out. Most solutions don’t keep for more than 3 months once opened – this is because the preservatives start breaking down so the solution is no longer guaranteed to disinfect your lenses.
 
-![](tips-on-cl-thumbs-up.jpg)
+![](/uploads/tips-on-cl.jpg)
 
 # Minor troubleshooting
 
@@ -44,7 +43,7 @@ Do not use any product that is past its expiry date. It is a good idea to mark t
 
 This is common when the lenses have been in your eyes for 10+ hours, especially if you are in an air-conditioned or dusty/windy environment. Lubricating drops (such as [Hylo-Fresh](http://eyesolutions.com.au/collections/dry-eye-treatments/products/hylo-fresh) and [Hylo-Forte](http://eyesolutions.com.au/collections/dry-eye-treatments/products/hylo-forte)) are a simple solution. Make sure your solution is contact lens compatible and if unsure check with your optometrist first. Some modern-day disinfection solutions such as [Aosept Plus with Hydraglyde](http://eyesolutions.com.au/collections/frontpage/products/aoseptwithhydraglyde) have components to help maintain moist lenses throughout the day. New contact lenses types are released every year with new technology to keep your lenses moist for longer. Ask your optometrist about these products and if they are suitable for you.
 
-#### Lens uncomfortable on insertion 
+#### Lens uncomfortable on insertion
 
 Take your lens out and check that it has been inserted correctly. Often a lens appears normal but has been flipped inside out. If you are not sure whether your lens has been flipped or not, a sure sign is irregular shape around the edge – lenses should be perfectly circular around the bowl with no kinks. If you have a toric contact lens (for [astigmatism](/what-we-do/astigmatism), try to get the markings lined up correctly. Check the lens for signs of damage such as chips or scratches. If there is damage throw it out and use a new lens. Dust may be trapped beneath the lens – try to drag the lens onto the white of the eye then back, as this can often roll the debris out without the need to remove the lens itself.
 
@@ -54,8 +53,8 @@ After wearing lenses all day, the lens is often dehydrated due to air exposure. 
 
 # Things to remember
 
-  * Keep your fingernails trimmed – long or ragged nails are more likely to damage your lenses when you are handling them, and they are also more likely to scratch your eye.
-  * Be careful swimming in your contact lenses. There is a chance they will wash out and you will lose them and pool water particularly increases susceptibility to infection. Prescription goggles are available if you do a lot of swimming. If you do swim in your lenses it is advisable to throw them away afterwards. Daily disposables or [orthokeratology](/what-we-do/orthokeratology-corneal-reshaping) (overnight corneal reshaping) may be best suited to patients with heavy involvement in water sports.
-  * Contact lens wearers have an increased risk of infection. This risk is increased for monthly lens wearers who are reusing lenses, unlike daily lens wearers. The risk also increases when you sleep in your lenses. It is important to keep this in mind and to look after your lenses and disinfect them well.
-  * Saliva and tap water are not sterile! Both are home to different strains of bacteria that may not be harmful to us when we ingest them but can cause infection and other issues when they come in contact with our eyes. Do not use either of these to clean or store your lenses in. 
-  * Lens purchases online may not be genuine, may have been stored or transported incorrectly and carry a higher risk of infection according to new studies. Lenses purchased from your optometrist are guaranteed to be direct from the manufacturer and it is much easier for your optometrist to help you should you have any issues with the prescription or comfort. We can also courier contact lenses to you for your convenience!
+* Keep your fingernails trimmed – long or ragged nails are more likely to damage your lenses when you are handling them, and they are also more likely to scratch your eye.
+* Be careful swimming in your contact lenses. There is a chance they will wash out and you will lose them and pool water particularly increases susceptibility to infection. Prescription goggles are available if you do a lot of swimming. If you do swim in your lenses it is advisable to throw them away afterwards. Daily disposables or [orthokeratology](/what-we-do/orthokeratology-corneal-reshaping) (overnight corneal reshaping) may be best suited to patients with heavy involvement in water sports.
+* Contact lens wearers have an increased risk of infection. This risk is increased for monthly lens wearers who are reusing lenses, unlike daily lens wearers. The risk also increases when you sleep in your lenses. It is important to keep this in mind and to look after your lenses and disinfect them well.
+* Saliva and tap water are not sterile! Both are home to different strains of bacteria that may not be harmful to us when we ingest them but can cause infection and other issues when they come in contact with our eyes. Do not use either of these to clean or store your lenses in. 
+* Lens purchases online may not be genuine, may have been stored or transported incorrectly and carry a higher risk of infection according to new studies. Lenses purchased from your optometrist are guaranteed to be direct from the manufacturer and it is much easier for your optometrist to help you should you have any issues with the prescription or comfort. We can also courier contact lenses to you for your convenience!
