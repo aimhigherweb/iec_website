@@ -11,7 +11,6 @@ Push-up exercises help to train convergence. Convergence is when both eyes move 
 
   * Two pens or sharp pencils
 
-
 # Instructions:
 
 #### Smooth convergence
