@@ -591,6 +591,53 @@ input[type='submit'] {
   overflow: hidden;
   padding-top: 0px; }
 
+#demo-2 {
+  color: #666;
+  font: 90%/180% Arial, Helvetica, sans-serif; }
+  #demo-2 a {
+    color: #69C;
+    text-decoration: none; }
+  #demo-2 a:hover {
+    color: #F60; }
+  #demo-2 h1 {
+    font: 1.7em;
+    line-height: 110%;
+    color: #000; }
+  #demo-2 p {
+    margin: 0 0 20px; }
+  #demo-2 input {
+    outline: none; }
+  #demo-2 input[type=search] {
+    -webkit-appearance: textfield;
+    -webkit-box-sizing: content-box;
+    font-family: inherit;
+    font-size: 100%; }
+  #demo-2 input::-webkit-search-decoration,
+  #demo-2 input::-webkit-search-cancel-button {
+    display: none; }
+  #demo-2 input[type=search] {
+    background: #ededed url(https://static.tumblr.com/ftv85bp/MIXmud4tx/search-icon.png) no-repeat 9px center;
+    border: solid 1px #ccc;
+    padding: 9px 10px 9px 32px;
+    width: 55px;
+    -webkit-border-radius: 10em;
+    -moz-border-radius: 10em;
+    border-radius: 10em;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    transition: all .5s; }
+  #demo-2 input[type=search]:focus {
+    width: 130px;
+    background-color: #fff;
+    border-color: #66CC75;
+    -webkit-box-shadow: 0 0 5px rgba(109, 207, 246, 0.5);
+    -moz-box-shadow: 0 0 5px rgba(109, 207, 246, 0.5);
+    box-shadow: 0 0 5px rgba(109, 207, 246, 0.5); }
+  #demo-2 input:-moz-placeholder {
+    color: #999; }
+  #demo-2 input::-webkit-input-placeholder {
+    color: #999; }
+
 h2 {
   font: bold 23px/26px "Montserrat", "Arial", "Helvetica Neue", "Helvetica", sans-serif; }
   @media (min-width: 768px) {
@@ -3169,6 +3216,7 @@ h3 {
   display: none; }
 
 #header {
+  vertical-align: middle;
   display: flex;
   background: #fff;
   z-index: 10;
@@ -3185,6 +3233,9 @@ h3 {
   margin: 0 auto; }
 
 .socials-list {
+  line-height: 20px;
+  vertical-align: middle;
+  display: inline-block;
   letter-spacing: -0.4em;
   z-index: 9;
   font: 0px "Open Sans", "Arial", "Helvetica Neue", "Helvetica", sans-serif; }
@@ -3198,7 +3249,8 @@ h3 {
     display: inline-block;
     vertical-align: top;
     padding: 0 9px;
-    letter-spacing: normal; }
+    letter-spacing: normal;
+    line-height: normal; }
   .socials-list a {
     transition: color 0.3s ease-in-out;
     color: #808285;

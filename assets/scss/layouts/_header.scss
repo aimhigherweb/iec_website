@@ -2,6 +2,7 @@
   @include media("<tablet") {
     display: none;
   }
+  vertical-align: middle;
   display: flex;
   background: $white;
   z-index: 10;
@@ -18,6 +19,11 @@
 }
 
 .socials-list {
+
+  line-height:20px;
+  vertical-align:middle;
+  display:inline-block;
+
   @extend %listreset;
 
   letter-spacing: -0.4em;
@@ -41,6 +47,7 @@
     vertical-align: top;
     padding: 0 9px;
     letter-spacing: normal;
+    line-height:normal;
   }
 
   a {
