@@ -43,3 +43,13 @@ collections:
     - {label: "Rating 3", name: "rating3", widget: "number", valueType: "int", required: false}
     - {label: "Skill 4", name: "skill4", widget: "string", required: false}
     - {label: "Rating 4", name: "rating4", widget: "number", valueType: "int", required: false}
+- name: "what-we-do" # Used in routes, e.g., /admin/collections/blog
+  label: "What We Do" # Used in the UI
+  folder: "content/what-we-do" # The path to the folder where the documents are stored
+  create: true # Allow users to create new documents in this collection
+  slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+  fields: # The fields for each document, usually in front matter
+    - {label: "Title", name: "title", widget: "string", required: false}
+    - {label: "Category", name: "category", widget: "string", required: false}
+    - {label: "Preview Image", name: "preview-image", widget: "image", required: false}
+    - {label: "Body", name: "body", widget: "markdown", required: false}
