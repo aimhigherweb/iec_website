@@ -5,14 +5,14 @@ preview-image: pattern-glare-test-2.jpg
 ---
 
 <div class="employee-heading">
-<p>Normal vision encompasses more than good eyesight. Some people find that although they can see perfectly clearly, there are specific patterns that cause visual disturbance and discomfort.<sup>1</sup> The solution is tinted lenses – colour filters which reduce perceptual discomfort and provide relief from symptoms.<sup>2</sup> Our Adelaide practice is equipped with a colorimeter that can assess what tint is best suited to reduce your symptoms. If you suspect you would benefit from tinted lenses,  <a href="/what-we-do/eye-exam">book an appointment</a> or contact us today.</p>
+<p>Normal vision involves more than just good eyesight. Some people find that although they can see perfectly clearly, there are specific patterns that cause visual disturbance and discomfort.<sup>1</sup> The solution is tinted lenses – colour filters that reduce perceptual discomfort and provide relief from symptoms.<sup>2</sup> Our Adelaide practice is equipped with a colorimeter that can assess what tint is best suited to reduce your symptoms. If you suspect you would benefit from tinted lenses,  <a href="/what-we-do/eye-exam">book an appointment</a> or <a href="/what-we-do/contact">contact us</a> today.</p>
 </div> 
 
-'Pattern glare' is a collection of symptoms which often result in visual stress (Meares-Irlen Syndrome).<sup>3</sup> It can become noticeable during tasks which involve looking at repetitive intermittent black and white lines. The most common of these scenarios is reading.
+'Pattern glare' is a collection of symptoms which often result in visual stress (Meares-Irlen Syndrome).<sup>3</sup> It can become noticeable during tasks which involve looking at repetitive intermittent black and white lines - the most common of which is reading.
 
 #### What causes pattern glare?
 
-Pattern glare is caused when repetitive striped patterns hyperexcite the visual cortex of the brain. It can be tested for using the Pattern Glare Test, which involves presenting the patient with three different pattern on a piece of card. Of these three patterns, the first has spatial frequency that is too low to produce symptoms, and the last has a spatial frequency that is too high. The second pattern has a spatial frequency of 2-5 cycles per degree visual angle, at which each stripe subtends about 10 minutes of arc. 
+Pattern glare is caused when repetitive striped patterns overexcite the visual cortex of the brain. It can be tested for using the Pattern Glare Test, which involves presenting the patient with three different pattern on a piece of card. Of these three patterns, the first has spatial frequency that is too low to produce symptoms, and the last has a spatial frequency that is too high. The second pattern has a spatial frequency of 2-5 cycles per degree, which can generate symptoms in a person with pattern glare.
 
 ![](/uploads/pattern-glare-test-2.jpg)
 
