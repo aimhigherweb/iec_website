@@ -10,11 +10,7 @@ preview-image: anterior-blepharitis.jpg
 
 ##### What causes anterior blepharitis?
 
-Blepharitis is generally caused by an over-colonisation of organisms (including bacteria and demodex mites) along the lid margin, particularly along the eyelashes and the eyelash follicles. These microbes release toxins which trigger inflammation along the eyelids, causing them to become red, swollen and crusty. The toxins also enter the eye, producing more severe symptoms. This can be an underlying cause of eye infections such as conjunctivitis. Anterior blepharitis should not be confused with posterior blepharitis or [meibomian gland dysfunction](/what-we-do/meibomian-gland-dysfunction), although these different conditions often occur together. 
-
-![](/uploads/2c8a26092c3e1d862562a5902fe449866cec15c5_blepharitis2.jpg)
-
-CAPTION: Anterior blepharitis before (left) and after (right) treatment.
+Blepharitis is generally caused by an over-colonisation of organisms (including bacteria and demodex mites) along the lid margin, particularly along the eyelashes and the eyelash follicles. These microbes release toxins which trigger inflammation along the eyelids, causing them to become red, swollen and crusty. The toxins also enter the eye, producing more severe symptoms. This can be an underlying cause of eye infections such as conjunctivitis. Anterior blepharitis should not be confused with posterior blepharitis or [meibomian gland dysfunction](/what-we-do/meibomian-gland-
 
 ##### Demodex blepharitis
 
@@ -25,10 +21,6 @@ An important cause of blepharitis is demodex - small mites that inhabit the lid 
 <br>
 
 Demodex blepharitis can be trickier to manage as the mites can be resistant to conventional blepharitis treatment. Alternative treatments involving multiple Bleph-Ex procedures using tea-tree oil, and daily lid scrubs with Blephadex Eyelid Cleanser (with a tea-tree oil component) at home over many weeks are often necessary to eradicate demodex from your lashes. Because of this, it is important to be careful with hygiene and often a tea-tree based shampoo and facial cleanser, plus regular hot washes of linen and other manchester is recommended in conjunction with your eyelid treatment to prevent re-colonisation of your lids from other parts of your body. Certain patients, including those with roseacea, are more likely to react to the demodex mites and have symptoms. Talk to your optometrist for more detail about this if they suspect demodex blepharitis.
-
-![](/uploads/8daed42bb9448ceeb2ee0e3dbb4b010489c5ae35_demodex.jpg)
-
-CAPTION: A demodex mite from a patient's eyelash seen under the mircoscope
 
 ### Treatment
 
