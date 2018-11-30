@@ -21,14 +21,14 @@ CAPTION: Image courtesy of Cerium Visual Technologies
 #### What are the symptoms of pattern glare?
 
 The most obvious symptoms of pattern glare are eye strain, headaches, and light sensitivity.<sup>4</sup> Pattern glare is particularly obvious when reading. Some symptoms that may arise during this activity include:
-   * Letters appearing to move (this can take many forms including up and down, side to side, words merging, breaking up and moving at the beginning and end of lines)
-   * Letters appearing to blue especially with closely spaced fine print
-   * Letters appearing double
-   * Letters changing size
-   * Letters changing contrast
-   * Letters or words reversing
-   * Colours or shapes appearing on the page
-   * Flickering and flashes on light on the page
+  * Letters appearing to move (this can take many forms including up and down, side to side, words merging, breaking up and moving at the beginning and end of lines)
+  * Letters appearing to blue especially with closely spaced fine print
+  * Letters appearing double
+  * Letters changing size
+  * Letters changing contrast
+  * Letters or words reversing
+  * Colours or shapes appearing on the page
+  * Flickering and flashes on light on the page
 
 #### How does colorimetry help pattern glare?
 
