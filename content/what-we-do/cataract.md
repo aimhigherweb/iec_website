@@ -20,22 +20,10 @@ preview-image: cataract.jpg
 ##### Nuclear sclerotic cataracts
 This type of cataract is often age related and causes a yellowing of the normally clear lens. It can often cause your prescription to shift in a short-sighted direction, necessitating updates to your spectacles.
 
-![](/uploads/nuclear-cataract.jpg)
-
-CAPTION: A nuclear sclerotic cataract showing the characteristic 'brunescence' or yellowing of the lens.
-
 ##### Cortical cataracts
-
-![](/uploads/cataract-retroillumination.jpg)
-
-CAPTION: Light shining back through a cortical cataract showing the 'spokes' extending centrally.
 
 ##### Posterior sub-capsular cataracts
 These are cataracts located at the back surface of the lens. Because of their location even a mild cataract can cause a large loss of vision. Often these are the result of previous surgery or eye trauma. They often tend to be the fastest growing cataract. 
-
-![](/uploads/posterior-subcapsular-cataract.jpg)
-
-CAPTION: A posterior sub-capsular cataract.
 
 #### Cataract treatment and prevention
 
