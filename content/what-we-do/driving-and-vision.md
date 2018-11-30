@@ -3,16 +3,15 @@ title: Driving and Vision
 category: refractive-conditions
 preview-image: landscape-driving.jpg
 ---
-
 <div class="employee-heading">
-<p>Driving is a skill that is reliant on good vision. Book an eye test with an optometrist at our Adelaide or Woodville branch to ensure your vision can accommodate safe and comfortable driving.</p>
+<p>Driving is a skill that is reliant on good vision. Book an eye test with an optometrist at our Adelaide or Woodville branch to ensure your vision can accommodate safe and comfortable driving.</p><p>The majority of decisions we make behind the wheel are influenced by what our eyes can see on the road, and this depends on a number of factors.</p>
 </div> 
 
-The majority of decisions we make behind the wheel are influenced by what our eyes can see on the road, and this depends on a number of factors.
+
 
 #### Distance acuity
 
-This is probably the most important visual skill for driving. Distance acuity is the ability to focus and see clearly at far distances. Even the simplest reactions in driving take at least 0.4 seconds. If your distance acuity is poor, you might not see a stop sign until you are almost on it—and you may not have 0.4 seconds in which to react. Seeing debris on the road surface or spotting someone planning to cross the road in front of you is also dependent on your visual acuity. The faster you travel, the less time you have available to react to what you see. 
+This is probably the most important visual skill for driving. Distance acuity is the ability to focus and see clearly at far distances. Even the simplest reactions in driving take at least 0.4 seconds. If your distance acuity is poor, you might not see a stop sign until you are almost on it—and you may not have 0.4 seconds to react. Seeing debris on the road surface or spotting someone planning to cross the road in front of you is also dependent on your visual acuity. The faster you travel, the less time you have available to react to what you see. 
 
 Having your glasses or contact lenses working well will give you the best chance of seeing everything clearly on the roads. If you need your contact lenses or spectacles to meet this standard you should wear these at all times when driving. Drivers with a normal personal license need to see the 6/12 line of letters with both eyes open, meaning that if you have a weaker eye, you may still pass the standard. Commercial drivers have a stricter standard and need to see well to the 6/9 line with both eyes individually. 
 
@@ -52,14 +51,14 @@ If glare becomes more problematic then shielding your eyes from light during the
 
 An illustration to show how a spectacle lens with an anti-reflective coating (right) can reduce glare at night.
 
-# Some recommendations from Innovative Eye Care for safe driving:
+#### Some recommendations from Innovative Eye Care for safe driving:
 
-  * Have your vision examined regularly, with special attention to the needs of driving.
-  * If spectacles have been prescribed for driving, make sure you wear them.
-  * If you are troubled by glare, minimise your night driving and look into sunglass options for the daytime.
-  * Compensate for poor field of vision by making good use of offside and rear -view mirrors and by turning your head to see objects at the side.
-  * If your depth perception is inadequate, take extra care when passing other cars.
-  * Remove objects from your rear-view mirror and ensure that it is correctly adjusted.
-  * Ensure that your windows are clean and free from scratches or pitting that can increase glare.
-  * Check headlights periodically, so that they provide maximum light, with each beam properly positioned.
-  * Slow down. Most vision problems are accentuated by high speed.
+* Have your vision examined regularly, with special attention to the needs of driving.
+* If spectacles have been prescribed for driving, make sure you wear them.
+* If you are troubled by glare, minimise your night driving and look into sunglass options for the daytime.
+* Compensate for poor field of vision by making good use of offside and rear -view mirrors and by turning your head to see objects at the side.
+* If your depth perception is inadequate, take extra care when passing other cars.
+* Remove objects from your rear-view mirror and ensure that it is correctly adjusted.
+* Ensure that your windows are clean and free from scratches or pitting that can increase glare.
+* Check headlights periodically, so that they provide maximum light, with each beam properly positioned.
+* Slow down. Most vision problems are accentuated by high speed.
