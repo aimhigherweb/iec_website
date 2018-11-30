@@ -12,6 +12,4 @@ The BlephEx procedure involves your optometrist using a handpiece to precisely s
 
 Typically patients find that they have good relief from their blepharitis following the treatment and can manage their symptoms more easily with their home therapies. In most cases, patients prefer to have the procedure repeated every 6 - 12 months to continue their relief. 
 
-![](/uploads/blephex-before-after.jpg)
-
 The BlephEx tool is an important component of our management for patients with [demodex blepharitis](/what-we-do/blepharitis). Mites can be tricky to eradicate and some patients require multiple treatments with diluted tea-tree oil to control the mite population in their lashes.
