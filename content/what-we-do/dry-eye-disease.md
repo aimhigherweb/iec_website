@@ -10,7 +10,7 @@ preview-image: dry-eye.jpg
 <h4>• <a href="/what-we-do/blepharitis">Blepharitis</a></h4>
 <h4>• <a href="/what-we-do/meibomian-gland-dysfunction">Meibomian Gland Dysfunction</a></h4>
 <h4>• <a href="/what-we-do/blephex">Blephex</a></h4>
-<h4>• <a href="/what-we-do/ipl">IPL \[Intense Pulse Light]</a></h4>
+<h4>• <a href="/what-we-do/ipl">IPL (Intense Pulse Light)</a></h4>
 <h4>• <a href="/what-we-do/punctal-plugs">Punctal Plugs</a></h4>
 <h4>• <a href="/what-we-do/eye-drops">Eye Drops</a></h4></p>
 </div>
