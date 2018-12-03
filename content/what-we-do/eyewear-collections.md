@@ -25,9 +25,11 @@ preview-image: prodesign-advertisement.jpg
 <tr>
 <th colspan = 4><a href="/what-we-do/lightec"><img src="8.jpg" border=3 height=500 width=500></img></a></th>
 <th colspan = 4><a href="/what-we-do/kensie"><img src="9.jpg" border=3 height=500 width=500></img></a></th>
-<th colspan = 4><a href="/what-we-do/stepper"><img src="stepper-logo-8bab0caf14-seeklogo.com.png" border=3 height=500 width=500></img></a></th>
+<th colspan = 4><a href="/what-we-do/stepper"><img src="/uploads/stepper-logo-8bab0caf14-seeklogo.com.png" border=3 height=500 width=500></img></a></th>
 </tr>
 </table>
+
+![](/uploads/stepper-logo-8bab0caf14-seeklogo.com.png)
 
 <br>
 
