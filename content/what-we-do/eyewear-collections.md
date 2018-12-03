@@ -13,23 +13,23 @@ preview-image: prodesign-advertisement.jpg
 <table>
 <table border = 5 bordercolor = black align = center>
 <tr>
-<th colspan = 4><a href="/what-we-do/eyewear-experts-lindberg"><img src="1.png" border=3 height=500 width=500></img></a></th>
-<th colspan = 4><a href="/what-we-do/face-a-face"><img src="2.jpg" border=3 height=500 width=500></img></a></th>
+<th colspan = 4><a href="/what-we-do/eyewear-experts-lindberg"><img src="/uploads/lindberg.png" border=3 height=500 width=500></img></a></th>
+<th colspan = 4><a href="/what-we-do/face-a-face"><img src="/uploads/faceafacelogo.png" border=3 height=500 width=500></img></a></th>
 <th colspan = 4><a href="/what-we-do/prodesign"><img src="3.png" border=3 height=500 width=500></img></a></th>
 </tr>
 <tr>
 <th colspan = 4><a href="/what-we-do/john-lennon"><img src="4.jpg" border=3 height=500 width=500></img></a></th>
 <th colspan = 4><a href="/what-we-do/dana-buchman"><img src="5.jpg" border=3 height=500 width=500></img></a></th>
-<th colspan = 4><a href="/what-we-do/nicola-finetti"><img src="7.png" border=3 height=500 width=500></img></a></th>
+<th colspan = 4><a href="/what-we-do/nicola-finetti"><img src="/uploads/nicola-finetti.png" border=3 height=500 width=500></img></a></th>
 </tr>
 <tr>
-<th colspan = 4><a href="/what-we-do/lightec"><img src="8.jpg" border=3 height=500 width=500></img></a></th>
-<th colspan = 4><a href="/what-we-do/kensie"><img src="9.jpg" border=3 height=500 width=500></img></a></th>
+<th colspan = 4><a href="/what-we-do/lightec"><img src="/uploads/lightec.png" border=3 height=500 width=500></img></a></th>
+<th colspan = 4><a href="/what-we-do/maze"><img src="/uploads/maze-logo.png" border=3 height=500 width=500></img></a></th>
 <th colspan = 4><a href="/what-we-do/stepper"><img src="/uploads/stepper-logo-8bab0caf14-seeklogo.com.png" border=3 height=500 width=500></img></a></th>
 </tr>
 </table>
 
-![](/uploads/stepper-logo-8bab0caf14-seeklogo.com.png)
+![]()
 
 <br>
 
