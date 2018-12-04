@@ -91,8 +91,6 @@ Myovision spectacle lenses are specially designed for controlling myopia but stu
 
 Apart from active interventions, there is also sufficient evidence for the modification of lifestyle factors of time spent on near work and time spent outdoors. Less near work, or more regular breaks plus more time outdoors in natural light are protective against eye length growth.
 
-![](/uploads/impact-of-myopia-and-high-myopia-23-638.jpg)
-
 There is an excellent website by Richard Anderson ([myopiaprevention.org](http://www.myopiaprevention.org)) which explains in detail all aspects of myopia control with the relevant research included.
 
 Axial eye length is the best metric of risk and progression for myopia. It has the with the least variability and directly relates to the disease processes that myopia can create. If you are concerned about your child’s eyes becoming progressively short-sighted, please contact our friendly team to arrange a consultation with one of our optometrists to discuss their myopia and what may be done to arrest this progression.
