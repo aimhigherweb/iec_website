@@ -11,10 +11,6 @@ preview-image: myopia-vision-final.jpg
 
 There is currently no cure for myopia, but [spectacles](/what-we-do/glasses), [contact lenses](/what-we-do/contact-lenses), [orthokeratology](/what-we-do/orthokeratology-corneal-reshaping) and refractive surgery can all provide good distance vision for people with this condition. Due to the structural change to the eye, myopia increases the risk of ocular disease such as [retinal detachment](/what-we-do//what-we-do/flashes-floaters-retinal-tear-detachment), [cataract](/what-we-do/cataract) and [glaucoma](/what-we-do/glaucoma) later in life.
 
-![](/uploads/myopia.jpg)
-
-CAPTION: Light is focused in front of the retina in a myopic person
-
 #### How can I tell if I am shortsighted?
 
 Shortsighted people have difficulty seeing distant objects clearly. They find it hard to read road signs and scoreboards and to play ball games, and recognising people in the distance may also be a problem. Often a person will not realise that they cannot see clearly until they have an eye examination.
@@ -31,8 +27,6 @@ A complete eye test is the only sure way of determining whether your child's vis
   * Difficulty reading the blackboard at school
   * Sitting close to the screen when watching television
   * Lack of interest in playing outdoor games
-
-
 
 #### What causes myopia?
 
