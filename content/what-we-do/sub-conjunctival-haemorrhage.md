@@ -14,14 +14,6 @@ preview-image: sub-conjunctival-haemorrhage.jpg
 
 A sub-conjunctival haemorrhage occurs when one of the small blood capillaries under the conjunctiva – the thin layer of clear tissue on the surface of the eye – has a small leak. Even though it is only a small quantity of blood, it spreads under the conjunctiva and looks very alarming. Often patients are not aware of the bleed until they see themselves in the mirror!
 
-![](/uploads/red-eye.jpg)
-
-CAPTION: A sub-conjunctival haemorrhage at the top of someone's eye that might be difficult to see given it's position under the top lid.
-
 In most patients these sub-conjunctival haemorrhages occur by chance and have no underlying cause. Heavy lifting or vomiting can cause them to occur, however, and certain blood-thining medications or blood conditions such as anaemia can make you more likely to have one. Other more serious conditions can cause a similar appearance in the eye, so the presence of one should prompt a check by your optometrist, especially if there is pain or loss of vision.
 
 A sub-conjunctival haemorrhage does not require treatment and will naturally heal itself, like a bruise, in 1-2 weeks. The blood may discolour or settle towards the bottom of the eye during this time.
-
-![](/uploads/red-eye-healed.jpg)
-
-CAPTION: A sub-conjunctival haemorrhage healing over the course of a week.
