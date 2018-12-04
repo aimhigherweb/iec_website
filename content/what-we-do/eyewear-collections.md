@@ -13,7 +13,7 @@ preview-image: prodesign-advertisement.jpg
 <table>
 <table border = 5 bordercolor = black align = center>
 <tr>
-<th colspan = 4><a href="/what-we-do/eyewear-experts-lindberg"><img src="/uploads/" border=3 height=500 width=500></img></a></th>
+<th colspan = 4><a href="/what-we-do/eyewear-experts-lindberg"><img src="/uploads/lindberg.png" border=3 height=500 width=500></img></a></th>
 <th colspan = 4><a href="/what-we-do/face-a-face"><img src="/uploads/faceafacelogo.png" border=3 height=500 width=500></img></a></th>
 <th colspan = 4><a href="/what-we-do/prodesign"><img src="/uploads/prodesign-logo.jpg" border=3 height=500 width=500></img></a></th>
 </tr>
@@ -25,7 +25,7 @@ preview-image: prodesign-advertisement.jpg
 <tr>
 <th colspan = 4><a href="/what-we-do/lightec"><img src="/uploads/lightec.png" border=3 height=500 width=500></img></a></th>
 <th colspan = 4><a href="/what-we-do/maze"><img src="/uploads/maze-logo.png" border=3 height=500 width=500></img></a></th>
-<th colspan = 4><a href="/what-we-do/stepper"><img src="/uploads/" border=3 height=500 width=500></img></a></th>
+<th colspan = 4><a href="/what-we-do/stepper"><img src="/uploads/stepper-logo-8bab0caf14-seeklogo.com.png" border=3 height=500 width=500></img></a></th>
 </tr>
 </table>
 
