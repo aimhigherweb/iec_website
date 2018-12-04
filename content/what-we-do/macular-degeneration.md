@@ -40,14 +40,6 @@ When your optometrist examines your eyes they will be able to tell you if you ha
 
 The technology available at Innovative Eye Care, including [retinal photography](/what-we-do/retinal-photography) and [OCT scans](/what-we-do/oct), are very useful to diagnose and monitor the changes associated with ARMD.
 
-![](/uploads/age-related-macular-degeneration-hard-drusen.jpg)
-
-CAPTION: Typical appearance of mild drusen (yellow speckles) seen with retinal photography (early ARMD)
-
-![](/uploads/oct-drusen.bmp)
-
-CAPTION: Optical Coherence Tomography showing build-up of mild drusen under the macula (early ARMD)
-
 # What is the treatment for ARMD?
 
 #### Dry ARMD Treatment
@@ -63,10 +55,6 @@ If there is fluid or blood beneath or within the retina, early detection is key 
 CAPTION: Amsler Grid used to test for the onset of wet ARMD
 
 If wet ARMD is diagnosed by your optometrist, injections from an eye surgeon are often required to decrease the growth of new vessels within the eye. With time, this helps stop the swelling, and in most cases returns the vision to a reasonable level.
-
-![](/uploads/age-related-macular-degeneration-wet-oct.jpg)
-
-CAPTION: A case of wet ARMD showing swelling at the macula in the retinal photograph and this retina in cross-section on the coloured Optovue OCT images
 
 # What happens after ARMD starts affecting my vision?
 
