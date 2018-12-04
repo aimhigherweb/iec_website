@@ -16,17 +16,9 @@ preview-image: pterygium.png
 
 A pterygium is most commonly found on the nasal side of the cornea and represents a 'wing' (_ptery_ is wing in Latin) of degenerated conjunctival tissue.<sup>3</sup> A pterygium may be small with minimal symptoms or grow large enough to interfere with vision by obstructing the pupil. It can also distort the cornea, leading to astigmatism which will also interfere with vision. Where the vision is significantly affected, they can be removed with surgery, although there is a risk the pterygium may grow back.<sup>3</sup>
 
-![](/uploads/93fef32806e69f1288f332889f0f54b7e2d90d93.jpg)
-
-CAPTION: A small pterygium underneath a soft contact lens
-
 #### What is a pingueculum?
 
 Pinguecula are very common, affecting over half of eyes in sunny climates and most often occur in the visible white of the eye, adjacent to the edge of the cornea.<sup>1,2</sup> They are often raised areas of abnormal conjunctival tissue that are generally slow to develop. Occasionally they can become inflamed - due to their raised shape they are the first part of the eye to dry out and are prone to frictional forces from the lids. Lubrication and sometimes therapeutic intervention is required.<sup>4</sup>
-
-![](/uploads/3f1c00dbf7d7922decffe6c5f5433f9407cadf40.jpg)
-
-CAPTION: A small, reasonably uninflammed pingueculum.
 
 <b>References</b>
 
