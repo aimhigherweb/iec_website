@@ -7,9 +7,7 @@ preview-image: myopia-control-1.jpg
 <div class="employee-heading">
 <p>Myopia, or shortsightedness, is increasing around the world, with many calling it an epidemic. A more urbanised, more educated and more screen based society seem to be the primary drivers for the increase in short sighted eyes. The adaptations of the eye to focus at nearer objects not only reduces distance vision and requiring glasses or contact lenses, but it also increases the risk of irreversible eye disease. If you would like to know more about the treatment options we offer here at Innovative Eye Care to slow the progression of myopia, <a href="/what-we-do/eye-exam">book an appointment</a> or find out more by giving our friendly staff a call.</p>
 
-<img src="myopia-prevalence-over-time.png">
-
-<h1><a href="https://mykidsvision.org/" target="_blank">Assess My Child's Myopia Risk Here</a></h1>
+<h4><a href="https://mykidsvision.org/" target="_blank">Assess My Child's Myopia Risk Here</a></h4>
 
 </div>
 
@@ -27,8 +25,6 @@ The prevalence varies with some groups of people seem to be developing more myop
 
 #### How does myopia affect the eye?
 
-![](/uploads/images.jfif)
-
 Myopia causes with the lengthening of the eye and this lengthening happens as a result of stretching of the tissue of the eye, not eye growth. Myopia can start to develop at any age but the younger the start, the more aggressive the progression of myopia and eye lengthening tends to be. High myopes will be highly dependent on more expensive, heavy, high-powered glasses or contact lenses for any visual tasks. They may also have to keep updating their prescription lenses each year as their eye becomes more shortsighted. 
 
 #### What are the associated risks of myopia?
@@ -39,7 +35,7 @@ Historically, low myopia was considered as normal variation of the eye, a harmle
 
 For this model to be valid, there should be a cutoff under which the degree of myopia has an acceptably low level of risk for eye disease, but this does not appear to happen. Any magnitude of myopia carries significant increased risk of permanent, uncorrectable vision loss compared to a non-myopic eye.
  
-How bad are the risks, even just for low myopia?
+#### How bad are the risks, even just for low myopia?
 
 “Myopia in the so-called ‘physiological range’ represents a major risk factor for ocular disease that is comparable with the risks associated with hypertension for cardiovascular disease or with the risks of stroke from smoking more than 20 cigarettes per day.“ (Flitcroft)
 
@@ -47,19 +43,11 @@ How bad are the risks, even just for low myopia?
 
 These conditions are far from rare: myopia maculopathy, a progressive condition causing breakdown of retinal cells, is the forth most common cause of visual impairment in the UK, ahead of diabetic eye disease.
 
-![](/uploads/odds-ratios-of-pathology-risk-with-increasing-myopia-summarised-from-flitcroft-2012.png)
-
-From: Flitcroft
-
 An important concept to re-iterate is that while the risks of eye disease later in life are present for any degree of myopia, the higher the amount of myopia, the higher the risk. An Australian study showed myopes of above -5D had a myopic retinopathy prevalence 60 times that of lower myopes. The lifetime chance of a retinal detachment in patients with more than -5D of myopia is around 5% compared to 0.3% for the general population. If we can stop the progression of myopia into these high levels then a significant amount of blindness can be prevented. Studies suggest that even a modest reduction in the rate of myopia of 33 % could produce a 73 % reduction in myopia above 5.00 D.
 
 #### Case study: Alex Petty
 
 The personal case of one of our previous optometrists, Alex Petty, highlights why myopia control is so important. Alex developed myopia at the age of 9. This progressed throughout his teenage years, eventually stabilising at a high -7.50D in each eye. As a result, Alex suffered two retinal detachments in his left eye in 2009 and another in 2014 in his right. Fortunately through timely surgery, these were able to be repaired with only slight vision loss. If Alex had access to myopia control treatments when he was a teenager, it is unlikely his prescription would have worsened as quickly and these ocular emergencies might have been prevented. His experience has fueled a passion to treat young people with myopia and prevent eye disease later in their lives. 
-
-![](/uploads/alex-retinal-damage.jpg)
-
-CAPTION: The appearance of Alex's eye after his retinal detachment surgery (left) and some of the retinal scar left after surgery in Alex's eye (right). This peripheral part of his vision is now permanently blind.
 
 #### How can myopia be controlled?
 
@@ -69,15 +57,7 @@ CAPTION: The appearance of Alex's eye after his retinal detachment surgery (left
 
 Prescribing standard spectacle lenses or contact lenses will do nothing to halt the lengthening of the eye. As a result, the patient will require frequent spectacle lens updates and will be put at risk of sight-threatening disease in the future. Unfortunately, the lengthening of the eye which causes myopia cannot be reversed, making it critical to control myopia sooner rather than later. 
 
-![](/uploads/1-s2.0-s0161642015013561-gr3.jpg)
-
-From Huang et al 2016
-
 The good news is, there is convincing evidence that certain treatments can slow and even halt the progression of myopia. [Orthokeratology](/what-we-do/orthokeratology-corneal-reshaping) and topically administered atropine drops have been shown to be the two most effective tools currently available to control myopia. These options have different pros and cons, so it is necessary to determine an appropriate treatment plan with your optometrist. Other treatment options do exist, though they do not show the same level of myopia control. 
-
-![](/uploads/myopia-control-graph.jpg)
-
-CAPTION: Myopia control can slow progression by 50% and lower the risk of blindness
 
 #### Innovative Eye Care's myopia control treatment options
 
