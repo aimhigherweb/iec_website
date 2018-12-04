@@ -19,7 +19,3 @@ Today at Innovative Eye Care we fit just as many patients into hyperopic ortho-K
 ![](/uploads/hyperopic-ok.jpg)
 
 CAPTION: A well-fitting hyperopic ortho-K lens
-
-![](/uploads/hyperopic-orthok-topo.jpg)
-
-CAPTION: A before and after topography on someone using hyperopic ortho-K lenses. The centre of the cornea has become signifcantly more curved (red) to correct this person's refractive error.
