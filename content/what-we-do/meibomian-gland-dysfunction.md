@@ -12,16 +12,7 @@ preview-image: mgd-expression.jpg
 
 When the meibomian glands number about 25 to 30 and normally slowly release oil into the tear film. This oil/lipid helps to stop the watery component of the tears from evaporating, thus helping to prevent dry eyes.
 
-![](/uploads/meibomianglanddysfunction.jpg)
-
-CAPTION: Figure 1: Meibomian Glands
-
-
 Severe blockage can lead to much enlarged glands (a cyst) or even infection. It is therefore important to firstly unclog the blocked glands, and secondly prevent them from blocking up again - as much as possible.
-
-![](/uploads/eye-heat-packs.jpg)
-
-CAPTION: Examples of heated eye bags used for MGD compresses. They are filled with wheat or Bruder medibeads.
 
 ## At home Meibomian Gland Expression
 
@@ -31,11 +22,7 @@ The first step in unblocking the glands is to liquefy the thickened oil in them.
 
 CAPTION: Figure 2: Liquefying the thickened oil with a heated wheat bag
 
-After liquefying the oils with this warming, place your index finger on your cheek and press firmly at the edge of the lower lid, rolling your finger upwards to ‘milk’ the gland and empty its contents out of the lid (Fig 3). The picture below shows this technique. 
-
-![](/uploads/b857d56aa9b25bfbedf557dffee35bddf11a20f4_mgd-lid-massage.jpg)
-
-CAPTION: Figure 3: Emptying the glands
+After liquefying the oils with this warming, place your index finger on your cheek and press firmly at the edge of the lower lid, rolling your finger upwards to ‘milk’ the gland and empty its contents out of the lid. The picture below shows this technique. 
 
   * Repeat this process few times across the entire lower eyelid, then the upper eyelid. 
   * Repeat the entire procedure for the other eye.
@@ -60,18 +47,12 @@ There are several therapeutic options which are useful in MGD management:
 
   * **Systane Balance** eye drops have been formulated to provide relief for MGD patients. These drops have an oil component that helps to stabilise the lipid layer of the tear film and prevent evaporation. They can be used twice a day or when required, for up to 6 months after the bottle is opened. 
 
-
-
 ![](/uploads/1ccff44a8a3d760484093ef11ed8cc5c96e3579d_systanebalance.jpg)
 
   * **Optimel** is an ophthalmic ointment derived from antibacterial manuka honey. In MGD there is often an overgrowth of natural bacterial flora which affects meibomian gland secretions. Using this new product can decrease the overgrowth and restore normal meibomian gland function. Recommended dosage is a small 2mm amount placed under the bottom lid three times a day. Due to its nature, Optimel is preservative free. Be aware that it does sting a little on insertion! The eye drop form of optimel has a lower concentration of the active component, but it does sting a little less! Find [Optimel Antibacterial Manuka Eye Drops at our shop.](http://eyesolutions.com.au/collections/dry-eye-treatments/products/optimel-antibacterial-manuka-eye-drops)
 
-
-
 ![](/uploads/2b7a8b49d853a7873add2307bb41fcf292ea1e22_80_optimel_.jpg)
 
   * **Oral antibiotics**, such as doxycycline, used at a low dosage (50mg a day) in conjunction with your GP have been show to have an anti-inflammatory effect which helps MGD patients improve their gland function. Oral antibiotics are generally only reserved for moderate to severe forms of the conditions that do not respond to other treatments. Ask your optometrist if you need oral antibiotics for your MGD before commencing treatment.
-
-
 
 There are constant updates in the field of MGD research and treatments. Be sure to ask your optometrist if you have any questions about your recommended treatment.
