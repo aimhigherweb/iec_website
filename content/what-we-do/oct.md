@@ -27,21 +27,13 @@ CAPTION: A 3D OCT scan of a healthy retina.
 
 Together with the visual field information, your optometrist can assess the structure and function of your retina and peripheral vision with increased accuracy of diagnosis. These features are especially beneficial for providing a more complete picture of glaucoma management and can impart better education and understanding for you, the patient.
 
-![](/uploads/structure-function-integration-2-uk-int.jpg)
-
-CAPTION: The ‘Structure-Function’ map of the Spectralis OCT + Heidelberg Edge Perimeter (Visual Field Test).
-
-# OCT and posterior eye disease
+#### OCT and posterior imaging
 
 OCT is particularly useful to scan the layers of the retina to look for subtle and sometimes not-so-subtle eye disease. Signs such as swelling of the retina, traction from membranes, loss of photoreceptors due to atrophy and intraretinal bleeding can all be seen in retinal scans. OCT enables easier diagnosis of potentially sight-threatening conditions, can help to monitor conditions like [macular degeneration](/what-we-do/macular-degeneration) and [diabetic retinopathy](/what-we-do/diabetes-and-the-eye), speed up a referral to a specialist, and facilitate effective management of many eye conditions. OCT is also useful for examining the optic nerve for early signs of [glaucoma](/what-we-do/glaucoma) and other optic neuropathies.
 
-![](/uploads/oct-adelaide-age-related-macula-degeneration.jpg)
-
-CAPTION: OCT of an eye with Age Related Macula Degeneration
-
 At Innovative Eye Care we recommend every patient over the age of 50 should have a baseline OCT scan done of their retina so that we have a reading to compare future results with, should the eye change. Patients should be aware that an OCT scan does not attract a Medicare rebate and extra charges may apply for this service (we are happy to offer this at 50% off for pensioners and students). Please see [this page](/what-we-do/eye-exams) for billing information.
 
-# OCT and anterior imaging
+#### OCT and anterior imaging
 
 OCT has primarily been used by optometrists and ophthalmologists in the examination of the posterior pole, macula and optic nerve head. As OCT becomes a more regular feature in optometry practices, more equipment suppliers are bringing new models to our shores. Many of the latest OCT machines, although primarily designed for imaging the posterior segment, are capable of both anterior and posterior eye segment imaging.
 
@@ -53,15 +45,7 @@ With the ability to image the cornea, limbus, sclera, anterior chamber and conta
 
 OCT can be used for the examination and imaging of thickness and fitting characteristics of [soft contact lenses](/what-we-do/soft-contact-lenses), in particular high plus, high minus and toric lenses. Soft contact lens edge profiles can be assessed and lens-edge interactions with the sclera accurately visualised to better understand how the lens fits on the eye. Lens thicknesses can also be visualised and assessed, as well as the presence and degree of any prism ballasts used to stabilise toric lenses on the eye. 
 
-![](/uploads/oct_scl_prismballast-1.png)
-
-CAPTION: OCT of soft lens showing edges and the thicker ballast used to stabilise toric lenses.
-
 In bespoke contact lens modalities such as [RGP](/what-we-do/gas-permeable-contact-lenses), [ortho-K](/what-we-do/orthokeratology-corneal-reshaping), and [scleral](/what-we-do/scleral-contact-lenses), OCT imaging adds another dimension to the examination, specification, and management. Rather than solely using keratometry data, many lens designs use sagittal height to calculate lens measurements. While biomicroscope techniques and [corneal topography](/what-we-do/corneal-topography) can calculate corneal sagittal height and anterior chamber depths with reasonable accuracy, OCT can do much more with higher resolution examination and increased measurement accuracy. Even epithelial thickness can be monitored as it is molded in [ortho-K](/what-we-do/orthokeratology-corneal-reshaping) treatment.
-
-![](/uploads/oct-scleral.jpg)
-
-CAPTION: A thinned cornea of a patient with advanced keratoconus with their new rigid scleral lens vaulting over the fragile tissue.
 
 Conditions where anterior OCT is useful in optometry practice include [keratoconus](/what-we-do/keratoconus), [corneal graft](/what-we-do/corneal-grafts), pellucid marginal corneal degeneration, recurrent corneal erosion, epithelial basement membrane dystophy, Salzmann's nodular corneal degeneration, pterygium and pingueculum. OCT also allows better management of contact lens complications and differential diagnosis of corneal abrasion, [microbial keratitis](/what-we-do/keratitis), and other corneal pathologies.
 
