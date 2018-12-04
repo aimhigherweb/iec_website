@@ -3,11 +3,8 @@ title: MAZE
 category: 'eyewear-experts]'
 ---
 <div class="employee-heading">
-</div>
-
-# MAZE Eyewear
-
 The MAZE designers take the latest trends and put a MAZE spin on them, ensuring a frame that is fashionable, wearable and affordable. It’s runway style at street savvy prices.
+</div>
 
 ##### Why we love MAZE
 
