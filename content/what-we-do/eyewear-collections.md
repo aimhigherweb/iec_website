@@ -18,7 +18,7 @@ preview-image: prodesign-advertisement.jpg
 <th colspan = 4><a href="/what-we-do/prodesign"><img src="/uploads/prodesign-logo.jpg" border=3 height=500 width=500></img></a></th>
 </tr>
 <tr>
-<th colspan = 4><a href="/what-we-do/john-lennon"><img src="/uploads/johnlennon_logo_blk.png" border=3 height=500 width=500></img></a></th>
+<th colspan = 4><a href="/what-we-do/john-lennon"><img src="/uploads/j" border=3 height=500 width=500></img></a></th>
 <th colspan = 4><a href="/what-we-do/dana-buchman"><img src="/uploads/danabuchman_brandlogo.png" border=3 height=500 width=500></img></a></th>
 <th colspan = 4><a href="/what-we-do/nicola-finetti"><img src="/uploads/nicola-finetti.png" border=3 height=500 width=500></img></a></th>
 </tr>
