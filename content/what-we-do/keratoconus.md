@@ -9,24 +9,11 @@ preview-image: keratoconus.jpg
 <p>Keratoconus management is often reliant on early detection. If you are interested in making an <a href="/what-we-do/eye-exam">appointment</a>, please contact us for more information.</p>
 </div>
 
-![](/uploads/corneal-topography-keratoconus.png)
-
-CAPTION: A [corneal topography](/what-we-do/corneal-topography) of a right and left eye in a patient with keratoconus. Note the size and position of the "cone" (displayed by the red colour).
-
 Keratoconus has been researched thoroughly and the findings of the past 20 years have enormously increased our understanding of the nature of the condition which allows us to better diagnose, treat and manage individual cases. The condition involves progressive thinning of the cornea (the front surface of the eye), causing the surface to protrude forward, giving the disease its name ("<i>keras</i> "meaning cornea, and "<i>konos</i>" meaning cone). With increased severity, the amount of protrusion increases and so too does the irregularity of the otherwise smooth and regular cornea.<sup>1</sup> Due to the progressive nature of keratoconus, early detection is important to ensure the appropriate management is undertaken. <sup>2</sup>
-
-![](/uploads/side-profile-of-keratoconus-1.jpg)
-
-CAPTION: A side profile of an eye with keratoconus. Note the protrusion, and bulging of the inferior cornea. *Image courtesey of [Lachlan Hoy](/who-we-are/lachlan-hoy) using the digital biomicroscopy*
 
 <div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--[if IE]><iframe frameborder="0" type="text/html" src="https://2689-2347.captiv8online.com/animations/embed/one/t-to-o-u?player_width=100%&player_height=100%&site_company_language=34&autostart=false" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><![endif]--><!--[if !IE]> <--><object data="https://2689-2347.captiv8online.com/animations/embed/one/t-to-o-u?player_width=100%&player_height=100%&site_company_language=34&autostart=false" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://2689-2347.captiv8online.com/animations/embed/one/t-to-o-u?player_width=100%&player_height=100%&site_company_language=34&autostart=false">Keratoconus: What is it?</a></object><!--> <![endif]--></div>
 
 <br>
-
-
-![](/uploads/keratoconus-rgp.jpg)
-
-CAPTION: A well fitted rigid contact lens on a keratoconic eye. In order to fit the patient's cornea better there is a steeper part of the lens at 6 o'clock shown by the 'MUD' inscription.
 
 # How common is keratoconus?
 
@@ -34,16 +21,11 @@ The older, most frequently cited conjectured prevalence of keratoconus was estim
 
 # How is keratoconus diagnosed?
 
-
 Unfortunately, being a multifactorial disease, onset and progression is extremely variable between different people, and even between different eyes of the same person. Keratoconus is very unpredictable and can progress rapidly over a short period of time, before stabilising for months or years, then progressing again.<sup>14</sup>
 
 #### Slit lamp biomicroscopy
 
 Microscopy of the front surface of the eye conveys the shape and thickness of the corneal surface.
-
-![](/uploads/normal-and-kcs-cornea-cross-section.jpg)
-
-CAPTION: Slit lamp biomicroscopy of normal cornea and keratoconic cornea
 
 The above images show a normal, regular cornea on the left and a keratoconic cornea on the right. Note the forward protrusion of the cornea in the keratoconic eye, with a notable thinning of the cornea compared to the normal eye.
 
@@ -53,15 +35,7 @@ As well as corneal shape and thickness, there are a number of other findings vis
 
 Corneal topography is a non-invasive way to measure the contours and shape of the cornea. It is the 'gold standard' in diagnosing and assessing keratoconus.<sup>16</sup> Topographers work by shining concentric rings of light on the cornea and assessing what is reflected back. If the cornea is even and regular, the rings are reflected back evenly as well.
 
-![](/uploads/normal-topos-mires.jpg)
-
-CAPTION: Corneal topography of normal cornea
-
 The above images are the topographical results of a relatively normal cornea. Note the regular rings on the left image and the fairly concentric and uniform coloured contour maps on the right image. Areas of yellow represent areas that are more curved on the eye. These images portray a regular cornea with no distortions or irregularities.
-
-![](/uploads/keratoconus-topos-and-mires.jpg)
-
-CAPTION: Corneal topography of keratoconic cornea
 
 In contrast, these images are results from a topography taken of a significantly keratoconic eye. Note the distorted and compressed rings on the image on the left. The coloured contour maps of the same eye show a much darker red area over the centre of the eye, conveying the protrusion or ‘cone’ of the cornea. This is significant to vision quality as the distorted surface is within the pupil zone (the black circle).
 
@@ -69,23 +43,11 @@ In contrast, these images are results from a topography taken of a significantly
 
 The OCT is an invaluable tool that allows practitioners to assess different layers of the eye as high-definition cross-sectional scans. This device was initially used to diagnose and manage macular degeneration and glaucoma at the back of the eye. More recent advancements in technology have enabled us to utilise the precision of these scans for assessment of the front portion of the eye: the cornea.
 
-![](/uploads/kcs-oct.jpg)
-
-CAPTION: OCT of keratoconus with a scleral contact lens above. Normal corneal thickness is 550 microns. This cornea is singificantly thinner at 291 microns.
-
 Due to the highly detailed images taken with an OCT, the different layers of the cornea are visible, as well as their configuration as the cornea protrudes forward (as shown above). As keratoconic eyes exhibit an overall thinning of the cornea at and around the cone, these layers are able to be measured and quantified to better monitor disease progression.
-
-![](/uploads/scleral-oct-background.jpg)
-
-CAPTION: OCT of keratoconus with a scleral contact lens.
 
 The OCT also helps us assess the relationship between contact lenses and the eye, to achieve the most ideal, comfortable and safe fitting contact lens. The above example of a custom scleral lens on the eye conveys adequate clearance over the cone and a nice smooth landing of the edge of the lens on the white part of the eye to ensure maximum comfort.
 
 In rare situations someone with severe keratoconus can develop corneal hydrops, a condition where the posterior membrane of the cornea ruptures causing extreme corneal swelling, pain and ultimately scarring. Patients who have corneal hydrops often require a corneal graft due to the residual scarring.
-
-![](/uploads/hydrops.jpg)
-
-CAPTION: Corneal hydrops in a keratoconic patient of ours. The picture on the right is 6 months after the initial episode showing the residual corneal scar.
 
 # How is keratoconus treated?
 
@@ -99,19 +61,11 @@ If the cornea becomes too thin or scars excessively over time, not even a perfec
 
 It is important for keratoconic patients to be assessed and fitted by an experienced optometrist with a strong background of keratoconus management. Our optometrists Lachlan Hoy, Karl Evans and Joanna Rohrlach have an interest in contact lens fitting and have treated many patients over the years with irregular corneas. Poorly fitting contact lenses have been shown to promote the progression of the disease in some individuals, due to an increase in inflammatory factors released into the tear fluid.<sup>19</sup> Poorly fitting contact lenses can also cause permanent vision loss by scarring the cornea.<sup>20</sup> Our optometrists use <a href="http://innovativecontacts.com.au/">Innovative Contacts</a>, a rigid lens production and distribution company that supplies optometrists all over Australia with an array of contact lens solutions for a multitude of refractive diseases, including keratoconus.
 
-![](/uploads/poorly-fitting-rgp.jpg)
-
-CAPTION: An example of a very poorly fitting RGP lens in a patient that was referred to us for management. This patient's lenses caused permanent corneal scarring (bottom right image) and needed a prompt refit into a scleral lens to rehabilitate the cornea.
-
 #### Keratoconus vs. Pellucid Marginal Corneal Degeneration
 
 Pellucid Marginal Corneal Degeneration is an uncommon condition causing thinning of the lower part of the cornea. This non-inflammatory condition is often confused with keratoconus as it causes similar distortion of the cornea and requires complex contact lens designs, typically in the form of scleral lenses, to give the best quality of vision. Patients between the ages of 20-50 will often present with blurred vision due to the irregularity of their cornea. Often against-the-rule astigmatism is present and contributes to the blur seen.  In PMCD, the stroma (collagen) of the cornea is abnormal and thin but the other parts of the cornea are unaffected and function normally. This degeneration can progress slowly over time, but will only very rarely progress to the point of perforating the cornea. 
 
 PMCD is best managed with large diameter [scleral contact lenses](/what-we-do/scleral-contact-lenses) that will vault over the affected area of cornea and still provide a regular front surface for vision. In severe cases a [corneal graft](/what-we-do/corneal-grafts) may be needed to restore functional vision. Collagen cross-linking is a surgical procedure used in some progressive cases to prevent further worsening of the condition.
-
-![](/uploads/pmcd.jpg)
-
-CAPTION: A corneal topography of a patient with PMCD showing the irregular steepening of the lower part of the cornea giving a typical 'crab-claw' appearance.
 
 <b>References</b>
 
