@@ -9,9 +9,9 @@ preview-image: spec_lenses.jpg
 <p>To see how these lenses are made, view the video <a href="https://player.vimeo.com/video/243018055">here</a>.</p>
 </div>
 
-# Lens Types
+#### Lens Types
 
-#### Single vision lenses
+##### Single vision lenses
 
 [Single vision lenses](https://www.perfectionlens.com/portfolio-items/single-vision/) are the most commonly prescribed type of vision correction in spectacles. These have the same focal power over the whole lens and can be used to correct a variety of vision problems, including myopia and hyperopia. Some of the more sophisticated Perfection single vision lenses are particularly accurate, with 10,000 control points on the lens during manufacturing.
 
@@ -19,7 +19,7 @@ preview-image: spec_lenses.jpg
 
 CAPTION: A simulation of the view through a pair of single vision lenses.
 
-#### Progressive lenses
+##### Progressive lenses
 
 [Progressive lenses](https://www.perfectionlens.com/portfolio-items/everyday/) allow you to see near, intermediate and long distances without needing to change spectacle. The top area of the lens is used for distance vision and the bottom area is used for close vision, while the middle area is used for intermediate viewing. As there is no visible line separating the different areas, these lenses are the most cosmetically appealing. The field of view in a progressive lens is narrower than in a single vision lens or bifocal, and there is some blur outside of the central corridor of the lens. Most patients adapt to this very well after a few weeks by learning to move their eyes and head together to keep their gaze through the 'sweet spot' of the lens.
 
@@ -27,7 +27,7 @@ CAPTION: A simulation of the view through a pair of single vision lenses.
 
 CAPTION: A simulation of the view through a Perfection Everyday progressive lens.
 
-#### Occupational lenses
+##### Occupational lenses
 
 [Occupationals](https://www.perfectionlens.com/portfolio-items/device/), or IT lenses, solve the problem of a pair of reading glasses not providing clear vision on computers and intermediate objects. Because of this, some optometrists refer to them as the modern-day reading glasses. Occuptionals are a variety of progressive lens designed to give a wider field of view for intermediate and near focuses. These lenses do not provide clear vision for distance but are great for anyone in an office environment, as the top of the lens gives a customised focus for distances further away than your habitual reading point.
 
@@ -35,15 +35,15 @@ CAPTION: A simulation of the view through a Perfection Everyday progressive lens
 
 CAPTION: A simulation of the view through a Perfection Device occupational lens.
 
-# Lens coatings
+#### Lens coatings
 
 Your glasses are constantly exposed to conditions causing wear and tear. A scratch resistant coating helps to improve the durability of the lens, helping your lenses to last longer. [CR Surfacing](http://www.crsurfacing.com.au/coatings/) offers many Satin coatings for this purpose.
 
-#### Satin UV coating
+##### Satin UV coating
 
 The Satin UV coating from CR Surfacing provides superior UV protection, glare reduction, durability, anti-scratch, anti-fog and water-repellent properties.
 
-#### Satin Blue
+##### Satin Blue
 
 Blue-light emanates from LED screens in technology that we use every day - phones, tablets, computers and televisions. Satin Blue protects your eyes by selectively filtering blue light, to comfort your eyes whilst looking at a screen and still providing excellent clarity. Satin Blue lenses are scratch resistant, smudge and water resistant and dust repellant, ideal for every day use, no matter what environment you are in.
 
@@ -51,7 +51,7 @@ Blue-light emanates from LED screens in technology that we use every day - phone
 
 <br>
 
-#### Satin anti-reflective coating
+##### Satin anti-reflective coating
 
 Anti-reflective coatings help to prevent glare and reflections. These can be particularly important for higher prescriptions, computer use and night driving. They are cosmetically appealing, allowing people to see your eyes rather than reflections from the lenses.
 
@@ -59,7 +59,7 @@ Anti-reflective coatings help to prevent glare and reflections. These can be par
 
 <br>
 
-# Tinted lenses
+#### Tinted lenses
 
 All types of lens, including multifocals, can be permanently tinted to provide glare protection when in the sun.  Driving and watersports especially can be improved with the use of polarised sunglass lenses. These eliminate unwanted reflections from road surfaces and water.  To give more functionality to your normal spectacles you can choose to have them made with a photochromatic lens. These are activated by UV light, darkening when outside and lightening to a completely clear lens inside. This process often takes less than a minute, making them suitable for full-time wear without having to worry about carrying an extra pair of sunglasses.
 
@@ -67,7 +67,7 @@ All types of lens, including multifocals, can be permanently tinted to provide g
 
 <br>
 
-# Refractive index
+#### Refractive index
 
 The refractive index helps to reduce the volume of the lens material, resulting in a thinner lens. The higher the refractive index, the more dense the plastic. Depending on your spectacle script and frame selection, you may want to consider a higher index in order to make your lenses feel more comfortable, more durable and thinner. Ask our friendly staff about the refractive index.
 
