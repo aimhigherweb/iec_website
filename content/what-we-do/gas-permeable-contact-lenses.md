@@ -5,7 +5,7 @@ preview-image: rgp.jpg
 ---
 <div class="employee-heading">
 
-<p><p>Rigid gas permeable (RGP) contact lenses are a type of lens made with stiff silicone polymers that still allow oxygen to pass through to the cornea, giving them their name. Our Adelaide and Woodville practices are equipped with exciting new <a href="/what-we-do/anterior-imaging">technology</a> that allows our optometrists to design custom RGP lenses for our patients that can improve vision for wearers with a range of eye conditions.</p>
+<p>Rigid gas permeable (RGP) contact lenses are a type of lens made with stiff silicone polymers that still allow oxygen to pass through to the cornea, giving them their name. Our Adelaide and Woodville practices are equipped with exciting new <a href="/what-we-do/anterior-imaging">technology</a> that allows our optometrists to design custom RGP lenses for our patients that can improve vision for wearers with a range of eye conditions.</p>
 
 <p>If you would like to know if you're a candidate for rigid lenses, make an <a href="/what-we-do/eye-exam">appointment</a> with one of our practitioners.</p></p>
 
