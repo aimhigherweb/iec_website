@@ -3,7 +3,6 @@ title: Amblyopia
 category: paediatric-vision
 preview-image: brain-amblyopia.jpg
 ---
-
 <div class="employee-heading">
 <p>Amblyopia (sometimes called a 'lazy' eye) is a developmental reduction of vision in one or both eyes. Amblyopia occurs as a child and is most commonly caused when one eye points in the wrong direction or is badly defocused compared to the fellow eye. As only a sub-standard image is capable of being detected by the brain from that eye, the visual processing pathways cannot fully form.</p>
 <p> Our practices in Adelaide and Woodville are equipped with new technology and determined optometrists who are able to improve vision for younger patients with amblyopia. Without treatment the eye will continue to see poorly for the remainder of the patient's life, even when accurately corrected with glasses or contact lenses.</p>
