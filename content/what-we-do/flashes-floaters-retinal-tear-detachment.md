@@ -1,9 +1,8 @@
 ---
-title: "Flashes, Floaters, Retinal Tear & Detachment"
+title: 'Flashes, Floaters, Retinal Tear & Detachment'
 category: acute-red-eyes
 preview-image: flashes-and-floaters.jpg
 ---
-
 <div class="employee-heading">
 <p>The appearance of floaters and flashes of light in your vision may be alarming, especially if they develop very suddenly. As we grow older, it is more common to experience floaters and flashes as the vitreous (the clear gelatinous fluid that fills the inside of your eye) becomes more liquefied. As it loses its structure, it gradually pulls away from the inside surface of the eye. When this occurs acutely it is called a posterior vitreous detachment. You should see your optometrist for an urgent <a href="/what-we-do/eye-exam">examination</a> if you notice flashes or floaters, as not all cases of these symptoms are caused by innocuous age-related changes.</p>
 </div> 
@@ -20,7 +19,7 @@ Small specks or clouds moving in your field of vision are called floaters. You c
 
 When the vitreous gel pulls on the retina, you may see what looks like flashing lights or lightning streaks. These are called flashes. You may have experienced the same sensation if you have ever been hit in the eye and seen ‘stars.’ The flashes of light can appear off and on for several weeks or months. 
 
-<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--[if IE]><iframe frameborder="0" type="text/html" src="https://2689-2347.captiv8online.com/animations/embed/one/l-lo-t?player_width=100%&player_height=100%&site_company_language=34&autostart=false" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><![endif]--><!--[if !IE]> <--><object data="https://2689-2347.captiv8online.com/animations/embed/one/l-lo-t?player_width=100%&player_height=100%&site_company_language=34&autostart=false" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://2689-2347.captiv8online.com/animations/embed/one/l-lo-t?player_width=100%&player_height=100%&site_company_language=34&autostart=false">Flashes & Floaters</a></object><!--> <![endif]--></div>
+<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\[if IE]><iframe frameborder="0" type="text/html" src="https://2689-2347.captiv8online.com/animations/embed/one/l-lo-t?player_width=100%&player_height=100%&site_company_language=34&autostart=false" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\[endif]--><!--\[if !IE]> <--><object data="https://2689-2347.captiv8online.com/animations/embed/one/l-lo-t?player_width=100%&player_height=100%&site_company_language=34&autostart=false" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://2689-2347.captiv8online.com/animations/embed/one/l-lo-t?player_width=100%&player_height=100%&site_company_language=34&autostart=false">Flashes & Floaters</a></object><!--> <!\[endif]--></div>
 
 <br>
 
@@ -28,23 +27,13 @@ When the vitreous gel pulls on the retina, you may see what looks like flashing 
 
 For most patients, the appearance of floaters and flashes is a sign of a posterior vitreous detachment. As we grow older the vitreous (the clear gelatinous fluid that fills the inside of your eye) changes and becomes more liquefied. As it loses its structure, it gradually pulls away from the inside surface of the eye. When this occurs acutely it is called a posterior vitreous detachment. This is a normal part of the eyes getting older. There is generally no treatment required for a posteior vitreous detachment. With time the floaters will settle due to gravity and the brain will adapt to seeing the drifting shapes as they are always present. 
 
-  * A sudden increase in size and number of floaters
-  * A sudden appearance of flashes
-  * A shadow or curtain appearing in the periphery (side) of your field of vision
-  * A sudden decrease in your vision or a blind spot - this may not be central but in the periphery of your vision
-  * A torn retina is always a serious problem since it can lead to retinal detachment, a potentially blinding condition needing urgent surgery
-
-<br>
-
-![](/uploads/retinal-detachment.jpg)
-
-CAPTION: A retinal detachment in the right eye of a patient who noticed floaters and a 'veil' in her vision a few days before.
+* A sudden increase in size and number of floaters
+* A sudden appearance of flashes
+* A shadow or curtain appearing in the periphery (side) of your field of vision
+* A sudden decrease in your vision or a blind spot - this may not be central but in the periphery of your vision
+* A torn retina is always a serious problem since it can lead to retinal detachment, a potentially blinding condition needing urgent surgery
 
 When an optometrist examines your eyes for floaters or flashes, they may dilate your pupils with eye drops. During this examination, your optometrist will carefully observe areas of your eye, including the retina and vitreous. If your eyes have been dilated, you may need to make arrangements for someone to drive you home afterward as your vision may be blurry for 4-6 hours afterwards and you will be light-sensitive.
-
-![](/uploads/alexs-retinal-detachment.jpg)
-
-CAPTION: This photo shows the scars where a patient's retina has been re-attached, saving his central vision.
 
 #### Other flashes of light in the vision
 
