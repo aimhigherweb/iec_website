@@ -4,7 +4,7 @@ category: eye-disease
 preview-image: diabetic_retinopathy.jpg
 ---
 <div class="employee-heading">
-<p>After diabetes has been present for some years, changes may occur at the back of the eye in the retina, known as diabetic retinopathy. Your optometrist may use an instrument called an ophthalmoscope and [advanced imaging](https://innovativeeyecare.com.au/what-we-do/retinal-photography) that will clearly show these changes. There are two main types of this condition: non-proliferative (sometimes called background) retinopathy and proliferative retinopathy. The risk of developing retinopathy increases with the length of time you have had diabetes. The risk is also increased when blood glucose levels are not well controlled over time. About 7% of the Australian population over 25 years of age have diabetes, increasing to about 25% over 75 years of age. More than 70% of diabetics will develop some changes in their eyes within 15 years of diagnosis. These changes can be potentially blinding. All diabetics should ensure they visit their optometrist at least every two years for a thorough <a href="/what-we-do/eye-exam">examination</a>.</p>
+<p>After diabetes has been present for some years, changes may occur at the back of the eye in the retina, known as diabetic retinopathy. Your optometrist may use an instrument called an ophthalmoscope and <a href="what-we-do/retinal-photography">posterior imaging</a> that will clearly show these changes. There are two main types of this condition: non-proliferative (sometimes called background) retinopathy and proliferative retinopathy. The risk of developing retinopathy increases with the length of time you have had diabetes and is also increased when blood glucose levels are not well controlled over time. All diabetics should ensure they visit their optometrist at least every two years for a thorough <a href="/what-we-do/eye-exam">examination</a>.</p>
 </div>
 
 <div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\\[if IE]><iframe frameborder="0" type="text/html" src="https://2689-2347.captiv8online.com/animations/embed/one/d-t-t-op-t?player_width=100%&player_height=100%&site_company_language=34&autostart=false" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\\[endif]--><!--\\[if !IE]> <--><object data="https://2689-2347.captiv8online.com/animations/embed/one/d-t-t-op-t?player_width=100%&player_height=100%&site_company_language=34&autostart=false" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://2689-2347.captiv8online.com/animations/embed/one/d-t-t-op-t?player_width=100%&player_height=100%&site_company_language=34&autostart=false">Diabetes: Overview</a></object><!--> <!\\[endif]--></div>
@@ -12,8 +12,6 @@ preview-image: diabetic_retinopathy.jpg
 <br>
 
 #### Diabetic retinopathy
-
-
 
 ##### Non-proliferative retinopathy
 
