@@ -16,16 +16,37 @@ preview-image: contact-lens-info-woman.jpg
 
 There are several different types of disposable (frequent replacement) lenses:
 
-##### <p>Daily replacement lenses (lenses that are new with each use and discarded after wear)</p>
+##### Daily replacement lenses (lenses that are new with each use and discarded after wear)
 
-<p>PROS
+<table>
+<table border = 1 bordercolor = black align = center>
+<tr>
+<th colspan = 1><i>PROS</i></th>
+<th colspan = 1><i>CONS</i></th>
+</tr>
+<tr>
+<th colspan = 1>Lesser risk of infection – disposables have fewer deposit and inflammatory problems than monthly and fortnightly lenses</th>
+<th colspan = 1>Limited range – currently, there is a restricted number of prescriptions that can be corrected with dailies</th>
+</tr>
+<tr>
+<th colspan = 1>Convenience – dailies do not require cleaning or storage with solutions and you can take spare lenses with you wherever you go, making them ideal for travel</th>
+<th colspan = 1>Higher cost for full-time wearers – those who wear dailies every day may pay more for frequent replenishment of lens supply, although often patients find the increased convenience easily justifies the difference</th>
+</tr>
+<tr>
+<th colspan = 1>Greater oxygen-supply – the newest daily lenses are made from silicone-hydrogel materials which increase oxygen flow to the eye and prevent dryness (these are slightly more expensive than standard dailies)</th>
+<th colspan = 1></th>
+</tr>
+<tr>
+<th colspan = 1>Cost-efficient for part-time wearers – easy if you only use your lenses occasionally, and if a lens is lost or damaged the cost is negligible – just pop a new lens into your eye!</th>
+<th colspan = 1></th>
+</tr>
+</table>
+
 
 * Lesser risk of infection – disposables have fewer deposit and inflammatory problems than monthly and fortnightly lenses
 * Convenience – dailies do not require cleaning or storage with solutions and you can take spare lenses with you wherever you go, making them ideal for travel
 * Greater oxygen-supply – the newest daily lenses are made from silicone-hydrogel materials which increase oxygen flow to the eye and prevent dryness (these are slightly more expensive than standard dailies)
-* Cost-efficient for part-time wearers – easy if you only use your lenses occasionally, and if a lens is lost or damaged the cost is negligible – just pop a new lens into your eye!</p>
-
-<p>CONS
+* Cost-efficient for part-time wearers – easy if you only use your lenses occasionally, and if a lens is lost or damaged the cost is negligible – just pop a new lens into your eye!
 
 * Limited range – currently, there is a restricted number of prescriptions that can be corrected with dailies
 * Higher cost for full-time wearers – those who wear dailies every day may pay more for frequent replenishment of lens supply, although often patients find the increased convenience easily justifies the difference</p>
