@@ -11,7 +11,7 @@ preview-image: nike-fw15-a4-landscape-kid-male-opt.jpg
 
 #### Nike Vision
 
-Nike has revolutionised athletic footwear and sportswear. Its vast range of products includes specialised training gear, footwear, apparel, accessories, and sports equipment. Nike realises that the need for durable spectacles doesn't vanish on the field or in the schoolyard, and they have developed their range of children's eyewear for this reason.
+Nike has revolutionised athletic footwear and sportswear. Nike realises that the need for durable spectacles doesn't vanish on the field or in the schoolyard, and they have developed their range of children's eyewear for this reason.
 
 ##### Why we love Nike
 
