@@ -16,7 +16,7 @@ preview-image: contact-lens-info-woman.jpg
 
 There are several different types of disposable (frequent replacement) lenses:
 
-<b>Daily replacement lenses (lenses that are new with each use and discarded after wear)</b>
+##### Daily replacement lenses (lenses that are new with each use and discarded after wear)
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;border-color:#ccc;}
@@ -51,7 +51,7 @@ There are several different types of disposable (frequent replacement) lenses:
 
 <br>
 
-##### <p> Monthly/fortnightly lenses (lenses that are worn daily but replaced monthly/fortnightly)</p>
+##### Monthly/fortnightly lenses (lenses that are worn daily but replaced monthly/fortnightly)
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;border-color:#ccc;}
