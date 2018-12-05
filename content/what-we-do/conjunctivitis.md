@@ -14,6 +14,10 @@ This condition can also be caused by a virus in which symptoms include a red eye
 
 To control the spread of infectious conjunctivitis it is important to keep your hands away from your eyes, wash your hands before applying eye medication, and refrain from sharing towels, face washers, cosmetics, pillows or eye drops with others.
 
+#### Toxic conjunctivitis
+
+If you have some form of allergic or toxic conjunctivitis, it is important to consult your optometrist. If the cause of the problem is identified, you can then try to avoid it.
+
 #### Allergic conjunctivitis
 
 To manage allergic conjunctivitis, you should focus on prevention or avoidance of the allergens that trigger your symptoms. 
@@ -26,6 +30,4 @@ To manage allergic conjunctivitis, you should focus on prevention or avoidance o
 * Reduce dust mite exposure in your home
 * Wash hands straight after patting animals
 
-#### Toxic conjunctivitis
-
-If you have some form of allergic or toxic conjunctivitis, it is important to consult your optometrist. If the cause of the problem is identified, you can then try to avoid it.
+![](/uploads/conjunctivitis.jpg)
