@@ -190,8 +190,6 @@ RGP lenses are made from a stiffer material and do not drape on the eyes like so
 
 <br>
 
-![](/uploads/surfing.jpeg)
-
 #### Cost
 
 The costs of being fitted into contact lenses varies depending on the type of lens used and the complexity of the fitting process. Careful fitting of all contact lenses is required to offer the clearest and most comfortable vision without compromising the health of the eye. 
