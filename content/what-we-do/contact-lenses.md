@@ -12,6 +12,10 @@ preview-image: contact-lens-info-woman.jpg
 <h4>• <a href="/what-we-do/orthokeratology-corneal-reshaping">Orthokeratology Lenses</a></h4>
 </div>
 
+![](/uploads/scl-rgp-scleral-2.jpg)
+
+CAPTION: A soft lens, an orthokeratology lens, and a scleral lens
+
 #### Soft disposable lenses
 
 There are several different types of disposable (frequent replacement) lenses.
@@ -26,6 +30,7 @@ There are several different types of disposable (frequent replacement) lenses.
 .tg .tg-6vm2{font-weight:bold;font-family:Arial, Helvetica, sans-serif !important;;background-color:#efefef;color:#000000;border-color:#000000;vertical-align:top}
 .tg .tg-fdbh{font-family:Arial, Helvetica, sans-serif !important;;border-color:#000000;vertical-align:top}
 </style>
+
 <table class="tg" align="center">
   <tr>
     <th class="tg-fdbh">Pros</th>
@@ -61,6 +66,7 @@ There are several different types of disposable (frequent replacement) lenses.
 .tg .tg-6vm2{font-weight:bold;font-family:Arial, Helvetica, sans-serif !important;;background-color:#efefef;color:#000000;border-color:#000000;vertical-align:top}
 .tg .tg-fdbh{font-family:Arial, Helvetica, sans-serif !important;;border-color:#000000;vertical-align:top}
 </style>
+
 <table class="tg" align="center">
   <tr>
     <th class="tg-fdbh">Pros</th>
@@ -102,6 +108,7 @@ RGP lenses are made from a stiffer material and do not drape on the eyes like so
 .tg .tg-6vm2{font-weight:bold;font-family:Arial, Helvetica, sans-serif !important;;background-color:#efefef;color:#000000;border-color:#000000;vertical-align:top}
 .tg .tg-fdbh{font-family:Arial, Helvetica, sans-serif !important;;border-color:#000000;vertical-align:top}
 </style>
+
 <table class="tg" align="center">
   <tr>
     <th class="tg-fdbh">Pros</th>
@@ -145,6 +152,7 @@ RGP lenses are made from a stiffer material and do not drape on the eyes like so
 .tg .tg-6vm2{font-weight:bold;font-family:Arial, Helvetica, sans-serif !important;;background-color:#efefef;color:#000000;border-color:#000000;vertical-align:top}
 .tg .tg-fdbh{font-family:Arial, Helvetica, sans-serif !important;;border-color:#000000;vertical-align:top}
 </style>
+
 <table class="tg" align="center">
   <tr>
     <th class="tg-fdbh">Pros</th>
@@ -182,9 +190,7 @@ RGP lenses are made from a stiffer material and do not drape on the eyes like so
 
 <br>
 
-![](/uploads/scl-rgp-scleral-2.jpg)
-
-CAPTION: A soft lens, an orthokeratology lens, and a scleral lens
+![](/uploads/surfing.jpeg)
 
 #### Cost
 
