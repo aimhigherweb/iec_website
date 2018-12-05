@@ -14,7 +14,7 @@ preview-image: contact-lens-info-woman.jpg
 
 #### Soft disposable lenses
 
-There are several different types of disposable (frequent replacement) lenses:
+There are several different types of disposable (frequent replacement) lenses.
 
 ##### Daily replacement lenses (lenses that are new with each use and discarded after wear)
 
