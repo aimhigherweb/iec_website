@@ -18,55 +18,77 @@ There are several different types of disposable (frequent replacement) lenses:
 
 <b>Daily replacement lenses (lenses that are new with each use and discarded after wear)</b>
 
-<table>
-<table border = 1 bordercolor = black align = left>
-<tr>
-<th colspan = 1><i>PROS</i></th>
-<th colspan = 1><i>CONS</i></th>
-</tr>
-<tr>
-<td align = left colspan = 1>Lesser risk of infection – disposables have fewer deposit and inflammatory problems than monthly and fortnightly lenses</th>
-<td align = left colspan = 1>Limited range – currently, there is a restricted number of prescriptions that can be corrected with dailies</th>
-</tr>
-<tr>
-<td class = regular align = left colspan = 1>Convenience – dailies do not require cleaning or storage with solutions and you can take spare lenses with you wherever you go, making them ideal for travel</th>
-<td align = left colspan = 1>Higher cost for full-time wearers – those who wear dailies every day may pay more for frequent replenishment of lens supply, although often patients find the increased convenience easily justifies the difference</th>
-</tr>
-<tr>
-<td align = left colspan = 1>Greater oxygen-supply – the newest daily lenses are made from silicone-hydrogel materials which increase oxygen flow to the eye and prevent dryness (these are slightly more expensive than standard dailies)</th>
-<td align = left colspan = 1></th>
-</tr>
-<tr>
-<td align = left colspan = 1>Cost-efficient for part-time wearers – easy if you only use your lenses occasionally, and if a lens is lost or damaged the cost is negligible – just pop a new lens into your eye!</th>
-<td colspan = 1></th>
-</tr>
-</table>
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;border-color:#ccc;}
+.tg td{font-family:Arial, sans-serif;font-size:16px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#fff;}
+.tg th{font-family:Arial, sans-serif;font-size:16px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#f0f0f0;}
+.tg .tg-7op0{font-weight:bold;font-family:Arial, Helvetica, sans-serif !important;;border-color:#000000;vertical-align:top}
+.tg .tg-6vm2{font-weight:bold;font-family:Arial, Helvetica, sans-serif !important;;background-color:#efefef;color:#000000;border-color:#000000;vertical-align:top}
+.tg .tg-fdbh{font-family:Arial, Helvetica, sans-serif !important;;border-color:#000000;vertical-align:top}
+</style>
+<table class="tg" align="center">
+  <tr>
+    <th class="tg-fdbh">Pros</th>
+    <th class="tg-fdbh">Cons</th>
+  </tr>
+  <tr>
+    <td class="tg-fdbh">Lesser risk of infection – disposables have fewer deposit and inflammatory problems than monthly and fortnightly lenses</td>
+    <td class="tg-fdbh">Limited range – currently, there is a restricted number of prescriptions that can be corrected with dailies<br></td>
+  </tr>
+  <tr>
+    <td class="tg-fdbh">Convenience – dailies do not require cleaning or storage with solutions and you can take spare lenses with you wherever you go, making them ideal for travel</td>
+    <td class="tg-fdbh">Higher cost for full-time wearers – those who wear dailies every day may pay more for frequent replenishment of lens supply, although often patients find the increased convenience easily justifies the difference<br></td>
+  </tr>
+  <tr>
+    <td class="tg-fdbh">Greater oxygen-supply – the newest daily lenses are made from silicone-hydrogel materials which increase oxygen flow to the eye and prevent dryness (these are slightly more expensive than standard dailies)</td>
+    <td class="tg-fdbh"><br></td>
+  </tr>
+  <tr>
+    <td class="tg-fdbh">Cost-efficient for part-time wearers – easy if you only use your lenses occasionally, and if a lens is lost or damaged the cost is negligible – just pop a new lens into your eye!</td>
+    <td class="tg-fdbh"><br></td>
+  </tr>
+</table> 
 
+<br>
 
-* Lesser risk of infection – disposables have fewer deposit and inflammatory problems than monthly and fortnightly lenses
-* Convenience – dailies do not require cleaning or storage with solutions and you can take spare lenses with you wherever you go, making them ideal for travel
-* Greater oxygen-supply – the newest daily lenses are made from silicone-hydrogel materials which increase oxygen flow to the eye and prevent dryness (these are slightly more expensive than standard dailies)
-* Cost-efficient for part-time wearers – easy if you only use your lenses occasionally, and if a lens is lost or damaged the cost is negligible – just pop a new lens into your eye!
+##### <p> Monthly/fortnightly lenses (lenses that are worn daily but replaced monthly/fortnightly)</p>
 
-* Limited range – currently, there is a restricted number of prescriptions that can be corrected with dailies
-* Higher cost for full-time wearers – those who wear dailies every day may pay more for frequent replenishment of lens supply, although often patients find the increased convenience easily justifies the difference</p>
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;border-color:#ccc;}
+.tg td{font-family:Arial, sans-serif;font-size:16px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#fff;}
+.tg th{font-family:Arial, sans-serif;font-size:16px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#f0f0f0;}
+.tg .tg-7op0{font-weight:bold;font-family:Arial, Helvetica, sans-serif !important;;border-color:#000000;vertical-align:top}
+.tg .tg-6vm2{font-weight:bold;font-family:Arial, Helvetica, sans-serif !important;;background-color:#efefef;color:#000000;border-color:#000000;vertical-align:top}
+.tg .tg-fdbh{font-family:Arial, Helvetica, sans-serif !important;;border-color:#000000;vertical-align:top}
+</style>
+<table class="tg" align="center">
+  <tr>
+    <th class="tg-fdbh">Pros</th>
+    <th class="tg-fdbh">Cons</th>
+  </tr>
+  <tr>
+    <td class="tg-fdbh">Wider range – these lenses are able to correct a greater array of prescriptions and patients with presbyopia have the option of multifocal lenses</td>
+    <td class="tg-fdbh">Risk of infection – longer-use lenses are more prone to deposits and pose a slightly higher chance of microbial infection and inflammatory reactions than daily disposable or rigid gas permeable lenses<br></td>
+  </tr>
+  <tr>
+    <td class="tg-fdbh">Greater oxygen-supply – most are made from new-generation silicone-hydrogel materials which allow increased oxygen flow to the eye and decreased dryness with wear</td>
+    <td class="tg-fdbh">Care and storage – cleaning of the lenses and storage in disinfection solution is required after each day of wear, and you will need to take the solution with you should you travel<br></td>
+  </tr>
+  <tr>
+    <td class="tg-fdbh">Convenience – suitable for intermittent wear with days away from your contact lenses if required (after consultation with your optometrist)</td>
+    <td class="tg-fdbh"><br></td>
+  </tr>
+  <tr>
+    <td class="tg-fdbh">Overnight wear – certain patients who would benefit from sleeping in their contact lenses without significantly compromising the health of their eyes have the option of lenses for overnight wear (after discussing this with their optometrist)</td>
+    <td class="tg-fdbh"><br></td>
+  </tr>
+  <tr>
+    <td class="tg-fdbh">Cost-efficient – the cost per year for lenses and solutions may be slightly cheaper than daily lenses if you wear them most days</td>
+    <td class="tg-fdbh"><br></td>
+  </tr>
+</table> 
 
-##### <p>Monthly/fortnightly lenses (lenses that are worn daily but replaced monthly/fortnightly)</p>
-
-<p>PROS
-
-* Wider range – these lenses are able to correct a greater array of prescriptions and patients with presbyopia have the option of multifocal lenses
-* Greater oxygen-supply – most are made from new-generation silicone-hydrogel materials which allow increased oxygen flow to the eye and decreased dryness with wear
-* Convenience – suitable for intermittent wear with days away from your contact lenses if required (after consultation with your optometrist)
-* Overnight wear – certain patients who would benefit from sleeping in their contact lenses without significantly compromising the health of their eyes have the option of lenses for overnight wear (after discussing this with their optometrist)
-* Cost-efficient – the cost per year for lenses and solutions may be slightly cheaper than daily lenses if you wear them most days</p>
-
-<p>CONS
-
-* Risk of infection – longer-use lenses are more prone to deposits and pose a slightly higher chance of microbial infection and inflammatory reactions than daily disposable or rigid gas permeable lenses
-* Care and storage – cleaning of the lenses and storage in disinfection solution is required after each day of wear, and you will need to take the solution with you should you travel</p>
-
-![](/uploads/contact-lenses.jpg)
+<br>
 
 #### Rigid Gas Permeable Lenses (RGP)
 
