@@ -54,9 +54,9 @@ There are several different types of disposable (frequent replacement) lenses:
 ##### Monthly/fortnightly lenses (lenses that are worn daily but replaced monthly/fortnightly)
 
 <style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;border-color:#ccc;}
-.tg td{font-family:Arial, sans-serif;font-size:16px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#fff;}
-.tg th{font-family:Arial, sans-serif;font-size:16px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#f0f0f0;}
+.tg  {border-collapse:collapse;border-spacing:0;border-color:#fff;}
+.tg td{font-family:Arial, sans-serif;font-size:16px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#fff;color:#333;background-color:#fff;}
+.tg th{font-family:Arial, sans-serif;font-size:16px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#fff;color:#333;background-color:#f0f0f0;}
 .tg .tg-7op0{font-weight:bold;font-family:Arial, Helvetica, sans-serif !important;;border-color:#000000;vertical-align:top}
 .tg .tg-6vm2{font-weight:bold;font-family:Arial, Helvetica, sans-serif !important;;background-color:#efefef;color:#000000;border-color:#000000;vertical-align:top}
 .tg .tg-fdbh{font-family:Arial, Helvetica, sans-serif !important;;border-color:#000000;vertical-align:top}
