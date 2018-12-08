@@ -45,7 +45,7 @@ Controlling blood glucose over time significantly reduces the risk of developing
 
 #### Diabetic care at Innovative Eye Care
 
-The role of optometry in diabetic management in retinal health is that of close monitoring and communication with other health professionals involved in the patient’s diabetic care. If we detect the development of diabetic retinopathy we can instigate changes to the diabetic control with the help of the patient's general practitioner or endocrinologist. If needed we can also refer to ophthalmology for a surgical opinion. 
+The role of optometry in diabetic management in retinal health is that of close monitoring and communication with other health professionals involved in your diabetic care. If we detect the development of diabetic retinopathy we can instigate changes to the diabetic control with the help of the patient's general practitioner or endocrinologist. If needed we can also refer to ophthalmology for a surgical opinion. 
 
 At Innovative Eye Care we recommend a dilated eye exam to best assess the health of the retina. Dilating the pupils enables us to get a much clearer view of the back of the eye. Dilating drops last for 4-6 hours and may cause glare and blurry vision. Because of this we recommend not driving following a diabetic retinal examination. 
 
