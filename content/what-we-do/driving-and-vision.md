@@ -49,6 +49,8 @@ If glare becomes more problematic then shielding your eyes from light during the
 
 CAPTION: An illustration to show how a spectacle lens with an anti-reflective coating (right) can reduce glare at night.
 
+<br>
+
 #### Some recommendations from Innovative Eye Care for safe driving:
 
 * Have your vision examined regularly, with special attention to the needs of driving.
