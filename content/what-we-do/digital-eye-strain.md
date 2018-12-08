@@ -4,7 +4,7 @@ category: refractive-conditions
 preview-image: computer-vision-syndrome-1.jpg
 ---
 <div class="employee-heading">
-<p>Love it or loathe it - the world we live in has become increasingly digital. More and more hours are spent gazing at digital screens including computers, tablets and smart phones. These devices can potentially cause a host of eye and vision problems, with long-term effects on eye health.</p><p>Digital eye strain (also known as computer vision syndrome) is a group of eye issues created or worsened by the use of digital screens. This ranges from eye strain due to focusing issues, dry eye from lower blink rates, and potential ocular disease.</p>
+<p>Love it or loathe it − the world we live in has become increasingly digital. More and more hours are spent gazing at digital screens including computers, tablets and smart phones. These devices can potentially cause a host of eye and vision problems, with long-term effects on eye health. Digital eye strain (also known as computer vision syndrome) is a group of eye issues created or worsened by the use of digital screens. This ranges from eye strain due to focusing issues, dry eye from lower blink rates, and potential ocular disease.</p>
 </div>
 
 #### Eye strain and computer use
