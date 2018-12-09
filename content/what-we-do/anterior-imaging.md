@@ -13,8 +13,6 @@ Both our Adelaide and Woodville practices are equipped with slit-lamp bio-micros
 
 We are also owners of the Heidelberg Spectralis, a top-of-the-range [OCT machine](https://innovativeeyecare.com.au/what-we-do/oct) that takes highly detailed images of your eye. All of our consulting rooms are also equipped with Medmont corneal topographers, which give accurate mathematical information about the shape of the front of your eye, a feature that's especially important for [ortho-K](https://innovativeeyecare.com.au/what-we-do/orthokeratology-corneal-reshaping) and [rigid lens](https://innovativeeyecare.com.au/what-we-do/gas-permeable-contact-lenses) wearers and in diagnosing refractive conditions.
 
-![](/uploads/heidelberg.png)
-
 As well as being useful for contact lens fittings, anterior imaging is very useful in order to photo-document any unusual aspects of your eyes that might indicate disease or other abnormalities, such as [cataracts](/what-we-do/cataract) and [keratoconus](/what-we-do/keratoconus). Photos are also vital for tracking the healing of your eyes – for example, following a [corneal infection](/what-we-do/keratitis).
 
 Your optometrist will show you the different photos in the exam room to explain more about your eyes and any ocular conditions you might have. As they say, a picture tells a thousand words!
