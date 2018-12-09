@@ -11,17 +11,17 @@ preview-image: anterior-blepharitis.jpg
 
 Blepharitis is generally caused by an over-colonisation of micro-organisms along the lid margin, particularly along the eyelashes and the eyelash follicles. They release toxins which trigger inflammation along the eyelids, causing them to become red, swollen and crusty. The toxins can also enter the eye, producing more severe symptoms. This can be an underlying cause of eye infections such as conjunctivitis. Anterior blepharitis should not be confused with posterior blepharitis or <a href="/what-we-do/meibomian-gland-dysfunction">meibomian gland dysfunction</a>.
 
-![](/uploads/blepharitis.jpg)
-
 ##### Demodex blepharitis
 
 An important cause of blepharitis is demodex - small mites that inhabit the lid margins. Demodex mites are more common on our bodies as we get older, and every person over the age of 70 will have demodex mites on some area of the body. Demodex are resilient to conventional bacterial blepharitis treatments and require a more specific approach. Examination of the lashes under microscope is often needed to visualise the mites and make the diagnosis. This video describes more about demodex blepharitis:
 
-<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\\\[if IE]><iframe frameborder="0" type="text/html" src="https://2689-2347.captiv8online.com/animations/embed/one/lids-demodex?player_width=100%&player_height=100%&site_company_language=34&autostart=false" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\\\[endif]--><!--\\\[if !IE]> <--><object data="https://2689-2347.captiv8online.com/animations/embed/one/lids-demodex?player_width=100%&player_height=100%&site_company_language=34&autostart=false" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://2689-2347.captiv8online.com/animations/embed/one/lids-demodex?player_width=100%&player_height=100%&site_company_language=34&autostart=false">Blepharitis: Demodex</a></object><!--> <!\\\[endif]--></div>
+<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\\\\[if IE]><iframe frameborder="0" type="text/html" src="https://2689-2347.captiv8online.com/animations/embed/one/lids-demodex?player_width=100%&player_height=100%&site_company_language=34&autostart=false" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\\\\[endif]--><!--\\\\[if !IE]> <--><object data="https://2689-2347.captiv8online.com/animations/embed/one/lids-demodex?player_width=100%&player_height=100%&site_company_language=34&autostart=false" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://2689-2347.captiv8online.com/animations/embed/one/lids-demodex?player_width=100%&player_height=100%&site_company_language=34&autostart=false">Blepharitis: Demodex</a></object><!--> <!\\\\[endif]--></div>
 
 <br>
 
 Demodex blepharitis can be trickier to manage as the mites can be resistant to conventional blepharitis treatment. Alternative treatments involving multiple Bleph-Ex procedures using tea-tree oil and daily lid scrubs with Blephadex Eyelid Cleanser at home over many weeks are often necessary to eradicate demodex from your lashes. Certain patients, including those with roseacea, are more likely to react to the demodex mites and have symptoms. Talk to your optometrist for more detail about this if they suspect demodex blepharitis.
+
+![](/uploads/demodex.jpg)
 
 #### Treatment
 
@@ -39,9 +39,13 @@ Follow this procedure to use SteriLid:
 4. Close eyes and massage foam gently into lids and eyelashes for 10 seconds. Avoid directly touching your eyes to prevent stinging. Try and massage as close to the base of the lashes as possible to remove the debris accumulating there.
 5. Leave in place for 60 seconds then rinse well with water.
 
+![](/uploads/7f20fcf6ada0b443b30c8f45b2958f5cb4f19ded_sterilid.jpg)
+
 ##### In-office BlephEx treatment
 
 This is a new and painless in-office procedure performed by your optometrist at Innovative Eye Care. A rotating cleaner removes debris on the lashes caused by blepharitis to assist home management and improve lid quality. Patients with demodex blepharitis benefit from this treatment with diluted tea-tree oil every 2 to 4 weeks.
+
+![](/uploads/blephex.jpg)
 
 ##### References
 
