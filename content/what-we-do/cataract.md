@@ -9,7 +9,7 @@ preview-image: cataract.jpg
 
 #### What are cataracts?
 
-<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\\\[if IE]><iframe frameborder="0" type="text/html" src="https://2689-2347.captiv8online.com/animations/embed/one/cat-wh-is-it?player_width=100%&player_height=100%&site_company_language=34&autostart=false" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\\\[endif]--><!--\\\[if !IE]> <--><object data="https://2689-2347.captiv8online.com/animations/embed/one/cat-wh-is-it?player_width=100%&player_height=100%&site_company_language=34&autostart=false" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://2689-2347.captiv8online.com/animations/embed/one/cat-wh-is-it?player_width=100%&player_height=100%&site_company_language=34&autostart=false">Cataract: What is it?</a></object><!--> <!\\\[endif]--></div>
+<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\\\\[if IE]><iframe frameborder="0" type="text/html" src="https://2689-2347.captiv8online.com/animations/embed/one/cat-wh-is-it?player_width=100%&player_height=100%&site_company_language=34&autostart=false" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\\\\[endif]--><!--\\\\[if !IE]> <--><object data="https://2689-2347.captiv8online.com/animations/embed/one/cat-wh-is-it?player_width=100%&player_height=100%&site_company_language=34&autostart=false" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://2689-2347.captiv8online.com/animations/embed/one/cat-wh-is-it?player_width=100%&player_height=100%&site_company_language=34&autostart=false">Cataract: What is it?</a></object><!--> <!\\\\[endif]--></div>
 
 <br>
 
@@ -19,17 +19,17 @@ preview-image: cataract.jpg
 
 This type of cataract is often age-related and causes a yellowing of the normally clear lens. It can often cause your prescription to shift in a short-sighted direction.
 
-##### Posterior sub-capsular cataracts
-
-These are cataracts located at the back surface of the lens. Because of their location even a mild cataract can cause a large loss of vision. Often these are the result of previous surgery or eye trauma. They tend to be the fastest growing cataract. 
-
 ##### Cortical cataracts
 
 Originating in the periphery of the lens and moving inwards in spokes, this cataract is located in the middle layer of the lens known as the cortex.
 
-![](/uploads/cataract-types.png)
+##### Posterior sub-capsular cataracts
 
-CAPTION: A nuclear sclerotic, posterior sub-capsular and cortical cataract.
+These are cataracts located at the back surface of the lens. Because of their location even a mild cataract can cause a large loss of vision. Often these are the result of previous surgery or eye trauma. They tend to be the fastest growing cataract. 
+
+![](/uploads/cataract-types-2.png)
+
+CAPTION: A nuclear sclerotic, cortical and posterior sub-capsular cataract.
 
 #### Cataract treatment and prevention
 
