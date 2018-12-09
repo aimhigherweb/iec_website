@@ -9,7 +9,7 @@ preview-image: corneal-graft.jpg
 
 At Innovative Eye Care we are often asked by ophthalmologists and other optometrists to help patients who have had corneal grafts achieve the best vision possible. Sometimes we can manage this with spectacles, but more often we have the best success with large diameter [scleral lenses](/what-we-do/scleral-contact-lenses), for a variety of reasons.
 
-![](/uploads/corneal-graft.jpg)
+![](/uploads/cataracts.jpg)
 
 The donor cornea is often irregular in shape and this makes it very difficult to fit a standard RGP or soft contact lens. A scleral lens will vault over a grafted eye without touching the surface. Not only is this good for vision but also for comfort and healing from the surgery.
 
