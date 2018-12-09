@@ -23,7 +23,7 @@ Passing and changing lanes in busy traffic require accurate judgement of distanc
 
 #### Field of vision
 
-The ability to ‘see out of the corner of your eye’—to see over a large area without moving your eyes or head— is an important part of safe driving. It enables a driver to see cross-road traffic and pedestrians at the roadside without looking away from the road ahead. Normally, the field of vision is about 180 degrees, reduced with increasing speed, and is only 40 degrees for distant objects at speeds of 100 kilometres an hour. 
+The ability to ‘see out of the corner of your eye’—to see over a large area in your periphery without moving your eyes or head— is an important part of safe driving. It enables a driver to see cross-road traffic and pedestrians at the roadside without looking away from the road ahead. Normally, the field of vision is about 180 degrees, reduced with increasing speed, and is only 40 degrees for distant objects at speeds of 100 kilometres an hour. 
 
 To meet the driving standard you need to see with both eyes at least 110 degrees horizontally, with no visual field problems within 20 degrees of where your eyes point. This means patients with vision in only one eye may still meet the driving standard but with require a period of time (usually 3 months) to adapt to only using one eye first if it is a new condition. Patients with conditions like glaucoma may not meet this standard due to loss of their peripheral vision. At Innovative Eye Care we have special [visual field testing machines](/what-we-do/visual-field-testing) that can check if you meet this driving standard.
 
