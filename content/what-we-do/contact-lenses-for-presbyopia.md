@@ -12,7 +12,7 @@ preview-image: color-eye.jpg
 
 ##### Multifocal contact lenses (simultaneous vision)
 
-<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\\[if IE]><iframe frameborder="0" type="text/html" src="https://2689-2347.captiv8online.com/animations/embed/one/mult-o-l-o-t-t?player_width=100%&player_height=100%&site_company_language=34&autostart=false" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\\[endif]--><!--\\[if !IE]> <--><object data="https://2689-2347.captiv8online.com/animations/embed/one/mult-o-l-o-t-t?player_width=100%&player_height=100%&site_company_language=34&autostart=false" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://2689-2347.captiv8online.com/animations/embed/one/mult-o-l-o-t-t?player_width=100%&player_height=100%&site_company_language=34&autostart=false">Multifocal Contacts</a></object><!--> <!\\[endif]--></div>
+<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\\\[if IE]><iframe frameborder="0" type="text/html" src="https://2689-2347.captiv8online.com/animations/embed/one/mult-o-l-o-t-t?player_width=100%&player_height=100%&site_company_language=34&autostart=false" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\\\[endif]--><!--\\\[if !IE]> <--><object data="https://2689-2347.captiv8online.com/animations/embed/one/mult-o-l-o-t-t?player_width=100%&player_height=100%&site_company_language=34&autostart=false" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://2689-2347.captiv8online.com/animations/embed/one/mult-o-l-o-t-t?player_width=100%&player_height=100%&site_company_language=34&autostart=false">Multifocal Contacts</a></object><!--> <!\\\[endif]--></div>
 
 <br>
 
@@ -20,7 +20,7 @@ With these lenses, your eyes are focused for both distance and near vision at th
 
 ##### Monovision contact lenses (blended vision)
 
-<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\\[if IE]><iframe frameborder="0" type="text/html" src="https://2689-2347.captiv8online.com/animations/embed/one/monovision-treatment?player_width=100%&player_height=100%&site_company_language=34&autostart=false" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\\[endif]--><!--\\[if !IE]> <--><object data="https://2689-2347.captiv8online.com/animations/embed/one/monovision-treatment?player_width=100%&player_height=100%&site_company_language=34&autostart=false" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://2689-2347.captiv8online.com/animations/embed/one/monovision-treatment?player_width=100%&player_height=100%&site_company_language=34&autostart=false">Monovision Treatment</a></object><!--> <!\\[endif]--></div>
+<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\\\[if IE]><iframe frameborder="0" type="text/html" src="https://2689-2347.captiv8online.com/animations/embed/one/monovision-treatment?player_width=100%&player_height=100%&site_company_language=34&autostart=false" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\\\[endif]--><!--\\\[if !IE]> <--><object data="https://2689-2347.captiv8online.com/animations/embed/one/monovision-treatment?player_width=100%&player_height=100%&site_company_language=34&autostart=false" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://2689-2347.captiv8online.com/animations/embed/one/monovision-treatment?player_width=100%&player_height=100%&site_company_language=34&autostart=false">Monovision Treatment</a></object><!--> <!\\\[endif]--></div>
 
 <br>
 
@@ -29,3 +29,5 @@ With monovision, one of your eyes is corrected for distance and the other is cor
 ##### Orthokeratology for presbyopia
 
 [Orthokeratology](/what-we-do/orthokeratology-corneal-reshaping) or 'ortho-k' lenses (overnight corneal reshaping lenses) can be designed to give distance and near vision in a manner similar to monovision. Due to the nature of how ortho-k lenses reshape the cornea, they have more of a multi-focal effect than standard soft lenses. Like monovision, if you normally see well in the distance you may just need a single ortho-k lens worn overnight in one eye to give you better vision for near tasks throughout the day.
+
+![](/uploads/orthokeratology-lens.jpg)
