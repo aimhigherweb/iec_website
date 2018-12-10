@@ -16,13 +16,17 @@ preview-image: dry-eye.jpg
 
 There are many causes of dry eye. These fall into several broad categories that come with particular treatments. There can be some overlap between the types of dry eye, making the condition challenging for both the practitioner and patient to manage.
 
-<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\\\\\[if IE]><iframe frameborder="0" type="text/html" src="https://2689-2347.captiv8online.com/animations/embed/one/dry-eye-cause-symptoms?player_width=100%&player_height=100%&site_company_language=34&autostart=false" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\\\\\[endif]--><!--\\\\\[if !IE]> <--><object data="https://2689-2347.captiv8online.com/animations/embed/one/dry-eye-cause-symptoms?player_width=100%&player_height=100%&site_company_language=34&autostart=false" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://2689-2347.captiv8online.com/animations/embed/one/dry-eye-cause-symptoms?player_width=100%&player_height=100%&site_company_language=34&autostart=false">Dry Eye: Cause & Symptoms</a></object><!--> <!\\\\\[endif]--></div>
+<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\\\\\\[if IE]><iframe frameborder="0" type="text/html" src="https://2689-2347.captiv8online.com/animations/embed/one/dry-eye-cause-symptoms?player_width=100%&player_height=100%&site_company_language=34&autostart=false" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\\\\\\[endif]--><!--\\\\\\[if !IE]> <--><object data="https://2689-2347.captiv8online.com/animations/embed/one/dry-eye-cause-symptoms?player_width=100%&player_height=100%&site_company_language=34&autostart=false" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://2689-2347.captiv8online.com/animations/embed/one/dry-eye-cause-symptoms?player_width=100%&player_height=100%&site_company_language=34&autostart=false">Dry Eye: Cause & Symptoms</a></object><!--> <!\\\\\\[endif]--></div>
 
 <br>
 
 #### Evaporative dry eye
 
-The majority of dry eye problems are due to evaporative dry eye. This is when the aqueous water component of the tears is produced at normal quantities but is quick to evaporate, leading to dryness. There are a number of factors which can lead to evaporative dry eye.
+The majority of dry eye problems are due to evaporative dry eye. This is when the aqueous water component of the tears is produced at normal quantities but is quick to evaporate, leading to dryness.
+
+To understand evaporative dry eye, it's important to understand what makes up the tear film that usually keeps your eyes wetted. The tear film is made up of an inner mucus layer, a middle aqueous layer and an outer oil layer.
+
+![](/uploads/tear-film.jpg)
 
 ##### Evaporative dry eye from meibomian gland dysfunction
 
