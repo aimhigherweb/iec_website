@@ -5,7 +5,7 @@ preview-image: keratitis.jpg
 ---
 
 <div class="employee-heading">
-<p>Keratitis is a severe and potentially sight-threatening condition that arises due to inflammation of the cornea – the clear front surface of the eye (1,2). This is often due to infection by a variety of micro-organisms and is more likely to occur in eye surface disease and contact lens wearers (1-3). Subsequent scarring can cause permanent vision loss and so all forms of keratitis need prompt diagnosis and treatment by an optometrist to save sight and improve comfort (2,3).</p>
+<p>Keratitis is a severe and potentially sight-threatening condition that arises due to inflammation of the cornea – the clear front surface of the eye.<sup>1,2</sup> This is often due to infection by a variety of micro-organisms and is more likely to occur in eye surface disease and contact lens wearers.<sup>1-3</sup> Subsequent scarring can cause permanent vision loss and so all forms of keratitis need prompt diagnosis and treatment by an optometrist to save sight and improve comfort.<sup>2,3</sup></p>
 </div>
 
 There many different types of keratitis: the main categories are infective keratitis and non-infective (sterile) keratitis.
