@@ -9,7 +9,7 @@ preview-image: glaucoma.jpg
 
 #### What is glaucoma?
 
-<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\[if IE]><iframe frameborder="0" type="text/html" src="https://2689-2347.captiv8online.com/animations/embed/one/l-u-om-to?player_width=100%&player_height=100%&site_company_language=34&autostart=false" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\[endif]--><!--\[if !IE]> <--><object data="https://2689-2347.captiv8online.com/animations/embed/one/l-u-om-to?player_width=100%&player_height=100%&site_company_language=34&autostart=false" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://2689-2347.captiv8online.com/animations/embed/one/l-u-om-to?player_width=100%&player_height=100%&site_company_language=34&autostart=false">Glaucoma: Risk Factors </a></object><!--> <!\[endif]--></div>
+<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\\[if IE]><iframe frameborder="0" type="text/html" src="https://2689-2347.captiv8online.com/animations/embed/one/l-u-om-to?player_width=100%&player_height=100%&site_company_language=34&autostart=false" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\\[endif]--><!--\\[if !IE]> <--><object data="https://2689-2347.captiv8online.com/animations/embed/one/l-u-om-to?player_width=100%&player_height=100%&site_company_language=34&autostart=false" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://2689-2347.captiv8online.com/animations/embed/one/l-u-om-to?player_width=100%&player_height=100%&site_company_language=34&autostart=false">Glaucoma: Risk Factors </a></object><!--> <!\\[endif]--></div>
 
 <br>
 
@@ -32,3 +32,5 @@ CAPTION: Scans taken by the Heidelberg Spectralis OCT that reveals indications o
 #### How is glaucoma treated?
 
 Glaucoma can be managed effectively. Early detection is the key, as this increases options for treatment that can significantly slow the progression of the disease. Treatment options include eye drops, laser and surgery. Optometrists at Innovative Eye Care can prescribe the eye drops used to treat glaucoma. If you are prescribed glaucoma eye drops, these need to be used correctly _every day_ to decrease the chance of worsening of the condition. Visit our [page on using eye drops correctly](/what-we-do/eye-drops) for more information on this. Ongoing examinations at least every year are required to ensure your glaucoma is stable.
+
+![](/uploads/eye-drops.jpg)
