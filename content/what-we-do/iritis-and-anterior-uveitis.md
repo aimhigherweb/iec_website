@@ -3,7 +3,6 @@ title: Iritis & Anterior Uveitis
 category: acute-red-eyes
 preview-image: iritis-uveitis.jpg
 ---
-
 <div class="employee-heading">
 <p>Iritis is a condition which involves inflammation of the iris within the eye. This is the most common type of anterior uveitis – a term covering inflammation of the deep pigmented tissues at the front of the eye. Iritis may occur in one or both eyes; however, it is more common for just one eye to be affected at a time. The eye is often red, painful and light-sensitive with this condition. Iritis is potentially sight-threatening and needs prompt treatment from your therapeutically trained optometrist.</p>
 </div>
@@ -14,7 +13,14 @@ The iris is the coloured part of the eye that surrounds the pupil. It is compris
 
 #### What are the symptoms of iritis?
 
-Symptoms of iritis include eye pain, redness of the eye, increased sensitivity to light, blurry or cloudy vision. Less commonly, the pupil can become smaller or irregularly-shaped. Patients become light sensitive because the inflamed iris moves in response to light which causes pain. A good analogy would be tugging on a broken arm! Mucous discharge is not a symptom of iritis; this differs from many cases of conjunctivitis.
+Symptoms of iritis include:
+
+* Pain in eye
+* Redness of eye
+* Increased sensitivity to light
+* Blurry or cloudy vision
+
+Less commonly, the pupil can become smaller or irregularly-shaped. Patients become light sensitive because the inflamed iris moves in response to light which causes pain. A good analogy would be tugging on a broken arm! Mucous discharge is <i>not</i> a symptom of iritis; this differs from many cases of conjunctivitis.
 
 #### What causes iritis?
 
@@ -22,8 +28,8 @@ There are many different causes of iritis and it is associated with a number of 
 
 #### How is iritis diagnosed?
 
-A slit lamp microscope is used to look for the presence of white bloodcells (leukocytes) or hazy protein deposits inside the eye. These are a sign of inflammation. Your eye specialist may find that intraocular eye pressure is reduced. The iris is an extension of the part of the eye that produces intraocular fluid; hence, when inflamed, production of this fluid can be affected. In contrast, some forms of iritis actually cause intraocular pressure to increase when material blocks the drainage of fluid from within the eye. 
+A slit lamp microscope is used to look for the presence of white blood cells (leukocytes) or hazy protein deposits inside the eye. These are a sign of inflammation. Your eye specialist may find that intraocular eye pressure is reduced. The iris is an extension of the part of the eye that produces intraocular fluid; hence, when inflamed, production of this fluid can be affected. In contrast, some forms of iritis actually cause intraocular pressure to increase when material blocks the drainage of fluid from within the eye. 
 
-# How is iritis treated?
+#### How is iritis treated?
 
 Treatment is aimed at decreasing inflammation. Anti-inflammatory eye drops (corticosteroids) are the most common form of treatment. Dilating drops may also be instilled to prevent the iris from adhering to the crystalline lens and to reduce patient discomfort. Iritis usually responds well to treatment; however, it may recur, especially if associated with an underlying disease. In severe cases, permanent visual loss can result from iritis. When symptoms occur, a prompt examination by your eye specialist is vital.
