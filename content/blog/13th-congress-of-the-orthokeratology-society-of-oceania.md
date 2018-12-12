@@ -5,11 +5,11 @@ author: Joanna Rohrlach
 author_url: /who-we-are/joanna-rohrlach
 preview_image: /uploads/3aae7ccb749347fa945ffff0f48da057.png
 ---
-The Orthokeratology Society of Oceania held its biannual congress on the Gold Coast at the beginning of the month. This 2 and a half day congress was well supported by many optometrists, doctors and orthokeratology researchers and entrepreneurs from all over the world. I was lucky enough to attend this years’ congress, together with our very own Lachlan Hoy, who also gave an engaging presentation on Saturday morning. 
+The Orthokeratology Society of Oceania held its biannual congress on the Gold Coast at the beginning of October this year. This 2 and a half day congress was well supported by many optometrists, doctors and orthokeratology researchers and entrepreneurs from all over the world. I was lucky enough to attend this years’ congress, together with our very own Lachlan Hoy, who also gave an engaging presentation on Saturday morning. 
 
 ![](/uploads/20181005_143709.jpg)
 
-CAPTION: Lachlan Hoy giving a presentation on ‘Refitting a Decentred Orthokeratology Lens’
+CAPTION: Lachlan Hoy giving a presentation on ‘Refitting a Decentred Orthokeratology Lens’
 
 Other speakers came from all corners of the globe: United States, Canada, New Zealand, China and Italy. The information conveyed throughout the jam-packed congress included the demonstration of protocols for fitting complex prescriptions and recent research into the myopia-controlling effects of orthokeratology. Question and Answer panels were also a terrific opportunity to ask some specific questions and hear the rigorous discussion between the various experts in the field!
 
