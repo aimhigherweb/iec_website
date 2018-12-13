@@ -30,6 +30,8 @@ The above images show a normal, regular cornea on the left and a keratoconic cor
 
 As well as corneal shape and thickness, there are a number of other findings visible under microscopy. These include the presence of prominent corneal nerves, Fleischer's iron ring and Vogt’s striae (corneal stress lines).<sup>10</sup>
 
+![](/uploads/keratoconus.jpg)
+
 ##### Corneal topographical mapping
 
 Corneal topography is a non-invasive way to measure the contours and shape of the cornea. It is the 'gold standard' in diagnosing and assessing keratoconus.<sup>11</sup> Topographers work by shining concentric rings of light on the cornea and assessing what is reflected back. If the cornea is even and regular, the rings are reflected back evenly as well.
