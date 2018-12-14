@@ -10,7 +10,7 @@ Keratoconus management is often reliant on early detection.<sup>2</sup> At our A
 
 </div>
 
-<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\\[if IE]><iframe frameborder="0" type="text/html" src="https://2689-2347.captiv8online.com/animations/embed/one/t-to-o-u?player_width=100%&player_height=100%&site_company_language=34&autostart=false" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\\[endif]--><!--\\[if !IE]> <--><object data="https://2689-2347.captiv8online.com/animations/embed/one/t-to-o-u?player_width=100%&player_height=100%&site_company_language=34&autostart=false" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://2689-2347.captiv8online.com/animations/embed/one/t-to-o-u?player_width=100%&player_height=100%&site_company_language=34&autostart=false">Keratoconus: What is it?</a></object><!--> <!\\[endif]--></div>
+<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\\\[if IE]><iframe frameborder="0" type="text/html" src="https://2689-2347.captiv8online.com/animations/embed/one/t-to-o-u?player_width=100%&player_height=100%&site_company_language=34&autostart=false" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\\\[endif]--><!--\\\[if !IE]> <--><object data="https://2689-2347.captiv8online.com/animations/embed/one/t-to-o-u?player_width=100%&player_height=100%&site_company_language=34&autostart=false" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://2689-2347.captiv8online.com/animations/embed/one/t-to-o-u?player_width=100%&player_height=100%&site_company_language=34&autostart=false">Keratoconus: What is it?</a></object><!--> <!\\\[endif]--></div>
 
 <br>
 
@@ -26,11 +26,11 @@ Unfortunately, being a multifactorial disease, onset and progression is extremel
 
 Microscopy of the front surface of the eye conveys the shape and thickness of the corneal surface.
 
+![](/uploads/normal-and-kcs-cornea-cross-section.jpg)
+
 The above images show a normal, regular cornea on the left and a keratoconic cornea on the right. Note the forward protrusion of the cornea in the keratoconic eye, with a notable thinning of the cornea compared to the normal eye.
 
 As well as corneal shape and thickness, there are a number of other findings visible under microscopy. These include the presence of prominent corneal nerves, Fleischer's iron ring and Vogt’s striae (corneal stress lines).<sup>10</sup>
-
-![](/uploads/keratoconus.jpg)
 
 ##### Corneal topographical mapping
 
