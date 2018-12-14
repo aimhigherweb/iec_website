@@ -6,7 +6,7 @@ preview-image: keratoconus.jpg
 <div class="employee-heading">
 <p>Keratoconus is an eye disease that can cause distorted, blurry vision that often requires <a href="/what-we-do/contact-lenses">more complex contact lens solutions</a>. The condition involves progressive thinning of the cornea (the front surface of the eye), causing the surface to protrude forward in a cone shape, giving the disease its name ("<i>keras</i>" meaning cornea, and "<i>konos</i>" meaning cone). With increased severity, the amount of protrusion and irregularity of the cornea increases, too.<sup>1</sup>
 
-Keratoconus management is often reliant on early detection.<sup>2</sup> At our Adelaide and Woodville branches, our optometrists have an interest in keratoconus, and one of our optometrists, Lachlan Hoy, has written a text book chapter on keratoconus that will be distributed globally. If you are interested in making an <a href="/what-we-do/eye-exam">appointment</a>, please contact us for more information.
+Keratoconus management is often reliant on early detection.<sup>2</sup> At our Adelaide and Woodville branches, our optometrists have an interest in keratoconus, and one of our optometrists, Lachlan Hoy, has written the chapter on keratoconus in the globally distributed <i>Contact Lenses</i> textbook to be published in 2019. If you are interested in making an <a href="/what-we-do/eye-exam">appointment</a>, please contact us for more information.
 
 </div>
 
