@@ -12,46 +12,44 @@ preview-image: myopia-control-1.jpg
 
 #### How prevalent is myopia?
 
-For most people short-sightedness evokes the harmless image of a school-aged child using glasses to see the television and school board clearly. But the real change that progressive myopia represents is a lengthening of the eyeball which increases the risk of eye disease. And these are changes are happening at a rapid rate, with prevalence predicted to reach half the world's population by 2050.
+For most people short-sightedness evokes the harmless image of a school-aged child using glasses to see the television and school board clearly. But the real change that progressive myopia represents is a lengthening of the eyeball which increases the risk of eye disease. These changes are happening at a rapid rate, with the prevalence of myopia predicted to reach half the world's population by 2050. Some groups of people seem to be developing more myopia than others. Those that are higher educated, those living in more densely populated regions, and those of Asian descent tend to be more adversely affected. 
 
 ![](/uploads/pasted-image-0-1.png)
 
-The prevalence varies with some groups of people seem to be developing more myopia than others: higher educated, more densely populated, asian race. 
-
-<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\[if IE]><iframe frameborder="0" type="text/html" src="https://2689-2347.captiv8online.com/animations/embed/one/o-t-t-d?player_width=100%&player_height=100%&site_company_language=34&autostart=false" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\[endif]--><!--\[if !IE]> <--><object data="https://2689-2347.captiv8online.com/animations/embed/one/o-t-t-d?player_width=100%&player_height=100%&site_company_language=34&autostart=false" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://2689-2347.captiv8online.com/animations/embed/one/o-t-t-d?player_width=100%&player_height=100%&site_company_language=34&autostart=false">Myopia</a></object><!--> <!\[endif]--></div>
+<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\\\[if IE]><iframe frameborder="0" type="text/html" src="https://2689-2347.captiv8online.com/animations/embed/one/o-t-t-d?player_width=100%&player_height=100%&site_company_language=34&autostart=false" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\\\[endif]--><!--\\\[if !IE]> <--><object data="https://2689-2347.captiv8online.com/animations/embed/one/o-t-t-d?player_width=100%&player_height=100%&site_company_language=34&autostart=false" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://2689-2347.captiv8online.com/animations/embed/one/o-t-t-d?player_width=100%&player_height=100%&site_company_language=34&autostart=false">Myopia</a></object><!--> <!\\\[endif]--></div>
 
 <br>
 
 #### How does myopia affect the eye?
 
-By definition, myopia is a condition that causes light to be focussed behind the retina rather than on it, causing blurred distance vision. The eye tries to correct this by lengthening so the light can be focussed on the retina. This lengthening happens as a result of stretching of the tissue of the eye, not eye growth. Myopia can start to develop at any age but the younger the start, the more aggressive the progression of myopia and eye lengthening tends to be. High myopes will be highly dependent on more expensive, heavy, high-powered glasses or contact lenses for any visual tasks. They may also have to keep updating their prescription lenses each year as their eye becomes more shortsighted. 
+By definition, myopia is a condition caused by light focusing behind the retina rather than on it, causing blurred distance vision. The eye will try to correct this by lengthening to catch up with the light focused behind it. This lengthening happens as a result of stretching of the tissue of the eye, not growth, and as a result the people with high levels of myopia are at increased risk for retinal detachments. Myopia can start to develop at any age but the younger the start, the more aggressive the progression of myopia and eye lengthening tends to be. High myopes will be highly dependent on more expensive, heavy, high-powered glasses or contact lenses for any visual tasks. They may also have to keep updating their prescription lenses each year as their eye becomes more shortsighted. 
 
 #### What are the associated risks of myopia?
 
-Historically, low myopia was considered as normal variation of the eye, a harmless adaptation of the eye to increased near vision demands,  and a distinction was made between:
+Historically, low myopia was considered a normal variation of the eye, a harmless adaptation to increased near vision demands, and a distinction was made between:
 
-* physiological myopia, below -5D (dioptres), assumed to have no associated eye disease, 
-* pathological myopia, above -5D, where increased eye length growth causes retinal stretching and subsequent increased risk of detachment, maculopathy, glaucoma and cataract
+* **Physiological myopia** between -0.25 and -5.00 D, assumed to have no associated eye disease
+* **Pathological myopia** beyond -5.00 D, where increased eye length growth causes retinal stretching and subsequent risk of detachment, maculopathy, glaucoma and cataract
 
 For this model to be valid, there should be a cutoff under which the degree of myopia has an acceptably low level of risk for eye disease, but this does not appear to happen. Any magnitude of myopia carries significant increased risk of permanent, uncorrectable vision loss compared to a non-myopic eye.
 
 #### How bad are the risks, even just for low myopia?
 
-“Myopia in the so-called ‘physiological range’ represents a major risk factor for ocular disease that is comparable with the risks associated with hypertension for cardiovascular disease or with the risks of stroke from smoking more than 20 cigarettes per day.“ (Flitcroft)
+A study published in 2012<sup>1</sup> on the interactions of several factors on myopia found the following:
 
-“For [retinal detachment](/what-we-do/flashes-floaters-retinal-tear-detachment) and myopic maculopathy, myopia carries a risk far in excess of any identified population risk factor for cardiovascular disease” (Flitcroft)
+<p style="margin-left: 40px">“Myopia in the so-called ‘physiological range’ represents a major risk factor for ocular disease that is comparable with the risks associated with hypertension for cardiovascular disease or with the risks of stroke from smoking more than 20 cigarettes per day. For retinal detachment and myopic maculopathy, myopia carries a risk far in excess of any identified population risk factor for cardiovascular disease.”</p>
 
-These conditions are far from rare: myopia maculopathy, a progressive condition causing breakdown of retinal cells, is the forth most common cause of visual impairment in the UK, ahead of diabetic eye disease.
+These conditions are far from rare: myopic maculopathy, a progressive condition causing breakdown of retinal cells, is the forth most common cause of visual impairment in the UK, ahead of diabetic eye disease.
 
-An important concept to re-iterate is that while the risks of eye disease later in life are present for any degree of myopia, the higher the amount of myopia, the higher the risk. An Australian study showed myopes of above -5D had a myopic retinopathy prevalence 60 times that of lower myopes. The lifetime chance of a retinal detachment in patients with more than -5D of myopia is around 5% compared to 0.3% for the general population. If we can stop the progression of myopia into these high levels then a significant amount of blindness can be prevented. Studies suggest that even a modest reduction in the rate of myopia of 33 % could produce a 73 % reduction in myopia above 5.00 D.
+An important concept to re-iterate is that while the risks of eye disease later in life are present for any degree of myopia, the higher the amount of myopia, the higher the risk. An Australian study showed myopes of above -5.00 D had a myopic retinopathy prevalence 60 times that of lower myopes. The lifetime chance of a retinal detachment in patients with more than -5.00 D of myopia is around 5% compared to 0.3% for the general population. If we can stop the progression of myopia into these high levels then a significant amount of blindness can be prevented. Studies suggest that even a modest reduction in the rate of myopia of 33 % could produce a 73 % reduction in myopia above 5.00 D.
 
 #### Case study: Alex Petty
 
-The personal case of one of our previous optometrists, Alex Petty, highlights why myopia control is so important. Alex developed myopia at the age of 9. This progressed throughout his teenage years, eventually stabilising at a high -7.50D in each eye. As a result, Alex suffered two retinal detachments in his left eye in 2009 and another in 2014 in his right. Fortunately through timely surgery, these were able to be repaired with only slight vision loss. If Alex had access to myopia control treatments when he was a teenager, it is unlikely his prescription would have worsened as quickly and these ocular emergencies might have been prevented. His experience has fueled a passion to treat young people with myopia and prevent eye disease later in their lives. 
+The personal case of one of our previous optometrists, Alex Petty, highlights why myopia control is so important. Alex developed myopia at the age of 9. This progressed throughout his teenage years, eventually stabilising at a high -7.50 D in each eye. As a result, Alex suffered two retinal detachments in his left eye in 2009 and another in 2014 in his right. Fortunately, through timely surgery the damage was controlled with only slight vision loss. If Alex had access to myopia control treatments when he was a teenager, it is unlikely his prescription would have worsened as quickly and these ocular emergencies might have been prevented. His experience has fuelled a passion to treat young people with myopia and prevent eye disease later in their lives. 
 
 #### How can myopia be controlled?
 
-<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\[if IE]><iframe frameborder="0" type="text/html" src="https://2689-2347.captiv8online.com/animations/embed/one/myopia-control?player_width=100%&player_height=100%&site_company_language=34&autostart=false" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\[endif]--><!--\[if !IE]> <--><object data="https://2689-2347.captiv8online.com/animations/embed/one/myopia-control?player_width=100%&player_height=100%&site_company_language=34&autostart=false" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://2689-2347.captiv8online.com/animations/embed/one/myopia-control?player_width=100%&player_height=100%&site_company_language=34&autostart=false">Myopia Control</a></object><!--> <!\[endif]--></div>
+<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\\\[if IE]><iframe frameborder="0" type="text/html" src="https://2689-2347.captiv8online.com/animations/embed/one/myopia-control?player_width=100%&player_height=100%&site_company_language=34&autostart=false" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\\\[endif]--><!--\\\[if !IE]> <--><object data="https://2689-2347.captiv8online.com/animations/embed/one/myopia-control?player_width=100%&player_height=100%&site_company_language=34&autostart=false" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://2689-2347.captiv8online.com/animations/embed/one/myopia-control?player_width=100%&player_height=100%&site_company_language=34&autostart=false">Myopia Control</a></object><!--> <!\\\[endif]--></div>
 
 <br>
 
@@ -63,7 +61,7 @@ The good news is, there is convincing evidence that certain treatments can slow 
 
 ##### Orthokeratology
 
-[Orthokeratology](/what-we-do/orthokeratology-corneal-reshaping) (or Ortho-K) is a type of contact lens wear which has been practiced at Innovative Eye Care for many years. Ortho-K involves wearing a custom-designed contact lens overnight which reshapes the surface of the eye, giving clear vision the next day without the lenses. As well as being convenient for the patient, the treatment actually slows and in some cases stops myopia progression.  When myopic eyes are corrected with conventional spectacles and contact lenses, light entering the eye centrally will focus at the retina; however, light entering off-centre will focus behind the retina. This is thought to stimulate lengthening at the back of the eye as the retina tries to reach the focal point behind the eye, worsening the condition. Ortho-K lenses can slow this growth by changing the shape of the eye surface, allowing central light to focus accurately at the retina and off-centre light to focus in front of the retina. The retina will no longer 'attempt' to elongate.
+[Orthokeratology](/what-we-do/orthokeratology-corneal-reshaping) (or ortho-K) is a type of contact lens wear which has been practiced at Innovative Eye Care for many years. Ortho-K involves wearing a custom-designed contact lens overnight which reshapes the surface of the eye, providing clear vision the next day without the lenses. As well as being convenient for the patient, the treatment actually slows and in some cases stops myopia progression. As the surface of the eye changes, so does the point at which light entering it is focused. As we know, myopes focus light behind the retina. When reshaped, the light is focused on the retina and the eye no longer attempts to elongate.
 
 Research has now shown a range of 32%-100% slowing of myopia progression depending on the study. Most reports suggest an average of a 50% reduction in the rate of myopia progression with ortho-K contact lens wear. Results in our practice and from other myopia control practices in Australasia show complete halting of myopia progression in some patients.
 
@@ -75,11 +73,11 @@ Studies over the last decade have found that much lower concentrations of atropi
 
 It was initially thought that as atropine drops paralyse the focusing muscles of the eye, this was the reason for the myopia control. Our understanding now suggests that the atropine molecule affects a receptor in the choroid or sclera of the eye (the vascular and structural layers of the eyeball), signalling to the eye not to continue to elongate. This mechanism is still being studied. 
 
-Atropine drops need to be instilled nightly and can be combined with Ortho-K therapy to maximise the myopia control effect. Visual and general side-effects are highly unlikely at 0.02%. Atropine drops will need to be specially formulated at a compounding pharmacy as they are not readily available at concentrations below 0.5%. 
+Atropine drops need to be instilled nightly and can be combined with ortho-K therapy to maximise the myopia control effect. Visual and general side-effects are highly unlikely at 0.02%. Atropine drops will need to be specially formulated at a compounding pharmacy as they are not readily available at concentrations below 0.5%. 
 
 ##### Soft contact lenses
 
-Certain types of soft contact lenses have been used and developed to control myopia. Multifocal soft contact lenses are typically used by people over 40 yo to improve their near vision. These have a similar peripheral area of steepening on the lens like Ortho-K, although at a lower level (maximum +3D, whereas the ortho-K example above shows a +8D difference!). As a result, when these soft contacts have been used by young patients, studies have only reported a modest range decreased progression of 29-45% . Specialised soft contact lenses called MiSight (Coopervision) have been designed by a research team in New Zealand specifically with myopia control in mind, and have been TGA approved for the indication of controlling myopia progression. These lenses show a 40% reduction in myopia progression. If Ortho-K lenses are not suitable, these soft contact lenses may be discussed by your optometrist as an alternative option, and may be used in conjunction with atropine drops.
+Certain types of soft contact lenses have been used and developed to control myopia. Multifocal soft contact lenses are typically used by people over 40 to improve their near vision. These have a similar peripheral area of steepening on the lens like ortho-K, although at a lower level (maximum +3.00 D, whereas the ortho-K example above shows a +8.00 D difference!). As a result, when these soft contacts have been used by young patients, studies have only reported a modest range decreased progression of 29-45% . Specialised soft contact lenses called MiSight (Coopervision) have been designed by a research team in New Zealand specifically with myopia control in mind, and have been TGA approved for the indication of controlling myopia progression. These lenses show a 40% reduction in myopia progression. If ortho-K lenses are not suitable, these soft contact lenses may be discussed by your optometrist as an alternative option, and may be used in conjunction with atropine drops.
 
 ##### Spectacle lens options
 
@@ -97,24 +95,22 @@ Axial eye length is the best metric of risk and progression for myopia. It has t
 
 ##### References
 
-Brien Holden Vision Institute. The Impact of Myopia & High Myopia. 2015, NSW: World Health Organisation. 
+1. Flitcroft DI. The complex interactions of retinal, optical and environmental factors in myopia aetiology. Prog Retin Eye Res. 2012 Nov;31(6):622-60. 
 
-Mitchell P, Hourihan F, Sandbach J, Wang JJ. The relationship between glaucoma and myopia: the Blue Mountains Eye Study. Ophthalmology. 1999 Oct;106(10):2010-5.
+2. Brien Holden Vision Institute. The Impact of Myopia & High Myopia. 2015, NSW: World Health Organisation. 
 
-Kanthan GL, Mitchell P, Rochtchina E, Cumming RG, Wang JJ. Myopia and the long-term incidence of cataract and cataract surgery: the Blue Mountains Eye Study. Clin Exp Ophthalmol. 2014 May-Jun;42(4):347-53. 
+3. Mitchell P, Hourihan F, Sandbach J, Wang JJ. The relationship between glaucoma and myopia: the Blue Mountains Eye Study. Ophthalmology. 1999 Oct;106(10):2010-5.
 
-Flitcroft DI. The complex interactions of retinal, optical and environmental factors in myopia aetiology. Prog Retin Eye Res. 2012 Nov;31(6):622-60. 
+4. Kanthan GL, Mitchell P, Rochtchina E, Cumming RG, Wang JJ. Myopia and the long-term incidence of cataract and cataract surgery: the Blue Mountains Eye Study. Clin Exp Ophthalmol. 2014 May-Jun;42(4):347-53. 
 
-Huang J, Wen D, Wang Q, McAlinden C, Flitcroft I, Chen H, Saw SM, Chen H, Bao F, Zhao Y, Hu L, Li X, Gao R, Lu W, Du Y, Jinag Z, Yu A, Lian H, Jiang Q, Yu Y, Qu J. Efficacy Comparison of 16 Interventions for Myopia Control in Children: A Network Meta-analysis.Ophthalmology. 2016 Apr;123(4):697-708. 
+5. Huang J, Wen D, Wang Q, McAlinden C, Flitcroft I, Chen H, Saw SM, Chen H, Bao F, Zhao Y, Hu L, Li X, Gao R, Lu W, Du Y, Jinag Z, Yu A, Lian H, Jiang Q, Yu Y, Qu J. Efficacy Comparison of 16 Interventions for Myopia Control in Children: A Network Meta-analysis.Ophthalmology. 2016 Apr;123(4):697-708. 
 
-Gwiazda JE, Hyman L, Norton TT, Hussein MEM, Marsh-Tootle W, Manny R, Wang Y, Everett D; Accommodation and Related Risk Factors Associated with Myopia Progression and Their Interaction with Treatment in COMET Children. Invest. Ophthalmol. Vis. Sci. 2004;45(7):2143-2151.
+6. Gwiazda JE, Hyman L, Norton TT, Hussein MEM, Marsh-Tootle W, Manny R, Wang Y, Everett D; Accommodation and Related Risk Factors Associated with Myopia Progression and Their Interaction with Treatment in COMET Children. Invest. Ophthalmol. Vis. Sci. 2004;45(7):2143-2151.
 
-Morgan I, Ohno-Matsui K, Saw S. Myopia. Lancet Volume 379, Issue 9827, 5–11 May 2012, Pages 1739-1748.
+7. Morgan I, Ohno-Matsui K, Saw S. Myopia. Lancet Volume 379, Issue 9827, 5–11 May 2012, Pages 1739-1748.
 
-https://jamanetwork.com/journals/jamaophthalmology/fullarticle/424548
+8. Vitale S. Increased Prevalence of Myopia in the United States Between 1971-1972 and 1999-2004. Archives of Ophthalmology. 2009;127(12):1632.
 
-https://iovs.arvojournals.org/article.aspx?articleid=2182475
+9. Dayan Y, Levin A, Morad Y, Grotto I, Ben-David R, Goldberg A et al. The Changing Prevalence of Myopia in Young Adults: A 13-Year Series of Population-Based Prevalence Surveys. Investigative Opthalmology & Visual Science. 2005;46(8):2760.
 
-http://www.annals.edu.sg/pdf200401/V33N1p27.pdf
-
-https://onlinelibrary.wiley.com/doi/epdf/10.1111/j.1755-3768.2011.02210.x
+10. Pärssinen O. The increased prevalence of myopia in Finland. Acta Ophthalmologica. 2011;90(6):497-502.
