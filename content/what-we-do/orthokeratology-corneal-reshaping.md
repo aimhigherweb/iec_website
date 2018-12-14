@@ -1,9 +1,8 @@
 ---
-title: "Ortho-K: Corneal Reshaping"
+title: 'Ortho-K: Corneal Reshaping'
 category: orthok
 preview-image: ml-1.jpg
 ---
-
 <div class="employee-heading">
 <p><p>Orthokeratology lenses fitted by our optometrists in Adelaide or Woodville are worn while you sleep, leaving you with clear vision during the day without the need for contact lenses or glasses.</p>
 <p><b>For more information on orthokeratology, please see the links below:</b></p>
@@ -16,7 +15,7 @@ preview-image: ml-1.jpg
 
 # Ortho-what? Orthokeratology!
 
-<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--[if IE]><iframe frameborder="0" type="text/html" src="https://2689-2347.captiv8online.com/animations/embed/one/o-t-o-o-t-o?player_width=100%&player_height=100%&site_company_language=34&autostart=false" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><![endif]--><!--[if !IE]> <--><object data="https://2689-2347.captiv8online.com/animations/embed/one/o-t-o-o-t-o?player_width=100%&player_height=100%&site_company_language=34&autostart=false" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://2689-2347.captiv8online.com/animations/embed/one/o-t-o-o-t-o?player_width=100%&player_height=100%&site_company_language=34&autostart=false">Ortho-K</a></object><!--> <![endif]--></div>
+<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\[if IE]><iframe frameborder="0" type="text/html" src="https://2689-2347.captiv8online.com/animations/embed/one/o-t-o-o-t-o?player_width=100%&player_height=100%&site_company_language=34&autostart=false" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\[endif]--><!--\[if !IE]> <--><object data="https://2689-2347.captiv8online.com/animations/embed/one/o-t-o-o-t-o?player_width=100%&player_height=100%&site_company_language=34&autostart=false" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://2689-2347.captiv8online.com/animations/embed/one/o-t-o-o-t-o?player_width=100%&player_height=100%&site_company_language=34&autostart=false">Ortho-K</a></object><!--> <!\[endif]--></div>
 
 <br>
 
@@ -34,7 +33,7 @@ Improvements in vision can usually be seen the very next day. The effect stabili
 
 Ortho-K lenses are surprisingly comfortable. Most people comment that they forget they have lenses in after the first week. The risks of wearing ortho-K lenses are no higher than any other contacts. Of course, [proper care](/patient-resources/care-of-gas-permeable-lenses) is important to minimise the risk of allergies and bacterial infections from poor hygiene. 
 
-![](/uploads/sleeping.jpg)
+![](/uploads/ortho-k-1.jpeg)
 
 #### Why ortho-K?
 
@@ -50,9 +49,9 @@ Ortho-K is also completely reversible and completely safe for both adults and ch
 
 Ortho-K is ideal for children and adults with these prescriptions:
 
-  * -1.00 up to -8.00 dipotres of myopia and above
-  * +1.00 to +4.00 dipotres of hyperopia
-  * Up to moderate (-4.00 dipotres) of astigmatism
+* \-1.00 up to -8.00 dipotres of myopia and above
+* +1.00 to +4.00 dipotres of hyperopia
+* Up to moderate (-4.00 dipotres) of astigmatism
 
 You must have a healthy cornea that is free of disease to wear ortho-K lenses. These criteria are the same as for potential candidates for laser surgeries such as LASIK. 
 
@@ -94,6 +93,6 @@ Your optometrist will make changes to this lens until it looks optimal in the si
 
 CAPTION: Corneal topographies taken before myopic ortho-K treatment (left) and after (right). Exaggerated 3D representation. Central area inside the red-ring has been flattened, correcting the short-sightedness.
 
-<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--[if IE]><iframe frameborder="0" type="text/html" src="https://www.youtube.com/embed/DijzbyHLSKo?player_width=100%&player_height=100%&site_company_language=34&autostart=false" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><![endif]--><!--[if !IE]> <--><object data="https://www.youtube.com/embed/DijzbyHLSKo?player_width=100%&player_height=100%&site_company_language=34&autostart=false" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://www.youtube.com/embed/DijzbyHLSKo?player_width=100%&player_height=100%&site_company_language=34&autostart=false">Today Tonight Orthokeratology</a></object><!--> <![endif]--></div>
+<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\[if IE]><iframe frameborder="0" type="text/html" src="https://www.youtube.com/embed/DijzbyHLSKo?player_width=100%&player_height=100%&site_company_language=34&autostart=false" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\[endif]--><!--\[if !IE]> <--><object data="https://www.youtube.com/embed/DijzbyHLSKo?player_width=100%&player_height=100%&site_company_language=34&autostart=false" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://www.youtube.com/embed/DijzbyHLSKo?player_width=100%&player_height=100%&site_company_language=34&autostart=false">Today Tonight Orthokeratology</a></object><!--> <!\[endif]--></div>
 
 CAPTION: A news story on Today Tonight from 2012 about ortho-K, featuring one of our previous optometrists Shonit Jagmohan.
