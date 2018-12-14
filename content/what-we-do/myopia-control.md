@@ -3,38 +3,38 @@ title: Myopia Control
 category: refractive-conditions
 preview-image: myopia-control-1.jpg
 ---
-
 <div class="employee-heading">
-<p>Myopia, or shortsightedness, is increasing around the world, with many calling it an epidemic. A more urbanised, more educated and more screen based society seem to be the primary drivers for the increase in short sighted eyes. The adaptations of the eye to focus at nearer objects not only reduces distance vision and requiring glasses or contact lenses, but it also increases the risk of irreversible eye disease. If you would like to know more about the treatment options we offer here at Innovative Eye Care to slow the progression of myopia, <a href="/what-we-do/eye-exam">book an appointment</a> or find out more by giving our friendly staff a call.</p>
+<p>Myopia, or shortsightedness, is increasing around the world, with many calling it an epidemic. Urbanisation and screen availability seem to be the primary drivers for the increase in short sighted eyes. The adaptations of the eye to focus at nearer objects not only reduces distance vision and requiring glasses or contact lenses, but it also increases the risk of irreversible eye disease. If you would like to know more about the treatment options we offer here at Innovative Eye Care to slow the progression of myopia, <a href="/what-we-do/eye-exam">book an appointment</a> or find out more by giving our friendly staff a call.</p>
 
-<h4><a href="https://mykidsvision.org/" target="_blank">Assess My Child's Myopia Risk Here</a></h4>
+<p><h4><a href="https://mykidsvision.org/" target="_blank">Assess My Child's Myopia Risk Here</a></h4></p>
 
 </div>
 
 #### How prevalent is myopia?
 
 For most people short-sightedness evokes the harmless image of a school-aged child using glasses to see the television and school board clearly. But the real change that progressive myopia represents is a lengthening of the eyeball which increases the risk of eye disease. And these are changes are happening at a rapid rate, with prevalence predicted to reach half the world's population by 2050.
- 
+
 ![](/uploads/pasted-image-0-1.png)
 
 The prevalence varies with some groups of people seem to be developing more myopia than others: higher educated, more densely populated, asian race. 
 
-<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--[if IE]><iframe frameborder="0" type="text/html" src="https://2689-2347.captiv8online.com/animations/embed/one/o-t-t-d?player_width=100%&player_height=100%&site_company_language=34&autostart=false" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><![endif]--><!--[if !IE]> <--><object data="https://2689-2347.captiv8online.com/animations/embed/one/o-t-t-d?player_width=100%&player_height=100%&site_company_language=34&autostart=false" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://2689-2347.captiv8online.com/animations/embed/one/o-t-t-d?player_width=100%&player_height=100%&site_company_language=34&autostart=false">Myopia</a></object><!--> <![endif]--></div>
+<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\[if IE]><iframe frameborder="0" type="text/html" src="https://2689-2347.captiv8online.com/animations/embed/one/o-t-t-d?player_width=100%&player_height=100%&site_company_language=34&autostart=false" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\[endif]--><!--\[if !IE]> <--><object data="https://2689-2347.captiv8online.com/animations/embed/one/o-t-t-d?player_width=100%&player_height=100%&site_company_language=34&autostart=false" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://2689-2347.captiv8online.com/animations/embed/one/o-t-t-d?player_width=100%&player_height=100%&site_company_language=34&autostart=false">Myopia</a></object><!--> <!\[endif]--></div>
 
 <br>
 
 #### How does myopia affect the eye?
 
-Myopia causes with the lengthening of the eye and this lengthening happens as a result of stretching of the tissue of the eye, not eye growth. Myopia can start to develop at any age but the younger the start, the more aggressive the progression of myopia and eye lengthening tends to be. High myopes will be highly dependent on more expensive, heavy, high-powered glasses or contact lenses for any visual tasks. They may also have to keep updating their prescription lenses each year as their eye becomes more shortsighted. 
+By definition, myopia is a condition that causes light to be focussed behind the retina rather than on it, causing blurred distance vision. The eye tries to correct this by lengthening so the light can be focussed on the retina. This lengthening happens as a result of stretching of the tissue of the eye, not eye growth. Myopia can start to develop at any age but the younger the start, the more aggressive the progression of myopia and eye lengthening tends to be. High myopes will be highly dependent on more expensive, heavy, high-powered glasses or contact lenses for any visual tasks. They may also have to keep updating their prescription lenses each year as their eye becomes more shortsighted. 
 
 #### What are the associated risks of myopia?
 
 Historically, low myopia was considered as normal variation of the eye, a harmless adaptation of the eye to increased near vision demands,  and a distinction was made between:
- - physiological myopia, below -5D (dioptres), assumed to have no associated eye disease, 
- - pathological myopia, above -5D, where increased eye length growth causes retinal stretching and subsequent increased risk of detachment, maculopathy, glaucoma and cataract
+
+* physiological myopia, below -5D (dioptres), assumed to have no associated eye disease, 
+* pathological myopia, above -5D, where increased eye length growth causes retinal stretching and subsequent increased risk of detachment, maculopathy, glaucoma and cataract
 
 For this model to be valid, there should be a cutoff under which the degree of myopia has an acceptably low level of risk for eye disease, but this does not appear to happen. Any magnitude of myopia carries significant increased risk of permanent, uncorrectable vision loss compared to a non-myopic eye.
- 
+
 #### How bad are the risks, even just for low myopia?
 
 “Myopia in the so-called ‘physiological range’ represents a major risk factor for ocular disease that is comparable with the risks associated with hypertension for cardiovascular disease or with the risks of stroke from smoking more than 20 cigarettes per day.“ (Flitcroft)
@@ -51,7 +51,7 @@ The personal case of one of our previous optometrists, Alex Petty, highlights wh
 
 #### How can myopia be controlled?
 
-<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--[if IE]><iframe frameborder="0" type="text/html" src="https://2689-2347.captiv8online.com/animations/embed/one/myopia-control?player_width=100%&player_height=100%&site_company_language=34&autostart=false" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><![endif]--><!--[if !IE]> <--><object data="https://2689-2347.captiv8online.com/animations/embed/one/myopia-control?player_width=100%&player_height=100%&site_company_language=34&autostart=false" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://2689-2347.captiv8online.com/animations/embed/one/myopia-control?player_width=100%&player_height=100%&site_company_language=34&autostart=false">Myopia Control</a></object><!--> <![endif]--></div>
+<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\[if IE]><iframe frameborder="0" type="text/html" src="https://2689-2347.captiv8online.com/animations/embed/one/myopia-control?player_width=100%&player_height=100%&site_company_language=34&autostart=false" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\[endif]--><!--\[if !IE]> <--><object data="https://2689-2347.captiv8online.com/animations/embed/one/myopia-control?player_width=100%&player_height=100%&site_company_language=34&autostart=false" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://2689-2347.captiv8online.com/animations/embed/one/myopia-control?player_width=100%&player_height=100%&site_company_language=34&autostart=false">Myopia Control</a></object><!--> <!\[endif]--></div>
 
 <br>
 
