@@ -17,7 +17,7 @@ Always wash and rinse your hands thoroughly and dry them with a lint-free towel/
 
 #### Insertion
 
-<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\\[if IE]><iframe frameborder="0" type="text/html" src="https://www.youtube.com/embed/1hP44Sr7pU8" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\\[endif]--><!--\\[if !IE]> <--><object data="https://www.youtube.com/embed/1hP44Sr7pU8" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://www.youtube.com/embed/1hP44Sr7pU8">Insertion</a></object><!--> <!\\[endif]--></div>
+<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\\\[if IE]><iframe frameborder="0" type="text/html" src="https://www.youtube.com/embed/1hP44Sr7pU8" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\\\[endif]--><!--\\\[if !IE]> <--><object data="https://www.youtube.com/embed/1hP44Sr7pU8" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://www.youtube.com/embed/1hP44Sr7pU8">Insertion</a></object><!--> <!\\\[endif]--></div>
 
 <br>
 
@@ -35,7 +35,7 @@ If you happen to drop your Ortho-K lens, use saline solution to rinse the lens c
 <i><b>Step 4</b></i>
 Dry and wipe out your lens case with a tissue. Leave the case lid off to air dry while wearing your lenses.
 
-![](jagrut-15.jpg)
+![](/uploads/jagrut-15.jpg)
 
 <b>Normal occurrences on insertion</b>
 
@@ -64,13 +64,13 @@ If on insertion you experience stinging, burning or pain, remove the lens, rinse
 * When the suction cup touches the lens, apply gentle pressure to adhere the lens to the cup and remove the lens from your eye.
 * After removal from the eye, carefully slide the lens sideways from the suction cup and it will come off easily. 
 
-![](jagrut-16.jpg)
+![](/uploads/jagrut-16.jpg)
 
 #### Cleaning
 
 Always clean your lenses after wear. An effective cleaning process is vital to ensure comfortable, hygienic and infection-free contact lens wear. With correct cleaning, contact lenses will feel better on your eyes, allow better eye health and vision, and dramatically reduce bacteria and other contaminants. There are several types of ortho-K lens cleaning solutions: Peroxide based systems like AO Sept and multipurpose lens solutions like Menicare and Boston Simplus. There are several steps involved in cleaning and storing Ortho-K lenses that vary depending on the system.
 
-![](aosept-menicare-plus.jpg)
+![](/uploads/ao-sept-hydraglyde-menicare.jpg)
 
 ##### Peroxide cleaner ([AO Sept with Hydraglyde](http://eyesolutions.com.au/collections/frontpage/products/aoseptwithhydraglyde))
 
@@ -80,7 +80,7 @@ To clean your lenses fill the case up to the line, place your lenses in the corr
 
 Care should be taken not to get the un-neutralised peroxide in your eyes as this will sting painfully. If this occurs rinse thoroughly with water and contact your optometrist if the pain persists or your vision is affected. Find AoSept at our shop [here](http://eyesolutions.com.au/collections/frontpage/products/aoseptwithhydraglyde).
 
-![](aosept-case.jpg)
+![](/uploads/aosept-case.jpg)
 
 ##### Multipurpose solutions ([Menicare](http://eyesolutions.com.au/collections/frontpage/products/menicare-plus-contact-lens-solution) and Boston Simplus)
 
@@ -91,7 +91,7 @@ Care should be taken not to get the un-neutralised peroxide in your eyes as this
 
 To clean and maintain the wettability of your lenses use intensive cleaner, such as Menicon Progent. Place the lenses into the contact lens case holders. Open vial A and B by twisting the cap and pour the contents into the contact lens case. Replace the lid and tighten. Leave the lenses in the solution for 30 minutes, then remove and rinse thoroughly with saline. Lenses can now be worn or soaked in your daily cleaner. (please note that this product may not be available in all countries, ask your practitioner).
 
-![](progent.jpg)
+![](/uploads/progent.png)
 
 #### First night of wear
 
@@ -116,7 +116,7 @@ Follow-up appointments are vital to the monitoring and success of your new Ortho
 * A persistent redness, pain or light sensitivity of the eyes which doesn’t resolve after lens removal.
 * Feeling like the lens is suctioned onto the eye and experiencing difficulty removing the lens in the morning. 
 
-![](orthokeratology-lens.jpg)
+![](/uploads/orthokeratology-lens.jpg)
 
 #### Breakage
 
@@ -126,7 +126,7 @@ Follow-up appointments are vital to the monitoring and success of your new Ortho
 * Pulling the lens too firmly from the suction tool. Slide the lens off the suction point instead.
 * Forcing the lens to bend excessively while cleaning. Some friction force is required to clean an ortho-K lens using your cleaning solution, but not too much. The resistance from your skin surface will be sufficient to clean the lens. If too much force is applied on both sides of a ortho-K lens, the lens will flex and eventually snap.
 
-![](mishandling-lenses.jpg)
+![](/uploads/mishandling-lenses.jpg)
 
 It is very rare for a lens to break in your eye unless something hits your eye or your removal technique is incorrect/very forceful. The solutions you use to clean your lenses will not weaken or degrade them ‒ not even the powerful Progent fortnightly deep cleaner.
 
