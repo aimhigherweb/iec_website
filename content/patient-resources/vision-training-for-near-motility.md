@@ -1,9 +1,9 @@
 ---
 title: Vision Training for Near Motility
-category: Patient Resources
+category: Vision Training
 preview_image: /uploads/preview-image-motility-saccades.jpg
 ---
-<div>To read, we use a combination of jumping and smooth eyes movements. Some people have poor control of their tracking and eye movements. This can cause problems like double vision, blur, eye-strain, headache or fatigue when reading or doing close work because the eyes can't accurately move to the next word or line on a page.</div>
+To read, we use a combination of jumping and smooth eyes movements. Some people have poor control of their tracking and eye movements. This can cause problems like double vision, blur, eye-strain, headache or fatigue when reading or doing close work because the eyes can't accurately move to the next word or line on a page.
 
 #### What is this exercise for?
 
