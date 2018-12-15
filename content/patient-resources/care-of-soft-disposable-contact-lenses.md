@@ -6,7 +6,7 @@ preview_image: oct-soft-lens-preview.jpg
 
 As with anything regarding your eye health, appropriate care and products are important when using soft disposable contact lenses.
 
-# Starting tips
+#### Starting tips
 
   * Always wash, rinse and dry your hands with a lint-free towel/tissue before touching your lenses. All traces of soap, perfumes, hair sprays, creams and lotions should be removed from your hands and around your eyes.
   * Keep your nails trimmed and clean – long fingernails can tear or split contact lenses.
@@ -16,7 +16,7 @@ As with anything regarding your eye health, appropriate care and products are im
   * Never use expired lenses or solutions.
   * Comfort drops and tear lubricants are available to help re-wet lenses while they are being worn. They are applied directly to the eye while wearing lenses.
 
-# Which side up?
+#### Which side up?
 
   * If a lens is inserted inside out, it will feel uncomfortable and often give fluctuating vision. There are several methods to determine whether the lens is the correct way around.
   * Profile Method: Look at the edge profile of the lens. The edges will curve up if the lens is correctly positioned, or curve out if the lens is inside out (see picture).
@@ -31,7 +31,7 @@ CAPTION: Profile Method: Incorrect and correct lens positioning
 
 <br>
 
-# Lens insertion
+#### Insertion
 
   * To avoid confusion, make a habit of inserting the same lens first.
   * Check the lens is clean and moist. If it's not, rinse with saline or multipurpose solution.
@@ -47,7 +47,7 @@ CAPTION: Profile Method: Incorrect and correct lens positioning
 
 <br>
 
-# Lens removal
+#### Removal
 
   * If necessary, re-wet the contact lens with one drop of solution to help the lens slide off the eye, especially if it is a little dry.
   * Place index finger on the lens.
@@ -60,17 +60,17 @@ CAPTION: Profile Method: Incorrect and correct lens positioning
 
 <br>
 
-# Discomfort
+#### Discomfort
 
   * If the lens is not comfortable it may have dust trapped beneath it. Place a finger on the lens, slide it onto the white of the eye and back into place a few times. This will often roll any particle out from under it.
   * If discomfort persists, remove the lens, rinse in saline or multipurpose solution, check the lens is clean, undamaged and not inside out, and re-insert.
   * If the lens continues to be uncomfortable, remove it and do not attempt to wear it again until you have consulted your practitioner.
 
-# Cleaning and disinfecting
+#### Cleaning and disinfecting
 
 Cleaning and disinfecting are two separate procedures which must be followed one after the other once your lenses have been removed. The importance of effective cleaning cannot be over-emphasised. Clean each lens immediately after taking it out of the eye, as this removes protein deposition which builds up on the lens during wear.
 
-#### Cleaning
+##### Cleaning
 
 Make sure fingernails are trimmed and avoid direct fingernail contact with the lens. Always place lenses in correct baskets/case to avoid mixing up right and left lenses. Do not use tap water on your lenses as this can cause an eye infection to develop.
 
@@ -80,7 +80,7 @@ Make sure fingernails are trimmed and avoid direct fingernail contact with the l
   * Rinse thoroughly with saline or multipurpose solution. You may need to rinse and rub with saline or multipurpose solution more than once to ensure the entire cleaner is removed. Insufficient rinsing will mean that the contact lens may sting on insertion the next time.
   * Place lenses in your contat lens case ready for disinfection.
 
-#### Disinfecting
+##### Disinfecting
 
 Lenses must be disinfected following cleaning. This prevents lens contamination and helps to avoid eye infections. There are several methods of disinfecting. With the following two, the solution should be replaced every day and the case should be rinsed with hot water and left drying face-down on a clean paper-towel. Replace your case every 3 months.
 
@@ -96,7 +96,7 @@ These soaking solutions contain a weak disinfecting chemical. The lenses can be 
 
 ![](3d3579c2736d9e470df4017f4bbd27c1c2775126_revitalens.jpg)
 
-#### Cleaning and disinfecting: the dos and don'ts
+##### Cleaning and disinfecting: the dos and don'ts
 
   * Do NOT modify the recommended cleaning/disinfecting regimes without first consulting your optometrist.
   * Short cuts may save money, but will result in ineffective cleaning and/or disinfection, which could lead to damage to the lenses or infection of the eyes.
@@ -104,7 +104,7 @@ These soaking solutions contain a weak disinfecting chemical. The lenses can be 
   * To help avoid contamination, do not touch the tips or nozzles of solution bottles and replace caps promptly after use.
   * Do not use hard lens solutions with soft lenses.
 
-# Follow up appointments
+#### Follow up appointments
 
   * Regular after-care appointments must be maintained for the health of your eyes. 
   * Insert your lenses at least three hours prior to your appointment and bring spectacles with you.
@@ -112,7 +112,7 @@ These soaking solutions contain a weak disinfecting chemical. The lenses can be 
   * Your optometrist is trained to observe and detect signs of problems before you become aware of them. By the time you notice a problem it may be more advanced and more difficult to resolve.
   * **The importance of regular contact lens aftercare is the prevention of long-term problems. We advise that you see your optometrist yearly so they can assess the health of the eyes and any changes to the prescription or fit.**
 
-# Things to remember
+#### Things to remember
 
   * Discontinue lens wear and consult your optometrist if you experience persistent discomfort, redness or blurred vision.
   * Remove your lenses before using swimming pools or saunas, as lenses may become contaminated if worn during these activities.
