@@ -3,7 +3,7 @@ title: Care of Orthokeratology Lenses
 category: Contact Lens Instructions
 preview_image: ok-corneal-topo.jpg
 ---
-# Safety & hygiene
+#### Safety & hygiene
 
 Orthokeratology, is a safe, reversible and effective vision correction solution.<sup>1,2</sup> However, incorrect care of contact lenses and solutions can increase the risk for eye infections and corneal ulcers. Risk factors for acquiring an eye infection include improper lens cleaning and disinfection, poor hygiene practices and smoking. Following your practitioner's hygiene regime, along with regular reviews, will minimise this risk.
 
@@ -15,7 +15,7 @@ Orthokeratology, is a safe, reversible and effective vision correction solution.
 
 Always wash and rinse your hands thoroughly and dry them with a lint-free towel/tissue before handling contact lenses. All traces of soap, perfumes, hair-spray, creams and lotions should be removed from your hands and around your eyes. Your lenses should never come into contact with tap water as it contains microorganisms such as Acanthamoeba.<sup>6,7</sup>
 
-# Insertion
+#### Insertion
 
 <div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\\[if IE]><iframe frameborder="0" type="text/html" src="https://www.youtube.com/embed/1hP44Sr7pU8" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\\[endif]--><!--\\[if !IE]> <--><object data="https://www.youtube.com/embed/1hP44Sr7pU8" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://www.youtube.com/embed/1hP44Sr7pU8">Insertion</a></object><!--> <!\\[endif]--></div>
 
@@ -50,7 +50,7 @@ On rare occasions, a lens may become dislodged from the centre of the eye and mo
 
 If on insertion you experience stinging, burning or pain, remove the lens, rinse and re-insert. If problems persist, remove the lens and see your optometrist at your earliest convenience. 
 
-# Removal
+#### Removal
 
 <i><b>Method 1 – Manual removal (preferred method)</b></i>
 
@@ -66,13 +66,13 @@ If on insertion you experience stinging, burning or pain, remove the lens, rinse
 
 ![](jagrut-16.jpg)
 
-# Cleaning
+#### Cleaning
 
 Always clean your lenses after wear. An effective cleaning process is vital to ensure comfortable, hygienic and infection-free contact lens wear. With correct cleaning, contact lenses will feel better on your eyes, allow better eye health and vision, and dramatically reduce bacteria and other contaminants. There are several types of ortho-K lens cleaning solutions: Peroxide based systems like AO Sept and multipurpose lens solutions like Menicare and Boston Simplus. There are several steps involved in cleaning and storing Ortho-K lenses that vary depending on the system.
 
 ![](aosept-menicare-plus.jpg)
 
-#### Peroxide cleaner ([AO Sept with Hydraglyde](http://eyesolutions.com.au/collections/frontpage/products/aoseptwithhydraglyde))
+##### Peroxide cleaner ([AO Sept with Hydraglyde](http://eyesolutions.com.au/collections/frontpage/products/aoseptwithhydraglyde))
 
 These solutions work by having your contact lenses immersed and sterilised in 3% hydrogen peroxide. Over the course of a 6 hour period the catalyst in the case converts the hydrogen peroxide into water and oxygen gas. This cleaning solution has the advantage that when your lenses are removed from the case they require no rinsing as they are covered only in sterile, non-preserved water. They also generally require no rubbing step, which decreases the risk of accidental breakage. The case can be left to air dry when not in use, and should be replaced with each new bottle of solution. AO Sept now had the addition of Hydraglyde, an ingredient which improves the wettability of your contact lenses, making them more useful for scleral patients with long day-wear times.
 
@@ -82,24 +82,24 @@ Care should be taken not to get the un-neutralised peroxide in your eyes as this
 
 ![](aosept-case.jpg)
 
-#### Multipurpose solutions ([Menicare](http://eyesolutions.com.au/collections/frontpage/products/menicare-plus-contact-lens-solution) and Boston Simplus)
+##### Multipurpose solutions ([Menicare](http://eyesolutions.com.au/collections/frontpage/products/menicare-plus-contact-lens-solution) and Boston Simplus)
 
 1. <i>To clean:</i> Place a few drops of multipurpose contact lens solution on the palm and the lens, then rub with your finger-pad for at least 10 seconds on each side.<sup>10</sup> The back surface (concave) is best cleaned by moving your thumb across the surface. This step removes material that deposits on the lens during wear. Whilst Ortho-K lenses are strong, with incorrect technique or too much force they can break.
 2. <i>To disinfect and condition:</i> Place the lens in fresh solution in your lens case, ensuring the lens is completely submerged. This step kills microbes on your lenses and prepares the surface of your lens to stay wet throughout wear, increasing comfort. Store your lenses in this solution for at least 4 hours for the cleaning process to be complete. NEVER rinse or store your lenses in tap water, as micro-organisms are plentiful and can cause infections in your eyes.
 
-#### Regular protein removal ([Progent](http://eyesolutions.com.au/collections/frontpage/products/menicon-progent-contact-lens-solution))
+##### Regular protein removal ([Progent](http://eyesolutions.com.au/collections/frontpage/products/menicon-progent-contact-lens-solution))
 
 To clean and maintain the wettability of your lenses use intensive cleaner, such as Menicon Progent. Place the lenses into the contact lens case holders. Open vial A and B by twisting the cap and pour the contents into the contact lens case. Replace the lid and tighten. Leave the lenses in the solution for 30 minutes, then remove and rinse thoroughly with saline. Lenses can now be worn or soaked in your daily cleaner. (please note that this product may not be available in all countries, ask your practitioner).
 
 ![](progent.jpg)
 
-# First night of wear
+#### First night of wear
 
 * You should not experience any discomfort from the lens while you are sleeping; however, it is not usual to experience some discomfort with your eyes open as you get used to Ortho-K lens wear. This generally improves with time.
 * When you wake up, insert a drop of preservative free artificial tear solution into the eye to increase moisture and assist in the lens movement on the eye. If the lens is bound it will not move - this means it may be necessary to manually loosen the lens.
 * Upon removal of the Ortho-k lens you should notice some improvement in your unaided vision. This improved vision will last most of the day. After approximately two weeks vision should be stable all day for most forms of orthokeratology vision correction.
 
-# Follow-up care
+#### Follow-up care
 
 Follow-up appointments are vital to the monitoring and success of your new Ortho-K procedure. The first follow up appointment will be scheduled for the day after your first night of wear. The other follow up appointments will be determined by your Ortho-K practitioner based on your response to the first night of orthokeratology therapy and the severity of your vision correction.
 
@@ -118,7 +118,7 @@ Follow-up appointments are vital to the monitoring and success of your new Ortho
 
 ![](orthokeratology-lens.jpg)
 
-# Breakage
+#### Breakage
 
 <b>Habits that may cause a lens to break include:</b>
 
@@ -138,7 +138,7 @@ Normally a lens will take less than one week to arrive from the lab when ordered
 
 If you do lose or damage a lens, please don’t fret, just give our friendly team a call and we will arrange a replacement as quickly as we can.
 
-# Things to remember!
+#### Things to remember!
 
 * Do not modify the recommended cleaning routine or solutions without consulting your optometrist. Other solutions may not be compatible with your eyes and lenses, and may cause discomfort or allergic reactions.
 * Do not heat solutions.
