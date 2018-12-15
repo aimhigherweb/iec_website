@@ -102,7 +102,7 @@ Rigid contact lenses are made of a strong polymer which resists damage in normal
 * Pulling the lens too firmly from the suction tool. Slide the lens off the suction point instead.
 * Forcing the lens to bend excessively while cleaning. Some friction force is required to clean a rigid lens using your cleaning solution, but not too much. The resistance from your skin surface will be sufficient to clean the lens. If too much force is applied on both sides of a rigid lens, the lens will flex and eventually snap.
 
-![](2a464d0a3273abb66cfc6aa0607f1229899e2e7b_mishandling-lenses.jpg)
+![](/uploads/mishandling-lenses.jpg)
 
 It is very rare for a lens to break in your eye unless something hits your eye or your removal technique is incorrect/very forceful. The solutions you use to clean your lenses will not weaken or degrade them ‒ not even the powerful Progent fortnightly deep cleaner.
 
