@@ -85,13 +85,9 @@ Lenses must be disinfected following cleaning. This prevents lens contamination 
 
 After cleaning, lenses are placed in a container with hydrogen peroxide solution. This MUST BE NEUTRALISED over a specified period by using tablets, platinum discs or other solutions. Your optometrist will fully explain the method recommended for you. Never put un-neutralised peroxide in the eye as it will sting horribly! Find AoSept at our shop [here](http://eyesolutions.com.au/collections/frontpage/products/ao-sept). 
 
-![](78effb64a82a86e90f24dd6b1bf614e62a809fd6_ao-sept.jpg)
-
 ##### Multipurpose solution (eg Revitalens)
 
 These soaking solutions contain a weak disinfecting chemical. The lenses can be taken directly from this solution and inserted into the eye. If stinging occurs advise your optometrist.After cleaning, place lenses in the container/case with the recommended solution and leave overnight. The case should be at least half full with solution and the lenses submerged.
-
-![](3d3579c2736d9e470df4017f4bbd27c1c2775126_revitalens.jpg)
 
 ##### Cleaning and disinfecting: the dos and don'ts
 
