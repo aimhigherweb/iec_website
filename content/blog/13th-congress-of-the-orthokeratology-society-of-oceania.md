@@ -5,7 +5,7 @@ author: Joanna Rohrlach
 author_url: /who-we-are/joanna-rohrlach
 preview_image: /uploads/3aae7ccb749347fa945ffff0f48da057.png
 ---
-The Orthokeratology Society of Oceania held its biannual congress on the Gold Coast at the beginning of October this year. This 2 and a half day congress was well supported by many optometrists, doctors and orthokeratology researchers and entrepreneurs from all over the world. I was lucky enough to attend this years’ congress, together with our very own Lachlan Hoy, who also gave an engaging presentation on Saturday morning. 
+The Orthokeratology Society of Oceania held its biannual congress on the Gold Coast at the beginning of October this year. This two and a half day congress was well supported by many optometrists, doctors and orthokeratology researchers and entrepreneurs from all over the world. I was lucky enough to attend this years’ congress, together with our very own Lachlan Hoy, who also gave an engaging presentation on Saturday morning. 
 
 ![](/uploads/20181005_143709.jpg)
 
