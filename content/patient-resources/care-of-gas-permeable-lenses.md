@@ -33,7 +33,7 @@ If you happen to drop your lens, use <b>saline solution</b> to rinse. Place the 
 <b><i>Step 4</i></b>
 Dry and wipe out your lens case with a tissue. Leave the case lid off to air dry while wearing your lenses.
 
-<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\[if IE]><iframe frameborder="0" type="text/html" src="https://2689-2347.captiv8online.com/animations/embed/one/p?player_width=100%&player_height=100%&site_company_language=34&autostart=false" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\[endif]--><!--\[if !IE]> <--><object data="https://2689-2347.captiv8online.com/animations/embed/one/p?player_width=100%&player_height=100%&site_company_language=34&autostart=false" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://2689-2347.captiv8online.com/animations/embed/one/p?player_width=100%&player_height=100%&site_company_language=34&autostart=false">Rigid Lens Application</a></object><!--> <!\[endif]--></div>
+<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\\[if IE]><iframe frameborder="0" type="text/html" src="https://2689-2347.captiv8online.com/animations/embed/one/p?player_width=100%&player_height=100%&site_company_language=34&autostart=false" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\\[endif]--><!--\\[if !IE]> <--><object data="https://2689-2347.captiv8online.com/animations/embed/one/p?player_width=100%&player_height=100%&site_company_language=34&autostart=false" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://2689-2347.captiv8online.com/animations/embed/one/p?player_width=100%&player_height=100%&site_company_language=34&autostart=false">Rigid Lens Application</a></object><!--> <!\\[endif]--></div>
 
 <br>
 
@@ -47,7 +47,7 @@ Dry and wipe out your lens case with a tissue. Leave the case lid off to air dry
 
 #### Removal
 
-<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\[if IE]><iframe frameborder="0" type="text/html" src="https://2689-2347.captiv8online.com/animations/embed/one/d-l-mo-l?player_width=100%&player_height=100%&site_company_language=34&autostart=false" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\[endif]--><!--\[if !IE]> <--><object data="https://2689-2347.captiv8online.com/animations/embed/one/d-l-mo-l?player_width=100%&player_height=100%&site_company_language=34&autostart=false" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://2689-2347.captiv8online.com/animations/embed/one/d-l-mo-l?player_width=100%&player_height=100%&site_company_language=34&autostart=false">Rigid Lens Removal</a></object><!--> <!\[endif]--></div>
+<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\\[if IE]><iframe frameborder="0" type="text/html" src="https://2689-2347.captiv8online.com/animations/embed/one/d-l-mo-l?player_width=100%&player_height=100%&site_company_language=34&autostart=false" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\\[endif]--><!--\\[if !IE]> <--><object data="https://2689-2347.captiv8online.com/animations/embed/one/d-l-mo-l?player_width=100%&player_height=100%&site_company_language=34&autostart=false" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://2689-2347.captiv8online.com/animations/embed/one/d-l-mo-l?player_width=100%&player_height=100%&site_company_language=34&autostart=false">Rigid Lens Removal</a></object><!--> <!\\[endif]--></div>
 
 <br>
 
@@ -143,4 +143,4 @@ If you do lose or damage a lens, please don’t fret, just give our friendly tea
 <b>References</b>
 
 1. Bailey CS et al. A review of relative risks associated with four types of contact lenses. Cornea, (1990) Journals.lww.com
-2. Ladage PM, Yamamoto K, Ren DH, Li l, Jester JV, Pretoll WM, et al. Effects of rigid and soft contact lens daily wear on corneal epithelium, tear lactate dehydrogenase, and bacterial binding to exfoliated epithelium cells. OPHTHA, Elsevier; 2001 Jul 1;108(7);1279-88.
+2. Ladage PM, Yamamoto K, Ren DH, Li l, Jester JV, Pretoll WM, et al. Effects of rigid and soft contact lens daily wear on corneal epithelium, tear lactate dehydrogenase, and bacterial binding to exfoliated epithelium cells. OPHTHA, Elsevier; 2001 Jul 1;108(7);1279-88
