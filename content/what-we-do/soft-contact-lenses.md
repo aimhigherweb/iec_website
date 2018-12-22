@@ -16,7 +16,7 @@ Soft contact lenses provide clear vision and lens wetability, and they are gener
 
 They are made from a polymer-plastic material combined with water. The water content varies with different lenses. Newer generation soft lenses are made out variants of a material called silcone-hydrogel, this material allows more oxygen to pass through it better, allowing the cornea to 'breathe' and preventing some of the ocular health issues that older lens materials would cause. 
 
-See [this video](https://www.youtube.com/watch?v=1hP44Sr7pU8) for instruction on insertion and removal.
+See [this page](https://innovativeeyecare.com.au/patient-resources/tips-for-long-term-success-with-your-soft-disposable-contact-lenses) for instruction on soft contact lens success.
 
 #### What types of soft contact lenses are there?
 
