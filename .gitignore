@@ -2,3 +2,4 @@ public/
 
 # IDE
 .idea/
+*.swp

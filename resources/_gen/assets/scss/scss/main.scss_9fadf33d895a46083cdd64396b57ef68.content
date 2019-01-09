@@ -3322,7 +3322,7 @@ h3 {
 
 @media (min-width: 768px) {
   .book-online {
-    font: bold 14px "Open Sans", "Arial", "Helvetica Neue", "Helvetica", sans-serif;
+    font: bold 14px "Open Sans", "Arial", "Helvetica Neue", "Helvetica", sans-serif;
     color: #3d3d3d;
     text-transform: uppercase;
     z-index: 9; }
