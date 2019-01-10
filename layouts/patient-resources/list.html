@@ -22,7 +22,7 @@
           style="border: 1px solid grey; padding: 10px; margin-left: 10px; margin-right: 10px; margin: 20px; text-align: center"
         >
           <a href="/patient-resources/{{ .File.BaseFileName }}">
-            <img src="/uploads/{{ .Params.Preview_Image }}" />
+            <img src="{{ .Params.Preview_Image }}" />
             <div class="title">{{ .Title }}</div>
             <div class="intro"></div>
           </a>

@@ -1,7 +1,7 @@
 ---
 title: Dry Eye Information
 category: 
-preview_image: dry-eye.jpg
+preview_image: /uploads/dry-eye.jpg
 ---
 
 Dry eye disease covers a spectrum of conditions. Symptoms include dry, stinging, burning eyes, inflammation, irritation and redness, excessive tearing and foreign body sensation. This can be extremely debilitating in the day-to-day lives of sufferers. Left untreated, there is risk of permanent damage to the ocular surface and ​eyelids.

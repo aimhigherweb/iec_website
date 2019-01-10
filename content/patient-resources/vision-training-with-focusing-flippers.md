@@ -1,7 +1,7 @@
 ---
 title: Vision Training with Focusing Flippers
 category: Vision Training
-preview_image: vision-training-flippers.jpg
+preview_image: /uploads/vision-training-flippers.jpg
 ---
 
 Focusing flippers help to train our eyes in accommodation, which is changing our focusing from distance to near. Specifically, flippers help improve accommodative facility - the ability to increase and decrease focus on demand. A variety of binocular vision problems cause a decrease in our ability to accurately focus: some people focus too much and cannot relax, other focus too little and experience blurry vision for close tasks. The flippers you are given have lenses on one side that require you to relax your focus (magnifying lenses), and the other side requires you to focus more (minifying lenses). 

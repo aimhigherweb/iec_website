@@ -1,7 +1,7 @@
 ---
 title: Vision Training With Loose Prisms
 category: Vision Training
-preview_image: vision-training-prism.jpg
+preview_image: /uploads/vision-training-prism.jpg
 ---
 
 Loose prisms help to train relative vergences which involve changing the alignment of our eyes while keeping the object we are looking at clear and single. Prisms are triangular lenses that move the appearance of the world in the direction of the narrow edge when you look through them. When you look with one eye through a prism the eyes either have to converge (move together in the direction of the nose) or diverge (move apart) in order to not get double vision. We make these vergence movements every second of the day to focus on near and far objects. 
