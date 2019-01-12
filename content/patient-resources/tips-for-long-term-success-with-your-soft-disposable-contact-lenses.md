@@ -1,7 +1,7 @@
 ---
 title: Long-Term Success With Soft Disposable Contact Lenses
 category: Contact Lens Instructions
-preview_image: /uploads/tips-on-cl.jpg
+preview_image: /uploads/long-term-success-contact-lenses.jpg
 ---
 ##### Only wear your lenses as they are prescribed by your optometrist
 
