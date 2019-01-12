@@ -1,7 +1,7 @@
 ---
 title: Care of Orthokeratology Lenses
 category: Contact Lens Instructions
-preview_image: /uploads/ok-corneal-topo.jpg
+preview_image: /uploads/care-of-ortho-k.jpg
 ---
 <br>
 
