@@ -1,7 +1,7 @@
 ---
 title: Care of Scleral Lenses
 category: Contact Lens Instructions
-preview_image: /uploads/scleral-oct.jpg
+preview_image: /uploads/care-of-scleral-lenses.jpg
 ---
 [Scleral contact lenses](/what-we-do/scleral-lenses) are a type of RGP (Rigid Gas Permeable) lens used for conditions such as [keratoconus and pellucid marginal cornea degeneration](/what-we-do/keratoconus). However, incorrect care of scleral contact lenses and solutions can increase the risk of eye infections and corneal ulcers. Risk factors for acquiring an eye infection include improper lens cleaning and disinfection, poor hygiene practices and smoking. Following your practitioner's hygiene regime, along with regular reviews, will minimise this risk. 
 
