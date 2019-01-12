@@ -1,7 +1,7 @@
 ---
 title: Patching Therapy for Amblyopia
 category: Vision Therapy
-preview_image: /uploads/patches-preview.jpg
+preview_image: /uploads/patching-therapy.jpg
 ---
 
 If your child has amblyopia your optometrist may decide it is best to start occlusion therapy to try to improve the vision in the amblyopic eye. Patching forces your child to use the eye with worse vision. 
