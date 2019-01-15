@@ -3,11 +3,9 @@ title: Care of Orthokeratology Lenses
 category: Contact Lens Instructions
 preview_image: /uploads/care-of-ortho-k.jpg
 ---
-<br>
+Orthokeratology, is a safe, reversible and effective vision correction solution.<sup>1,2</sup> However, incorrect care of contact lenses and solutions can increase the risk for eye infections and corneal ulcers. Risk factors for acquiring an eye infection include improper lens cleaning and disinfection, poor hygiene practices and smoking. Following your practitioner's hygiene regime, along with regular reviews, will minimise this risk.
 
 #### Safety & hygiene
-
-Orthokeratology, is a safe, reversible and effective vision correction solution.<sup>1,2</sup> However, incorrect care of contact lenses and solutions can increase the risk for eye infections and corneal ulcers. Risk factors for acquiring an eye infection include improper lens cleaning and disinfection, poor hygiene practices and smoking. Following your practitioner's hygiene regime, along with regular reviews, will minimise this risk.
 
 * Thoroughly wash hands and fingers with an antibacterial based hand wash
 * Dry hands with a lint free towel
@@ -19,22 +17,22 @@ Always wash and rinse your hands thoroughly and dry them with a lint-free towel/
 
 #### Insertion
 
-<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\\\[if IE]><iframe frameborder="0" type="text/html" src="https://www.youtube.com/embed/1hP44Sr7pU8" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\\\[endif]--><!--\\\[if !IE]> <--><object data="https://www.youtube.com/embed/1hP44Sr7pU8" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://www.youtube.com/embed/1hP44Sr7pU8">Insertion</a></object><!--> <!\\\[endif]--></div>
+<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\\\\[if IE]><iframe frameborder="0" type="text/html" src="https://www.youtube.com/embed/1hP44Sr7pU8" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\\\\[endif]--><!--\\\\[if !IE]> <--><object data="https://www.youtube.com/embed/1hP44Sr7pU8" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://www.youtube.com/embed/1hP44Sr7pU8">Insertion</a></object><!--> <!\\\\[endif]--></div>
 
 <br>
 
 To avoid confusion make a habit of inserting the same lens - generally the right lens - first. You will notice that the right lens is green and the left lens blue. Minimise the risk of lens loss by plugging the sink or using a paper towel over the drainage opening.
 
-<i><b>Step 1</b></i>
+<i><b>Step 1.</b></i>
 Remove your Ortho-K lenses from the cleaning solution case and rinse with saline. If you are using a hydrogen peroxide solution, you can only remove the lenses after a minimum soaking time of six hours.<sup>8</sup>
 
-<i><b>Step 2</b></i>
+<i><b>Step 2.</b></i>
 Place 1-2 drops of lubricating insertion eye drops into the back of the lens. Place the lens on your index finger and insert directly into the centre (coloured part) of your eye in a face down position. To save confusion, it’s a good idea to insert the right lens first.
 
-<i><b>Step 3</b></i>
+<i><b>Step 3.</b></i>
 If you happen to drop your Ortho-K lens, use saline solution to rinse the lens clean. To do this place the lens in the palm of your hand and thoroughly rinse for five seconds.<sup>9</sup>
 	
-<i><b>Step 4</b></i>
+<i><b>Step 4.</b></i>
 Dry and wipe out your lens case with a tissue. Leave the case lid off to air dry while wearing your lenses.
 
 ![](/uploads/jagrut-15.jpg)
@@ -54,17 +52,9 @@ If on insertion you experience stinging, burning or pain, remove the lens, rinse
 
 #### Removal
 
-<i><b>Method 1 – Manual removal (preferred method)</b></i>
+<i><b>Method 1 – Manual removal.</b></i> Using your middle fingers, open the lids wider than the lens diameter. Apply pressure to the lid margins, pushing in together to move your lids under the lens and lever it out of the eye. 
 
-* Using your middle fingers, open the lids wider than the lens diameter
-* Apply pressure to the lid margins, pushing in together to move your lids under the lens and lever it out of the eye. 
-
-<i><b>Method 2 – Suction tool removal</b></i>
-
-* Using your middle fingers, open the eyelids wider than the lens diameter.
-* With the suction tool between your index finger and thumb, align the suction cup so it is positioned in front of and parallel to the lens.
-* When the suction cup touches the lens, apply gentle pressure to adhere the lens to the cup and remove the lens from your eye.
-* After removal from the eye, carefully slide the lens sideways from the suction cup and it will come off easily. 
+<i><b>Method 2 – Suction tool removal.</b></i> Using your middle fingers, open the eyelids wider than the lens diameter. With the suction tool between your index finger and thumb, align the suction cup so it is positioned in front of and parallel to the lens. When the suction cup touches the lens, apply gentle pressure to adhere the lens to the cup and remove the lens from your eye. After removal from the eye, carefully slide the lens sideways from the suction cup and it will come off easily. 
 
 ![](/uploads/jagrut-16.jpg)
 
