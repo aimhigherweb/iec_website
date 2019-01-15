@@ -3,17 +3,19 @@ title: Vision Training Push-Up Exercises
 category: Vision Training
 preview_image: /uploads/saccadepenspreview.jpg
 ---
+<br>
+
 Push-up exercises help to train convergence. Convergence is when both eyes move in (towards the nose) as we follow an object coming towards us. If our eyes do not converge, the near object will be seen as two (or doubled). For any reading or computer task we are converging the eyes at different amounts to keep the image single. Accommodation (focusing clearly on a close object) is linked to convergence as we have to keep the object not only single, but also clear. Problems with convergence can lead to double vision, blur, eye-strain, headaches or fatigue when reading or doing close work.
 
 ![](saccade-pens.jpg)
 
-# What you will need:
+#### What you will need:
 
   * Two pens or sharp pencils
 
-# Instructions:
+#### Instructions:
 
-#### Smooth convergence
+##### Smooth convergence
 
   1. Start by holding one pen in front of you at arm’s length. 
   2. Bring it towards your nose at a slow, steady pace, keeping the tip of the pen focused and single.
@@ -23,7 +25,7 @@ Push-up exercises help to train convergence. Convergence is when both eyes move 
   6. If you cannot keep the pen single, move it back to arm's length and start again. 
   7. Repeat this for one minute (or 20 cycles) then relax the eyes by looking in the distance for one minute.
 
-#### Jump convergence
+##### Jump convergence
 
 Jump convergence is harder than smooth convergence and is more similar to the visual adjustments we make in real life. When smooth convergence can be done well or when your optometrist recommends it, you should switch to jump convergences to train the eyes more effectively. 
 
