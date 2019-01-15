@@ -9,7 +9,7 @@ Always thoroughly wash your hands with an antibacterial-based hand wash and dry 
 
 #### Safety & hygiene
 
-Orthokeratology is a safe, reversible and effective vision correction solution. However, incorrect care of contact lenses and solutions can increase the risk for eye infections and corneal ulcers. Risk factors for acquiring an eye infection include improper lens cleaning and disinfection, poor hygiene practices and smoking. Following your practitioner's hygiene regime, along with regular reviews, will minimise this risk.
+Incorrect care of contact lenses and solutions can increase the risk for eye infections and corneal ulcers. Risk factors for acquiring an eye infection include improper lens cleaning and disinfection, poor hygiene practices and smoking. Following your practitioner's hygiene regime, along with regular reviews, will minimise this risk.
 
 * Thoroughly wash hands and fingers with an antibacterial based hand wash
 * Dry hands with a lint free towel
@@ -21,19 +21,19 @@ Always wash and rinse your hands thoroughly and dry them with a lint-free towel/
 
 #### Insertion
 
-<b><i>Step 1</i></b>
+<b><i>Step 1.</i></b>
 Remove lenses from the <b>cleaning solution case</b> and rinse with saline. If using hydrogen peroxide solution a minimum soaking time of 6 hours is required for the acid to neutralise to saline.
 
-<b><i>Step 2</i></b>
+<b><i>Step 2.</i></b>
 Place 1-2 drops of a <b>lubricating eye drop</b> and fill the back of the lens. Place the lens on your index finger and inset directly onto the centre (coloured part) of your eye in a face-down position, parallel to the floor. To save confusion, it's a good idea to always insert the right lens first.
 
-<b><i>Step 3</i></b>
+<b><i>Step 3.</i></b>
 If you happen to drop your lens, use <b>saline solution</b> to rinse. Place the lens in the palm of your hand and rinse thoroughly for 5 seconds.
 
-<b><i>Step 4</i></b>
+<b><i>Step 4.</i></b>
 Dry and wipe out your lens case with a tissue. Leave the case lid off to air dry while wearing your lenses.
 
-<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\\[if IE]><iframe frameborder="0" type="text/html" src="https://2689-2347.captiv8online.com/animations/embed/one/p?player_width=100%&player_height=100%&site_company_language=34&autostart=false" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\\[endif]--><!--\\[if !IE]> <--><object data="https://2689-2347.captiv8online.com/animations/embed/one/p?player_width=100%&player_height=100%&site_company_language=34&autostart=false" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://2689-2347.captiv8online.com/animations/embed/one/p?player_width=100%&player_height=100%&site_company_language=34&autostart=false">Rigid Lens Application</a></object><!--> <!\\[endif]--></div>
+<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\\\[if IE]><iframe frameborder="0" type="text/html" src="https://2689-2347.captiv8online.com/animations/embed/one/p?player_width=100%&player_height=100%&site_company_language=34&autostart=false" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\\\[endif]--><!--\\\[if !IE]> <--><object data="https://2689-2347.captiv8online.com/animations/embed/one/p?player_width=100%&player_height=100%&site_company_language=34&autostart=false" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://2689-2347.captiv8online.com/animations/embed/one/p?player_width=100%&player_height=100%&site_company_language=34&autostart=false">Rigid Lens Application</a></object><!--> <!\\\[endif]--></div>
 
 <br>
 
@@ -47,21 +47,13 @@ Dry and wipe out your lens case with a tissue. Leave the case lid off to air dry
 
 #### Removal
 
-<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\\[if IE]><iframe frameborder="0" type="text/html" src="https://2689-2347.captiv8online.com/animations/embed/one/d-l-mo-l?player_width=100%&player_height=100%&site_company_language=34&autostart=false" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\\[endif]--><!--\\[if !IE]> <--><object data="https://2689-2347.captiv8online.com/animations/embed/one/d-l-mo-l?player_width=100%&player_height=100%&site_company_language=34&autostart=false" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://2689-2347.captiv8online.com/animations/embed/one/d-l-mo-l?player_width=100%&player_height=100%&site_company_language=34&autostart=false">Rigid Lens Removal</a></object><!--> <!\\[endif]--></div>
+<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\\\[if IE]><iframe frameborder="0" type="text/html" src="https://2689-2347.captiv8online.com/animations/embed/one/d-l-mo-l?player_width=100%&player_height=100%&site_company_language=34&autostart=false" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\\\[endif]--><!--\\\[if !IE]> <--><object data="https://2689-2347.captiv8online.com/animations/embed/one/d-l-mo-l?player_width=100%&player_height=100%&site_company_language=34&autostart=false" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://2689-2347.captiv8online.com/animations/embed/one/d-l-mo-l?player_width=100%&player_height=100%&site_company_language=34&autostart=false">Rigid Lens Removal</a></object><!--> <!\\\[endif]--></div>
 
 <br>
 
-<i><b>Method 1 – Manual Removal</b></i>
+<i><b>Method 1 – Manual Removal.</b></i> Using your middle fingers, open the lids wider than the lens diameter. Apply pressure to the lid margins, pushing in together to move your lids under the lens and lever it out of the eye
 
-* Using your middle fingers, open the lids wider than the lens diameter
-* Apply pressure to the lid margins, pushing in together to move your lids under the lens and lever it out of the eye
-
-<i><b>Method 2 – Suction Removal</b></i>
-
-* Using your middle fingers, open the eyelids wider than the lens diameter
-* With the suction tool between your index finger and thumb, align the suction cup so it is positioned in front of and parallel to the lens
-* When the suction cup touches the lens, apply pressure gently to adhere the lens to the cup and remove the lens from your eye
-* After removal from the eye, carefully slide the lens sideways off the suction tool and it will come off easily
+<i><b>Method 2 – Suction Removal.</b></i> Using your middle fingers, open the eyelids wider than the lens diameter. With the suction tool between your index finger and thumb, align the suction cup so it is positioned in front of and parallel to the lens. When the suction cup touches the lens, apply pressure gently to adhere the lens to the cup and remove the lens from your eye. After removal from the eye, carefully slide the lens sideways off the suction tool and it will come off easily
 
 ![](/uploads/suction-tools.jpg)
 
