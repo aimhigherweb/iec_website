@@ -1,5 +1,5 @@
 ---
-title: Care of Soft Disposable Contact Lenses
+title: Care of Soft Contact Lenses
 category: Contact Lens Instructions
 preview_image: /uploads/contact-lenses-2.jpg
 ---
