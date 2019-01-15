@@ -1,5 +1,5 @@
 ---
-title: Long-Term Success With Soft Disposable Contact Lenses
+title: Long-Term Success With Soft Lenses
 category: Contact Lens Instructions
 preview_image: /uploads/long-term-success-contact-lenses.jpg
 ---
