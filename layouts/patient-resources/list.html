@@ -3,16 +3,92 @@
 {{ partial "topnav.html" . }}
 
 <div class="content-section">
-  <div class="container">
-    <div class="content-section__haeding">
-      <h1>Patient Resources</h1>
-      <p>
-        Your eye care routine will often involve at-home care which our
-        informative team will instruct you in at your appointment. Here you will
-        find useful follow-up resources on how to care for your contact lenses,
-        insert your eye drops or complete your vision training exercises.
-      </p>
+  <!--<div class="container">-->
+    <!--<div class="content-section__haeding">-->
+      <!--<h1>Patient Resources</h1>-->
+      <!--<p>-->
+        <!--Your eye care routine will often involve at-home care which our-->
+        <!--informative team will instruct you in at your appointment. Here you will-->
+        <!--find useful follow-up resources on how to care for your contact lenses,-->
+        <!--insert your eye drops or complete your vision training exercises.-->
+      <!--</p>-->
+    <!--</div>-->
+  <!--</div>-->
+  <div class="intro-section" style="background-image: url(/images/intro-bg.png);">
+    <div class="container">
+      <div class="intro-section__wrap">
+        <div class="intro-section__row">
+          <div class="intro-section__col intro-section__col_content">
+            <div class="content-section__haeding heading--small-font">
+              <h2>Patient Resources</h2>
+            </div>
+            <p>
+              Your eye care routine will often involve at-home care which our
+              informative team will instruct you in at your appointment. Here you will
+              find useful follow-up resources on how to care for your contact lenses,
+              insert your eye drops or complete your vision training exercises.
+            </p>
+            <p>
+              Your eye care routine will often involve at-home care which our
+              informative team will instruct you in at your appointment. Here you will
+              find useful follow-up resources on how to care for your contact lenses,
+              insert your eye drops or complete your vision training exercises.
+            </p>
+            <p>
+              Your eye care routine will often involve at-home care which our
+              informative team will instruct you in at your appointment. Here you will
+              find useful follow-up resources on how to care for your contact lenses,
+              insert your eye drops or complete your vision training exercises.
+            </p>
+          </div>
+          <div class="intro-section__col intro-section__col_sidebar">
+            <ul class="intro-section__list">
+              <li>
+                <span class="ico-holder"> <img src="/images/icon01.png" /> </span>
+                <a href="/what-we-do/eyewear-collections">
+                  <span class="list-text">Eyewear Experts</span>
+                </a>
+              </li>
+              <li>
+                <span class="ico-holder"> <img src="/images/icon02.png" /> </span>
+                <a href="/what-we-do/contact-lenses">
+                  <span class="list-text">Bespoke Contact Lenses</span>
+                </a>
+              </li>
+              <li>
+                <span class="ico-holder"> <img src="/images/icon03.png" /> </span>
+                <a href="/what-we-do/childrens-vision">
+                  <span class="list-text">Paediatric Vision</span>
+                </a>
+              </li>
+              <li>
+                <span class="ico-holder"> <img src="/images/icon04.png" /> </span>
+                <a href="/what-we-do/dry-eye-disease">
+                  <span class="list-text">Dry Eye Clinic</span>
+                </a>
+              </li>
+              <li>
+                <span class="ico-holder"> <img src="/images/icon05.png" /> </span>
+                <a href="/what-we-do/oct">
+                  <span class="list-text">Advanced Imaging Technology</span>
+                </a>
+              </li>
+              <li>
+                <span class="ico-holder"> <img src="/images/icon06.png" /> </span>
+                <a href="/what-we-do/orthokeratology-corneal-reshaping">
+                <span class="list-text"
+                >Ortho-K: Overnight Vision Correction</span
+                >
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </div>
+    <span class="intro-section__rectangle">
+    <img src="/images/rectangle-img.png" alt="image description" />
+  </span>
   </div>
   <div class="what-we-do-section">
     <ul class="what-we-do-list">
@@ -116,23 +192,23 @@
       </li>
     </ul>
   </div>
-  <div>
-    <ul class="team">
-      {{ range (where .Data.Pages "Type" "patient-resources") }}
-      <li>
-        <div
-          style="border: 1px solid grey; padding: 10px; margin-left: 10px; margin-right: 10px; margin: 20px; text-align: center"
-        >
-          <a href="/patient-resources/{{ .File.BaseFileName }}">
-            <img src="{{ .Params.Preview_Image }}" />
-            <div class="title">{{ .Title }}</div>
-            <div class="intro"></div>
-          </a>
-        </div>
-      </li>
-      {{end}}
-    </ul>
-  </div>
+  <!--<div>-->
+    <!--<ul class="team">-->
+      <!--{{ range (where .Data.Pages "Type" "patient-resources") }}-->
+      <!--<li>-->
+        <!--<div-->
+          <!--style="border: 1px solid grey; padding: 10px; margin-left: 10px; margin-right: 10px; margin: 20px; text-align: center"-->
+        <!--&gt;-->
+          <!--<a href="/patient-resources/{{ .File.BaseFileName }}">-->
+            <!--<img src="{{ .Params.Preview_Image }}" />-->
+            <!--<div class="title">{{ .Title }}</div>-->
+            <!--<div class="intro"></div>-->
+          <!--</a>-->
+        <!--</div>-->
+      <!--</li>-->
+      <!--{{end}}-->
+    <!--</ul>-->
+  <!--</div>-->
 
   {{ partial "footer.html" . }}
 </div>
