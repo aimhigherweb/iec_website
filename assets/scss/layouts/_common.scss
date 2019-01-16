@@ -2448,7 +2448,7 @@ h2 {
 .intro-section__rectangle {
   position: absolute;
   left: 0;
-  min-width: 1920px;
+  min-width: 100%;
   bottom: 0;
   z-index: 3;
   @include media(">=1920px") {
