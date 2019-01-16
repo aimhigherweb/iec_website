@@ -16,7 +16,7 @@ For most people short-sightedness evokes the harmless image of a school-aged chi
 
 ![](/uploads/pasted-image-0-1.png)
 
-<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\\\[if IE]><iframe frameborder="0" type="text/html" src="https://2689-2347.captiv8online.com/animations/embed/one/o-t-t-d?player_width=100%&player_height=100%&site_company_language=34&autostart=false" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\\\[endif]--><!--\\\[if !IE]> <--><object data="https://2689-2347.captiv8online.com/animations/embed/one/o-t-t-d?player_width=100%&player_height=100%&site_company_language=34&autostart=false" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://2689-2347.captiv8online.com/animations/embed/one/o-t-t-d?player_width=100%&player_height=100%&site_company_language=34&autostart=false">Myopia</a></object><!--> <!\\\[endif]--></div>
+<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\\\\[if IE]><iframe frameborder="0" type="text/html" src="https://2689-2347.captiv8online.com/animations/embed/one/o-t-t-d?player_width=100%&player_height=100%&site_company_language=34&autostart=false" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\\\\[endif]--><!--\\\\[if !IE]> <--><object data="https://2689-2347.captiv8online.com/animations/embed/one/o-t-t-d?player_width=100%&player_height=100%&site_company_language=34&autostart=false" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://2689-2347.captiv8online.com/animations/embed/one/o-t-t-d?player_width=100%&player_height=100%&site_company_language=34&autostart=false">Myopia</a></object><!--> <!\\\\[endif]--></div>
 
 <br>
 
@@ -49,7 +49,7 @@ The personal case of one of our previous optometrists, Alex Petty, highlights wh
 
 #### How can myopia be controlled?
 
-<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\\\[if IE]><iframe frameborder="0" type="text/html" src="https://2689-2347.captiv8online.com/animations/embed/one/myopia-control?player_width=100%&player_height=100%&site_company_language=34&autostart=false" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\\\[endif]--><!--\\\[if !IE]> <--><object data="https://2689-2347.captiv8online.com/animations/embed/one/myopia-control?player_width=100%&player_height=100%&site_company_language=34&autostart=false" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://2689-2347.captiv8online.com/animations/embed/one/myopia-control?player_width=100%&player_height=100%&site_company_language=34&autostart=false">Myopia Control</a></object><!--> <!\\\[endif]--></div>
+<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\\\\[if IE]><iframe frameborder="0" type="text/html" src="https://2689-2347.captiv8online.com/animations/embed/one/myopia-control?player_width=100%&player_height=100%&site_company_language=34&autostart=false" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\\\\[endif]--><!--\\\\[if !IE]> <--><object data="https://2689-2347.captiv8online.com/animations/embed/one/myopia-control?player_width=100%&player_height=100%&site_company_language=34&autostart=false" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://2689-2347.captiv8online.com/animations/embed/one/myopia-control?player_width=100%&player_height=100%&site_company_language=34&autostart=false">Myopia Control</a></object><!--> <!\\\\[endif]--></div>
 
 <br>
 
@@ -77,7 +77,7 @@ Atropine drops need to be instilled nightly and can be combined with ortho-K the
 
 ##### Soft contact lenses
 
-Certain types of soft contact lenses have been used and developed to control myopia. Multifocal soft contact lenses are typically used by people over 40 to improve their near vision. These have a similar peripheral area of steepening on the lens like ortho-K, although at a lower level (maximum +3.00 D, whereas the ortho-K example above shows a +8.00 D difference!). As a result, when these soft contacts have been used by young patients, studies have only reported a modest range decreased progression of 29-45% . Specialised soft contact lenses called MiSight (Coopervision) have been designed by a research team in New Zealand specifically with myopia control in mind, and have been TGA approved for the indication of controlling myopia progression. These lenses show a 40% reduction in myopia progression. If ortho-K lenses are not suitable, these soft contact lenses may be discussed by your optometrist as an alternative option, and may be used in conjunction with atropine drops.
+Certain types of soft contact lenses have been used and developed to control myopia. Multifocal soft contact lenses are typically used by people over 40 to improve their near vision. These have a similar peripheral area of steepening on the lens like ortho-K, although at a lower level (maximum +3.00 D, whereas the ortho-K example above shows a +8.00 D difference). As a result, when these soft contacts have been used by young patients, studies have only reported a modest range decreased progression of 29-45%. Specialised soft contact lenses called MiSight (Coopervision) show a 40% reduction in myopia progression. Similarly, a recent case study of VTI brand NaturalVue soft lenses showed that 91% of participants showed an over 70% decrease in myopia progression. If ortho-K lenses are not suitable, these soft contact lenses may be discussed by your optometrist as an alternative option, and may be used in conjunction with atropine drops.
 
 ##### Spectacle lens options
 
@@ -96,21 +96,12 @@ Axial eye length is the best metric of risk and progression for myopia. It has t
 ##### References
 
 1. Flitcroft DI. The complex interactions of retinal, optical and environmental factors in myopia aetiology. Prog Retin Eye Res. 2012 Nov;31(6):622-60. 
-
 2. Brien Holden Vision Institute. The Impact of Myopia & High Myopia. 2015, NSW: World Health Organisation. 
-
 3. Mitchell P, Hourihan F, Sandbach J, Wang JJ. The relationship between glaucoma and myopia: the Blue Mountains Eye Study. Ophthalmology. 1999 Oct;106(10):2010-5.
-
 4. Kanthan GL, Mitchell P, Rochtchina E, Cumming RG, Wang JJ. Myopia and the long-term incidence of cataract and cataract surgery: the Blue Mountains Eye Study. Clin Exp Ophthalmol. 2014 May-Jun;42(4):347-53. 
-
 5. Huang J, Wen D, Wang Q, McAlinden C, Flitcroft I, Chen H, Saw SM, Chen H, Bao F, Zhao Y, Hu L, Li X, Gao R, Lu W, Du Y, Jinag Z, Yu A, Lian H, Jiang Q, Yu Y, Qu J. Efficacy Comparison of 16 Interventions for Myopia Control in Children: A Network Meta-analysis.Ophthalmology. 2016 Apr;123(4):697-708. 
-
 6. Gwiazda JE, Hyman L, Norton TT, Hussein MEM, Marsh-Tootle W, Manny R, Wang Y, Everett D; Accommodation and Related Risk Factors Associated with Myopia Progression and Their Interaction with Treatment in COMET Children. Invest. Ophthalmol. Vis. Sci. 2004;45(7):2143-2151.
-
 7. Morgan I, Ohno-Matsui K, Saw S. Myopia. Lancet Volume 379, Issue 9827, 5–11 May 2012, Pages 1739-1748.
-
 8. Vitale S. Increased Prevalence of Myopia in the United States Between 1971-1972 and 1999-2004. Archives of Ophthalmology. 2009;127(12):1632.
-
 9. Dayan Y, Levin A, Morad Y, Grotto I, Ben-David R, Goldberg A et al. The Changing Prevalence of Myopia in Young Adults: A 13-Year Series of Population-Based Prevalence Surveys. Investigative Opthalmology & Visual Science. 2005;46(8):2760.
-
 10. Pärssinen O. The increased prevalence of myopia in Finland. Acta Ophthalmologica. 2011;90(6):497-502.
