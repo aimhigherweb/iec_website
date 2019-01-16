@@ -3642,6 +3642,12 @@ h3 {
       }
     }
 
+    .sub-title {
+      font-size: 17px;
+      font-weight: bold;
+      padding: 20px 10px;
+    }
+
     .patient-resources-inner__icon {
       position: absolute;
       left: 10px;
@@ -3669,15 +3675,21 @@ h3 {
         list-style-type: none;
       }
 
+      li:hover {
+        a:before {
+          content: "\261B";
+          font-size: 25px;
+        }
+      }
+
       a {
         color: $white;
-        font-size:15px;
-        font-weight: 600;
+        font-size:17px;
+        font-weight: 500;
         text-decoration: none;
       }
       
       a:hover {
-        text-decoration: underline;
         padding-bottom: 3px;
       }
 
