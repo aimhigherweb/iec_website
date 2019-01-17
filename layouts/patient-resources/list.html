@@ -2,35 +2,217 @@
 
 {{ partial "topnav.html" . }}
 
-<div class="content-section">
-  <div class="container">
-    <div class="content-section__haeding">
-      <h1>Patient Resources</h1>
-      <p>
-        Your eye care routine will often involve at-home care which our
-        informative team will instruct you in at your appointment. Here you will
-        find useful follow-up resources on how to care for your contact lenses,
-        insert your eye drops or complete your vision training exercises.
-      </p>
+<div class="content-section" style="padding-top: 0">
+  <div class="intro-section" style="background-image: url(/images/intro-bg.png);">
+    <div class="container">
+      <div class="intro-section__wrap">
+        <div class="intro-section__row">
+          <div class="intro-section__col intro-section__col_content">
+            <div class="content-section__haeding heading--small-font">
+              <h2>Patient Resources</h2>
+            </div>
+            <p>
+              Your eye care routine will often involve at-home care which our
+              informative team will instruct you in at your appointment. Here you will
+              find useful follow-up resources on how to care for your contact lenses,
+              insert your eye drops or complete your vision training exercises.
+            </p>
+            <p>
+              Your eye care routine will often involve at-home care which our
+              informative team will instruct you in at your appointment. Here you will
+              find useful follow-up resources on how to care for your contact lenses,
+              insert your eye drops or complete your vision training exercises.
+            </p>
+            <p>
+              Your eye care routine will often involve at-home care which our
+              informative team will instruct you in at your appointment. Here you will
+              find useful follow-up resources on how to care for your contact lenses,
+              insert your eye drops or complete your vision training exercises.
+            </p>
+          </div>
+          <div class="intro-section__col intro-section__col_sidebar">
+            <ul class="intro-section__list">
+              <li>
+                <span class="ico-holder"> <img src="/images/icon01.png" /> </span>
+                <a href="/what-we-do/eyewear-collections">
+                  <span class="list-text">Eyewear Experts</span>
+                </a>
+              </li>
+              <li>
+                <span class="ico-holder"> <img src="/images/icon02.png" /> </span>
+                <a href="/what-we-do/contact-lenses">
+                  <span class="list-text">Bespoke Contact Lenses</span>
+                </a>
+              </li>
+              <li>
+                <span class="ico-holder"> <img src="/images/icon03.png" /> </span>
+                <a href="/what-we-do/childrens-vision">
+                  <span class="list-text">Paediatric Vision</span>
+                </a>
+              </li>
+              <li>
+                <span class="ico-holder"> <img src="/images/icon04.png" /> </span>
+                <a href="/what-we-do/dry-eye-disease">
+                  <span class="list-text">Dry Eye Clinic</span>
+                </a>
+              </li>
+              <li>
+                <span class="ico-holder"> <img src="/images/icon05.png" /> </span>
+                <a href="/what-we-do/oct">
+                  <span class="list-text">Advanced Imaging Technology</span>
+                </a>
+              </li>
+              <li>
+                <span class="ico-holder"> <img src="/images/icon06.png" /> </span>
+                <a href="/what-we-do/orthokeratology-corneal-reshaping">
+                <span class="list-text"
+                >Ortho-K: Overnight Vision Correction</span
+                >
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </div>
+    <span class="intro-section__rectangle">
+      <img src="/images/rectangle-img.png" alt="image description" />
+    </span>
   </div>
-  <div>
-    <ul class="team">
-      {{ range (where .Data.Pages "Type" "patient-resources") }}
-      <li>
+  <div class="patient-resources-section">
+    <ul class="patient-resources-list">
+      <li class="patient-resources-box">
         <div
-          style="border: 1px solid grey; padding: 10px; margin-left: 10px; margin-right: 10px; margin: 20px; text-align: center"
+           class="patient-resources-inner hover-elem"
+           style="background-image: url(/images/3-ContactLenses.jpg);"
         >
-          <a href="/patient-resources/{{ .File.BaseFileName }}">
-            <img src="{{ .Params.Preview_Image }}" />
-            <div class="title">{{ .Title }}</div>
-            <div class="intro"></div>
-          </a>
+          <div class="overlay">
+            <div class="services__icon">
+              <img src="/images/icon01.png" alt="image description" />
+            </div>
+            <strong class="services__title">Contact Lens Instructions</strong>
+          </div>
+          <div class="patient-resources-inner__rollover opener">
+            <div class="patient-resources-inner__rollover__box">
+              <div class="patient-resources-inner__icon">
+                <img src="/images/icon01.png" alt="image description" />
+              </div>
+              <strong class="name">Contact Lens Instructions</strong>
+              <span class="description"
+              >
+                It's so important to care for your contact lenses correctly.
+                Refresh yourself with these instructions.
+              </span>
+              <ul class="links">
+                <li><a href="/patient-resources/care-of-orthokeratology-lenses"> Care of ortho-k lenses</a></li>
+                <li><a href="/patient-resources/care-of-scleral-lenses"> Care of sclerals</a></li>
+                <li><a href="/patient-resources/care-of-gas-permeable-lenses"> Care of gas permeable</a></li>
+                <li><a href="/patient-resources/care-of-soft-disposable-contact-lenses"> Care of soft disposable</a></li>
+                <li><a href="/patient-resources/tips-for-long-term-success-with-your-soft-disposable-contact-lenses">
+                  Tips for long term success with soft disposables</a></li>
+              </ul>
+            </div>
+          </div>
         </div>
       </li>
-      {{end}}
+      <li class="patient-resources-box">
+        <div
+                class="patient-resources-inner hover-elem"
+                style="background-image: url(/images/10-EyeDisease.jpg);"
+        >
+          <div class="overlay">
+            <div class="services__icon">
+              <img src="/images/icon07.png" alt="image description" />
+            </div>
+            <strong class="services__title">Vision Training</strong>
+          </div>
+          <div class="patient-resources-inner__rollover opener">
+            <div class="patient-resources-inner__rollover__box">
+              <div class="patient-resources-inner__icon">
+                <img src="/images/icon07.png" alt="image description" />
+              </div>
+              <strong class="name">Vision Training</strong>
+              <span class="description"
+              >These exercises are used to improve binocular vision skills
+                in conjunction with an ongoing program.</span>
+              <ul class="links">
+                <li><a href="/patient-resources/patching-therapy-for-amblyopia"> Patching therapy for amblyopia</a></li>
+                <li><a href="/patient-resources/vision-training-with-focusing-flippers"> Vision training with focusing flippers</a></li>
+                <li><a href="/patient-resources/vision-training-with-saccade-pyramids"> Vision training with saccade pyramids</a></li>
+                <li><a href="/patient-resources/vision-training-with-binocular-string"> Vision training with binocular string</a></li>
+                <li><a href="/patient-resources/vision-training-with-loose-prisms"> Vision training with loose prisms</a></li>
+                <li><a href="/patient-resources/vision-training-for-near-motility"> Vision training - extreme near motility</a></li>
+                <li><a href="/patient-resources/vision-training-with-hart-charts"> Vision training with hart charts</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="patient-resources-box">
+        <div
+                class="patient-resources-inner hover-elem"
+                style="background-image: url(/images/5-RefractiveConditions.jpg);"
+        >
+          <div class="overlay">
+            <div class="services__icon">
+              <img src="/images/icon02.png" alt="image description" />
+            </div>
+            <strong class="services__title">Everyday Eye Care</strong>
+          </div>
+          <div class="patient-resources-inner__rollover opener">
+            <div class="patient-resources-inner__rollover__box">
+              <div class="patient-resources-inner__icon">
+                <img src="/images/icon02.png" alt="image description" />
+              </div>
+              <strong class="name">Everyday Eye Care</strong>
+              <span class="description"
+              >How does your lifestyle affect your eyes?
+              Achieve your best eye health and vision every day.</span>
+              <span class="sub-title">Using eye drops correctly</span>
+              <ul class="links">
+                <li><a href="/patient-resources/contact-lenses"> Digital eye strain</a></li>
+                <li><a href="/patient-resources/soft-contact-lenses"> Driving and vision</a></li>
+                <li><a href="/patient-resources/soft-contact-lenses"> Nutrition and supplements for ARMD</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </li>
     </ul>
   </div>
+  <div
+      class="content-section online-book-section"
+      style="background-image: url(/images/img38.jpg);"
+  >
+    <div class="container">
+      <div class="online-box">
+        <div class="online-box-heading"><h2>Book Online - It’s easy</h2></div>
+        <p>
+          We’ve made it super easy to schedule your next appointment with our
+          online booking system.
+        </p>
+        <a href="/contact" class="btn btn--light-blue">BOOK NOW</a>
+      </div>
+    </div>
+  </div>
+
+  <!--<div>-->
+    <!--<ul class="team">-->
+      <!--{{ range (where .Data.Pages "Type" "patient-resources") }}-->
+      <!--<li>-->
+        <!--<div-->
+          <!--style="border: 1px solid grey; padding: 10px; margin-left: 10px; margin-right: 10px; margin: 20px; text-align: center"-->
+        <!--&gt;-->
+          <!--<a href="/patient-resources/{{ .File.BaseFileName }}">-->
+            <!--<img src="{{ .Params.Preview_Image }}" />-->
+            <!--<div class="title">{{ .Title }}</div>-->
+            <!--<div class="intro"></div>-->
+          <!--</a>-->
+        <!--</div>-->
+      <!--</li>-->
+      <!--{{end}}-->
+    <!--</ul>-->
+  <!--</div>-->
 
   {{ partial "footer.html" . }}
 </div>

@@ -2448,7 +2448,7 @@ h2 {
 .intro-section__rectangle {
   position: absolute;
   left: 0;
-  min-width: 1920px;
+  min-width: 100%;
   bottom: 0;
   z-index: 3;
   @include media(">=1920px") {
@@ -3436,4 +3436,300 @@ h3 {
 
 .slide-content {
   display: none;
+}
+
+/* patient resources section*/
+.patient-resources-section {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  padding: 0 0 0 0;
+  position: relative;
+  z-index: 2;
+  overflow: hidden;
+}
+.patient-resources-list {
+  @extend %listreset;
+
+  li {
+  }
+
+  @include media(">=tablet") {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    width: 100%;
+  }
+
+  .patient-resources-box {
+    //overflow: hidden;
+    border-bottom: 6px solid $light-blue;
+    height: 450px;
+
+    @include media(">=tablet") {
+      width: 50%;
+    }
+
+    @include media(">=desktop") {
+      width: 33.333%;
+    }
+
+    &.active {
+      .patient-resources-inner {
+
+        &:after {
+          opacity: 1;
+          visibility: visible;
+          transform: translateX(-50%);
+          margin-top: 0;
+        }
+
+      }
+
+    }
+  }
+
+  .patient-resources-box-double {
+
+    @include media("<desktop") {
+      display:none;
+    }
+
+    @include media(">=desktop") {
+      width: 66.666%;
+    }
+
+    .haeding__top-text {
+      padding-top:20px;
+      font-size:40px;
+      line-height:50px;
+    }
+
+
+    .promo-text {
+      font-size:45px;
+      line-height:60px;
+    }
+
+    .promo-text span {
+      font-size:60px;
+      line-height:70px;
+    }
+
+  }
+
+  .patient-resources-inner {
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    text-align: center;
+    padding-bottom: 0;
+    font: 18px/1.1 $montserat-font;
+
+    &:after {
+      @include animate(opacity visibility margin-top, .3s);
+
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      margin-top: 40px;
+      transform: translateX(-50%);
+      opacity: 0;
+      visibility: hidden;
+      @include triangle(40px, $white, up);
+      @include media(">=widescreen") {
+        @include triangle(100px 40px, $white, up);
+      }
+    }
+
+    img {
+      height: 100%;
+      width: auto;
+      display: block;
+    }
+
+    .overlay {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: $white;
+      text-transform: uppercase;
+      padding-bottom: 15px;
+      margin-bottom: 15px;
+      font-size: 20px;
+      @include media(">=tablet") {
+        font-size: 22px;
+      }
+      @include media(">=widescreen") {
+        font-size: 30px;
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+      }
+
+      img {
+        width: 60%;
+        height: auto;
+      }
+
+    }
+
+    &.hover {
+
+      .patient-resources-inner__rollover {
+        opacity: 1;
+        visibility: visible;
+        transform: none;
+      }
+    }
+
+    .name {
+      text-transform: uppercase;
+      display: block;
+      padding: 20px 20px;
+      margin-bottom: 15px;
+      position: relative;
+      font-size: 20px;
+      width: 100%;
+      @include media(">=tablet") {
+        font-size: 22px;
+      }
+      @include media(">=widescreen") {
+        font-size: 30px;
+        margin-bottom: 20px;
+      }
+
+      &:after {
+        position: absolute;
+        height: 2px;
+        width: 160px;
+        background: $white;
+        content: '';
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+    }
+
+    .description {
+      display: block;
+      margin-bottom: 15px;
+      padding: 15px 10px;
+      position: relative;
+      font-size: 17px;
+      width: 100%;
+      @include media(">=tablet") {
+        font-size: 17px;
+      }
+      @include media(">=widescreen") {
+        font-size: 19px;
+        font-weight: 600;
+      }
+
+      &:after {
+        position: absolute;
+        height: 2px;
+        width: 160px;
+        background: $white;
+        content: '';
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+    }
+
+    .sub-title {
+      font-size: 17px;
+      font-weight: bold;
+      padding: 20px 10px;
+    }
+
+    .patient-resources-inner__icon {
+      position: absolute;
+      left: 10px;
+      top: 10px;
+
+      img {
+        width: auto;
+        height: 40px;
+
+      }
+    }
+
+    .links {
+      display: block;
+      width: 100%;
+      text-align: left;
+      margin-bottom: 30px;
+      @include media(">=widescreen") {
+        margin-bottom: 60px;
+        font-size: 24px;
+      }
+
+      li {
+        margin: 5px 0;
+        list-style-type: none;
+      }
+
+      li:hover {
+        a:before {
+          content: "\261B";
+          font-size: 25px;
+        }
+      }
+
+      a {
+        color: $white;
+        font-size:17px;
+        font-weight: 500;
+        text-decoration: none;
+      }
+      
+      a:hover {
+        padding-bottom: 3px;
+      }
+
+    }
+
+  }
+
+}
+
+.patient-resources-inner__rollover__box {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  //align-items: center;
+  width: 100%;
+  flex-direction: column;
+}
+
+.patient-resources-inner__rollover {
+  @include animate(opacity visibility transform);
+
+  background: rgba(#4e8fc9, 1.0);
+  position: absolute;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  padding: 15px;
+  left: 0;
+  opacity: 0;
+  visibility: hidden;
+  transform: scale(0);
+  color: $white;
+  display: flex;
+  flex-wrap: wrap;
+  //align-items: center;
+  //flex-direction: column;
+
+  &:hover,
+  &:focus {
+    color: $white;
+  }
 }
