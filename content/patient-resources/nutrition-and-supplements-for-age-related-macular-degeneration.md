@@ -4,9 +4,9 @@ category: Nutrition for Eye Health
 preview_image: /uploads/eating-macular-degeneration.jpg
 ---
 
-Nutrition plays an important role in optimising retinal health and reducing the risk of macular degeneration. Eating a healthy, well-balanced diet which includes eye health foods will be good for overall wellbeing as well as eye health. For some people an appropriate supplement may also be an important consideration. See our store for cookbooks incorporating ingredients proven to aid eye health.
+Nutrition plays an important role in optimising retinal health and reducing the risk of macular degeneration. Eating a healthy, well-balanced diet which includes eye health foods will be good for overall wellbeing as well as eye health. For some people an appropriate supplement may also be an important consideration. See our Adelaide or Woodville practices for cookbooks incorporating ingredients proven to aid eye health like the one below distributed by [Macular Disease Foundation Australia](https://www.mdfoundation.com.au/content/eating-eye-health).
 
-![](a3d48472245f9971ad3a78180fd2ba6ed3ae531c_eye-health-cookbook.jpg)
+![](eyehealth.jpg)
 
 #### Key eye health practices
 
@@ -20,8 +20,6 @@ Adopting these simple practices as a normal part of your diet can help reduce th
   * Limit the intake of fats and oils 
   * Keep a healthy lifestyle - maintain a healthy weight, and exercise regularly 
   * Consider taking a suitable supplement in consultation with your doctor/optometrist.
-
-
 
 #### Nutrition for eye health
 
@@ -77,11 +75,11 @@ The AREDS2 formula (daily dose) is:
   * Lutein 10 mg
   * Zeaxanthin 2 mg
 
-#### What products conform to AREDS2?
+##### What products conform to AREDS2?
 
 There are a number of supplements available reflecting the AREDS2 formula. Check the label and ensure the product contains the correct ingredients in the correct ratio from the AREDS2 study. Innovative Eye Care currently has the Blackmores Macuvision family of tablets available from our [online shop](http://eyesolutions.com.au/collections/nutrition/products/blackmores-macu-vision) and in store.
 
-#### The correct dose to match AREDS2
+##### The correct dose to match AREDS2
 
 Due to current regulations, the label on Macuvision will typically say “take 1 tablet per day or as professionally prescribed”. However, typically more than 1 tablet is required to get the AREDS2 dose so please consult your doctor/optometrist. (Note that it is impractical to obtain the level of AREDS2 nutrients through diet alone. For example, to get the same quantity of zinc you would need to eat around 135g of oysters each day!)
 
