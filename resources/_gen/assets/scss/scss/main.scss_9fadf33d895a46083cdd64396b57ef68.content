@@ -427,7 +427,7 @@ th {
 .icon-wifi:before {
   content: "\e903"; }
 
-.services, .team, .address__list, .eye-problems, .symptoms-list, .lenses-info, .intro-section__list, .timeline-list, .team-list, .what-we-do-list, .progress-list, .blog-post-list, .socials-list, .main-nav, .navbar__contact-list, .partners-list {
+.services, .team, .address__list, .eye-problems, .symptoms-list, .lenses-info, .intro-section__list, .timeline-list, .team-list, .what-we-do-list, .progress-list, .blog-post-list, .patient-resources-list, .socials-list, .main-nav, .navbar__contact-list, .partners-list {
   margin: 0;
   padding: 0;
   list-style: none; }
@@ -2440,7 +2440,7 @@ h2 {
 .intro-section__rectangle {
   position: absolute;
   left: 0;
-  min-width: 1920px;
+  min-width: 100%;
   bottom: 0;
   z-index: 3; }
   @media (min-width: 1920px) {
@@ -3214,6 +3214,227 @@ h3 {
 
 .slide-content {
   display: none; }
+
+/* patient resources section*/
+.patient-resources-section {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  padding: 0 0 0 0;
+  position: relative;
+  z-index: 2;
+  overflow: hidden; }
+
+@media (min-width: 768px) {
+  .patient-resources-list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    width: 100%; } }
+
+.patient-resources-list .patient-resources-box {
+  border-bottom: 6px solid #5091cd;
+  height: 450px; }
+  @media (min-width: 768px) {
+    .patient-resources-list .patient-resources-box {
+      width: 50%; } }
+  @media (min-width: 1024px) {
+    .patient-resources-list .patient-resources-box {
+      width: 33.333%; } }
+  .patient-resources-list .patient-resources-box.active .patient-resources-inner:after {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(-50%);
+    margin-top: 0; }
+
+@media (max-width: 1023px) {
+  .patient-resources-list .patient-resources-box-double {
+    display: none; } }
+
+@media (min-width: 1024px) {
+  .patient-resources-list .patient-resources-box-double {
+    width: 66.666%; } }
+
+.patient-resources-list .patient-resources-box-double .haeding__top-text {
+  padding-top: 20px;
+  font-size: 40px;
+  line-height: 50px; }
+
+.patient-resources-list .patient-resources-box-double .promo-text {
+  font-size: 45px;
+  line-height: 60px; }
+
+.patient-resources-list .patient-resources-box-double .promo-text span {
+  font-size: 60px;
+  line-height: 70px; }
+
+.patient-resources-list .patient-resources-inner {
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  text-align: center;
+  padding-bottom: 0;
+  font: 18px/1.1 "Montserrat", "Arial", "Helvetica Neue", "Helvetica", sans-serif; }
+  .patient-resources-list .patient-resources-inner:after {
+    transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out, margin-top 0.3s ease-in-out;
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-top: 40px;
+    transform: translateX(-50%);
+    opacity: 0;
+    visibility: hidden;
+    height: 0;
+    width: 0;
+    border-bottom: 20px solid #fff;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent; }
+    @media (min-width: 1600px) {
+      .patient-resources-list .patient-resources-inner:after {
+        height: 0;
+        width: 0;
+        border-bottom: 40px solid #fff;
+        border-left: 50px solid transparent;
+        border-right: 50px solid transparent; } }
+  .patient-resources-list .patient-resources-inner img {
+    height: 100%;
+    width: auto;
+    display: block; }
+  .patient-resources-list .patient-resources-inner .overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    font-size: 20px; }
+    @media (min-width: 768px) {
+      .patient-resources-list .patient-resources-inner .overlay {
+        font-size: 22px; } }
+    @media (min-width: 1600px) {
+      .patient-resources-list .patient-resources-inner .overlay {
+        font-size: 30px;
+        padding-bottom: 20px;
+        margin-bottom: 20px; } }
+    .patient-resources-list .patient-resources-inner .overlay img {
+      width: 60%;
+      height: auto; }
+  .patient-resources-list .patient-resources-inner.hover .patient-resources-inner__rollover {
+    opacity: 1;
+    visibility: visible;
+    transform: none; }
+  .patient-resources-list .patient-resources-inner .name {
+    text-transform: uppercase;
+    display: block;
+    padding: 20px 20px;
+    margin-bottom: 15px;
+    position: relative;
+    font-size: 20px;
+    width: 100%; }
+    @media (min-width: 768px) {
+      .patient-resources-list .patient-resources-inner .name {
+        font-size: 22px; } }
+    @media (min-width: 1600px) {
+      .patient-resources-list .patient-resources-inner .name {
+        font-size: 30px;
+        margin-bottom: 20px; } }
+    .patient-resources-list .patient-resources-inner .name:after {
+      position: absolute;
+      height: 2px;
+      width: 160px;
+      background: #fff;
+      content: '';
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%); }
+  .patient-resources-list .patient-resources-inner .description {
+    display: block;
+    margin-bottom: 15px;
+    padding: 15px 10px;
+    position: relative;
+    font-size: 17px;
+    width: 100%; }
+    @media (min-width: 768px) {
+      .patient-resources-list .patient-resources-inner .description {
+        font-size: 17px; } }
+    @media (min-width: 1600px) {
+      .patient-resources-list .patient-resources-inner .description {
+        font-size: 19px;
+        font-weight: 600; } }
+    .patient-resources-list .patient-resources-inner .description:after {
+      position: absolute;
+      height: 2px;
+      width: 160px;
+      background: #fff;
+      content: '';
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%); }
+  .patient-resources-list .patient-resources-inner .sub-title {
+    font-size: 17px;
+    font-weight: bold;
+    padding: 20px 10px; }
+  .patient-resources-list .patient-resources-inner .patient-resources-inner__icon {
+    position: absolute;
+    left: 10px;
+    top: 10px; }
+    .patient-resources-list .patient-resources-inner .patient-resources-inner__icon img {
+      width: auto;
+      height: 40px; }
+  .patient-resources-list .patient-resources-inner .links {
+    display: block;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 30px; }
+    @media (min-width: 1600px) {
+      .patient-resources-list .patient-resources-inner .links {
+        margin-bottom: 60px;
+        font-size: 24px; } }
+    .patient-resources-list .patient-resources-inner .links li {
+      margin: 5px 0;
+      list-style-type: none; }
+    .patient-resources-list .patient-resources-inner .links li:hover a:before {
+      content: "\261B";
+      font-size: 25px; }
+    .patient-resources-list .patient-resources-inner .links a {
+      color: #fff;
+      font-size: 17px;
+      font-weight: 500;
+      text-decoration: none; }
+    .patient-resources-list .patient-resources-inner .links a:hover {
+      padding-bottom: 3px; }
+
+.patient-resources-inner__rollover__box {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  width: 100%;
+  flex-direction: column; }
+
+.patient-resources-inner__rollover {
+  transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out, transform 0.3s ease-in-out;
+  background: #4e8fc9;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  padding: 15px;
+  left: 0;
+  opacity: 0;
+  visibility: hidden;
+  transform: scale(0);
+  color: #fff;
+  display: flex;
+  flex-wrap: wrap; }
+  .patient-resources-inner__rollover:hover, .patient-resources-inner__rollover:focus {
+    color: #fff; }
 
 #header {
   vertical-align: middle;
