@@ -90,6 +90,83 @@ now</a>
 <img src="/images/rectangle-img.png" alt="image description">
 </span>
 </div>
+
+  <div class="content-section">
+    <div class="container">
+    <div class="content-section__haeding heading--small-font">
+    <h2>Meet the Team</h2>
+    <p>Our optometrists are industry leaders. Our special interests include <br/> contact lenses, paediatric
+    vision and therapeutic optometry.</p>
+    </div>
+    </div>
+  <div>
+  <ul class="team-list">
+  {{ range (where .Pages "Type" "who-we-are") }}
+  <li class="employee-box open-close">
+  <div class="employee-inner hover-elem">
+  <img src="/uploads/{{ .Params.photo }}" />
+  <a href="/who-we-are/{{ .File.BaseFileName }}" class="employee-inner__rollover ">
+  <!-- a href="#" class="employee-inner__rollover opener" -->
+  <div class="employee-inner__rollover__box">
+  <strong class="name">{{ .Title }}</strong>
+  <span class="position">{{ .Params.jobtitle }}</span>
+  <span class="btn-opener"><i class="icon-zoom"></i></span>
+  </div>
+  </a>
+  </div>
+  <div class="employee-slide slide-content">
+  <div class="employee-slide__inner">
+    <div class="container">
+      <div class="content-wrap">
+      <h3>{{ .Title }}</h3>
+        <div class="employee-slide__row">
+          <div class="employee-slide__col employee-slide__col-content">
+            <div class="employee-heading">
+            <h4>{{ .Params.jobtitle }}</h4>
+            </div>
+          <p>{{ .Summary }}</p>
+          </div>
+          <div class="employee-slide__col employee-slide__col-sidebar">
+            <div class="employee-heading">
+              <h4>Interests</h4>
+            </div>
+        <ul class="progress-list">
+          <li>
+          <strong class="progress-list__label">{{ .Params.skill1 }}</strong>
+          <div class="progressbar">
+          <span class="line" style="width: {{ .Params.rating1 }}%"></span>
+          </div>
+          </li>
+          <li>
+          <strong class="progress-list__label">{{ .Params.skill2 }}</strong>
+          <div class="progressbar">
+          <span class="line" style="width: {{ .Params.rating2 }}%"></span>
+          </div>
+          </li>
+          <li>
+          <strong class="progress-list__label">{{ .Params.skill3 }}</strong>
+          <div class="progressbar">
+          <span class="line" style="width: {{ .Params.rating3 }}%"></span>
+          </div>
+          </li>
+          <li>
+          <strong class="progress-list__label">{{ .Params.skill4 }}</strong>
+          <div class="progressbar">
+          <span class="line" style="width: {{ .Params.rating4 }}%"></span>
+          </div>
+          </li>
+        </ul>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  </li>
+  {{ end }}
+  </ul>
+  </div>
+  </div>
 <div class="timeline-section" style="background-image: url(/images/brickwall-bg.png);">
 <div class="container">
 <div class="timeline-section__timeline-wrap">
@@ -210,82 +287,6 @@ practice</p>
 </ul>
 <span class="year-box year-box_end">1959</span>
 </div>
-</div>
-</div>
-<div class="content-section">
-<div class="container">
-<div class="content-section__haeding heading--small-font">
-<h2>Meet the Team</h2>
-<p>Our optometrists are industry leaders. Our special interests include <br/> contact lenses, paediatric
-vision and therapeutic optometry.</p>
-</div>
-</div>
-<div>
-<ul class="team-list">
-{{ range (where .Pages "Type" "who-we-are") }}
-<li class="employee-box open-close">
-<div class="employee-inner hover-elem">
-<img src="/uploads/{{ .Params.photo }}" />
-<a href="/who-we-are/{{ .File.BaseFileName }}" class="employee-inner__rollover ">
-<!-- a href="#" class="employee-inner__rollover opener" -->
-<div class="employee-inner__rollover__box">
-<strong class="name">{{ .Title }}</strong>
-<span class="position">{{ .Params.jobtitle }}</span>
-<span class="btn-opener"><i class="icon-zoom"></i></span>
-</div>
-</a>
-</div>
-<div class="employee-slide slide-content">
-<div class="employee-slide__inner">
-<div class="container">
-<div class="content-wrap">
-<h3>{{ .Title }}</h3>
-<div class="employee-slide__row">
-<div class="employee-slide__col employee-slide__col-content">
-<div class="employee-heading">
-<h4>{{ .Params.jobtitle }}</h4>
-</div>
-<p>{{ .Summary }}</p>
-</div>
-<div class="employee-slide__col employee-slide__col-sidebar">
-<div class="employee-heading">
-<h4>Interests</h4>
-</div>
-<ul class="progress-list">
-<li>
-<strong class="progress-list__label">{{ .Params.skill1 }}</strong>
-<div class="progressbar">
-<span class="line" style="width: {{ .Params.rating1 }}%"></span>
-</div>
-</li>
-<li>
-<strong class="progress-list__label">{{ .Params.skill2 }}</strong>
-<div class="progressbar">
-<span class="line" style="width: {{ .Params.rating2 }}%"></span>
-</div>
-</li>
-<li>
-<strong class="progress-list__label">{{ .Params.skill3 }}</strong>
-<div class="progressbar">
-<span class="line" style="width: {{ .Params.rating3 }}%"></span>
-</div>
-</li>
-<li>
-<strong class="progress-list__label">{{ .Params.skill4 }}</strong>
-<div class="progressbar">
-<span class="line" style="width: {{ .Params.rating4 }}%"></span>
-</div>
-</li>
-</ul>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</li>
-{{ end }}
-</ul>
 </div>
 </div>
 </div>
