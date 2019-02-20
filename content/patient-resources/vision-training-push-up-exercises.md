@@ -1,11 +1,12 @@
 ---
 title: Vision Training Push-Up Exercises
-category: Vision Training
+category: vision-training
 preview_image: /uploads/saccadepenspreview.jpg
 ---
-<br>
 
-Push-up exercises help to train convergence. Convergence is when both eyes move in (towards the nose) as we follow an object coming towards us. If our eyes do not converge, the near object will be seen as two (or doubled). For any reading or computer task we are converging the eyes at different amounts to keep the image single. Accommodation (focusing clearly on a close object) is linked to convergence as we have to keep the object not only single, but also clear. Problems with convergence can lead to double vision, blur, eye-strain, headaches or fatigue when reading or doing close work.
+<div class="employee-heading">
+</p>Push-up exercises help to train convergence. Convergence is when both eyes move in (towards the nose) as we follow an object coming towards us. If our eyes do not converge, the near object will be seen as two (or doubled). For any reading or computer task we are converging the eyes at different amounts to keep the image single. Accommodation (focusing clearly on a close object) is linked to convergence as we have to keep the object not only single, but also clear. Problems with convergence can lead to double vision, blur, eye-strain, headaches or fatigue when reading or doing close work.</p>
+</div>
 
 #### What you will need:
 

@@ -1,12 +1,12 @@
 ---
 title: Vision Training with Binocular String
-category: Vision Training
+category: vision-training
 preview_image: /uploads/vision-training-with-binocular-string.jpg
 ---
-
-Binocular string exercises help to train convergence and help the eyes to avoid suppression. Convergence is when both eyes move inwards (towards the nose) as we follow an object coming towards us. If our eyes do not converge, the near object will be seen as two (or doubled). For any reading or computer task we are converging the eyes different amounts to keep the image single. Accommodation (focusing clearly on a close object) is linked to convergence as we have to keep the object not only single, but also clear. Problems with convergence can lead to double vision, blur, eye-strain, headache or fatigue when reading or doing close work.
-
-If the visual system cannot control double vision well, the brain may suppress one eye, ignoring the input from it so that the world is not doubled. Suppression means the eyes are not working together to see binocularly, which can make visual training less effective.
+<div class="employee-heading">
+<p>Binocular string exercises help to train convergence and help the eyes to avoid suppression. Convergence is when both eyes move inwards (towards the nose) as we follow an object coming towards us. If our eyes do not converge, the near object will be seen as two (or doubled). For any reading or computer task we are converging the eyes different amounts to keep the image single. Accommodation (focusing clearly on a close object) is linked to convergence as we have to keep the object not only single, but also clear. Problems with convergence can lead to double vision, blur, eye-strain, headache or fatigue when reading or doing close work.</p>
+<p>If the visual system cannot control double vision well, the brain may suppress one eye, ignoring the input from it so that the world is not doubled. Suppression means the eyes are not working together to see binocularly, which can make visual training less effective.</p>
+</div>
 
 ![](vision-training-with-binocular-string.jpg)
 
