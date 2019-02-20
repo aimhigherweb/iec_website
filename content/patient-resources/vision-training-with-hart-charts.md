@@ -7,7 +7,7 @@ preview_image: /uploads/hart-chart-preview.jpg
 <p>Hart charts help to train our eyes in accommodation, which is changing our focusing from distance to near. Specifically, Hart Charts help to improve accommodative facility - the ability to increase and decrease our focusing on demand. A variety of binocular vision problems cause a decrease in our ability to accurately focus: some people focus too much and cannot relax; other focus too little and experience blurry vision for close tasks.</p> 
 </div>
 
-![](hart-chart.jpg)
+![](/uploads/hart-chart.jpg)
 
 # What you will need:
 

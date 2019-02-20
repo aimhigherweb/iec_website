@@ -9,7 +9,7 @@ preview_image: /uploads/vision-training-prism.jpg
 <p>Most patients have a range of prism strength that they can look through without getting double vision. Many patients with binocular vision problems have a reduced vergence range which may lead to double vision, blur, fatigue and headache. For example, someone with reduced convergence may get double vision when looking through a 10ʌ prism but a normal patient may be able to still see single with a stronger 25ʌ prism. This can be improved with loose prism training. Having a normal vergence range will help the visual system change and maintain its focus across a range of distances.</p>
 </div>
 
-![](vision-training-prism.jpg)
+![](/uploads/vision-training-prism.jpg)
 
 # What you will need:
 
@@ -27,7 +27,7 @@ preview_image: /uploads/vision-training-prism.jpg
 Do 3 of these 1 minute cycles, three times per day. 
 
 
-![](prism-base.jpg)
+![](/uploads/prism-base.jpg)
 
 If you are doing well at your follow-up appointments, your optometrist may swap your prism for a higher power to make the exercises more difficult. Doing these prism exercises on a far away object will be harder than near. If the pen is easy to cycle through at 40cm, move to a clear object such as a door knob at 1 metre. Your optometrist may recommend that you watch TV whilst dropping your prism in and out every 3 seconds!
 
