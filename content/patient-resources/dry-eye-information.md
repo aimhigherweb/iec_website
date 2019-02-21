@@ -21,7 +21,7 @@ The tear film is made up of three layers: the mucin (mucous) layer, ​the ​wa
 
 Severe cases of dry eye are due to low production of tears, referred to as aqueous deficient dry eye. This is far less ​common ​than ​evaporative ​dry ​eye, ​and ​is ​usually ​due ​to ​autoimmune ​disease, ​medication ​or ​eye ​surgery.
 
-![](dry-eye.jpg)
+![](/uploads/dry-eye.jpg)
 
 <br>
 
