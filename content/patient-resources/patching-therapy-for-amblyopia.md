@@ -13,7 +13,7 @@ Patches come in two varieties:
    * Eze Patch - this re-useable patch is a soft fabric sleeve that sits snuggly over the child's glasses. Make sure this sits closely over the good eye so the child cannot peek around the patch.
    *  Stick-on Patch - this is like a band-aid, but often colourful and fun. It should be placed over the eye and stuck on firmly to completely cover the eye.
 
-![](/uploads/patches.jpg)
+![](patches.jpg)
 
 Some key points about patching therapy:
 

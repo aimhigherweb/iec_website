@@ -8,7 +8,7 @@ preview_image: /uploads/vision-training-with-binocular-string.jpg
 <p>If the visual system cannot control double vision well, the brain may suppress one eye, ignoring the input from it so that the world is not doubled. Suppression means the eyes are not working together to see binocularly, which can make visual training less effective.</p>
 </div>
 
-![](/uploads/vision-training-with-binocular-string.jpg)
+![](vision-training-with-binocular-string.jpg)
 
 # What you will need
 
@@ -25,7 +25,7 @@ preview_image: /uploads/vision-training-with-binocular-string.jpg
    7. Shift through the three beads for one minute (20 cycles). If you can do this successfully we will gradually make the exercise harder by moving the closest bead towards you, first to 10cm, then 8cm, then 5cm for experts!
    8. If at any stage the beads you are not concentrating on become single, it means you are now only using one eye and suppressing the other. In this case, you must move the beads back to a place where you can do the exercise without the wrong beads going double/fuzzy.
 
-![](/uploads/brock-string-combo.jpg)
+![](brock-string-combo.jpg)
 
 Repeat these one minute cycles three times, on at least three occasions during the day. 
 

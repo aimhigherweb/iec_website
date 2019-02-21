@@ -13,7 +13,7 @@ preview_image: /uploads/vision-training-flippers.jpg
   * Innovative Eye Care near vision chart appropriate for your reading level
   * Habitual reading material with normal sized print for reading (eg a magazine, novel, school reading homework)
 
-![](/uploads/vision-training-flippers.jpg)
+![](vision-training-flippers.jpg)
 
 # Instructions:
 
