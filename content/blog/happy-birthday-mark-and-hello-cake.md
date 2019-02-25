@@ -3,7 +3,7 @@ title: Happy Birthday Mark... And Hello Cake!
 date: 2019-02-25T22:46:34.671Z
 author: Jane Scotcher
 author_url: /who-we-are/jane-scotcher
-preview_image: /uploads/img_7690.jpg
+preview_image: /uploads/strawberry-cake.jpg
 ---
 We're celebrating Mark Parson's birthday here at Innovative Eye Care. Jane Scotcher has been lovely enough to make us all a cake for the occasion, but we don't want to have all the fun by ourselves! That's why we've got all the instructions you'll need to remake the cake at home - that is, if you'd like to taste the most delicious thing in the world for yourself.
 
