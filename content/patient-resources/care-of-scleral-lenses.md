@@ -1,6 +1,6 @@
 ---
 title: Care of Scleral Lenses
-category: contact-lens-instructions
+category: Contact Lens Instructions
 preview_image: /uploads/care-of-scleral-lenses.jpg
 ---
 

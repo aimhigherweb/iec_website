@@ -1,6 +1,6 @@
 ---
 title: Care of Soft Contact Lenses
-category: contact-lens-instructions
+category: Contact Lens Instructions
 preview_image: /uploads/contact-lenses-4.jpg
 ---
 

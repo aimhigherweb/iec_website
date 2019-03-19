@@ -1,6 +1,6 @@
 ---
 title: Care of Rigid Gas Permeable Lenses
-category: contact-lens-instructions
+category: Contact Lens Instructions
 preview_image: /uploads/contact-lenses-2.jpg
 ---
 

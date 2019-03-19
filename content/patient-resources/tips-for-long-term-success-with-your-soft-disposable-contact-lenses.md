@@ -1,6 +1,6 @@
 ---
 title: Long-Term Success With Soft Lenses
-category: contact-lens-instructions
+category: Contact Lens Instructions
 preview_image: /uploads/long-term-success-contact-lenses.jpg
 ---
 ##### Only wear your lenses as they are prescribed by your optometrist

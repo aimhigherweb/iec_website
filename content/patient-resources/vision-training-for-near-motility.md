@@ -1,6 +1,6 @@
 ---
 title: Vision Training for Near Motility
-category: vision-training
+category: Vision Training
 preview_image: /uploads/preview-image-motility-saccades.jpg
 ---
 <div class="employee-heading">

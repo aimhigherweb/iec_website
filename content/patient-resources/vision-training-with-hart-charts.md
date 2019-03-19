@@ -1,6 +1,6 @@
 ---
 title: Vision Training with Hart Charts
-category: vision-training
+category: Vision Training
 preview_image: /uploads/hart-chart-preview.jpg
 ---
 <div class="employee-heading">

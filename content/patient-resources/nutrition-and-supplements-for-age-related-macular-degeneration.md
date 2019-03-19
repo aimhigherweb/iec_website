@@ -1,6 +1,6 @@
 ---
 title: Nutrition and Supplements for Age-Related Macular Degeneration
-category: everyday-eye-care
+category: Everyday Eye Care
 preview_image: /uploads/eating-macular-degeneration.jpg
 ---
 

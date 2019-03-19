@@ -1,6 +1,6 @@
 ---
 title: Vision Training With Loose Prisms
-category: vision-training
+category: Vision Training
 preview_image: /uploads/vision-training-prism.jpg
 ---
 
