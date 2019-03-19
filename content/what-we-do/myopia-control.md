@@ -1,6 +1,6 @@
 ---
 title: Myopia Control
-category: refractive-conditions
+category: paediatric-vision
 preview-image: myopia-control-1.jpg
 ---
 <div class="employee-heading">
