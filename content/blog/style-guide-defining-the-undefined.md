@@ -18,7 +18,3 @@ This phenomenon is something that Vogue US explored in January of this year. In 
 CAPTION: Iris Van Herpen Couture pieces from S/S 2019 (left) and F/W 2018 (right).
 
 Picasso, Iris Van Herpen and Roger Eye Design use this technique to create pieces that have the intent of catching you by surprise. The artists use something as simple as defining the undefined, be it on canvases, dresses or frames, for unique and incredible styles. Roger eyewear is perfect for someone who loves to challenge the norm and push boundaries. They’re suitable mostly for short-sighted people and progressive lens wearers. If you’re interested in looking at our Roger Eye Design collection, come in to our Hutt Street practice.
-
-![](/uploads/img_7709-2.jpg)
-
-CAPTION: Another Roger Eye Design piece, Tony 2.
