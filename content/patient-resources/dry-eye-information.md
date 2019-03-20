@@ -1,6 +1,6 @@
 ---
 title: Dry Eye Information
-category: Everyday Eye Care
+category: everyday-eye-care
 preview_image: /uploads/dry-eye-info.jpg
 ---
 

@@ -80,7 +80,41 @@
     </span>
   </div>
   <div class="patient-resources-section">
+
     <ul class="patient-resources-list">
+      <!--{{range $category := .Params.params.categories}}-->
+      <!--<li class="patient-resources-box">-->
+        <!--<div-->
+                <!--class="patient-resources-inner hover-elem"-->
+                <!--style="background-image: url({{$category.backgroundImageUrl}});"-->
+        <!--&gt;-->
+          <!--<div class="overlay">-->
+            <!--<div class="services__icon">-->
+              <!--<img src="{{$category.servicesIcon}}" alt="image description" />-->
+            <!--</div>-->
+            <!--<strong class="services__title">{{$category.title}}</strong>-->
+          <!--</div>-->
+          <!--<div class="patient-resources-inner__rollover opener">-->
+            <!--<div class="patient-resources-inner__rollover__box">-->
+              <!--<div class="patient-resources-inner__icon">-->
+                <!--<img src="{{$category.servicesIcon}}" alt="image description" />-->
+              <!--</div>-->
+              <!--<strong class="name">{{$category.title}}</strong>-->
+              <!--<span class="description">{{$category.description}}</span>-->
+              <!--<ul class="links">-->
+                <!--{{ $category_name := $category.title }}-->
+                <!--{{ $type := "patient-resources" }}-->
+                <!--{{ range $index, $page := .Pages }}-->
+                <!--{{ if and (eq $page.Params.category $category_name) (eq $page.Type $type) }}-->
+                <!--<li><a href="{{$page.URL}}"> {{ $page.Title }}</a></li>-->
+                <!--{{ end }}-->
+                <!--{{ end }}-->
+              <!--</ul>-->
+            <!--</div>-->
+          <!--</div>-->
+        <!--</div>-->
+      <!--</li>-->
+      <!--{{end}}-->
       <li class="patient-resources-box">
         <div
            class="patient-resources-inner hover-elem"
@@ -173,7 +207,7 @@
               Achieve your best eye health and vision every day.</span>
               <span class="sub-title">Using eye drops correctly</span>
               <ul class="links">
-                {{ $category := "Everyday Eye Care" }}
+                {{ $category := "everyday-eye-care" }}
                 {{ $type := "patient-resources" }}
 
                 {{ range $index, $page := .Pages }}

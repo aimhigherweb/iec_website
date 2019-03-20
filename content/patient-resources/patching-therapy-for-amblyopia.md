@@ -1,6 +1,6 @@
 ---
 title: Patching Therapy for Amblyopia
-category: Everyday Eye Care
+category: everyday-eye-care
 preview_image: /uploads/patching-therapy.jpg
 ---
 
