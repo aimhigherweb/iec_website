@@ -1,6 +1,8 @@
 ---
 title: 'Style Guide: Defining the Undefined'
 date: 2019-03-19T23:52:47.832Z
+author: Millie Meegan
+author_url: /who-we-are/millie-meegan
 preview_image: /uploads/preview-image.jpg
 ---
 Innovative Eye Care has recently taken on a new eyewear collection that might just be the most original eyewear brand we stock. Designed by a Mr Roger Hoppenbrouwers (say that five times fast), when we first laid eyes on the frame models we almost couldn’t believe what we were seeing. 
