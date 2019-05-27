@@ -96,7 +96,7 @@ There are several different types of disposable (frequent replacement) lenses.
 
 <br>
 
-#### Rigid Gas Permeable Lenses (RGP)
+#### Rigid Gas Permeable (RGP) lenses
 
 RGP lenses are made from a stiffer material and do not drape on the eyes like soft lenses do. Because of this, careful fitting is required. Rigid lenses are generally reserved for extreme prescriptions or precision fits, such as scleral lenses for keratoconus. [Orthokeratology](/what-we-do/orthokeratology-corneal-reshaping) lenses are a form of these hard lenses. Innovative Eye Care practitioners have had a keen interest in rigid lens fitting for a number of years and use a pioneering lens design software called EyeSpace to custom-design every hard lens used in the practice. Learn about proper care of RGP lenses [here](/patient-resources/care-of-gas-permeable-lenses). For more specific care instructions for scleral lenses, click [here](/patient-resources/care-of-scleral-lenses). 
 
@@ -140,7 +140,7 @@ RGP lenses are made from a stiffer material and do not drape on the eyes like so
 
 ![](/uploads/contact-lenses-2.jpg)
 
-#### Orthokeratology Lenses
+#### Orthokeratology lenses
 
 [Orthokeratology](/what-we-do/orthokeratology-corneal-reshaping) (ortho-K for short) is an exciting new treatment in vision correction now available to our patients, eliminating the need to wear contact lenses or spectacles to see clearly during the day. Ortho-K vision correction works by gently reshaping the centre of the cornea overnight with custom designed contact lenses. Technically speaking, these lenses use the hydrostatic forces of you own tear-film underneath the lens to redistribute the epithelial cells on the eye’s surface. Essentially this means that once the lenses are removed in the morning, you will have clear vision without the need for any spectacles or contact lenses. Ortho-K can treat mild to moderate [myopia](/what-we-do/myopia) (short-sightedness), mild [hyperopia](/what-we-do/hyperopia) (long-sightedness), mild [astigmatism](/what-we-do/astigmatism) and even [presbyopia](/what-we-do/presbyopia). The ortho-K vision correction process is completely reversible. It has recently been shown to reduce the progression of short-sightedness in younger patients. Learn about proper care of ortho-K lenses [here](/patient-resources/care-of-orthokeratology-lenses). 
 

@@ -26,12 +26,17 @@ By definition, myopia is a condition caused by light focusing behind the retina 
 
 #### What are the associated risks of myopia?
 
-Historically, low myopia was considered a normal variation of the eye, a harmless adaptation to increased near vision demands, and a distinction was made between:
+Historically, low myopia was considered a normal variation of the eye, a harmless adaptation to increased near vision demands. Now there is a distinction made between the two types of refractive myopia:
 
-* **Physiological myopia** between -0.25 and -5.00 D, assumed to have no associated eye disease
-* **Pathological myopia** beyond -5.00 D, where increased eye length growth causes retinal stretching and subsequent risk of detachment, maculopathy, glaucoma and cataract
+* **Low myopia** between -0.25 and -5.00 D
+* **High myopia** beyond -5.00 D
 
-For this model to be valid, there should be a cutoff under which the degree of myopia has an acceptably low level of risk for eye disease, but this does not appear to happen. Any magnitude of myopia carries significant increased risk of permanent, uncorrectable vision loss compared to a non-myopic eye.
+The main difference between these two myopia types is their association with eye growth, or axial length. Axial length is closely linked to eye disease, including glaucoma and retinal detachment. Myopia can again be distinguished in terms of axial length between:
+
+* **Physiological myopia** where axial length is below 26.5mm
+* **Pathological myopia** where axial length exceeds 26.5mm
+
+For this model to be valid, there should be a cutoff under which the degree of refractive or axial myopia has an acceptably low level of risk for eye disease, but research shows there is no such cutoff. Any magnitude of myopia carries significant increased risk of permanent, uncorrectable vision loss compared to a non-myopic eye.
 
 #### How bad are the risks, even just for low myopia?
 
@@ -49,13 +54,9 @@ The personal case of one of our previous optometrists, Alex Petty, highlights wh
 
 #### How can myopia be controlled?
 
-<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\\\\[if IE]><iframe frameborder="0" type="text/html" src="https://2689-2347.captiv8online.com/animations/embed/one/myopia-control?player_width=100%&player_height=100%&site_company_language=34&autostart=false" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\\\\[endif]--><!--\\\\[if !IE]> <--><object data="https://2689-2347.captiv8online.com/animations/embed/one/myopia-control?player_width=100%&player_height=100%&site_company_language=34&autostart=false" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://2689-2347.captiv8online.com/animations/embed/one/myopia-control?player_width=100%&player_height=100%&site_company_language=34&autostart=false">Myopia Control</a></object><!--> <!\\\\[endif]--></div>
+Prescribing standard spectacle lenses or contact lenses will do nothing to halt the lengthening of the eye. As a result, you will require frequent spectacle lens updates and will be put at risk of sight-threatening disease in the future. Unfortunately, the lengthening of the eye cannot be reversed, making it critical to control myopia sooner rather than later. 
 
-<br>
-
-Prescribing standard spectacle lenses or contact lenses will do nothing to halt the lengthening of the eye. As a result, the patient will require frequent spectacle lens updates and will be put at risk of sight-threatening disease in the future. Unfortunately, the lengthening of the eye which causes myopia cannot be reversed, making it critical to control myopia sooner rather than later. 
-
-The good news is, there is convincing evidence that certain treatments can slow and even halt the progression of myopia. [Orthokeratology](/what-we-do/orthokeratology-corneal-reshaping) and topically administered atropine drops have been shown to be the two most effective tools currently available to control myopia. These options have different pros and cons, so it is necessary to determine an appropriate treatment plan with your optometrist. Other treatment options do exist, though they do not show the same level of myopia control. 
+The good news is, there is convincing evidence that certain treatments can slow and even halt the progression of myopia. [Orthokeratology](/what-we-do/orthokeratology-corneal-reshaping), atropine eye drops and multifocal contact lenses have been shown to be the most effective tools currently available to control myopia. These options have different pros and cons, so it is necessary to determine an appropriate treatment plan with your optometrist.
 
 #### Innovative Eye Care's myopia control treatment options
 
@@ -75,13 +76,13 @@ It was initially thought that as atropine drops paralyse the focusing muscles of
 
 Atropine drops need to be instilled nightly and can be combined with ortho-K therapy to maximise the myopia control effect. Visual and general side-effects are highly unlikely at 0.02%. Atropine drops will need to be specially formulated at a compounding pharmacy as they are not readily available at concentrations below 0.5%. 
 
-##### Soft contact lenses
+##### Multifocal contact lenses
 
 Certain types of soft contact lenses have been used and developed to control myopia. Multifocal soft contact lenses are typically used by people over 40 to improve their near vision. These have a similar peripheral area of steepening on the lens like ortho-K, although at a lower level (maximum +3.00 D, whereas the ortho-K example above shows a +8.00 D difference). As a result, when these soft contacts have been used by young patients, studies have only reported a modest range decreased progression of 29-45%. Specialised soft contact lenses called MiSight (Coopervision) show a 40% reduction in myopia progression. Similarly, a recent case study of VTI brand NaturalVue soft lenses showed that 91% of participants showed an over 70% decrease in myopia progression. If ortho-K lenses are not suitable, these soft contact lenses may be discussed by your optometrist as an alternative option, and may be used in conjunction with atropine drops.
 
 ##### Spectacle lens options
 
-As mentioned previously, regular spectacles offer no myopia control benefit. In some individuals that are myopic and progressing and that show a near esophoria (tendency of the eyes to turn in more than required when reading) or an accomodative lag (eyes do not focus close enough when reading) then progressive addition spectacles lenses may offer some myopia control benefit. The near conditions mentioned above are tested by your optometrist during their appointments. Studies are varied but suggest a reduction of myopia progression in the range of 12-55% with these lenses.
+As mentioned previously, regular spectacles offer no myopia control benefit. In some individuals that are myopic and progressing and that show a near esophoria (tendency of the eyes to turn in more than required when reading) or an accommodative lag (eyes do not focus close enough when reading) then progressive addition spectacles lenses may offer some myopia control benefit. The near conditions mentioned above are tested by your optometrist during their appointments. Studies are varied but suggest a reduction of myopia progression in the range of 12-55% with these lenses.
 
 Myovision spectacle lenses are specially designed for controlling myopia but studies suggest they only slow progression by 0-30%. As a result they are infrequently used.
 
