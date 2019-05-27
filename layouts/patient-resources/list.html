@@ -143,7 +143,13 @@
 
                 {{ range $index, $page := .Pages }}
                   {{ if and (eq $page.Params.category $category) (eq $page.Type $type) }}
-                    <li><a href="{{$page.URL}}"> {{ $page.Title }}</a></li>
+                    <li>
+                        <a href="{{$page.URL}}"> {{ $page.Title }}
+                            <div class="tooltip">
+                                <img src="{{$page.Params.preview_image}}">
+                            </div>
+                        </a>
+                    </li>
                   {{ end }}
                 {{ end }}
               </ul>
@@ -177,7 +183,13 @@
 
                 {{ range $index, $page := .Pages }}
                   {{ if and (eq $page.Params.category $category) (eq $page.Type $type) }}
-                    <li><a href="{{$page.URL}}"> {{ $page.Title }}</a></li>
+                    <li>
+                      <a href="{{$page.URL}}"> {{ $page.Title }}
+                          <div class="tooltip">
+                              <img src="{{$page.Params.preview_image}}">
+                          </div>
+                      </a>
+                    </li>
                   {{ end }}
                 {{ end }}
               </ul>
@@ -212,7 +224,13 @@
 
                 {{ range $index, $page := .Pages }}
                   {{ if and (eq $page.Params.category $category) (eq $page.Type $type) }}
-                    <li><a href="{{$page.URL}}"> {{ $page.Title }}</a></li>
+                    <li>
+                      <a href="{{$page.URL}}"> {{ $page.Title }}
+                          <div class="tooltip">
+                              <img src="{{$page.Params.preview_image}}">
+                          </div>
+                      </a>
+                    </li>
                   {{ end }}
                 {{ end }}
               </ul>
