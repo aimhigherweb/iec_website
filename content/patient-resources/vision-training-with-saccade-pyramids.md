@@ -1,7 +1,7 @@
 ---
 title: Vision Training with Saccade Pyramids
 category: Vision Training
-preview_image: saccade-preview.jpg
+preview_image: /uploads/saccade-preview.jpg
 ---
 
 <div class="employee-heading">
