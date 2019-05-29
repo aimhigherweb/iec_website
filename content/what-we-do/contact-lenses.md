@@ -18,7 +18,7 @@ CAPTION: A soft lens, an orthokeratology lens, and a scleral lens
 
 #### Soft disposable lenses
 
-There are several different types of disposable (frequent replacement) lenses.
+There are several different types of disposable (frequent replacement) lenses. Innovative Eye Care recommends [Alcon soft contact lenses](/what-we-do/alcon-soft-contact-lenses/) because of their superior clarity and wearability.
 
 ##### Daily replacement lenses (lenses that are new with each use and discarded after wear)
 
