@@ -96,6 +96,8 @@ Silicone-hydrogels are available in daily and monthly modalities. Daily lenses a
   </tr>
 </table> 
 
+<br>
+
 ![](/uploads/soft-lenses.jpeg)
 
 #### How do I know if soft contact lenses are right for me?
