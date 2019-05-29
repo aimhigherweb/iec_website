@@ -6,7 +6,7 @@ preview-image: soft-contact-2.jpg
 <div class="employee-heading">
 <p><p>Soft disposable contact lenses offer clear vision without wearing spectacles. They have high comfort levels and a low risk of infection, along with being easy to insert and remove. Soft disposables come in daily and fortnightly/monthly types. To learn more about whether soft contact lenses are right for you, take a look at our general information page on <a href="/what-we-do/contact-lenses">contact lenses</a> or book an <a href="/what-we-do/eye-exam">appointment</a> with us today.</p></p>
 </div>
-<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\\\\[if IE]><iframe frameborder="0" type="text/html" src="https://2689-2347.captiv8online.com/animations/embed/one/cl-comp?player_width=100%&player_height=100%&site_company_language=34&autostart=false" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\\\\[endif]--><!--\\\\[if !IE]> <--><object data="https://2689-2347.captiv8online.com/animations/embed/one/cl-comp?player_width=100%&player_height=100%&site_company_language=34&autostart=false" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://2689-2347.captiv8online.com/animations/embed/one/cl-comp?player_width=100%&player_height=100%&site_company_language=34&autostart=false">Compliance</a></object><!--> <!\\\\[endif]--></div>
+<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\\\\\[if IE]><iframe frameborder="0" type="text/html" src="https://2689-2347.captiv8online.com/animations/embed/one/cl-comp?player_width=100%&player_height=100%&site_company_language=34&autostart=false" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\\\\\[endif]--><!--\\\\\[if !IE]> <--><object data="https://2689-2347.captiv8online.com/animations/embed/one/cl-comp?player_width=100%&player_height=100%&site_company_language=34&autostart=false" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://2689-2347.captiv8online.com/animations/embed/one/cl-comp?player_width=100%&player_height=100%&site_company_language=34&autostart=false">Compliance</a></object><!--> <!\\\\\[endif]--></div>
 
 <br>
 
@@ -95,6 +95,8 @@ Silicone-hydrogels are available in daily and monthly modalities. Daily lenses a
     <td class="tg-fdbh"><br></td>
   </tr>
 </table> 
+
+![](/uploads/soft-lenses.jpeg)
 
 #### How do I know if soft contact lenses are right for me?
 
