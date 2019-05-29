@@ -20,11 +20,83 @@ CAPTION: A soft lens, an orthokeratology lens, and a scleral lens
 
 There are several different types of disposable (frequent replacement) lenses.
 
+##### Daily replacement lenses (lenses that are new with each use and discarded after wear)
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;border-color:#ccc;}
+.tg td{font-family:Arial, sans-serif;font-size:16px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#fff;}
+.tg th{font-family:Arial, sans-serif;font-size:16px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#f0f0f0;}
+.tg .tg-7op0{font-weight:bold;font-family:Arial, Helvetica, sans-serif !important;;border-color:#000000;vertical-align:top}
+.tg .tg-6vm2{font-weight:bold;font-family:Arial, Helvetica, sans-serif !important;;background-color:#efefef;color:#000000;border-color:#000000;vertical-align:top}
+.tg .tg-fdbh{font-family:Arial, Helvetica, sans-serif !important;;border-color:#000000;vertical-align:top}
+</style>
+
+<table class="tg" align="center">
+  <tr>
+    <th class="tg-fdbh">Pros</th>
+    <th class="tg-fdbh">Cons</th>
+  </tr>
+  <tr>
+    <td class="tg-fdbh">Lesser risk of infection – disposables have fewer deposit and inflammatory problems than monthly and fortnightly lenses</td>
+    <td class="tg-fdbh">Limited range – currently, there is a restricted number of prescriptions that can be corrected with dailies<br></td>
+  </tr>
+  <tr>
+    <td class="tg-fdbh">Convenience – dailies do not require cleaning or storage with solutions and you can take spare lenses with you wherever you go, making them ideal for travel</td>
+    <td class="tg-fdbh">Higher cost for full-time wearers – those who wear dailies every day may pay more for frequent replenishment of lens supply, although often patients find the increased convenience easily justifies the difference<br></td>
+  </tr>
+  <tr>
+    <td class="tg-fdbh">Greater oxygen-supply – the newest daily lenses are made from silicone-hydrogel materials which increase oxygen flow to the eye and prevent dryness (these are slightly more expensive than standard dailies)</td>
+    <td class="tg-fdbh"><br></td>
+  </tr>
+  <tr>
+    <td class="tg-fdbh">Cost-efficient for part-time wearers – easy if you only use your lenses occasionally, and if a lens is lost or damaged the cost is negligible – just pop a new lens into your eye!</td>
+    <td class="tg-fdbh"><br></td>
+  </tr>
+</table> 
+
+<br>
+
+##### Monthly/fortnightly lenses (lenses that are worn daily but replaced monthly/fortnightly)
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;border-color:#fff;}
+.tg td{font-family:Arial, sans-serif;font-size:16px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#fff;color:#333;background-color:#fff;}
+.tg th{font-family:Arial, sans-serif;font-size:16px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#fff;color:#333;background-color:#f0f0f0;}
+.tg .tg-7op0{font-weight:bold;font-family:Arial, Helvetica, sans-serif !important;;border-color:#000000;vertical-align:top}
+.tg .tg-6vm2{font-weight:bold;font-family:Arial, Helvetica, sans-serif !important;;background-color:#efefef;color:#000000;border-color:#000000;vertical-align:top}
+.tg .tg-fdbh{font-family:Arial, Helvetica, sans-serif !important;;border-color:#000000;vertical-align:top}
+</style>
+
+<table class="tg" align="center">
+  <tr>
+    <th class="tg-fdbh">Pros</th>
+    <th class="tg-fdbh">Cons</th>
+  </tr>
+  <tr>
+    <td class="tg-fdbh">Wider range – these lenses are able to correct a greater array of prescriptions and patients with presbyopia have the option of multifocal lenses</td>
+    <td class="tg-fdbh">Risk of infection – longer-use lenses are more prone to deposits and pose a slightly higher chance of microbial infection and inflammatory reactions than daily disposable or rigid gas permeable lenses<br></td>
+  </tr>
+  <tr>
+    <td class="tg-fdbh">Greater oxygen-supply – most are made from new-generation silicone-hydrogel materials which allow increased oxygen flow to the eye and decreased dryness with wear</td>
+    <td class="tg-fdbh">Care and storage – cleaning of the lenses and storage in disinfection solution is required after each day of wear, and you will need to take the solution with you should you travel<br></td>
+  </tr>
+  <tr>
+    <td class="tg-fdbh">Convenience – suitable for intermittent wear with days away from your contact lenses if required (after consultation with your optometrist)</td>
+    <td class="tg-fdbh"><br></td>
+  </tr>
+  <tr>
+    <td class="tg-fdbh">Overnight wear – certain patients who would benefit from sleeping in their contact lenses without significantly compromising the health of their eyes have the option of lenses for overnight wear (after discussing this with their optometrist)</td>
+    <td class="tg-fdbh"><br></td>
+  </tr>
+  <tr>
+    <td class="tg-fdbh">Cost-efficient – the cost per year for lenses and solutions may be slightly cheaper than daily lenses if you wear them most days</td>
+    <td class="tg-fdbh"><br></td>
+  </tr>
+</table> 
+
 #### Rigid Gas Permeable (RGP) lenses
 
 RGP lenses are made from a stiffer material and do not drape on the eyes like soft lenses do. Because of this, careful fitting is required. Rigid lenses are generally reserved for extreme prescriptions or precision fits, such as scleral lenses for keratoconus. [Orthokeratology](/what-we-do/orthokeratology-corneal-reshaping) lenses are a form of these hard lenses. Innovative Eye Care practitioners have had a keen interest in rigid lens fitting for a number of years and use a pioneering lens design software called EyeSpace to custom-design every hard lens used in the practice. Learn about proper care of RGP lenses [here](/patient-resources/care-of-gas-permeable-lenses). For more specific care instructions for scleral lenses, click [here](/patient-resources/care-of-scleral-lenses). 
-
-
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;border-color:#fff;}
