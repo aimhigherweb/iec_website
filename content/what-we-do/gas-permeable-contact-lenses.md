@@ -15,7 +15,7 @@ Our Adelaide and Woodville practices are equipped with exciting new <a href="/wh
 
 Conditions such as [myopia](/what-we-do/myopia), [astigmatism](/what-we-do/astigmatism), aphakia, [keratoconus](/what-we-do/keratoconus), and irregular corneas benefit from RGP lenses. This is because they hold their shape and provide an even front optical surface for the eye. RGP lens wearers experience clear, high-quality vision with a higher safety profile than any other contact lens.<sup>1</sup> 
 
-RGPs are more durable and last longer (often at least a year) than soft contact lenses. They come in a variety of types to treat individual eye conditions. At Innovative Eye Care we use a customised lens design program called EyeSpace to accurately design the fit and power of your lens unique for your eye.
+RGPs are more durable and last longer (often at least a year) than soft contact lenses. They come in a variety of types to treat individual eye conditions. At Innovative Eye Care we use a customised lens design program called EyeSpace to accurately design the fit and power of your lens unique to your eye.
 
 ![](/uploads/rgp-2.jpg)
 
