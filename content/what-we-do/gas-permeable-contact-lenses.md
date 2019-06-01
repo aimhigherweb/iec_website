@@ -24,6 +24,6 @@ The main drawback to rigid lenses is that they may take a little longer to adapt
 Certain types of rigid lenses can be worn overnight, changing the shape of the cornea while you sleep and eliminating the need to wear spectacles or contact lenses during the day (see our [orthokeratology](/what-we-do/orthokeratology-corneal-reshaping) page).
 
 
-#####References 
+##### References 
 
 1. Cheng KH, Leung SL et al. (1999): Incidence of contact-lens-associated microbial keratitis and its related morbidity. Lancet354: 181-185. 
