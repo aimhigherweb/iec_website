@@ -13,7 +13,7 @@ preview-image: rgp.jpg
 
 </div>
 
-Conditions such as [myopia](/what-we-do/myopia), [astigmatism](/what-we-do/astigmatism)<sup>1</sup>, aphakia, [keratoconus](/what-we-do/keratoconus)<sup>2</sup>, and irregular corneas<sup>2</sup> benefit from RGP lenses. This is because they hold their shape and provide an even front optical surface for the eye. RGP lens wearers experience clear, high-quality vision with a higher safety profile than any other contact lens.<sup>3</sup> 
+Conditions such as [myopia](/what-we-do/myopia), [astigmatism](/what-we-do/astigmatism)<sup>1</sup>, aphakia, [keratoconus](/what-we-do/keratoconus)<sup>2</sup>, and irregular corneas<sup>1</sup> benefit from RGP lenses. This is because they hold their shape and provide an even front optical surface for the eye. RGP lens wearers experience clear, high-quality vision with a higher safety profile than any other contact lens.<sup>3</sup> 
 
 RGPs are more durable and last longer (often at least a year) than soft contact lenses. They come in a variety of types to treat individual eye conditions. 
 
