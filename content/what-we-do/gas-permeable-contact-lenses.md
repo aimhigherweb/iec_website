@@ -5,13 +5,15 @@ preview-image: rgp.jpg
 ---
 <div class="employee-heading">
 
-<p>Rigid gas permeable (RGP) contact lenses are a type of lens made with stiff silicone polymers that still allow oxygen to pass through to the cornea, giving them their name. Our Adelaide and Woodville practices are equipped with exciting new <a href="/what-we-do/anterior-imaging">technology</a> that allows our optometrists to design custom RGP lenses for our patients that can improve vision for wearers with a range of eye conditions.</p>
+<p>Rigid gas permeable (RGP) contact lenses are a type of lens made with stiff silicone polymers that still allow oxygen to pass through to the cornea, giving them their name. Our Adelaide and Woodville practices are equipped with exciting new <a href="/what-we-do/anterior-imaging">technology</a> that allows our optometrists to custom design RGP lenses for our patients that can improve vision for wearers with a range of eye conditions.</p>
 
-<p>If you would like to know if you're a candidate for rigid lenses, make an <a href="/what-we-do/eye-exam">appointment</a> with one of our practitioners.</p></p>
+<p>If you would like to know if you are a candidate for rigid lenses, make an <a href="/what-we-do/eye-exam">appointment</a> with one of our practitioners.</p></p>
 
 </div>
 
-Conditions such as [myopia](/what-we-do/myopia), [astigmatism](/what-we-do/astigmatism), aphakia, [keratoconus](/what-we-do/keratoconus), and irregular corneas benefit from RGP lenses. This is because they hold their shape and provide an even front optical surface for the eye. RGPs are more durable and last longer (often at least a year) than soft contact lenses. They come in a variety of types to treat individual eye conditions. At Innovative Eye Care we use a customised lens design program called EyeSpace to accurately design the fit and power of your lens for your eye.
+Conditions such as [myopia](/what-we-do/myopia), [astigmatism](/what-we-do/astigmatism), aphakia, [keratoconus](/what-we-do/keratoconus), and irregular corneas benefit from RGP lenses. This is because they hold their shape and provide an even front optical surface for the eye. RGP lens wearers experience clear, high-quality vision with a higher safety profile than any other contact lens.
+
+RGPs are more durable and last longer (often at least a year) than soft contact lenses. They come in a variety of types to treat individual eye conditions. At Innovative Eye Care we use a customised lens design program called EyeSpace to accurately design the fit and power of your lens for your eye.
 
 ![](/uploads/rgp-2.jpg)
 
