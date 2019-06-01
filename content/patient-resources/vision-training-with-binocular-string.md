@@ -34,4 +34,4 @@ If at any stage the beads you are not concentrating on become single, it means y
 
 Repeat these one minute cycles three times, on at least three occasions during the day. 
 
-**Remember: For these exercises to be effective, the bead you are concentrating on has to be kept single. If it doubles, you may need to start with the bead further away. Ask us if you have any questions about the exercises.**
+**Remember: For these exercises to be effective, the bead you are concentrating on has to be kept single. If it doubles, you may need to start with the bead further away. If you have any questions, [please contact us](https://innovativeeyecare.com.au/contact/).**
