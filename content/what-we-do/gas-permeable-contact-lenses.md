@@ -19,7 +19,7 @@ RGPs are more durable and last longer (often at least a year) than soft contact 
 
 ![](/uploads/rgp-2.jpg)
 
-The main drawback to rigid lenses is that they may take a little longer to adapt to before they are as comfortable as soft contact lenses. For advice on rigid contact lenses and solutions, please consult our team. For insertion, removal, cleaning and maintenance regimes, see our page on [care of gas permeable contact lenses](/patient-resources/U3l2xwEAADQADBFJ/care-of-gas-permeable-lenses).
+The main drawback to rigid lenses is that they may take a little longer to adapt to before they are as comfortable as soft contact lenses. For advice on rigid contact lenses and solutions, please consult our <a href="/what-we-do/eye-exam">team</a>. For insertion, removal, cleaning and maintenance regimes, see our page on [care of gas permeable contact lenses](/patient-resources/U3l2xwEAADQADBFJ/care-of-gas-permeable-lenses).
 
 Certain types of rigid lenses can be worn overnight, changing the shape of the cornea while you sleep and eliminating the need to wear spectacles or contact lenses during the day (see our [orthokeratology](/what-we-do/orthokeratology-corneal-reshaping) page).
 
