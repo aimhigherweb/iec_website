@@ -8,7 +8,7 @@ preview_image: /uploads/vision-training-with-binocular-string.jpg
 
 <p>Accommodation (focusing system of the eye) is closely linked to convergence as we have to keep the object not only single, but also clear. Problems with convergence can lead to double vision, blur, eye-strain, headache or fatigue when reading or doing close work.
 
-<p>If the visual system cannot control double vision well, the brain may suppress one eye, ignoring the input from it so that the world is not doubled. Suppression means the eyes are not working together to see binocularly, which can make visual training less effective.
+<p>If the visual system cannot control double vision well, the brain may suppress one eye, ignoring the input from it so that the world is not doubled. Suppression means the eyes are not working together to see binocularly and the eyes can no longer see the world three dimensionally, which can make visual training less effective.
 
 ![](vision-training-with-binocular-string.jpg)
 
