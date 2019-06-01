@@ -8,7 +8,7 @@ preview-image: myopia-vision-final.jpg
 <p>At our Adelaide and Woodville practices, our optometrists offer <a href="/what-we-do/myopia-control">myopia control</a> treatments to prevent the progression of myopia. If you are interested in knowing more, please contact our staff or <a href="/what-we-do/eye-exam">book an appointment</a>.</p>
 </div>
 
-There is currently no cure for myopia, but [spectacles](/what-we-do/glasses), [contact lenses](/what-we-do/contact-lenses), [orthokeratology](/what-we-do/orthokeratology-corneal-reshaping) and refractive surgery can all provide good distance vision for people with this condition. Due to the structural change to the eye, myopia increases the risk of ocular disease such as [retinal detachment](/what-we-do//what-we-do/flashes-floaters-retinal-tear-detachment), [cataract](/what-we-do/cataract) and [glaucoma](/what-we-do/glaucoma) later in life.
+There is currently no cure for myopia, but [spectacles](/what-we-do/glasses), [contact lenses](/what-we-do/contact-lenses), [orthokeratology](/what-we-do/orthokeratology-corneal-reshaping) and refractive surgery can all provide good distance vision for people with this condition. Due to the structural change to the eye, myopia increases the risk of ocular disease such as [retinal detachment](/what-we-do//what-we-do/flashes-floaters-retinal-tear-detachment), [cataract](/what-we-do/cataract) and [glaucoma](/what-we-do/glaucoma) later in life.<sup>1</sup>
 
 #### How can I tell if I am shortsighted?
 
@@ -23,8 +23,9 @@ CAPTION: A view typical of someone with myopia
 A complete eye test is the only sure way of determining whether your child's vision is normal. Some clues to myopia in a child include:
 
 * Screwing up eyes to see distant objects
-* Difficulty reading the blackboard at school
+* Difficulty reading the whiteboard at school
 * Sitting close to the screen when watching television
+* Holding iPads and books close to the face
 * Lack of interest in playing outdoor games
 
 #### What causes myopia?
@@ -41,4 +42,8 @@ The progression of myopia can be slowed and in some cases halted completely with
 
 #### How common is myopia?
 
-It is a very common condition. About 15% of the Australian population is shortsighted. Usually myopia begins to develop in teenage years and it commonly gets worse over the following few years.
+It is a very common condition. About 30% of the population is shortsighted and by 2050, it is predicted that 50% of the population will be myopic.<sup>2</sup> Usually myopia begins to develop in teenage years and it commonly gets worse over the following few years.
+
+References
+1. Willhem, J. L., et al. "Association of Axial Length With Risk of Uncorrectable Visual Impairment for Europeans With Myopia." JAMA Ophthalmol. (2016); 134(12):1355-1363. 
+2. Institute, W. H. O.-B. H. V. (2016). "The Impact of Myopia and High Myopia." Report of the Joint World Health Organisation-Brien Holden Vision Institute Global Scientific Meeting on Myopia. 
