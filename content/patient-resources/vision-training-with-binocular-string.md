@@ -24,8 +24,11 @@ preview_image: /uploads/vision-training-with-binocular-string.jpg
    4. Concentrate on the far bead. Make sure that this bead is single and clear. The two other beads should look fuzzy and double. Be aware that the beads that you are not looking at are double at all times; also be aware of the string and how it crosses at the bead you are concentrating on.
    5. If you can do this successfully, shift your concentration to the middle bead. This middle bead should now be clear and single, while the other two beads are double and fuzzy. 
    6. Now shift your attention to the front bead and try to make it clear and single. The other two beads should now be double and fuzzy. 
-   7. Shift through the three beads for one minute (20 cycles). If you can do this successfully we will gradually make the exercise harder by moving the closest bead towards you, first to 10cm, then 8cm, then 5cm for experts!
-   8. If at any stage the beads you are not concentrating on become single, it means you are now only using one eye and suppressing the other. In this case, you must move the beads back to a place where you can do the exercise without the wrong beads going double/fuzzy.
+   7. Keep shifting your attention through the three beads for one minute (20 cycles). 
+
+If you can do this successfully we will gradually make the exercise harder by moving the closest bead towards you, first to 10cm, then 8cm, then 5cm for experts!
+
+If at any stage the beads you are not concentrating on become single, it means you are now only using one eye and suppressing the other. In this case, you must move the beads back to a place where you can do the exercise without the wrong beads going double/fuzzy.
 
 ![](brock-string-combo.jpg)
 
