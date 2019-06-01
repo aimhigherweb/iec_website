@@ -18,12 +18,12 @@ preview_image: /uploads/vision-training-flippers.jpg
 
 # Instructions:
 
-  1. Read one line of the Innovative Eye Care reading chart through one side of the flippers. Try to keep each word clear as you read it aloud.
-  2. Turn the flipper over so you are looking through the other side of the lenses. Read the next line aloud.
+  1. While looking through one side of your flippers, read one line of the Innovative Eye Care reading chart. Try to keep each word clear as you read it aloud.
+  2. Turn the flippers over so you are looking through the other side of the lenses. Read the next line aloud.
   3. Flip back to the first set of lenses and read the next line.
   4. Repeat this process until you reach the bottom or cannot focus well enough to read the words.
   5. Try to do 1 minute of flipper reading, then give yourself 30 seconds rest. Repeat this cycle 5 times. Find time to do this 3 times a day.
 
-If the bold side becomes easy to read, try the low-contrast chart on the reverse side. If you learn all the words on your Innovative Eye Care chart ask your optometrist if you can use normal reading material on a book/magazine or computer in the same way - flipping the lenses over at the end of each line. Make sure the print is small enough to challenge you to focus on it clearly.
+If the bold side of the near vision chart becomes easy to read, try the low-contrast chart on the reverse side. If you learn all the words on your Innovative Eye Care chart ask your optometrist if you can use normal reading material on a book/magazine or computer in the same way - flipping the lenses over at the end of each line. Make sure the print is small enough to challenge you to focus on it clearly.
 
-**Remember: For these exercises to be effective, the words you are looking at need to be clear and single. Ask us if you have any questions about the exercises.**
+**Remember: For these exercises to be effective, the words you are looking at need to be clear and single. If you have any questions, please contact us.**
