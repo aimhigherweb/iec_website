@@ -25,4 +25,4 @@ Print outs with one number/letter pyramid per page (similar to image below).
 
 
 
-If you have any questions, please \[contact](https://innovativeeyecare.com.au/contact/) our friendly team.
+If you have any questions, please [contact](https://innovativeeyecare.com.au/contact/) our friendly team.
