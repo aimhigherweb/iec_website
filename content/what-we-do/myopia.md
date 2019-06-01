@@ -47,7 +47,7 @@ It is a very common condition. About 30% of the population is shortsighted and b
 
 ##### References
 
-1. Willhem, J. L., et al. "Association of Axial Length With Risk of Uncorrectable Visual Impairment for Europeans With Myopia." JAMA Ophthalmol. (2016); 134(12):1355-1363. 
+1. Willhem, J. L., et al. (2016). "Association of Axial Length With Risk of Uncorrectable Visual Impairment for Europeans With Myopia." JAMA Ophthalmol 134(12):1355-1363. 
 
 2. Flitcroft, D. I. (2012). "The complex interactions of retinal, optical and environmental factors in myopia aetiology." Progress in Retinal and Eye Research 31(6): 622-660.
 
