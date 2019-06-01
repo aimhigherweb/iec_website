@@ -42,7 +42,7 @@ The progression of myopia can be slowed and in some cases halted completely with
 
 #### How common is myopia?
 
-It is a very common condition. About 30% of the population is shortsighted and by 2050, it is predicted that 50% of the population will be myopic.<sup>3</sup> Usually myopia begins to develop in teenage years and it commonly gets worse over the following few years.
+It is a very common condition. About 30% of the population is shortsighted and by 2050, it is predicted that 50% of the population will be myopic.<sup>3</sup> Usually myopia begins to develop in early teenage years and it commonly gets worse over the following few years.
 
 
 ##### References
