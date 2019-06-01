@@ -22,3 +22,7 @@ Print outs with one number/letter pyramid per page (similar to image below).
 3. Repeat each page until you are comfortable that you can go through all the letters/numbers quickly and accurately without head movements. 
 4. When you can do all the pyramids with lines between the letters/numbers, try the advanced pyramids with no lines to guide you!
 5. Try not to use your finger to point at the next letter/number as this will reduce the effectiveness of the exercise.
+
+
+
+If you have any questions, please \[contact](https://innovativeeyecare.com.au/contact/) our friendly team.
