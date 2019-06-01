@@ -26,4 +26,4 @@ preview_image: /uploads/vision-training-flippers.jpg
 
 If the bold side of the near vision chart becomes easy to read, try the low-contrast chart on the reverse side. If you learn all the words on your Innovative Eye Care chart ask your optometrist if you can use normal reading material on a book/magazine or computer in the same way - flipping the lenses over at the end of each line. Make sure the print is small enough to challenge you to focus on it clearly.
 
-**Remember: For these exercises to be effective, the words you are looking at need to be clear and single. If you have any questions, please contact us.**
+**Remember: For these exercises to be effective, the words you are looking at need to be clear and single. If you have any questions, please [contact us](https://innovativeeyecare.com.au/contact/).**
