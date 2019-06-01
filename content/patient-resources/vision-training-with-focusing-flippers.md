@@ -6,7 +6,7 @@ preview_image: /uploads/vision-training-flippers.jpg
 
 <p>Focusing flippers help to train the accommodative system in our eyes, which is responsible for changing focus from distance to near. Specifically, flippers help to improve accommodative facility - the ability to increase and decrease focus on demand. A variety of binocular vision problems can cause a decrease in our ability to accurately focus; some people focus too much and cannot relax, others focus too little and experience blurry vision for close tasks. 
 
-<p>The flippers you are given have lenses on one side that require you to relax your focus (magnifying lenses), and the other side requires you to focus more (minifying lenses). 
+<p>The flippers you are given have magnifying lenses on one side that require you to relax your focus and minifying lenses on the other side that require you to focus more.  
 
 # What you will need:
 
