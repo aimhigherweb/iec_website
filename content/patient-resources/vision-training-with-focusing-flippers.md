@@ -12,7 +12,7 @@ preview_image: /uploads/vision-training-flippers.jpg
 
   * Focusing flippers (powers range from +/-2.00D down to +/-1.00D) from Innovative Eye Care
   * Innovative Eye Care near vision chart appropriate for your reading level
-  * Reading material of your choice with normal sized print for reading (eg a magazine, novel, school reading homework)
+  * Reading material of your choice with normal sized print for reading (eg magazine, novel, school reading homework)
 
 ![](vision-training-flippers.jpg)
 
