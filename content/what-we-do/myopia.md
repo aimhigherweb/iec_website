@@ -45,5 +45,7 @@ The progression of myopia can be slowed and in some cases halted completely with
 It is a very common condition. About 30% of the population is shortsighted and by 2050, it is predicted that 50% of the population will be myopic.<sup>2</sup> Usually myopia begins to develop in teenage years and it commonly gets worse over the following few years.
 
 References
+
 1. Willhem, J. L., et al. "Association of Axial Length With Risk of Uncorrectable Visual Impairment for Europeans With Myopia." JAMA Ophthalmol. (2016); 134(12):1355-1363. 
+
 2. Institute, W. H. O.-B. H. V. (2016). "The Impact of Myopia and High Myopia." Report of the Joint World Health Organisation-Brien Holden Vision Institute Global Scientific Meeting on Myopia. 
