@@ -13,7 +13,7 @@ preview-image: rgp.jpg
 
 </div>
 
-Conditions such as [myopia](/what-we-do/myopia), [astigmatism](/what-we-do/astigmatism), aphakia, [keratoconus](/what-we-do/keratoconus), and irregular corneas benefit from RGP lenses. This is because they hold their shape and provide an even front optical surface for the eye. RGP lens wearers experience clear, high-quality vision with a higher safety profile than any other contact lens.<sup>1</sup> 
+Conditions such as [myopia](/what-we-do/myopia), [astigmatism](/what-we-do/astigmatism)<sup>1</sup>, aphakia, [keratoconus](/what-we-do/keratoconus)<sup>2</sup>, and irregular corneas<sup>2</sup> benefit from RGP lenses. This is because they hold their shape and provide an even front optical surface for the eye. RGP lens wearers experience clear, high-quality vision with a higher safety profile than any other contact lens.<sup>3</sup> 
 
 RGPs are more durable and last longer (often at least a year) than soft contact lenses. They come in a variety of types to treat individual eye conditions. 
 
@@ -29,4 +29,8 @@ Certain types of rigid lenses can be worn overnight, changing the shape of the c
 
 ##### References 
 
-1. Cheng KH, Leung SL et al. (1999): Incidence of contact-lens-associated microbial keratitis and its related morbidity. Lancet354: 181-185. 
+1. Jupiter DG, Katz HR. (2000): "Management of irregular astigmatism with rigid gas permeable contact lenses". CLAO Journal; 26(1): 14-17. 
+
+2. Chaudhary M, Kandel H, Adhikari P. (2017): "Visual outcome in Keratoconus with spherical rigid gas permeable contact lens". Journal of Institute of Medicine: 39(3).      
+
+3. Cheng KH, Leung SL et al. (1999): Incidence of contact-lens-associated microbial keratitis and its related morbidity. Lancet354: 181-185. 
