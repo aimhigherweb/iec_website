@@ -1,8 +1,12 @@
 ---
 title: Dry Eye Information
+category: everyday-eye-care
 preview_image: /uploads/dry-eye-info.jpg
 ---
-Dry eye disease covers a spectrum of conditions. Symptoms include dry, stinging, burning eyes, inflammation, irritation and redness, excessive tearing and foreign body sensation. This can be extremely debilitating in the day-to-day lives of sufferers. Left untreated, there is risk of permanent damage to the ocular surface and ​eyelids.
+
+<div class="employee-heading">
+<p>Dry eye disease covers a spectrum of conditions. Symptoms include dry, stinging, burning eyes, inflammation, irritation and redness, excessive tearing and foreign body sensation. This can be extremely debilitating in the day-to-day lives of sufferers. Left untreated, there is risk of permanent damage to the ocular surface and ​eyelids.</p>
+</div>
 
 #### What causes dry eye disease?
 
@@ -17,7 +21,7 @@ The tear film is made up of three layers: the mucin (mucous) layer, ​the ​wa
 
 Severe cases of dry eye are due to low production of tears, referred to as aqueous deficient dry eye. This is far less ​common ​than ​evaporative ​dry ​eye, ​and ​is ​usually ​due ​to ​autoimmune ​disease, ​medication ​or ​eye ​surgery.
 
-![](dry-eye.jpg)
+![](/uploads/dry-eye.jpg)
 
 <br>
 
@@ -97,4 +101,4 @@ Close ​eyes. ​Count ​1, ​2.
 Squeeze ​eyes. ​Count ​1, ​2.
 Repeat ​for ​1 ​minute
 
-![](pasted-image-0.png)
+![](/uploads/pasted-image-0.png)

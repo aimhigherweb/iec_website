@@ -3,12 +3,11 @@ title: Vision Training with Binocular String
 category: Vision Training
 preview_image: /uploads/vision-training-with-binocular-string.jpg
 ---
-
+<div class="employee-heading">
 <p>Binocular string exercises help to train convergence and help the eyes to avoid suppression. Convergence is when both eyes move inwards (towards the nose) as we look at objects up close. If our eyes do not converge, the near object will be seen as two (or doubled). For any reading or computer task we are converging the eyes different amounts to keep the image single. 
-
 <p>Accommodation (focusing system of the eye) is closely linked to convergence as we have to keep the object not only single, but also clear. Problems with convergence can lead to double vision, blur, eye-strain, headache or fatigue when reading or doing close work.
-
 <p>If the visual system cannot control double vision well, the brain may suppress one eye, ignoring the input from it so that the world is not doubled. Suppression means the eyes are not working together to see binocularly and the eyes can no longer see the world three dimensionally, which can make visual training less effective.
+</div>
 
 ![](vision-training-with-binocular-string.jpg)
 
@@ -30,7 +29,7 @@ If you can do this successfully we will gradually make the exercise harder by mo
 
 If at any stage the beads you are not concentrating on become single, it means you are now only using one eye and suppressing the other. In this case, you must move the beads back to a place where you can do the exercise without the wrong beads going double/fuzzy.
 
-![](brock-string-combo.jpg)
+![](/uploads/brock-string-combo.jpg)
 
 Repeat these one minute cycles three times, on at least three occasions during the day. 
 

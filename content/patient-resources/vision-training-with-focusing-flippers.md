@@ -4,9 +4,10 @@ category: Vision Training
 preview_image: /uploads/vision-training-flippers.jpg
 ---
 
+<div class="employee-heading">
 <p>Focusing flippers help to train the accommodative system in our eyes, which is responsible for changing focus from distance to near. Specifically, flippers help to improve accommodative facility - the ability to increase and decrease focus on demand. A variety of binocular vision problems can cause a decrease in our ability to accurately focus; some people focus too much and cannot relax, others focus too little and experience blurry vision for close tasks. 
-
 <p>The flippers you are given have magnifying lenses on one side that require you to relax your focus and minifying lenses on the other side that require you to focus more.  
+</div> 
 
 # What you will need:
 
@@ -14,7 +15,7 @@ preview_image: /uploads/vision-training-flippers.jpg
   * Innovative Eye Care near vision chart appropriate for your reading level
   * Reading material of your choice with normal sized print for reading (eg magazine, novel, school reading homework)
 
-![](vision-training-flippers.jpg)
+![](/uploads/vision-training-flippers.jpg)
 
 # Instructions:
 

@@ -122,9 +122,14 @@
               today.</span
             >
             <ul class="links">
-              <li><a href="/what-we-do/eye-exam"> Eye Test</a></li>
-              <li><a href="/what-we-do/exam-billing"> Exam Billing</a></li>
-              <li><a href="/what-we-do/gift-cards"> Gift Cards</a></li>
+              {{ $category := "consultations" }}
+              {{ $type := "what-we-do" }}
+
+              {{ range $index, $page := .Pages }}
+                {{ if and (eq $page.Params.category $category) (eq $page.Type $type) }}
+                  <li><a href="{{$page.URL}}"> {{ $page.Title }}</a></li>
+                {{ end }}
+              {{ end }}
             </ul>
           </div>
         </div>
@@ -152,18 +157,14 @@
               with quality frames and lenses.</span
             >
             <ul class="links">
-              <li><a href="/what-we-do/glasses"> Spectacle Lenses</a></li>
-              <li><a href="/what-we-do/sunglasses"> Sunglasses</a></li>
-              <li>
-                <a href="/what-we-do/eyewear-collections">
-                  Eyewear Collections</a
-                >
-              </li>
-              <li>
-                <a href="/what-we-do/childrens-eyewear">
-                  Eyewear for Children</a
-                >
-              </li>
+              {{ $category := "eyewear-experts" }}
+              {{ $type := "what-we-do" }}
+
+              {{ range $index, $page := .Pages }}
+                {{ if and (eq $page.Params.category $category) (eq $page.Type $type) }}
+                  <li><a href="{{$page.URL}}"> {{ $page.Title }}</a></li>
+                {{ end }}
+              {{ end }}
             </ul>
           </div>
         </div>
@@ -191,32 +192,14 @@
               latest in contact lens technology.</span
             >
             <ul class="links">
-              <li><a href="/what-we-do/contact-lenses"> Contact Lenses</a></li>
-              <li>
-                <a href="/what-we-do/soft-contact-lenses">
-                  Soft Contact Lenses</a
-                >
-              </li>
-              <li>
-                <a href="/what-we-do/gas-permeable-contact-lenses">
-                  Rigid Gas Permeable Contact Lenses</a
-                >
-              </li>
-              <li>
-                <a href="/what-we-do/scleral-contact-lenses">
-                  Scleral Contact Lenses</a
-                >
-              </li>
-              <li>
-                <a href="/what-we-do/contact-lenses-for-presbyopia">
-                  Contact Lenses For Presbyopia</a
-                >
-              </li>
-              <li>
-                <a href="/what-we-do/novelty-and-coloured-contact-lenses">
-                  Novelty and Coloured Contact Lenses</a
-                >
-              </li>
+              {{ $category := "contact-lenses" }}
+              {{ $type := "what-we-do" }}
+
+              {{ range $index, $page := .Pages }}
+                {{ if and (eq $page.Params.category $category) (eq $page.Type $type) }}
+                  <li><a href="{{$page.URL}}"> {{ $page.Title }}</a></li>
+                {{ end }}
+              {{ end }}
             </ul>
           </div>
         </div>
@@ -244,26 +227,14 @@
               lens molds.</span
             >
             <ul class="links">
-              <li>
-                <a href="/what-we-do/orthokeratology-corneal-reshaping">
-                  Ortho-K: Corneal Reshaping</a
-                >
-              </li>
-              <li>
-                <a href="/what-we-do/ortho-k-what-to-expect">
-                  Ortho-K: What To Expect</a
-                >
-              </li>
-              <li>
-                <a href="/what-we-do/orthokeratology-for-myopia">
-                  Orthokeratology for Myopia</a
-                >
-              </li>
-              <li>
-                <a href="/what-we-do/orthokeratology-for-hyperopia">
-                  Orthokeratology for Hyperopia</a
-                >
-              </li>
+              {{ $category := "orthok" }}
+              {{ $type := "what-we-do" }}
+
+              {{ range $index, $page := .Pages }}
+                {{ if and (eq $page.Params.category $category) (eq $page.Type $type) }}
+                  <li><a href="{{$page.URL}}"> {{ $page.Title }}</a></li>
+                {{ end }}
+              {{ end }}
             </ul>
           </div>
         </div>
@@ -291,16 +262,14 @@
               What does it all mean?</span
             >
             <ul class="links">
-              <li><a href="/what-we-do/myopia"> Myopia</a></li>
-              <li><a href="/what-we-do/hyperopia"> Hyperopia</a></li>
-              <li><a href="/what-we-do/presbyopia"> Presbyopia</a></li>
-              <li><a href="/what-we-do/astigmatism"> Astigmatism</a></li>
-              <li>
-                <a href="/what-we-do/digital-eye-strain"> Digital Eye Strain</a>
-              </li>
-              <li>
-                <a href="/what-we-do/driving-and-vision"> Driving and Vision</a>
-              </li>
+              {{ $category := "refractive-conditions" }}
+              {{ $type := "what-we-do" }}
+
+              {{ range $index, $page := .Pages }}
+                {{ if and (eq $page.Params.category $category) (eq $page.Type $type) }}
+                  <li><a href="{{$page.URL}}"> {{ $page.Title }}</a></li>
+                {{ end }}
+              {{ end }}
             </ul>
           </div>
         </div>
@@ -328,21 +297,14 @@
               Help your child achieve their very best sight!</span
             >
             <ul class="links">
+              {{ $category := "paediatric-vision" }}
+              {{ $type := "what-we-do" }}
 
-              <li><a href="/what-we-do/myopia-control"> Myopia Control</a></li>
-              <li>
-                <a href="/what-we-do/childrens-vision"> Children's Vision</a>
-              </li>
-              <li>
-                <a href="/what-we-do/signs-of-vision-problem-children">
-                  Signs of a Vision Problem in Children</a
-                >
-              </li>
-              <li>
-                <a href="/what-we-do/vision-training"> Vision Training</a>
-              </li>
-              <li><a href="/what-we-do/amblyopia"> Amblyopia</a></li>
-              <li><a href="/what-we-do/colorimetry"> Colorimetry</a></li>
+              {{ range $index, $page := .Pages }}
+                {{ if and (eq $page.Params.category $category) (eq $page.Type $type) }}
+                  <li><a href="{{$page.URL}}"> {{ $page.Title }}</a></li>
+                {{ end }}
+              {{ end }}
             </ul>
           </div>
         </div>
@@ -370,27 +332,14 @@
               cause of your dry eye disease?</span
             >
             <ul class="links">
-              <li>
-                <a href="/what-we-do/dry-eye-disease"> Dry Eye Disease</a>
-              </li>
-              <li><a href="/what-we-do/blepharitis"> Blepharitis</a></li>
-              <li>
-                <a href="/what-we-do/meibomian-gland-dysfunction">
-                  Meibomian Gland Dysfunction</a
-                >
-              </li>
-              <li><a href="/what-we-do/blephex"> BlephEx</a></li>
-              <li><a href="/what-we-do/ipl"> IPL (Intense Pulse Light)</a></li>
-              <li>
-                <a href="/what-we-do/punctal-plugs">
-                  Punctal Plugs for Dry Eyes</a
-                >
-              </li>
-              <li>
-                <a href="/what-we-do/eye-drops">
-                  Inserting Eye Drops Correctly</a
-                >
-              </li>
+              {{ $category := "dry-eye-clinic" }}
+              {{ $type := "what-we-do" }}
+
+              {{ range $index, $page := .Pages }}
+                {{ if and (eq $page.Params.category $category) (eq $page.Type $type) }}
+                  <li><a href="{{$page.URL}}"> {{ $page.Title }}</a></li>
+                {{ end }}
+              {{ end }}
             </ul>
           </div>
         </div>
@@ -419,33 +368,14 @@
               damage.</span
             >
             <ul class="links">
-              <li>
-                <a href="/what-we-do/flashes-floaters-retinal-tear-detachment">
-                  Flashes, Floaters, Retinal Tear & Detachment</a
-                >
-              </li>
-              <li><a href="/what-we-do/conjunctivitis"> Conjunctivitis</a></li>
-              <li>
-                <a href="/what-we-do/episcleritis-and-scleritis">
-                  Episcleritis & Scleritis</a
-                >
-              </li>
-              <li><a href="/what-we-do/keratitis"> Keratitis</a></li>
-              <li>
-                <a href="/what-we-do/sub-conjunctival-haemorrhage">
-                  Sub-Conjunctival Haemorrhage</a
-                >
-              </li>
-              <li>
-                <a href="/what-we-do/iritis-and-anterior-uveitis">
-                  Iritis & Anterior Uveitis</a
-                >
-              </li>
-              <li>
-                <a href="/what-we-do/foreign-body-removal">
-                  Foreign Body Removal</a
-                >
-              </li>
+              {{ $category := "acute-red-eyes" }}
+              {{ $type := "what-we-do" }}
+
+              {{ range $index, $page := .Pages }}
+                {{ if and (eq $page.Params.category $category) (eq $page.Type $type) }}
+                  <li><a href="{{$page.URL}}"> {{ $page.Title }}</a></li>
+                {{ end }}
+              {{ end }}
             </ul>
           </div>
         </div>
@@ -473,39 +403,14 @@
               scientific and accurate than ever before.</span
             >
             <ul class="links">
-              <li>
-                <a href="/what-we-do/retinal-photography">
-                  Digital Retinal Photography</a
-                >
-              </li>
-              <li>
-                <a href="/what-we-do/anterior-imaging">
-                  Digital Anterior Photography</a
-                >
-              </li>
-              <li>
-                <a href="/what-we-do/oct">
-                  Optical Coherence Tomography (OCT)</a
-                >
-              </li>
-              <li>
-                <a href="/what-we-do/corneal-topography"> Corneal Topography</a>
-              </li>
-              <li>
-                <a href="/what-we-do/visual-field-testing">
-                  Visual Field Testing</a
-                >
-              </li>
-              <li>
-                <a href="/what-we-do/optical-biometry">
-                  Optical and Ultrasound Biometry</a
-                >
-              </li>
-              <li>
-                <a href="/what-we-do/auto-phoropter">
-                  The Amazing Auto-Phoropter!</a
-                >
-              </li>
+              {{ $category := "advanced-imaging-technology" }}
+              {{ $type := "what-we-do" }}
+
+              {{ range $index, $page := .Pages }}
+                {{ if and (eq $page.Params.category $category) (eq $page.Type $type) }}
+                  <li><a href="{{$page.URL}}"> {{ $page.Title }}</a></li>
+                {{ end }}
+              {{ end }}
             </ul>
           </div>
         </div>
@@ -533,25 +438,14 @@
               us about your eye health and preventive measures.</span
             >
             <ul class="links">
-              <li><a href="/what-we-do/keratoconus"> Keratoconus</a></li>
-              <li><a href="/what-we-do/glaucoma"> Glaucoma</a></li>
-              <li><a href="/what-we-do/cataract"> Cataract</a></li>
-              <li>
-                <a href="/what-we-do/macular-degeneration">
-                  Macular Degeneration</a
-                >
-              </li>
-              <li>
-                <a href="/what-we-do/diabetes-and-the-eye">
-                  Diabetes & The Eye</a
-                >
-              </li>
-              <li>
-                <a href="/what-we-do/pterygium-pinguecula">
-                  Pterygium and Pinguecula</a
-                >
-              </li>
-              <li><a href="/what-we-do/corneal-grafts"> Corneal Grafts</a></li>
+              {{ $category := "eye-disease" }}
+              {{ $type := "what-we-do" }}
+
+              {{ range $index, $page := .Pages }}
+                {{ if and (eq $page.Params.category $category) (eq $page.Type $type) }}
+                  <li><a href="{{$page.URL}}"> {{ $page.Title }}</a></li>
+                {{ end }}
+              {{ end }}
             </ul>
           </div>
         </div>

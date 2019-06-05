@@ -80,7 +80,41 @@
     </span>
   </div>
   <div class="patient-resources-section">
+
     <ul class="patient-resources-list">
+      <!--{{range $category := .Params.params.categories}}-->
+      <!--<li class="patient-resources-box">-->
+        <!--<div-->
+                <!--class="patient-resources-inner hover-elem"-->
+                <!--style="background-image: url({{$category.backgroundImageUrl}});"-->
+        <!--&gt;-->
+          <!--<div class="overlay">-->
+            <!--<div class="services__icon">-->
+              <!--<img src="{{$category.servicesIcon}}" alt="image description" />-->
+            <!--</div>-->
+            <!--<strong class="services__title">{{$category.title}}</strong>-->
+          <!--</div>-->
+          <!--<div class="patient-resources-inner__rollover opener">-->
+            <!--<div class="patient-resources-inner__rollover__box">-->
+              <!--<div class="patient-resources-inner__icon">-->
+                <!--<img src="{{$category.servicesIcon}}" alt="image description" />-->
+              <!--</div>-->
+              <!--<strong class="name">{{$category.title}}</strong>-->
+              <!--<span class="description">{{$category.description}}</span>-->
+              <!--<ul class="links">-->
+                <!--{{ $category_name := $category.title }}-->
+                <!--{{ $type := "patient-resources" }}-->
+                <!--{{ range $index, $page := .Pages }}-->
+                <!--{{ if and (eq $page.Params.category $category_name) (eq $page.Type $type) }}-->
+                <!--<li><a href="{{$page.URL}}"> {{ $page.Title }}</a></li>-->
+                <!--{{ end }}-->
+                <!--{{ end }}-->
+              <!--</ul>-->
+            <!--</div>-->
+          <!--</div>-->
+        <!--</div>-->
+      <!--</li>-->
+      <!--{{end}}-->
       <li class="patient-resources-box">
         <div
            class="patient-resources-inner hover-elem"
@@ -104,10 +138,20 @@
                 Refresh yourself with these instructions.
               </span>
               <ul class="links">
-                <li><a href="/patient-resources/care-of-orthokeratology-lenses"> Care of ortho-k lenses</a></li>
-                <li><a href="/patient-resources/care-of-scleral-lenses"> Care of sclerals</a></li>
-                <li><a href="/patient-resources/care-of-gas-permeable-lenses"> Care of gas permeable</a></li>
-                <li><a href="/patient-resources/care-of-soft-disposable-contact-lenses"> Care of soft disposable</a></li>
+                {{ $category := "Contact Lens Instructions" }}
+                {{ $type := "patient-resources" }}
+
+                {{ range $index, $page := .Pages }}
+                  {{ if and (eq $page.Params.category $category) (eq $page.Type $type) }}
+                    <li>
+                        <a href="{{$page.URL}}"> {{ $page.Title }}
+                            <div class="tooltip">
+                                <img src="{{$page.Params.preview_image}}">
+                            </div>
+                        </a>
+                    </li>
+                  {{ end }}
+                {{ end }}
               </ul>
             </div>
           </div>
@@ -134,14 +178,20 @@
               >These exercises are used to improve binocular vision skills
                 in conjunction with an ongoing program.</span>
               <ul class="links">
-                <li><a href="/patient-resources/vision-training-with-focusing-flippers"> Vision training with focusing flippers</a></li>
-                <li><a href="/patient-resources/vision-training-with-saccade-pyramids"> Vision training with saccade pyramids</a></li>
-                <li><a href="/patient-resources/vision-training-with-binocular-string"> Vision training with binocular string</a></li>
-                <li><a href="/patient-resources/vision-training-with-loose-prisms"> Vision training with loose prisms</a></li>
-                <li><a href="/patient-resources/vision-training-for-near-motility"> Vision training - extreme near motility</a></li>
-                <li><a href="/patient-resources/vision-training-with-hart-charts"> Vision training with hart charts</a></li>
-                <li><a href="/patient-resources/vision-training-push-up-exercises"> Vision training with push-up exercises</a></li>
-                <li><a href="/patient-resources/vision-training-with-saccade-pens"> Vision training with saccade pens</a></li>
+                {{ $category := "Vision Training" }}
+                {{ $type := "patient-resources" }}
+
+                {{ range $index, $page := .Pages }}
+                  {{ if and (eq $page.Params.category $category) (eq $page.Type $type) }}
+                    <li>
+                      <a href="{{$page.URL}}"> {{ $page.Title }}
+                          <div class="tooltip">
+                              <img src="{{$page.Params.preview_image}}">
+                          </div>
+                      </a>
+                    </li>
+                  {{ end }}
+                {{ end }}
               </ul>
             </div>
           </div>
@@ -169,11 +219,20 @@
               Achieve your best eye health and vision every day.</span>
               <span class="sub-title">Using eye drops correctly</span>
               <ul class="links">
-                <li><a href="/patient-resources/dry-eye-information"> Dry eye information</a></li>
-                <li><a href="/patient-resources/nutrition-and-supplements-for-age-related-macular-degeneration"> Nutrition and supplements for ARMD</a></li>
-                <li><a href="/patient-resources/patching-therapy-for-amblyopia"> Patching therapy for amblyopia</a></li>
-                <li><a href="/patient-resources/tips-for-long-term-success-with-your-soft-disposable-contact-lenses">
-                  Tips for long term success with soft disposables</a></li>
+                {{ $category := "everyday-eye-care" }}
+                {{ $type := "patient-resources" }}
+
+                {{ range $index, $page := .Pages }}
+                  {{ if and (eq $page.Params.category $category) (eq $page.Type $type) }}
+                    <li>
+                      <a href="{{$page.URL}}"> {{ $page.Title }}
+                          <div class="tooltip">
+                              <img src="{{$page.Params.preview_image}}">
+                          </div>
+                      </a>
+                    </li>
+                  {{ end }}
+                {{ end }}
               </ul>
             </div>
           </div>

@@ -3,11 +3,13 @@ title: Vision Training with Saccade Pyramids
 category: Vision Training
 preview_image: /uploads/saccade-preview.jpg
 ---
+<div class="employee-heading">
 <p>Saccade pyramids help to train accuracy and coordination of eye movements. Saccades are the quick movements of the eyes when you look quickly from one point to the next. Smooth pursuits is the movement used as we follow an object moving in space (eg watching a moving car on the road). 
-
 <p>To read, we use a combination of saccades and smooth movements. Some people have poor control of their tracking and eye movements, which can cause problems when reading as the eyes cannot accurately and/or smoothly move to the next word or line.
-
 <p>Sometimes people will need to hold a finger under each word to help guide them where to look; this is called proprioception. By training the eyes to move from letter to letter without the guide of a finger, the visual system can improve its speed and accuracy of eye movements.
+</div>
+
+![](/uploads/saccade.jpg)
 
 # What you will need:
 

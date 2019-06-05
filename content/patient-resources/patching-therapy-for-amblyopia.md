@@ -1,17 +1,19 @@
 ---
 title: Patching Therapy for Amblyopia
-category: Vision Therapy
+category: everyday-eye-care
 preview_image: /uploads/patching-therapy.jpg
 ---
 
-If your child has amblyopia your optometrist may decide it is best to start occlusion therapy to try to improve the vision in the amblyopic eye. Patching forces your child to use the eye with worse vision. 
+<div class="employee-heading">
+<p>If your child has amblyopia your optometrist may decide it is best to start occlusion therapy to try to improve the vision in the amblyopic eye. Patching forces your child to use the eye with worse vision.</p> 
+</div>
 
 Patches come in two varieties:
 
    * Eze Patch - this re-useable patch is a soft fabric sleeve that sits snuggly over the child's glasses. Make sure this sits closely over the good eye so the child cannot peek around the patch.
    *  Stick-on Patch - this is like a band-aid, but often colourful and fun. It should be placed over the eye and stuck on firmly to completely cover the eye.
 
-![](patches.jpg)
+![](/uploads/patches.jpg)
 
 Some key points about patching therapy:
 
