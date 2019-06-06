@@ -3407,8 +3407,21 @@ h3 {
       font-size: 17px;
       font-weight: 500;
       text-decoration: none; }
+      .patient-resources-list .patient-resources-inner .links a .tooltip {
+        z-index: 10;
+        display: none;
+        margin: -150px 0 200px -50px;
+        width: 240px;
+        height: 180px;
+        border-radius: 5px;
+        box-shadow: 3px 5px 5px 5px #2e5981; }
+        .patient-resources-list .patient-resources-inner .links a .tooltip img {
+          border-radius: 5px; }
     .patient-resources-list .patient-resources-inner .links a:hover {
       padding-bottom: 3px; }
+      .patient-resources-list .patient-resources-inner .links a:hover .tooltip {
+        display: inline;
+        position: absolute; }
 
 .patient-resources-inner__rollover__box {
   display: flex;
