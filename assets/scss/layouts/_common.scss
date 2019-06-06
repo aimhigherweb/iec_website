@@ -3691,10 +3691,16 @@ h3 {
           z-index:10;
           display:none;
           margin: -150px 0 200px -50px;
-          width: 240px;
+          width: 250px;
           height: 180px;
           border-radius: 5px;
           box-shadow: 3px 5px 5px 5px #2e5981;
+          &__title{
+            position: absolute;
+            top: 15px;
+            padding: 5px;
+            background-color: rgba(97, 156, 211, 0.5);
+          }
           img {
             border-radius: 5px;
           }

@@ -82,18 +82,12 @@
   <div class="patient-resources-section">
 
     <ul class="patient-resources-list">
-<!--      {{range $category := .Params.params.categories}}-->
-<!--        <li class="patient-resources-box">-->
-<!--          {{range $ele_key, $ele_val := $category}}-->
-
-<!--            {{if and (eq $ele_key "backgroundImageUrl")}}-->
-<!--            <div-->
-<!--                    class="patient-resources-inner hover-elem"-->
-<!--                    style="background-image: url({{$ele_val}});"-->
-<!--            >-->
-
-<!--            {{end}}-->
-<!--          {{end}}-->
+      <!--{{range $category := .Params.params.categories}}-->
+      <!--<li class="patient-resources-box">-->
+        <!--<div-->
+                <!--class="patient-resources-inner hover-elem"-->
+                <!--style="background-image: url({{$category.backgroundImageUrl}});"-->
+        <!--&gt;-->
           <!--<div class="overlay">-->
             <!--<div class="services__icon">-->
               <!--<img src="{{$category.servicesIcon}}" alt="image description" />-->
@@ -118,9 +112,9 @@
               <!--</ul>-->
             <!--</div>-->
           <!--</div>-->
-<!--          </div>-->
-<!--        </li>-->
-<!--      {{end}}-->
+        <!--</div>-->
+      <!--</li>-->
+      <!--{{end}}-->
       <li class="patient-resources-box">
         <div
            class="patient-resources-inner hover-elem"
@@ -152,6 +146,7 @@
                     <li>
                         <a href="{{$page.URL}}"> {{ $page.Title }}
                             <div class="tooltip">
+                                <span class="tooltip__title">{{ $page.Title }}</span>
                                 <img src="{{$page.Params.preview_image}}">
                             </div>
                         </a>
