@@ -145,10 +145,10 @@
                   {{ if and (eq $page.Params.category $category) (eq $page.Type $type) }}
                     <li>
                         <a href="{{$page.URL}}"> {{ $page.Title }}
-                            <div class="tooltip">
-                                <span class="tooltip__title">{{ $page.Title }}</span>
-                                <img src="{{$page.Params.preview_image}}">
-                            </div>
+<!--                            <div class="tooltip">-->
+<!--                                <span class="tooltip__title">{{ $page.Title }}</span>-->
+<!--                                <img src="{{$page.Params.preview_image}}">-->
+<!--                            </div>-->
                         </a>
                     </li>
                   {{ end }}
@@ -186,9 +186,10 @@
                   {{ if and (eq $page.Params.category $category) (eq $page.Type $type) }}
                     <li>
                       <a href="{{$page.URL}}"> {{ $page.Title }}
-                          <div class="tooltip">
-                              <img src="{{$page.Params.preview_image}}">
-                          </div>
+<!--                          <div class="tooltip">-->
+<!--                              <span class="tooltip__title">{{ $page.Title }}</span>-->
+<!--                              <img src="{{$page.Params.preview_image}}">-->
+<!--                          </div>-->
                       </a>
                     </li>
                   {{ end }}
@@ -227,9 +228,10 @@
                   {{ if and (eq $page.Params.category $category) (eq $page.Type $type) }}
                     <li>
                       <a href="{{$page.URL}}"> {{ $page.Title }}
-                          <div class="tooltip">
-                              <img src="{{$page.Params.preview_image}}">
-                          </div>
+<!--                          <div class="tooltip">-->
+<!--                              <span class="tooltip__title">{{ $page.Title }}</span>-->
+<!--                              <img src="{{$page.Params.preview_image}}">-->
+<!--                          </div>-->
                       </a>
                     </li>
                   {{ end }}
