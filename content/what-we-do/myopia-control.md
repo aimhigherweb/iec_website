@@ -25,6 +25,7 @@ In myopic eyes, light is focused in front of the retina rather than on it, causi
 
 #### What are the associated risks of myopia?
 Historically, low myopia was considered a normal variation of the eye. Now there is a clear distinction between the two types of myopia:
+
 * **Low myopia** between -0.50 and -6.00 D <sup>6</sup>
 * **High myopia** beyond -6.00 D<sup>6</sup>
 
