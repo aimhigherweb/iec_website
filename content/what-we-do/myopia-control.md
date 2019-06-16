@@ -35,8 +35,7 @@ Once the axial length exceeds 26.5mm, the risk of eye disease such as glaucoma a
 #### How bad are the risks, even just for low myopia?
 A study published in 2012<sup>1</sup> on the interactions of several factors on myopia found the following:
 <p style="margin-left: 40px">“Myopia in the so-called ‘physiological range’ represents a major risk factor for ocular disease that is comparable with the risks associated with hypertension for cardiovascular disease or with the risks of stroke from smoking more than 20 cigarettes per day. For retinal detachment and myopic maculopathy, myopia carries a risk far in excess of any identified population risk factor for cardiovascular disease.”</p>
-These conditions are far from rare: myopic maculopathy, a progressive condition causing breakdown of retinal cells, is the forth most common cause of visual impairment in the UK, ahead of diabetic eye disease.
-While the risks of eye disease later in life are present for any degree of myopia, the higher the amount of myopia, the higher the risk. The chance of a permanent vision loss in patients with axial length of more than 26mm is 25%, compared to 3.8% in eyes less than 26mm.<sup>2</sup>
+These conditions are far from rare: myopic maculopathy, a progressive condition causing breakdown of retinal cells, is the forth most common cause of visual impairment in the UK, ahead of diabetic eye disease.<sup>7</sup> While the risks of eye disease later in life are present for any degree of myopia, the higher the amount of myopia, the higher the risk. The chance of a permanent vision loss in patients with axial length of more than 26mm is 25%, compared to 3.8% in eyes less than 26mm.<sup>2</sup>
 If we can stop the progression of myopia into these high levels then a significant amount of blindness can be prevented. 
 
 #### Case study: Alex Petty
@@ -88,4 +87,5 @@ Axial eye length is the best metric of risk and progression for myopia. It has t
 4. Chen-Wei, P. Ramamurthy, D. Seang-Mei, S. (2011). ‘Worldwide prevalence and risk factors for myopia’. Opthalmic and Physiological Optics. 32(1). 
 5. Goldschmidt, E. Jacobsen, N. (2013). ‘Genetic and environmental effects on myopia development and progression’. Cambridge Ophthalmological Symposium. 28(1): 126-133. 
 6. Flitcroft, D. I., et al. (2019). "IMI-Defining and Classifying Myopia: A Proposed Set of Standards for Clinical and Epidemiologic Studies."InvestOphthalmolVis Sci60(3)
+7. Wong, T. Y., et al. (2014). "Epidemiology and disease burden of pathologic myopia and myopic choroidal neovascularisation: an evidence-based systematic review". Am J Ophthalmo. 157(1): 9-25. 
 
