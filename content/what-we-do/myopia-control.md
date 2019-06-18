@@ -64,9 +64,9 @@ To find out more, make an [appointment](https://innovativeeyecare.com.au/contact
 
 [Orthokeratology](/what-we-do/orthokeratology-corneal-reshaping) (or ortho-K) is a type of contact lens wear which has been practiced at Innovative Eye Care for many years. Ortho-K involves wearing a custom-designed contact lens overnight which reshapes the surface of the eye, providing clear vision the next day without the lenses. 
 
-As well as being convenient, ortho-K actually slows and in some cases stops myopia progression. As the surface of the eye changes, so does the point at which light entering it is focused. Myopes focus light behind the retina, so when reshaped, the light focuses on the retina and the eye no longer attempts to elongate. 
+As well as being convenient, ortho-K actually slows and in some cases stops myopia progression.<sup>8,9</sup> As the surface of the eye changes, so does the point at which light entering it is focused. Myopes focus light behind the retina, so when reshaped, the light focuses on the retina and the eye no longer attempts to elongate. 
 
-Research has now shown a range of 32%-100% slowing of myopia progression depending on the study. Most reports suggest an average of a 50% reduction in the rate of myopia progression with ortho-K contact lens wear. Results in our practice and from other myopia control practices in Australasia show complete halting of myopia progression in some patients.
+Ortho-K has been proven to slow myopia progression by 32-100%, depending on the study.<sup>8,9</sup> Most reports suggest an average of a 50% reduction in the rate of myopia progression with ortho-K contact lens wear. Results in our practice and from other myopia control practices in Australasia show complete halting of myopia progression in some patients.
 
 ##### Atropine drops
 
@@ -107,3 +107,5 @@ Axial eye length is the best metric of risk and progression for myopia. It has t
 5. Goldschmidt, E. Jacobsen, N. (2013). ‘Genetic and environmental effects on myopia development and progression’. Cambridge Ophthalmological Symposium. 28(1): 126-133. 
 6. Flitcroft, D. I., et al. (2019). "IMI-Defining and Classifying Myopia: A Proposed Set of Standards for Clinical and Epidemiologic Studies."InvestOphthalmolVis Sci60(3)
 7. Wong, T. Y., et al. (2014). "Epidemiology and disease burden of pathologic myopia and myopic choroidal neovascularisation: an evidence-based systematic review". Am J Ophthalmo. 157(1): 9-25.
+8. Na, M. Yoo, A. (2018). "The effect of orthokeratology on axial length elongation in children with myopia: Contralateral comparison study". Jpn J Ophthalmol. 62(3): 327-334. 
+9. Hiraoka, T. et al. (2012). "Long-term effect of overnight orthokeratology on axial length elongation in childhood myopia: a 5-year follow-up study". Invest Ophthalmol Vis Sci. 53(7): 3913-3919. 
