@@ -14,7 +14,7 @@ In accordance with the South Australia Freedom of Information Act, Innovative Ey
 
 In addition to these fees, a further $0.20 applies per page of records printed as well as the cost of postage.
 
-If you would like your records summarised in written report, an added $7.85 is applicable.
+If you would like your records summarised in written report, an added $7.85 is applicable per page.
 
 #### Further information
 
