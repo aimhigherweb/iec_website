@@ -5,7 +5,7 @@ category: consultations
 <div><p>The South Australian Freedom of Information Act (1991) allows you to access your medical records on request. Your records include present and past spectacle and contact lens prescriptions, referral letters and examination notes.</div></p>
 
 #### How do I request access to my medical records?
-Download the South Australian Request for Access to Documents application <a href=http://https://government.archives.sa.gov.au/sites/default/files/20180622%20Request%20for%20Access%20Application%20Form%202018-19%20Final%20V1.pdf>here</a>.
+Download the South Australian Request for Access to Documents application <a href=https://government.archives.sa.gov.au/sites/default/files/20180622%20Request%20for%20Access%20Application%20Form%202018-19%20Final%20V1.pdf>here</a>.
 
 Print and fill out the form. Send the form to us through fax (8232 1600), email (help@innovativeeyecare.com.au) or post (60 Hutt Street, Adelaide SA 5000).
 
