@@ -10,11 +10,11 @@ Download the South Australian Request for Access to Documents application <a hre
 Print and fill out the form. Send the form to us through fax (8232 1600), email (help@innovativeeyecare.com.au) or post (60 Hutt Street, Adelaide SA 5000).
 
 #### What fees apply?
-In accordance with the South Australia Freedom of Information Act, Innovative Eye Care reserves the right to charge a $35.00 fee per application for medical records.
-
-In addition to these fees, a further $0.20 applies per page of records printed as well as the cost of postage.
-
-If you would like your records summarised in written report, an added $7.85 is applicable per page.
+In accordance with the South Australia Freedom of Information Act.
+- $35.00 fee per application for medical records.
+- $0.20 per page of records printed
+- $7.85 per page in a summarised report
+- Cost of postage
 
 #### Further information
 
