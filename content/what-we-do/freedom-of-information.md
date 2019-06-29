@@ -1,6 +1,6 @@
 ---
 title: Freedom of Information
-category: /what-we-do/
+category: consultations
 ---
 <div><p>The South Australian Freedom of Information Act (1991) allows you to access your medical records on request. Your records includes present and past spectacle and contact lens prescriptions, referral letters and examination notes.</div></p>
 
