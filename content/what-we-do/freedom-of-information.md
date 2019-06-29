@@ -12,7 +12,7 @@ Print and fill out the form. Send the form to us through fax (8232 1600), email 
 
 #### What fees apply?
 
-In accordance with the South Australia Freedom of Information Act.
+In accordance with the South Australia Freedom of Information (Fees and Charges) Regulations 2018.
 
 * $35.00 fee per application for medical records.
 * $0.20 per page of records printed
