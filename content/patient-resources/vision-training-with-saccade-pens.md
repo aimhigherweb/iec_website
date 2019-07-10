@@ -31,4 +31,4 @@ CAPTION: Moving gaze to shaking pen.
 
 Try to do 5 rounds of these exercises, 3 times a day. To make the exercises harder over time, increase the distance between the pens.
 
-If you have any questions, please [contact us](https://innovativeeyecare.com.au/contact/)
+If you have any questions, please [contact us](https://innovativeeyecare.com.au/contact/). 
