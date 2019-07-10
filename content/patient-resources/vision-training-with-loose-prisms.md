@@ -5,8 +5,11 @@ preview_image: /uploads/vision-training-prism.jpg
 ---
 
 <div class="employee-heading">
-<p>Loose prisms help to train relative vergences which involve changing the alignment of our eyes while keeping the object we are looking at clear and single. Prisms are triangular lenses that move the appearance of the world in the direction of the narrow edge when you look through them. When you look with one eye through a prism the eyes either have to converge (move together in the direction of the nose) or diverge (move apart) in order to not get double vision. We make these vergence movements every second of the day to focus on near and far objects.</p> 
-<p>Most patients have a range of prism strength that they can look through without getting double vision. Many patients with binocular vision problems have a reduced vergence range which may lead to double vision, blur, fatigue and headache. For example, someone with reduced convergence may get double vision when looking through a 10ʌ prism but a normal patient may be able to still see single with a stronger 25ʌ prism. This can be improved with loose prism training. Having a normal vergence range will help the visual system change and maintain its focus across a range of distances.</p>
+<p>Loose prisms help to train our vergence system (the ability of our eyes to turn in and out). Prisms are triangular lenses that causes light to bend towards the base of the prism, meaning when you look through the lens, the image will shift from its true location. 
+
+<p>When you place a prism lens in front of one eye, then the eyes either have to converge (move together towards the nose) or diverge (move apart) in order to not get double vision. We make these vergence movements every second of the day to focus on near and far objects.
+
+<p>Most patients have a range of prism strength that they can tolerate and look through without getting double vision. Many patients with binocular vision problems have a reduced vergence range which may lead to double vision, blur, fatigue and headache. For example, someone with reduced convergence may get double vision when looking through a 10ʌ prism but a normal patient may be able to still see single with a stronger 25ʌ prism. This can be improved with loose prism training. Having a normal vergence range will help the visual system change and maintain its focus across a range of distances.</p>
 </div>
 
 ![](/uploads/vision-training-prism.jpg)
