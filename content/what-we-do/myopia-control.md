@@ -19,7 +19,7 @@ Some groups of people are more likely to be affected than others, with both gene
 
 ![](/uploads/pasted-image-0-1.png)
 
-<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\\\\\\\\\[if IE]><iframe frameborder="0" type="text/html" src="https://2689-2347.captiv8online.com/animations/embed/one/o-t-t-d?player_width=100%&player_height=100%&site_company_language=34&autostart=false" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\\\\\\\\\[endif]--><!--\\\\\\\\\[if !IE]> <--><object data="https://2689-2347.captiv8online.com/animations/embed/one/o-t-t-d?player_width=100%&player_height=100%&site_company_language=34&autostart=false" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"> alt : <a href="https://2689-2347.captiv8online.com/animations/embed/one/o-t-t-d?player_width=100%&player_height=100%&site_company_language=34&autostart=false">Myopia</a></object><!--> <!\\\\\\\\\[endif]--></div>
+<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\\\\\\\\\\[if IE]><iframe frameborder="0" type="text/html" src="https://2689-2347.captiv8online.com/animations/embed/one/o-t-t-d?player_width=100%&player_height=100%&site_company_language=34&autostart=false" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\\\\\\\\\\[endif]--><!--\\\\\\\\\\[if !IE]> <--><object data="https://2689-2347.captiv8online.com/animations/embed/one/o-t-t-d?player_width=100%&player_height=100%&site_company_language=34&autostart=false" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"> alt : <a href="https://2689-2347.captiv8online.com/animations/embed/one/o-t-t-d?player_width=100%&player_height=100%&site_company_language=34&autostart=false">Myopia</a></object><!--> <!\\\\\\\\\\[endif]--></div>
 <br>
 
 #### How does myopia affect the eye?
@@ -62,6 +62,8 @@ To find out more, make an [appointment](https://innovativeeyecare.com.au/contact
 
 ##### Orthokeratology
 
+![](/uploads/ortho.jpg)
+
 [Orthokeratology](/what-we-do/orthokeratology-corneal-reshaping) (or ortho-K) is a type of contact lens wear which has been practiced at Innovative Eye Care for many years. Ortho-K involves wearing a custom-designed contact lens overnight which reversibly and temporarily reshapes the cornea (front surface of the eye) while you sleep, providing clear vision the next day without the need for spectacles or contact lens wear during the day. 
 
 As well as being convenient, ortho-K actually slows and in some cases stops myopia progression.<sup>8,9,10</sup> Ortho-K has been proven to slow myopia progression by 32-100%, depending on the study.<sup>8,9,10</sup> Results in our practice and from other myopia control practices in Australasia show complete halting of myopia progression in some patients.
@@ -78,6 +80,8 @@ Atropine drops need to be taken every night and can be combined with ortho-K len
 
 ##### Multifocal contact lenses
 
+![](/uploads/cl.jpg)
+
 Certain types of soft contact lenses have been used and developed to control myopia. Multifocal soft contact lenses are typically used by people over 40 to improve their near vision. These have a similar lens curve and pattern to ortho-K. As a result, when these soft contacts have been used by young patients, studies show an average of 38% decrease in axial length growth.<sup>10</sup>
 
 Specialised soft contact lenses called MiSight (Coopervision) show a 40% reduction in myopia progression.<sup>10,13</sup> If ortho-K lenses are not suitable, these soft contact lenses may be discussed by [your optometrist](https://innovativeeyecare.com.au/contact/) as an alternative option, and may be used in conjunction with atropine drops.
@@ -89,6 +93,8 @@ Regular spectacles, although make distance vision clear, offer no myopia control
 #### Other considerations
 
 Apart from active interventions, there is also sufficient evidence for the modification of lifestyle factors of time spent on near work and time spent outdoors. More time spent outdoors in natural light can delay the onset and perhaps reduce progression of myopia. There is also evidence that excessive near work increases the risk of myopia.<sup>3</sup>
+
+![](/uploads/outdoor.jpg)
 
 There is an excellent website by Richard Anderson ([myopiaprevention.org](http://www.myopiaprevention.org)) which explains in detail all aspects of myopia control with the relevant research included.
 
