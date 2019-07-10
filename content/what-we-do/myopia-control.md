@@ -64,7 +64,7 @@ To find out more, make an [appointment](https://innovativeeyecare.com.au/contact
 
 [Orthokeratology](/what-we-do/orthokeratology-corneal-reshaping) (or ortho-K) is a type of contact lens wear which has been practiced at Innovative Eye Care for many years. Ortho-K involves wearing a custom-designed contact lens overnight which reversibly and temporarily reshapes the cornea (front surface of the eye) while you sleep, providing clear vision the next day without the need for spectacles or contact lens wear during the day. 
 
-As well as being convenient, ortho-K actually slows and in some cases stops myopia progression.<sup>8,9</sup> Ortho-K has been proven to slow myopia progression by 32-100%, depending on the study.<sup>8,9</sup> Results in our practice and from other myopia control practices in Australasia show complete halting of myopia progression in some patients.
+As well as being convenient, ortho-K actually slows and in some cases stops myopia progression.<sup>8,9,10</sup> Ortho-K has been proven to slow myopia progression by 32-100%, depending on the study.<sup>8,9,10</sup> Results in our practice and from other myopia control practices in Australasia show complete halting of myopia progression in some patients.
 
 ##### Atropine drops
 
@@ -107,4 +107,4 @@ Axial eye length is the best metric of risk and progression for myopia. It has t
 7. Wong, T. Y., et al. (2014). "Epidemiology and disease burden of pathologic myopia and myopic choroidal neovascularisation: an evidence-based systematic review". Am J Ophthalmo. 157(1): 9-25.
 8. Na, M. Yoo, A. (2018). "The effect of orthokeratology on axial length elongation in children with myopia: Contralateral comparison study". Jpn J Ophthalmol. 62(3): 327-334. 
 9. Hiraoka, T. et al. (2012). "Long-term effect of overnight orthokeratology on axial length elongation in childhood myopia: a 5-year follow-up study". Invest Ophthalmol Vis Sci. 53(7): 3913-3919. 
-10. Gifford, K. et al. (2019). "IMI- Clinical Guidelines Report". InvestOphthalmolVis Sci. 60(3).
+10. Wildsoet, C. et al. (2019). "IMI- Interventions for Controlling Myopia Onset and Progression Report". InvestOphthalmolVis Sci. 60(3).
