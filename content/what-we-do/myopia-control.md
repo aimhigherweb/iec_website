@@ -19,7 +19,7 @@ Some groups of people are more likely to be affected than others, with both gene
 
 ![](/uploads/pasted-image-0-1.png)
 
-<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\\\\\\[if IE]><iframe frameborder="0" type="text/html" src="https://2689-2347.captiv8online.com/animations/embed/one/o-t-t-d?player_width=100%&player_height=100%&site_company_language=34&autostart=false" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\\\\\\[endif]--><!--\\\\\\[if !IE]> <--><object data="https://2689-2347.captiv8online.com/animations/embed/one/o-t-t-d?player_width=100%&player_height=100%&site_company_language=34&autostart=false" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"> alt : <a href="https://2689-2347.captiv8online.com/animations/embed/one/o-t-t-d?player_width=100%&player_height=100%&site_company_language=34&autostart=false">Myopia</a></object><!--> <!\\\\\\[endif]--></div>
+<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\\\\\\\[if IE]><iframe frameborder="0" type="text/html" src="https://2689-2347.captiv8online.com/animations/embed/one/o-t-t-d?player_width=100%&player_height=100%&site_company_language=34&autostart=false" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\\\\\\\[endif]--><!--\\\\\\\[if !IE]> <--><object data="https://2689-2347.captiv8online.com/animations/embed/one/o-t-t-d?player_width=100%&player_height=100%&site_company_language=34&autostart=false" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"> alt : <a href="https://2689-2347.captiv8online.com/animations/embed/one/o-t-t-d?player_width=100%&player_height=100%&site_company_language=34&autostart=false">Myopia</a></object><!--> <!\\\\\\\[endif]--></div>
 <br>
 
 #### How does myopia affect the eye?
@@ -41,8 +41,8 @@ Once the axial length exceeds 26.5mm, the risk of eye disease such as glaucoma a
 A study published in 2012<sup>1</sup> on the interactions of several factors on myopia found the following:
 
 <p style="margin-left: 40px">“Myopia in the so-called ‘physiological range’ represents a major risk factor for ocular disease that is comparable with the risks associated with hypertension for cardiovascular disease or with the risks of stroke from smoking more than 20 cigarettes per day. For retinal detachment and myopic maculopathy, myopia carries a risk far in excess of any identified population risk factor for cardiovascular disease.”</p>
-These conditions are far from rare: myopic maculopathy, a progressive condition causing breakdown of retinal cells, is the forth most common cause of visual impairment in the UK, ahead of diabetic eye disease.<sup>7</sup> 
-While the risks of eye disease later in life are present for any degree of myopia, the higher the amount of myopia, the higher the risk. The chance of a permanent vision loss in patients with axial length of more than 26mm is 25%, compared to 3.8% in eyes less than 26mm.<sup>2</sup>
+These conditions are far from rare: myopic maculopathy, a progressive condition causing irreversible damage to the retina, is the 4th most common cause of visual impairment in the UK, ahead of diabetic eye disease.<sup>7</sup> 
+While the risks of eye disease later in life are present for any degree of myopia, the higher the amount of myopia, the higher the risk. The risk of permanent vision loss in patients with axial length longer than 26mm is 25%, compared to 3.8% in eyes less than 26mm.<sup>2</sup>
 If we can stop the progression of myopia into these high levels then a significant amount of blindness can be prevented. 
 
 #### Case study: Alex Petty
@@ -62,11 +62,9 @@ To find out more, make an [appointment](https://innovativeeyecare.com.au/contact
 
 ##### Orthokeratology
 
-[Orthokeratology](/what-we-do/orthokeratology-corneal-reshaping) (or ortho-K) is a type of contact lens wear which has been practiced at Innovative Eye Care for many years. Ortho-K involves wearing a custom-designed contact lens overnight which reshapes the surface of the eye, providing clear vision the next day without the lenses. 
+[Orthokeratology](/what-we-do/orthokeratology-corneal-reshaping) (or ortho-K) is a type of contact lens wear which has been practiced at Innovative Eye Care for many years. Ortho-K involves wearing a custom-designed contact lens overnight which reshapes the front surface of the eye while you sleep, providing clear vision the next day without the need for spectacles or contact lens wear during the day. 
 
-As well as being convenient, ortho-K actually slows and in some cases stops myopia progression.<sup>8,9</sup> As the surface of the eye changes, so does the point at which light entering it is focused. Myopes focus light behind the retina, so when reshaped, the light focuses on the retina and the eye no longer attempts to elongate. 
-
-Ortho-K has been proven to slow myopia progression by 32-100%, depending on the study.<sup>8,9</sup> Most reports suggest an average of a 50% reduction in the rate of myopia progression with ortho-K contact lens wear. Results in our practice and from other myopia control practices in Australasia show complete halting of myopia progression in some patients.
+As well as being convenient, ortho-K actually slows and in some cases stops myopia progression.<sup>8,9</sup> Ortho-K has been proven to slow myopia progression by 32-100%, depending on the study.<sup>8,9</sup> Most reports suggest an average of a 50% reduction in the rate of myopia progression with ortho-K contact lens wear. Results in our practice and from other myopia control practices in Australasia show complete halting of myopia progression in some patients.
 
 ##### Atropine drops
 
@@ -108,4 +106,4 @@ Axial eye length is the best metric of risk and progression for myopia. It has t
 6. Flitcroft, D. I., et al. (2019). "IMI-Defining and Classifying Myopia: A Proposed Set of Standards for Clinical and Epidemiologic Studies."InvestOphthalmolVis Sci60(3)
 7. Wong, T. Y., et al. (2014). "Epidemiology and disease burden of pathologic myopia and myopic choroidal neovascularisation: an evidence-based systematic review". Am J Ophthalmo. 157(1): 9-25.
 8. Na, M. Yoo, A. (2018). "The effect of orthokeratology on axial length elongation in children with myopia: Contralateral comparison study". Jpn J Ophthalmol. 62(3): 327-334. 
-9. Hiraoka, T. et al. (2012). "Long-term effect of overnight orthokeratology on axial length elongation in childhood myopia: a 5-year follow-up study". Invest Ophthalmol Vis Sci. 53(7): 3913-3919. 
+9. Hiraoka, T. et al. (2012). "Long-term effect of overnight orthokeratology on axial length elongation in childhood myopia: a 5-year follow-up study". Invest Ophthalmol Vis Sci. 53(7): 3913-3919.
