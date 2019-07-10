@@ -70,9 +70,7 @@ As well as being convenient, ortho-K actually slows and in some cases stops myop
 
 Atropine is a prescription eye drop that has been used for many years to control myopia. It is thought to interact with receptors in the eye that control growth in order to slow myopia progression.<sup>10,11</sup> There are different concentrations of atropine available, and evidence has shown that the effect on myopia control is a dose dependent relationship. Meaning, the higher the concentration, the greater the effect on slowing down axial length growth.<sup>10,11,12</sup>
 
-For young patients that show aggressive myopia progression we recommend 1% atropine. When using this concentration, the pupil is temporarily and reversibly dilated (opened) which can cause glare symptoms. For this reason, we recommend these drops used in conjunction with tinted spectacle lenses. 
-
-Studies over the last decade have found that much lower concentrations of atropine have a comparable reduction in myopia progression, with less effect on pupil size. The ATOM studies found a 75% reduction for 1%, 0.5% and 0.1% concentrations.<sup>12</sup>  
+For young patients that show aggressive myopia progression we recommend 1% atropine. When using this concentration, the pupil is temporarily and reversibly dilated (opened) which can cause glare symptoms. For this reason, we recommend these drops used in conjunction with tinted spectacle lenses. Studies over the last decade have found that much lower concentrations of atropine have a comparable reduction in myopia progression, with less effect on pupil size. The ATOM studies found a 75% reduction for 1%, 0.5% and 0.1% concentrations.<sup>12</sup>  
 
 Atropine drops need to be taken every night and can be combined with ortho-K lenses to maximise the myopia control effect. Visual and general side-effects are highly unlikely at 0.02%, however can increase at higher concentrations. Atropine drops will need to be specially formulated at a compounding pharmacy as they are not readily available at concentrations below 0.5%. 
 
