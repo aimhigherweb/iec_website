@@ -84,17 +84,16 @@ Specialised soft contact lenses called MiSight (Coopervision) show a 40% reducti
 
 ##### Spectacle lens options
 
-As mentioned previously, regular spectacles offer no myopia control benefit. In some individuals that are myopic and progressing and that show a near esophoria (tendency of the eyes to turn in more than required when reading) or an accommodative lag (eyes do not focus close enough when reading) then progressive addition spectacles lenses may offer some myopia control benefit. The near conditions mentioned above are tested by your optometrist during their appointments. Studies are varied but suggest a reduction of myopia progression in the range of 12-55% with these lenses.
+Regular spectacles, although make distance vision clear, offer no myopia control benefit. In myopic individuals that have an accommodative lag (decreased ability to focus up close), progressive additional spectacle lenses can reduce myopia progression by up to 30%.<sup>14</sup> The accommodative (focusing) system is tested by your optometrist during your [appointment](https://innovativeeyecare.com.au/contact/) to find the best option for you. 
 
-Myovision spectacle lenses are specially designed for controlling myopia but studies suggest they only slow progression by 0-30%. As a result they are infrequently used.
 
 #### Other considerations
 
-Apart from active interventions, there is also sufficient evidence for the modification of lifestyle factors of time spent on near work and time spent outdoors. Less near work, or more regular breaks plus more time outdoors in natural light are protective against eye length growth.
+Apart from active interventions, there is also sufficient evidence for the modification of lifestyle factors of time spent on near work and time spent outdoors. More time spent outdoors in natural light can delay the onset and perhaps reduce progression of myopia. There is also evidence that excessive near work increases the risk of myopia.<sup>3</sup>
 
 There is an excellent website by Richard Anderson ([myopiaprevention.org](http://www.myopiaprevention.org)) which explains in detail all aspects of myopia control with the relevant research included.
 
-Axial eye length is the best metric of risk and progression for myopia. It has the with the least variability and directly relates to the disease processes that myopia can create. If you are concerned about your child’s eyes becoming progressively short-sighted, please contact our friendly team to arrange a consultation with one of our optometrists to discuss their myopia and what may be done to arrest this progression.
+Axial eye length is the best metric of risk and progression for myopia. It has the least variability and directly relates to the disease processes that myopia can create. If you are concerned about your child’s eyes becoming progressively short-sighted, please [contact our friendly team](https://innovativeeyecare.com.au/contact/) to arrange a consultation with one of our optometrists.
 
 ##### References
 
@@ -111,3 +110,4 @@ Axial eye length is the best metric of risk and progression for myopia. It has t
 11. Gifford, K. et al. (2019). "IMI - Clinical Management Guidelines Report". InvestOphthalVis Sci. 60(3)
 12. Chua, W. et al. (2006). "Atropine for the treatment of childhood myopia." Ophthalmology. 113(12): 2285-91.
 13. Ruiz-Pomeda, A. et al. (2018). "MiSight Assessment Study Spain (MASS). A 2 year randomised clinical trial". Graefes Arch Clin Exp Ophthalmol. 256:1011-1021. 
+14. Cheng, D. et al. (2014). "Effect of bifocal and prismatic bifocal spectacles on myopia progression in children: three-year results of a randomised clinical trial" JAMA Ophthalmol. 132:258-293. 
