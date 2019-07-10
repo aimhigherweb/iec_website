@@ -19,7 +19,7 @@ Some groups of people are more likely to be affected than others, with both gene
 
 ![](/uploads/pasted-image-0-1.png)
 
-<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\\\\\\\\[if IE]><iframe frameborder="0" type="text/html" src="https://2689-2347.captiv8online.com/animations/embed/one/o-t-t-d?player_width=100%&player_height=100%&site_company_language=34&autostart=false" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\\\\\\\\[endif]--><!--\\\\\\\\[if !IE]> <--><object data="https://2689-2347.captiv8online.com/animations/embed/one/o-t-t-d?player_width=100%&player_height=100%&site_company_language=34&autostart=false" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"> alt : <a href="https://2689-2347.captiv8online.com/animations/embed/one/o-t-t-d?player_width=100%&player_height=100%&site_company_language=34&autostart=false">Myopia</a></object><!--> <!\\\\\\\\[endif]--></div>
+<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\\\\\\\\\[if IE]><iframe frameborder="0" type="text/html" src="https://2689-2347.captiv8online.com/animations/embed/one/o-t-t-d?player_width=100%&player_height=100%&site_company_language=34&autostart=false" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\\\\\\\\\[endif]--><!--\\\\\\\\\[if !IE]> <--><object data="https://2689-2347.captiv8online.com/animations/embed/one/o-t-t-d?player_width=100%&player_height=100%&site_company_language=34&autostart=false" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"> alt : <a href="https://2689-2347.captiv8online.com/animations/embed/one/o-t-t-d?player_width=100%&player_height=100%&site_company_language=34&autostart=false">Myopia</a></object><!--> <!\\\\\\\\\[endif]--></div>
 <br>
 
 #### How does myopia affect the eye?
@@ -74,10 +74,7 @@ Atropine is a prescription eye drop that has been used for many years to control
 
 For young patients that show aggressive myopia progression we recommend 1% atropine. When using this concentration, the pupil is temporarily and reversibly dilated (opened) which can cause glare symptoms. For this reason, we recommend these drops used in conjunction with tinted spectacle lenses. Studies over the last decade have found that much lower concentrations of atropine have a comparable reduction in myopia progression, with less effect on pupil size. The ATOM studies found a 75% reduction for 1%, 0.5% and 0.1% concentrations.<sup>12</sup>  
 
-Atropine drops need to be taken every night and can be combined with ortho-K lenses to maximise the myopia control effect. Visual and general side-effects are highly unlikely at 0.02%, however can increase at higher concentrations. Atropine drops will need to be specially formulated at a compounding pharmacy as they are not readily available at concentrations below 0.5%. 
-
-To find out more about atropine and the different options suitable for you or your child, [make an appointment](https://innovativeeyecare.com.au/contact/) at our Adelaide or Woodville practice.
-
+Atropine drops need to be taken every night and can be combined with ortho-K lenses to maximise the myopia control effect. Visual and general side-effects are highly unlikely at 0.02%, however can increase at higher concentrations. Atropine drops will need to be specially formulated at a compounding pharmacy as they are not readily available at concentrations below 0.5%. To find out more about atropine and the different options suitable for you or your child, [make an appointment](https://innovativeeyecare.com.au/contact/) at our Adelaide or Woodville practice.
 
 ##### Multifocal contact lenses
 
