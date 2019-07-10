@@ -19,7 +19,7 @@ Some groups of people are more likely to be affected than others, with both gene
 
 ![](/uploads/pasted-image-0-1.png)
 
-<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\\\\\\\[if IE]><iframe frameborder="0" type="text/html" src="https://2689-2347.captiv8online.com/animations/embed/one/o-t-t-d?player_width=100%&player_height=100%&site_company_language=34&autostart=false" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\\\\\\\[endif]--><!--\\\\\\\[if !IE]> <--><object data="https://2689-2347.captiv8online.com/animations/embed/one/o-t-t-d?player_width=100%&player_height=100%&site_company_language=34&autostart=false" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"> alt : <a href="https://2689-2347.captiv8online.com/animations/embed/one/o-t-t-d?player_width=100%&player_height=100%&site_company_language=34&autostart=false">Myopia</a></object><!--> <!\\\\\\\[endif]--></div>
+<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\\\\\\\\[if IE]><iframe frameborder="0" type="text/html" src="https://2689-2347.captiv8online.com/animations/embed/one/o-t-t-d?player_width=100%&player_height=100%&site_company_language=34&autostart=false" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\\\\\\\\[endif]--><!--\\\\\\\\[if !IE]> <--><object data="https://2689-2347.captiv8online.com/animations/embed/one/o-t-t-d?player_width=100%&player_height=100%&site_company_language=34&autostart=false" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"> alt : <a href="https://2689-2347.captiv8online.com/animations/embed/one/o-t-t-d?player_width=100%&player_height=100%&site_company_language=34&autostart=false">Myopia</a></object><!--> <!\\\\\\\\[endif]--></div>
 <br>
 
 #### How does myopia affect the eye?
@@ -68,6 +68,8 @@ As well as being convenient, ortho-K actually slows and in some cases stops myop
 
 ##### Atropine drops
 
+![](/uploads/atropine.jpg)
+
 Atropine is a prescription eye drop that has been used for many years to control myopia. It is thought to interact with receptors in the eye that control growth in order to slow myopia progression.<sup>10,11</sup> There are different concentrations of atropine available, and evidence has shown that the effect on myopia control is a dose dependent relationship. Meaning, the higher the concentration, the greater the effect on slowing down axial length growth.<sup>10,11,12</sup>
 
 For young patients that show aggressive myopia progression we recommend 1% atropine. When using this concentration, the pupil is temporarily and reversibly dilated (opened) which can cause glare symptoms. For this reason, we recommend these drops used in conjunction with tinted spectacle lenses. Studies over the last decade have found that much lower concentrations of atropine have a comparable reduction in myopia progression, with less effect on pupil size. The ATOM studies found a 75% reduction for 1%, 0.5% and 0.1% concentrations.<sup>12</sup>  
@@ -75,6 +77,7 @@ For young patients that show aggressive myopia progression we recommend 1% atrop
 Atropine drops need to be taken every night and can be combined with ortho-K lenses to maximise the myopia control effect. Visual and general side-effects are highly unlikely at 0.02%, however can increase at higher concentrations. Atropine drops will need to be specially formulated at a compounding pharmacy as they are not readily available at concentrations below 0.5%. 
 
 To find out more about atropine and the different options suitable for you or your child, [make an appointment](https://innovativeeyecare.com.au/contact/) at our Adelaide or Woodville practice.
+
 
 ##### Multifocal contact lenses
 
@@ -86,7 +89,6 @@ Specialised soft contact lenses called MiSight (Coopervision) show a 40% reducti
 
 Regular spectacles, although make distance vision clear, offer no myopia control benefit. In myopic individuals that have an accommodative lag (decreased ability to focus up close), progressive additional spectacle lenses can reduce myopia progression by up to 30%.<sup>14</sup> The accommodative (focusing) system is tested by your optometrist during your [appointment](https://innovativeeyecare.com.au/contact/) to find the best option for you. 
 
-
 #### Other considerations
 
 Apart from active interventions, there is also sufficient evidence for the modification of lifestyle factors of time spent on near work and time spent outdoors. More time spent outdoors in natural light can delay the onset and perhaps reduce progression of myopia. There is also evidence that excessive near work increases the risk of myopia.<sup>3</sup>
@@ -94,7 +96,6 @@ Apart from active interventions, there is also sufficient evidence for the modif
 There is an excellent website by Richard Anderson ([myopiaprevention.org](http://www.myopiaprevention.org)) which explains in detail all aspects of myopia control with the relevant research included.
 
 Axial eye length is the best metric of risk and progression for myopia. It has the least variability and directly relates to the disease processes that myopia can create. If you are concerned about your child’s eyes becoming progressively short-sighted, please [contact our friendly team](https://innovativeeyecare.com.au/contact/) to arrange a consultation with one of our optometrists.
-
 
 #### References
 
@@ -111,4 +112,4 @@ Axial eye length is the best metric of risk and progression for myopia. It has t
 11. Gifford, K. et al. (2019). "IMI - Clinical Management Guidelines Report". InvestOphthalVis Sci. 60(3)
 12. Chua, W. et al. (2006). "Atropine for the treatment of childhood myopia." Ophthalmology. 113(12): 2285-91.
 13. Ruiz-Pomeda, A. et al. (2018). "MiSight Assessment Study Spain (MASS). A 2 year randomised clinical trial". Graefes Arch Clin Exp Ophthalmol. 256:1011-1021. 
-14. Cheng, D. et al. (2014). "Effect of bifocal and prismatic bifocal spectacles on myopia progression in children: three-year results of a randomised clinical trial" JAMA Ophthalmol. 132:258-293. 
+14. Cheng, D. et al. (2014). "Effect of bifocal and prismatic bifocal spectacles on myopia progression in children: three-year results of a randomised clinical trial" JAMA Ophthalmol. 132:258-293.
