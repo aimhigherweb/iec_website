@@ -68,13 +68,15 @@ As well as being convenient, ortho-K actually slows and in some cases stops myop
 
 ##### Atropine drops
 
-Atropine drops have been used for many years to control myopia; however, until recently they have been prescribed at a normal concentration of 0.5% - 1%. Atropine at this concentration causes loss of focusing in young children for near tasks and dilates the pupil leading to light sensitivity. For young patients that show aggressive myopia progression we will still recommend 1% atropine in order to best control their myopia progression. These drops are used in conjunction with tinted transitions progressive lenses to give protection from bright light and the ability to see for reading tasks.
+Atropine is a prescription eye drop that has been used for many years to control myopia. It is thought to interact with receptors in the eye that control growth in order to slow myopia progression.<sup>10,11</sup> There are different concentrations of atropine available, and evidence has shown that the effect on myopia control is a dose dependent relationship. Meaning, the higher the concentration, the greater the effect on slowing down axial length growth.<sup>10,11,12</sup>
 
-Studies over the last decade have found that much lower concentrations of atropine, such as 0.02%, have a comparable reduction in myopia progression, without any noticeable effect on pupil size or near-focusing. For example the ATOM2 study showed the myopia control effect of 75% reduction for the 1%, 0.5% and 0.1% concentrations and 65% reduction with 0.01%. Studies have told us that 0.02% is the highest concentration of atropine that shows no significant change to near focusing or pupil size in children, and has no reported allergic side effects.
+For young patients that show aggressive myopia progression we recommend 1% atropine. When using this concentration, the pupil is temporarily and reversibly dilated (opened) which can cause glare symptoms. For this reason, we recommend these drops used in conjunction with tinted spectacle lenses. 
 
-It was initially thought that as atropine drops paralyse the focusing muscles of the eye, this was the reason for the myopia control. Our understanding now suggests that the atropine molecule affects a receptor in the choroid or sclera of the eye (the vascular and structural layers of the eyeball), signalling to the eye not to continue to elongate. This mechanism is still being studied. 
+Studies over the last decade have found that much lower concentrations of atropine have a comparable reduction in myopia progression, with less effect on pupil size. The ATOM studies found a 75% reduction for 1%, 0.5% and 0.1% concentrations.<sup>12</sup>  
 
-Atropine drops need to be instilled nightly and can be combined with ortho-K therapy to maximise the myopia control effect. Visual and general side-effects are highly unlikely at 0.02%. Atropine drops will need to be specially formulated at a compounding pharmacy as they are not readily available at concentrations below 0.5%. 
+Atropine drops need to be taken every night and can be combined with ortho-K lenses to maximise the myopia control effect. Visual and general side-effects are highly unlikely at 0.02%, however can increase at higher concentrations. Atropine drops will need to be specially formulated at a compounding pharmacy as they are not readily available at concentrations below 0.5%. 
+
+To find out more about atropine and the different options suitable for you or your child, [make an appointment](https://innovativeeyecare.com.au/contact/) at our Adelaide or Woodville practice.
 
 ##### Multifocal contact lenses
 
@@ -107,4 +109,6 @@ Axial eye length is the best metric of risk and progression for myopia. It has t
 7. Wong, T. Y., et al. (2014). "Epidemiology and disease burden of pathologic myopia and myopic choroidal neovascularisation: an evidence-based systematic review". Am J Ophthalmo. 157(1): 9-25.
 8. Na, M. Yoo, A. (2018). "The effect of orthokeratology on axial length elongation in children with myopia: Contralateral comparison study". Jpn J Ophthalmol. 62(3): 327-334. 
 9. Hiraoka, T. et al. (2012). "Long-term effect of overnight orthokeratology on axial length elongation in childhood myopia: a 5-year follow-up study". Invest Ophthalmol Vis Sci. 53(7): 3913-3919. 
-10. Wildsoet, C. et al. (2019). "IMI- Interventions for Controlling Myopia Onset and Progression Report". InvestOphthalmolVis Sci. 60(3).
+10. Wildsoet, C. et al. (2019). "IMI- Interventions for Controlling Myopia Onset and Progression Report". InvestOphthalmolVis Sci. 60(3). 
+11. Gifford, K. et al. (2019). "IMI - Clinical Management Guidelines Report". InvestOphthalVis Sci. 60(3)
+12. Chua, W. et al. (2006). "Atropine for the treatment of childhood myopia." Ophthalmology. 113(12): 2285-91.
