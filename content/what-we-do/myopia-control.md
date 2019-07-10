@@ -78,9 +78,9 @@ To find out more about atropine and the different options suitable for you or yo
 
 ##### Multifocal contact lenses
 
-Certain types of soft contact lenses have been used and developed to control myopia. Multifocal soft contact lenses are typically used by people over 40 to improve their near vision. These have a similar peripheral area of steepening on the lens like ortho-K, although at a lower level (maximum +3.00 D, whereas the ortho-K example above shows a +8.00 D difference). As a result, when these soft contacts have been used by young patients, studies have only reported a modest range decreased progression of 29-45%.
+Certain types of soft contact lenses have been used and developed to control myopia. Multifocal soft contact lenses are typically used by people over 40 to improve their near vision. These have a similar lens curve and pattern to ortho-K. As a result, when these soft contacts have been used by young patients, studies show an average of 38% decrease in axial length growth.<sup>10</sup>
 
-Specialised soft contact lenses called MiSight (Coopervision) show a 40% reduction in myopia progression. Similarly, a recent case study of VTI brand NaturalVue soft lenses showed that 91% of participants showed an over 70% decrease in myopia progression. If ortho-K lenses are not suitable, these soft contact lenses may be discussed by your optometrist as an alternative option, and may be used in conjunction with atropine drops.
+Specialised soft contact lenses called MiSight (Coopervision) show a 40% reduction in myopia progression.<sup>10,13</sup> If ortho-K lenses are not suitable, these soft contact lenses may be discussed by [your optometrist](https://innovativeeyecare.com.au/contact/) as an alternative option, and may be used in conjunction with atropine drops.
 
 ##### Spectacle lens options
 
@@ -110,3 +110,4 @@ Axial eye length is the best metric of risk and progression for myopia. It has t
 10. Wildsoet, C. et al. (2019). "IMI- Interventions for Controlling Myopia Onset and Progression Report". InvestOphthalmolVis Sci. 60(3). 
 11. Gifford, K. et al. (2019). "IMI - Clinical Management Guidelines Report". InvestOphthalVis Sci. 60(3)
 12. Chua, W. et al. (2006). "Atropine for the treatment of childhood myopia." Ophthalmology. 113(12): 2285-91.
+13. Ruiz-Pomeda, A. et al. (2018). "MiSight Assessment Study Spain (MASS). A 2 year randomised clinical trial". Graefes Arch Clin Exp Ophthalmol. 256:1011-1021. 
