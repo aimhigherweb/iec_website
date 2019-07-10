@@ -95,7 +95,7 @@ There is an excellent website by Richard Anderson ([myopiaprevention.org](http:/
 
 Axial eye length is the best metric of risk and progression for myopia. It has the least variability and directly relates to the disease processes that myopia can create. If you are concerned about your child’s eyes becoming progressively short-sighted, please [contact our friendly team](https://innovativeeyecare.com.au/contact/) to arrange a consultation with one of our optometrists.
 
-##### References
+#### References
 
 1. Flitcroft, D. I. (2012). "The complex interactions of retinal, optical and environmental factors in myopiaaetiology."Progress in Retinal and Eye Research31(6): 622-660. 
 2. Willem, J. et al. (2016) ‘Association of Axial Length with Risk of Uncorrectable Visual Impairment for Europeans with Myopia’. JAMA Ophthalmol. 134(12): 1355-1363. 
