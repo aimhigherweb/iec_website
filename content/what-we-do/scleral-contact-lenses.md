@@ -21,7 +21,7 @@ Scleral lenses are complex and difficult to design and manufacture. Innovative E
 
 ![](/uploads/scleral-5.jpg)
 
-#####References 
+##### References 
 
 1. Harthan, J. et al. (2018). "Therapeutic uses of scleral contact lenses for ocular surface disease: patient selection and special considerations". Clin Optom (Auckl). 10: 65-74. 
 2. Koppen, C. et al. (2018). "Scleral lens reduce the need for corneal transplants in severe keratoconus". Am J Ophthalmol. 185: 43-47. 
