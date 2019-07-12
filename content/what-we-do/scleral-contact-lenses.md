@@ -11,7 +11,7 @@ preview-image: scleral.jpg
 
 <br>
 
-Sclerals are a typically larger type of [RGP lens](/what-we-do/gas-permeable-contact-lenses). It provides more contact with the sclera (white part of the eye) where there is less sensation. The large diameter means that the lids do not move across the edges of the lenses as much, which makes scleral lenses surprisingly comfortable to wear. Unlike smaller diameter RGPs, scleral lenses are not designed to touch the central cornea. This makes them even more comfortable, as the cornea is the most sensitive part of the eye. For more information on the care and handling of scleral lenses visit our information page [here](/patient-resources/care-of-scleral-lenses).
+Sclerals are a larger type of [RGP lens](/what-we-do/gas-permeable-contact-lenses). It provides more contact with the sclera (white part of the eye) where there is less sensation. The large diameter means that the eyelids do not move across the edges of the lenses as much, which makes scleral lenses surprisingly comfortable to wear while providing more stable vision. Unlike smaller diameter RGPs, scleral lenses are not designed to touch the central cornea. This makes them even more comfortable, as the cornea is the most sensitive part of the eye. For more information on the care and handling of scleral lenses visit our information page [here](/patient-resources/care-of-scleral-lenses).
 
 ![](/uploads/scleral-oct-background.jpg)
 
