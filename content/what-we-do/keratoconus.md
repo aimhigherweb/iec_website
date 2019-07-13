@@ -26,15 +26,13 @@ Keratoconus is a multifactorial disease, hence the onset and progression can var
 
 ##### Slit lamp biomicroscopy
 
-Our optometrists can assess the corneal (front surface of the eye) shape and thickness through microscopy. The below image shows a keratoconic cornea. Note the forward protrusion of the cornea, with notable thinning just below the centre. 
-
-As well as changes in corneal shape and thickness, there are a number of other findings visible under microscopy. These include the presence of prominent corneal nerves, Fleischer's iron ring and Vogt’s striae (corneal stress lines).<sup>10</sup>
+Our optometrists can assess the corneal (front surface of the eye) shape and thickness through microscopy. The below image shows a keratoconic cornea. Note the forward protrusion of the cornea, with notable thinning just below the centre. As well as changes in corneal shape and thickness, there are a number of other findings visible under microscopy. These include the presence of prominent corneal nerves, Fleischer's iron ring and Vogt’s striae (corneal stress lines).<sup>10</sup>
 
 ![](/uploads/normal-and-kcs-cornea-cross-section.jpg)
 
 ##### Corneal topographical mapping
 
-Corneal topography is a non-invasive way to measure the contours and shape of the cornea. It is the 'gold standard' in diagnosing and assessing keratoconus.<sup>11</sup> Topographers work by shining concentric rings of light on the cornea and assessing what is reflected back. If the cornea is even and regular, the rings are reflected back evenly as well.
+[Corneal topography](https://innovativeeyecare.com.au/what-we-do/corneal-topography/) is a non-invasive way to measure the contours and shape of the cornea. It is the 'gold standard' in diagnosing and assessing keratoconus.<sup>11</sup> Topographers work by shining concentric rings of light on the cornea and assessing what is reflected back. If the cornea is even and regular, the rings are reflected back evenly.
 
 ![](/uploads/normal-topos-mires.jpg)
 
@@ -42,11 +40,11 @@ The above images are the topographical results of a relatively normal cornea. No
 
 ![](/uploads/keratoconus-topos-and-mires.jpg)
 
-In contrast, these images are results from a topography taken of a significantly keratoconic eye. Note the distorted and compressed rings on the image on the left. The coloured contour maps of the same eye show a much darker red area over the centre of the eye, conveying the protrusion or ‘cone’ of the cornea. This is significant to vision quality as the distorted surface is within the pupil zone (the black circle).
+In contrast, these images are results from a topography taken of a significantly keratoconic eye. Note the distorted and compressed rings on the image on the left. The coloured contour maps of the same eye show a much darker red area over the centre of the eye, conveying the protrusion or ‘cone’ of the cornea. This has a significant impact on vision quality as the distorted surface is within the pupil zone (the black circle).
 
 ##### Optical coherence tomography (OCT)
 
-The OCT is an invaluable tool that allows practitioners to assess different layers of the eye as high-definition cross-sectional scans. This device was initially used to diagnose and manage macular degeneration and glaucoma at the back of the eye. More recent advancements in technology have enabled us to utilise the precision of these scans for assessment of the front portion of the eye: the cornea.
+The OCT is an invaluable tool that allows practitioners to assess different layers of the eye as high-definition cross-sectional scans. This device was initially used to diagnose and manage macular degeneration and glaucoma at the back of the eye. More recent advancements in technology have enabled us to also utilise the precision of these scans for assessment of the front portion of the eye.
 
 Due to the highly detailed images taken with an OCT, the different layers of the cornea are visible, as well as their configuration as the cornea protrudes forward (as shown above). As keratoconic eyes exhibit an overall thinning of the cornea at and around the cone, these layers are able to be measured and quantified to better monitor disease progression.
 
