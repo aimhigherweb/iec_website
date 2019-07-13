@@ -26,13 +26,11 @@ Keratoconus is a multifactorial disease, hence the onset and progression can var
 
 ##### Slit lamp biomicroscopy
 
-Our optometrists can assess the corneal (front) surface shape and thickness through microscopy. 
+Our optometrists can assess the corneal (front surface of the eye) shape and thickness through microscopy. The below image shows a keratoconic cornea. Note the forward protrusion of the cornea, with notable thinning just below the centre. 
+
+As well as changes in corneal shape and thickness, there are a number of other findings visible under microscopy. These include the presence of prominent corneal nerves, Fleischer's iron ring and Vogt’s striae (corneal stress lines).<sup>10</sup>
 
 ![](/uploads/normal-and-kcs-cornea-cross-section.jpg)
-
-The above images show a normal, regular cornea on the left and a keratoconic cornea on the right. Note the forward protrusion of the cornea in the keratoconic eye, with a notable thinning of the cornea compared to the normal eye.
-
-As well as corneal shape and thickness, there are a number of other findings visible under microscopy. These include the presence of prominent corneal nerves, Fleischer's iron ring and Vogt’s striae (corneal stress lines).<sup>10</sup>
 
 ##### Corneal topographical mapping
 
