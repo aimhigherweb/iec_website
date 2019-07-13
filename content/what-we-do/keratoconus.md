@@ -16,7 +16,11 @@ preview-image: keratoconus.jpg
 
 #### How common is keratoconus?
 
-The older, most frequently cited conjectured prevalence of keratoconus was estimated at around 0.05% around the general population.<sup>3</sup> However, more recently this has been challenged with incidence as high as 0.26% in some populations.<sup>4</sup> In Australia, keratoconus affects about 1 in 2000 people. It generally presents during pre-teenage years and progresses through to your forties, although the age at which it worsens varies from person to person.<sup>5</sup> It is common for each eye to have a differing degree of severity.<sup>6</sup> Family history is considered a factor, and according to one study the probability of being diagnosed with keratoconus if an immediate family member has the disease is 14%.<sup>7</sup> Most studies indicate that no gender is more predisposed to the condition, but it is more prominent among patients with a personal history of allergy or eye rubbing. Often your optometrist will recommend certain anti-allergy eye drops to decrease symptoms of itchiness which cause keratoconics to rub their eyes and worsen their condition.<sup>8</sup>
+Previously, the prevalence of keratoconus was estimated to be 0.05%<sup>3</sup>, however recent evidence cites the incidence to be as high as 0.26% in some populations.<sup>4</sup> In Australia, keratoconus affects approximately 1 in 2000 people. 
+
+Keratoconus generally presents during teenage years and progresses through to your forties, although the age at which it worsens varies from person to person.<sup>5</sup> It is common for each eye to have a differing degree of severity.<sup>6</sup> 
+
+Family history is considered a risk factor, and according to one study the probability of being diagnosed with keratoconus if an immediate family member has the disease is 14%.<sup>7</sup> Most studies indicate that no gender is more predisposed to the condition, but it is more prominent among patients with a personal history of allergy or eye rubbing. Often your optometrist will recommend certain anti-allergy eye drops to decrease symptoms of itchiness which cause keratoconics to rub their eyes and worsen their condition.<sup>8</sup>
 
 #### How is keratoconus diagnosed?
 
