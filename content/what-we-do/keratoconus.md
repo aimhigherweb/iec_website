@@ -24,7 +24,7 @@ Family history is considered a risk factor, and according to one study the proba
 
 #### How is keratoconus diagnosed?
 
-Unfortunately, being a multifactorial disease, onset and progression is extremely variable between different people, and even between different eyes of the same person. Keratoconus is very unpredictable and can progress rapidly over a short period of time, before stabilising for months or years, then progressing again.<sup>9</sup>
+Keratoconus is a multifactorial disease, hence the onset and progression can vary significantly between different people, and even between different eyes of the same person. Keratoconus is very unpredictable and can progress rapidly over a short period of time, before stabilising for months or years, then progressing again.<sup>9</sup> For this reason, regular [eye tests](https://innovativeeyecare.com.au/what-we-do/eye-exam/) are recommended. 
 
 ##### Slit lamp biomicroscopy
 
