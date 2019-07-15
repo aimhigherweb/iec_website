@@ -31,17 +31,17 @@ Consultation fees will now be standardised, rather than varying in line with the
   </tr>
   <tr>
     <td class="tg-fdbh">Full Consultation</td>
-    <td class="tg-fdbh">$80 per adult<br>$68 per child</td>
-    <td class="tg-fdbh">$28.45 - $56.80 (depending on<br>eligibility)</td>
+    <td class="tg-fdbh">$80
+    <td class="tg-fdbh">$28.90 - $57.70 (depending on<br>eligibility)</td>
   </tr>
   <tr>
     <td class="tg-fdbh">Short Consultation</td>
-    <td class="tg-fdbh">$40 per adult<br>$34 per child</td>
-    <td class="tg-fdbh">$28.45 (depending on<br>eligibility)</td>
+    <td class="tg-fdbh">$40
+    <td class="tg-fdbh">$28.90 (depending on<br>eligibility)</td>
   </tr>
   <tr>
     <td class="tg-fdbh">Diagnostic Imaging</td>
-    <td class="tg-fdbh">$70 per adult<br>$35 per child</td>
+    <td class="tg-fdbh">$80 per adult<br>$40 per child</td>
     <td class="tg-fdbh">Not eligible for rebate</td>
   </tr>
 </table>
