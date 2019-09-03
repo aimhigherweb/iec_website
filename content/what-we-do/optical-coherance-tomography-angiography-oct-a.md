@@ -3,14 +3,14 @@ title: 'Optical Coherance Tomography Angiography (OCT-A) '
 category: advanced-imaging-technology
 ---
 <div class="employee-heading">
-<p>Optical coherence tomography angiography (OCT-A) is a non-invasive scan that creates a three-dimensional image of the ocular vasculature by tracking individual blood cells in the eye. 
-<p>OCT-A gives insight into microvascular changes before they even occur, making it particularly useful for early diagnosis and monitoring of retinal eye diseases, including <a href="/what-we-do/glaucoma/">glaucoma</a>, <a href="/what-we-do-macular-degeneration/">macular degeneration</a>, choroidal neovascularization, <a href="/what-we-do/diabetes-and-the-eye/">diabetes</a>, vein occlusions and optic neuropathies.<sup>1,2,3</sup> 
+<p>Optical coherence tomography angiography (OCT-A) is a non-invasive scan that creates a three-dimensional image of the network of blood vessels in your eye by tracking individual blood cells.
+<p>OCT-A gives insight into small changes to the blood vessel network before they develop, making it particularly useful for early diagnosis and monitoring of retinal eye diseases, including <a href="/what-we-do/glaucoma/">glaucoma</a>, <a href="/what-we-do-macular-degeneration/">macular degeneration</a>, choroidal neovascularization, <a href="/what-we-do/diabetes-and-the-eye/">diabetes</a>, vein occlusions and optic neuropathies.<sup>1,2,3</sup> 
   
 <p>The optometrists at <a href="/contact/">Innovative Eye Care</a> use the top of the range Heidelberg Spectralis OCT-A to obtain high-quality, precision images at high speeds. 
 
 #### How does OCT-A work?
 
-Conventional OCT scans analyze the intensity pattern of reflected light from the retina in order to assess the anatomical structure. When multiple OCT scans are taken of the same location, changes in the reflection pattern over time can be analyzed to produce the OCT-A scan. When considering the principle, that the only moving object within the retina are the individual blood cells within the vasculature, this scan then allows analysis of the flow within the retinal and choroidal blood vessels. 
+Conventional OCT scans assess the eye's structural integrity by analyzing light that is reflected from the back of the eye (the retina). When multiple OCT scans are taken of the same location, changes in the reflection pattern over time can be used to produce another specialised scan – the OCT-A scan. Because the only thing that's changing and moving as the scan is being taken are the blood cells, the OCT-A scan can track and assess the flow of blood.
 
 #### OCT-A of a healthy eye
 
@@ -18,9 +18,9 @@ Conventional OCT scans analyze the intensity pattern of reflected light from the
 
 #### OCT-A in Glaucoma
 
-Glaucoma is a progressive eye disease that causes gradual optic nerve damage over time. In the early stages, no vision loss is noticed by the patient. Due to the insidious nature of glaucoma, it is difficult to detect and diagnose in the very early stages with conventional imaging.
+Glaucoma is a progressive eye disease that causes gradual optic nerve damage over time. In the early stages, people with glaucoma don't notice any vision loss. Due to the insidious nature of glaucoma, it can be difficult to detect and diagnose in the very early stages with conventional imaging.
 
-Recent evidence has shown there is a strong link between the ocular vasculature and glaucoma.<sup>2,3</sup> The vascular perfusion and blood flow density within superficial retinal vessels has been found to be significantly decreased in glaucomatous eyes, when compared to healthy eyes.<sup>4</sup> This difference is noted prior to any vision loss occurs and may be used to differentiate between healthy eyes and those with pre-perimetric glaucoma (i.e. structural glaucomatous changes have occurred without causing a measurable visual defect).<sup>5</sup>  
+Recent evidence has shown there is a strong link between the eye's blood vessel network and glaucoma.<sup>2,3</sup> The flow of blood and the amount of blood itself in surface-level  vascular perfusion and blood flow density within superficial retinal vessels has been found to be significantly decreased in glaucomatous eyes, when compared to healthy eyes.<sup>4</sup> This difference is noted prior to any vision loss occurs and may be used to differentiate between healthy eyes and those with pre-perimetric glaucoma (i.e. structural glaucomatous changes have occurred without causing a measurable visual defect).<sup>5</sup>  
 
 By analyzing the blood vessels with the high definition OCT-A scans in combination with conventional OCT, we can detect glaucoma and monitor the risk of glaucoma development much earlier and with greater accuracy.<sup>2, 3, 4, 5</sup>
 
@@ -42,7 +42,8 @@ OCT-A of this eye has shown abnormal enlargement of the deep capillary network w
 
 ![](/uploads/image.png)
 
-#### References 
+#### References
+
 1. Hagag, A. et al. (2017). “Optical coherence tomography angiography: Technical principles and clinical applications in ophthalmology”. Taiwan J Ophthalmol. 7(3): 115-129.
 2. Rao, HL. Et al. (2017). “Diagnostic ability of peripapillary vessel density measurements of optical coherance tomography angiography in primary open-angle and angle-closure glaucoma”. Br J Ophthalmol. 101(8): 66-70. 
 3. Lommatzsch, C. et al. (2018). “OCT-A vessel density changes in the macular zone in glaucomatous eyes”. Graefe’s Archive for Experimental and Clinical Ophthalmology. 256(8): 99-508. 
@@ -50,5 +51,4 @@ OCT-A of this eye has shown abnormal enlargement of the deep capillary network w
 5. Cennamo, G. et al. (2017). “Optical coherence tomography angiography in pre-perimetric open-angle glaucoma”. Graefes Arch Clin Exp Ophthalmol. 
 6. Dogan, B. et al. (2019). “Retinal vascular density evaluated by optical coherance tomography angiography in macular telangiectasia type 2”. Int Ophthalmol. 
 7. Conti, FF. et al. (2018). “Choriocapillaris and retinal vascular plexus density of diabetic eyes using split-spectrum amplitude decorrelation spectral-domain optical coherence tomography angiography”. The British Journal of Ophthalmology. 
-8. Lupidi, M. et al. (2017). “Retinal microvasculature in non-proliferative diabetic retinopathy: automated quantitative optical coherence tomography angiography assessment”. Ophthalmic Research. 58(3): 131-141. 
-
+8. Lupidi, M. et al. (2017). “Retinal microvasculature in non-proliferative diabetic retinopathy: automated quantitative optical coherence tomography angiography assessment”. Ophthalmic Research. 58(3): 131-141.
