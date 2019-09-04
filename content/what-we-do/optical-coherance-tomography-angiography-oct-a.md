@@ -10,7 +10,7 @@ category: advanced-imaging-technology
 
 #### How does OCT-A work?
 
-Conventional OCT scans assess the eye's structural integrity by analyzing light that is reflected from the back of the eye (the retina). When multiple OCT scans are taken of the same location, changes in the reflection pattern over time can be used to produce another specialised scan – the OCT-A scan. Because the only thing that's changing and moving as the scan is being taken are the blood cells, the OCT-A scan can track and assess the flow of blood.
+Conventional OCT scans assess the eye's structural integrity by analyzing light that is reflected from the back of the eye (the retina). When multiple OCT scans are taken of the same location, changes in the reflection pattern over time can be used to produce another specialised scan – the OCT-A scan. Because the only thing that is changing and moving as the scan is being taken are the blood cells, the OCT-A scan can track and assess the flow of blood.
 
 #### OCT-A of a healthy eye
 
