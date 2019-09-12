@@ -21,13 +21,13 @@ Typically, your optometrist will prescribe a range of exercises depending on the
 
 Instructions for these visual training exercises can be found here:
 
-* [VT with Focusing Flippers](/patient-resources/U37OVwEAAC4AybEQ/vision-training-with-accommodation-flippers) 
-* [VT with Loose Prisms](/patient-resources/U4LXhwEAAC8ACeZP/vision-training-with-loose-prisms) 
-* [VT with Hart Charts](/patient-resources/U4a-8gEAAD4A3Q9L/vision-training-with-hart-charts) 
-* [VT with Pen-Push Ups](/patient-resources/U4az4AEAADkA3Pke/vision-training-push-up-exercises) 
-* [VT with Saccade Pyramids](/patient-resources/U4bQiQEAADkA3TJ8/vision-training-with-saccade-pyramids) 
-* [VT with Saccade Pens](/patient-resources/VBYdxScAACUA6xWG/vision-training-with-saccade-pens) 
-* [VT with Binocular String](/patient-resources/U4ghXgEAADsA39B_/vision-training-with-binocular-string)
+* [VT with Focusing Flippers](https://innovativeeyecare.com.au/patient-resources/vision-training-with-focusing-flippers/) 
+* [VT with Loose Prisms](https://innovativeeyecare.com.au/patient-resources/vision-training-with-loose-prisms/) 
+* [VT with Hart Charts](https://innovativeeyecare.com.au/patient-resources/vision-training-with-hart-charts/) 
+* [VT with Pen-Push Ups](https://innovativeeyecare.com.au/patient-resources/vision-training-push-up-exercises/) 
+* [VT with Saccade Pyramids](https://innovativeeyecare.com.au/patient-resources/vision-training-with-saccade-pyramids/) 
+* [VT with Saccade Pens](https://innovativeeyecare.com.au/patient-resources/vision-training-with-saccade-pens/) 
+* [VT with Binocular String](https://innovativeeyecare.com.au/patient-resources/vision-training-with-binocular-string/)
 
 If your child needs visual training, they will need your support with the program because the exercises can be challenging at times and encouragement may be needed to stay motivated. Sometimes it's helpful to have a reward system in place. We also recommend your child uses the <i>**[diary provided](https://d1hd12f7n4y2a6.cloudfront.net/innovative-eye-care%2Fedf9851d-0310-406f-976a-92f88dfa0a0c_innovativeeyecarevisualtrainingdiary.pdf)**</i> to mark off that they have completed their exercises for the day. This also helps your optometrist to monitor how often the exercises have been done and track progress. To maximise the effectiveness of the program we recommend doing the exercises for a short time and more often rather than in one longer session.
 
