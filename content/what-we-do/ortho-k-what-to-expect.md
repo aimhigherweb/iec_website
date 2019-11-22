@@ -24,7 +24,7 @@ You can wear your final pair of ortho-K lenses each night, to maintain your visi
 
 ● **How new is ortho-K vision correction?**
 
-The idea of corneal molding to correct myopia may have originated millennia ago when the chinese used bags of sand resting on their closed eyelids to improve their vision. Ortho-K has been around since the 1940s; however, this process originally took a long period of time, was unreliable, and compromised the healthy physiology of the eye. In the past 15 years, ortho-K has reached a safe and predictable level. This is made possible with technological advancements and oxygen permeable contact lens materials.
+The idea of corneal molding to correct myopia may have originated millennia ago when the Chinese used bags of sand resting on their closed eyelids to improve their vision. Ortho-K has been around since the 1940s; however, this process originally took a long period of time, was unreliable, and compromised the healthy physiology of the eye. In the past 15 years, ortho-K has reached a safe and predictable level. This is made possible with technological advancements and oxygen permeable contact lens materials.
 
 **● Are there age restrictions for ortho-K?**
 
