@@ -3,7 +3,6 @@ title: Care of Orthokeratology Lenses
 category: Contact Lens Instructions
 preview_image: /uploads/care-of-ortho-k.jpg
 ---
-
 <div class="employee-heading">
 <p>Orthokeratology, is a safe, reversible and effective vision correction solution.<sup>1,2</sup> However, incorrect care of contact lenses and solutions can increase the risk for eye infections and corneal ulcers. Risk factors for acquiring an eye infection include improper lens cleaning and disinfection, poor hygiene practices and smoking. Following your practitioner's hygiene regime, along with regular reviews, will minimise this risk.</p>
 </div>
@@ -20,7 +19,7 @@ Always wash and rinse your hands thoroughly and dry them with a lint-free towel/
 
 #### Insertion
 
-<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\\\\[if IE]><iframe frameborder="0" type="text/html" src="https://www.youtube.com/watch?v=uY9boymjtDA" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\\\\[endif]--><!--\\\\[if !IE]> <--><object data="https://www.youtube.com/watch?v=uY9boymjtDA" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://www.youtube.com/watch?v=uY9boymjtDA">Insertion</a></object><!--> <!\\\\[endif]--></div>
+<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\\\\\[if IE]><iframe frameborder="0" type="text/html" src="https://www.youtube.com/embed/uY9boymjtDA" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\\\\\[endif]--><!--\\\\\[if !IE]> <--><object data="https://www.youtube.com/embed/uY9boymjtDA" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://www.youtube.com/embed/uY9boymjtDA">Insertion</a></object><!--> <!\\\\\[endif]--></div>
 
 <br>
 
