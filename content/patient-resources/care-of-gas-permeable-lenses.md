@@ -33,7 +33,7 @@ If you happen to drop your lens, use <b>saline solution</b> to rinse. Place the 
 <b><i>Step 4.</i></b>
 Dry and wipe out your lens case with a tissue. Leave the case lid off to air dry while wearing your lenses.
 
-<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\\\\[if IE]><iframe frameborder="0" type="text/html" src="https://2689-2347.captiv8online.com/animations/embed/one/p?player_width=100%&player_height=100%&site_company_language=34&autostart=false" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\\\\[endif]--><!--\\\\[if !IE]> <--><object data="https://2689-2347.captiv8online.com/animations/embed/one/p?player_width=100%&player_height=100%&site_company_language=34&autostart=false" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://2689-2347.captiv8online.com/animations/embed/one/p?player_width=100%&player_height=100%&site_company_language=34&autostart=false">Rigid Lens Application</a></object><!--> <!\\\\[endif]--></div>
+<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\\\\[if IE]><iframe frameborder="0" type="text/html" src="https://www.youtube.com/watch?v=uY9boymjtDA" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\\\\[endif]--><!--\\\\[if !IE]> <--><object data="https://www.youtube.com/watch?v=uY9boymjtDA" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://www.youtube.com/watch?v=uY9boymjtDA">Rigid Lens Application</a></object><!--> <!\\\\[endif]--></div>
 
 <br>
 
@@ -46,10 +46,6 @@ Dry and wipe out your lens case with a tissue. Leave the case lid off to air dry
 <b>ABNORMAL occurrences on insertion:</b> If on insertion you experience stinging, burning or pain, remove the lens, rinse and re-insert. If pain persists once the lenses have been removed, or if the lens feels as though it is stuck to the eye, contact your optometrist immediately.
 
 #### Removal
-
-<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\\\\[if IE]><iframe frameborder="0" type="text/html" src="https://2689-2347.captiv8online.com/animations/embed/one/d-l-mo-l?player_width=100%&player_height=100%&site_company_language=34&autostart=false" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\\\\[endif]--><!--\\\\[if !IE]> <--><object data="https://2689-2347.captiv8online.com/animations/embed/one/d-l-mo-l?player_width=100%&player_height=100%&site_company_language=34&autostart=false" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://2689-2347.captiv8online.com/animations/embed/one/d-l-mo-l?player_width=100%&player_height=100%&site_company_language=34&autostart=false">Rigid Lens Removal</a></object><!--> <!\\\\[endif]--></div>
-
-<br>
 
 <i><b>Method 1 – Manual Removal.</b></i> Using your middle fingers, open the lids wider than the lens diameter. Apply pressure to the lid margins, pushing in together to move your lids under the lens and lever it out of the eye
 
