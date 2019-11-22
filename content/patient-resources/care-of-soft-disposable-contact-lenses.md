@@ -27,7 +27,7 @@ preview_image: /uploads/contact-lenses-4.jpg
 
 CAPTION: Profile Method: Incorrect and correct lens positioning
 
-<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\[if IE]><iframe frameborder="0" type="text/html" src="https://www.youtube.com/embed/9VvKw-NLGYE" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\[endif]--><!--\[if !IE]> <--><object data="https://www.youtube.com/embed/9VvKw-NLGYE" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://www.youtube.com/embed/9VvKw-NLGYE">Soft Lens Application</a></object><!--> <!\[endif]--></div>
+<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\[if IE]><iframe frameborder="0" type="text/html" src="https://www.youtube.com/embed/R2KRU2iMR_Y" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\[endif]--><!--\[if !IE]> <--><object data="https://www.youtube.com/embed/R2KRU2iMR_Y" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://www.youtube.com/embed/R2KRU2iMR_Y">Soft Lens Application</a></object><!--> <!\[endif]--></div>
 
 <br>
 
