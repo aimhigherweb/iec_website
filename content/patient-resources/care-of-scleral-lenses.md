@@ -3,9 +3,8 @@ title: Care of Scleral Lenses
 category: Contact Lens Instructions
 preview_image: /uploads/care-of-scleral-lenses.jpg
 ---
-
 <div class="employee-heading">
-<p>[Scleral contact lenses](/what-we-do/scleral-lenses) are a type of RGP (Rigid Gas Permeable) lens used for conditions such as [keratoconus and pellucid marginal cornea degeneration](/what-we-do/keratoconus). However, incorrect care of scleral contact lenses and solutions can increase the risk of eye infections and corneal ulcers. Risk factors for acquiring an eye infection include improper lens cleaning and disinfection, poor hygiene practices and smoking. Following your practitioner's hygiene regime, along with regular reviews, will minimise this risk.</p> 
+<p>\[Scleral contact lenses](/what-we-do/scleral-lenses) are a type of RGP (Rigid Gas Permeable) lens used for conditions such as \[keratoconus and pellucid marginal cornea degeneration](/what-we-do/keratoconus). However, incorrect care of scleral contact lenses and solutions can increase the risk of eye infections and corneal ulcers. Risk factors for acquiring an eye infection include improper lens cleaning and disinfection, poor hygiene practices and smoking. Following your practitioner's hygiene regime, along with regular reviews, will minimise this risk.</p> 
 <p>Always thoroughly wash your hands with an antibacterial-based hand wash and dry them with a clean lint-free towel before handling, removing or inserting your lenses. Make sure to clean all parts of your hands, including between the fingers and dry thoroughly.</p>
 </div>
 
@@ -23,7 +22,7 @@ Always wash and rinse your hands thoroughly and dry them with a lint-free towel/
 
 #### Insertion
 
-<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\[if IE]><iframe frameborder="0" type="text/html" src="https://www.youtube.com/embed/JTejt66WBng" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\[endif]--><!--\[if !IE]> <--><object data="https://www.youtube.com/embed/JTejt66WBng" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://www.youtube.com/embed/JTejt66WBng">Large Diameter GP Application</a></object><!--> <!\[endif]--></div>
+<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\\[if IE]><iframe frameborder="0" type="text/html" src="https://www.youtube.com/embed/JTejt66WBng" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\\[endif]--><!--\\[if !IE]> <--><object data="https://www.youtube.com/embed/JTejt66WBng" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://www.youtube.com/embed/JTejt66WBng">Scleral Lens Insertion & Removal By EyeSpace Lenses</a></object><!--> <!\\[endif]--></div>
 
 <br>
 
@@ -47,7 +46,7 @@ CAPTION: Tripod method. A rubber inserter can also be used to hold the lens if d
 
 #### Removal
 
-<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\[if IE]><iframe frameborder="0" type="text/html" src="https://2689-2347.captiv8online.com/animations/embed/one/large-diameter-rigid-lens-removal?player_width=100%&player_height=100%&site_company_language=34&autostart=false" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\[endif]--><!--\[if !IE]> <--><object data="https://2689-2347.captiv8online.com/animations/embed/one/large-diameter-rigid-lens-removal?player_width=100%&player_height=100%&site_company_language=34&autostart=false" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://2689-2347.captiv8online.com/animations/embed/one/large-diameter-rigid-lens-removal?player_width=100%&player_height=100%&site_company_language=34&autostart=false">Large Diameter GP Removal</a></object><!--> <!\[endif]--></div>
+<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\\[if IE]><iframe frameborder="0" type="text/html" src="https://2689-2347.captiv8online.com/animations/embed/one/large-diameter-rigid-lens-removal?player_width=100%&player_height=100%&site_company_language=34&autostart=false" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\\[endif]--><!--\\[if !IE]> <--><object data="https://2689-2347.captiv8online.com/animations/embed/one/large-diameter-rigid-lens-removal?player_width=100%&player_height=100%&site_company_language=34&autostart=false" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://2689-2347.captiv8online.com/animations/embed/one/large-diameter-rigid-lens-removal?player_width=100%&player_height=100%&site_company_language=34&autostart=false">Large Diameter GP Removal</a></object><!--> <!\\[endif]--></div>
 
 <i><b>Method 1 – Manual Removal</b></i>
 
