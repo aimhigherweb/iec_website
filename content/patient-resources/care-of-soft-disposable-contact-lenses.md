@@ -24,7 +24,7 @@ preview_image: /uploads/contact-lenses-4.jpg
 * Engraving or identifying marks: If there is an engraving to identify the correct orientation of your lenses, your optometrist will demonstrate it.
 * Squeeze Test: Gently squeeze the lens between thumb and forefinger. If the edges meet, the lens is positioned the correct way.
 
-
+<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\\\[if IE]><iframe frameborder="0" type="text/html" src="https://www.youtube.com/embed/R2KRU2iMR_Y" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\\\[endif]--><!--\\\[if !IE]> <--><object data="https://www.youtube.com/embed/R2KRU2iMR_Y" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://www.youtube.com/embed/R2KRU2iMR_Y">Scleral Lens Insertion & Removal By EyeSpace Lenses</a></object><!--> <!\\\[endif]--></div>
 
 <br>
 
@@ -49,7 +49,7 @@ preview_image: /uploads/contact-lenses-4.jpg
 * Gently squeeze the lens between thumb and index finger to remove the lens.
 * An alternative method is to remove the lens directly from the cornea using the thumb and index finger.
 
-<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\\\[if IE]><iframe frameborder="0" type="text/html" src="https://2689-2347.captiv8online.com/animations/embed/one/o-t-l-mo-l?player_width=100%&player_height=100%&site_company_language=34&autostart=false" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\\\[endif]--><!--\\\[if !IE]> <--><object data="https://2689-2347.captiv8online.com/animations/embed/one/o-t-l-mo-l?player_width=100%&player_height=100%&site_company_language=34&autostart=false" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://2689-2347.captiv8online.com/animations/embed/one/o-t-l-mo-l?player_width=100%&player_height=100%&site_company_language=34&autostart=false">Soft Lens Removal</a></object><!--> <!\\\[endif]--></div>
+<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\\\\[if IE]><iframe frameborder="0" type="text/html" src="https://2689-2347.captiv8online.com/animations/embed/one/o-t-l-mo-l?player_width=100%&player_height=100%&site_company_language=34&autostart=false" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\\\\[endif]--><!--\\\\[if !IE]> <--><object data="https://2689-2347.captiv8online.com/animations/embed/one/o-t-l-mo-l?player_width=100%&player_height=100%&site_company_language=34&autostart=false" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://2689-2347.captiv8online.com/animations/embed/one/o-t-l-mo-l?player_width=100%&player_height=100%&site_company_language=34&autostart=false">Soft Lens Removal</a></object><!--> <!\\\\[endif]--></div>
 
 <br>
 
