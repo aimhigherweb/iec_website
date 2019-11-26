@@ -32,7 +32,7 @@ If you happen to drop your lens, use <b>saline solution</b> to rinse. Place the 
 <b><i>Step 4.</i></b>
 Dry and wipe out your lens case with a tissue. Leave the case lid off to air dry while wearing your lenses.
 
-<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\\\\\[if IE]><iframe frameborder="0" type="text/html" src="https://www.youtube.com/embed/uY9boymjtDA" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\\\\\[endif]--><!--\\\\\[if !IE]> <--><object data="https://www.youtube.com/embed/uY9boymjtDA" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://www.youtube.com/embed/uY9boymjtDA">Rigid Lens Application</a></object><!--> <!\\\\\[endif]--></div>
+<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\\\\\\[if IE]><iframe frameborder="0" type="text/html" src="https://www.youtube.com/embed/uY9boymjtDA" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\\\\\\[endif]--><!--\\\\\\[if !IE]> <--><object data="https://www.youtube.com/embed/uY9boymjtDA" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://www.youtube.com/embed/uY9boymjtDA">Rigid Lens Application</a></object><!--> <!\\\\\\[endif]--></div>
 
 <br>
 
@@ -52,7 +52,7 @@ Dry and wipe out your lens case with a tissue. Leave the case lid off to air dry
 
 ![](/uploads/suction-tools.jpg)
 
-CAPTION: Different styles of suction tool. The green and blue style are most commonly used by our patients.
+CAPTION: Different styles of suction tool.
 
 #### Cleaning
 
