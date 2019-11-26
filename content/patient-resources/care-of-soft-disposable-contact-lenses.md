@@ -3,7 +3,6 @@ title: Care of Soft Contact Lenses
 category: Contact Lens Instructions
 preview_image: /uploads/contact-lenses-4.jpg
 ---
-
 <div class="employee-heading">
 <p>As with anything regarding your eye health, appropriate care and products are important when using soft disposable contact lenses.</p>
 </div>
@@ -25,9 +24,7 @@ preview_image: /uploads/contact-lenses-4.jpg
 * Engraving or identifying marks: If there is an engraving to identify the correct orientation of your lenses, your optometrist will demonstrate it.
 * Squeeze Test: Gently squeeze the lens between thumb and forefinger. If the edges meet, the lens is positioned the correct way.
 
-CAPTION: Profile Method: Incorrect and correct lens positioning
-
-<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\[if IE]><iframe frameborder="0" type="text/html" src="https://www.youtube.com/embed/R2KRU2iMR_Y" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\[endif]--><!--\[if !IE]> <--><object data="https://www.youtube.com/embed/R2KRU2iMR_Y" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://www.youtube.com/embed/R2KRU2iMR_Y">Soft Lens Application</a></object><!--> <!\[endif]--></div>
+<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\\[if IE]><iframe frameborder="0" type="text/html" src="https://www.youtube.com/embed/R2KRU2iMR_Y" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\\[endif]--><!--\\[if !IE]> <--><object data="https://www.youtube.com/embed/R2KRU2iMR_Y" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://www.youtube.com/embed/R2KRU2iMR_Y">Soft Lens Application</a></object><!--> <!\\[endif]--></div>
 
 <br>
 
@@ -43,10 +40,6 @@ CAPTION: Profile Method: Incorrect and correct lens positioning
 * Release the lower and then the upper lid. Look down and gently close the eyes. Rub the top lid lightly to rub out any trapped air bubbles.
 * If the lens is not properly centered on the cornea, gently manipulate by using fingertips and eyelids.
 
-<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\[if IE]><iframe frameborder="0" type="text/html" src="https://2689-2347.captiv8online.com/animations/embed/one/o-t-l-ppl-t-o?player_width=100%&player_height=100%&site_company_language=34&autostart=false" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\[endif]--><!--\[if !IE]> <--><object data="https://2689-2347.captiv8online.com/animations/embed/one/o-t-l-ppl-t-o?player_width=100%&player_height=100%&site_company_language=34&autostart=false" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://2689-2347.captiv8online.com/animations/embed/one/o-t-l-ppl-t-o?player_width=100%&player_height=100%&site_company_language=34&autostart=false">Soft Lens Application</a></object><!--> <!\[endif]--></div>
-
-<br>
-
 #### Removal
 
 * If necessary, re-wet the contact lens with one drop of solution to help the lens slide off the eye, especially if it is a little dry.
@@ -56,7 +49,7 @@ CAPTION: Profile Method: Incorrect and correct lens positioning
 * Gently squeeze the lens between thumb and index finger to remove the lens.
 * An alternative method is to remove the lens directly from the cornea using the thumb and index finger.
 
-<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\[if IE]><iframe frameborder="0" type="text/html" src="https://2689-2347.captiv8online.com/animations/embed/one/o-t-l-mo-l?player_width=100%&player_height=100%&site_company_language=34&autostart=false" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\[endif]--><!--\[if !IE]> <--><object data="https://2689-2347.captiv8online.com/animations/embed/one/o-t-l-mo-l?player_width=100%&player_height=100%&site_company_language=34&autostart=false" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://2689-2347.captiv8online.com/animations/embed/one/o-t-l-mo-l?player_width=100%&player_height=100%&site_company_language=34&autostart=false">Soft Lens Removal</a></object><!--> <!\[endif]--></div>
+<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\\[if IE]><iframe frameborder="0" type="text/html" src="https://2689-2347.captiv8online.com/animations/embed/one/o-t-l-mo-l?player_width=100%&player_height=100%&site_company_language=34&autostart=false" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\\[endif]--><!--\\[if !IE]> <--><object data="https://2689-2347.captiv8online.com/animations/embed/one/o-t-l-mo-l?player_width=100%&player_height=100%&site_company_language=34&autostart=false" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://2689-2347.captiv8online.com/animations/embed/one/o-t-l-mo-l?player_width=100%&player_height=100%&site_company_language=34&autostart=false">Soft Lens Removal</a></object><!--> <!\\[endif]--></div>
 
 <br>
 
