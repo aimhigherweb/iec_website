@@ -15,11 +15,11 @@ preview_image: /uploads/care-of-ortho-k.jpg
 * Avoid bathrooms as they contain more germs than any other room in the house<sup>3</sup>
 * Inspect lenses for scratches, chips or cracks as these can provide surfaces for bacteria to grow<sup>4,5</sup>
 
-Always wash and rinse your hands thoroughly and dry them with a lint-free towel/tissue before handling contact lenses. All traces of soap, perfumes, hair-spray, creams and lotions should be removed from your hands and around your eyes. Your lenses should never come into contact with tap water as it contains microorganisms such as Acanthamoeba.<sup>6,7</sup>
+Always wash and rinse your hands thoroughly and dry them with a lint-free towel/tissue before handling contact lenses. All traces of soap, perfumes, hair-spray, creams and lotions should be removed from your hands and around your eyes. Your lenses should never come into contact with tap water as it contains dangerous microorganisms such as Acanthamoeba.<sup>6,7</sup>
 
 #### Insertion
 
-<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\\\\\[if IE]><iframe frameborder="0" type="text/html" src="https://www.youtube.com/embed/uY9boymjtDA" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\\\\\[endif]--><!--\\\\\[if !IE]> <--><object data="https://www.youtube.com/embed/uY9boymjtDA" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://www.youtube.com/embed/uY9boymjtDA">Insertion</a></object><!--> <!\\\\\[endif]--></div>
+<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\\\\\\[if IE]><iframe frameborder="0" type="text/html" src="https://www.youtube.com/embed/uY9boymjtDA" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\\\\\\[endif]--><!--\\\\\\[if !IE]> <--><object data="https://www.youtube.com/embed/uY9boymjtDA" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://www.youtube.com/embed/uY9boymjtDA">Insertion</a></object><!--> <!\\\\\\[endif]--></div>
 
 <br>
 
