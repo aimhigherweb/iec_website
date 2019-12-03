@@ -3,7 +3,6 @@ title: Exam Billing
 category: consultations
 preview-image: innovative-eye-care-medicare-eye.jpg
 ---
-
 <div class="employee-heading">
 <p>The 2014 Budget made significant changes to how optometrists can subsidise by the government in Australia. As a result both our Adelaide and Woodville practices have altered how we bill our <a href="/what-we-do/eye-exam">consultations</a> so that we may continue to provide our patients with the best eye care, vision and access to technology in the future. </p>
 </div>
@@ -14,7 +13,6 @@ Consultation fees will now be standardised, rather than varying in line with the
 
 <br>
 
-
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;border-color:#ccc;}
 .tg td{font-family:Arial, sans-serif;font-size:16px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#fff;}
@@ -23,6 +21,7 @@ Consultation fees will now be standardised, rather than varying in line with the
 .tg .tg-6vm2{font-weight:bold;font-family:Arial, Helvetica, sans-serif !important;;background-color:#efefef;color:#000000;border-color:#000000;vertical-align:top}
 .tg .tg-fdbh{font-family:Arial, Helvetica, sans-serif !important;;border-color:#000000;vertical-align:top}
 </style>
+
 <table class="tg" align="center">
   <tr>
     <th class="tg-fdbh">Consultation Type</th>
@@ -32,27 +31,27 @@ Consultation fees will now be standardised, rather than varying in line with the
   <tr>
     <td class="tg-fdbh">Full Consultation</td>
     <td class="tg-fdbh">$80
-    <td class="tg-fdbh">$28.90 - $57.70 (depending on<br>eligibility)</td>
+    <td class="tg-fdbh">$28.90 - $57.70 (eligibility dependent)</td>
   </tr>
   <tr>
     <td class="tg-fdbh">Short Consultation</td>
-    <td class="tg-fdbh">$40
-    <td class="tg-fdbh">$28.90 (depending on<br>eligibility)</td>
+    <td class="tg-fdbh">$50
+    <td class="tg-fdbh">$28.90</td>
   </tr>
   <tr>
     <td class="tg-fdbh">Diagnostic Imaging</td>
-    <td class="tg-fdbh">$80 per adult<br>$40 per child</td>
+    <td class="tg-fdbh">$80 per adult<br>$40 per child <br>and concession</td>
     <td class="tg-fdbh">Not eligible for rebate</td>
   </tr>
 </table>
 
  <br>
 
+We are still pleased to be able to bulk-bill health care and pension card holders. 
+
 We continue to use the Easyclaim system to claim your Medicare rebate for you on the spot. This is then paid back onto your cheque or savings card.
 
-We are still pleased to be able to bulk-bill health care and pension card holders. For children we now are able to provide consultation services at 15% off the normal price (as listed above).
-
-The costs of the additional equipment such as [retinal photography](/what-we-do/retinal-photography) and [anterior imaging](/what-we-do/anterior-imaging), [corneal topography](/what-we-do/corneal-topography) and [OCT scans](/what-we-do/oct) has never been covered by Medicare and unfortunately this has not changed. Because we believe this technology is very important in providing quality eye care, we continue to offer this technology at 50% off for health card and pension card holders as well as children to enable access.
+The costs of the additional equipment such as [retinal photography](/what-we-do/retinal-photography) and [anterior imaging](/what-we-do/anterior-imaging), [corneal topography](/what-we-do/corneal-topography) and [OCT scans](/what-we-do/oct) has never been covered by Medicare and unfortunately this has not changed. Because we believe this technology is important in providing quality eye care, we continue to offer this technology at 50% off for health card and pension card holders as well as children to enable access.
 
 We love it when patients that have had a great experience at Innovative Eye Care mention this to their friends, family and colleagues. As a reward we will send you a [$50 voucher](/what-we-do/gift-cards) if you refer someone you know to our practice! This can be used on full-price sunglasses or spectacles frames within 3 months.
 
