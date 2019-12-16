@@ -3,7 +3,7 @@ title: Fundus Autofluorescence
 category: advanced-imaging-technology
 ---
 <div class="employee-heading">
-<p>Fundus autofluorescence (FAF) is a non-invasive, high definition scan of the deeper retinal layers at the back of the eye. FAF highlights areas of metabolic stress that cannot be detected by conventional retinal cameras. 
+<p>Fundus autofluorescence (FAF) is a non-invasive, high definition scan of the deeper retinal layers at the back of the eye. FAF highlights areas of metabolic stress in detail that is above and beyond that of conventional retinal cameras. 
 <p><a href="/contact/">Innovative Eye Care</a> uses the top of the range Heidelberg Blue laser autofluorescence to take high definition images of the retina. This offers diagnostic insights into a number of retinal conditions, including <a href="/what-we-do-macular-degeneration/">macular degeneration</a>
 and hereditary diseases. 
 
@@ -19,4 +19,4 @@ The retina contains a metabolic indicator called lipofuscin, commonly referred t
 
 In the western world, wet AMD is a leading cause of legal blindness in those over 50 years of age.<sup>5</sup> Research indicates that approximately 55-70% of patients with AMD are undiagnosed, indicating an inadequacy in current conventional screening methods.<sup>6</sup> 
 
-Accumulation of lipofuscin in the RPE (layer under the retina) is strongly associated with the progression of AMD. 
+Accumulation of lipofuscin in the RPE (layer under the retina) is strongly associated with the progression of AMD. Areas of high autofluorescence (i.e. more lipofuscin) correlate to dysfunctional photoreceptors and vision loss.<sup>1</sup> FAF images allow for monitoring of subtle retinal and RPE changes, particularly in early stages. 
