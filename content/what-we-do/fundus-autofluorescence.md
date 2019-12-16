@@ -6,6 +6,7 @@ category: advanced-imaging-technology
 <p>Fundus autofluorescence (FAF) is a non-invasive, high definition scan of the deeper retinal layers at the back of the eye. FAF highlights areas of metabolic stress in detail that is above and beyond that of conventional retinal cameras. 
 <p><a href="/contact/">Innovative Eye Care</a> uses the top of the range Heidelberg Blue laser autofluorescence to take high definition images of the retina. This offers diagnostic insights into a number of retinal conditions, including <a href="/what-we-do-macular-degeneration/">macular degeneration</a>
 and hereditary diseases. 
+</div class="employee-heading">
 
 #### What is FAF?
 
