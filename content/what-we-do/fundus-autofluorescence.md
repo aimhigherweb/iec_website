@@ -7,5 +7,16 @@ category: advanced-imaging-technology
 <p><a href="/contact/">Innovative Eye Care</a> uses the top of the range Heidelberg Blue laser autofluorescence to take high definition images of the retina. This offers diagnostic insights into a number of retinal conditions, including <a href="/what-we-do-macular-degeneration/">macular degeneration</a>
 and hereditary diseases. 
 
-#### What is FAF? 
+#### What is FAF?
+
 The retina contains a metabolic indicator called lipofuscin, commonly referred to as the "wear and tear" pigment.<sup>1, 2</sup> When light of 488nm is shone onto the retina, lipofuscin fluoresces and the amount of fluorescence corresponds with the amount of lipofuscin present.<sup>1</sup> A number of hereditary and complex retinal diseases (including [macular degeneration](https://innovativeeyecare.com.au/what-we-do/macular-degeneration/) ) have characteristic increases or decreases in the amount of lipofuscin present in the retina.<sup>2, 3, 4</sup>  FAF provides detailed analysis of these conditions that allow the optometrists at Innovative Eye Care to accurately monitor your retinal health. 
+
+#### FAF image of a healthy eye 
+
+![](/uploads/faf.jpg)
+
+#### Age Related Macular Degeneration (AMD) 
+
+In the western world, wet AMD is a leading cause of legal blindness in those over 50 years of age.<sup>5</sup> Research indicates that approximately 55-70% of patients with AMD are undiagnosed, indicating an inadequacy in current conventional screening methods.<sup>6</sup> 
+
+Accumulation of lipofuscin in the RPE (layer under the retina) is strongly associated with the progression of AMD. 
