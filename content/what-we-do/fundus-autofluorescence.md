@@ -20,3 +20,7 @@ The retina contains a metabolic indicator called lipofuscin, commonly referred t
 In the western world, wet AMD is a leading cause of legal blindness in those over 50 years of age.<sup>5</sup> Research indicates that approximately 55-70% of patients with AMD are undiagnosed, indicating an inadequacy in current conventional screening methods.<sup>6</sup> 
 
 Accumulation of lipofuscin in the RPE (layer under the retina) is strongly associated with the progression of AMD. Areas of high autofluorescence (i.e. more lipofuscin) correlate to dysfunctional photoreceptors and vision loss.<sup>1</sup> FAF images allow for monitoring of subtle retinal and RPE changes, particularly in early stages. 
+
+#### Hereditary Retinal Diseases 
+
+Hereditary retinal conditions, such as retinitis pigmentosa (RP), cone dystrophy, Best's disease, Stargardt's disease and vitelliform macular dystrophy are visually debillitating conditions that manifest with changes in metabolic activity of the RPE (layer under the retina). This can be detected effectively using FAF imaging to monitor for early changes in at risk individuals. 
