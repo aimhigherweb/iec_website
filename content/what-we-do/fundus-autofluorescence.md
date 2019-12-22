@@ -25,3 +25,9 @@ Accumulation of lipofuscin in the RPE (layer under the retina) is strongly assoc
 #### Hereditary Retinal Diseases
 
 Hereditary retinal conditions, such as retinitis pigmentosa (RP), cone dystrophy, Best's disease, Stargardt's disease and vitelliform macular dystrophy are visually debillitating conditions that manifest with changes in metabolic activity of the RPE (layer under the retina). This can be detected effectively using FAF imaging to monitor for early changes in at risk individuals.
+
+#### Plaquenil Retinopathy  
+
+Plaquenil is used commonly for the treatment of systemic lupus erythmatosus (SLE), rheumatoid arthritis, and other inflammatory conditions. Retinal toxicity from plaquenil use has been recognised for many years, with the risk of toxicity being largly dependent on dosage and duration of treatment. Plaquenil toxicity cannot be treated and can potentially cause irreversible loss of central vision. Studies have shown that central vision can be preserved if damage is detected prior to changes in the RPE (layer under the retina). 
+
+The American Academy of Ophthalmology recommend a baseline visual screening within the first year of commencing the drug. Typically, annual visual screenings should commence after there has been five years of exposure to the drug. This may be more frequent if other risk factors are present. 
