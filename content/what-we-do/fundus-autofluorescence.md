@@ -4,7 +4,7 @@ category: advanced-imaging-technology
 ---
 <div class="employee-heading">
 <p>Fundus autofluorescence (FAF) is a non-invasive, high definition scan of the deeper retinal layers at the back of the eye. FAF highlights areas of metabolic stress in detail that is above and beyond that of conventional retinal cameras. 
-<p><a href="/contact/">Innovative Eye Care</a> uses the top of the range Heidelberg Blue laser autofluorescence to take high definition images of the retina. This offers diagnostic insights into a number of retinal conditions, including <a href="/what-we-do-macular-degeneration/">macular degeneration</a>, plaquenil toxicity,
+<p>Innovative Eye Care uses the top of the range Heidelberg Blue laser autofluorescence to take high definition images of the retina. This offers diagnostic insights into a number of retinal conditions, including <a href="/what-we-do-macular-degeneration/">macular degeneration</a>, plaquenil toxicity,
 and hereditary diseases. 
 </div>
 
@@ -31,3 +31,13 @@ Hereditary retinal conditions, such as retinitis pigmentosa (RP), cone dystrophy
 Plaquenil is used commonly for the treatment of systemic lupus erythmatosus (SLE), rheumatoid arthritis, and other inflammatory conditions. Retinal toxicity from plaquenil use has been recognised for many years, with the risk of toxicity being largly dependent on dosage and duration of treatment. Plaquenil toxicity cannot be treated and can potentially cause irreversible loss of central vision. Studies have shown that central vision can be preserved if damage is detected prior to changes in the RPE (layer under the retina). 
 
 The American Academy of Ophthalmology recommend a baseline visual screening within the first year of commencing the drug. Typically, annual visual screenings should commence after there has been five years of exposure to the drug. This may be more frequent if other risk factors are present. Visual screenings for plaquenil toxicity include [automated visual fields](https://innovativeeyecare.com.au/what-we-do/visual-field-testing/https://innovativeeyecare.com.au/what-we-do/visual-field-testing/), [OCT](https://innovativeeyecare.com.au/what-we-do/oct/https://innovativeeyecare.com.au/what-we-do/oct/) and FAF. 
+
+
+
+
+
+
+
+
+
+
