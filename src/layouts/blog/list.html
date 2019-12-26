@@ -1,0 +1,52 @@
+{{ partial "header.html" . }}
+
+{{ partial "topnav.html" . }}
+
+<div class="intro-section" style="background-image: url(/images/intro-bg.png);">
+  <div class="container">
+    <div class="intro-section__wrap">
+      <div class="intro-section__heading">
+        <h1 class="intro-section__title">Blog</h1>
+      </div>
+      <div class="intro-section__row">
+        <div class="intro-section__col intro-section__col_content">
+          <p>The optometrists of Innovative Eye Care have a wide scope of expertise. Our blog
+            provides a platform for our practitioners and staff to share a little more about their
+            professional interests and experiences. As well as some weird and wonderful case
+            studies, you’ll be kept up to date with practice news, the latest research and treatment
+            options, products we love and fashion trends in our retail space.</p></div>
+      </div>
+    </div>
+  </div>
+  <span class="intro-section__rectangle">
+    <img src="/images/rectangle-img.png" alt="image description">
+  </span>
+</div>
+<div class="content-section blog-list">
+  <ul class="blog-post-list">
+    {{ range (where .Data.Pages "Type" "blog") }}
+    <li class="blog-post-box">
+      <a href="/blog/{{.File.BaseFileName }}" >
+        <img src={{ .Params.Preview_Image}} alt="">
+        <div class="blog-list__title">
+          {{ .Title }}
+        </div>
+        <div class="blog-list__byline">
+          On <span style="text-transform: uppercase"> 
+                  {{ .Date.Format "2 January 2006" }}
+              </span>
+          &middot;
+          By {{.Params.author}}
+        </div>
+        <div class="blog-list__border-bottom"></div>
+        <div class="blog-list__preview">
+          {{.Content | truncate 250 }}
+        </div>
+        <button class="blog-list__button">READ MORE</button>
+      </a>
+    </li>
+    {{ end }}
+  </ul>
+</div>
+
+{{ partial "footer.html" . }}

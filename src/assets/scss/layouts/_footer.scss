@@ -1,0 +1,187 @@
+.footer__holder {
+	background: $darken-gray;
+	color: #bababa;
+	font-size: 9px;
+	line-height: 12px;
+	padding: 51px 0 53px;
+	position: relative;
+
+	@include media(">=tablet") {
+		padding: 91px 0 72px;
+		font-size: 13px;
+		line-height: 16px;
+		color: #c1c1c1;
+
+	}
+
+	a {
+		color: #bababa;
+
+		&:hover{
+			color: $light-blue;
+		}
+	}
+
+	.container {
+		@include media(">=desktop") {
+			max-width: 1192px;
+		}
+	}
+
+	.socials-list {
+		@include media(">=tablet") {
+			margin: 2px 0 0;
+		}
+	}
+}
+
+.container--with-layout {
+	overflow: hidden;
+
+	@include media("<tablet") {
+		max-width: 320px;
+		margin: 0 auto;
+	}
+}
+
+.footer__left-col {
+	margin: 0 0 35px;
+
+	@include media(">=tablet") {
+		float: left;
+		width: 30%;
+		margin-right: 25px;
+	}
+
+	@include media(">=desktop") {
+		width: 40%;
+		margin: 0;
+	}
+}
+
+.footer-logo {
+	margin: 0 0 9px;
+
+	@include media("<tablet") {
+		width: 218px;
+	}
+
+	@include media(">=tablet") {
+		margin: 0 0 15px;
+	}
+}
+
+.footer__info {
+	position: relative;
+	padding: 0 0 29px;
+	overflow: hidden;
+	color: #ebebeb;
+
+	@include media(">=tablet") {
+		padding: 6px 0 29px;
+	}
+
+	a {
+		color: #ebebeb;
+	}
+}
+
+.footer__col {
+	width: 50%;
+	float: left;
+	padding: 0 10px;
+
+	@include media(">=tablet") {
+		width: 33.33%;
+		padding: 0 10px;
+	}
+}
+
+.footer__info__title {
+	font-size: 11px;
+	line-height: 14px;
+	display: block;
+	text-transform: uppercase;
+	margin: 0 0 6px;
+	letter-spacing: 1px;
+	color: $white;
+
+	@include media(">=tablet") {
+		font-size: 16px;
+		line-height: 18px;
+	}
+}
+
+.footer__address {
+	margin: 0;
+	font-size: 11px;
+	line-height: 14px;
+
+	@include media(">=tablet") {
+		font-size: 16px;
+		line-height: 30px;
+	}
+
+	span {
+		display: block;
+		margin: 0 0 6px;
+
+		@include media(">=tablet") {
+			margin: 0 0 1px;
+		}
+	}
+}
+
+.footer__tel {
+	font-size: 16px;
+	line-height: 18px;
+	font-weight: bold;
+	font-style: normal;
+
+	@include media(">=tablet") {
+		font-size: 18px;
+		line-height: 20px;
+	}
+
+	@include media(">=desktop") {
+		font-size: 23px;
+		line-height: 26px;
+	}
+}
+
+.footer__bottom {
+	background: $white;
+	padding: 28px 0;
+
+	@include media(">=tablet") {
+		padding: 44px 0 16px;
+	}
+}
+
+.partners-list {
+	@extend %listreset;
+
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+
+	li {
+		padding: 0 4px 22px;
+	}
+
+	a {
+		display: block;
+		text-align: center;
+	}
+
+	img {
+		display: block;
+		margin: 0 auto;
+
+		@include media("<tablet") {
+			width: 78%;
+		}
+	}
+}
+

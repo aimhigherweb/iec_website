@@ -1,0 +1,666 @@
+#header {
+  @include media("<tablet") {
+    display: none;
+  }
+  vertical-align: middle;
+  display: flex;
+  background: $white;
+  z-index: 10;
+  justify-content: space-between;
+  background: #f5f5f5;
+  padding: 10px 15px;
+}
+
+.header__container {
+  @extend %clearfix;
+  white-space: nowrap;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.socials-list {
+
+  line-height:20px;
+  vertical-align:middle;
+  display:inline-block;
+
+  @extend %listreset;
+
+  letter-spacing: -0.4em;
+  z-index: 9;
+  font: 0px "Open Sans", "Arial", "Helvetica Neue", "Helvetica", sans-serif;
+
+  &.socials-list--floated-left {
+    @include media(">=tablet") {
+      vertical-align: middle;
+    }
+  }
+
+  &.socials-list--xs-hidden {
+    @include media("<tablet") {
+      display: none;
+    }
+  }
+
+  li {
+    display: inline-block;
+    vertical-align: top;
+    padding: 0 9px;
+    letter-spacing: normal;
+    line-height:normal;
+  }
+
+  a {
+    @include animate(color);
+
+    color: #808285;
+    display: block;
+
+    &:hover {
+      color: $blue;
+    }
+  }
+
+  i {
+    display: block;
+  }
+
+  .icon-facebook {
+    font-size: 15px;
+  }
+
+  .icon-twitter {
+    font-size: 13px;
+    margin-top: 2px;
+  }
+
+  .icon-instagramm {
+    font-size: 15px;
+  }
+}
+
+.socials-list--on-absolute-in-footer {
+  @include media("<tablet") {
+    position: absolute;
+    right: 17px;
+    bottom: 2px;
+  }
+
+  @include media(">=desktop-lg") {
+    float: right;
+    margin: 2px -15px 0 0 !important;
+  }
+
+  a {
+    color: #bababa !important;
+
+    &:hover {
+      color: $white !important;
+    }
+  }
+}
+
+.socials-list--small {
+  li {
+    padding: 0 5px;
+
+    @include media(">=tablet") {
+      padding: 0 8px;
+    }
+  }
+
+  a {
+    color: #c1c1c1;
+
+    &:hover {
+      color: $light-blue;
+    }
+  }
+  .icon-facebook {
+    font-size: 12px;
+
+    @include media(">=tablet") {
+      font-size: 16px;
+    }
+  }
+
+  .icon-twitter {
+    font-size: 10px;
+
+    @include media(">=tablet") {
+      font-size: 13px;
+    }
+  }
+
+  .icon-instagramm {
+    font-size: 10px;
+    margin-top: 2px;
+
+    @include media(">=tablet") {
+      font-size: 15px;
+    }
+  }
+
+  .icon-earth-globe {
+    font-size: 10px;
+    margin-top: 2px;
+
+    @include media(">=tablet") {
+      font-size: 15px;
+    }
+  }
+}
+
+.book-online {
+  @include media(">=tablet") {
+    font: bold 14px "Open Sans", "Arial", "Helvetica Neue", "Helvetica",
+      sans-serif;
+    color: #3d3d3d;
+    text-transform: uppercase;
+    z-index: 9;
+
+    &:hover {
+      color: $light-blue;
+    }
+
+    i {
+      color: $light-blue;
+      font-size: 15px;
+      margin: 1px 4px 0 0;
+      font-weight: normal;
+    }
+
+    &.book-online--floated-right {
+    }
+  }
+}
+
+.navbar {
+  @extend %clearfix;
+
+  padding: 10px 9px 14px;
+
+
+  @include media(">=tablet") {
+    padding: 26px 0 22px 13px;
+  }
+
+  @include media(">=desktop") {
+    padding: 34px 0 22px 13px;
+  }
+}
+
+.navbar__logo {
+  float: left;
+
+
+  &:after {
+    @include media(">=tablet") {
+      content: "";
+      right: 0;
+      top: -26px;
+      bottom: -22px;
+      width: 1px;
+      position: absolute;
+      background: #d0d1d1;
+    }
+
+    @include media(">=desktop") {
+      top: -34px;
+    }
+  }
+
+  @include media(">=desktop") {
+    padding: 0 24px 0 0;
+    margin: 0 0 0 0;
+  }
+
+  @include media(">=widescreen") {
+    padding: 0 58px 0 0;
+    margin: 0 44px 0 0;
+  }
+
+  a {
+    display: block;
+  }
+
+  img {
+    @include size(192px, 49px);
+
+    display: block;
+    width: 192px;
+    height: auto;
+
+    @include media(">=tablet") {
+      @include size(215px, 55px);
+    }
+
+    @include media(">=desktop") {
+      @include size(170px, 46px);
+    }
+
+    @include media(">=widescreen") {
+      @include size(270px, 69px);
+    }
+  }
+}
+
+.navbar__opener {
+  @include media("<tablet") {
+    @include animate(background);
+    @include size(30px, 24px);
+
+    float: right;
+    position: relative;
+    margin: 12px 0 0;
+  }
+
+  @include media(">=tablet") {
+    display: none;
+  }
+
+  &:before,
+  &:after,
+  span {
+    background: #6e91cb;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    height: 4px;
+    margin-top: -2px;
+    transition: $animation-speed ease 0s;
+  }
+
+  &:after,
+  &:before {
+    content: "";
+    top: 2px;
+  }
+
+  &:after {
+    top: auto;
+    bottom: 0;
+  }
+}
+
+.navbar__opener--close {
+  @include media("<tablet") {
+    @include size(75px, 75px);
+
+    position: absolute;
+    left: -75px;
+    top: 0;
+    background: #3a79b0;
+    margin: 0;
+
+    &:hover {
+      background: darken(#427aaf, 10%);
+    }
+
+    &:before,
+    &:after,
+    span {
+      background: #9dbcd8;
+      left: 16%;
+      right: 16%;
+    }
+
+    &:before {
+      top: 37%;
+    }
+
+    &:after {
+      top: 64%;
+      bottom: auto;
+    }
+  }
+}
+
+.navbar__slide {
+  @include media("<tablet") {
+    @include animate(right);
+
+    position: fixed;
+    right: -492px;
+    top: 0;
+    bottom: 0;
+    z-index: 12;
+    width: 415px;
+    background: $light-blue;
+
+    .nav-active & {
+      right: 0;
+    }
+  }
+
+  @include media("<phone") {
+    width: 300px;
+  }
+}
+
+.navbar__slide__holder {
+  @include media("<tablet") {
+    @include animate(right);
+
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: visible;
+  }
+}
+
+.main-nav {
+  @extend %listreset;
+
+  text-transform: uppercase;
+  font: bold 12px/16px $montserat-font;
+
+  @include media("<tablet") {
+    border-bottom: 1px solid #4976a2;
+  }
+
+  @include media(">=tablet") {
+    text-transform: capitalize;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 1px;
+    padding: 18px 0 0;
+
+    &.main-nav--floated-left {
+      float: left;
+    }
+  }
+
+  @include media(">=tablet", "<desktop") {
+    width: 100%;
+    padding: 46px 0 0;
+    position: relative;
+    font-size: 16px;
+    line-height: 20px;
+
+    &:before {
+      content: "";
+      right: -30px;
+      left: -30px;
+      top: 21px;
+      height: 1px;
+      position: absolute;
+      background: #d0d1d1;
+    }
+  }
+
+  @include media(">=desktop") {
+    font-size: 16px;
+    line-height: 18px;
+    padding: 10px 0 0;
+  }
+
+  @include media(">=1300px") {
+    font-size: 18px;
+    line-height: 20px;
+  }
+
+  @include media(">=widescreen") {
+    padding: 18px 0 0;
+  }
+
+  li {
+    @include media("<tablet") {
+      border-top: 1px solid #4976a2;
+    }
+
+    @include media(">=tablet") {
+      float: left;
+      margin: 0 9px 0 0;
+    }
+
+    &.active {
+      @include media("<tablet") {
+        a {
+          background: #427aaf;
+        }
+      }
+
+      @include media(">=tablet") {
+        a {
+          &:after {
+            left: 0;
+            right: 0;
+          }
+        }
+      }
+    }
+  }
+
+  a {
+    @include animate(background);
+
+    display: block;
+    position: relative;
+    color: $white;
+    padding: 24px 66px 24px 46px;
+
+    @include media("<tablet") {
+      background: #4d8ac3;
+
+      &:before {
+        content: ">";
+        position: absolute;
+        top: 50%;
+        right: 47px;
+        margin-top: -9px;
+        font-size: 14px;
+        font-weight: normal;
+      }
+
+      &:hover {
+        background: #427aaf;
+      }
+    }
+
+    @include media(">=tablet") {
+      color: $white;
+      color: #3b3d40;
+      padding: 0 5px;
+
+      &:hover {
+        &:after {
+          left: 0;
+          right: 0;
+        }
+      }
+
+      &:after {
+        @include animate(left right);
+
+        content: "";
+        position: absolute;
+        right: 50%;
+        left: 50%;
+        bottom: -9px;
+        height: 2px;
+        background: #3b3d40;
+      }
+    }
+
+    @include media(">=widescreen") {
+      padding: 0 15px;
+    }
+  }
+}
+
+.navbar__contact-info {
+  font: 13px/14px $montserat-font;
+
+  &.navbar__contact-info--floated-right {
+    float: right;
+  }
+
+  &.navbar__contact-info--on-absolute {
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    left: 0;
+    top: 12px;
+
+    @include media("<tablet") {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      padding: 10px 20px 8px;
+      background: #ededee;
+    }
+  }
+
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.navbar__contact-list {
+  font: 14px "Open Sans", "Arial", "Helvetica Neue", "Helvetica", sans-serif;
+
+  @include media("<phone") {
+    li {
+      display: block;
+    }
+  }
+
+  li {
+    letter-spacing: -0.4em;
+    letter-spacing: normal;
+    display: inline-block;
+  }
+
+  i {
+    margin: -2px 2px 0 0;
+    font-size: 13px;
+  }
+
+  a {
+    font-weight: bold;
+    color: #414042;
+  }
+}
+
+.navbar__contact-info--in-slide {
+  vertical-align: middle;
+
+  ul {
+
+	list-style: none;
+	display:block;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  li {
+	  display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  @include media(">=tablet") {
+    display: none;
+  }
+
+  .navbar__contact-list {
+    @include media("<tablet") {
+      color: $white;
+      font-size: 14px;
+      line-height: 16px;
+      font-weight: bold;
+
+      a {
+        color: $white;
+
+        &:hover {
+          color: $gray;
+        }
+      }
+
+      .navbar__contact-list__title {
+        padding: 0 8px 0 0;
+      }
+    }
+  }
+}
+
+.navbar__contact-list {
+  @extend %listreset;
+
+  a {
+    @include animate(color);
+
+    @include media(">=tablet") {
+      color: #3d3d3d;
+
+      &:hover {
+        color: $light-blue;
+      }
+    }
+  }
+
+  i {
+    font-weight: normal;
+    line-height: 1;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 16px;
+
+    @include media(">=tablet") {
+      display: none;
+    }
+  }
+
+  .icon-call-answer {
+    margin: 0 8px 0 0;
+  }
+
+  .icon-email {
+    font-size: 14px;
+    margin: 0 6px 0 0;
+  }
+}
+
+.navbar__contact-list__item {
+  @include media("<tablet") {
+    display: block;
+    margin: 0 0 4px;
+
+    &.email {
+      font-size: 11px;
+      line-height: 14px;
+    }
+  }
+}
+
+.navbar__contact-list__title {
+  @include media("<tablet") {
+    position: relative;
+    padding: 0 6px 0 0;
+
+    &:after {
+      content: "-";
+      position: absolute;
+      right: -1px;
+      top: 1px;
+    }
+  }
+
+  @include media(">=tablet") {
+    color: $light-blue;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: inline-block;
+    vertical-align: top;
+    text-align: right;
+  }
+  min-width: 100px;
+
+  @include media(">=widescreen") {
+    min-width: 180px;
+  }
+}

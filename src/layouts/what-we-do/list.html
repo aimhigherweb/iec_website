@@ -1,0 +1,494 @@
+{{ partial "header.html" . }}
+
+{{ partial "topnav.html" . }}
+
+<div
+  class="who-we-are__header content-section simple-section content-section--white-color content-section--with-overlay white--overlay text-center"
+  style="background-image: url(/images/WHAT_WE-DO_HeaderImage.jpg);"
+>
+  <div class="container">
+    <div class="content-section__haeding video-section__heading">
+      <h1 class="haeding__top-text top-text--small">What We Do</h1>
+    </div>
+    <div class="main-video__container" hidden>
+      <video
+        id="main-video"
+        class="video-js vjs-default-skin vjs-big-play-centered"
+        controls
+        preload="auto"
+        data-setup="{&quot;fluid&quot;:true}"
+      >
+        <source src="/videos/what-we-do.mp4" type="video/mp4" />
+      </video>
+    </div>
+    <button
+      id="play-video-button"
+      onclick="playMainVideo();"
+      class="btn btn--transparent"
+    >
+      WATCH VIDEO
+    </button>
+  </div>
+</div>
+<div class="intro-section" style="background-image: url(/images/intro-bg.png);">
+  <div class="container">
+    <div class="intro-section__wrap">
+      <div class="intro-section__row">
+        <div class="intro-section__col intro-section__col_content">
+          <p><em>'Your eyes are our focus, all day, every day.’</em></p>
+          <p>
+            We do things a little differently here. Every aspect of your vision
+            and eye health is important to us, and each one of you has a unique
+            combination of needs. Our mission is to provide the best optometric
+            care possible to meet those needs.
+          </p>
+          <p>
+            We use state-of-the-art technology for testing, the highest quality
+            customised products, and the most personalised service. Our
+            solutions span bespoke contact lenses, spectacles, vision training
+            and therapeutic treatments. We support Australian made.
+          </p>
+        </div>
+        <div class="intro-section__col intro-section__col_sidebar">
+          <ul class="intro-section__list">
+            <li>
+              <span class="ico-holder"> <img src="/images/icon01.png" /> </span>
+              <a href="/what-we-do/eyewear-collections">
+                <span class="list-text">Eyewear Experts</span>
+              </a>
+            </li>
+            <li>
+              <span class="ico-holder"> <img src="/images/icon02.png" /> </span>
+              <a href="/what-we-do/contact-lenses">
+                <span class="list-text">Bespoke Contact Lenses</span>
+              </a>
+            </li>
+            <li>
+              <span class="ico-holder"> <img src="/images/icon03.png" /> </span>
+              <a href="/what-we-do/childrens-vision">
+                <span class="list-text">Paediatric Vision</span>
+              </a>
+            </li>
+            <li>
+              <span class="ico-holder"> <img src="/images/icon04.png" /> </span>
+              <a href="/what-we-do/dry-eye-disease">
+                <span class="list-text">Dry Eye Clinic</span>
+              </a>
+            </li>
+            <li>
+              <span class="ico-holder"> <img src="/images/icon05.png" /> </span>
+              <a href="/what-we-do/oct">
+                <span class="list-text">Advanced Imaging Technology</span>
+              </a>
+            </li>
+            <li>
+              <span class="ico-holder"> <img src="/images/icon06.png" /> </span>
+              <a href="/what-we-do/orthokeratology-corneal-reshaping">
+                <span class="list-text"
+                  >Ortho-K: Overnight Vision Correction</span
+                >
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <span class="intro-section__rectangle">
+    <img src="/images/rectangle-img.png" alt="image description" />
+  </span>
+</div>
+<div class="what-we-do-section">
+  <ul class="what-we-do-list">
+    <li class="what-we-do-box">
+      <div
+        class="what-we-do-inner hover-elem"
+        style="background-image: url(/images/1-Consultations.jpg);"
+      >
+        <div class="overlay">
+          <div class="services__icon">
+            <img src="/images/icon01.png" alt="image description" />
+          </div>
+          <strong class="services__title">Consultations </strong>
+        </div>
+        <div class="what-we-do-inner__rollover opener">
+          <div class="what-we-do-inner__rollover__box">
+            <div class="what-we-do-inner__icon">
+              <img src="/images/icon01.png" alt="image description" />
+            </div>
+            <strong class="name">Consultations</strong>
+            <span class="description"
+              >We welcome all new patients. Book online or give us a call
+              today.</span
+            >
+            <ul class="links">
+              {{ $category := "consultations" }}
+              {{ $type := "what-we-do" }}
+
+              {{ range $index, $page := .Pages }}
+                {{ if and (eq $page.Params.category $category) (eq $page.Type $type) }}
+                  <li><a href="{{$page.URL}}"> {{ $page.Title }}</a></li>
+                {{ end }}
+              {{ end }}
+            </ul>
+          </div>
+        </div>
+      </div>
+    </li>
+    <li class="what-we-do-box">
+      <div
+        class="what-we-do-inner hover-elem"
+        style="background-image: url(/images/2-EyewearExperts.jpg);"
+      >
+        <div class="overlay">
+          <div class="services__icon">
+            <img src="/images/icon07.png" alt="image description" />
+          </div>
+          <strong class="services__title">Eyewear Experts </strong>
+        </div>
+        <div class="what-we-do-inner__rollover opener">
+          <div class="what-we-do-inner__rollover__box">
+            <div class="what-we-do-inner__icon">
+              <img src="/images/icon07.png" alt="image description" />
+            </div>
+            <strong class="name">Eyewear Experts</strong>
+            <span class="description"
+              >You see the world through your eyewear. We want to enhance it
+              with quality frames and lenses.</span
+            >
+            <ul class="links">
+              {{ $category := "eyewear-experts" }}
+              {{ $type := "what-we-do" }}
+
+              {{ range $index, $page := .Pages }}
+                {{ if and (eq $page.Params.category $category) (eq $page.Type $type) }}
+                  <li><a href="{{$page.URL}}"> {{ $page.Title }}</a></li>
+                {{ end }}
+              {{ end }}
+            </ul>
+          </div>
+        </div>
+      </div>
+    </li>
+    <li class="what-we-do-box">
+      <div
+        class="what-we-do-inner hover-elem"
+        style="background-image: url(/images/3-ContactLenses.jpg);"
+      >
+        <div class="overlay">
+          <div class="services__icon">
+            <img src="/images/icon02.png" alt="image description" />
+          </div>
+          <strong class="services__title">Contact Lenses </strong>
+        </div>
+        <div class="what-we-do-inner__rollover opener">
+          <div class="what-we-do-inner__rollover__box">
+            <div class="what-we-do-inner__icon">
+              <img src="/images/icon02.png" alt="image description" />
+            </div>
+            <strong class="name">Contact Lenses</strong>
+            <span class="description"
+              >We fit rigid and soft lenses to your eyes. Benefit from the
+              latest in contact lens technology.</span
+            >
+            <ul class="links">
+              {{ $category := "contact-lenses" }}
+              {{ $type := "what-we-do" }}
+
+              {{ range $index, $page := .Pages }}
+                {{ if and (eq $page.Params.category $category) (eq $page.Type $type) }}
+                  <li><a href="{{$page.URL}}"> {{ $page.Title }}</a></li>
+                {{ end }}
+              {{ end }}
+            </ul>
+          </div>
+        </div>
+      </div>
+    </li>
+    <li class="what-we-do-box">
+      <div
+        class="what-we-do-inner hover-elem"
+        style="background-image: url(/images/4-Ortho-K.jpg);"
+      >
+        <div class="overlay">
+          <div class="services__icon">
+            <img src="/images/icon06.png" alt="image description" />
+          </div>
+          <strong class="services__title">Ortho-K </strong>
+        </div>
+        <div class="what-we-do-inner__rollover opener">
+          <div class="what-we-do-inner__rollover__box">
+            <div class="what-we-do-inner__icon">
+              <img src="/images/icon06.png" alt="image description" />
+            </div>
+            <strong class="name">Ortho-K</strong>
+            <span class="description"
+              >Experience the freedom of ortho-K overnight reshaping contact
+              lens molds.</span
+            >
+            <ul class="links">
+              {{ $category := "orthok" }}
+              {{ $type := "what-we-do" }}
+
+              {{ range $index, $page := .Pages }}
+                {{ if and (eq $page.Params.category $category) (eq $page.Type $type) }}
+                  <li><a href="{{$page.URL}}"> {{ $page.Title }}</a></li>
+                {{ end }}
+              {{ end }}
+            </ul>
+          </div>
+        </div>
+      </div>
+    </li>
+    <li class="what-we-do-box">
+      <div
+        class="what-we-do-inner hover-elem"
+        style="background-image: url(/images/5-RefractiveConditions.jpg);"
+      >
+        <div class="overlay">
+          <div class="services__icon">
+            <img src="/images/icon08.png" alt="image description" />
+          </div>
+          <strong class="services__title">Refractive Conditions </strong>
+        </div>
+        <div class="what-we-do-inner__rollover opener">
+          <div class="what-we-do-inner__rollover__box">
+            <div class="what-we-do-inner__icon">
+              <img src="/images/icon08.png" alt="image description" />
+            </div>
+            <strong class="name">Refractive Conditions</strong>
+            <span class="description"
+              >Are you long-sighted or short-sighted? Is your vision changing?
+              What does it all mean?</span
+            >
+            <ul class="links">
+              {{ $category := "refractive-conditions" }}
+              {{ $type := "what-we-do" }}
+
+              {{ range $index, $page := .Pages }}
+                {{ if and (eq $page.Params.category $category) (eq $page.Type $type) }}
+                  <li><a href="{{$page.URL}}"> {{ $page.Title }}</a></li>
+                {{ end }}
+              {{ end }}
+            </ul>
+          </div>
+        </div>
+      </div>
+    </li>
+    <li class="what-we-do-box">
+      <div
+        class="what-we-do-inner hover-elem"
+        style="background-image: url(/images/6-PaediatricVision.jpg);"
+      >
+        <div class="overlay">
+          <div class="services__icon">
+            <img src="/images/icon03.png" alt="image description" />
+          </div>
+          <strong class="services__title">Paediatric Vision </strong>
+        </div>
+        <div class="what-we-do-inner__rollover opener">
+          <div class="what-we-do-inner__rollover__box">
+            <div class="what-we-do-inner__icon">
+              <img src="/images/icon03.png" alt="image description" />
+            </div>
+            <strong class="name">Paediatric Vision</strong>
+            <span class="description"
+              >Children’s vision is crucial to learning and quality of life.
+              Help your child achieve their very best sight!</span
+            >
+            <ul class="links">
+              {{ $category := "paediatric-vision" }}
+              {{ $type := "what-we-do" }}
+
+              {{ range $index, $page := .Pages }}
+                {{ if and (eq $page.Params.category $category) (eq $page.Type $type) }}
+                  <li><a href="{{$page.URL}}"> {{ $page.Title }}</a></li>
+                {{ end }}
+              {{ end }}
+            </ul>
+          </div>
+        </div>
+      </div>
+    </li>
+    <li class="what-we-do-box">
+      <div
+        class="what-we-do-inner hover-elem"
+        style="background-image: url(/images/7-DryEyeClinic.jpg);"
+      >
+        <div class="overlay">
+          <div class="services__icon">
+            <img src="/images/icon04.png" alt="image description" />
+          </div>
+          <strong class="services__title">Dry Eye Clinic </strong>
+        </div>
+        <div class="what-we-do-inner__rollover opener">
+          <div class="what-we-do-inner__rollover__box">
+            <div class="what-we-do-inner__icon">
+              <img src="/images/icon04.png" alt="image description" />
+            </div>
+            <strong class="name">Dry Eye Clinic</strong>
+            <span class="description"
+              >Dry eye disease is debilitating, but it is treatable. What is the
+              cause of your dry eye disease?</span
+            >
+            <ul class="links">
+              {{ $category := "dry-eye-clinic" }}
+              {{ $type := "what-we-do" }}
+
+              {{ range $index, $page := .Pages }}
+                {{ if and (eq $page.Params.category $category) (eq $page.Type $type) }}
+                  <li><a href="{{$page.URL}}"> {{ $page.Title }}</a></li>
+                {{ end }}
+              {{ end }}
+            </ul>
+          </div>
+        </div>
+      </div>
+    </li>
+    <li class="what-we-do-box">
+      <div
+        class="what-we-do-inner hover-elem"
+        style="background-image: url(/images/8-AcuteRedEyes.jpg);"
+      >
+        <div class="overlay">
+          <div class="services__icon">
+            <img src="/images/icon09.png" alt="image description" />
+          </div>
+          <strong class="services__title">Acute Red Eyes </strong>
+        </div>
+        <div class="what-we-do-inner__rollover opener">
+          <div class="what-we-do-inner__rollover__box">
+            <div class="what-we-do-inner__icon">
+              <img src="/images/icon09.png" alt="image description" />
+            </div>
+            <strong class="name">Acute Red Eyes</strong>
+            <span class="description"
+              >If you have a sudden-onset red eye condition, it is critical to
+              see a health professional to reduce the risk of permanent
+              damage.</span
+            >
+            <ul class="links">
+              {{ $category := "acute-red-eyes" }}
+              {{ $type := "what-we-do" }}
+
+              {{ range $index, $page := .Pages }}
+                {{ if and (eq $page.Params.category $category) (eq $page.Type $type) }}
+                  <li><a href="{{$page.URL}}"> {{ $page.Title }}</a></li>
+                {{ end }}
+              {{ end }}
+            </ul>
+          </div>
+        </div>
+      </div>
+    </li>
+    <li class="what-we-do-box">
+      <div
+        class="what-we-do-inner hover-elem"
+        style="background-image: url(/images/9-AdvancedImagingTechnology.jpg);"
+      >
+        <div class="overlay">
+          <div class="services__icon">
+            <img src="/images/icon05.png" alt="image description" />
+          </div>
+          <strong class="services__title">Advanced Imaging Technology </strong>
+        </div>
+        <div class="what-we-do-inner__rollover opener">
+          <div class="what-we-do-inner__rollover__box">
+            <div class="what-we-do-inner__icon">
+              <img src="/images/icon05.png" alt="image description" />
+            </div>
+            <strong class="name">Advanced Imaging Technology</strong>
+            <span class="description"
+              >As innovators, we love technology. Your optometric care is more
+              scientific and accurate than ever before.</span
+            >
+            <ul class="links">
+              {{ $category := "advanced-imaging-technology" }}
+              {{ $type := "what-we-do" }}
+
+              {{ range $index, $page := .Pages }}
+                {{ if and (eq $page.Params.category $category) (eq $page.Type $type) }}
+                  <li><a href="{{$page.URL}}"> {{ $page.Title }}</a></li>
+                {{ end }}
+              {{ end }}
+            </ul>
+          </div>
+        </div>
+      </div>
+    </li>
+    <li class="what-we-do-box">
+      <div
+        class="what-we-do-inner hover-elem"
+        style="background-image: url(/images/10-EyeDisease.jpg);"
+      >
+        <div class="overlay">
+          <div class="services__icon">
+            <img src="/images/icon10.png" alt="image description" />
+          </div>
+          <strong class="services__title">Eye Disease </strong>
+        </div>
+        <div class="what-we-do-inner__rollover opener">
+          <div class="what-we-do-inner__rollover__box">
+            <div class="what-we-do-inner__icon">
+              <img src="/images/icon10.png" alt="image description" />
+            </div>
+            <strong class="name">Eye Disease</strong>
+            <span class="description"
+              >We diagnose, monitor and treat a variety of eye diseases. Talk to
+              us about your eye health and preventive measures.</span
+            >
+            <ul class="links">
+              {{ $category := "eye-disease" }}
+              {{ $type := "what-we-do" }}
+
+              {{ range $index, $page := .Pages }}
+                {{ if and (eq $page.Params.category $category) (eq $page.Type $type) }}
+                  <li><a href="{{$page.URL}}"> {{ $page.Title }}</a></li>
+                {{ end }}
+              {{ end }}
+            </ul>
+          </div>
+        </div>
+      </div>
+    </li>
+    <li class="what-we-do-box what-we-do-box-double">
+      <div
+        class="what-we-do-inner hover-elem"
+        style="background-image: url('/images/img30-lilac.jpg');"
+      >
+        <div class="container">
+          <div class="content-section--white-color">
+            <div class="content-section__haeding haeding__with-extra-border">
+              <strong class="haeding__top-text top-text--small"
+                >Tell your friends about us so they can see their best
+                too!</strong
+              >
+              <p>Help us build our community of healthy eyes</p>
+            </div>
+            <strong class="promo-text"
+              >Exceptional eye care for your friend
+              <span>$50 Gift Card for you</span></strong
+            >
+          </div>
+        </div>
+      </div>
+    </li>
+  </ul>
+</div>
+<div
+  class="content-section online-book-section"
+  style="background-image: url(/images/img38.jpg);"
+>
+  <div class="container">
+    <div class="online-box">
+      <div class="online-box-heading"><h2>Book Online - It’s easy</h2></div>
+      <p>
+        We’ve made it super easy to schedule your next appointment with our
+        online booking system.
+      </p>
+      <a href="/contact" class="btn btn--light-blue">BOOK NOW</a>
+    </div>
+  </div>
+</div>
+
+{{ partial "footer.html" . }}

@@ -1,0 +1,43 @@
+
+{{ partial "header.html" . }}
+
+{{ partial "topnav.html" . }}
+
+<div class="intro-section" style="background-image: url(/images/intro-bg.png);">
+<div class="container">
+<div class="intro-section__wrap">
+<div class="intro-section__heading">
+<h2 class="intro-section__title">Search </h2>
+</div>
+<div class="intro-section__row">
+<div class="intro-section__col intro-section__col_content">
+<p>Search for patient resources, blog posts, and information about our practice</p>
+    <form action="{{ "search" | absURL }}">
+      <input id="search-query" name="s"/>
+      <input type="submit" class="button" value="Search">
+    </form>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="content-section">
+<div class="container">
+<div class="content-wrap">
+    <div id="search-results">
+     <h3>Results</h3>
+    </div>
+</div>
+</div>
+</div>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.0/fuse.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js"></script>
+
+{{ $js := resources.Get "js/search.js" | fingerprint }}
+<script src="{{ $js.Permalink }}">
+    </script>
+
+
+{{ partial "footer.html" . }}
