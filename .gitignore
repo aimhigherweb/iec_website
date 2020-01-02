@@ -71,5 +71,3 @@ yarn-error.log
 # IDE
 .idea
 
-# Oiriginal resource
-hugo(backup)
