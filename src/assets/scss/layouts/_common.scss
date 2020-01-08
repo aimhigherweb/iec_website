@@ -1827,7 +1827,7 @@ h2 {
 .img-on-absolute {
 
   @include media("<tablet") {
-    background: url(../images/bg-box.jpg) no-repeat;
+    background: url(../../../static/images/bg-box.jpg) no-repeat;
     text-align: right;
     margin: 0 0 20px;
 
@@ -2600,7 +2600,7 @@ h2 {
       position: absolute;
       width: 24px;
       height: 24px;
-      background: url(../images/img-circle.png) no-repeat;
+      background: url(../../../static/images/img-circle.png) no-repeat;
       background-position: 50% 50%;
       background-size: cover;
       bottom: -45px;
@@ -2678,7 +2678,7 @@ h2 {
 }
 
 .year-box {
-  background: url(../images/img-circle.png) no-repeat;
+  background: url(../../../static/images/img-circle.png) no-repeat;
   font: bold 17px/1 $montserat-font;
   background-position: 50% 50%;
   background-size: cover;
