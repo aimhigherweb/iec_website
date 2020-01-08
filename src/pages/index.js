@@ -1,19 +1,44 @@
 import React from "react"
-import { Link } from "gatsby"
+import { Link, graphql } from "gatsby"
 
-import Layout from "../components/layout"
-import SEO from "../components/seo"
-
-const IndexPage = () => (
-  <Layout>
-    <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-    </div>
-    <Link to="/page-2/">Go to page 2</Link>
-  </Layout>
-)
-
-export default IndexPage
+export default function Index({ data }) {
+    const { edges: posts } = data.allMarkdownRemark
+    return (
+      <div className="blog-posts">
+          {posts
+            .filter(post => post.node.frontmatter.title.length > 0)
+            .map(({ node: post }) => {
+                return (
+                  <div className="blog-post-preview" key={post.id}>
+                      <h1>
+                          <Link to={post.parent.relativeDirectory + '/' + post.parent.name}>{post.frontmatter.title}</Link>
+                      </h1>
+                      <p>{post.excerpt}</p>
+                  </div>
+                )
+            })}
+      </div>
+    )
+}
+export const pageQuery = graphql`
+    query IndexQuery {
+        allMarkdownRemark {
+            edges {
+                node {
+                    excerpt(pruneLength: 250)
+                    id
+                    frontmatter {
+                        title
+                    }
+                    parent {
+                        id
+                        ... on File {
+                            name
+                            relativeDirectory
+                        }
+                    }
+                }
+            }
+        }
+    }
+`
