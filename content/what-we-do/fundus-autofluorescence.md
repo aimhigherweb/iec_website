@@ -26,18 +26,25 @@ Accumulation of lipofuscin in the RPE (layer under the retina) is strongly assoc
 
 Hereditary retinal conditions, such as retinitis pigmentosa (RP), cone dystrophy, Best's disease, Stargardt's disease and vitelliform macular dystrophy are visually debillitating conditions that manifest with changes in metabolic activity of the RPE (layer under the retina). This can be detected effectively using FAF imaging to monitor for early changes in at risk individuals.
 
-#### Plaquenil Retinopathy  
+#### Plaquenil Retinopathy
 
-Plaquenil is used commonly for the treatment of systemic lupus erythmatosus (SLE), rheumatoid arthritis, and other inflammatory conditions. Retinal toxicity from plaquenil use has been recognised for many years, with the risk of toxicity being largly dependent on dosage and duration of treatment. Plaquenil toxicity cannot be treated and can potentially cause irreversible loss of central vision. Studies have shown that central vision can be preserved if damage is detected prior to changes in the RPE (layer under the retina). 
+Plaquenil is used commonly for the treatment of systemic lupus erythmatosus (SLE), rheumatoid arthritis, and other inflammatory conditions. Retinal toxicity from plaquenil use has been recognised for many years, with the risk of toxicity being largely dependent on dosage and duration of treatment.<sup>7</sup> Plaquenil toxicity cannot be treated and can potentially cause irreversible loss of central vision.<sup>7</sup> Studies have shown that central vision can be preserved if damage is detected prior to changes in the RPE (layer under the retina).<sup>7</sup> 
 
-The American Academy of Ophthalmology recommend a baseline visual screening within the first year of commencing the drug. Typically, annual visual screenings should commence after there has been five years of exposure to the drug. This may be more frequent if other risk factors are present. Visual screenings for plaquenil toxicity include [automated visual fields](https://innovativeeyecare.com.au/what-we-do/visual-field-testing/https://innovativeeyecare.com.au/what-we-do/visual-field-testing/), [OCT](https://innovativeeyecare.com.au/what-we-do/oct/https://innovativeeyecare.com.au/what-we-do/oct/) and FAF. 
+The American Academy of Ophthalmology recommend a baseline visual screening within the first year of commencing the drug.<sup>7</sup> Typically, annual visual screenings should commence after there has been five years of exposure to the drug. This may be more frequent if other risk factors are present. Visual screenings for plaquenil toxicity include [automated visual fields](https://innovativeeyecare.com.au/what-we-do/visual-field-testing/https://innovativeeyecare.com.au/what-we-do/visual-field-testing/), [OCT](https://innovativeeyecare.com.au/what-we-do/oct/https://innovativeeyecare.com.au/what-we-do/oct/) and FAF. <sup>7</sup>
 
+#### References
 
-
-
-
-
-
-
-
-
+1. Lois N, Forrester JV. Fundus Auto fluorescence. Philadelphia: Lippincott Williams & Wilkins; 2009. 
+2. Amin, XU. Changzheng, Chen. (2018). “Clinical application of ultra-wide field fundus auto fluorescence imaging”. Chinese Journal of Ocular Fundus Diseases. 34(1): 89-92. 
+3. Frampton, GK. Kalita, N. Payne, L. Colquitt, J. Loveman, E. (2016). “Accuracy of fundus auto fluorescence imaging for the diagnosis and monitoring of retinal conditions: a systematic review.” Health Technol Assess. 20(31). 
+4. Theelen T, Berendschot TT, Boon CJ, Hoyng CB, Klevering BJ. (2008). “Analysis of visual pigment by fundus autofluorescence.” Exp Eye Res.86:296-304. 
+5. Keel, S. et al. (2017). “Prevalence of Age-Related Macular Degeneration in Australia”. Jama Ophthalmol. 135(11):1242-1249. 
+6. Practice management in the era of anti-VEGF therapy. Ophthalmology Time Europe; 2006(2)4:S1-8. 
+7. Marmor, M. Kellner, U. Lai, T. Melles, R. Mieler, W. (2016). “Recommendations on screening for chloroquine and hydroxychloroquine retinopathy (2016 revision)”. American Academy of Ophthalmology. 123(6): 1386-1394. 
+8. Lois N, Forrester JV. Fundus Auto fluorescence. Philadelphia: Lippincott Williams & Wilkins; 2009. 
+9. Amin, XU. Changzheng, Chen. (2018). “Clinical application of ultra-wide field fundus auto fluorescence imaging”. Chinese Journal of Ocular Fundus Diseases. 34(1): 89-92. 
+10. Frampton, GK. Kalita, N. Payne, L. Colquitt, J. Loveman, E. (2016). “Accuracy of fundus auto fluorescence imaging for the diagnosis and monitoring of retinal conditions: a systematic review.” Health Technol Assess. 20(31). 
+11. Theelen T, Berendschot TT, Boon CJ, Hoyng CB, Klevering BJ. (2008). “Analysis of visual pigment by fundus autofluorescence.” Exp Eye Res.86:296-304. 
+12. Keel, S. et al. (2017). “Prevalence of Age-Related Macular Degeneration in Australia”. Jama Ophthalmol. 135(11):1242-1249. 
+13. Practice management in the era of anti-VEGF therapy. Ophthalmology Time Europe; 2006(2)4:S1-8. 
+14. Marmor, M. Kellner, U. Lai, T. Melles, R. Mieler, W. (2016). “Recommendations on screening for chloroquine and hydroxychloroquine retinopathy (2016 revision)”. American Academy of Ophthalmology. 123(6): 1386-1394.
