@@ -1,6 +1,10 @@
 ---
 title: Harold Gent
 jobtitle: Operations and Technical Support Manager
+skill1: Resourceful
+skill2: Proactive
+skill3: Green Thumb
+rating3: ''
 ---
 Harold has joined Innovative Eye Care from a background in the optics industry as a qualified optical dispenser and ophthalmic equipment sales manager. Recently, Harold’s experience in contact lens solutions supply and technical support has broadened his appreciation of each aspect of vision and eye health.
 
