@@ -3,8 +3,9 @@ title: Dylan Bentley
 jobtitle: Optometrist
 skill1: Contact Lenses
 rating1: ''
-skill2: Binocular Vision
-skill3: Ocular Disease
+skill2: Paediatric Vision
+skill3: Diabetic Eye Care
+skill4: Glaucoma
 ---
 Dylan is a therapeutically endorsed optometrist who has recently graduated from Flinders University. Before graduating, he was 1 of only 4 recipients of an American Academy of Optometry scholarship for clinical and academic excellence nationwide. This gave him the opportunity to undertake placement at the State University of New York's College of Optometry, as well as at our very own Australian College of Optometry in Victoria.
 
