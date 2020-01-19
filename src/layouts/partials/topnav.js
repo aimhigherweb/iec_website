@@ -34,7 +34,7 @@ class TopNav extends Component {
                 </ul>
               </div>
               <ul className="main-nav main-nav--floated-left">
-                <li className="active">
+                <li>
                   <Link to="/">
                     <span>Home</span>
                   </Link>
