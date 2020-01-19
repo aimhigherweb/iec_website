@@ -4,6 +4,7 @@ import videojs from 'video.js';
 import $ from 'jquery';
 
 import Header from '../layouts/partials/header';
+import TopNav from "../layouts/partials/topnav";
 
 class Index extends Component {
 
@@ -29,6 +30,7 @@ class Index extends Component {
     return (
       <>
         <Header/>
+        <TopNav/>
         <div
           className="content-section simple-section content-section--white-color content-section--with-overlay white--overlay text-center"
           style={{backgroundImage: 'url(/images/img01.jpg)'}}
