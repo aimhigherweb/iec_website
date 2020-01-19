@@ -47,21 +47,19 @@ class Header extends Component {
           <header id="header">
             <ul className="socials-list">
               <li>
-                <Link to="https://www.facebook.com/innovativeeyecareadelaide">
+                <a href="https://www.facebook.com/innovativeeyecareadelaide">
                   <i className="icon-facebook"/><span className="hidden">facebook</span>
-                </Link>
+                </a>
               </li>
               <li>
-                <Link to="http://instagram.com/innovative_eyecare">
+                <a href="http://instagram.com/innovative_eyecare">
                   <i className="icon-instagramm"/><span className="hidden">instagram</span>
-                </Link>
+                </a>
               </li>
               <li>
-                <Link to="https://twitter.com/iecadelaide">
+                <a href="https://twitter.com/iecadelaide">
                   <i className="icon-twitter"/><span className="hidden">twitter</span>
-                </Link>
-              </li>
-              <li>
+                </a>
               </li>
             </ul>
 
