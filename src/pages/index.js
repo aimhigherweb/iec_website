@@ -5,6 +5,7 @@ import $ from 'jquery';
 
 import Header from '../layouts/partials/header';
 import TopNav from "../layouts/partials/topnav";
+import Footer from "../layouts/partials/footer";
 
 class Index extends Component {
 
@@ -727,6 +728,7 @@ class Index extends Component {
             </div>
           </div>
         </div>
+        <Footer />
       </>
     );
   }
