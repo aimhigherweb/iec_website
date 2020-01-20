@@ -1,5 +1,7 @@
 import React, {Component} from 'react';
 import {Link} from 'gatsby';
+import videojs from 'video.js';
+import $ from 'jquery';
 
 import Header from '../../layouts/partials/header';
 import TopNav from "../../layouts/partials/topnav";
@@ -7,7 +9,26 @@ import Footer from "../../layouts/partials/footer";
 
 class WhatWeDo extends Component {
 
+  state = {
+    hover: false,
+  };
+
+  onToggleHover = () => {
+    this.setState({
+      hover: !this.state.hover,
+    })
+  };
+
+  playMainVideo = () => {
+    $("#play-video-button").hide();
+    $(".main-video__container").slideDown();
+    videojs('main-video').play();
+  };
+
   render() {
+    const { data } = this.props;
+    const list = data.allMarkdownRemark.edges;
+
     return (
       <>
         <Header />
@@ -35,7 +56,7 @@ class WhatWeDo extends Component {
             </div>
             <button
               id="play-video-button"
-              onClick="playMainVideo();"
+              onClick={this.playMainVideo}
               className="btn btn--transparent"
             >
               WATCH VIDEO
@@ -113,9 +134,13 @@ class WhatWeDo extends Component {
         </div>
         <div className="what-we-do-section">
           <ul className="what-we-do-list">
-            <li className="what-we-do-box">
+            <li
+              className="what-we-do-box"
+              onMouseEnter={this.onToggleHover}
+              onMouseLeave={this.onToggleHover}
+            >
               <div
-                className="what-we-do-inner hover-elem"
+                className={this.state.hover ? 'what-we-do-inner hover-elem hover' : 'what-we-do-inner hover-elem'}
                 style={{backgroundImage: 'url(/images/1-Consultations.jpg)'}}
               >
                 <div className="overlay">
@@ -133,16 +158,19 @@ class WhatWeDo extends Component {
                     <span className="description">
                       We welcome all new patients. Book online or give us a call today.
                     </span>
-                    {/*<ul className="links">*/}
-                    {/*  {{$category: = "consultations"}}*/}
-                    {/*  {{$type: = "what-we-do"}}*/}
-
-                    {/*  {{range $index, $page: = .Pages}}*/}
-                    {/*  {{if and(eq $page.Params.category $category) (eq $page.Type $type)}}*/}
-                    {/*  <li><a href="{{$page.URL}}"> {{$page.Title}}</a></li>*/}
-                    {/*  {{end}}*/}
-                    {/*  {{end}}*/}
-                    {/*</ul>*/}
+                    <ul className="links">
+                      {
+                        list.map(({ node }, i ) => {
+                          if (node.frontmatter.category === 'consultations') {
+                            return (
+                              <li key={i}>
+                                <Link to={ `/what-we-do/${node.parent.name}` }> { node.frontmatter.title }</Link>
+                              </li>
+                            );
+                          }
+                        })
+                      }
+                    </ul>
                   </div>
                 </div>
               </div>
@@ -167,16 +195,19 @@ class WhatWeDo extends Component {
                     <span className="description">
                       You see the world through your eyewear. We want to enhance it with quality frames and lenses.
                     </span>
-                    {/*<ul className="links">*/}
-                    {/*  {{$category: = "eyewear-experts"}}*/}
-                    {/*  {{$type: = "what-we-do"}}*/}
-
-                    {/*  {{range $index, $page: = .Pages}}*/}
-                    {/*  {{if and(eq $page.Params.category $category) (eq $page.Type $type)}}*/}
-                    {/*  <li><a href="{{$page.URL}}"> {{$page.Title}}</a></li>*/}
-                    {/*  {{end}}*/}
-                    {/*  {{end}}*/}
-                    {/*</ul>*/}
+                    <ul className="links">
+                      {
+                        list.map(({ node }, i ) => {
+                          if (node.frontmatter.category === 'eyewear-experts') {
+                            return (
+                              <li key={i}>
+                                <Link to={ `/what-we-do/${node.parent.name}` }> { node.frontmatter.title }</Link>
+                              </li>
+                            );
+                          }
+                        })
+                      }
+                    </ul>
                   </div>
                 </div>
               </div>
@@ -201,16 +232,19 @@ class WhatWeDo extends Component {
                     <span className="description">
                       We fit rigid and soft lenses to your eyes. Benefit from the latest in contact lens technology.
                     </span>
-                    {/*<ul className="links">*/}
-                    {/*  {{$category: = "contact-lenses"}}*/}
-                    {/*  {{$type: = "what-we-do"}}*/}
-
-                    {/*  {{range $index, $page: = .Pages}}*/}
-                    {/*  {{if and(eq $page.Params.category $category) (eq $page.Type $type)}}*/}
-                    {/*  <li><a href="{{$page.URL}}"> {{$page.Title}}</a></li>*/}
-                    {/*  {{end}}*/}
-                    {/*  {{end}}*/}
-                    {/*</ul>*/}
+                    <ul className="links">
+                      {
+                        list.map(({ node }, i ) => {
+                          if (node.frontmatter.category === 'contact-lenses') {
+                            return (
+                              <li key={i}>
+                                <Link to={ `/what-we-do/${node.parent.name}` }> { node.frontmatter.title }</Link>
+                              </li>
+                            );
+                          }
+                        })
+                      }
+                    </ul>
                   </div>
                 </div>
               </div>
@@ -235,16 +269,19 @@ class WhatWeDo extends Component {
                     <span className="description">
                       Experience the freedom of ortho-K overnight reshaping contact lens molds.
                     </span>
-                    {/*<ul className="links">*/}
-                    {/*  {{$category: = "orthok"}}*/}
-                    {/*  {{$type: = "what-we-do"}}*/}
-
-                    {/*  {{range $index, $page: = .Pages}}*/}
-                    {/*  {{if and(eq $page.Params.category $category) (eq $page.Type $type)}}*/}
-                    {/*  <li><a href="{{$page.URL}}"> {{$page.Title}}</a></li>*/}
-                    {/*  {{end}}*/}
-                    {/*  {{end}}*/}
-                    {/*</ul>*/}
+                    <ul className="links">
+                      {
+                        list.map(({ node }, i ) => {
+                          if (node.frontmatter.category === 'orthok') {
+                            return (
+                              <li key={i}>
+                                <Link to={ `/what-we-do/${node.parent.name}` }> { node.frontmatter.title }</Link>
+                              </li>
+                            );
+                          }
+                        })
+                      }
+                    </ul>
                   </div>
                 </div>
               </div>
@@ -269,16 +306,19 @@ class WhatWeDo extends Component {
                     <span className="description">
                       Are you long-sighted or short-sighted? Is your vision changing? What does it all mean?
                     </span>
-                    {/*<ul className="links">*/}
-                    {/*  {{$category: = "refractive-conditions"}}*/}
-                    {/*  {{$type: = "what-we-do"}}*/}
-
-                    {/*  {{range $index, $page: = .Pages}}*/}
-                    {/*  {{if and(eq $page.Params.category $category) (eq $page.Type $type)}}*/}
-                    {/*  <li><a href="{{$page.URL}}"> {{$page.Title}}</a></li>*/}
-                    {/*  {{end}}*/}
-                    {/*  {{end}}*/}
-                    {/*</ul>*/}
+                    <ul className="links">
+                      {
+                        list.map(({ node }, i ) => {
+                          if (node.frontmatter.category === 'refractive-conditions') {
+                            return (
+                              <li key={i}>
+                                <Link to={ `/what-we-do/${node.parent.name}` }> { node.frontmatter.title }</Link>
+                              </li>
+                            );
+                          }
+                        })
+                      }
+                    </ul>
                   </div>
                 </div>
               </div>
@@ -303,16 +343,19 @@ class WhatWeDo extends Component {
                     <span className="description">
                       Children’s vision is crucial to learning and quality of life. Help your child achieve their very best sight!
                     </span>
-                    {/*<ul className="links">*/}
-                    {/*  {{$category: = "paediatric-vision"}}*/}
-                    {/*  {{$type: = "what-we-do"}}*/}
-
-                    {/*  {{range $index, $page: = .Pages}}*/}
-                    {/*  {{if and(eq $page.Params.category $category) (eq $page.Type $type)}}*/}
-                    {/*  <li><a href="{{$page.URL}}"> {{$page.Title}}</a></li>*/}
-                    {/*  {{end}}*/}
-                    {/*  {{end}}*/}
-                    {/*</ul>*/}
+                    <ul className="links">
+                      {
+                        list.map(({ node }, i ) => {
+                          if (node.frontmatter.category === 'paediatric-vision') {
+                            return (
+                              <li key={i}>
+                                <Link to={ `/what-we-do/${node.parent.name}` }> { node.frontmatter.title }</Link>
+                              </li>
+                            );
+                          }
+                        })
+                      }
+                    </ul>
                   </div>
                 </div>
               </div>
@@ -337,16 +380,19 @@ class WhatWeDo extends Component {
                     <span className="description">
                       Dry eye disease is debilitating, but it is treatable. What is the cause of your dry eye disease?
                     </span>
-                    {/*<ul className="links">*/}
-                    {/*  {{$category: = "dry-eye-clinic"}}*/}
-                    {/*  {{$type: = "what-we-do"}}*/}
-
-                    {/*  {{range $index, $page: = .Pages}}*/}
-                    {/*  {{if and(eq $page.Params.category $category) (eq $page.Type $type)}}*/}
-                    {/*  <li><a href="{{$page.URL}}"> {{$page.Title}}</a></li>*/}
-                    {/*  {{end}}*/}
-                    {/*  {{end}}*/}
-                    {/*</ul>*/}
+                    <ul className="links">
+                      {
+                        list.map(({ node }, i ) => {
+                          if (node.frontmatter.category === 'dry-eye-clinic') {
+                            return (
+                              <li key={i}>
+                                <Link to={ `/what-we-do/${node.parent.name}` }> { node.frontmatter.title }</Link>
+                              </li>
+                            );
+                          }
+                        })
+                      }
+                    </ul>
                   </div>
                 </div>
               </div>
@@ -371,16 +417,19 @@ class WhatWeDo extends Component {
                     <span className="description">
                       If you have a sudden-onset red eye condition, it is critical to see a health professional to reduce the risk of permanent damage.
                     </span>
-                    {/*<ul className="links">*/}
-                    {/*  {{$category: = "acute-red-eyes"}}*/}
-                    {/*  {{$type: = "what-we-do"}}*/}
-
-                    {/*  {{range $index, $page: = .Pages}}*/}
-                    {/*  {{if and(eq $page.Params.category $category) (eq $page.Type $type)}}*/}
-                    {/*  <li><a href="{{$page.URL}}"> {{$page.Title}}</a></li>*/}
-                    {/*  {{end}}*/}
-                    {/*  {{end}}*/}
-                    {/*</ul>*/}
+                    <ul className="links">
+                      {
+                        list.map(({ node }, i ) => {
+                          if (node.frontmatter.category === 'acute-red-eyes') {
+                            return (
+                              <li key={i}>
+                                <Link to={ `/what-we-do/${node.parent.name}` }> { node.frontmatter.title }</Link>
+                              </li>
+                            );
+                          }
+                        })
+                      }
+                    </ul>
                   </div>
                 </div>
               </div>
@@ -405,16 +454,19 @@ class WhatWeDo extends Component {
                     <span className="description">
                       As innovators, we love technology. Your optometric care is more scientific and accurate than ever before.
                     </span>
-                    {/*<ul className="links">*/}
-                    {/*  {{$category: = "advanced-imaging-technology"}}*/}
-                    {/*  {{$type: = "what-we-do"}}*/}
-
-                    {/*  {{range $index, $page: = .Pages}}*/}
-                    {/*  {{if and(eq $page.Params.category $category) (eq $page.Type $type)}}*/}
-                    {/*  <li><a href="{{$page.URL}}"> {{$page.Title}}</a></li>*/}
-                    {/*  {{end}}*/}
-                    {/*  {{end}}*/}
-                    {/*</ul>*/}
+                    <ul className="links">
+                      {
+                        list.map(({ node }, i ) => {
+                          if (node.frontmatter.category === 'advanced-imaging-technology') {
+                            return (
+                              <li key={i}>
+                                <Link to={ `/what-we-do/${node.parent.name}` }> { node.frontmatter.title }</Link>
+                              </li>
+                            );
+                          }
+                        })
+                      }
+                    </ul>
                   </div>
                 </div>
               </div>
@@ -439,16 +491,19 @@ class WhatWeDo extends Component {
                     <span className="description">
                       We diagnose, monitor and treat a variety of eye diseases. Talk to us about your eye health and preventive measures.
                     </span>
-                    {/*<ul className="links">*/}
-                    {/*  {{$category: = "eye-disease"}}*/}
-                    {/*  {{$type: = "what-we-do"}}*/}
-
-                    {/*  {{range $index, $page: = .Pages}}*/}
-                    {/*  {{if and(eq $page.Params.category $category) (eq $page.Type $type)}}*/}
-                    {/*  <li><a href="{{$page.URL}}"> {{$page.Title}}</a></li>*/}
-                    {/*  {{end}}*/}
-                    {/*  {{end}}*/}
-                    {/*</ul>*/}
+                    <ul className="links">
+                      {
+                        list.map(({ node }, i ) => {
+                          if (node.frontmatter.category === 'eye-disease') {
+                            return (
+                              <li key={i}>
+                                <Link to={ `/what-we-do/${node.parent.name}` }> { node.frontmatter.title }</Link>
+                              </li>
+                            );
+                          }
+                        })
+                      }
+                    </ul>
                   </div>
                 </div>
               </div>
@@ -500,3 +555,23 @@ class WhatWeDo extends Component {
 }
 
 export default WhatWeDo;
+
+export const query = graphql`
+    query WhatWeDoQuery {
+        allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/(what-we-do)/.*\\\\.md$/"}}) {
+            edges {
+                node {
+                    frontmatter {
+                        title
+                        category
+                    }
+                    parent {
+                        ... on File {
+                            name
+                        }
+                    }
+                }
+            }
+        }
+    }
+`;

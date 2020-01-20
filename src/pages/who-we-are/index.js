@@ -336,7 +336,7 @@ class WhoWeAre extends Component {
 export default WhoWeAre;
 
 export const query = graphql`
-    query DataQuery {
+    query WhoWeAreQuery {
         allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/(who-we-are)/.*\\\\.md$/"}}) {
             edges {
                 node {
@@ -365,5 +365,3 @@ export const query = graphql`
         }
     }
 `;
-
-
