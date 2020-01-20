@@ -1,7 +1,6 @@
 import React, { Component } from "react"
 import { Helmet } from 'react-helmet'
 import { Link } from "gatsby"
-import PropTypes from "prop-types"
 
 class Header extends Component {
 
@@ -42,7 +41,43 @@ class Header extends Component {
   render() {
     return (
       <>
-        <Helmet></Helmet>
+        <Helmet>
+          <link rel="shortcut icon" href="/images/favicon.ico" />
+          <script async type="text/javascript" src="https://code.jquery.com/jquery-1.11.2.min.js" />
+          <script async type="text/javascript" src="/js/main.js" />
+
+          <link
+            href="https://fonts.googleapis.com/css?family=Open+Sans:400,700"
+            rel="stylesheet"
+            type="text/css"
+          />
+          <link
+            href="https://fonts.googleapis.com/css?family=Montserrat:400,700"
+            rel="stylesheet"
+            type="text/css"
+          />
+          <link rel="stylesheet" href="/css/video-js.min.css" />
+          <script src="/js/video.min.js" type="text/javascript" />
+          <script async src="https://www.googletagmanager.com/gtag/js?id=UA-129433065-1" />
+          <script>
+            {`
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'UA-129433065-1');
+            `}
+          </script>
+          <script>
+            {`
+              !function(g,s,q,r,d){r=g[r]=g[r]||function(){(r.q=r.q||[]).push(
+              arguments)};d=s.createElement(q);q=s.getElementsByTagName(q)[0];
+              d.src='//d1l6p2sc9645hc.cloudfront.net/tracker.js';q.parentNode.
+              insertBefore(d,q)}(window,document,'script','_gs');
+              _gs('GSN-212646-P');
+            `}
+          </script>
+
+        </Helmet>
         <div id="wrapper">
           <header id="header">
             <ul className="socials-list">

@@ -9,6 +9,9 @@ import OnlineBooking from "../../layouts/partials/online-booking";
 class WhoWeAre extends Component {
 
   render() {
+    const { data } = this.props;
+    const list = data.allMarkdownRemark.edges;
+
     return (
       <>
         <Header />
@@ -27,7 +30,7 @@ class WhoWeAre extends Component {
                 id="main-video"
                 className="video-js vjs-default-skin vjs-big-play-centered"
                 controls
-                autoplay
+                autoPlay
                 muted
                 preload="auto"
                 data-setup='{"fluid":true}'
@@ -128,71 +131,74 @@ class WhoWeAre extends Component {
             </div>
           </div>
           <div>
-            {/*<ul className="team-list">*/}
-            {/*  {{ range (where .Pages "Type" "who-we-are") }}*/}
-            {/*  <li className="employee-box open-close">*/}
-            {/*    <div className="employee-inner hover-elem">*/}
-            {/*      <img src="/uploads/{{ .Params.photo }}" />*/}
-            {/*      <a href="/who-we-are/{{ .File.BaseFileName }}" className="employee-inner__rollover ">*/}
-            {/*        <!-- a href="#" className="employee-inner__rollover opener" -->*/}
-            {/*        <div className="employee-inner__rollover__box">*/}
-            {/*          <strong className="name">{{ .Title }}</strong>*/}
-            {/*          <span className="position">{{ .Params.jobtitle }}</span>*/}
-            {/*          <span className="btn-opener"><i className="icon-zoom"></i></span>*/}
-            {/*        </div>*/}
-            {/*      </a>*/}
-            {/*    </div>*/}
-            {/*    <div className="employee-slide slide-content">*/}
-            {/*      <div className="employee-slide__inner">*/}
-            {/*        <div className="container">*/}
-            {/*          <div className="content-wrap">*/}
-            {/*            <h3>{{ .Title }}</h3>*/}
-            {/*            <div className="employee-slide__row">*/}
-            {/*              <div className="employee-slide__col employee-slide__col-content">*/}
-            {/*                <div className="employee-heading">*/}
-            {/*                  <h4>{{ .Params.jobtitle }}</h4>*/}
-            {/*                </div>*/}
-            {/*                <p>{{ .Summary }}</p>*/}
-            {/*              </div>*/}
-            {/*              <div className="employee-slide__col employee-slide__col-sidebar">*/}
-            {/*                <div className="employee-heading">*/}
-            {/*                  <h4>Interests</h4>*/}
-            {/*                </div>*/}
-            {/*                <ul className="progress-list">*/}
-            {/*                  <li>*/}
-            {/*                    <strong className="progress-list__label">{{ .Params.skill1 }}</strong>*/}
-            {/*                    <div className="progressbar">*/}
-            {/*                      <span className="line" style="width: {{ .Params.rating1 }}%"></span>*/}
-            {/*                    </div>*/}
-            {/*                  </li>*/}
-            {/*                  <li>*/}
-            {/*                    <strong className="progress-list__label">{{ .Params.skill2 }}</strong>*/}
-            {/*                    <div className="progressbar">*/}
-            {/*                      <span className="line" style="width: {{ .Params.rating2 }}%"></span>*/}
-            {/*                    </div>*/}
-            {/*                  </li>*/}
-            {/*                  <li>*/}
-            {/*                    <strong className="progress-list__label">{{ .Params.skill3 }}</strong>*/}
-            {/*                    <div className="progressbar">*/}
-            {/*                      <span className="line" style="width: {{ .Params.rating3 }}%"></span>*/}
-            {/*                    </div>*/}
-            {/*                  </li>*/}
-            {/*                  <li>*/}
-            {/*                    <strong className="progress-list__label">{{ .Params.skill4 }}</strong>*/}
-            {/*                    <div className="progressbar">*/}
-            {/*                      <span className="line" style="width: {{ .Params.rating4 }}%"></span>*/}
-            {/*                    </div>*/}
-            {/*                  </li>*/}
-            {/*                </ul>*/}
-            {/*              </div>*/}
-            {/*            </div>*/}
-            {/*          </div>*/}
-            {/*        </div>*/}
-            {/*      </div>*/}
-            {/*    </div>*/}
-            {/*  </li>*/}
-            {/*  {{ end }}*/}
-            {/*</ul>*/}
+            <ul className="team-list">
+              {
+                list.map(({ node }, i ) => {
+                  return (
+                    <li className="employee-box open-close" key={i}>
+                      <div className="employee-inner hover-elem">
+                        <img src={'/uploads/' + node.frontmatter.photo}  alt=""/>
+                        <Link to={'/who-we-are/' + node.parent.name} className="employee-inner__rollover ">
+                          <div className="employee-inner__rollover__box">
+                            <strong className="name">{ node.frontmatter.title }</strong>
+                            <span className="position">{ node.frontmatter.jobtitle }</span>
+                            <span className="btn-opener"><i className="icon-zoom"/></span>
+                          </div>
+                        </Link>
+                      </div>
+                      <div className="employee-slide slide-content">
+                      <div className="employee-slide__inner">
+                        <div className="container">
+                          <div className="content-wrap">
+                            <h3>{ node.frontmatter.title }</h3>
+                            <div className="employee-slide__row">
+                              <div className="employee-slide__col employee-slide__col-content">
+                                <div className="employee-heading">
+                                  <h4>{ node.frontmatter.jobtitle }</h4>
+                                </div>
+                                <p>{ node.html }</p>
+                              </div>
+                              <div className="employee-slide__col employee-slide__col-sidebar">
+                                <div className="employee-heading">
+                                  <h4>Interests</h4>
+                                </div>
+                                <ul className="progress-list">
+                                  <li>
+                                    <strong className="progress-list__label">{ node.frontmatter.skill1 }</strong>
+                                    <div className="progressbar">
+                                      <span className="line" style={{width: node.frontmatter.rating1 + '%'}}/>
+                                    </div>
+                                  </li>
+                                  <li>
+                                    <strong className="progress-list__label">{ node.frontmatter.skill2 }</strong>
+                                    <div className="progressbar">
+                                      <span className="line" style={{width: node.frontmatter.rating2 + '%' }}/>
+                                    </div>
+                                  </li>
+                                  <li>
+                                    <strong className="progress-list__label">{ node.frontmatter.skill3 }</strong>
+                                    <div className="progressbar">
+                                      <span className="line" style={{width: node.frontmatter.rating3 + '%'}}/>
+                                    </div>
+                                  </li>
+                                  <li>
+                                    <strong className="progress-list__label">{ node.frontmatter.skill4 }</strong>
+                                    <div className="progressbar">
+                                      <span className="line" style={{width: node.frontmatter.rating4 + '%'}}/>
+                                    </div>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    </li>
+                  );
+                })
+              }
+            </ul>
           </div>
         </div>
         <div
@@ -328,3 +334,36 @@ class WhoWeAre extends Component {
 }
 
 export default WhoWeAre;
+
+export const query = graphql`
+    query DataQuery {
+        allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/(who-we-are)/.*\\\\.md$/"}}) {
+            edges {
+                node {
+                    frontmatter {
+                        title
+                        photo
+                        jobtitle
+                        skill1
+                        skill2
+                        skill3
+                        skill4
+                        rating1
+                        rating2
+                        rating3
+                        rating4
+                    }
+                    fileAbsolutePath
+                    html
+                    parent {
+                        ... on File {
+                            name
+                        }
+                    }
+                }
+            }
+        }
+    }
+`;
+
+

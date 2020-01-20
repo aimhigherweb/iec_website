@@ -1,6 +1,5 @@
 import React, {Component} from "react"
-import {Helmet} from 'react-helmet'
-import {Link} from "gatsby"
+import {Link} from 'gatsby'
 
 class Footer extends Component {
 
@@ -11,11 +10,11 @@ class Footer extends Component {
           <div className="container container--with-layout">
             <div className="footer__left-col">
               <div className="footer-logo">
-                <a href="#">
+                <Link to="/">
                   <img src="/images/footer-logo.png" alt="innovative eye care"/>
-                </a>
+                </Link>
               </div>
-              <p>&copy; 2016 <a href="#">Innovative Eye Care Pty Ltd</a> All rights reserved.</p>
+              <p>&copy; 2016 <Link to="/">Innovative Eye Care Pty Ltd</Link> All rights reserved.</p>
             </div>
             <div className="footer__info">
               <div className="footer__col">

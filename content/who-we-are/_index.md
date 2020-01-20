@@ -1,3 +1,0 @@
----
-title: Who We Are
----
