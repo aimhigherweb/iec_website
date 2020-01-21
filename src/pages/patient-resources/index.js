@@ -8,6 +8,9 @@ import Footer from "../../layouts/partials/footer";
 class PatientResources extends Component {
 
   render() {
+    const { data } = this.props;
+    const list = data.allMarkdownRemark.edges;
+
     return (
       <>
         <Header />
@@ -116,18 +119,19 @@ class PatientResources extends Component {
                       <span className="description">
                         It's so important to care for your contact lenses correctly. Refresh yourself with these instructions.
                       </span>
-                      {/*<ul className="links">*/}
-                      {/*  {{$category: = "Contact Lens Instructions"}}*/}
-                      {/*  {{$type: = "patient-resources"}}*/}
-
-                      {/*  {{range $index, $page: = .Pages}}*/}
-                      {/*  {{if and(eq $page.Params.category $category) (eq $page.Type $type)}}*/}
-                      {/*  <li>*/}
-                      {/*    <a href="{{$page.URL}}"> {{$page.Title}}</a>*/}
-                      {/*  </li>*/}
-                      {/*  {{end}}*/}
-                      {/*  {{end}}*/}
-                      {/*</ul>*/}
+                      <ul className="links">
+                        {
+                          list.map(({ node }, i ) => {
+                            if (node.frontmatter.category === 'Contact Lens Instructions') {
+                              return (
+                                <li key={i}>
+                                  <Link to={ `/patient-resources/${node.parent.name}` }> { node.frontmatter.title }</Link>
+                                </li>
+                              );
+                            }
+                          })
+                        }
+                      </ul>
                     </div>
                   </div>
                 </div>
@@ -152,18 +156,19 @@ class PatientResources extends Component {
                       <span className="description">
                         These exercises are used to improve binocular vision skills in conjunction with an ongoing program.
                       </span>
-                      {/*<ul className="links">*/}
-                      {/*  {{$category: = "Vision Training"}}*/}
-                      {/*  {{$type: = "patient-resources"}}*/}
-
-                      {/*  {{range $index, $page: = .Pages}}*/}
-                      {/*  {{if and(eq $page.Params.category $category) (eq $page.Type $type)}}*/}
-                      {/*  <li>*/}
-                      {/*    <a href="{{$page.URL}}"> {{$page.Title}}</a>*/}
-                      {/*  </li>*/}
-                      {/*  {{end}}*/}
-                      {/*  {{end}}*/}
-                      {/*</ul>*/}
+                      <ul className="links">
+                        {
+                          list.map(({ node }, i ) => {
+                            if (node.frontmatter.category === 'Vision Training') {
+                              return (
+                                <li key={i}>
+                                  <Link to={ `/patient-resources/${node.parent.name}` }> { node.frontmatter.title }</Link>
+                                </li>
+                              );
+                            }
+                          })
+                        }
+                      </ul>
                     </div>
                   </div>
                 </div>
@@ -189,18 +194,19 @@ class PatientResources extends Component {
                         How does your lifestyle affect your eyes? Achieve your best eye health and vision every day.
                       </span>
                       <span className="sub-title">Using eye drops correctly</span>
-                      {/*<ul className="links">*/}
-                      {/*  {{$category: = "everyday-eye-care"}}*/}
-                      {/*  {{$type: = "patient-resources"}}*/}
-
-                      {/*  {{range $index, $page: = .Pages}}*/}
-                      {/*  {{if and(eq $page.Params.category $category) (eq $page.Type $type)}}*/}
-                      {/*  <li>*/}
-                      {/*    <a href="{{$page.URL}}"> {{$page.Title}}</a>*/}
-                      {/*  </li>*/}
-                      {/*  {{end}}*/}
-                      {/*  {{end}}*/}
-                      {/*</ul>*/}
+                      <ul className="links">
+                        {
+                          list.map(({ node }, i ) => {
+                            if (node.frontmatter.category === 'everyday-eye-care') {
+                              return (
+                                <li key={i}>
+                                  <Link to={ `/patient-resources/${node.parent.name}` }> { node.frontmatter.title }</Link>
+                                </li>
+                              );
+                            }
+                          })
+                        }
+                      </ul>
                     </div>
                   </div>
                 </div>
@@ -231,3 +237,23 @@ class PatientResources extends Component {
 }
 
 export default PatientResources;
+
+export const query = graphql`
+    query PatientResourcesQuery {
+        allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/(patient-resources)/.*\\\\.md$/"}}) {
+            edges {
+                node {
+                    frontmatter {
+                        title
+                        category
+                    }
+                    parent {
+                        ... on File {
+                            name
+                        }
+                    }
+                }
+            }
+        }
+    }
+`;
