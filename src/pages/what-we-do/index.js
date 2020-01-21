@@ -9,16 +9,6 @@ import Footer from "../../layouts/partials/footer";
 
 class WhatWeDo extends Component {
 
-  state = {
-    hover: false,
-  };
-
-  onToggleHover = () => {
-    this.setState({
-      hover: !this.state.hover,
-    })
-  };
-
   playMainVideo = () => {
     $("#play-video-button").hide();
     $(".main-video__container").slideDown();
@@ -136,11 +126,9 @@ class WhatWeDo extends Component {
           <ul className="what-we-do-list">
             <li
               className="what-we-do-box"
-              onMouseEnter={this.onToggleHover}
-              onMouseLeave={this.onToggleHover}
             >
               <div
-                className={this.state.hover ? 'what-we-do-inner hover-elem hover' : 'what-we-do-inner hover-elem'}
+                className="what-we-do-inner hover-elem"
                 style={{backgroundImage: 'url(/images/1-Consultations.jpg)'}}
               >
                 <div className="overlay">
@@ -160,15 +148,11 @@ class WhatWeDo extends Component {
                     </span>
                     <ul className="links">
                       {
-                        list.map(({ node }, i ) => {
-                          if (node.frontmatter.category === 'consultations') {
-                            return (
-                              <li key={i}>
-                                <Link to={ `/what-we-do/${node.parent.name}` }> { node.frontmatter.title }</Link>
-                              </li>
-                            );
-                          }
-                        })
+                        list.map(({ node }, i ) => node.frontmatter.category === 'consultations' ?
+                          (<li key={i}>
+                            <Link to={ `/what-we-do/${node.parent.name}` }> { node.frontmatter.title }</Link>
+                          </li>) : ''
+                        )
                       }
                     </ul>
                   </div>
@@ -197,15 +181,11 @@ class WhatWeDo extends Component {
                     </span>
                     <ul className="links">
                       {
-                        list.map(({ node }, i ) => {
-                          if (node.frontmatter.category === 'eyewear-experts') {
-                            return (
-                              <li key={i}>
-                                <Link to={ `/what-we-do/${node.parent.name}` }> { node.frontmatter.title }</Link>
-                              </li>
-                            );
-                          }
-                        })
+                        list.map(({ node }, i ) => node.frontmatter.category === 'eyewear-experts' ?
+                          (<li key={i}>
+                            <Link to={ `/what-we-do/${node.parent.name}` }> { node.frontmatter.title }</Link>
+                          </li>) : ''
+                        )
                       }
                     </ul>
                   </div>
@@ -234,15 +214,11 @@ class WhatWeDo extends Component {
                     </span>
                     <ul className="links">
                       {
-                        list.map(({ node }, i ) => {
-                          if (node.frontmatter.category === 'contact-lenses') {
-                            return (
-                              <li key={i}>
-                                <Link to={ `/what-we-do/${node.parent.name}` }> { node.frontmatter.title }</Link>
-                              </li>
-                            );
-                          }
-                        })
+                        list.map(({ node }, i ) => node.frontmatter.category === 'contact-lenses' ?
+                          (<li key={i}>
+                            <Link to={ `/what-we-do/${node.parent.name}` }> { node.frontmatter.title }</Link>
+                          </li>) : ''
+                        )
                       }
                     </ul>
                   </div>
@@ -271,15 +247,11 @@ class WhatWeDo extends Component {
                     </span>
                     <ul className="links">
                       {
-                        list.map(({ node }, i ) => {
-                          if (node.frontmatter.category === 'orthok') {
-                            return (
-                              <li key={i}>
-                                <Link to={ `/what-we-do/${node.parent.name}` }> { node.frontmatter.title }</Link>
-                              </li>
-                            );
-                          }
-                        })
+                        list.map(({ node }, i ) => node.frontmatter.category === 'orthok' ?
+                          (<li key={i}>
+                            <Link to={ `/what-we-do/${node.parent.name}` }> { node.frontmatter.title }</Link>
+                          </li>) : ''
+                        )
                       }
                     </ul>
                   </div>
@@ -308,15 +280,11 @@ class WhatWeDo extends Component {
                     </span>
                     <ul className="links">
                       {
-                        list.map(({ node }, i ) => {
-                          if (node.frontmatter.category === 'refractive-conditions') {
-                            return (
-                              <li key={i}>
-                                <Link to={ `/what-we-do/${node.parent.name}` }> { node.frontmatter.title }</Link>
-                              </li>
-                            );
-                          }
-                        })
+                        list.map(({ node }, i ) => node.frontmatter.category === 'refractive-conditions' ?
+                          (<li key={i}>
+                            <Link to={ `/what-we-do/${node.parent.name}` }> { node.frontmatter.title }</Link>
+                          </li>) : ''
+                        )
                       }
                     </ul>
                   </div>
@@ -345,15 +313,11 @@ class WhatWeDo extends Component {
                     </span>
                     <ul className="links">
                       {
-                        list.map(({ node }, i ) => {
-                          if (node.frontmatter.category === 'paediatric-vision') {
-                            return (
-                              <li key={i}>
-                                <Link to={ `/what-we-do/${node.parent.name}` }> { node.frontmatter.title }</Link>
-                              </li>
-                            );
-                          }
-                        })
+                        list.map(({ node }, i ) => node.frontmatter.category === 'paediatric-vision' ?
+                          (<li key={i}>
+                            <Link to={ `/what-we-do/${node.parent.name}` }> { node.frontmatter.title }</Link>
+                          </li>) : ''
+                        )
                       }
                     </ul>
                   </div>
@@ -382,15 +346,11 @@ class WhatWeDo extends Component {
                     </span>
                     <ul className="links">
                       {
-                        list.map(({ node }, i ) => {
-                          if (node.frontmatter.category === 'dry-eye-clinic') {
-                            return (
-                              <li key={i}>
-                                <Link to={ `/what-we-do/${node.parent.name}` }> { node.frontmatter.title }</Link>
-                              </li>
-                            );
-                          }
-                        })
+                        list.map(({ node }, i ) => node.frontmatter.category === 'dry-eye-clinic' ?
+                          (<li key={i}>
+                            <Link to={ `/what-we-do/${node.parent.name}` }> { node.frontmatter.title }</Link>
+                          </li>) : ''
+                        )
                       }
                     </ul>
                   </div>
@@ -419,15 +379,11 @@ class WhatWeDo extends Component {
                     </span>
                     <ul className="links">
                       {
-                        list.map(({ node }, i ) => {
-                          if (node.frontmatter.category === 'acute-red-eyes') {
-                            return (
-                              <li key={i}>
-                                <Link to={ `/what-we-do/${node.parent.name}` }> { node.frontmatter.title }</Link>
-                              </li>
-                            );
-                          }
-                        })
+                        list.map(({ node }, i ) => node.frontmatter.category === 'acute-red-eyes' ?
+                          (<li key={i}>
+                            <Link to={ `/what-we-do/${node.parent.name}` }> { node.frontmatter.title }</Link>
+                          </li>) : ''
+                        )
                       }
                     </ul>
                   </div>
@@ -456,15 +412,11 @@ class WhatWeDo extends Component {
                     </span>
                     <ul className="links">
                       {
-                        list.map(({ node }, i ) => {
-                          if (node.frontmatter.category === 'advanced-imaging-technology') {
-                            return (
-                              <li key={i}>
-                                <Link to={ `/what-we-do/${node.parent.name}` }> { node.frontmatter.title }</Link>
-                              </li>
-                            );
-                          }
-                        })
+                        list.map(({ node }, i ) => node.frontmatter.category === 'advanced-imaging-technology' ?
+                          (<li key={i}>
+                            <Link to={ `/what-we-do/${node.parent.name}` }> { node.frontmatter.title }</Link>
+                          </li>) : ''
+                        )
                       }
                     </ul>
                   </div>
@@ -493,15 +445,11 @@ class WhatWeDo extends Component {
                     </span>
                     <ul className="links">
                       {
-                        list.map(({ node }, i ) => {
-                          if (node.frontmatter.category === 'eye-disease') {
-                            return (
-                              <li key={i}>
-                                <Link to={ `/what-we-do/${node.parent.name}` }> { node.frontmatter.title }</Link>
-                              </li>
-                            );
-                          }
-                        })
+                        list.map(({ node }, i ) => node.frontmatter.category === 'eye-disease' ?
+                          (<li key={i}>
+                            <Link to={ `/what-we-do/${node.parent.name}` }> { node.frontmatter.title }</Link>
+                          </li>) : ''
+                        )
                       }
                     </ul>
                   </div>

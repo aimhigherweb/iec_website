@@ -45,7 +45,7 @@ class Blog extends Component {
               list.map(({node}, i) => {
                 return (
                   <li className="blog-post-box" key={i}>
-                    <a href={`/blog/${node.parent.name}`}>
+                    <Link to={`/blog/${node.parent.name}`}>
                       <img src={node.frontmatter.preview_image} alt=""/>
                       <div className="blog-list__title">
                         {node.frontmatter.title}
@@ -62,7 +62,7 @@ class Blog extends Component {
                         {node.excerpt}
                       </div>
                       <button className="blog-list__button">READ MORE</button>
-                    </a>
+                    </Link>
                   </li>
                 );
               })

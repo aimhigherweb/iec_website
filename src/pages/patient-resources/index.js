@@ -121,15 +121,11 @@ class PatientResources extends Component {
                       </span>
                       <ul className="links">
                         {
-                          list.map(({ node }, i ) => {
-                            if (node.frontmatter.category === 'Contact Lens Instructions') {
-                              return (
-                                <li key={i}>
-                                  <Link to={ `/patient-resources/${node.parent.name}` }> { node.frontmatter.title }</Link>
-                                </li>
-                              );
-                            }
-                          })
+                          list.map(({node}, i) => node.frontmatter.category === 'Contact Lens Instructions' ?
+                            (<li key={i}>
+                              <Link to={ `/patient-resources/${node.parent.name}` }> { node.frontmatter.title }</Link>
+                            </li>) : ''
+                          )
                         }
                       </ul>
                     </div>
@@ -158,15 +154,11 @@ class PatientResources extends Component {
                       </span>
                       <ul className="links">
                         {
-                          list.map(({ node }, i ) => {
-                            if (node.frontmatter.category === 'Vision Training') {
-                              return (
-                                <li key={i}>
-                                  <Link to={ `/patient-resources/${node.parent.name}` }> { node.frontmatter.title }</Link>
-                                </li>
-                              );
-                            }
-                          })
+                          list.map(({ node }, i ) => node.frontmatter.category === 'Vision Training' ?
+                            (<li key={i}>
+                              <Link to={ `/patient-resources/${node.parent.name}` }> { node.frontmatter.title }</Link>
+                            </li>) : ''
+                          )
                         }
                       </ul>
                     </div>
@@ -196,15 +188,11 @@ class PatientResources extends Component {
                       <span className="sub-title">Using eye drops correctly</span>
                       <ul className="links">
                         {
-                          list.map(({ node }, i ) => {
-                            if (node.frontmatter.category === 'everyday-eye-care') {
-                              return (
-                                <li key={i}>
-                                  <Link to={ `/patient-resources/${node.parent.name}` }> { node.frontmatter.title }</Link>
-                                </li>
-                              );
-                            }
-                          })
+                          list.map(({ node }, i ) => node.frontmatter.category === 'everyday-eye-care' ?
+                            (<li key={i}>
+                              <Link to={ `/patient-resources/${node.parent.name}` }> { node.frontmatter.title }</Link>
+                            </li>) : ''
+                          )
                         }
                       </ul>
                     </div>

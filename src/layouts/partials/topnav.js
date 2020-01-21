@@ -10,13 +10,14 @@ class TopNav extends Component {
           <div className="navbar__logo">
             <Link to="/"><img src="/images/logo.svg" alt="innovative eye care" /></Link>
             </div>
-          <a href="#" className="navbar__opener">
+          <a href="#" className="navbar__opener" onClick={() => {}}>
             <span/> <strong className="hidden">opener</strong>
           </a>
           <div className="navbar__slide">
             <div className="navbar__slide__holder">
               <a href="#" className="navbar__opener navbar__opener--close">
-                <span/> <strong className="hidden">opener</strong></a>
+                <span/> <strong className="hidden">opener</strong>
+              </a>
               <div className="navbar__contact-info navbar__contact-info--in-slide">
                 <ul className="navbar__contact-list">
                   <li>

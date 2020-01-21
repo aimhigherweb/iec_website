@@ -595,29 +595,29 @@ class Index extends Component {
             <div className="three-columns same-height">
               <div className="three-columns__item">
                 <div className="roundered__img blue-border">
-                  <a href="#">
-                    <img src="/images/img24.jpg" alt="image description"/>
-                  </a>
+                  <Link to="#">
+                    <img src="/images/img24.jpg" alt=""/>
+                  </Link>
                 </div>
-                <strong className="roundered__title height blue-color"><a href="#">DRY EYE RELIEF</a></strong>
+                <strong className="roundered__title height blue-color"><Link to="#">DRY EYE RELIEF</Link></strong>
                 <p>Experience dry eye relief for up 2 years</p>
               </div>
               <div className="three-columns__item">
                 <div className="roundered__img blue-border">
-                  <a href="#">
-                    <img src="/images/img25.jpg" alt="image description"/>
-                  </a>
+                  <Link to="#">
+                    <img src="/images/img25.jpg" alt=""/>
+                  </Link>
                 </div>
-                <strong className="roundered__title height blue-color"><a href="#">LONG LASTING </a></strong>
+                <strong className="roundered__title height blue-color"><Link to="#">LONG LASTING </Link></strong>
                 <p>Accumulate the benefits - relief lasts longer after each treament</p>
               </div>
               <div className="three-columns__item">
                 <div className="roundered__img blue-border">
-                  <a href="#">
-                    <img src="/images/img26.jpg" alt="image description"/>
-                  </a>
+                  <Link to="#">
+                    <img src="/images/img26.jpg" alt=""/>
+                  </Link>
                 </div>
-                <strong className="roundered__title height blue-color"><a href="#">LESS NEED FOR EYE DROPS </a></strong>
+                <strong className="roundered__title height blue-color"><Link to="#">LESS NEED FOR EYE DROPS </Link></strong>
                 <p>Stop the constant use of lubricating eye drops</p>
               </div>
             </div>
@@ -636,27 +636,27 @@ class Index extends Component {
             <div className="three-columns same-height">
               <div className="three-columns__item">
                 <div className="roundered__img">
-                  <a href="#">
-                    <img src="/images/img21.jpg" alt="image description"/>
-                  </a>
+                  <Link to="#">
+                    <img src="/images/img21.jpg" alt=""/>
+                  </Link>
                 </div>
-                <strong className="roundered__title height"><a href="#">OPTICAL COHERENCE TOMOGRAPHY</a></strong>
+                <strong className="roundered__title height"><Link to="#">OPTICAL COHERENCE TOMOGRAPHY</Link></strong>
               </div>
               <div className="three-columns__item">
                 <div className="roundered__img">
-                  <a href="#">
-                    <img src="/images/img22.jpg" alt="image description"/>
-                  </a>
+                  <Link to="#">
+                    <img src="/images/img22.jpg" alt=""/>
+                  </Link>
                 </div>
-                <strong className="roundered__title height"><a href="#">RETINAL FUNDUS PHOTOGRAPHY </a></strong>
+                <strong className="roundered__title height"><Link to="#">RETINAL FUNDUS PHOTOGRAPHY </Link></strong>
               </div>
               <div className="three-columns__item">
                 <div className="roundered__img">
-                  <a href="#">
-                    <img src="/images/img23.jpg" alt="image description"/>
-                  </a>
+                  <Link to="#">
+                    <img src="/images/img23.jpg" alt=""/>
+                  </Link>
                 </div>
-                <strong className="roundered__title height"><a href="#">CORNEAL TOPOGRAPHY</a></strong>
+                <strong className="roundered__title height"><Link to="#">CORNEAL TOPOGRAPHY</Link></strong>
               </div>
             </div>
           </div>
@@ -671,7 +671,7 @@ class Index extends Component {
           <div className="container">
             <div className="address-information">
               <div className="address__image">
-                <a href="#"><img src="/images/logo-australia.png" alt="south australia"/></a>
+                <Link to="#"><img src="/images/logo-australia.png" alt="south australia"/></Link>
               </div>
               <div className="address__description container__wrap">
                 <div className="content-section__haeding haeding--large-heading">
@@ -709,7 +709,7 @@ class Index extends Component {
         </div>
         <div className="content-section join-section content-section--gray">
           <div className="decorate-image image__cup">
-            <img src="/images/img-cup.jpg" alt="image description"/>
+            <img src="/images/img-cup.jpg" alt=""/>
           </div>
           <div className="container">
             <div className="content-section__haeding haeding--large-heading haeding--without-border">
@@ -717,14 +717,14 @@ class Index extends Component {
               <strong className="content-section__sub-heding">Like our Facebook page</strong>
               <a href="https://www.facebook.com/innovativeeyecareadelaide" className="btn btn--small">get started</a>
               <div className="decorate-image">
-                <img src="/images/img16.png" alt="image description"/>
+                <img src="/images/img16.png" alt=""/>
               </div>
               <div className="decorate-image decorate-image--right">
-                <img src="/images/img17.jpg" alt="image description"/>
+                <img src="/images/img17.jpg" alt=""/>
               </div>
             </div>
             <div className="browser-preview">
-              <img src="/images/img15.png" alt="image description"/>
+              <img src="/images/img15.png" alt=""/>
             </div>
           </div>
         </div>
