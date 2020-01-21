@@ -8,10 +8,13 @@ import Footer from "../../layouts/partials/footer";
 class Blog extends Component {
 
   render() {
+    const {data} = this.props;
+    const list = data.allMarkdownRemark.edges;
+
     return (
       <>
-        <Header />
-        <TopNav />
+        <Header/>
+        <TopNav/>
 
         <div
           className="intro-section"
@@ -33,40 +36,67 @@ class Blog extends Component {
             </div>
           </div>
           <span className="intro-section__rectangle">
-            <img src="/images/rectangle-img.png" alt="" />
+            <img src="/images/rectangle-img.png" alt=""/>
           </span>
         </div>
         <div className="content-section blog-list">
           <ul className="blog-post-list">
-            {/*{{range(where .Data.Pages "Type" "blog")}}*/}
-            {/*<li className="blog-post-box">*/}
-            {/*  <a href="/blog/{{.File.BaseFileName }}">*/}
-            {/*    <img src={{.Params.Preview_Image}} alt="">*/}
-            {/*      <div className="blog-list__title">*/}
-            {/*        {{.Title}}*/}
-            {/*      </div>*/}
-            {/*      <div className="blog-list__byline">*/}
-            {/*        On <span style="text-transform: uppercase"> */}
-            {/*      {{.Date.Format "2 January 2006"}}*/}
-            {/*      </span>*/}
-            {/*        &middot;*/}
-            {/*        By {{.Params.author}}*/}
-            {/*      </div>*/}
-            {/*      <div className="blog-list__border-bottom"></div>*/}
-            {/*      <div className="blog-list__preview">*/}
-            {/*        {{.Content | truncate 250}}*/}
-            {/*      </div>*/}
-            {/*      <button className="blog-list__button">READ MORE</button>*/}
-            {/*  </a>*/}
-            {/*</li>*/}
-            {/*{{end}}*/}
+            {
+              list.map(({node}, i) => {
+                return (
+                  <li className="blog-post-box" key={i}>
+                    <a href={`/blog/${node.parent.name}`}>
+                      <img src={node.frontmatter.preview_image} alt=""/>
+                      <div className="blog-list__title">
+                        {node.frontmatter.title}
+                      </div>
+                      <div className="blog-list__byline">
+                        On <span style={{textTransform: 'uppercase'}}>
+                            {node.frontmatter.date}
+                            </span>
+                        &middot;
+                        By {node.frontmatter.author}
+                      </div>
+                      <div className="blog-list__border-bottom"/>
+                      <div className="blog-list__preview">
+                        {node.excerpt}
+                      </div>
+                      <button className="blog-list__button">READ MORE</button>
+                    </a>
+                  </li>
+                );
+              })
+            }
           </ul>
         </div>
 
-        <Footer />
+        <Footer/>
       </>
     );
   }
 }
 
 export default Blog;
+
+export const query = graphql`
+    query BlogQuery {
+        allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/(blog)/.*\\\\.md$/"}}) {
+            edges {
+                node {
+                    frontmatter {
+                        title
+                        preview_image
+                        date(formatString: "DD MMMM YYYY")
+                        author
+                    }
+                    parent {
+                        ... on File {
+                            name
+                        }
+                    }
+                    excerpt(truncate: true, pruneLength: 250)
+                }
+            }
+        }
+    }
+`;
