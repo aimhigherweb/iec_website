@@ -445,7 +445,7 @@ class Index extends Component {
                 <h2>Book Online - It’s easy</h2>
               </div>
               <p>We’ve made it super easy to schedule your next appointment with our online booking system.</p>
-              <a href="http://innovativeeyecare.com.au/contact" className="btn btn--light-blue">BOOK NOW</a>
+              <Link to="/contact" className="btn btn--light-blue">BOOK NOW</Link>
             </div>
           </div>
         </div>
@@ -595,29 +595,23 @@ class Index extends Component {
             <div className="three-columns same-height">
               <div className="three-columns__item">
                 <div className="roundered__img blue-border">
-                  <Link to="#">
-                    <img src="/images/img24.jpg" alt=""/>
-                  </Link>
+                  <img src="/images/img24.jpg" alt=""/>
                 </div>
-                <strong className="roundered__title height blue-color"><Link to="#">DRY EYE RELIEF</Link></strong>
+                <strong className="roundered__title height blue-color">DRY EYE RELIEF</strong>
                 <p>Experience dry eye relief for up 2 years</p>
               </div>
               <div className="three-columns__item">
                 <div className="roundered__img blue-border">
-                  <Link to="#">
-                    <img src="/images/img25.jpg" alt=""/>
-                  </Link>
+                  <img src="/images/img25.jpg" alt=""/>
                 </div>
-                <strong className="roundered__title height blue-color"><Link to="#">LONG LASTING </Link></strong>
+                <strong className="roundered__title height blue-color">LONG LASTING</strong>
                 <p>Accumulate the benefits - relief lasts longer after each treament</p>
               </div>
               <div className="three-columns__item">
                 <div className="roundered__img blue-border">
-                  <Link to="#">
-                    <img src="/images/img26.jpg" alt=""/>
-                  </Link>
+                  <img src="/images/img26.jpg" alt=""/>
                 </div>
-                <strong className="roundered__title height blue-color"><Link to="#">LESS NEED FOR EYE DROPS </Link></strong>
+                <strong className="roundered__title height blue-color">LESS NEED FOR EYE DROPS</strong>
                 <p>Stop the constant use of lubricating eye drops</p>
               </div>
             </div>
@@ -636,27 +630,21 @@ class Index extends Component {
             <div className="three-columns same-height">
               <div className="three-columns__item">
                 <div className="roundered__img">
-                  <Link to="#">
-                    <img src="/images/img21.jpg" alt=""/>
-                  </Link>
+                  <img src="/images/img21.jpg" alt=""/>
                 </div>
-                <strong className="roundered__title height"><Link to="#">OPTICAL COHERENCE TOMOGRAPHY</Link></strong>
+                <strong className="roundered__title height">OPTICAL COHERENCE TOMOGRAPHY</strong>
               </div>
               <div className="three-columns__item">
                 <div className="roundered__img">
-                  <Link to="#">
-                    <img src="/images/img22.jpg" alt=""/>
-                  </Link>
+                  <img src="/images/img22.jpg" alt=""/>
                 </div>
-                <strong className="roundered__title height"><Link to="#">RETINAL FUNDUS PHOTOGRAPHY </Link></strong>
+                <strong className="roundered__title height">RETINAL FUNDUS PHOTOGRAPHY</strong>
               </div>
               <div className="three-columns__item">
                 <div className="roundered__img">
-                  <Link to="#">
                     <img src="/images/img23.jpg" alt=""/>
-                  </Link>
                 </div>
-                <strong className="roundered__title height"><Link to="#">CORNEAL TOPOGRAPHY</Link></strong>
+                <strong className="roundered__title height">CORNEAL TOPOGRAPHY</strong>
               </div>
             </div>
           </div>
@@ -671,7 +659,7 @@ class Index extends Component {
           <div className="container">
             <div className="address-information">
               <div className="address__image">
-                <Link to="#"><img src="/images/logo-australia.png" alt="south australia"/></Link>
+                <img src="/images/logo-australia.png" alt="south australia"/>
               </div>
               <div className="address__description container__wrap">
                 <div className="content-section__haeding haeding--large-heading">

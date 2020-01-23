@@ -1,5 +1,6 @@
 import React, { Component } from "react"
 import { Link } from "gatsby"
+import { Location } from '@reach/router';
 
 class TopNav extends Component {
 
@@ -34,36 +35,44 @@ class TopNav extends Component {
                 </ul>
               </div>
               <ul className="main-nav main-nav--floated-left">
-                <li>
-                  <Link to="/">
-                    <span>Home</span>
-                  </Link>
-                </li>
-                <li>
-                  <Link to="/who-we-are">
-                    <span>Who We Are</span>
-                  </Link>
-                </li>
-                <li>
-                  <Link to="/what-we-do">
-                    <span>What We Do</span>
-                  </Link>
-                </li>
-                <li>
-                  <Link to="/patient-resources">
-                    <span>Patient Resources</span>
-                  </Link>
-                </li>
-                <li>
-                  <Link to="/contact">
-                    <span>Contact</span>
-                  </Link>
-                </li>
-                <li>
-                  <Link to="/blog">
-                    <span>Blog</span>
-                  </Link>
-                </li>
+                <Location>
+                  {({ location }) => {
+                    return (
+                      <>
+                        <li className={location.pathname === '/' ? 'active' : ''}>
+                          <Link to="/">
+                            <span>Home</span>
+                          </Link>
+                        </li>
+                        <li className={location.pathname === '/who-we-are' ? 'active' : ''}>
+                          <Link to="/who-we-are">
+                            <span>Who We Are</span>
+                          </Link>
+                        </li>
+                        <li className={location.pathname === '/what-we-do' ? 'active' : ''}>
+                          <Link to="/what-we-do">
+                            <span>What We Do</span>
+                          </Link>
+                        </li>
+                        <li className={location.pathname === '/patient-resources' ? 'active' : ''}>
+                          <Link to="/patient-resources">
+                            <span>Patient Resources</span>
+                          </Link>
+                        </li>
+                        <li className={location.pathname === '/contact' ? 'active' : ''}>
+                          <Link to="/contact">
+                            <span>Contact</span>
+                          </Link>
+                        </li>
+                        <li className={location.pathname === '/blog' ? 'active' : ''}>
+                          <Link to="/blog">
+                            <span>Blog</span>
+                          </Link>
+                        </li>
+                      </>
+                    )
+                  }}
+                </Location>
                 <li><a href="http://eyesolutions.com.au/">Shop</a></li>
               </ul>
             </div>
