@@ -83,61 +83,61 @@
   </span>
 </div>
 <div class="content-section">
-<div class="employee-box open-close ">
-<div class="employee-slide ">
-<div class="employee-slide__inner" style="padding-top:10px;">
-<div class="container">
-<div class="content-wrap">
-<h1>
-{{ .Title }}
-</h1>
-<div class="employee-slide__row">
-<div class="employee-slide__col employee-slide__col-content">
-<div class="employee-heading">
-<h4>
-{{ .Params.jobtitle }}
-</h4>
-</div>
-{{ .Content }}
-</div>
-<div class="employee-slide__col employee-slide__col-sidebar">
-<img src="/uploads/{{ .Params.photo }}" style="margin-bottom:50px;">
-<div class="employee-heading">
-<h4>Interests</h4>
-</div>
-<ul class="progress-list">
-<li>
-<strong class="progress-list__label">{{ .Params.skill1 }}</strong>
-<div class="progressbar">
-<span class="line" style="width: {{ .Params.rating1 }}%"></span>
-</div>
-</li>
-<li>
-<strong class="progress-list__label">{{ .Params.skill2 }}</strong>
-<div class="progressbar">
-<span class="line" style="width: {{ .Params.rating2 }}%"></span>
-</div>
-</li>
-<li>
-<strong class="progress-list__label">{{ .Params.skill3 }}</strong>
-<div class="progressbar">
-<span class="line" style="width: {{ .Params.rating3 }}%"></span>
-</div>
-</li>
-<li>
-<strong class="progress-list__label">{{ .Params.skill4 }}</strong>
-<div class="progressbar">
-<span class="line" style="width: {{ .Params.rating4 }}%"></span>
-</div>
-</li>
-</ul>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
+  <div class="employee-box open-close ">
+    <div class="employee-slide ">
+      <div class="employee-slide__inner" style="padding-top:10px;">
+        <div class="container">
+          <div class="content-wrap">
+            <h1>
+              {{ .Title }}
+            </h1>
+            <div class="employee-slide__row">
+              <div class="employee-slide__col employee-slide__col-content">
+                <div class="employee-heading">
+                  <h4>
+                    {{ .Params.jobtitle }}
+                  </h4>
+                </div>
+                {{ .Content }}
+              </div>
+              <div class="employee-slide__col employee-slide__col-sidebar">
+                <img src="/uploads/{{ .Params.photo }}" style="margin-bottom:50px;">
+                <div class="employee-heading">
+                  <h4>Interests</h4>
+                </div>
+                <ul class="progress-list">
+                  <li>
+                    <strong class="progress-list__label">{{ .Params.skill1 }}</strong>
+                    <div class="progressbar">
+                      <span class="line" style="width: {{ .Params.rating1 }}%"></span>
+                    </div>
+                  </li>
+                  <li>
+                    <strong class="progress-list__label">{{ .Params.skill2 }}</strong>
+                    <div class="progressbar">
+                      <span class="line" style="width: {{ .Params.rating2 }}%"></span>
+                    </div>
+                  </li>
+                  <li>
+                    <strong class="progress-list__label">{{ .Params.skill3 }}</strong>
+                    <div class="progressbar">
+                      <span class="line" style="width: {{ .Params.rating3 }}%"></span>
+                    </div>
+                  </li>
+                  <li>
+                    <strong class="progress-list__label">{{ .Params.skill4 }}</strong>
+                    <div class="progressbar">
+                      <span class="line" style="width: {{ .Params.rating4 }}%"></span>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 
 {{ partial "online-booking.html" . }}
