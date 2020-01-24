@@ -40,11 +40,9 @@ class Header extends Component {
   }
 
   render() {
-    console.log(this.props.data)
     return (
       <>
         <Helmet>
-          <title>{'Innovative Eye Care |'}</title>
           <link rel="shortcut icon" href="/images/favicon.ico" />
           <script async type="text/javascript" src="https://code.jquery.com/jquery-1.11.2.min.js" />
           <script async type="text/javascript" src="/js/main.js" />
@@ -125,13 +123,3 @@ class Header extends Component {
 }
 
 export default Header;
-
-export const siteMeta = graphql`
-    query SiteTitleQuery {
-        site {
-            siteMetadata {
-                title
-            }
-        }
-    }
-`;

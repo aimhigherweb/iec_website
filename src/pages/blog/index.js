@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import {Link} from 'gatsby';
+import {Helmet} from "react-helmet";
 
 import Header from '../../layouts/partials/header';
 import TopNav from "../../layouts/partials/topnav";
@@ -13,6 +14,9 @@ class Blog extends Component {
 
     return (
       <>
+        <Helmet>
+          <title>Blog | Innovative Eye Care</title>
+        </Helmet>
         <Header/>
         <TopNav/>
 

@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import {graphql} from 'gatsby';
+import {Helmet} from "react-helmet";
 
 import Header from '../../layouts/partials/header';
 import TopNav from "../../layouts/partials/topnav";
@@ -12,6 +13,9 @@ class PatientResourcesTemplate extends Component {
 
     return (
       <>
+        <Helmet>
+          <title>{markdownRemark.frontmatter.title}</title>
+        </Helmet>
         <Header />
         <TopNav />
 

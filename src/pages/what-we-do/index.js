@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import {Link} from 'gatsby';
 import videojs from 'video.js';
 import $ from 'jquery';
+import {Helmet} from "react-helmet";
 
 import Header from '../../layouts/partials/header';
 import TopNav from "../../layouts/partials/topnav";
@@ -21,6 +22,9 @@ class WhatWeDo extends Component {
 
     return (
       <>
+        <Helmet>
+          <title>What We Do | Innovative Eye Care</title>
+        </Helmet>
         <Header />
         <TopNav />
 

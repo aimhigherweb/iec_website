@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import {Link} from 'gatsby';
+import {Helmet} from "react-helmet";
 import videojs from 'video.js';
 import $ from 'jquery';
 
@@ -30,6 +31,9 @@ class Index extends Component {
   render() {
     return (
       <>
+        <Helmet>
+          <title>Innovative Eye Care</title>
+        </Helmet>
         <Header/>
         <TopNav/>
         <div

@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import {graphql} from 'gatsby';
+import { Helmet } from 'react-helmet'
 
 import Header from '../../layouts/partials/header';
 import TopNav from "../../layouts/partials/topnav";
@@ -8,10 +9,14 @@ import Footer from "../../layouts/partials/footer";
 class BlogTemplate extends Component {
 
   render() {
+    console.log(this.props.data)
     const {markdownRemark} = this.props.data;
 
     return (
       <>
+        <Helmet>
+          <title>{markdownRemark.frontmatter.title}</title>
+        </Helmet>
         <Header />
         <TopNav />
 
