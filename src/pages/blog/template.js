@@ -18,34 +18,15 @@ class BlogTemplate extends Component {
         <div className="content-section">
           <div className="employee-box open-close ">
             <div className="employee-slide ">
-              <div className="employee-slide__inner" style={{paddingTop: '10px'}}>
-                <div className="container">
-                  <div className="content-wrap">
-                    <h1>{markdownRemark.title}</h1>
-                    <div className="employee-slide__row">
-                      <div
-                        className="employee-slide__col employee-slide__col-content"
-                        dangerouslySetInnerHTML={{ __html: markdownRemark.html }}
-                      />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="content-section">
-          <div className="employee-box open-close ">
-            <div className="employee-slide ">
               <div className="employee-slide__inner" style={{paddingTop: '20px'}}>
                 <div className="container">
                   <div className="content-wrap">
-                    <h1>{markdownRemark.title}</h1>
+                    <h1>{markdownRemark.frontmatter.title}</h1>
                     <div className="employee-slide__row">
                       <div className="employee-slide__col employee-slide__col-content">
                         <div className="employee-heading">
-                          <p>{markdownRemark.date}</p>
-                          <p><a href={markdownRemark.author_url}>{markdownRemark.author}</a></p>
+                          <p>{markdownRemark.frontmatter.date}</p>
+                          <p><a href={markdownRemark.frontmatter.author_url}>{markdownRemark.frontmatter.author}</a></p>
                         </div>
                         <div dangerouslySetInnerHTML={{ __html: markdownRemark.html }} />
                       </div>
