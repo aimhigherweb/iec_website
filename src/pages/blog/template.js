@@ -9,7 +9,7 @@ import Footer from "../../layouts/partials/footer";
 class BlogTemplate extends Component {
 
   render() {
-    const { markdownRemark: post } = this.props.data;
+    const post = this.props.data.markdownRemark;
 
     return (
       <>
@@ -50,8 +50,8 @@ class BlogTemplate extends Component {
 
 export default BlogTemplate;
 
-export const BlogSingleQuery = graphql`
-    query BlogPostByPath($id: String!) {
+export const pageQuery = graphql`
+    query BlogPostById($id: String) {
         markdownRemark(id: { eq: $id }) {
             html
             frontmatter {

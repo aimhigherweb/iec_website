@@ -48,7 +48,7 @@ class PatientResourcesTemplate extends Component {
 export default PatientResourcesTemplate;
 
 export const PatientResourcesSingleQuery = graphql`
-    query PatientResourcesById($id: String!) {
+    query PatientResourcesById($id: String) {
         markdownRemark(id: { eq: $id }) {
             frontmatter {
                 title

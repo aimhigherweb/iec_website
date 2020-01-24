@@ -48,7 +48,7 @@ class WhatWeDoTemplate extends Component {
 export default WhatWeDoTemplate;
 
 export const WhatWeDoSingleQuery = graphql`
-    query WhatWeDoById($id: String!) {
+    query WhatWeDoById($id: String) {
         markdownRemark(id: { eq: $id }) {
             frontmatter {
                 title

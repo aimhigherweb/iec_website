@@ -173,7 +173,7 @@ class WhoWeAreTemplate extends Component {
 export default WhoWeAreTemplate;
 
 export const WhoWeAreSingleQuery = graphql`
-    query WhoWeAreById($id: String!) {
+    query WhoWeAreById($id: String) {
         markdownRemark(id: { eq: $id }) {
             frontmatter {
                 title

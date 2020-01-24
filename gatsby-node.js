@@ -10,14 +10,13 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
       allMarkdownRemark {
         edges {
           node {
+            id
             frontmatter {
               author
               date
               title
             }
-            id
             parent {
-              id
               ... on File {
                 name
                 relativeDirectory
