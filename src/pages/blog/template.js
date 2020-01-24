@@ -9,13 +9,12 @@ import Footer from "../../layouts/partials/footer";
 class BlogTemplate extends Component {
 
   render() {
-    console.log(this.props.data)
-    const {markdownRemark} = this.props.data;
+    const { markdownRemark: post } = this.props.data;
 
     return (
       <>
         <Helmet>
-          <title>{markdownRemark.frontmatter.title}</title>
+          <title>{post.frontmatter.title}</title>
         </Helmet>
         <Header />
         <TopNav />
@@ -26,14 +25,14 @@ class BlogTemplate extends Component {
               <div className="employee-slide__inner" style={{paddingTop: '20px'}}>
                 <div className="container">
                   <div className="content-wrap">
-                    <h1>{markdownRemark.frontmatter.title}</h1>
+                    <h1>{post.frontmatter.title}</h1>
                     <div className="employee-slide__row">
                       <div className="employee-slide__col employee-slide__col-content">
                         <div className="employee-heading">
-                          <p>{markdownRemark.frontmatter.date}</p>
-                          <p><a href={markdownRemark.frontmatter.author_url}>{markdownRemark.frontmatter.author}</a></p>
+                          <p>{post.frontmatter.date}</p>
+                          <p><a href={post.frontmatter.author_url}>{post.frontmatter.author}</a></p>
                         </div>
-                        <div dangerouslySetInnerHTML={{ __html: markdownRemark.html }} />
+                        <div dangerouslySetInnerHTML={{ __html: post.html }} />
                       </div>
                     </div>
                   </div>
@@ -52,16 +51,15 @@ class BlogTemplate extends Component {
 export default BlogTemplate;
 
 export const BlogSingleQuery = graphql`
-    query BlogById($id: String!) {
+    query BlogPostByPath($id: String!) {
         markdownRemark(id: { eq: $id }) {
+            html
             frontmatter {
                 title
                 author
                 author_url
                 date(formatString: "DD MMMM YYYY")
             }
-            id
-            html
         }
     }
-`;
+`
