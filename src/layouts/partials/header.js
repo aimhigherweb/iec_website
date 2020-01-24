@@ -1,7 +1,6 @@
 import React, { Component } from "react"
 import { Helmet } from 'react-helmet'
 import { Link } from "gatsby"
-import { graphql } from 'gatsby'
 
 class Header extends Component {
 
