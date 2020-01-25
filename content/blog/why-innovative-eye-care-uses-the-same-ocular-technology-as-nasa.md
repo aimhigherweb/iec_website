@@ -1,5 +1,5 @@
 ---
-title: Why Innovative Eye Care uses the same ocular technology as NASA
+title: Why Innovative Eye Care uses the same technology as NASA
 date: 2020-01-25T00:34:50.393Z
 author: Millie Meegan
 preview_image: /uploads/hhp-iss040e006738.jpg
