@@ -3,7 +3,6 @@ title: Optical Coherence Tomography (OCT)
 category: advanced-imaging-technology
 preview-image: spectralis-untersuchung_600x399.jpg
 ---
-
 <div class="employee-heading">
 <p><p>Optical coherence tomography (OCT) is a non-contact, non-invasive technique that scans the structure of your eye and creates a 3D image of every detail, including aspects that cannot be investigated by other methods. In most cases it is able to detect structural damage before patients notice problems themselves so that subsequent treatment may arrest any loss of vision. OCT is also a fantastic way to monitor corneal pathology and the fitting of <a href="/what-we-do/soft-contact-lenses">soft</a> and <a href="/what-we-do/gas-permeable-contact-lenses">rigid contact lenses</a>, from the most simple to the most complicated. Innovative Eye Care has two spectral-domain OCTs available for use at both our Adelaide and Woodville practices, and we consider them the ultimate tools for diagnosis and early detection of eye disease and retinal conditions. </p>
 <p><b>For more information on our advanced imaging technology, please see the links below:</b></p>
@@ -15,11 +14,11 @@ preview-image: spectralis-untersuchung_600x399.jpg
 <h4>• <a href="/what-we-do/auto-phoropter">Auto-Phoropter</a></h4></p>
 </div>
 
-<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--[if IE]><iframe frameborder="0" type="text/html" src="https://2689-2347.captiv8online.com/animations/embed/one/d-t-l-o-t?player_width=100%&player_height=100%&site_company_language=34&autostart=false" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><![endif]--><!--[if !IE]> <--><object data="https://2689-2347.captiv8online.com/animations/embed/one/d-t-l-o-t?player_width=100%&player_height=100%&site_company_language=34&autostart=false" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://2689-2347.captiv8online.com/animations/embed/one/d-t-l-o-t?player_width=100%&player_height=100%&site_company_language=34&autostart=false">Enhanced Retinal Scan (3D OCT)</a></object><!--> <![endif]--></div>
+<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\[if IE]><iframe frameborder="0" type="text/html" src="https://2689-2347.captiv8online.com/animations/embed/one/d-t-l-o-t?player_width=100%&player_height=100%&site_company_language=34&autostart=false" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\[endif]--><!--\[if !IE]> <--><object data="https://2689-2347.captiv8online.com/animations/embed/one/d-t-l-o-t?player_width=100%&player_height=100%&site_company_language=34&autostart=false" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://2689-2347.captiv8online.com/animations/embed/one/d-t-l-o-t?player_width=100%&player_height=100%&site_company_language=34&autostart=false">Enhanced Retinal Scan (3D OCT)</a></object><!--> <!\[endif]--></div>
 
 <br>
 
-As of September 2017, Innovative Eye Care in Hutt Street are the proud owners of a brand new Heidelberg Spectralis OCT and Heidelberg Edge Perimeter for [visual field testing](/what-we-do/visual-field-testing). This state-of-the-art OCT technology enables your optometrist to obtain incredibly high-quality images at significantly increased speeds. The Heidelberg Spectralis OCT has a scan rate of 85,000 Hz and additional eye-tracking technology to improve the precision and repeatability of these scans. This is particularly important when monitoring patients for subtle changes over a long period of time. 
+As of September 2017, Innovative Eye Care in Hutt Street are the proud owners of a brand new Heidelberg Spectralis OCT and Heidelberg Edge Perimeter for [visual field testing](/what-we-do/visual-field-testing). This state-of-the-art OCT technology enables your optometrist to obtain incredibly high-quality images at significantly increased speeds, and is some of the most advanced in Australia across optometry and ophthalmology clinics alike. To give you an idea, this machine is also used by NASA to monitor eye health at the International Space Station.
 
 ![](/uploads/patient-healthy-retina-1.jpg)
 
