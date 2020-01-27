@@ -6,7 +6,7 @@ public_folder: "/uploads" # Media files will be stored in the repo under images/
 collections:
 - name: "blog" # Used in routes, e.g., /admin/collections/blog
   label: "Blog" # Used in the UI
-  folder: "src/content/blog" # The path to the folder where the documents are stored
+  folder: "content/blog" # The path to the folder where the documents are stored
   create: true # Allow users to create new documents in this collection
   slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
   fields: # The fields for each document, usually in front matter
@@ -18,7 +18,7 @@ collections:
     - {label: "Body", name: "body", widget: "markdown", required: false}
 - name: "patient-resources" # Used in routes, e.g., /admin/collections/blog
   label: "Patient Resources" # Used in the UI
-  folder: "src/content/patient-resources" # The path to the folder where the documents are stored
+  folder: "content/patient-resources" # The path to the folder where the documents are stored
   create: true # Allow users to create new documents in this collection
   slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
   fields: # The fields for each document, usually in front matter
@@ -28,7 +28,7 @@ collections:
     - {label: "Body", name: "body", widget: "markdown", required: false}
 - name: "who-we-are" # Used in routes, e.g., /admin/collections/blog
   label: "Who We Are" # Used in the UI
-  folder: "src/content/who-we-are" # The path to the folder where the documents are stored
+  folder: "content/who-we-are" # The path to the folder where the documents are stored
   create: true # Allow users to create new documents in this collection
   slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
   fields: # The fields for each document, usually in front matter
@@ -46,7 +46,7 @@ collections:
     - {label: "Rating 4", name: "rating4", widget: "number", valueType: "int", required: false}
 - name: "what-we-do" # Used in routes, e.g., /admin/collections/blog
   label: "What We Do" # Used in the UI
-  folder: "src/content/what-we-do" # The path to the folder where the documents are stored
+  folder: "content/what-we-do" # The path to the folder where the documents are stored
   create: true # Allow users to create new documents in this collection
   slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
   fields: # The fields for each document, usually in front matter
