@@ -2,7 +2,6 @@
 title: Dylan Bentley
 jobtitle: Optometrist
 skill1: Contact Lenses
-rating1: ''
 skill2: Paediatric Vision
 skill3: Diabetic Eye Care
 skill4: Glaucoma

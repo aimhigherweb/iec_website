@@ -1,46 +1,97 @@
-# IEC-Website 
+<!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
+<p align="center">
+  <a href="https://www.gatsbyjs.org">
+    <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
+  </a>
+</p>
+<h1 align="center">
+  Gatsby's default starter
+</h1>
 
-This is the website for Innovative Eye Care optometry practice in Adelaide, South Australia.
+Kick off your project with this default boilerplate. This starter ships with the main Gatsby configuration files you might need to get up and running blazing fast with the blazing fast app generator for React.
 
-We use Netlify for hosting.
-This is wired up to github, and will automatically deploy on commits to master.
+_Have another more specific idea? You may want to check out our vibrant collection of [official and community-created starters](https://www.gatsbyjs.org/docs/gatsby-starters/)._
 
+## 🚀 Quick start
 
-## Building
+1.  **Create a Gatsby site.**
 
-To build and serve for development:
+    Use the Gatsby CLI to create a new site, specifying the default starter.
 
-```
-hugo serve
-```
+    ```shell
+    # create a new Gatsby site using the default starter
+    gatsby new my-default-starter https://github.com/gatsbyjs/gatsby-starter-default
+    ```
 
-Or:
-```
-hugo serve --disableFastRender
-```
+1.  **Start developing.**
 
+    Navigate into your new site’s directory and start it up.
 
-## Project structure and asset pipeline
-We use the Hugo asset pipeline to build scss files. 
-See [here](https://blog.fullstackdigital.com/how-to-use-hugo-template-variables-in-scss-files-in-2018-b8a834accce).
+    ```shell
+    cd my-default-starter/
+    gatsby develop
+    ```
 
-This requires installing the Hugo extended version. 
-On Windows, this is done using `choco install hugo-extended`, and it should be just as easy on other Linux/MacOS.
+1.  **Open the source code and start editing!**
 
-We use a site structure similar to [here](https://github.com/gohugoio/hugoDocs/tree/master/static). 
+    Your site is now running at `http://localhost:8000`!
 
-Unfortunately, Netlify doesn't currently support the Hugo extended version - see [here](https://discourse.gohugo.io/t/netlify-and-hugo-pipes/13145).
-The fix for the moment is to commit the `resources` directory, which will force Hugo to skip the build step.
-This is a better alternative to building manually, because it still allows you to use the asset pipeline syntax in the templates.
+    _Note: You'll also see a second link: _`http://localhost:8000/___graphql`_. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.org/tutorial/part-five/#introducing-graphiql)._
 
-It does mean that you need to run `hugo` locally to build the resources when the scss changes.
+    Open the `my-default-starter` directory in your code editor of choice and edit `src/pages/index.js`. Save your changes and the browser will update in real time!
 
+## 🧐 What's inside?
 
-## CMS
-This uses the Netlify CMS wired up to Netlify authentication for user management, and commits content changes to the repo on github.
-Netlify CMS is a single page react app - there is no back-end server required.
+A quick look at the top-level files and directories you'll see in a Gatsby project.
 
-Because of the way this works (reading files from Github), you can't really test the CMS localy.
-It would be possible to edit the config.toml to use an additional branch (eg `beta`) in order to test changes to the CMS. 
-This would effectively set up another live version of the site.
-However, we haven't handed over to the client yet, so we can just use `master` at this time.
+    .
+    ├── node_modules
+    ├── src
+    ├── .gitignore
+    ├── .prettierrc
+    ├── gatsby-browser.js
+    ├── gatsby-config.js
+    ├── gatsby-node.js
+    ├── gatsby-ssr.js
+    ├── LICENSE
+    ├── package-lock.json
+    ├── package.json
+    └── README.md
+
+1.  **`/node_modules`**: This directory contains all of the modules of code that your project depends on (npm packages) are automatically installed.
+
+2.  **`/src`**: This directory will contain all of the code related to what you will see on the front-end of your site (what you see in the browser) such as your site header or a page template. `src` is a convention for “source code”.
+
+3.  **`.gitignore`**: This file tells git which files it should not track / not maintain a version history for.
+
+4.  **`.prettierrc`**: This is a configuration file for [Prettier](https://prettier.io/). Prettier is a tool to help keep the formatting of your code consistent.
+
+5.  **`gatsby-browser.js`**: This file is where Gatsby expects to find any usage of the [Gatsby browser APIs](https://www.gatsbyjs.org/docs/browser-apis/) (if any). These allow customization/extension of default Gatsby settings affecting the browser.
+
+6.  **`gatsby-config.js`**: This is the main configuration file for a Gatsby site. This is where you can specify information about your site (metadata) like the site title and description, which Gatsby plugins you’d like to include, etc. (Check out the [config docs](https://www.gatsbyjs.org/docs/gatsby-config/) for more detail).
+
+7.  **`gatsby-node.js`**: This file is where Gatsby expects to find any usage of the [Gatsby Node APIs](https://www.gatsbyjs.org/docs/node-apis/) (if any). These allow customization/extension of default Gatsby settings affecting pieces of the site build process.
+
+8.  **`gatsby-ssr.js`**: This file is where Gatsby expects to find any usage of the [Gatsby server-side rendering APIs](https://www.gatsbyjs.org/docs/ssr-apis/) (if any). These allow customization of default Gatsby settings affecting server-side rendering.
+
+9.  **`LICENSE`**: Gatsby is licensed under the MIT license.
+
+10. **`package-lock.json`** (See `package.json` below, first). This is an automatically generated file based on the exact versions of your npm dependencies that were installed for your project. **(You won’t change this file directly).**
+
+11. **`package.json`**: A manifest file for Node.js projects, which includes things like metadata (the project’s name, author, etc). This manifest is how npm knows which packages to install for your project.
+
+12. **`README.md`**: A text file containing useful reference information about your project.
+
+## 🎓 Learning Gatsby
+
+Looking for more guidance? Full documentation for Gatsby lives [on the website](https://www.gatsbyjs.org/). Here are some places to start:
+
+- **For most developers, we recommend starting with our [in-depth tutorial for creating a site with Gatsby](https://www.gatsbyjs.org/tutorial/).** It starts with zero assumptions about your level of ability and walks through every step of the process.
+
+- **To dive straight into code samples, head [to our documentation](https://www.gatsbyjs.org/docs/).** In particular, check out the _Guides_, _API Reference_, and _Advanced Tutorials_ sections in the sidebar.
+
+## 💫 Deploy
+
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
+
+<!-- AUTO-GENERATED-CONTENT:END -->

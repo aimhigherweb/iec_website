@@ -3,9 +3,7 @@ title: Peter Gallagher
 jobtitle: Administration Officer Woodville
 photo: 20200115_140235.jpg
 skill1: KNOWLEDGEABLE
-rating1: ''
 skill2: JOKE TELLER
-rating2: ''
 skill3: CROWS TRAGIC
 skill4: BEER CONNOISSEUR
 ---
