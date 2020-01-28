@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Link} from 'gatsby';
+import { graphql, Link } from 'gatsby';
 import videojs from 'video.js';
 import $ from 'jquery';
 import {Helmet} from "react-helmet";
