@@ -1,6 +1,7 @@
 ---
 title: Dylan Bentley
 jobtitle: Optometrist
+photo: /uploads/RNI-Films-IMG-E8CEE797-4877-47E1-9516-8F9E3DBA48FE.JPG
 skill1: Contact Lenses
 skill2: Paediatric Vision
 skill3: Diabetic Eye Care
