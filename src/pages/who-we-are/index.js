@@ -141,7 +141,7 @@ class WhoWeAre extends Component {
                   return (
                     <li className="employee-box open-close" key={i}>
                       <div className="employee-inner hover-elem">
-                        <img src={'/uploads/' + node.frontmatter.photo}  alt=""/>
+                        <img src={node.frontmatter.photo}  alt=""/>
                         <Link to={'/who-we-are/' + node.parent.name} className="employee-inner__rollover ">
                           <div className="employee-inner__rollover__box">
                             <strong className="name">{ node.frontmatter.title }</strong>

@@ -2,7 +2,7 @@
 title: Georgia Hoy
 date: 2018-11-08
 jobtitle: Operations Manager
-photo: georgia-1.jpg
+photo: /uploads/georgia-1.jpg
 skill1: SPREAD SHEET LOVER
 rating1: 100
 skill2: HARD WORKING

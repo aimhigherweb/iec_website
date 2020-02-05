@@ -1,7 +1,7 @@
 ---
 title: Christine Swaine
 jobtitle: Administration Officer
-photo: 152176496376828479-1.png
+photo: /uploads/152176496376828479-1.png
 skill1: BOSS LADY
 rating1: 100
 skill2: ORGANISED
