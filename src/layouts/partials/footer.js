@@ -1,7 +1,25 @@
 import React, {Component} from "react"
 import {Link} from 'gatsby'
+import { navigate } from "gatsby"
 
 class Footer extends Component {
+
+  state = {
+    searchKey: '',
+  };
+
+  handleChange = (e) => {
+    this.setState({searchKey: e.target.value});
+  };
+
+  handleSearch = (e) => {
+    e.preventDefault();
+    if (e.key === 'Enter') {
+      navigate('/search', {
+        state: { searchKey: this.state.searchKey },
+      })
+    }
+  };
 
   render() {
     return (
@@ -35,10 +53,15 @@ class Footer extends Component {
                   <span className="footer__tel"><a href="tel:0884459050">(08) 8445 9050</a></span>
                 </address>
               </div>
-              <div className="footer__col">
-                <form id="demo-2" action="/search" method="GET">
-                  <input type="search" placeholder="Search" name="s" />
-                </form>
+              <div id="demo-2" className="footer__col">
+                <input
+                  type="text"
+                  placeholder="Search"
+                  name="s"
+                  value={this.state.searchKey}
+                  onChange={this.handleChange}
+                  onKeyPress={this.handleSearch}
+                />
               </div>
             </div>
           </div>
@@ -66,8 +89,8 @@ class Footer extends Component {
           </div>
         </div>
       </footer>
-  );
+    );
   }
-  }
+}
 
   export default Footer;

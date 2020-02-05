@@ -43,9 +43,6 @@ class Header extends Component {
       <>
         <Helmet>
           <link rel="shortcut icon" href="/images/favicon.ico" />
-          <script async type="text/javascript" src="https://code.jquery.com/jquery-1.11.2.min.js" />
-          <script async type="text/javascript" src="/js/main.js" />
-
           <link
             href="https://fonts.googleapis.com/css?family=Open+Sans:400,700"
             rel="stylesheet"
@@ -57,7 +54,12 @@ class Header extends Component {
             type="text/css"
           />
           <link rel="stylesheet" href="/css/video-js.min.css" />
-          <script src="/js/video.min.js" type="text/javascript" />
+          <script src="/js/jquery-1.11.2.min.js"></script>
+          <script async type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.0/fuse.min.js"/>
+          <script async type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js"/>
+          <script async type="text/javascript" src="/js/main.js" />
+          <script async type="text/javascript" src="/js/video.min.js" />
+          <script async type="text/javascript" src="/js/search.js" />
           <script async src="https://www.googletagmanager.com/gtag/js?id=UA-129433065-1" />
           <script>
             {`
