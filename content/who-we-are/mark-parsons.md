@@ -2,7 +2,7 @@
 title: Mark Parsons
 date: 2018-11-10
 jobtitle: Optometrist
-photo: mark-1.jpg
+photo: /uploads/mark-1.jpg
 skill1: COLORIMETRY
 rating1: 100
 skill2: EYEWEAR EXPERT
