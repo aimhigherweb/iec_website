@@ -2,7 +2,7 @@
 title: Joanna Rohrlach
 date: 2018-11-09
 jobtitle: Therapeutic Optometrist
-photo: joanna-1.jpg
+photo: /uploads/joanna-1.jpg
 skill1: PAEDIATRIC VISION
 rating1: 100
 skill2: GENERAL OPTOMETRY

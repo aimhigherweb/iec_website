@@ -121,7 +121,7 @@ class WhoWeAreTemplate extends Component {
                       </div>
                       <div className="employee-slide__col employee-slide__col-sidebar">
                         <img
-                          src={`/uploads/${markdownRemark.frontmatter.photo}`}
+                          src={`${markdownRemark.frontmatter.photo}`}
                           style={{marginBottom: '50px'}}
                           alt=""
                         />

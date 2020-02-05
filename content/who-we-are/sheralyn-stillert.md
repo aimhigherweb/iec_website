@@ -2,7 +2,7 @@
 title: Sheralyn Stillert
 date: 2018-11-07
 jobtitle: Customer Service
-photo: sheralyn-1.jpg
+photo: /uploads/sheralyn-1.jpg
 skill1: EASYGOING
 rating1: 100
 skill2: WARM

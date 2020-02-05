@@ -1,7 +1,7 @@
 ---
 title: Millie Meegan
 jobtitle: Administration & Patient Care
-photo: millie-1.jpg
+photo: /uploads/millie-1.jpg
 skill1: Imaging
 rating1: 99
 skill2: Positivity

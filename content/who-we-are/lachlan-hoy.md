@@ -1,7 +1,7 @@
 ---
 title: Lachlan Hoy
 jobtitle: Optometrist BAppSc(Optom)Hons GCOT FIAO FCCLSA
-photo: lachlan-hoy.jpg
+photo: /uploads/lachlan-hoy.jpg
 skill1: ORTHO-K CORNEAL RESHAPING
 rating1: 100
 skill2: PAEDIATRIC VISION

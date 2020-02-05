@@ -2,7 +2,7 @@
 title: Tim Moran
 date: 2018-11-05
 jobtitle: Optical Technician
-photo: tim-1.jpg
+photo: /uploads/tim-1.jpg
 skill1: DISPENSING
 rating1: 100
 skill2: DEDICATION
