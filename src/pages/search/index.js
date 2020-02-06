@@ -17,13 +17,14 @@ class Search extends Component {
   };
 
   componentDidMount() {
-    if (this.props.location.state) {
-      this.setState({searchKey: this.props.location.state.searchKey});
-    }
     setTimeout(() => {
       const list = this.props.data.allMarkdownRemark.nodes;
       if (list) {
         this.setState({list});
+      }
+      if (this.props.location.state) {
+        this.setState({searchKey: this.props.location.state.searchKey});
+        this.handleSearch();
       }
     }, 1000);
   }
@@ -47,7 +48,14 @@ class Search extends Component {
    */
   async handleSearch() {
     const options = {
-      keys: ['frontmatter.title', 'frontmatter.category', 'internal.content'],
+      shouldSort: true,
+      threshold: 0.0,
+      tokenize:true,
+      keys: [
+        {name: 'frontmatter.title', weight: 0.8},
+        {name: 'frontmatter.category', weight: 0.3},
+        {name: 'internal.content', weight: 0.5},
+      ],
     };
     const fuse = new Fuse(this.state.list, options);
     const results = await fuse.search(this.state.searchKey);
@@ -99,7 +107,7 @@ class Search extends Component {
           <div className="container">
             <div className="content-wrap">
               <div id="search-results">
-                <h3>Results</h3>
+                <h3>Results: {this.state.results.length}</h3>
                 {
                   (this.state.isClicked && !this.state.hasResult) &&
                   <p>No matches found</p>
