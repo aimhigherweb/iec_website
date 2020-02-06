@@ -3,17 +3,15 @@ import {Link} from 'gatsby'
 import { navigate } from "gatsby"
 
 class Footer extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {searchKey: ''};
 
-  state = {
-    searchKey: '',
-  };
+    this.handleChange = this.handleChange.bind(this);
+  }
 
   handleChange = (e) => {
     this.setState({searchKey: e.target.value});
-  };
-
-  handleSearch = (e) => {
-    e.preventDefault();
     if (e.key === 'Enter') {
       navigate('/search', {
         state: { searchKey: this.state.searchKey },
@@ -55,12 +53,12 @@ class Footer extends Component {
               </div>
               <div id="demo-2" className="footer__col">
                 <input
-                  type="text"
+                  type="search"
                   placeholder="Search"
-                  name="s"
+                  tabIndex="0"
                   value={this.state.searchKey}
                   onChange={this.handleChange}
-                  onKeyPress={this.handleSearch}
+                  onKeyDown={(e) => this.handleChange(e)}
                 />
               </div>
             </div>
