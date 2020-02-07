@@ -1,6 +1,6 @@
 import React, {Component} from "react"
-import {Link} from 'gatsby'
-import { navigate } from "gatsby"
+import { Link, navigate } from 'gatsby'
+import { Location } from '@reach/router';
 
 class Footer extends Component {
   constructor(props) {
@@ -51,16 +51,24 @@ class Footer extends Component {
                   <span className="footer__tel"><a href="tel:0884459050">(08) 8445 9050</a></span>
                 </address>
               </div>
-              <div id="demo-2" className="footer__col">
-                <input
-                  type="search"
-                  placeholder="Search"
-                  tabIndex="0"
-                  value={this.state.searchKey}
-                  onChange={this.handleChange}
-                  onKeyDown={(e) => this.handleChange(e)}
-                />
-              </div>
+              <Location>
+                {({ location }) => {
+                  if (location.pathname.indexOf('search') < 0) {
+                    return (
+                      <div id="demo-2" className="footer__col">
+                        <input
+                          type="search"
+                          placeholder="Search"
+                          tabIndex="0"
+                          value={this.state.searchKey}
+                          onChange={this.handleChange}
+                          onKeyDown={(e) => this.handleChange(e)}
+                        />
+                      </div>
+                    );
+                  }
+                }}
+              </Location>
             </div>
           </div>
         </div>
