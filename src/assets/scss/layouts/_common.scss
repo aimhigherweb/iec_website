@@ -954,7 +954,7 @@ h2 {
 }
 
 .services__bg {
-  position: absolute;
+  position: absolute !important;
   left: 0;
   right: 0;
   top: 0;
@@ -999,10 +999,10 @@ h2 {
   img {
     display: block;
     margin-left: 15px;
-    width: 150px;
+    width: 150px !important;
 
     @include media("<tablet") {
-      width: 150px;
+      width: 150px !important;
       max-width: none;
     }
   }

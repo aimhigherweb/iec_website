@@ -1,7 +1,10 @@
 import React, {Component} from 'react';
-import {Link} from 'gatsby';
+import {graphql, Link} from 'gatsby';
 import {Helmet} from "react-helmet";
-import videojs from 'video.js';
+import BackgroundImage from 'gatsby-background-image';
+import Img from 'gatsby-image';
+// import styled from 'styled-components';
+import VideoJs from 'video.js';
 import $ from 'jquery';
 
 import Header from '../layouts/partials/header';
@@ -25,10 +28,24 @@ class Index extends Component {
   playMainVideo = () => {
     $("#play-video-button").hide();
     $(".main-video__container").slideDown();
-    videojs('main-video').play();
+    VideoJs('main-video').play();
   };
 
   render() {
+    const {
+      prefixIcon,
+      prefixImg,
+    } = this.props.data;
+    let Icons = {};
+    let Images = {};
+
+    prefixIcon.edges.map(({node}) => {
+      Icons[node.name] = node.childImageSharp.fluid;
+    });
+    prefixImg.edges.map(({node}) => {
+      Images[node.name] = node.childImageSharp.fluid;
+    });
+
     return (
       <>
         <Helmet>
@@ -36,9 +53,10 @@ class Index extends Component {
         </Helmet>
         <Header/>
         <TopNav/>
-        <div
+        <BackgroundImage
+          Tag="div"
           className="content-section simple-section content-section--white-color content-section--with-overlay white--overlay text-center"
-          style={{backgroundImage: 'url(/images/img01.jpg)'}}
+          fluid={Images['img01']}
         >
           <div className="container">
             <div className="content-section__haeding">
@@ -67,10 +85,11 @@ class Index extends Component {
               WATCH VIDEO
             </button>
           </div>
-        </div>
-        <div
+        </BackgroundImage>
+        <BackgroundImage
+          Tag="div"
           className="content-section location-section"
-          style={{backgroundImage: 'url(/images/img04.jpg)'}}
+          fluid={Images['img04']}
         >
           <div className="container">
             <div className="content-section__haeding">
@@ -168,7 +187,7 @@ class Index extends Component {
               </div>
             </div>
           </div>
-        </div>
+        </BackgroundImage>
         <div className="content-section">
           <div className="container">
             <div className="content-section__haeding">
@@ -178,14 +197,15 @@ class Index extends Component {
           <ul className="services">
             <li>
               <Link to="/what-we-do/eyewear-collections">
-                <div
+                <BackgroundImage
+                  Tag="div"
                   className="services__bg"
-                  style={{backgroundImage: 'url(/images/img05.jpg)'}}
+                  fluid={Images['img05']}
                 />
                 <div className="services__caption">
                   <div className="services__wrap">
                     <div className="services__icon">
-                      <img src="/images/icon07.png" alt=""/>
+                      <img src="/images/icon07.png" alt="Eyewear experts"/>
                     </div>
                     <strong className="services__title">Eyewear experts</strong>
                   </div>
@@ -194,9 +214,10 @@ class Index extends Component {
             </li>
             <li>
               <Link to="/what-we-do/contact-lenses">
-                <div
+                <BackgroundImage
+                  Tag="div"
                   className="services__bg"
-                  style={{backgroundImage: 'url(/images/img06.jpg)'}}
+                  fluid={Images['img06']}
                 />
                 <div className="services__caption">
                   <div className="services__wrap">
@@ -210,9 +231,10 @@ class Index extends Component {
             </li>
             <li>
               <Link to="/what-we-do/childrens-vision">
-                <div
+                <BackgroundImage
+                  Tag="div"
                   className="services__bg"
-                  style={{backgroundImage: 'url(/images/img07.jpg)'}}
+                  fluid={Images['img07']}
                 />
                 <div className="services__caption">
                   <div className="services__wrap">
@@ -226,9 +248,10 @@ class Index extends Component {
             </li>
             <li>
               <Link to="/what-we-do/dry-eye-disease">
-                <div
+                <BackgroundImage
+                  Tag="div"
                   className="services__bg"
-                  style={{backgroundImage: 'url(/images/img08.jpg)'}}
+                  fluid={Images['img08']}
                 />
                 <div className="services__caption">
                   <div className="services__wrap">
@@ -242,9 +265,10 @@ class Index extends Component {
             </li>
             <li>
               <Link to="/what-we-do/oct">
-                <div
+                <BackgroundImage
+                  Tag="div"
                   className="services__bg"
-                  style={{backgroundImage: 'url(/images/img09.jpg)'}}
+                  fluid={Images['img09']}
                 />
                 <div className="services__caption">
                   <div className="services__wrap">
@@ -258,9 +282,10 @@ class Index extends Component {
             </li>
             <li>
               <Link to="/what-we-do/orthokeratology-corneal-reshaping">
-                <div
+                <BackgroundImage
+                  Tag="div"
                   className="services__bg"
-                  style={{backgroundImage: 'url(/images/img10.jpg)'}}
+                  fluid={Images['img10']}
                 />
                 <div className="services__caption">
                   <div className="services__wrap">
@@ -727,3 +752,34 @@ class Index extends Component {
 }
 
 export default Index;
+
+export const pageQuery = graphql`
+    {
+        prefixImg: allFile(filter: {relativePath: {regex: "/img[0-9].*\\\\.jpg$/"}}) {
+            edges {
+                node {
+                    name
+                    relativePath
+                    childImageSharp {
+                        fluid(quality: 90, maxWidth: 1920) {
+                            ...GatsbyImageSharpFluid
+                        }
+                    }
+                }
+            }
+        }
+        prefixIcon: allFile(filter: {relativePath: {regex: "/icon[0-9].*\\\\.png$/"}}) {
+            edges {
+                node {
+                    name
+                    relativePath
+                    childImageSharp {
+                        fluid(quality: 90, maxWidth: 734) {
+                            ...GatsbyImageSharpFluid
+                        }
+                    }
+                }
+            }
+        }
+    }
+`;
