@@ -47,6 +47,10 @@ class Search extends Component {
    * Search json data by using fuse.js
    */
   async handleSearch() {
+    this.setState({results: []});
+    if (this.state.searchKey === '') {
+      return;
+    }
     const options = {
       shouldSort: true,
       threshold: 0.0,
@@ -60,12 +64,35 @@ class Search extends Component {
     const fuse = new Fuse(this.state.list, options);
     const results = await fuse.search(this.state.searchKey);
 
+    const keyLower = this.state.searchKey;
+    const keyUpper = keyLower.charAt(0).toUpperCase() + keyLower.slice(1);
+    const tempLower = `<mark>${keyLower}</mark>`;
+    const tempUpper = `<mark>${keyUpper}</mark>`;
+    results.map((result) => {
+      // lowercase
+      result.frontmatter.title = result.frontmatter.title.replace(keyLower, tempLower);
+      result.excerpt = result.excerpt.replace(keyLower, tempLower);
+      // uppercase
+      result.frontmatter.title = result.frontmatter.title.replace(keyUpper, tempUpper);
+      result.excerpt = result.excerpt.replace(keyUpper, tempUpper);
+
+    });
+
     this.setState({
       hasResult: results.length > 0,
       isClicked: true,
       results,
     });
   };
+
+  highlightRender(templateString, key) {
+    var find, re;
+    find = '\\$\\{\\s*' + key + '\\s*\\}';
+    re = new RegExp(find, 'g');
+    templateString = templateString.replace(re, key);
+
+    return templateString;
+  }
 
   render() {
     return (
@@ -107,7 +134,7 @@ class Search extends Component {
           <div className="container">
             <div className="content-wrap">
               <div id="search-results">
-                <h3>Results: {this.state.results.length}</h3>
+                <h3>Results: {this.state.results.length > 0 ? this.state.results.length : ''}</h3>
                 {
                   (this.state.isClicked && !this.state.hasResult) &&
                   <p>No matches found</p>
@@ -123,13 +150,12 @@ class Search extends Component {
                         this.state.results.map((result, i) => (
                           <div key={i}>
                             <h4>
-                              <Link to={`/${result.parent.relativeDirectory}/${result.parent.name}`}>
-                                {result.frontmatter.title}
-                              </Link>
+                              <Link
+                                to={`/${result.parent.relativeDirectory}/${result.parent.name}`}
+                                dangerouslySetInnerHTML={{ __html: result.frontmatter.title }}
+                              />
                             </h4>
-                            <p>
-                              {result.excerpt}
-                            </p>
+                            <p dangerouslySetInnerHTML={{ __html: result.excerpt }}/>
                           </div>
                         ))
                       }
