@@ -439,35 +439,35 @@ class Index extends Component {
               <ul className="lenses-info same-height">
                 <li>
                   <div className="lenses__image height">
-                    <img src="/images/img33.png" alt=""/>
+                    <Img fluid={Images['img33']} alt="" />
                   </div>
                   <strong className="lenses-info__title">SIMPLE</strong>
                   <p>See without lenses during the day</p>
                 </li>
                 <li>
                   <div className="lenses__image height">
-                    <img src="/images/img34.png" alt=""/>
+                    <Img fluid={Images['img34']} alt="" />
                   </div>
                   <strong className="lenses-info__title">EFFORTLESS</strong>
                   <p>Lenses work while you sleep</p>
                 </li>
                 <li>
                   <div className="lenses__image height">
-                    <img src="/images/img35.png" alt=""/>
+                    <Img fluid={Images['img35']} alt="" />
                   </div>
                   <strong className="lenses-info__title">NON-SURGICAL</strong>
                   <p>Just put contacts in</p>
                 </li>
                 <li>
                   <div className="lenses__image height">
-                    <img src="/images/img36.png" alt=""/>
+                    <Img fluid={Images['img36']} alt="" />
                   </div>
                   <strong className="lenses-info__title">BESPOKE</strong>
                   <p>Individually made lenses</p>
                 </li>
                 <li>
                   <div className="lenses__image height">
-                    <img src="/images/img37.png" alt=""/>
+                    <Img fluid={Images['img37']} alt="" />
                   </div>
                   <strong className="lenses-info__title">REVERSIBLE</strong>
                   <p>Stop at any time</p>
@@ -593,31 +593,31 @@ class Index extends Component {
             <ul className="eye-problems same-height">
               <li>
                 <div className="eye-problems__img height">
-                  <img src="/images/img-working.png" alt="working"/>
+                  <Img fluid={Images['img-working']} alt="working" />
                 </div>
                 <strong className="problems__title">WORKING</strong>
               </li>
               <li>
                 <div className="eye-problems__img height">
-                  <img src="/images/img-computer.png" alt="computer"/>
+                  <Img fluid={Images['img-computer']} alt="computer" />
                 </div>
                 <strong className="problems__title">USING A COMPUTER</strong>
               </li>
               <li>
                 <div className="eye-problems__img height">
-                  <img src="/images/img-tv.png" alt="tv"/>
+                  <Img fluid={Images['img-tv']} alt="tv" />
                 </div>
                 <strong className="problems__title">WATCHING TV</strong>
               </li>
               <li>
                 <div className="eye-problems__img height">
-                  <img src="/images/img-books.png" alt="books"/>
+                  <Img fluid={Images['img-books']} alt="books" />
                 </div>
                 <strong className="problems__title">READING</strong>
               </li>
               <li>
                 <div className="eye-problems__img height">
-                  <img src="/images/img-car.png" alt="car"/>
+                  <Img fluid={Images['img-car']} alt="car" />
                 </div>
                 <strong className="problems__title">DRIVING</strong>
               </li>
@@ -753,7 +753,7 @@ class Index extends Component {
         </BackgroundImage>
         <div className="content-section join-section content-section--gray">
           <div className="decorate-image image__cup">
-            <img src="/images/img-cup.jpg" alt=""/>
+            <Img fluid={Images['img-cup']} alt="" />
           </div>
           <div className="container">
             <div className="content-section__haeding haeding--large-heading haeding--without-border">
@@ -761,14 +761,14 @@ class Index extends Component {
               <strong className="content-section__sub-heding">Like our Facebook page</strong>
               <a href="https://www.facebook.com/innovativeeyecareadelaide" className="btn btn--small">get started</a>
               <div className="decorate-image">
-                <img src="/images/img16.png" alt=""/>
+                <Img fluid={Images['img16']} alt="" />
               </div>
               <div className="decorate-image decorate-image--right">
-                <img src="/images/img17.jpg" alt=""/>
+                <Img fluid={Images['img17']} alt="" />
               </div>
             </div>
             <div className="browser-preview">
-              <img src="/images/img15.png" alt=""/>
+              <Img fluid={Images['img15']} alt="" />
             </div>
           </div>
         </div>
@@ -782,7 +782,7 @@ export default Index;
 
 export const pageQuery = graphql`
     {
-        prefixImg: allFile(filter: {relativePath: {regex: "/img[0-9].*\\\\.jpg$/"}}) {
+        prefixImg: allFile(filter: {relativePath: {regex: "/img.*$/"}}) {
             edges {
                 node {
                     name
