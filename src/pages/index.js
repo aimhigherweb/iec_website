@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import {graphql, Link} from 'gatsby';
 import {Helmet} from "react-helmet";
 import BackgroundImage from 'gatsby-background-image';
-// import Img from 'gatsby-image';
+import Img from 'gatsby-image';
 import styled from 'styled-components';
 import VideoJs from 'video.js';
 import $ from 'jquery';
@@ -47,10 +47,18 @@ class Index extends Component {
     let Images = {};
 
     prefixIcon.edges.map(({node}) => {
-      Icons[node.name] = node.childImageSharp.fluid;
+      if (node) {
+        Icons[node.name] = node.childImageSharp.fluid;
+        return true;
+      }
+      return false;
     });
     prefixImg.edges.map(({node}) => {
-      Images[node.name] = node.childImageSharp.fluid;
+      if (node) {
+        Images[node.name] = node.childImageSharp.fluid;
+        return true;
+      }
+      return false;
     });
 
     return (
@@ -563,7 +571,7 @@ class Index extends Component {
             </div>
           </div>
           <div className="symptoms-image">
-            <img src="/images/img29.jpg" alt=""/>
+            <Img fluid={Images['img29']} alt="" />
           </div>
         </div>
         <BackgroundImage
@@ -639,21 +647,21 @@ class Index extends Component {
             <div className="three-columns same-height">
               <div className="three-columns__item">
                 <div className="roundered__img blue-border">
-                  <img src="/images/img24.jpg" alt=""/>
+                  <Img fluid={Images['img24']} alt="" />
                 </div>
                 <strong className="roundered__title height blue-color">DRY EYE RELIEF</strong>
                 <p>Experience dry eye relief for up 2 years</p>
               </div>
               <div className="three-columns__item">
                 <div className="roundered__img blue-border">
-                  <img src="/images/img25.jpg" alt=""/>
+                  <Img fluid={Images['img25']} alt="" />
                 </div>
                 <strong className="roundered__title height blue-color">LONG LASTING</strong>
                 <p>Accumulate the benefits - relief lasts longer after each treament</p>
               </div>
               <div className="three-columns__item">
                 <div className="roundered__img blue-border">
-                  <img src="/images/img26.jpg" alt=""/>
+                  <Img fluid={Images['img26']} alt="" />
                 </div>
                 <strong className="roundered__title height blue-color">LESS NEED FOR EYE DROPS</strong>
                 <p>Stop the constant use of lubricating eye drops</p>
@@ -676,19 +684,19 @@ class Index extends Component {
             <div className="three-columns same-height">
               <div className="three-columns__item">
                 <div className="roundered__img">
-                  <img src="/images/img21.jpg" alt=""/>
+                  <Img fluid={Images['img21']} alt="" />
                 </div>
                 <strong className="roundered__title height">OPTICAL COHERENCE TOMOGRAPHY</strong>
               </div>
               <div className="three-columns__item">
                 <div className="roundered__img">
-                  <img src="/images/img22.jpg" alt=""/>
+                  <Img fluid={Images['img22']} alt="" />
                 </div>
                 <strong className="roundered__title height">RETINAL FUNDUS PHOTOGRAPHY</strong>
               </div>
               <div className="three-columns__item">
                 <div className="roundered__img">
-                  <img src="/images/img23.jpg" alt=""/>
+                  <Img fluid={Images['img23']} alt="" />
                 </div>
                 <strong className="roundered__title height">CORNEAL TOPOGRAPHY</strong>
               </div>
