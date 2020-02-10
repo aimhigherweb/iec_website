@@ -39,21 +39,16 @@ class Index extends Component {
         opacity: 1 !important;
       }
     `;
+    const StyledEyeProblemImg = styled('div')`
+      flex: 1;
+      height: 100px;
+    `;
     const {
-      prefixIcon,
-      prefixImg,
+      imageFiles,
     } = this.props.data;
-    let Icons = {};
     let Images = {};
 
-    prefixIcon.edges.map(({node}) => {
-      if (node) {
-        Icons[node.name] = node.childImageSharp.fluid;
-        return true;
-      }
-      return false;
-    });
-    prefixImg.edges.map(({node}) => {
+    imageFiles.edges.map(({node}) => {
       if (node) {
         Images[node.name] = node.childImageSharp.fluid;
         return true;
@@ -220,7 +215,7 @@ class Index extends Component {
                 <div className="services__caption">
                   <div className="services__wrap">
                     <div className="services__icon">
-                      <img src="/images/icon07.png" alt="Eyewear experts"/>
+                      <Img fluid={Images['icon07']} alt="Eyewear experts" />
                     </div>
                     <strong className="services__title">Eyewear experts</strong>
                   </div>
@@ -237,7 +232,7 @@ class Index extends Component {
                 <div className="services__caption">
                   <div className="services__wrap">
                     <div className="services__icon">
-                      <img src="/images/icon02.png" alt="Bespoke Contact Lenses"/>
+                      <Img fluid={Images['icon02']} alt="Bespoke Contact Lenses" />
                     </div>
                     <strong className="services__title">Bespoke Contact Lenses</strong>
                   </div>
@@ -254,7 +249,7 @@ class Index extends Component {
                 <div className="services__caption">
                   <div className="services__wrap">
                     <div className="services__icon">
-                      <img src="/images/icon03.png" alt="Paediatric Vision"/>
+                      <Img fluid={Images['icon03']} alt="Paediatric Vision" />
                     </div>
                     <strong className="services__title">Paediatric Vision</strong>
                   </div>
@@ -271,7 +266,7 @@ class Index extends Component {
                 <div className="services__caption">
                   <div className="services__wrap">
                     <div className="services__icon">
-                      <img src="/images/icon04.png" alt="Dry Eye Clinic"/>
+                      <Img fluid={Images['icon04']} alt="Dry Eye Clinic" />
                     </div>
                     <strong className="services__title">Dry Eye Clinic</strong>
                   </div>
@@ -288,7 +283,7 @@ class Index extends Component {
                 <div className="services__caption">
                   <div className="services__wrap">
                     <div className="services__icon">
-                      <img src="/images/icon05.png" alt="Advanced Imaging Technology"/>
+                      <Img fluid={Images['icon05']} alt="Advanced Imaging Technology" />
                     </div>
                     <strong className="services__title">Advanced Imaging Technology</strong>
                   </div>
@@ -305,7 +300,7 @@ class Index extends Component {
                 <div className="services__caption">
                   <div className="services__wrap">
                     <div className="services__icon">
-                      <img src="/images/icon06.png" alt="Overnight vision correction"/>
+                      <Img fluid={Images['icon06']} alt="Overnight vision correction" />
                     </div>
                     <strong className="services__title">ORTHO-K: <br/> Overnight vision correction</strong>
                   </div>
@@ -391,7 +386,7 @@ class Index extends Component {
         </BackgroundImage>
         <div className="content-section lenses-information content-section--white-color">
           <div className="bg-holder">
-            <img src="/images/bg-box02.jpg" alt=""/>
+            <Img fluid={Images['bg-box02']} alt="" />
           </div>
           <div className="container">
             <div className="container__wrap container--left-position">
@@ -429,7 +424,7 @@ class Index extends Component {
         </div>
         <div className="content-section ortho-section content-section--white-color content-section__black-bg">
           <div className="bg-holder bg--left-position">
-            <img src="/images/bg-box.jpg" alt=""/>
+            <Img fluid={Images['bg-box']} alt="" />
           </div>
           <div className="container">
             <div className="container__wrap container--right-postion">
@@ -512,7 +507,7 @@ class Index extends Component {
               friend <span>$50 Gift Card for you</span></strong>
           </div>
           <div className="icon-logo icon-logo--left">
-            <img src="/images/icon-logo02.png" alt="innovative eye care"/>
+            <Img fluid={Images['icon-logo02']} alt="Innovative Eye Care" />
           </div>
         </BackgroundImage>
         <div className="content-section symptoms-section text-center">
@@ -530,7 +525,7 @@ class Index extends Component {
                 <li>
                   <div className="hold">
                     <div className="symptoms__img height">
-                      <img src="/images/eye01.png" alt="STINGING &amp; BURNING"/>
+                      <Img fluid={Images['eye01']} alt="STINGING &amp; BURNING" />
                     </div>
                     <strong className="symptoms__title">STINGING &amp; BURNING</strong>
                   </div>
@@ -538,7 +533,7 @@ class Index extends Component {
                 <li>
                   <div className="hold">
                     <div className="symptoms__img height extra-size">
-                      <img src="/images/eye02.png" alt="GRITTY SENSATION"/>
+                      <Img fluid={Images['eye02']} alt="GRITTY SENSATION" />
                     </div>
                     <strong className="symptoms__title">GRITTY SENSATION</strong>
                   </div>
@@ -546,7 +541,7 @@ class Index extends Component {
                 <li>
                   <div className="hold">
                     <div className="symptoms__img height">
-                      <img src="/images/eye03.png" alt="REDNESS"/>
+                      <Img fluid={Images['eye03']} alt="REDNESS" />
                     </div>
                     <strong className="symptoms__title">REDNESS</strong>
                   </div>
@@ -554,7 +549,7 @@ class Index extends Component {
                 <li>
                   <div className="hold">
                     <div className="symptoms__img height">
-                      <img src="/images/eye04.png" alt="WATERINESS"/>
+                      <Img fluid={Images['eye04']} alt="WATERINESS" />
                     </div>
                     <strong className="symptoms__title">WATERINESS</strong>
                   </div>
@@ -562,7 +557,7 @@ class Index extends Component {
                 <li>
                   <div className="hold">
                     <div className="symptoms__img height">
-                      <img src="/images/eye05.png" alt="BLURRY VISION"/>
+                      <Img fluid={Images['eye05']} alt="BLURRY VISION" />
                     </div>
                     <strong className="symptoms__title">BLURRY VISION</strong>
                   </div>
@@ -709,12 +704,12 @@ class Index extends Component {
           fluid={Images['img19']}
         >
           <div className="icon-logo">
-            <img src="/images/icon-logo.png" alt="innovative eye care"/>
+            <Img fluid={Images['icon-logo']} alt="innovative eye care" />
           </div>
           <div className="container">
             <div className="address-information">
               <div className="address__image">
-                <img src="/images/logo-australia.png" alt="south australia"/>
+                <Img fluid={Images['logo-australia']} alt="south australia" />
               </div>
               <div className="address__description container__wrap">
                 <div className="content-section__haeding haeding--large-heading">
@@ -782,7 +777,7 @@ export default Index;
 
 export const pageQuery = graphql`
     {
-        prefixImg: allFile(filter: {relativePath: {regex: "/img.*$/"}}) {
+        imageFiles: allFile(filter: {relativePath: {regex: "/.*\\\\.(jpg|png)$/"}}) {
             edges {
                 node {
                     name
