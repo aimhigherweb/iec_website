@@ -4,12 +4,25 @@ import {Helmet} from "react-helmet";
 import Header from '../../layouts/partials/header';
 import TopNav from "../../layouts/partials/topnav";
 import Footer from "../../layouts/partials/footer";
+import Img from "gatsby-image";
 
 class PatientResources extends Component {
 
   render() {
-    const { data } = this.props;
-    const list = data.allMarkdownRemark.edges;
+    const {
+      imageFiles,
+      introBGImage,
+      list,
+    } = this.props.data;
+    let Images = {};
+
+    imageFiles.edges.map(({node}) => {
+      if (node) {
+        Images[node.name] = node.childImageSharp.fluid;
+        return true;
+      }
+      return false;
+    });
 
     return (
       <>
@@ -23,10 +36,18 @@ class PatientResources extends Component {
           className="content-section"
           style={{paddingTop: 0}}
         >
-          <div
-            className="intro-section"
-            style={{backgroundImage: 'url(/images/intro-bg.png)'}}
-          >
+          <div className="intro-section">
+            <Img
+              sizes={introBGImage.childImageSharp.fluid}
+              style={{
+                position: "absolute",
+                left: 0,
+                top: 0,
+                width: "100%",
+                height: "100%",
+                zIndex: -1,
+              }}
+            />
             <div className="container">
               <div className="intro-section__wrap">
                 <div className="intro-section__row">
@@ -103,10 +124,18 @@ class PatientResources extends Component {
           <div className="patient-resources-section">
             <ul className="patient-resources-list">
               <li className="patient-resources-box">
-                <div
-                  className="patient-resources-inner hover-elem"
-                  style={{backgroundImage: 'url(/images/3-ContactLenses.jpg)'}}
-                >
+                <div className="patient-resources-inner hover-elem">
+                  <Img
+                    sizes={Images['3-ContactLenses']}
+                    style={{
+                      position: "absolute",
+                      left: 0,
+                      top: 0,
+                      width: "100%",
+                      height: "100%",
+                      zIndex: -1,
+                    }}
+                  />
                   <div className="overlay">
                     <div className="services__icon">
                       <img src="/images/icon01.png" alt=""/>
@@ -124,7 +153,7 @@ class PatientResources extends Component {
                       </span>
                       <ul className="links">
                         {
-                          list.map(({node}, i) => node.frontmatter.category === 'Contact Lens Instructions' ?
+                          list.edges.map(({node}, i) => node.frontmatter.category === 'Contact Lens Instructions' ?
                             (<li key={i}>
                               <Link to={ `/patient-resources/${node.parent.name}` }> { node.frontmatter.title }</Link>
                             </li>) : ''
@@ -136,10 +165,18 @@ class PatientResources extends Component {
                 </div>
               </li>
               <li className="patient-resources-box">
-                <div
-                  className="patient-resources-inner hover-elem"
-                  style={{backgroundImage: 'url(/images/10-EyeDisease.jpg)'}}
-                >
+                <div className="patient-resources-inner hover-elem">
+                  <Img
+                    sizes={Images['10-EyeDisease']}
+                    style={{
+                      position: "absolute",
+                      left: 0,
+                      top: 0,
+                      width: "100%",
+                      height: "100%",
+                      zIndex: -1,
+                    }}
+                  />
                   <div className="overlay">
                     <div className="services__icon">
                       <img src="/images/icon07.png" alt=""/>
@@ -157,7 +194,7 @@ class PatientResources extends Component {
                       </span>
                       <ul className="links">
                         {
-                          list.map(({ node }, i ) => node.frontmatter.category === 'Vision Training' ?
+                          list.edges.map(({ node }, i ) => node.frontmatter.category === 'Vision Training' ?
                             (<li key={i}>
                               <Link to={ `/patient-resources/${node.parent.name}` }> { node.frontmatter.title }</Link>
                             </li>) : ''
@@ -169,10 +206,18 @@ class PatientResources extends Component {
                 </div>
               </li>
               <li className="patient-resources-box">
-                <div
-                  className="patient-resources-inner hover-elem"
-                  style={{backgroundImage: 'url(/images/5-RefractiveConditions.jpg)'}}
-                >
+                <div className="patient-resources-inner hover-elem">
+                  <Img
+                    sizes={Images['5-RefractiveConditions']}
+                    style={{
+                      position: "absolute",
+                      left: 0,
+                      top: 0,
+                      width: "100%",
+                      height: "100%",
+                      zIndex: -1,
+                    }}
+                  />
                   <div className="overlay">
                     <div className="services__icon">
                       <img src="/images/icon02.png" alt=""/>
@@ -191,7 +236,7 @@ class PatientResources extends Component {
                       <span className="sub-title">Using eye drops correctly</span>
                       <ul className="links">
                         {
-                          list.map(({ node }, i ) => node.frontmatter.category === 'everyday-eye-care' ?
+                          list.edges.map(({ node }, i ) => node.frontmatter.category === 'everyday-eye-care' ?
                             (<li key={i}>
                               <Link to={ `/patient-resources/${node.parent.name}` }> { node.frontmatter.title }</Link>
                             </li>) : ''
@@ -204,10 +249,18 @@ class PatientResources extends Component {
               </li>
             </ul>
           </div>
-          <div
-            className="content-section online-book-section"
-            style={{backgroundImage: 'url(/images/img38.jpg)'}}
-          >
+          <div className="content-section online-book-section">
+            <Img
+              sizes={Images['img38']}
+              style={{
+                position: "absolute",
+                left: 0,
+                top: 0,
+                width: "100%",
+                height: "100%",
+                zIndex: -1,
+              }}
+            />
             <div className="container">
               <div className="online-box">
                 <div className="online-box-heading"><h2>Book Online - It’s easy</h2></div>
@@ -231,7 +284,26 @@ export default PatientResources;
 
 export const query = graphql`
     query PatientResourcesQuery {
-        allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/(patient-resources)/.*\\\\.md$/"}}) {
+        introBGImage: file(relativePath: {eq: "images/intro-bg.png"}) {
+            childImageSharp {
+                fluid(quality: 90, maxWidth: 1920) {
+                    ...GatsbyImageSharpFluid
+                }
+            }
+        }
+        imageFiles: allFile(filter: {relativePath: {regex: "/images/.*\\\\.(jpg|png)$/"}}) {
+            edges {
+                node {
+                    name
+                    childImageSharp {
+                        fluid(quality: 90, maxWidth: 1920) {
+                            ...GatsbyImageSharpFluid
+                        }
+                    }
+                }
+            }
+        }
+        list: allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/(patient-resources)/.*\\\\.md$/"}}) {
             edges {
                 node {
                     frontmatter {
