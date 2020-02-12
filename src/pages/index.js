@@ -3,7 +3,7 @@ import {graphql, Link} from 'gatsby';
 import {Helmet} from "react-helmet";
 import BackgroundImage from 'gatsby-background-image';
 import Img from 'gatsby-image';
-import styled from 'styled-components';
+// import styled from 'styled-components';
 import VideoJs from 'video.js';
 import $ from 'jquery';
 
@@ -32,17 +32,13 @@ class Index extends Component {
   };
 
   render() {
-    const StyledBackgroundImage = styled(BackgroundImage)`
-      &::after {
-        z-index: -1 !important;
-        background-image: none !important;
-        opacity: 1 !important;
-      }
-    `;
-    const StyledEyeProblemImg = styled('div')`
-      flex: 1;
-      height: 100px;
-    `;
+    // const StyledBackgroundImage = styled(BackgroundImage)`
+    //   &::after {
+    //     z-index: -1 !important;
+    //     background-image: none !important;
+    //     opacity: 1 !important;
+    //   }
+    // `;
     const {
       imageFiles,
       uploadFiles,
@@ -106,7 +102,7 @@ class Index extends Component {
             </button>
           </div>
         </BackgroundImage>
-        <StyledBackgroundImage
+        <BackgroundImage
           Tag="div"
           className="content-section location-section"
           fluid={Images['img04']}
@@ -207,7 +203,7 @@ class Index extends Component {
               </div>
             </div>
           </div>
-        </StyledBackgroundImage>
+        </BackgroundImage>
         <div className="content-section">
           <div className="container">
             <div className="content-section__haeding">
@@ -792,7 +788,6 @@ export const pageQuery = graphql`
             edges {
                 node {
                     name
-                    relativePath
                     childImageSharp {
                         fluid(quality: 90, maxWidth: 1920) {
                             ...GatsbyImageSharpFluid
@@ -805,7 +800,6 @@ export const pageQuery = graphql`
             edges {
                 node {
                     name
-                    relativePath
                     childImageSharp {
                         fluid(quality: 90, maxWidth: 1920) {
                             ...GatsbyImageSharpFluid
