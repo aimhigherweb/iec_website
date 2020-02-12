@@ -7,6 +7,7 @@ import {Helmet} from "react-helmet";
 import Header from '../../layouts/partials/header';
 import TopNav from "../../layouts/partials/topnav";
 import Footer from "../../layouts/partials/footer";
+import Img from "gatsby-image";
 
 class WhatWeDo extends Component {
 
@@ -17,8 +18,21 @@ class WhatWeDo extends Component {
   };
 
   render() {
-    const { data } = this.props;
-    const list = data.allMarkdownRemark.edges;
+    const {
+      headerImage,
+      introBGImage,
+      list,
+      imageFiles,
+    } = this.props.data;
+    let Images = {};
+
+    imageFiles.edges.map(({node}) => {
+      if (node) {
+        Images[node.name] = node.childImageSharp.fluid;
+        return true;
+      }
+      return false;
+    });
 
     return (
       <>
@@ -28,10 +42,20 @@ class WhatWeDo extends Component {
         <Header />
         <TopNav />
 
-        <div
-          className="who-we-are__header content-section simple-section content-section--white-color content-section--with-overlay white--overlay text-center"
-          style={{backgroundImage: 'url(/images/WHAT_WE-DO_HeaderImage.jpg)'}}
+        <div className="who-we-are__header content-section simple-section
+         content-section--white-color content-section--with-overlay white--overlay text-center"
         >
+          <Img
+            sizes={headerImage.childImageSharp.fluid}
+            style={{
+              position: "absolute",
+              left: 0,
+              top: 0,
+              width: "100%",
+              height: "100%",
+              zIndex: -1,
+            }}
+          />
           <div className="container">
             <div className="content-section__haeding video-section__heading">
               <h1 className="haeding__top-text top-text--small">What We Do</h1>
@@ -57,10 +81,18 @@ class WhatWeDo extends Component {
             </button>
           </div>
         </div>
-        <div
-          className="intro-section"
-          style={{backgroundImage: 'url(/images/intro-bg.png)'}}
-        >
+        <div className="intro-section">
+          <Img
+            sizes={introBGImage.childImageSharp.fluid}
+            style={{
+              position: "absolute",
+              left: 0,
+              top: 0,
+              width: "100%",
+              height: "100%",
+              zIndex: -1,
+            }}
+          />
           <div className="container">
             <div className="intro-section__wrap">
               <div className="intro-section__row">
@@ -131,10 +163,18 @@ class WhatWeDo extends Component {
             <li
               className="what-we-do-box"
             >
-              <div
-                className="what-we-do-inner hover-elem"
-                style={{backgroundImage: 'url(/images/1-Consultations.jpg)'}}
-              >
+              <div className="what-we-do-inner hover-elem">
+                <Img
+                  sizes={Images['1-Consultations']}
+                  style={{
+                    position: "absolute",
+                    left: 0,
+                    top: 0,
+                    width: "100%",
+                    height: "100%",
+                    zIndex: -1,
+                  }}
+                />
                 <div className="overlay">
                   <div className="services__icon">
                     <img src="/images/icon01.png" alt="" />
@@ -152,7 +192,7 @@ class WhatWeDo extends Component {
                     </span>
                     <ul className="links">
                       {
-                        list.map(({ node }, i ) => node.frontmatter.category === 'consultations' ?
+                        list.edges.map(({ node }, i ) => node.frontmatter.category === 'consultations' ?
                           (<li key={i}>
                             <Link to={ `/what-we-do/${node.parent.name}` }> { node.frontmatter.title }</Link>
                           </li>) : ''
@@ -164,10 +204,18 @@ class WhatWeDo extends Component {
               </div>
             </li>
             <li className="what-we-do-box">
-              <div
-                className="what-we-do-inner hover-elem"
-                style={{backgroundImage: 'url(/images/2-EyewearExperts.jpg)'}}
-              >
+              <div className="what-we-do-inner hover-elem">
+                <Img
+                  sizes={Images['2-EyewearExperts']}
+                  style={{
+                    position: "absolute",
+                    left: 0,
+                    top: 0,
+                    width: "100%",
+                    height: "100%",
+                    zIndex: -1,
+                  }}
+                />
                 <div className="overlay">
                   <div className="services__icon">
                     <img src="/images/icon07.png" alt="" />
@@ -185,7 +233,7 @@ class WhatWeDo extends Component {
                     </span>
                     <ul className="links">
                       {
-                        list.map(({ node }, i ) => node.frontmatter.category === 'eyewear-experts' ?
+                        list.edges.map(({ node }, i ) => node.frontmatter.category === 'eyewear-experts' ?
                           (<li key={i}>
                             <Link to={ `/what-we-do/${node.parent.name}` }> { node.frontmatter.title }</Link>
                           </li>) : ''
@@ -197,10 +245,18 @@ class WhatWeDo extends Component {
               </div>
             </li>
             <li className="what-we-do-box">
-              <div
-                className="what-we-do-inner hover-elem"
-                style={{backgroundImage: 'url(/images/3-ContactLenses.jpg)'}}
-              >
+              <div className="what-we-do-inner hover-elem">
+                <Img
+                  sizes={Images['3-ContactLenses']}
+                  style={{
+                    position: "absolute",
+                    left: 0,
+                    top: 0,
+                    width: "100%",
+                    height: "100%",
+                    zIndex: -1,
+                  }}
+                />
                 <div className="overlay">
                   <div className="services__icon">
                     <img src="/images/icon02.png" alt="" />
@@ -218,7 +274,7 @@ class WhatWeDo extends Component {
                     </span>
                     <ul className="links">
                       {
-                        list.map(({ node }, i ) => node.frontmatter.category === 'contact-lenses' ?
+                        list.edges.map(({ node }, i ) => node.frontmatter.category === 'contact-lenses' ?
                           (<li key={i}>
                             <Link to={ `/what-we-do/${node.parent.name}` }> { node.frontmatter.title }</Link>
                           </li>) : ''
@@ -230,10 +286,18 @@ class WhatWeDo extends Component {
               </div>
             </li>
             <li className="what-we-do-box">
-              <div
-                className="what-we-do-inner hover-elem"
-                style={{backgroundImage: 'url(/images/4-Ortho-K.jpg)'}}
-              >
+              <div className="what-we-do-inner hover-elem">
+                <Img
+                  sizes={Images['4-Ortho-K']}
+                  style={{
+                    position: "absolute",
+                    left: 0,
+                    top: 0,
+                    width: "100%",
+                    height: "100%",
+                    zIndex: -1,
+                  }}
+                />
                 <div className="overlay">
                   <div className="services__icon">
                     <img src="/images/icon06.png" alt="" />
@@ -251,7 +315,7 @@ class WhatWeDo extends Component {
                     </span>
                     <ul className="links">
                       {
-                        list.map(({ node }, i ) => node.frontmatter.category === 'orthok' ?
+                        list.edges.map(({ node }, i ) => node.frontmatter.category === 'orthok' ?
                           (<li key={i}>
                             <Link to={ `/what-we-do/${node.parent.name}` }> { node.frontmatter.title }</Link>
                           </li>) : ''
@@ -263,10 +327,18 @@ class WhatWeDo extends Component {
               </div>
             </li>
             <li className="what-we-do-box">
-              <div
-                className="what-we-do-inner hover-elem"
-                style={{backgroundImage: 'url(/images/5-RefractiveConditions.jpg)'}}
-              >
+              <div className="what-we-do-inner hover-elem">
+                <Img
+                  sizes={Images['5-RefractiveConditions']}
+                  style={{
+                    position: "absolute",
+                    left: 0,
+                    top: 0,
+                    width: "100%",
+                    height: "100%",
+                    zIndex: -1,
+                  }}
+                />
                 <div className="overlay">
                   <div className="services__icon">
                     <img src="/images/icon08.png" alt="" />
@@ -284,7 +356,7 @@ class WhatWeDo extends Component {
                     </span>
                     <ul className="links">
                       {
-                        list.map(({ node }, i ) => node.frontmatter.category === 'refractive-conditions' ?
+                        list.edges.map(({ node }, i ) => node.frontmatter.category === 'refractive-conditions' ?
                           (<li key={i}>
                             <Link to={ `/what-we-do/${node.parent.name}` }> { node.frontmatter.title }</Link>
                           </li>) : ''
@@ -296,10 +368,18 @@ class WhatWeDo extends Component {
               </div>
             </li>
             <li className="what-we-do-box">
-              <div
-                className="what-we-do-inner hover-elem"
-                style={{backgroundImage: 'url(/images/6-PaediatricVision.jpg)'}}
-              >
+              <div className="what-we-do-inner hover-elem">
+                <Img
+                  sizes={Images['6-PaediatricVision']}
+                  style={{
+                    position: "absolute",
+                    left: 0,
+                    top: 0,
+                    width: "100%",
+                    height: "100%",
+                    zIndex: -1,
+                  }}
+                />
                 <div className="overlay">
                   <div className="services__icon">
                     <img src="/images/icon03.png" alt="" />
@@ -317,7 +397,7 @@ class WhatWeDo extends Component {
                     </span>
                     <ul className="links">
                       {
-                        list.map(({ node }, i ) => node.frontmatter.category === 'paediatric-vision' ?
+                        list.edges.map(({ node }, i ) => node.frontmatter.category === 'paediatric-vision' ?
                           (<li key={i}>
                             <Link to={ `/what-we-do/${node.parent.name}` }> { node.frontmatter.title }</Link>
                           </li>) : ''
@@ -329,10 +409,18 @@ class WhatWeDo extends Component {
               </div>
             </li>
             <li className="what-we-do-box">
-              <div
-                className="what-we-do-inner hover-elem"
-                style={{backgroundImage: 'url(/images/7-DryEyeClinic.jpg)'}}
-              >
+              <div className="what-we-do-inner hover-elem">
+                <Img
+                  sizes={Images['7-DryEyeClinic']}
+                  style={{
+                    position: "absolute",
+                    left: 0,
+                    top: 0,
+                    width: "100%",
+                    height: "100%",
+                    zIndex: -1,
+                  }}
+                />
                 <div className="overlay">
                   <div className="services__icon">
                     <img src="/images/icon04.png" alt="" />
@@ -350,7 +438,7 @@ class WhatWeDo extends Component {
                     </span>
                     <ul className="links">
                       {
-                        list.map(({ node }, i ) => node.frontmatter.category === 'dry-eye-clinic' ?
+                        list.edges.map(({ node }, i ) => node.frontmatter.category === 'dry-eye-clinic' ?
                           (<li key={i}>
                             <Link to={ `/what-we-do/${node.parent.name}` }> { node.frontmatter.title }</Link>
                           </li>) : ''
@@ -362,10 +450,18 @@ class WhatWeDo extends Component {
               </div>
             </li>
             <li className="what-we-do-box">
-              <div
-                className="what-we-do-inner hover-elem"
-                style={{backgroundImage: 'url(/images/8-AcuteRedEyes.jpg)'}}
-              >
+              <div className="what-we-do-inner hover-elem">
+                <Img
+                  sizes={Images['8-AcuteRedEyes']}
+                  style={{
+                    position: "absolute",
+                    left: 0,
+                    top: 0,
+                    width: "100%",
+                    height: "100%",
+                    zIndex: -1,
+                  }}
+                />
                 <div className="overlay">
                   <div className="services__icon">
                     <img src="/images/icon09.png" alt="" />
@@ -383,7 +479,7 @@ class WhatWeDo extends Component {
                     </span>
                     <ul className="links">
                       {
-                        list.map(({ node }, i ) => node.frontmatter.category === 'acute-red-eyes' ?
+                        list.edges.map(({ node }, i ) => node.frontmatter.category === 'acute-red-eyes' ?
                           (<li key={i}>
                             <Link to={ `/what-we-do/${node.parent.name}` }> { node.frontmatter.title }</Link>
                           </li>) : ''
@@ -395,10 +491,18 @@ class WhatWeDo extends Component {
               </div>
             </li>
             <li className="what-we-do-box">
-              <div
-                className="what-we-do-inner hover-elem"
-                style={{backgroundImage: 'url(/images/9-AdvancedImagingTechnology.jpg)'}}
-              >
+              <div className="what-we-do-inner hover-elem">
+                <Img
+                  sizes={Images['9-AdvancedImagingTechnology']}
+                  style={{
+                    position: "absolute",
+                    left: 0,
+                    top: 0,
+                    width: "100%",
+                    height: "100%",
+                    zIndex: -1,
+                  }}
+                />
                 <div className="overlay">
                   <div className="services__icon">
                     <img src="/images/icon05.png" alt="" />
@@ -416,7 +520,7 @@ class WhatWeDo extends Component {
                     </span>
                     <ul className="links">
                       {
-                        list.map(({ node }, i ) => node.frontmatter.category === 'advanced-imaging-technology' ?
+                        list.edges.map(({ node }, i ) => node.frontmatter.category === 'advanced-imaging-technology' ?
                           (<li key={i}>
                             <Link to={ `/what-we-do/${node.parent.name}` }> { node.frontmatter.title }</Link>
                           </li>) : ''
@@ -428,10 +532,18 @@ class WhatWeDo extends Component {
               </div>
             </li>
             <li className="what-we-do-box">
-              <div
-                className="what-we-do-inner hover-elem"
-                style={{backgroundImage: 'url(/images/10-EyeDisease.jpg)'}}
-              >
+              <div className="what-we-do-inner hover-elem">
+                <Img
+                  sizes={Images['10-EyeDisease']}
+                  style={{
+                    position: "absolute",
+                    left: 0,
+                    top: 0,
+                    width: "100%",
+                    height: "100%",
+                    zIndex: -1,
+                  }}
+                />
                 <div className="overlay">
                   <div className="services__icon">
                     <img src="/images/icon10.png" alt="" />
@@ -449,7 +561,7 @@ class WhatWeDo extends Component {
                     </span>
                     <ul className="links">
                       {
-                        list.map(({ node }, i ) => node.frontmatter.category === 'eye-disease' ?
+                        list.edges.map(({ node }, i ) => node.frontmatter.category === 'eye-disease' ?
                           (<li key={i}>
                             <Link to={ `/what-we-do/${node.parent.name}` }> { node.frontmatter.title }</Link>
                           </li>) : ''
@@ -461,10 +573,18 @@ class WhatWeDo extends Component {
               </div>
             </li>
             <li className="what-we-do-box what-we-do-box-double">
-              <div
-                className="what-we-do-inner hover-elem"
-                style={{backgroundImage: 'url(/images/img30-lilac.jpg)'}}
-              >
+              <div className="what-we-do-inner hover-elem">
+                <Img
+                  sizes={Images['img30-lilac']}
+                  style={{
+                    position: "absolute",
+                    left: 0,
+                    top: 0,
+                    width: "100%",
+                    height: "100%",
+                    zIndex: -1,
+                  }}
+                />
                 <div className="container">
                   <div className="content-section--white-color">
                     <div className="content-section__haeding haeding__with-extra-border">
@@ -484,10 +604,18 @@ class WhatWeDo extends Component {
             </li>
           </ul>
         </div>
-        <div
-          className="content-section online-book-section"
-          style={{backgroundImage: 'url(/images/img38.jpg)'}}
-        >
+        <div className="content-section online-book-section">
+          <Img
+            sizes={Images['img38']}
+            style={{
+              position: "absolute",
+              left: 0,
+              top: 0,
+              width: "100%",
+              height: "100%",
+              zIndex: -1,
+            }}
+          />
           <div className="container">
             <div className="online-box">
               <div className="online-box-heading"><h2>Book Online - It’s easy</h2></div>
@@ -510,7 +638,33 @@ export default WhatWeDo;
 
 export const query = graphql`
     query WhatWeDoQuery {
-        allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/(what-we-do)/.*\\\\.md$/"}}) {
+        headerImage: file(relativePath: {eq: "images/WHAT_WE-DO_HeaderImage.jpg"}) {
+            childImageSharp {
+                fluid(quality: 90, maxWidth: 1920) {
+                    ...GatsbyImageSharpFluid
+                }
+            }
+        }
+        introBGImage: file(relativePath: {eq: "images/intro-bg.png"}) {
+            childImageSharp {
+                fluid(quality: 90, maxWidth: 1920) {
+                    ...GatsbyImageSharpFluid
+                }
+            }
+        }
+        imageFiles: allFile(filter: {relativePath: {regex: "/images/.*\\\\.(jpg|png)$/"}}) {
+            edges {
+                node {
+                    name
+                    childImageSharp {
+                        fluid(quality: 90, maxWidth: 1920) {
+                            ...GatsbyImageSharpFluid
+                        }
+                    }
+                }
+            }
+        }
+        list: allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/(what-we-do)/.*\\\\.md$/"}}) {
             edges {
                 node {
                     frontmatter {
