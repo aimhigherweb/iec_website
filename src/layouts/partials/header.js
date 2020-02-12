@@ -54,6 +54,7 @@ class Header extends Component {
             type="text/css"
           />
           <link rel="stylesheet" href="/css/video-js.min.css" />
+          <script async type="text/javascript" src="/js/jquery-1.11.2.min.js" />
           <script async type="text/javascript" src="https://code.jquery.com/jquery-1.11.2.min.js" />
           <script async type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js"/>
           <script async type="text/javascript" src="/js/main.js" />
