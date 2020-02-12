@@ -70,15 +70,19 @@ class Search extends Component {
     const tempLower = `<mark>${keyLower}</mark>`;
     const tempUpper = `<mark>${keyUpper}</mark>`;
     results.map((result) => {
-      // init mark
-      result.frontmatter.title = result.frontmatter.title.replace(new RegExp('<mark>|</mark>', 'g'), '');
-      result.excerpt = result.excerpt.replace(new RegExp('<mark>|</mark>', 'g'), '');
-      // lowercase
-      result.frontmatter.title = result.frontmatter.title.replace(keyLower, tempLower);
-      result.excerpt = result.excerpt.replace(keyLower, tempLower);
-      // uppercase
-      result.frontmatter.title = result.frontmatter.title.replace(keyUpper, tempUpper);
-      result.excerpt = result.excerpt.replace(keyUpper, tempUpper);
+      if (result) {
+        // init mark
+        result.frontmatter.title = result.frontmatter.title.replace(new RegExp('<mark>|</mark>', 'g'), '');
+        result.excerpt = result.excerpt.replace(new RegExp('<mark>|</mark>', 'g'), '');
+        // lowercase
+        result.frontmatter.title = result.frontmatter.title.replace(keyLower, tempLower);
+        result.excerpt = result.excerpt.replace(keyLower, tempLower);
+        // uppercase
+        result.frontmatter.title = result.frontmatter.title.replace(keyUpper, tempUpper);
+        result.excerpt = result.excerpt.replace(keyUpper, tempUpper);
+        return true;
+      }
+      return false;
     });
 
     this.setState({
