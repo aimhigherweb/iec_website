@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import { graphql, Link } from 'gatsby';
 import {Helmet} from "react-helmet";
-import BackgroundImage from 'gatsby-background-image';
 import Img from 'gatsby-image';
 
 import Header from '../../layouts/partials/header';
@@ -14,7 +13,7 @@ class WhoWeAre extends Component {
   render() {
     const {
       headerImage,
-      // introBGImage,
+      introBGImage,
       teamList,
       uploadFiles,
     } = this.props.data;
@@ -36,11 +35,20 @@ class WhoWeAre extends Component {
         <Header />
         <TopNav />
 
-        <BackgroundImage
-          Tag="div"
+        <div
           className="who-we-are__header content-section simple-section content-section--white-color content-section--with-overlay white--overlay text-center"
-          fluid={headerImage.childImageSharp.fluid}
         >
+          <Img
+            sizes={headerImage.childImageSharp.fluid}
+            style={{
+              position: "absolute",
+              left: 0,
+              top: 0,
+              width: "100%",
+              height: "100%",
+              zIndex: -1,
+            }}
+          />
           <div className="container">
             <div className="content-section__haeding video-section__heading">
               <h1 className="haeding__top-text top-text--small">Who We Are</h1>
@@ -60,12 +68,20 @@ class WhoWeAre extends Component {
               </video>
             </div>
           </div>
-        </BackgroundImage>
+        </div>
 
-        <div
-          className="intro-section"
-          style={{backgroundImage: 'url(/images/intro-bg.png)'}}
-        >
+        <div className="intro-section">
+          <Img
+            sizes={introBGImage.childImageSharp.fluid}
+            style={{
+              position: "absolute",
+              left: 0,
+              top: 0,
+              width: "100%",
+              height: "100%",
+              zIndex: -1,
+            }}
+          />
           <div className="container">
             <div className="intro-section__wrap">
               <div className="intro-section__row">
@@ -226,6 +242,7 @@ class WhoWeAre extends Component {
           className="timeline-section"
           style={{backgroundImage: 'url(/images/brickwall-bg.png)'}}
         >
+
           <div className="container">
             <div className="timeline-section__timeline-wrap">
               <span className="year-box year-box_start">2016</span>
