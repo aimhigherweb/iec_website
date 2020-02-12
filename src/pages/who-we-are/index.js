@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import { graphql, Link } from 'gatsby';
 import {Helmet} from "react-helmet";
+import Img from 'gatsby-image';
 
 import Header from '../../layouts/partials/header';
 import TopNav from "../../layouts/partials/topnav";
@@ -10,8 +11,21 @@ import OnlineBooking from "../../layouts/partials/online-booking";
 class WhoWeAre extends Component {
 
   render() {
-    const { data } = this.props;
-    const list = data.allMarkdownRemark.edges;
+    const {
+      headerImage,
+      introBGImage,
+      teamList,
+      uploadFiles,
+    } = this.props.data;
+    let UploadedImages = {};
+
+    uploadFiles.edges.map(({node}) => {
+      if (node) {
+        UploadedImages[`/${node.relativePath}`] = node.childImageSharp.fluid;
+        return true;
+      }
+      return false;
+    });
 
     return (
       <>
@@ -23,8 +37,18 @@ class WhoWeAre extends Component {
 
         <div
           className="who-we-are__header content-section simple-section content-section--white-color content-section--with-overlay white--overlay text-center"
-          style={{backgroundImage: 'url(/images/WHO-WE-ARE_HeaderImage.jpg)'}}
         >
+          <Img
+            sizes={headerImage.childImageSharp.fluid}
+            style={{
+              position: "absolute",
+              left: 0,
+              top: 0,
+              width: "100%",
+              height: "100%",
+              zIndex: -1,
+            }}
+          />
           <div className="container">
             <div className="content-section__haeding video-section__heading">
               <h1 className="haeding__top-text top-text--small">Who We Are</h1>
@@ -45,10 +69,19 @@ class WhoWeAre extends Component {
             </div>
           </div>
         </div>
-        <div
-          className="intro-section"
-          style={{backgroundImage: 'url(/images/intro-bg.png)'}}
-        >
+
+        <div className="intro-section">
+          <Img
+            sizes={introBGImage.childImageSharp.fluid}
+            style={{
+              position: "absolute",
+              left: 0,
+              top: 0,
+              width: "100%",
+              height: "100%",
+              zIndex: -1,
+            }}
+          />
           <div className="container">
             <div className="intro-section__wrap">
               <div className="intro-section__row">
@@ -137,11 +170,11 @@ class WhoWeAre extends Component {
           <div>
             <ul className="team-list">
               {
-                list.map(({ node }, i ) => {
+                teamList.edges.map(({ node }, i ) => {
                   return (
                     <li className="employee-box open-close" key={i}>
                       <div className="employee-inner hover-elem">
-                        <img src={node.frontmatter.photo}  alt=""/>
+                        <Img fluid={UploadedImages[node.frontmatter.photo]} alt="" />
                         <Link to={'/who-we-are/' + node.parent.name} className="employee-inner__rollover ">
                           <div className="employee-inner__rollover__box">
                             <strong className="name">{ node.frontmatter.title }</strong>
@@ -209,6 +242,7 @@ class WhoWeAre extends Component {
           className="timeline-section"
           style={{backgroundImage: 'url(/images/brickwall-bg.png)'}}
         >
+
           <div className="container">
             <div className="timeline-section__timeline-wrap">
               <span className="year-box year-box_start">2016</span>
@@ -340,8 +374,22 @@ class WhoWeAre extends Component {
 export default WhoWeAre;
 
 export const query = graphql`
-    query WhoWeAreQuery {
-        allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/(who-we-are)/.*\\\\.md$/"}}) {
+    {
+        headerImage: file(relativePath: {eq: "images/WHO-WE-ARE_HeaderImage.jpg"}) {
+            childImageSharp {
+                fluid(quality: 90, maxWidth: 1920) {
+                    ...GatsbyImageSharpFluid
+                }
+            }
+        }
+        introBGImage: file(relativePath: {eq: "images/intro-bg.png"}) {
+            childImageSharp {
+                fluid(quality: 90, maxWidth: 1920) {
+                    ...GatsbyImageSharpFluid
+                }
+            }
+        }
+        teamList: allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/(who-we-are)/.*\\\\.md$/"}}) {
             edges {
                 node {
                     frontmatter {
@@ -362,6 +410,19 @@ export const query = graphql`
                     parent {
                         ... on File {
                             name
+                        }
+                    }
+                }
+            }
+        }
+        uploadFiles: allFile(filter: {relativePath: {regex: "/uploads/.*\\\\.(jpg|png|JPG|PNG)$/"}}) {
+            edges {
+                node {
+                    name
+                    relativePath
+                    childImageSharp {
+                        fluid(quality: 90, maxWidth: 1920) {
+                            ...GatsbyImageSharpFluid
                         }
                     }
                 }

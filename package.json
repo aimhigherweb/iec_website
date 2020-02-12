@@ -5,7 +5,9 @@
   "version": "0.1.0",
   "author": "Sreng S. <srengtrecom@yahoo.com>",
   "dependencies": {
+    "fuse.js": "^3.4.6",
     "gatsby": "^2.19.3",
+    "gatsby-background-image": "^0.9.14",
     "gatsby-image": "^2.2.39",
     "gatsby-plugin-catch-links": "^2.1.24",
     "gatsby-plugin-manifest": "^2.2.38",
@@ -30,6 +32,7 @@
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-helmet": "^5.2.1",
+    "styled-components": "^5.0.1",
     "video.js": "^7.6.6"
   },
   "devDependencies": {

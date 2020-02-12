@@ -1,7 +1,9 @@
 import React, {Component} from 'react';
-import {Link} from 'gatsby';
+import {graphql, Link} from 'gatsby';
 import {Helmet} from "react-helmet";
-import videojs from 'video.js';
+import Img from 'gatsby-image';
+// import styled from 'styled-components';
+import VideoJs from 'video.js';
 import $ from 'jquery';
 
 import Header from '../layouts/partials/header';
@@ -25,10 +27,33 @@ class Index extends Component {
   playMainVideo = () => {
     $("#play-video-button").hide();
     $(".main-video__container").slideDown();
-    videojs('main-video').play();
+    VideoJs('main-video').play();
   };
 
   render() {
+    const {
+      imageFiles,
+      uploadFiles,
+    } = this.props.data;
+    let Images = {};
+    let UploadedImages = {};
+
+    imageFiles.edges.map(({node}) => {
+      if (node) {
+        Images[node.name] = node.childImageSharp.fluid;
+        return true;
+      }
+      return false;
+    });
+
+    uploadFiles.edges.map(({node}) => {
+      if (node) {
+        UploadedImages[node.name] = node.childImageSharp.fluid;
+        return true;
+      }
+      return false;
+    });
+
     return (
       <>
         <Helmet>
@@ -36,10 +61,18 @@ class Index extends Component {
         </Helmet>
         <Header/>
         <TopNav/>
-        <div
-          className="content-section simple-section content-section--white-color content-section--with-overlay white--overlay text-center"
-          style={{backgroundImage: 'url(/images/img01.jpg)'}}
-        >
+        <div className="content-section simple-section content-section--white-color content-section--with-overlay white--overlay text-center">
+          <Img
+            sizes={Images['img01']}
+            style={{
+              position: "absolute",
+              left: 0,
+              top: 0,
+              width: "100%",
+              height: "100%",
+              zIndex: -1,
+            }}
+          />
           <div className="container">
             <div className="content-section__haeding">
               Experience Premium Optometry
@@ -68,10 +101,18 @@ class Index extends Component {
             </button>
           </div>
         </div>
-        <div
-          className="content-section location-section"
-          style={{backgroundImage: 'url(/images/img04.jpg)'}}
-        >
+        <div className="content-section location-section">
+          <Img
+            sizes={Images['img04']}
+            style={{
+              position: "absolute",
+              left: 0,
+              top: 0,
+              width: "100%",
+              height: "100%",
+              zIndex: -1,
+            }}
+          />
           <div className="container">
             <div className="content-section__haeding">
               <h2>Our Locations</h2>
@@ -178,14 +219,21 @@ class Index extends Component {
           <ul className="services">
             <li>
               <Link to="/what-we-do/eyewear-collections">
-                <div
-                  className="services__bg"
-                  style={{backgroundImage: 'url(/images/img05.jpg)'}}
+                <Img
+                  sizes={Images['img05']}
+                  style={{
+                    position: "absolute",
+                    left: 0,
+                    top: 0,
+                    width: "100%",
+                    height: "100%",
+                    zIndex: -1,
+                  }}
                 />
                 <div className="services__caption">
                   <div className="services__wrap">
                     <div className="services__icon">
-                      <img src="/images/icon07.png" alt=""/>
+                      <img src="/images/icon07.png" alt="Eyewear experts" />
                     </div>
                     <strong className="services__title">Eyewear experts</strong>
                   </div>
@@ -194,14 +242,21 @@ class Index extends Component {
             </li>
             <li>
               <Link to="/what-we-do/contact-lenses">
-                <div
-                  className="services__bg"
-                  style={{backgroundImage: 'url(/images/img06.jpg)'}}
+                <Img
+                  sizes={Images['img06']}
+                  style={{
+                    position: "absolute",
+                    left: 0,
+                    top: 0,
+                    width: "100%",
+                    height: "100%",
+                    zIndex: -1,
+                  }}
                 />
                 <div className="services__caption">
                   <div className="services__wrap">
                     <div className="services__icon">
-                      <img src="/images/icon02.png" alt="Bespoke Contact Lenses"/>
+                      <img src="/images/icon02.png" alt="Bespoke Contact Lenses" />
                     </div>
                     <strong className="services__title">Bespoke Contact Lenses</strong>
                   </div>
@@ -210,14 +265,21 @@ class Index extends Component {
             </li>
             <li>
               <Link to="/what-we-do/childrens-vision">
-                <div
-                  className="services__bg"
-                  style={{backgroundImage: 'url(/images/img07.jpg)'}}
+                <Img
+                  sizes={Images['img07']}
+                  style={{
+                    position: "absolute",
+                    left: 0,
+                    top: 0,
+                    width: "100%",
+                    height: "100%",
+                    zIndex: -1,
+                  }}
                 />
                 <div className="services__caption">
                   <div className="services__wrap">
                     <div className="services__icon">
-                      <img src="/images/icon03.png" alt="Paediatric Vision"/>
+                      <img src="/images/icon03.png" alt="Paediatric Vision" />
                     </div>
                     <strong className="services__title">Paediatric Vision</strong>
                   </div>
@@ -226,14 +288,21 @@ class Index extends Component {
             </li>
             <li>
               <Link to="/what-we-do/dry-eye-disease">
-                <div
-                  className="services__bg"
-                  style={{backgroundImage: 'url(/images/img08.jpg)'}}
+                <Img
+                  sizes={Images['img08']}
+                  style={{
+                    position: "absolute",
+                    left: 0,
+                    top: 0,
+                    width: "100%",
+                    height: "100%",
+                    zIndex: -1,
+                  }}
                 />
                 <div className="services__caption">
                   <div className="services__wrap">
                     <div className="services__icon">
-                      <img src="/images/icon04.png" alt="Dry Eye Clinic"/>
+                      <img src="/images/icon04.png" alt="Dry Eye Clinic" />
                     </div>
                     <strong className="services__title">Dry Eye Clinic</strong>
                   </div>
@@ -242,14 +311,21 @@ class Index extends Component {
             </li>
             <li>
               <Link to="/what-we-do/oct">
-                <div
-                  className="services__bg"
-                  style={{backgroundImage: 'url(/images/img09.jpg)'}}
+                <Img
+                  sizes={Images['img09']}
+                  style={{
+                    position: "absolute",
+                    left: 0,
+                    top: 0,
+                    width: "100%",
+                    height: "100%",
+                    zIndex: -1,
+                  }}
                 />
                 <div className="services__caption">
                   <div className="services__wrap">
                     <div className="services__icon">
-                      <img src="/images/icon05.png" alt="Advanced Imaging Technology"/>
+                      <img src="/images/icon05.png" alt="Advanced Imaging Technology" />
                     </div>
                     <strong className="services__title">Advanced Imaging Technology</strong>
                   </div>
@@ -258,14 +334,21 @@ class Index extends Component {
             </li>
             <li>
               <Link to="/what-we-do/orthokeratology-corneal-reshaping">
-                <div
-                  className="services__bg"
-                  style={{backgroundImage: 'url(/images/img10.jpg)'}}
+                <Img
+                  sizes={Images['img10']}
+                  style={{
+                    position: "absolute",
+                    left: 0,
+                    top: 0,
+                    width: "100%",
+                    height: "100%",
+                    zIndex: -1,
+                  }}
                 />
                 <div className="services__caption">
                   <div className="services__wrap">
                     <div className="services__icon">
-                      <img src="/images/icon06.png" alt="Overnight vision correction"/>
+                      <img src="/images/icon06.png" alt="Overnight vision correction" />
                     </div>
                     <strong className="services__title">ORTHO-K: <br/> Overnight vision correction</strong>
                   </div>
@@ -286,7 +369,7 @@ class Index extends Component {
           <ul className="team-list">
             <li className="employee-box open-close">
               <div className="employee-inner hover-elem">
-                <img src="/uploads/lachlan-hoy.jpg" alt="" />
+                <Img fluid={UploadedImages['lachlan-hoy']} alt="" />
                 <Link to="/who-we-are/lachlan-hoy" className="employee-inner__rollover ">
                   <div className="employee-inner__rollover__box">
                     <strong className="name">Lachlan Hoy</strong>
@@ -298,7 +381,7 @@ class Index extends Component {
             </li>
             <li className="employee-box open-close">
               <div className="employee-inner hover-elem">
-                <img src="/uploads/karl-1.jpg" alt="" />
+                <Img fluid={UploadedImages['karl-1']} alt="" />
                 <Link to="/who-we-are/karl-evans" className="employee-inner__rollover ">
                   <div className="employee-inner__rollover__box">
                     <strong className="name">Karl Evans</strong>
@@ -310,7 +393,7 @@ class Index extends Component {
             </li>
             <li className="employee-box open-close">
               <div className="employee-inner hover-elem">
-                <img src="/uploads/mark-1.jpg" alt="" />
+                <Img fluid={UploadedImages['mark-1']} alt="" />
                 <Link to="/who-we-are/mark-parsons" className="employee-inner__rollover ">
                   <div className="employee-inner__rollover__box">
                     <strong className="name">Mark Parsons</strong>
@@ -322,7 +405,7 @@ class Index extends Component {
             </li>
             <li className="employee-box open-close">
               <div className="employee-inner hover-elem">
-                <img src="/uploads/joanna-1.jpg" alt="" />
+                <Img fluid={UploadedImages['joanna-1']} alt="" />
                 <Link to="/who-we-are/joanna-rohrlach" className="employee-inner__rollover ">
                   <div className="employee-inner__rollover__box">
                     <strong className="name">Joanna Rohrlach</strong>
@@ -334,9 +417,18 @@ class Index extends Component {
             </li>
           </ul>
         </div>
-        <div
-          className="content-section simple-section content-section--white-color content-section--with-overlay blue--overlay text-center"
-          style={{backgroundImage: 'url(/images/img31.jpg)'}}>
+        <div className="content-section simple-section content-section--white-color content-section--with-overlay blue--overlay text-center">
+          <Img
+            sizes={Images['img31']}
+            style={{
+              position: "absolute",
+              left: 0,
+              top: 0,
+              width: "100%",
+              height: "100%",
+              zIndex: -1,
+            }}
+          />
           <div className="container">
             <div className="content-section__haeding haeding--extra-large text-uppercase">
               <strong className="haeding__top-text">Inside out, back to front, on and off your eyes - we know <br/>
@@ -349,7 +441,7 @@ class Index extends Component {
         </div>
         <div className="content-section lenses-information content-section--white-color">
           <div className="bg-holder">
-            <img src="/images/bg-box02.jpg" alt=""/>
+            <img src="/images/bg-box02.jpg" alt="" />
           </div>
           <div className="container">
             <div className="container__wrap container--left-position">
@@ -387,7 +479,7 @@ class Index extends Component {
         </div>
         <div className="content-section ortho-section content-section--white-color content-section__black-bg">
           <div className="bg-holder bg--left-position">
-            <img src="/images/bg-box.jpg" alt=""/>
+            <Img fluid={Images['bg-box']} alt="" />
           </div>
           <div className="container">
             <div className="container__wrap container--right-postion">
@@ -397,35 +489,35 @@ class Index extends Component {
               <ul className="lenses-info same-height">
                 <li>
                   <div className="lenses__image height">
-                    <img src="/images/img33.png" alt=""/>
+                    <img src="/images/img33.png" alt="" />
                   </div>
                   <strong className="lenses-info__title">SIMPLE</strong>
                   <p>See without lenses during the day</p>
                 </li>
                 <li>
                   <div className="lenses__image height">
-                    <img src="/images/img34.png" alt=""/>
+                    <img src="/images/img34.png" alt="" />
                   </div>
                   <strong className="lenses-info__title">EFFORTLESS</strong>
                   <p>Lenses work while you sleep</p>
                 </li>
                 <li>
                   <div className="lenses__image height">
-                    <img src="/images/img35.png" alt=""/>
+                    <img src="/images/img35.png" alt="" />
                   </div>
                   <strong className="lenses-info__title">NON-SURGICAL</strong>
                   <p>Just put contacts in</p>
                 </li>
                 <li>
                   <div className="lenses__image height">
-                    <img src="/images/img36.png" alt=""/>
+                    <img src="/images/img36.png" alt="" />
                   </div>
                   <strong className="lenses-info__title">BESPOKE</strong>
                   <p>Individually made lenses</p>
                 </li>
                 <li>
                   <div className="lenses__image height">
-                    <img src="/images/img37.png" alt=""/>
+                    <img src="/images/img37.png" alt="" />
                   </div>
                   <strong className="lenses-info__title">REVERSIBLE</strong>
                   <p>Stop at any time</p>
@@ -439,10 +531,18 @@ class Index extends Component {
             </div>
           </div>
         </div>
-        <div
-          className="content-section online-book-section"
-          style={{backgroundImage: 'url(/images/img38.jpg)'}}
-        >
+        <div className="content-section online-book-section">
+          <Img
+            sizes={Images['img38']}
+            style={{
+              position: "absolute",
+              left: 0,
+              top: 0,
+              width: "100%",
+              height: "100%",
+              zIndex: -1,
+            }}
+          />
           <div className="container">
             <div className="online-box">
               <div className="online-box-heading">
@@ -453,9 +553,18 @@ class Index extends Component {
             </div>
           </div>
         </div>
-        <div
-          className="content-section simple-section content-section--white-color content-section--with-overlay white--overlay text-center"
-          style={{backgroundImage: 'url(/images/img30.jpg)'}}>
+        <div className="content-section simple-section content-section--white-color content-section--with-overlay white--overlay text-center">
+          <Img
+            sizes={Images['img30']}
+            style={{
+              position: "absolute",
+              left: 0,
+              top: 0,
+              width: "100%",
+              height: "100%",
+              zIndex: -1,
+            }}
+          />
           <div className="container">
             <div className="content-section__haeding haeding__with-extra-border">
               <strong className="haeding__top-text top-text--small">Tell your friends about us so they can see their
@@ -467,7 +576,7 @@ class Index extends Component {
               friend <span>$50 Gift Card for you</span></strong>
           </div>
           <div className="icon-logo icon-logo--left">
-            <img src="/images/icon-logo02.png" alt="innovative eye care"/>
+            <img src="/images/icon-logo02.png" alt="Innovative Eye Care" />
           </div>
         </div>
         <div className="content-section symptoms-section text-center">
@@ -485,7 +594,7 @@ class Index extends Component {
                 <li>
                   <div className="hold">
                     <div className="symptoms__img height">
-                      <img src="/images/eye01.png" alt="STINGING &amp; BURNING"/>
+                      <img src="/images/eye01.png" alt="STINGING &amp; BURNING" />
                     </div>
                     <strong className="symptoms__title">STINGING &amp; BURNING</strong>
                   </div>
@@ -493,7 +602,7 @@ class Index extends Component {
                 <li>
                   <div className="hold">
                     <div className="symptoms__img height extra-size">
-                      <img src="/images/eye02.png" alt="GRITTY SENSATION"/>
+                      <img src="/images/eye02.png" alt="GRITTY SENSATION" />
                     </div>
                     <strong className="symptoms__title">GRITTY SENSATION</strong>
                   </div>
@@ -501,7 +610,7 @@ class Index extends Component {
                 <li>
                   <div className="hold">
                     <div className="symptoms__img height">
-                      <img src="/images/eye03.png" alt="REDNESS"/>
+                      <img src="/images/eye03.png" alt="REDNESS" />
                     </div>
                     <strong className="symptoms__title">REDNESS</strong>
                   </div>
@@ -509,7 +618,7 @@ class Index extends Component {
                 <li>
                   <div className="hold">
                     <div className="symptoms__img height">
-                      <img src="/images/eye04.png" alt="WATERINESS"/>
+                      <img src="/images/eye04.png" alt="WATERINESS" />
                     </div>
                     <strong className="symptoms__title">WATERINESS</strong>
                   </div>
@@ -517,7 +626,7 @@ class Index extends Component {
                 <li>
                   <div className="hold">
                     <div className="symptoms__img height">
-                      <img src="/images/eye05.png" alt="BLURRY VISION"/>
+                      <img src="/images/eye05.png" alt="BLURRY VISION" />
                     </div>
                     <strong className="symptoms__title">BLURRY VISION</strong>
                   </div>
@@ -526,12 +635,21 @@ class Index extends Component {
             </div>
           </div>
           <div className="symptoms-image">
-            <img src="/images/img29.jpg" alt=""/>
+            <Img fluid={Images['img29']} alt="" />
           </div>
         </div>
-        <div
-          className="content-section simple-section content-section--white-color content-section--with-overlay blue--overlay text-center"
-          style={{backgroundImage: 'url(/images/img28.jpg)'}}>
+        <div className="content-section simple-section content-section--white-color content-section--with-overlay blue--overlay text-center">
+          <Img
+            sizes={Images['img28']}
+            style={{
+              position: "absolute",
+              left: 0,
+              top: 0,
+              width: "100%",
+              height: "100%",
+              zIndex: -1,
+            }}
+          />
           <div className="container">
             <div className="content-section__haeding haeding--extra-large text-uppercase">
               <strong className="haeding__top-text">Dry eye disease reduces quality of life as much as angina</strong>
@@ -546,31 +664,31 @@ class Index extends Component {
             <ul className="eye-problems same-height">
               <li>
                 <div className="eye-problems__img height">
-                  <img src="/images/img-working.png" alt="working"/>
+                  <img src="/images/img-working.png" alt="working" />
                 </div>
                 <strong className="problems__title">WORKING</strong>
               </li>
               <li>
                 <div className="eye-problems__img height">
-                  <img src="/images/img-computer.png" alt="computer"/>
+                  <img src="/images/img-computer.png" alt="computer" />
                 </div>
                 <strong className="problems__title">USING A COMPUTER</strong>
               </li>
               <li>
                 <div className="eye-problems__img height">
-                  <img src="/images/img-tv.png" alt="tv"/>
+                  <img src="/images/img-tv.png" alt="tv" />
                 </div>
                 <strong className="problems__title">WATCHING TV</strong>
               </li>
               <li>
                 <div className="eye-problems__img height">
-                  <img src="/images/img-books.png" alt="books"/>
+                  <img src="/images/img-books.png" alt="books" />
                 </div>
                 <strong className="problems__title">READING</strong>
               </li>
               <li>
                 <div className="eye-problems__img height">
-                  <img src="/images/img-car.png" alt="car"/>
+                  <img src="/images/img-car.png" alt="car" />
                 </div>
                 <strong className="problems__title">DRIVING</strong>
               </li>
@@ -582,10 +700,18 @@ class Index extends Component {
             </div>
           </div>
         </div>
-        <div
-          className="content-section ipl-section text-center"
-          style={{backgroundImage: 'url(/images/img27.jpg)'}}
-        >
+        <div className="content-section ipl-section text-center">
+          <Img
+            sizes={Images['img27']}
+            style={{
+              position: "absolute",
+              left: 0,
+              top: 0,
+              width: "100%",
+              height: "100%",
+              zIndex: -1,
+            }}
+          />
           <div className="container">
             <div className="content-section__haeding haeding__with-extra-border heading--small-font">
               <h2>IPL (Intese Pulsed Light)</h2>
@@ -599,21 +725,21 @@ class Index extends Component {
             <div className="three-columns same-height">
               <div className="three-columns__item">
                 <div className="roundered__img blue-border">
-                  <img src="/images/img24.jpg" alt=""/>
+                  <img src="/images/img24.jpg" alt="" />
                 </div>
                 <strong className="roundered__title height blue-color">DRY EYE RELIEF</strong>
                 <p>Experience dry eye relief for up 2 years</p>
               </div>
               <div className="three-columns__item">
                 <div className="roundered__img blue-border">
-                  <img src="/images/img25.jpg" alt=""/>
+                  <img src="/images/img25.jpg" alt="" />
                 </div>
                 <strong className="roundered__title height blue-color">LONG LASTING</strong>
                 <p>Accumulate the benefits - relief lasts longer after each treament</p>
               </div>
               <div className="three-columns__item">
                 <div className="roundered__img blue-border">
-                  <img src="/images/img26.jpg" alt=""/>
+                  <img src="/images/img26.jpg" alt="" />
                 </div>
                 <strong className="roundered__title height blue-color">LESS NEED FOR EYE DROPS</strong>
                 <p>Stop the constant use of lubricating eye drops</p>
@@ -621,9 +747,18 @@ class Index extends Component {
             </div>
           </div>
         </div>
-        <div
-          className="content-section eye-care-section content-section--white-color content-section--with-overlay black--overlay text-center"
-          style={{backgroundImage: 'url(/images/img20.jpg)'}}>
+        <div className="content-section eye-care-section content-section--white-color content-section--with-overlay black--overlay text-center">
+          <Img
+            sizes={Images['img20']}
+            style={{
+              position: "absolute",
+              left: 0,
+              top: 0,
+              width: "100%",
+              height: "100%",
+              zIndex: -1,
+            }}
+          />
           <div className="container">
             <div className="content-section__haeding haeding--extra-large text-uppercase">
               <strong className="haeding__sub-text">Eye care is not what it used to be.</strong>
@@ -634,36 +769,45 @@ class Index extends Component {
             <div className="three-columns same-height">
               <div className="three-columns__item">
                 <div className="roundered__img">
-                  <img src="/images/img21.jpg" alt=""/>
+                  <img src="/images/img21.jpg" alt="" />
                 </div>
                 <strong className="roundered__title height">OPTICAL COHERENCE TOMOGRAPHY</strong>
               </div>
               <div className="three-columns__item">
                 <div className="roundered__img">
-                  <img src="/images/img22.jpg" alt=""/>
+                  <Img fluid={Images['img22']} alt="" />
+                  <img src="/images/img22.jpg" alt="" />
                 </div>
                 <strong className="roundered__title height">RETINAL FUNDUS PHOTOGRAPHY</strong>
               </div>
               <div className="three-columns__item">
                 <div className="roundered__img">
-                    <img src="/images/img23.jpg" alt=""/>
+                  <img src="/images/img23.jpg" alt="" />
                 </div>
                 <strong className="roundered__title height">CORNEAL TOPOGRAPHY</strong>
               </div>
             </div>
           </div>
         </div>
-        <div
-          className="content-section address-section content-section--white-color"
-          style={{backgroundImage: 'url(/images/img19.jpg)'}}
-        >
+        <div className="content-section address-section content-section--white-color">
+          <Img
+            sizes={Images['img19']}
+            style={{
+              position: "absolute",
+              left: 0,
+              top: 0,
+              width: "100%",
+              height: "100%",
+              zIndex: -1,
+            }}
+          />
           <div className="icon-logo">
-            <img src="/images/icon-logo.png" alt="innovative eye care"/>
+            <Img fluid={Images['icon-logo']} alt="innovative eye care" />
           </div>
           <div className="container">
             <div className="address-information">
               <div className="address__image">
-                <img src="/images/logo-australia.png" alt="south australia"/>
+                <Img fluid={Images['logo-australia']} alt="south australia" />
               </div>
               <div className="address__description container__wrap">
                 <div className="content-section__haeding haeding--large-heading">
@@ -678,10 +822,18 @@ class Index extends Component {
             </div>
           </div>
         </div>
-        <div
-          className="content-section subscribe-section content-section--with-overlay blue--overlay content-section--white-color "
-          style={{backgroundImage: 'url(/images/img18.jpg)'}}
-        >
+        <div className="content-section subscribe-section content-section--with-overlay blue--overlay content-section--white-color">
+          <Img
+            sizes={Images['img18']}
+            style={{
+              position: "absolute",
+              left: 0,
+              top: 0,
+              width: "100%",
+              height: "100%",
+              zIndex: -1,
+            }}
+          />
           <div className="container">
             <div
               className="content-section__haeding haeding--large-heading haeding--without-border haeding--medium-font">
@@ -701,7 +853,7 @@ class Index extends Component {
         </div>
         <div className="content-section join-section content-section--gray">
           <div className="decorate-image image__cup">
-            <img src="/images/img-cup.jpg" alt=""/>
+            <img src="/images/img-cup.jpg" alt="" />
           </div>
           <div className="container">
             <div className="content-section__haeding haeding--large-heading haeding--without-border">
@@ -716,7 +868,7 @@ class Index extends Component {
               </div>
             </div>
             <div className="browser-preview">
-              <img src="/images/img15.png" alt=""/>
+              <Img fluid={Images['img15']} alt="" />
             </div>
           </div>
         </div>
@@ -727,3 +879,32 @@ class Index extends Component {
 }
 
 export default Index;
+
+export const pageQuery = graphql`
+    {
+        imageFiles: allFile(filter: {relativePath: {regex: "/images/.*\\\\.(jpg|png)$/"}}) {
+            edges {
+                node {
+                    name
+                    childImageSharp {
+                        fluid(quality: 90, maxWidth: 1920) {
+                            ...GatsbyImageSharpFluid
+                        }
+                    }
+                }
+            }
+        }
+        uploadFiles: allFile(filter: {relativePath: {regex: "/uploads/.*\\\\.(jpg|png)$/"}}) {
+            edges {
+                node {
+                    name
+                    childImageSharp {
+                        fluid(quality: 90, maxWidth: 1920) {
+                            ...GatsbyImageSharpFluid
+                        }
+                    }
+                }
+            }
+        }
+    }
+`;

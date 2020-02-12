@@ -11,7 +11,7 @@ class TopNav extends Component {
           <div className="navbar__logo">
             <Link to="/"><img src="/images/logo.svg" alt="innovative eye care" /></Link>
             </div>
-          <a href="#" className="navbar__opener" onClick={() => {}}>
+          <a href="#" className="navbar__opener">
             <span/> <strong className="hidden">opener</strong>
           </a>
           <div className="navbar__slide">
