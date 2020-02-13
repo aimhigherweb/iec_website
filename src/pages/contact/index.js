@@ -264,7 +264,7 @@ class Contact extends Component {
                   <video
                     className="video-js vjs-default-skin vjs-big-play-centered"
                     controls
-                    preload="auto"
+                    preload="none"
                     poster="/images/city-video.jpg"
                     data-setup='{"fluid":true}'
                   >
@@ -304,7 +304,7 @@ class Contact extends Component {
                   <video
                     className="video-js vjs-default-skin vjs-big-play-centered"
                     controls
-                    preload="auto"
+                    preload="none"
                     poster="/images/woodville-video.jpg"
                     data-setup='{"fluid":true}'
                   >

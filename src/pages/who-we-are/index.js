@@ -60,7 +60,7 @@ class WhoWeAre extends Component {
                 controls
                 autoPlay
                 muted
-                preload="auto"
+                preload="none"
                 data-setup='{"fluid":true}'
               >
                 <track kind="captions" />
