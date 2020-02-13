@@ -1,27 +1,13 @@
 import React, {Component} from 'react';
-import {graphql} from "gatsby";
-import Img from "gatsby-image";
 
 class OnlineBooking extends Component {
 
   render() {
-    const {
-      bgImage,
-    } = this.props.data;
-
     return (
-      <div className="content-section online-book-section">
-        <Img
-          sizes={bgImage.childImageSharp.fluid}
-          style={{
-            position: "absolute",
-            left: 0,
-            top: 0,
-            width: "100%",
-            height: "100%",
-            zIndex: -1,
-          }}
-        />
+      <div
+        className="content-section online-book-section"
+        style={{backgroundImage: 'url(/images/img38.jpg)'}}
+      >
         <div className="container">
           <div className="online-box">
             <div className="online-box-heading">
@@ -38,15 +24,3 @@ class OnlineBooking extends Component {
 }
 
 export default OnlineBooking;
-
-export const pageQuery = graphql`
-    {
-        bgImage: file(relativePath: {eq: "images/img38.jpg"}) {
-            childImageSharp {
-                fluid(quality: 90, maxWidth: 1920) {
-                    ...GatsbyImageSharpFluid
-                }
-            }
-        }
-    }
-`;
