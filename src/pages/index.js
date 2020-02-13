@@ -64,6 +64,7 @@ class Index extends Component {
         <div className="content-section simple-section content-section--white-color content-section--with-overlay white--overlay text-center">
           <Img
             sizes={Images['img01']}
+            loading="eager"
             style={{
               position: "absolute",
               left: 0,
@@ -104,6 +105,7 @@ class Index extends Component {
         <div className="content-section location-section">
           <Img
             sizes={Images['img04']}
+            loading="eager"
             style={{
               position: "absolute",
               left: 0,
@@ -888,7 +890,7 @@ export const pageQuery = graphql`
                     name
                     childImageSharp {
                         fluid(quality: 90, maxWidth: 1920) {
-                            ...GatsbyImageSharpFluid
+                            ...GatsbyImageSharpFluid_withWebp
                         }
                     }
                 }
@@ -900,7 +902,7 @@ export const pageQuery = graphql`
                     name
                     childImageSharp {
                         fluid(quality: 90, maxWidth: 1920) {
-                            ...GatsbyImageSharpFluid
+                            ...GatsbyImageSharpFluid_withWebp
                         }
                     }
                 }
