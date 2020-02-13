@@ -58,7 +58,7 @@ class Header extends Component {
           <script async type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js"/>
           <script async type="text/javascript" src="/js/main.js" />
           <script async type="text/javascript" src="/js/video.min.js" />
-          <script async src="https://www.googletagmanager.com/gtag/js?id=UA-129433065-1" />
+          <link rel="preconnect" href="https://www.googletagmanager.com/gtag/js?id=UA-129433065-1" />
           <script>
             {`
               window.dataLayer = window.dataLayer || [];
