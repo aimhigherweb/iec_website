@@ -6,11 +6,15 @@ import Header from '../../layouts/partials/header';
 import TopNav from "../../layouts/partials/topnav";
 import Footer from "../../layouts/partials/footer";
 import OnlineBooking from "../../layouts/partials/online-booking";
+import Img from "gatsby-image";
 
 class WhoWeAreTemplate extends Component {
 
   render() {
-    const {markdownRemark} = this.props.data;
+    const {
+      introBGImage,
+      markdownRemark,
+    } = this.props.data;
 
     return (
       <>
@@ -20,9 +24,18 @@ class WhoWeAreTemplate extends Component {
         <Header />
         <TopNav />
 
-        <div
-          className="intro-section"
-          style={{backgroundImage: 'url(/images/intro-bg.png)'}}>
+        <div className="intro-section">
+          <Img
+            sizes={introBGImage.childImageSharp.fluid}
+            style={{
+              position: "absolute",
+              left: 0,
+              top: 0,
+              width: "100%",
+              height: "100%",
+              zIndex: -1,
+            }}
+          />
           <div className="container">
             <div className="intro-section__wrap">
               <div className="intro-section__heading">
@@ -174,7 +187,7 @@ export default WhoWeAreTemplate;
 
 export const WhoWeAreSingleQuery = graphql`
     query WhoWeAreById($id: String) {
-        markdownRemark(id: { eq: $id }) {
+        markdownRemark: markdownRemark(id: { eq: $id }) {
             frontmatter {
                 title
                 jobtitle
@@ -191,5 +204,13 @@ export const WhoWeAreSingleQuery = graphql`
             id
             html
         }
+        introBGImage: file(relativePath: {eq: "images/intro-bg.png"}) {
+            childImageSharp {
+                fluid(quality: 90, maxWidth: 1920) {
+                    ...GatsbyImageSharpFluid
+                }
+            }
+        }
     }
 `;
+

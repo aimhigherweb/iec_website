@@ -5,12 +5,15 @@ import {Helmet} from "react-helmet";
 import Header from '../../layouts/partials/header';
 import TopNav from "../../layouts/partials/topnav";
 import Footer from "../../layouts/partials/footer";
+import Img from "gatsby-image";
 
 class Blog extends Component {
 
   render() {
-    const {data} = this.props;
-    const list = data.allMarkdownRemark.edges;
+    const {
+      introBGImage,
+      list,
+    } = this.props.data;
 
     return (
       <>
@@ -20,10 +23,18 @@ class Blog extends Component {
         <Header/>
         <TopNav/>
 
-        <div
-          className="intro-section"
-          style={{backgroundImage: 'url(/images/intro-bg.png)'}}
-        >
+        <div className="intro-section">
+          <Img
+            sizes={introBGImage.childImageSharp.fluid}
+            style={{
+              position: "absolute",
+              left: 0,
+              top: 0,
+              width: "100%",
+              height: "100%",
+              zIndex: -1,
+            }}
+          />
           <div className="container">
             <div className="intro-section__wrap">
               <div className="intro-section__heading">
@@ -46,7 +57,7 @@ class Blog extends Component {
         <div className="content-section blog-list">
           <ul className="blog-post-list">
             {
-              list.map(({node}, i) => {
+              list.edges.map(({node}, i) => {
                 return (
                   <li className="blog-post-box" key={i}>
                     <Link to={`/blog/${node.parent.name}`}>
@@ -83,8 +94,15 @@ class Blog extends Component {
 export default Blog;
 
 export const query = graphql`
-    query BlogQuery {
-        allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/(blog)/.*\\\\.md$/"}}) {
+    {
+        introBGImage: file(relativePath: {eq: "images/intro-bg.png"}) {
+            childImageSharp {
+                fluid(quality: 90, maxWidth: 1920) {
+                    ...GatsbyImageSharpFluid
+                }
+            }
+        }
+        list: allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/(blog)/.*\\\\.md$/"}}) {
             edges {
                 node {
                     frontmatter {

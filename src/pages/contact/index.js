@@ -1,10 +1,11 @@
 import React, {Component} from 'react';
-import {Link} from 'gatsby';
+import {graphql, Link} from 'gatsby';
 import {Helmet} from "react-helmet";
 
 import Header from '../../layouts/partials/header';
 import TopNav from "../../layouts/partials/topnav";
 import Footer from "../../layouts/partials/footer";
+import Img from "gatsby-image";
 
 class Contact extends Component {
 
@@ -240,6 +241,19 @@ class Contact extends Component {
   }
 
   render() {
+    const {
+      imageFiles,
+    } = this.props.data;
+    let Images = {};
+
+    imageFiles.edges.map(({node}) => {
+      if (node) {
+        Images[node.name] = node.childImageSharp.fluid;
+        return true;
+      }
+      return false;
+    });
+
     return (
       <>
         <Helmet>
@@ -248,10 +262,18 @@ class Contact extends Component {
         <Header/>
         <TopNav/>
 
-        <div
-          className="content-section location-section"
-          style={{backgroundImage: 'url(/images/img04.jpg)'}}
-        >
+        <div className="content-section location-section">
+          <Img
+            sizes={Images['img04']}
+            style={{
+              position: "absolute",
+              left: 0,
+              top: 0,
+              width: "100%",
+              height: "100%",
+              zIndex: -1,
+            }}
+          />
           <div className="container">
             <div className="content-section__haeding">
               <div className="contact-heading"><h1>Our Locations</h1></div>
@@ -342,10 +364,18 @@ class Contact extends Component {
             </div>
           </div>
         </div>
-        <div
-          className="content-section online-book-section"
-          style={{backgroundImage: 'url(/images/img38.jpg)'}}
-        >
+        <div className="content-section online-book-section">
+          <Img
+            sizes={Images['img38']}
+            style={{
+              position: "absolute",
+              left: 0,
+              top: 0,
+              width: "100%",
+              height: "100%",
+              zIndex: -1,
+            }}
+          />
           <div className="container">
             <div className="online-box">
               <div className="online-box-heading">
@@ -364,3 +394,20 @@ class Contact extends Component {
 }
 
 export default Contact;
+
+export const query = graphql`
+    {
+        imageFiles: allFile(filter: {relativePath: {regex: "/images/.*\\\\.(jpg|png)$/"}}) {
+            edges {
+                node {
+                    name
+                    childImageSharp {
+                        fluid(quality: 90, maxWidth: 1920) {
+                            ...GatsbyImageSharpFluid
+                        }
+                    }
+                }
+            }
+        }
+    }
+`;
