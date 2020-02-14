@@ -7,6 +7,9 @@ module.exports = {
   plugins: [
     `gatsby-plugin-react-helmet`,
     {
+      resolve: `gatsby-plugin-nprogress`,
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: "pages",
