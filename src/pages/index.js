@@ -906,7 +906,7 @@ class Index extends Component {
                       height: "100%",
                       width: "100%",
                     }}
-                    imgStyle={{ objectFit: 'contain' }}
+                    imgStyle={{ objectFit: 'contain', WebkitUserDrag: 'none' }}
                     alt=""
                   />
                 </div>
@@ -921,7 +921,7 @@ class Index extends Component {
                       height: "100%",
                       width: "100%",
                     }}
-                    imgStyle={{ objectFit: 'contain' }}
+                    imgStyle={{ objectFit: 'contain', WebkitUserDrag: 'none' }}
                     alt=""
                   />
                 </div>
@@ -936,7 +936,7 @@ class Index extends Component {
                       height: "100%",
                       width: "100%",
                     }}
-                    imgStyle={{ objectFit: 'contain' }}
+                    imgStyle={{ objectFit: 'contain', WebkitUserDrag: 'none' }}
                     alt=""
                   />
                 </div>
@@ -974,7 +974,7 @@ class Index extends Component {
                       height: "100%",
                       width: "100%",
                     }}
-                    imgStyle={{ objectFit: 'contain' }}
+                    imgStyle={{ objectFit: 'contain', WebkitUserDrag: 'none' }}
                     alt=""
                   />
                 </div>
@@ -988,7 +988,7 @@ class Index extends Component {
                       height: "100%",
                       width: "100%",
                     }}
-                    imgStyle={{ objectFit: 'contain' }}
+                    imgStyle={{ objectFit: 'contain', WebkitUserDrag: 'none' }}
                     alt=""
                   />
                 </div>
@@ -1002,7 +1002,7 @@ class Index extends Component {
                       height: "100%",
                       width: "100%",
                     }}
-                    imgStyle={{ objectFit: 'contain' }}
+                    imgStyle={{ objectFit: 'contain', WebkitUserDrag: 'none' }}
                     alt=""
                   />
                 </div>
@@ -1081,7 +1081,7 @@ class Index extends Component {
                 height: "100%",
                 width: "237px",
               }}
-              imgStyle={{ objectFit: 'contain' }}
+              imgStyle={{ objectFit: 'contain', WebkitUserDrag: 'none' }}
               alt=""
             />
           </div>
@@ -1097,7 +1097,7 @@ class Index extends Component {
                     height: "100%",
                     width: "237px",
                   }}
-                  imgStyle={{ objectFit: 'contain' }}
+                  imgStyle={{ objectFit: 'contain', WebkitUserDrag: 'none' }}
                   alt=""
                 />
               </div>
@@ -1108,7 +1108,7 @@ class Index extends Component {
                     height: "100%",
                     width: "237px",
                   }}
-                  imgStyle={{ objectFit: 'contain' }}
+                  imgStyle={{ objectFit: 'contain', WebkitUserDrag: 'none' }}
                   alt=""
                 />
               </div>
@@ -1134,7 +1134,7 @@ export const pageQuery = graphql`
                     name
                     childImageSharp {
                         fluid(quality: 90, maxWidth: 1920) {
-                            ...GatsbyImageSharpFluid_withWebp
+                            ...GatsbyImageSharpFluid
                         }
                     }
                 }
@@ -1146,7 +1146,7 @@ export const pageQuery = graphql`
                     name
                     childImageSharp {
                         fluid(quality: 90, maxWidth: 1920) {
-                            ...GatsbyImageSharpFluid_withWebp
+                            ...GatsbyImageSharpFluid
                         }
                     }
                 }
