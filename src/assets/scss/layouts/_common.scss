@@ -998,7 +998,7 @@ h2 {
   }
   img {
     display: block;
-    margin-left: 15px;
+    //margin-left: 15px;
     width: 150px !important;
 
     @include media("<tablet") {

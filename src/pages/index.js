@@ -235,7 +235,14 @@ class Index extends Component {
                 <div className="services__caption">
                   <div className="services__wrap">
                     <div className="services__icon">
-                      <img src="/images/icon07.png" alt="Eyewear experts" />
+                      <Img
+                        sizes={Images['icon07']}
+                        style={{
+                          width: "150px",
+                          height: "auto",
+                        }}
+                        alt="Eyewear experts"
+                      />
                     </div>
                     <strong className="services__title">Eyewear experts</strong>
                   </div>
@@ -258,7 +265,14 @@ class Index extends Component {
                 <div className="services__caption">
                   <div className="services__wrap">
                     <div className="services__icon">
-                      <img src="/images/icon02.png" alt="Bespoke Contact Lenses" />
+                      <Img
+                        sizes={Images['icon02']}
+                        style={{
+                          width: "150px",
+                          height: "auto",
+                        }}
+                        alt="Bespoke Contact Lenses"
+                      />
                     </div>
                     <strong className="services__title">Bespoke Contact Lenses</strong>
                   </div>
@@ -902,7 +916,7 @@ export const pageQuery = graphql`
                     name
                     childImageSharp {
                         fluid(quality: 90, maxWidth: 1920) {
-                            ...GatsbyImageSharpFluid
+                            ...GatsbyImageSharpFluid_withWebp
                         }
                     }
                 }
