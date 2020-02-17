@@ -86,7 +86,7 @@ class Index extends Component {
                 id="main-video"
                 className="video-js vjs-default-skin vjs-big-play-centered"
                 controls
-                preload="auto"
+                preload="none"
                 data-setup='{"fluid":true}'
               >
                 <track kind="captions" />
@@ -126,7 +126,7 @@ class Index extends Component {
                 <div className="location__vid">
                   <video
                     className="video-js vjs-default-skin vjs-big-play-centered"
-                    controls preload="auto"
+                    controls preload="none"
                     poster="/images/city-video.jpg"
                     data-setup='{"fluid":true}'
                   >
@@ -172,7 +172,7 @@ class Index extends Component {
                   <video
                     className="video-js vjs-default-skin vjs-big-play-centered"
                     controls
-                    preload="auto"
+                    preload="none"
                     poster="/images/woodville-video.jpg"
                     data-setup='{"fluid":true}'
                   >
