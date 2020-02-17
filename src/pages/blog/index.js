@@ -98,7 +98,7 @@ export const query = graphql`
         introBGImage: file(relativePath: {eq: "images/intro-bg.png"}) {
             childImageSharp {
                 fluid(quality: 90, maxWidth: 1920) {
-                    ...GatsbyImageSharpFluid_withWebp
+                    ...GatsbyImageSharpFluid
                 }
             }
         }

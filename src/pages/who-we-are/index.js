@@ -422,7 +422,7 @@ export const query = graphql`
                     relativePath
                     childImageSharp {
                         fluid(quality: 90, maxWidth: 1920) {
-                            ...GatsbyImageSharpFluid_withWebp
+                            ...GatsbyImageSharpFluid
                         }
                     }
                 }
