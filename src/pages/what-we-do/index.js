@@ -641,14 +641,14 @@ export const query = graphql`
         headerImage: file(relativePath: {eq: "images/WHAT_WE-DO_HeaderImage.jpg"}) {
             childImageSharp {
                 fluid(quality: 90, maxWidth: 1920) {
-                    ...GatsbyImageSharpFluid_withWebp
+                    ...GatsbyImageSharpFluid
                 }
             }
         }
         introBGImage: file(relativePath: {eq: "images/intro-bg.png"}) {
             childImageSharp {
                 fluid(quality: 90, maxWidth: 1920) {
-                    ...GatsbyImageSharpFluid_withWebp
+                    ...GatsbyImageSharpFluid
                 }
             }
         }
@@ -658,7 +658,7 @@ export const query = graphql`
                     name
                     childImageSharp {
                         fluid(quality: 90, maxWidth: 1920) {
-                            ...GatsbyImageSharpFluid_withWebp
+                            ...GatsbyImageSharpFluid
                         }
                     }
                 }
