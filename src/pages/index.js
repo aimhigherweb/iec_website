@@ -33,6 +33,7 @@ class Index extends Component {
   render() {
     const {
       imageFiles,
+      img01,
       lachlan_hoy,
       karl_1,
       mark_1,
@@ -57,8 +58,8 @@ class Index extends Component {
         <TopNav/>
         <div className="content-section simple-section content-section--white-color content-section--with-overlay white--overlay text-center">
           <Img
-            sizes={Images['img01']}
-            loading="eager"
+            sizes={img01}
+            loading="lazy"
             style={{
               position: "absolute",
               left: 0,
@@ -1131,6 +1132,13 @@ export const pageQuery = graphql`
                             ...GatsbyImageSharpFluid_withWebp
                         }
                     }
+                }
+            }
+        }
+        img01: file(relativePath: {eq: "images/img01.jpg"}) {
+            childImageSharp {
+                fluid(quality: 90, maxHeight: 411) {
+                    ...GatsbyImageSharpFluid_withWebp
                 }
             }
         }
