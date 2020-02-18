@@ -33,22 +33,12 @@ class Index extends Component {
   render() {
     const {
       imageFiles,
-      uploadFiles,
     } = this.props.data;
     let Images = {};
-    let UploadedImages = {};
 
     imageFiles.edges.map(({node}) => {
       if (node) {
         Images[node.name] = node.childImageSharp.fluid;
-        return true;
-      }
-      return false;
-    });
-
-    uploadFiles.edges.map(({node}) => {
-      if (node) {
-        UploadedImages[node.name] = node.childImageSharp.fluid;
         return true;
       }
       return false;
@@ -413,7 +403,7 @@ class Index extends Component {
           <ul className="team-list">
             <li className="employee-box open-close">
               <div className="employee-inner hover-elem">
-                <Img fluid={UploadedImages['lachlan-hoy']} alt="" />
+                <img src="/uploads/lachlan-hoy.jpg" alt="" />
                 <Link to="/who-we-are/lachlan-hoy" className="employee-inner__rollover ">
                   <div className="employee-inner__rollover__box">
                     <strong className="name">Lachlan Hoy</strong>
@@ -425,7 +415,7 @@ class Index extends Component {
             </li>
             <li className="employee-box open-close">
               <div className="employee-inner hover-elem">
-                <Img fluid={UploadedImages['karl-1']} alt="" />
+                <img src="/uploads/karl-1.jpg" alt="" />
                 <Link to="/who-we-are/karl-evans" className="employee-inner__rollover ">
                   <div className="employee-inner__rollover__box">
                     <strong className="name">Karl Evans</strong>
@@ -437,7 +427,7 @@ class Index extends Component {
             </li>
             <li className="employee-box open-close">
               <div className="employee-inner hover-elem">
-                <Img fluid={UploadedImages['mark-1']} alt="" />
+                <img src="/uploads/mark-1.jpg" alt="" />
                 <Link to="/who-we-are/mark-parsons" className="employee-inner__rollover ">
                   <div className="employee-inner__rollover__box">
                     <strong className="name">Mark Parsons</strong>
@@ -449,7 +439,7 @@ class Index extends Component {
             </li>
             <li className="employee-box open-close">
               <div className="employee-inner hover-elem">
-                <Img fluid={UploadedImages['joanna-1']} alt="" />
+                <img src="/uploads/joanna-1.jpg" alt="" />
                 <Link to="/who-we-are/joanna-rohrlach" className="employee-inner__rollover ">
                   <div className="employee-inner__rollover__box">
                     <strong className="name">Joanna Rohrlach</strong>
@@ -1129,18 +1119,6 @@ export default Index;
 export const pageQuery = graphql`
     {
         imageFiles: allFile(filter: {relativePath: {regex: "/images/.*\\\\.(jpg|png)$/"}}) {
-            edges {
-                node {
-                    name
-                    childImageSharp {
-                        fluid(quality: 90, maxWidth: 1920) {
-                            ...GatsbyImageSharpFluid_withWebp
-                        }
-                    }
-                }
-            }
-        }
-        uploadFiles: allFile(filter: {relativePath: {regex: "/uploads/.*\\\\.(jpg|png)$/"}}) {
             edges {
                 node {
                     name
