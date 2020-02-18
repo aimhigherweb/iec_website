@@ -1134,7 +1134,7 @@ export const pageQuery = graphql`
                 }
             }
         }
-        lachlan_hoy: file(relativePath: {eq: "uploads/lachlan_hoy.jpg"}) {
+        lachlan_hoy: file(relativePath: {eq: "uploads/lachlan-hoy.jpg"}) {
             childImageSharp {
                 fluid(quality: 90, maxWidth: 504) {
                     ...GatsbyImageSharpFluid_withWebp
