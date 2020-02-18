@@ -58,7 +58,7 @@ class Index extends Component {
         <TopNav/>
         <div className="content-section simple-section content-section--white-color content-section--with-overlay white--overlay text-center">
           <Img
-            sizes={img01}
+            sizes={img01.childImageSharp.fluid}
             loading="lazy"
             style={{
               position: "absolute",
