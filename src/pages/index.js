@@ -33,6 +33,10 @@ class Index extends Component {
   render() {
     const {
       imageFiles,
+      lachlan_hoy,
+      karl_1,
+      mark_1,
+      joanna_1,
     } = this.props.data;
     let Images = {};
 
@@ -403,7 +407,7 @@ class Index extends Component {
           <ul className="team-list">
             <li className="employee-box open-close">
               <div className="employee-inner hover-elem">
-                <img src="/uploads/lachlan-hoy.jpg" alt="" />
+                <Img fluid={lachlan_hoy.childImageSharp.fluid} alt="" />
                 <Link to="/who-we-are/lachlan-hoy" className="employee-inner__rollover ">
                   <div className="employee-inner__rollover__box">
                     <strong className="name">Lachlan Hoy</strong>
@@ -415,7 +419,7 @@ class Index extends Component {
             </li>
             <li className="employee-box open-close">
               <div className="employee-inner hover-elem">
-                <img src="/uploads/karl-1.jpg" alt="" />
+                <Img fluid={karl_1.childImageSharp.fluid} alt="" />
                 <Link to="/who-we-are/karl-evans" className="employee-inner__rollover ">
                   <div className="employee-inner__rollover__box">
                     <strong className="name">Karl Evans</strong>
@@ -427,7 +431,7 @@ class Index extends Component {
             </li>
             <li className="employee-box open-close">
               <div className="employee-inner hover-elem">
-                <img src="/uploads/mark-1.jpg" alt="" />
+                <Img fluid={mark_1.childImageSharp.fluid} alt="" />
                 <Link to="/who-we-are/mark-parsons" className="employee-inner__rollover ">
                   <div className="employee-inner__rollover__box">
                     <strong className="name">Mark Parsons</strong>
@@ -439,7 +443,7 @@ class Index extends Component {
             </li>
             <li className="employee-box open-close">
               <div className="employee-inner hover-elem">
-                <img src="/uploads/joanna-1.jpg" alt="" />
+                <Img fluid={joanna_1.childImageSharp.fluid} alt="" />
                 <Link to="/who-we-are/joanna-rohrlach" className="employee-inner__rollover ">
                   <div className="employee-inner__rollover__box">
                     <strong className="name">Joanna Rohrlach</strong>
@@ -1127,6 +1131,34 @@ export const pageQuery = graphql`
                             ...GatsbyImageSharpFluid_withWebp
                         }
                     }
+                }
+            }
+        }
+        lachlan_hoy: file(relativePath: {eq: "uploads/lachlan_hoy.jpg"}) {
+            childImageSharp {
+                fluid(quality: 90, maxWidth: 504) {
+                    ...GatsbyImageSharpFluid_withWebp
+                }
+            }
+        }
+        karl_1: file(relativePath: {eq: "uploads/karl-1.jpg"}) {
+            childImageSharp {
+                fluid(quality: 90, maxWidth: 504) {
+                    ...GatsbyImageSharpFluid
+                }
+            }
+        }
+        mark_1: file(relativePath: {eq: "uploads/mark-1.jpg"}) {
+            childImageSharp {
+                fluid(quality: 90, maxWidth: 504) {
+                    ...GatsbyImageSharpFluid_withWebp
+                }
+            }
+        }
+        joanna_1: file(relativePath: {eq: "uploads/joanna-1.jpg"}) {
+            childImageSharp {
+                fluid(quality: 90, maxWidth: 504) {
+                    ...GatsbyImageSharpFluid_withWebp
                 }
             }
         }
