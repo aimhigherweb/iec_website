@@ -56,7 +56,8 @@ class Index extends Component {
         </Helmet>
         <Header/>
         <TopNav/>
-        <div className="content-section simple-section content-section--white-color content-section--with-overlay white--overlay text-center">
+        <div className="content-section simple-section content-section--white-color
+         content-section--with-overlay white--overlay text-center">
           <Img
             sizes={img01.childImageSharp.fluid}
             loading="lazy"
@@ -408,7 +409,7 @@ class Index extends Component {
           <ul className="team-list">
             <li className="employee-box open-close">
               <div className="employee-inner hover-elem">
-                <Img fluid={lachlan_hoy.childImageSharp.fluid} alt="" />
+                <Img sizes={lachlan_hoy.childImageSharp.fluid} alt="" />
                 <Link to="/who-we-are/lachlan-hoy" className="employee-inner__rollover ">
                   <div className="employee-inner__rollover__box">
                     <strong className="name">Lachlan Hoy</strong>
@@ -420,7 +421,7 @@ class Index extends Component {
             </li>
             <li className="employee-box open-close">
               <div className="employee-inner hover-elem">
-                <Img fluid={karl_1.childImageSharp.fluid} alt="" />
+                <Img sizes={karl_1.childImageSharp.fluid} alt="" />
                 <Link to="/who-we-are/karl-evans" className="employee-inner__rollover ">
                   <div className="employee-inner__rollover__box">
                     <strong className="name">Karl Evans</strong>
@@ -432,7 +433,7 @@ class Index extends Component {
             </li>
             <li className="employee-box open-close">
               <div className="employee-inner hover-elem">
-                <Img fluid={mark_1.childImageSharp.fluid} alt="" />
+                <Img sizes={mark_1.childImageSharp.fluid} alt="" />
                 <Link to="/who-we-are/mark-parsons" className="employee-inner__rollover ">
                   <div className="employee-inner__rollover__box">
                     <strong className="name">Mark Parsons</strong>
@@ -444,7 +445,7 @@ class Index extends Component {
             </li>
             <li className="employee-box open-close">
               <div className="employee-inner hover-elem">
-                <Img fluid={joanna_1.childImageSharp.fluid} alt="" />
+                <Img sizes={joanna_1.childImageSharp.fluid} alt="" />
                 <Link to="/who-we-are/joanna-rohrlach" className="employee-inner__rollover ">
                   <div className="employee-inner__rollover__box">
                     <strong className="name">Joanna Rohrlach</strong>
