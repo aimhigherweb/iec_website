@@ -33,22 +33,17 @@ class Index extends Component {
   render() {
     const {
       imageFiles,
-      uploadFiles,
+      img01,
+      lachlan_hoy,
+      karl_1,
+      mark_1,
+      joanna_1,
     } = this.props.data;
     let Images = {};
-    let UploadedImages = {};
 
     imageFiles.edges.map(({node}) => {
       if (node) {
         Images[node.name] = node.childImageSharp.fluid;
-        return true;
-      }
-      return false;
-    });
-
-    uploadFiles.edges.map(({node}) => {
-      if (node) {
-        UploadedImages[node.name] = node.childImageSharp.fluid;
         return true;
       }
       return false;
@@ -61,9 +56,11 @@ class Index extends Component {
         </Helmet>
         <Header/>
         <TopNav/>
-        <div className="content-section simple-section content-section--white-color content-section--with-overlay white--overlay text-center">
+        <div className="content-section simple-section content-section--white-color
+         content-section--with-overlay white--overlay text-center">
           <Img
-            sizes={Images['img01']}
+            sizes={img01.childImageSharp.fluid}
+            loading="lazy"
             style={{
               position: "absolute",
               left: 0,
@@ -104,6 +101,7 @@ class Index extends Component {
         <div className="content-section location-section">
           <Img
             sizes={Images['img04']}
+            loading="eager"
             style={{
               position: "absolute",
               left: 0,
@@ -233,7 +231,14 @@ class Index extends Component {
                 <div className="services__caption">
                   <div className="services__wrap">
                     <div className="services__icon">
-                      <img src="/images/icon07.png" alt="Eyewear experts" />
+                      <Img
+                        sizes={Images['icon07']}
+                        style={{
+                          width: "150px",
+                          height: "auto",
+                        }}
+                        alt="Eyewear experts"
+                      />
                     </div>
                     <strong className="services__title">Eyewear experts</strong>
                   </div>
@@ -256,7 +261,14 @@ class Index extends Component {
                 <div className="services__caption">
                   <div className="services__wrap">
                     <div className="services__icon">
-                      <img src="/images/icon02.png" alt="Bespoke Contact Lenses" />
+                      <Img
+                        sizes={Images['icon02']}
+                        style={{
+                          width: "150px",
+                          height: "auto",
+                        }}
+                        alt="Bespoke Contact Lenses"
+                      />
                     </div>
                     <strong className="services__title">Bespoke Contact Lenses</strong>
                   </div>
@@ -279,7 +291,14 @@ class Index extends Component {
                 <div className="services__caption">
                   <div className="services__wrap">
                     <div className="services__icon">
-                      <img src="/images/icon03.png" alt="Paediatric Vision" />
+                      <Img
+                        sizes={Images['icon03']}
+                        style={{
+                          width: "150px",
+                          height: "auto",
+                        }}
+                        alt="Paediatric Vision"
+                      />
                     </div>
                     <strong className="services__title">Paediatric Vision</strong>
                   </div>
@@ -302,7 +321,14 @@ class Index extends Component {
                 <div className="services__caption">
                   <div className="services__wrap">
                     <div className="services__icon">
-                      <img src="/images/icon04.png" alt="Dry Eye Clinic" />
+                      <Img
+                        sizes={Images['icon04']}
+                        style={{
+                          width: "150px",
+                          height: "auto",
+                        }}
+                        alt="Dry Eye Clinic"
+                      />
                     </div>
                     <strong className="services__title">Dry Eye Clinic</strong>
                   </div>
@@ -325,7 +351,14 @@ class Index extends Component {
                 <div className="services__caption">
                   <div className="services__wrap">
                     <div className="services__icon">
-                      <img src="/images/icon05.png" alt="Advanced Imaging Technology" />
+                      <Img
+                        sizes={Images['icon05']}
+                        style={{
+                          width: "150px",
+                          height: "auto",
+                        }}
+                        alt="Advanced Imaging Technology"
+                      />
                     </div>
                     <strong className="services__title">Advanced Imaging Technology</strong>
                   </div>
@@ -348,7 +381,14 @@ class Index extends Component {
                 <div className="services__caption">
                   <div className="services__wrap">
                     <div className="services__icon">
-                      <img src="/images/icon06.png" alt="Overnight vision correction" />
+                      <Img
+                        sizes={Images['icon06']}
+                        style={{
+                          width: "150px",
+                          height: "auto",
+                        }}
+                        alt="Overnight vision correction"
+                      />
                     </div>
                     <strong className="services__title">ORTHO-K: <br/> Overnight vision correction</strong>
                   </div>
@@ -369,7 +409,7 @@ class Index extends Component {
           <ul className="team-list">
             <li className="employee-box open-close">
               <div className="employee-inner hover-elem">
-                <Img fluid={UploadedImages['lachlan-hoy']} alt="" />
+                <Img sizes={lachlan_hoy.childImageSharp.fluid} alt="" />
                 <Link to="/who-we-are/lachlan-hoy" className="employee-inner__rollover ">
                   <div className="employee-inner__rollover__box">
                     <strong className="name">Lachlan Hoy</strong>
@@ -381,7 +421,7 @@ class Index extends Component {
             </li>
             <li className="employee-box open-close">
               <div className="employee-inner hover-elem">
-                <Img fluid={UploadedImages['karl-1']} alt="" />
+                <Img sizes={karl_1.childImageSharp.fluid} alt="" />
                 <Link to="/who-we-are/karl-evans" className="employee-inner__rollover ">
                   <div className="employee-inner__rollover__box">
                     <strong className="name">Karl Evans</strong>
@@ -393,7 +433,7 @@ class Index extends Component {
             </li>
             <li className="employee-box open-close">
               <div className="employee-inner hover-elem">
-                <Img fluid={UploadedImages['mark-1']} alt="" />
+                <Img sizes={mark_1.childImageSharp.fluid} alt="" />
                 <Link to="/who-we-are/mark-parsons" className="employee-inner__rollover ">
                   <div className="employee-inner__rollover__box">
                     <strong className="name">Mark Parsons</strong>
@@ -405,7 +445,7 @@ class Index extends Component {
             </li>
             <li className="employee-box open-close">
               <div className="employee-inner hover-elem">
-                <Img fluid={UploadedImages['joanna-1']} alt="" />
+                <Img sizes={joanna_1.childImageSharp.fluid} alt="" />
                 <Link to="/who-we-are/joanna-rohrlach" className="employee-inner__rollover ">
                   <div className="employee-inner__rollover__box">
                     <strong className="name">Joanna Rohrlach</strong>
@@ -441,7 +481,14 @@ class Index extends Component {
         </div>
         <div className="content-section lenses-information content-section--white-color">
           <div className="bg-holder">
-            <img src="/images/bg-box02.jpg" alt="" />
+            <Img
+              sizes={Images['bg-box02']}
+              style={{
+                width: "100%",
+                height: "100%",
+                zIndex: -1,
+              }}
+            />
           </div>
           <div className="container">
             <div className="container__wrap container--left-position">
@@ -489,35 +536,75 @@ class Index extends Component {
               <ul className="lenses-info same-height">
                 <li>
                   <div className="lenses__image height">
-                    <img src="/images/img33.png" alt="" />
+                    <Img
+                      sizes={Images['img33']}
+                      style={{
+                        width: "50px",
+                        height: "50px",
+                      }}
+                      imgStyle={{ objectFit: 'contain' }}
+                      alt=""
+                    />
                   </div>
                   <strong className="lenses-info__title">SIMPLE</strong>
                   <p>See without lenses during the day</p>
                 </li>
                 <li>
                   <div className="lenses__image height">
-                    <img src="/images/img34.png" alt="" />
+                    <Img
+                      sizes={Images['img34']}
+                      style={{
+                        width: "50px",
+                        height: "50px",
+                      }}
+                      imgStyle={{ objectFit: 'contain' }}
+                      alt=""
+                    />
                   </div>
                   <strong className="lenses-info__title">EFFORTLESS</strong>
                   <p>Lenses work while you sleep</p>
                 </li>
                 <li>
                   <div className="lenses__image height">
-                    <img src="/images/img35.png" alt="" />
+                    <Img
+                      sizes={Images['img35']}
+                      style={{
+                        width: "50px",
+                        height: "50px",
+                      }}
+                      imgStyle={{ objectFit: 'contain' }}
+                      alt=""
+                    />
                   </div>
                   <strong className="lenses-info__title">NON-SURGICAL</strong>
                   <p>Just put contacts in</p>
                 </li>
                 <li>
                   <div className="lenses__image height">
-                    <img src="/images/img36.png" alt="" />
+                    <Img
+                      sizes={Images['img36']}
+                      style={{
+                        width: "50px",
+                        height: "50px",
+                      }}
+                      imgStyle={{ objectFit: 'contain' }}
+                      alt=""
+                    />
                   </div>
                   <strong className="lenses-info__title">BESPOKE</strong>
                   <p>Individually made lenses</p>
                 </li>
                 <li>
                   <div className="lenses__image height">
-                    <img src="/images/img37.png" alt="" />
+                    <Img
+                      sizes={Images['img37']}
+                      style={{
+                        width: "50px",
+                        height: "50px",
+                      }}
+                      imgStyle={{ objectFit: 'contain' }}
+                      alt=""
+                    />
                   </div>
                   <strong className="lenses-info__title">REVERSIBLE</strong>
                   <p>Stop at any time</p>
@@ -576,7 +663,16 @@ class Index extends Component {
               friend <span>$50 Gift Card for you</span></strong>
           </div>
           <div className="icon-logo icon-logo--left">
-            <img src="/images/icon-logo02.png" alt="Innovative Eye Care" />
+            <Img
+              sizes={Images['icon-logo02']}
+              style={{
+                width: "100%",
+                height: "100%",
+                zIndex: -1,
+              }}
+              imgStyle={{ objectFit: 'contain' }}
+              alt="Innovative Eye Care"
+            />
           </div>
         </div>
         <div className="content-section symptoms-section text-center">
@@ -594,7 +690,14 @@ class Index extends Component {
                 <li>
                   <div className="hold">
                     <div className="symptoms__img height">
-                      <img src="/images/eye01.png" alt="STINGING &amp; BURNING" />
+                      <Img
+                        sizes={Images['eye01']}
+                        style={{
+                          height: "87px",
+                        }}
+                        imgStyle={{ objectFit: 'contain' }}
+                        alt="STINGING & BURNING"
+                      />
                     </div>
                     <strong className="symptoms__title">STINGING &amp; BURNING</strong>
                   </div>
@@ -602,7 +705,14 @@ class Index extends Component {
                 <li>
                   <div className="hold">
                     <div className="symptoms__img height extra-size">
-                      <img src="/images/eye02.png" alt="GRITTY SENSATION" />
+                      <Img
+                        sizes={Images['eye02']}
+                        style={{
+                          height: "87px",
+                        }}
+                        imgStyle={{ objectFit: 'contain' }}
+                        alt="GRITTY SENSATION"
+                      />
                     </div>
                     <strong className="symptoms__title">GRITTY SENSATION</strong>
                   </div>
@@ -610,7 +720,14 @@ class Index extends Component {
                 <li>
                   <div className="hold">
                     <div className="symptoms__img height">
-                      <img src="/images/eye03.png" alt="REDNESS" />
+                      <Img
+                        sizes={Images['eye03']}
+                        style={{
+                          height: "87px",
+                        }}
+                        imgStyle={{ objectFit: 'contain' }}
+                        alt="REDNESS"
+                      />
                     </div>
                     <strong className="symptoms__title">REDNESS</strong>
                   </div>
@@ -618,7 +735,14 @@ class Index extends Component {
                 <li>
                   <div className="hold">
                     <div className="symptoms__img height">
-                      <img src="/images/eye04.png" alt="WATERINESS" />
+                      <Img
+                        sizes={Images['eye04']}
+                        style={{
+                          height: "87px",
+                        }}
+                        imgStyle={{ objectFit: 'contain' }}
+                        alt="WATERINESS"
+                      />
                     </div>
                     <strong className="symptoms__title">WATERINESS</strong>
                   </div>
@@ -626,7 +750,14 @@ class Index extends Component {
                 <li>
                   <div className="hold">
                     <div className="symptoms__img height">
-                      <img src="/images/eye05.png" alt="BLURRY VISION" />
+                      <Img
+                        sizes={Images['eye05']}
+                        style={{
+                          height: "87px",
+                        }}
+                        imgStyle={{ objectFit: 'contain' }}
+                        alt="BLURRY VISION"
+                      />
                     </div>
                     <strong className="symptoms__title">BLURRY VISION</strong>
                   </div>
@@ -664,31 +795,71 @@ class Index extends Component {
             <ul className="eye-problems same-height">
               <li>
                 <div className="eye-problems__img height">
-                  <img src="/images/img-working.png" alt="working" />
+                  <Img
+                    sizes={Images['img-working']}
+                    style={{
+                      height: "87px",
+                      width: "100%",
+                    }}
+                    imgStyle={{ objectFit: 'contain' }}
+                    alt="working"
+                  />
                 </div>
                 <strong className="problems__title">WORKING</strong>
               </li>
               <li>
                 <div className="eye-problems__img height">
-                  <img src="/images/img-computer.png" alt="computer" />
+                  <Img
+                    sizes={Images['img-computer']}
+                    style={{
+                      height: "87px",
+                      width: "100%",
+                    }}
+                    imgStyle={{ objectFit: 'contain' }}
+                    alt="computer"
+                  />
                 </div>
                 <strong className="problems__title">USING A COMPUTER</strong>
               </li>
               <li>
                 <div className="eye-problems__img height">
-                  <img src="/images/img-tv.png" alt="tv" />
+                  <Img
+                    sizes={Images['img-tv']}
+                    style={{
+                      height: "87px",
+                      width: "100%",
+                    }}
+                    imgStyle={{ objectFit: 'contain' }}
+                    alt="tv"
+                  />
                 </div>
                 <strong className="problems__title">WATCHING TV</strong>
               </li>
               <li>
                 <div className="eye-problems__img height">
-                  <img src="/images/img-books.png" alt="books" />
+                  <Img
+                    sizes={Images['img-books']}
+                    style={{
+                      height: "87px",
+                      width: "100%",
+                    }}
+                    imgStyle={{ objectFit: 'contain' }}
+                    alt="books"
+                  />
                 </div>
                 <strong className="problems__title">READING</strong>
               </li>
               <li>
                 <div className="eye-problems__img height">
-                  <img src="/images/img-car.png" alt="car" />
+                  <Img
+                    sizes={Images['img-car']}
+                    style={{
+                      height: "87px",
+                      width: "100%",
+                    }}
+                    imgStyle={{ objectFit: 'contain' }}
+                    alt="car"
+                  />
                 </div>
                 <strong className="problems__title">DRIVING</strong>
               </li>
@@ -725,21 +896,45 @@ class Index extends Component {
             <div className="three-columns same-height">
               <div className="three-columns__item">
                 <div className="roundered__img blue-border">
-                  <img src="/images/img24.jpg" alt="" />
+                  <Img
+                    sizes={Images['img24']}
+                    style={{
+                      height: "100%",
+                      width: "100%",
+                    }}
+                    imgStyle={{ objectFit: 'contain', WebkitUserDrag: 'none' }}
+                    alt=""
+                  />
                 </div>
                 <strong className="roundered__title height blue-color">DRY EYE RELIEF</strong>
                 <p>Experience dry eye relief for up 2 years</p>
               </div>
               <div className="three-columns__item">
                 <div className="roundered__img blue-border">
-                  <img src="/images/img25.jpg" alt="" />
+                  <Img
+                    sizes={Images['img25']}
+                    style={{
+                      height: "100%",
+                      width: "100%",
+                    }}
+                    imgStyle={{ objectFit: 'contain', WebkitUserDrag: 'none' }}
+                    alt=""
+                  />
                 </div>
                 <strong className="roundered__title height blue-color">LONG LASTING</strong>
                 <p>Accumulate the benefits - relief lasts longer after each treament</p>
               </div>
               <div className="three-columns__item">
                 <div className="roundered__img blue-border">
-                  <img src="/images/img26.jpg" alt="" />
+                  <Img
+                    sizes={Images['img26']}
+                    style={{
+                      height: "100%",
+                      width: "100%",
+                    }}
+                    imgStyle={{ objectFit: 'contain', WebkitUserDrag: 'none' }}
+                    alt=""
+                  />
                 </div>
                 <strong className="roundered__title height blue-color">LESS NEED FOR EYE DROPS</strong>
                 <p>Stop the constant use of lubricating eye drops</p>
@@ -769,20 +964,43 @@ class Index extends Component {
             <div className="three-columns same-height">
               <div className="three-columns__item">
                 <div className="roundered__img">
-                  <img src="/images/img21.jpg" alt="" />
+                  <Img
+                    sizes={Images['img21']}
+                    style={{
+                      height: "100%",
+                      width: "100%",
+                    }}
+                    imgStyle={{ objectFit: 'contain', WebkitUserDrag: 'none' }}
+                    alt=""
+                  />
                 </div>
                 <strong className="roundered__title height">OPTICAL COHERENCE TOMOGRAPHY</strong>
               </div>
               <div className="three-columns__item">
                 <div className="roundered__img">
-                  <Img fluid={Images['img22']} alt="" />
-                  <img src="/images/img22.jpg" alt="" />
+                  <Img
+                    sizes={Images['img22']}
+                    style={{
+                      height: "100%",
+                      width: "100%",
+                    }}
+                    imgStyle={{ objectFit: 'contain', WebkitUserDrag: 'none' }}
+                    alt=""
+                  />
                 </div>
                 <strong className="roundered__title height">RETINAL FUNDUS PHOTOGRAPHY</strong>
               </div>
               <div className="three-columns__item">
                 <div className="roundered__img">
-                  <img src="/images/img23.jpg" alt="" />
+                  <Img
+                    sizes={Images['img23']}
+                    style={{
+                      height: "100%",
+                      width: "100%",
+                    }}
+                    imgStyle={{ objectFit: 'contain', WebkitUserDrag: 'none' }}
+                    alt=""
+                  />
                 </div>
                 <strong className="roundered__title height">CORNEAL TOPOGRAPHY</strong>
               </div>
@@ -853,7 +1071,15 @@ class Index extends Component {
         </div>
         <div className="content-section join-section content-section--gray">
           <div className="decorate-image image__cup">
-            <img src="/images/img-cup.jpg" alt="" />
+            <Img
+              sizes={Images['img-cup']}
+              style={{
+                height: "100%",
+                width: "237px",
+              }}
+              imgStyle={{ objectFit: 'contain', WebkitUserDrag: 'none' }}
+              alt=""
+            />
           </div>
           <div className="container">
             <div className="content-section__haeding haeding--large-heading haeding--without-border">
@@ -861,10 +1087,26 @@ class Index extends Component {
               <strong className="content-section__sub-heding">Like our Facebook page</strong>
               <a href="https://www.facebook.com/innovativeeyecareadelaide" className="btn btn--small">get started</a>
               <div className="decorate-image">
-                <img src="/images/img16.png" alt=""/>
+                <Img
+                  sizes={Images['img16']}
+                  style={{
+                    height: "100%",
+                    width: "237px",
+                  }}
+                  imgStyle={{ objectFit: 'contain', WebkitUserDrag: 'none' }}
+                  alt=""
+                />
               </div>
               <div className="decorate-image decorate-image--right">
-                <img src="/images/img17.jpg" alt=""/>
+                <Img
+                  sizes={Images['img17']}
+                  style={{
+                    height: "100%",
+                    width: "237px",
+                  }}
+                  imgStyle={{ objectFit: 'contain', WebkitUserDrag: 'none' }}
+                  alt=""
+                />
               </div>
             </div>
             <div className="browser-preview">
@@ -888,21 +1130,44 @@ export const pageQuery = graphql`
                     name
                     childImageSharp {
                         fluid(quality: 90, maxWidth: 1920) {
-                            ...GatsbyImageSharpFluid
+                            ...GatsbyImageSharpFluid_withWebp
                         }
                     }
                 }
             }
         }
-        uploadFiles: allFile(filter: {relativePath: {regex: "/uploads/.*\\\\.(jpg|png)$/"}}) {
-            edges {
-                node {
-                    name
-                    childImageSharp {
-                        fluid(quality: 90, maxWidth: 1920) {
-                            ...GatsbyImageSharpFluid
-                        }
-                    }
+        img01: file(relativePath: {eq: "images/img01.jpg"}) {
+            childImageSharp {
+                fluid(quality: 90, maxHeight: 411) {
+                    ...GatsbyImageSharpFluid_withWebp
+                }
+            }
+        }
+        lachlan_hoy: file(relativePath: {eq: "uploads/lachlan-hoy.jpg"}) {
+            childImageSharp {
+                fluid(quality: 90, maxWidth: 504) {
+                    ...GatsbyImageSharpFluid_withWebp
+                }
+            }
+        }
+        karl_1: file(relativePath: {eq: "uploads/karl-1.jpg"}) {
+            childImageSharp {
+                fluid(quality: 90, maxWidth: 504) {
+                    ...GatsbyImageSharpFluid
+                }
+            }
+        }
+        mark_1: file(relativePath: {eq: "uploads/mark-1.jpg"}) {
+            childImageSharp {
+                fluid(quality: 90, maxWidth: 504) {
+                    ...GatsbyImageSharpFluid_withWebp
+                }
+            }
+        }
+        joanna_1: file(relativePath: {eq: "uploads/joanna-1.jpg"}) {
+            childImageSharp {
+                fluid(quality: 90, maxWidth: 504) {
+                    ...GatsbyImageSharpFluid_withWebp
                 }
             }
         }

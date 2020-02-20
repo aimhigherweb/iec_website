@@ -126,19 +126,23 @@ class Search extends Component {
               <div className="intro-section__row">
                 <div className="intro-section__col intro-section__col_content">
                   <p>Search for patient resources, blog posts, and information about our practice</p>
-                  <input
-                    id="search-query"
-                    name="s"
-                    value={this.state.searchKey}
-                    onChange={this.handleChange}
-                    onKeyPress={(e) => this.handleChange(e)}
-                  />
-                  <input
-                    type="button"
-                    className="button"
-                    value="Search"
-                    onClick={this.handleSubmit}
-                  />
+                  <label>
+                    <input
+                      id="search-query"
+                      name="s"
+                      value={this.state.searchKey}
+                      onChange={this.handleChange}
+                      onKeyPress={(e) => this.handleChange(e)}
+                    />
+                  </label>
+                  <label>
+                    <input
+                      type="button"
+                      className="button"
+                      value="Search"
+                      onClick={this.handleSubmit}
+                    />
+                  </label>
                 </div>
               </div>
             </div>
@@ -194,7 +198,7 @@ export const searchQuery = graphql`
         introBGImage: file(relativePath: {eq: "images/intro-bg.png"}) {
             childImageSharp {
                 fluid(quality: 90, maxWidth: 1920) {
-                    ...GatsbyImageSharpFluid
+                    ...GatsbyImageSharpFluid_withWebp
                 }
             }
         }
