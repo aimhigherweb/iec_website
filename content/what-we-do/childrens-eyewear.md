@@ -4,10 +4,8 @@ category: eyewear-experts
 preview-image: nike-fw15-a4-landscape-kid-male-opt.jpg
 ---
 
-<div class="employee-heading">
-<p><p>We know that choosing a frame for a child or teen is a whole different ball game to choosing for an adult. You're looking at smaller sizes, varied colours, extreme durability - and something they will love enough to actually wear. </p>
-<p><strong>That's where we come in.</strong></p>
-</div>
+We know that choosing a frame for a child or teen is a whole different ball game to choosing for an adult. You're looking at smaller sizes, varied colours, extreme durability - and something they will love enough to actually wear. 
+<strong>That's where we come in.</strong>
 
 #### Nike Vision
 
