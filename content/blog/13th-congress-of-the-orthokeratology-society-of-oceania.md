@@ -11,7 +11,7 @@ The Orthokeratology Society of Oceania held its biannual congress on the Gold Co
 
 CAPTION: Lachlan Hoy giving a presentation on ‘Refitting a Decentred Orthokeratology Lens’
 
-Other speakers came from all corners of the globe: United States, Canada, New Zealand, China and Italy. The information conveyed throughout the jam-packed congress included the demonstration of protocols for fitting complex prescriptions and recent research into the myopia-controlling effects of orthokeratology. Question and Answer panels were also a terrific opportunity to ask some specific questions and hear the rigorous discussion between the various experts in the field!
+Other speakers came from all corners of the globe: United States, Canada, New Zealand, China and Italy. The information conveyed throughout the jam-packed congress included the demonstration of protocols for fitting complex prescriptions and recent research into the myopia-controlling effects of orthokeratology. Question and Answer panels were also a terrific opportunity to ask some specific questions and hear the rigorous discussion between the various experts in the field.
 
 ![](/uploads/20181005_154340.jpg)
 
