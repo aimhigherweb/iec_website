@@ -5,7 +5,7 @@ preview-image: vision-training-implements.jpg
 ---
 <div class="employee-heading">
 
-<p>If your optometrist finds a binocular vision problem during your eye examination, it could be improved with with the use of vision training. These problems are often found in children but can be present in adults. At Innovative Eye Care, both our Adelaide and Woodville practice are equipped to prescribe vision training for a variety of paediatric vision issues
+<p>If your optometrist finds a binocular vision problem during your eye examination, it could be improved with with the use of vision training. These problems are often found in children but can be present in adults. At Innovative Eye Care, both our Adelaide and Woodville practices are equipped to prescribe vision training for a variety of paediatric vision issues
 
 <p>The human visual system is complex. Some visual conditions such as short-sightedness (myopia), long-sightedness (hyperopia) and astigmatism can be corrected via the use of spectacles or contact lenses. Other problems with a patient's vision can arise from poor binocular vision skills. These skills relate to how well a patient's two eyes are working together.
 
