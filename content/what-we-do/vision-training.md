@@ -81,7 +81,7 @@ Vision training specifically targeted for improving eye movement aims to improve
 
 Vision training has been highly researched. Strong evidence exists regarding its effectiveness at treating binocular vision problems. Specific treatment of eye focusing and eye teaming problems result in reduced symptoms and improvement in visual function (1-4). [](https://www.zotero.org/google-docs/?6X0I1Q)Other studies have shown that vision training can result in improvements in school performance such as reading comprehension, reading speed and fluency as well as attention (5-7).[](https://www.zotero.org/google-docs/?HBch0K)
 
-The success of vision training has been shown to be affected by participant effort. Improvements in a patient's binocular system are seen in patients who demonstrate commitment to their exercises (8).[](https://www.zotero.org/google-docs/?OLhmTe)
+The success of vision training has been shown to be affected by participant effort. Improvements in a patient's binocular system are seen in patients who demonstrate commitment to their exercises<sup></sup>(8) <sup></sup>
 
 Importantly, vision training exercises also have cross-over benefits whereby exercising your eye focusing can have beneficial effects on your eye turning skills (8).[](https://www.zotero.org/google-docs/?SX4ojM)
 
