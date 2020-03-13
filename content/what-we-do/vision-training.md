@@ -1,7 +1,7 @@
 ---
 title: Vision Training
 category: paediatric-vision
-preview-image: vision-training-implements.jpg
+preview-image: ''
 ---
 <div class="employee-heading">
 
@@ -73,9 +73,11 @@ Instructions for these vision training exercises can be found here:
 * [VT with Saccade Pens](https://innovativeeyecare.com.au/patient-resources/vision-training-with-saccade-pens/) 
 * [VT with Binocular String](https://innovativeeyecare.com.au/patient-resources/vision-training-with-binocular-string/)
 
-[Contact us] (<https://www.innovativeeyecare.com.au/contact>) to see one of our friendly optometrists regarding vision therapy.
+[Contact us](https://www.innovativeeyecare.com.au/contact) to see one of our friendly optometrists regarding vision therapy.
 
-### References
+![](/uploads/vision-training-implements.jpg)
+
+#### References
 
 1.Abdi S, Rydberg A. Asthenopia in schoolchildren, orthoptic and ophthalmological findings and treatment. Doc Ophthalmol Adv Ophthalmol. 2005 Sep;111(2):65–72
 
