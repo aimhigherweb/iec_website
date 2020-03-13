@@ -79,17 +79,17 @@ Vision training specifically targeted for improving eye movement aims to improve
 
 ### Evidence
 
-Vision training has been highly researched. Strong evidence exists regarding its effectiveness at treating binocular vision problems. Specific treatment of eye focusing and eye teaming problems result in reduced symptoms and improvement in visual function.[1–4](https://www.zotero.org/google-docs/?6X0I1Q)Other studies have shown that vision training can result in improvements in school performance such as reading comprehension, reading speed and fluency as well as attention.[5–7](https://www.zotero.org/google-docs/?HBch0K)
+Vision training has been highly researched. Strong evidence exists regarding its effectiveness at treating binocular vision problems. Specific treatment of eye focusing and eye teaming problems result in reduced symptoms and improvement in visual function (1-4). [](https://www.zotero.org/google-docs/?6X0I1Q)Other studies have shown that vision training can result in improvements in school performance such as reading comprehension, reading speed and fluency as well as attention (5-7).[](https://www.zotero.org/google-docs/?HBch0K)
 
-The success of vision training has been shown to be affected by participant effort. Improvements in a patient's binocular system are seen in patients who demonstrate commitment to their exercises.[8](https://www.zotero.org/google-docs/?OLhmTe)
+The success of vision training has been shown to be affected by participant effort. Improvements in a patient's binocular system are seen in patients who demonstrate commitment to their exercises (8).[](https://www.zotero.org/google-docs/?OLhmTe)
 
-Importantly, vision training exercises also have cross-over benefits whereby exercising your eye focusing can have beneficial effects on your eye turning skills.[8](https://www.zotero.org/google-docs/?SX4ojM)
+Importantly, vision training exercises also have cross-over benefits whereby exercising your eye focusing can have beneficial effects on your eye turning skills (8).[](https://www.zotero.org/google-docs/?SX4ojM)
 
 ### Who Can Benefit from Vision Therapy?
 
-Binocular vision problems are quite common in the general population. Studies have shown that poor eye alignment is found in around 13% of patients and poor eye focusing is found in around 21% of patients.[9,10](https://www.zotero.org/google-docs/?bauyZl)One study screened over 1,500 kids and revealed that around 53% of children had some degree of binocular vision problem.[11](https://www.zotero.org/google-docs/?sDWQZ2)These rates increase even further in children who have reading difficulties where higher proportions of binocular vision problems are seen.[12](https://www.zotero.org/google-docs/?YzwIEy)
+Binocular vision problems are quite common in the general population. Studies have shown that poor eye alignment is found in around 13% of patients and poor eye focusing is found in around 21% of patients (9,10). [](https://www.zotero.org/google-docs/?bauyZl)One study screened over 1,500 kids and revealed that around 53% of children had some degree of binocular vision problem (11). [](https://www.zotero.org/google-docs/?sDWQZ2)These rates increase even further in children who have reading difficulties where higher proportions of binocular vision problems are seen (12).[](https://www.zotero.org/google-docs/?YzwIEy)
 
-Adults can also benefit from vision training, not just children. Due to the increased usage of computer screens in an occupational setting, people working in front of computer screens can experience ocular discomfort or blurred vision. These symptoms can be linked to problems with a patient's binocular vision which can be trained and improved through vision therapy.[13](https://www.zotero.org/google-docs/?idPos2)
+Adults can also benefit from vision training, not just children. Due to the increased usage of computer screens in an occupational setting, people working in front of computer screens can experience ocular discomfort or blurred vision. These symptoms can be linked to problems with a patient's binocular vision which can be trained and improved through vision therapy (13).[](https://www.zotero.org/google-docs/?idPos2)
 
 ### Length and Equipment
 
