@@ -73,7 +73,7 @@ Instructions for these vision training exercises can be found here:
 * [VT with Saccade Pens](https://innovativeeyecare.com.au/patient-resources/vision-training-with-saccade-pens/) 
 * [VT with Binocular String](https://innovativeeyecare.com.au/patient-resources/vision-training-with-binocular-string/)
 
-Book in to see one of our friendly optometrists
+[Contact us] (<https://www.innovativeeyecare.com.au/contact>) to see one of our friendly optometrists regarding vision therapy.
 
 ### References
 
