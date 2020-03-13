@@ -5,7 +5,7 @@ preview-image: ''
 ---
 <div class="employee-heading">
 
-<p>If your optometrist finds a binocular vision problem during your eye examination, it could be improved with with the use of vision training. These problems are often found in children but can be present in adults. At Innovative Eye Care, both our Adelaide and Woodville practices are equipped to prescribe vision training for a variety of paediatric vision issues
+<p>If your optometrist finds a binocular vision problem during your eye examination, it could be improved with with the use of vision training. These problems are often found in children but can be present in adults. At Innovative Eye Care, both our Adelaide and Woodville practices are equipped to prescribe vision training for a variety of paediatric vision issues.
 
 <p>The human visual system is complex. Some visual conditions such as short-sightedness (myopia), long-sightedness (hyperopia) and astigmatism can be corrected via the use of spectacles or contact lenses. Other problems with a patient's vision can arise from poor binocular vision skills. These skills relate to how well a patient's two eyes are working together.
 
@@ -21,11 +21,11 @@ Symptoms commonly described by patients relating to dysfunction of these skills 
 * Words moving a page
 * Sensitivity to light
 
-The visual skills important include accommodation (eye focusing), vergence (eye alignment) and eye movement
+These important visual skills include accommodation (eye focusing), vergence (eye alignment) and eye movement
 
 #### Accommodation (Eye Focusing)
 
-Accommodation refers to the eyes ability to focus clearly on objects when looking at distance objects to near objects. It is controlled by the ciliary muscle inside of the eye which changes the shape of the lenses, changing where it focuses.
+Accommodation refers to the eyes ability to focus clearly when looking from distance objects to near objects and vice versa. It is controlled by the ciliary muscle inside of the eye which changes the shape of the lenses, changing where it focuses.
 
 Vision training specifically targeted for improving eye focusing aims to improve and develop good control of the ciliary muscle.
 
@@ -43,7 +43,7 @@ Vision training specifically targeted for improving eye movement aims to improve
 
 #### Evidence
 
-Vision training has been highly researched. Strong evidence exists regarding its effectiveness at treating binocular vision problems. Specific treatment of eye focusing and eye teaming problems result in reduced symptoms and improvement in visual function.<sup>1-4</sup> Other studies have shown that vision training can result in improvements in school performance such as reading comprehension, reading speed and fluency as well as attention.<sup>5-7</sup>
+Vision training has been highly researched. Strong evidence exists regarding its effectiveness at treating binocular vision problems. Specific treatment of eye focusing and eye teaming problems results in reduced symptoms and improvement in visual function.<sup>1-4</sup> Other studies have shown that vision training can result in improvements in school performance such as reading comprehension, reading speed and fluency as well as attention.<sup>5-7</sup>
 
 The success of vision training has been shown to be affected by participant effort. Improvements in a patient's binocular system are seen in patients who demonstrate commitment to their exercises.<sup>8</sup>
 
@@ -53,11 +53,11 @@ Importantly, vision training exercises also have cross-over benefits whereby exe
 
 Binocular vision problems are quite common in the general population. Studies have shown that poor eye alignment is found in around 13% of patients and poor eye focusing is found in around 21% of patients.<sup>9-10</sup> One study screened over 1,500 kids and revealed that around 53% of children had some degree of binocular vision problem.<sup>11</sup> These rates increase even further in children who have reading difficulties where higher proportions of binocular vision problems are seen.<sup>12</sup>
 
-Adults can also benefit from vision training, not just children. Due to the increased usage of computer screens in an occupational setting, people working in front of computer screens can experience ocular discomfort or blurred vision. These symptoms can be linked to problems with a patient's binocular vision which can be trained and improved through vision therapy (13).
+Adults can also benefit from vision training, not just children. Due to the increased usage of computer screens in an occupational setting, people working in front of computer screens can experience ocular discomfort or blurred vision. These symptoms can be linked to problems with a patient's binocular vision which can be trained and improved through vision therapy.<sup>13</sub>
 
 #### Length and Equipment
 
-The length and course of vision training can vary and is dependent on multiple factors including, but not limited to, the severity of the condition and the rate of improvement. Training usually ranges from several months to more extended periods of training. After the initial period of therapy, the optometry will re-evaluate the patients binocular vision system and assess for signs of improvement. Even after full recovery, exercises may still be needed occasionally to keep your eyes well trained and working effectively.
+The length and course of vision training can vary and is dependent on multiple factors including, but not limited to, the severity of the condition and the rate of improvement. Training usually ranges from several months to more extended periods of training. After the initial period of therapy, the optometry will re-evaluate the patient's binocular vision system and assess for signs of improvement. Even after full recovery, exercises may still be needed occasionally to keep your eyes well trained and working effectively.
 
 Forms of vision therapy require specialised equipment in order to train and develop a patient's eye focusing or eye alignment. Theses are available at both our Adelaide and Woodville practices
 
