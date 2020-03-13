@@ -75,7 +75,7 @@ Instructions for these vision training exercises can be found here:
 
 
 
-Book in to see one friendly optometrists here
+Book in to see one of our friendly optometrists here
 
 
 
