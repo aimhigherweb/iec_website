@@ -61,8 +61,6 @@ The length and course of vision training can vary and is dependent on multiple f
 
 Forms of vision therapy require specialised equipment in order to train and develop a patient's eye focusing or eye alignment. Theses are available at both our Adelaide and Woodville practices
 
-Book in to see one friendly optometrists here
-
 #### Instructions
 
 Instructions for these vision training exercises can be found here:
@@ -74,6 +72,12 @@ Instructions for these vision training exercises can be found here:
 * [VT with Saccade Pyramids](https://innovativeeyecare.com.au/patient-resources/vision-training-with-saccade-pyramids/) 
 * [VT with Saccade Pens](https://innovativeeyecare.com.au/patient-resources/vision-training-with-saccade-pens/) 
 * [VT with Binocular String](https://innovativeeyecare.com.au/patient-resources/vision-training-with-binocular-string/)
+
+
+
+Book in to see one friendly optometrists here
+
+
 
 ### References
 
