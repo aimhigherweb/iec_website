@@ -50,7 +50,7 @@ Even if a child passes a school vision screening test, they should receive a com
 
 Visit our [vision training](/what-we-do/vision-training) page for more information about the factors involved in clear and comfortable vision, and what Innovative Eye Care can do if there are problems with your child’s vision.
 
-### New Information
+## New Information
 
 Innovative Eye Care has optometrists at both our Adelaide and Woodville practices which are passionate about improving children’s vision and providing high quality paediatric eye care.
 
@@ -84,16 +84,16 @@ A comprehensive eye examination at Innovative Eye Care will assess not only visu
 * Eye alignment
 * Colour vision assessment
 * Ocular prescription
-* Eye health using advanced imaging technology
+* Eye health using [advanced imaging technology](https://www.innovativeeyecare.com.au/what-we-do/oct)
 
 Furthermore, we have tools available to detect and treat common visual problems such as:
 
 * Short-sightedness or myopia
-* Amblyopia
-* Binocular vision problems including eye focusing, turning and tracking
+* [Amblyopia](https://www.innovativeeyecare.com.au/what-we-do/amblyopia)
+* Binocular vision problems including eye focusing, turning and tracking and treat with [vision therapy](https://www.innovativeeyecare.com.au/what-we-do/vision-training)
 * Strabismus
 
-Book in to see one of our friendly optometrists here
+[Contact us](https://www.innovativeeyecare.com.au/contact) to see one of our friendly optometrists regarding vision therapy.
 
 #### References
 
@@ -105,7 +105,7 @@ Book in to see one of our friendly optometrists here
 
 4.Ip JM, Rose KA, Morgan IG, Burlutsky G, Mitchell P. Myopia and the urban environment: findings in a sample of 12-year-old Australian school children. Invest Ophthalmol Vis Sci. 2008 Sep;49(9):3858–63.
 
-[5.Lin Z, Vasudevan B, Jhanji V, Mao GY, Gao TY, Wang FH, et al. Near work, outdoor activity, and their association with refractive error. Optom Vis Sci Off Publ Am Acad Optom. 2014 Apr;91(4):376–82.]
+\[5.Lin Z, Vasudevan B, Jhanji V, Mao GY, Gao TY, Wang FH, et al. Near work, outdoor activity, and their association with refractive error. Optom Vis Sci Off Publ Am Acad Optom. 2014 Apr;91(4):376–82.]
 
 6.Saw SM, Hong RZ, Zhang MZ, Fu ZF, Ye M, Tan D, et al. Near-work activity and myopia in rural and urban schoolchildren in China. J Pediatr Ophthalmol Strabismus. 2001 Jun;38(3):149–55.]
 
