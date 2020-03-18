@@ -97,16 +97,16 @@ Furthermore, we have tools available to detect and treat common visual problems 
 
 #### References
 
-1.Atkinson J. The Developing Visual Brain. Oxford University Press UK; 2002.
+1. Atkinson J. The Developing Visual Brain. Oxford University Press UK; 2002.
 
-2.Schmidt P, Maguire M, Dobson V, Quinn G, Ciner E, Cyert L, et al. Comparison of preschool vision screening tests as administered by licensed eye care professionals in the Vision In Preschoolers Study. Ophthalmology. 2004 Apr;111(4):637–50.
+2. Schmidt P, Maguire M, Dobson V, Quinn G, Ciner E, Cyert L, et al. Comparison of preschool vision screening tests as administered by licensed eye care professionals in the Vision In Preschoolers Study. Ophthalmology. 2004 Apr;111(4):637–50.
 
-3.Vitale S, Sperduto RD, Ferris FL. Increased prevalence of myopia in the United States between 1971-1972 and 1999-2004. Arch Ophthalmol Chic Ill 1960. 2009 Dec;127(12):1632–9.
+3. Vitale S, Sperduto RD, Ferris FL. Increased prevalence of myopia in the United States between 1971-1972 and 1999-2004. Arch Ophthalmol Chic Ill 1960. 2009 Dec;127(12):1632–9.
 
-4.Ip JM, Rose KA, Morgan IG, Burlutsky G, Mitchell P. Myopia and the urban environment: findings in a sample of 12-year-old Australian school children. Invest Ophthalmol Vis Sci. 2008 Sep;49(9):3858–63.
+4. Ip JM, Rose KA, Morgan IG, Burlutsky G, Mitchell P. Myopia and the urban environment: findings in a sample of 12-year-old Australian school children. Invest Ophthalmol Vis Sci. 2008 Sep;49(9):3858–63.
 
-\[5.Lin Z, Vasudevan B, Jhanji V, Mao GY, Gao TY, Wang FH, et al. Near work, outdoor activity, and their association with refractive error. Optom Vis Sci Off Publ Am Acad Optom. 2014 Apr;91(4):376–82.]
+5. Lin Z, Vasudevan B, Jhanji V, Mao GY, Gao TY, Wang FH, et al. Near work, outdoor activity, and their association with refractive error. Optom Vis Sci Off Publ Am Acad Optom. 2014 Apr;91(4):376–82.
 
-6.Saw SM, Hong RZ, Zhang MZ, Fu ZF, Ye M, Tan D, et al. Near-work activity and myopia in rural and urban schoolchildren in China. J Pediatr Ophthalmol Strabismus. 2001 Jun;38(3):149–55.]
+6. Saw SM, Hong RZ, Zhang MZ, Fu ZF, Ye M, Tan D, et al. Near-work activity and myopia in rural and urban schoolchildren in China. J Pediatr Ophthalmol Strabismus. 2001 Jun;38(3):149–55.]
 
-7.National Academies of Sciences, Engineering, and Medicine, Health and Medicine Division, Board on Population Health and Public Health Practice, Committee on Public Health Approaches to Reduce Vision Impairment and Promote Eye Health. Making Eye Health a Population Health Imperative: Vision for Tomorrow \[Internet]. Welp A, Woodbury RB, McCoy MA, Teutsch SM, editors. Washington (DC): National Academies Press (US); 2016 \[cited 2019 Dec 19]. (The National Academies Collection: Reports funded by National Institutes of Health). Available from: http://www.ncbi.nlm.nih.gov/books/NBK385157/
+7. National Academies of Sciences, Engineering, and Medicine, Health and Medicine Division, Board on Population Health and Public Health Practice, Committee on Public Health Approaches to Reduce Vision Impairment and Promote Eye Health. Making Eye Health a Population Health Imperative: Vision for Tomorrow \[Internet]. Welp A, Woodbury RB, McCoy MA, Teutsch SM, editors. Washington (DC): National Academies Press (US); 2016 \[cited 2019 Dec 19]. (The National Academies Collection: Reports funded by National Institutes of Health).
