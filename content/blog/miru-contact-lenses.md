@@ -1,6 +1,8 @@
 ---
 title: Miru Contact Lenses
 date: 2020-03-23T02:51:59.187Z
+author: Pooja Bhindi
+preview_image: /uploads/sdfsdf.jpg
 ---
 See the world in a new way with Miru contact lenses. Developed with the latest Japanese technology, the name ‘Miru’, means to see. At Innovative Eye Care we are always on the look-out for the latest and greatest for our patients and have been blown away at the quality, convenience and comfort that Miru contact lenses have to offer.
 
