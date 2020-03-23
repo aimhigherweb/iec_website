@@ -23,3 +23,15 @@ The unique packaging of Miru 1day UpSide allows for hygienic lens handling, as t
 ![](/uploads/srgte.jpg)
 
 These lenses also have amazing health benefits. Miru 1day UpSide have class 2 UV filter for built-in protection for our eyes from harmful UV rays. These lenses are also made with breathable material, allowing up to 3x more oxygen than traditional materials.<sup>3, 4, 5</sup>
+
+**References** 
+
+1. Evaluation of Diminished Microbial Contamination in Handling of a Novel Daily Disposable Flat Pack Contact Lens, M Nomachi et al, Eye & Contact Lens, Vol 39, No 3, May 2013 
+
+2. Clinical evaluation of the Menicon 1day Flat Pack Lens: Izumi Namiki; Journal of Japan Contact Lens Society, 56 (1): 34-39,2014 
+
+3. Brennan NA, Morgan PB. Reader’s Forum: Another view of oxygen transmission. Cont Lens Spectrum. Published December 1, 2005. 
+
+4. Brennan N, Morgan P. Clinical highs and lows of Dk/t Pt 1.Optician 2009.  
+
+5. Optom Vis Sci. 2004 Dec;81(12):911-21.Short-term physiologic response in neophyte subjects fitted with hydrogel and silicone hydrogel contact lenses. Maldonado-Codina C, Morgan PB, Schnider CM, Efron N
