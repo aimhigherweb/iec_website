@@ -6,7 +6,8 @@ preview-image: dry-eye.jpg
 <div class="employee-heading">
 <p><p>Dry eye is a broad term that covers a spectrum of specific conditions and used to describe the eye's inability to maintain healthy lubrication and can be a debilitating condition. As a result of poor lubrication, the cornea and conjunctiva become inflamed and irritated. Symptoms include dry, stinging, burning eyes, inflammation, irritation and redness, excessive tearing and foreign body sensation. This can be extremely debilitating in the day-to-day lives of sufferers. Left untreated, there is a risk of permanent damage to the ocular surface and eyelids.
 
-The underlying causes of dry eyes are complex and numerous and need a thorough <a href="/what-we-do/eye-exam">examination</a> for your optometrist to determine the cause and most appropriate treatment. At our Adelaide and Woodville branches our therapeutic optometrists are equipped with the technology to appropriately diagnose and treat dry eye disease. </p>
+The underlying causes of dry eyes are complex and numerous and need a thorough <a href="/what-we-do/eye-exam">examination</a> for your optometrist to determine the cause and most appropriate treatment. At our Adelaide and Woodville branches our therapeutic optometrists are equipped with the technology to appropriately diagnose and treat dry eye disease. </p>
+
 <p><b>For more information on our dry eye clinic, please see the links below:</b></p>
 <h4>• <a href="/what-we-do/blepharitis">Blepharitis</a></h4>
 <h4>• <a href="/what-we-do/meibomian-gland-dysfunction">Meibomian Gland Dysfunction</a></h4>
@@ -16,21 +17,20 @@ preview-image: dry-eye.jpg
 <h4>• <a href="/what-we-do/eye-drops">Eye Drops</a></h4></p>
 </div>
 
-There are many causes of dry eye. These fall into several broad categories that come with particular treatments. There can be some overlap between the types of dry eye, making the condition challenging for both the practitioner and patient to manage. The tear film is made up of three layers: the mucin (mucous) layer, the watery aqueous layer and the oily lipid layer. 
+### What causes dry eye disease?
 
-Specialised cells (such as goblet cells) embedded throughout the surface of the eye create the mucin layer. The lacrimal gland under the bony aspect of the eyebrow secretes the watery aqueous layer. The meibomian glands in the upper and lower eyelids secrete oil to make up the lipid layer. 
+The tear film is made up of three elements:the mucin (mucous) layer, the  watery aqueous layer and the oily lipid layer
+. <sup>1</sup> Specialised cells (such as  **goblet cells**) embedded throughout the surface of the eye create the **mucin  component**. The **lacrimal gland** under the bony aspect of the eyebrow  secretes the watery **aqueous component**. The **meibomian glands** in the  upper and lower eyelids secrete oil to make up the **lipid component**.
 
-In most dry eye cases, the watery aqueous layer is produced at normal quantities but quickly evaporates. This is called evaporative dry eye.  There are three main causes: blepharitis, meibomian gland dysfunction and environmental factors. 
+In most dry eye cases, the watery aqueous component is produced at normal quantities but evaporates too  quickly. This is called **evaporative dry eye**. There are three main causes: **blepharitis, meibomian gland  dysfunction** and **environmental factors**. <sup>1</sup>
 
-Blepharitis is inflammation of the eyelid margins. This is a chronic condition that arises from overpopulation of bacteria and mites (Demodex) along the eyelid margin and within eyelash follicles.
+* **Blepharitis** is inflammation of the eyelid margins. This is a chronic condition that arises from overpopulation of bacteria or mites (Demodex) along the eyelid margin and within eyelash follicles. 
+* **Meibomian gland dysfunction (MGD)** is when the oil-producing meibomian glands stop working properly. This diminishes the lipid layer of the tear film, causing tears to evaporate too quickly.
+* **Environmental factors** such as air conditioning, extended screen time or wind can result in excessive tear evaporation, leading to dryness and irritation.
 
-Meibomian Gland Dysfunction (MGD) is when the oil-producing meibomian glands stop	 working properly. This diminishes the lipid layer of the tear film, causing aqueous tears to quickly evaporate.  
+Severe cases of dry eye are due to low production of aqueous tears, referred to as aqueous deficient dry eye. This is less common than evaporative dry eye, and may be due to autoimmune disease, dehydration, poor sleep, medication or prior eye surgery. <sup>1</sup>
 
-Environmental factors such as air conditioning, extended screen time or wind can result in excessive tear evaporation, leading to dryness and irritation.
-
-Severe cases of dry eye are due to low production of tears, referred to as aqueous deficient dry eye. This is far less common than evaporative dry eye, and is usually due to autoimmune disease, medication or eye surgery.
-
-<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\\\\\\\[if IE]><iframe frameborder="0" type="text/html" src="https://2689-2347.captiv8online.com/animations/embed/one/dry-eye-cause-symptoms?player_width=100%&player_height=100%&site_company_language=34&autostart=false" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\\\\\\\[endif]--><!--\\\\\\\[if !IE]> <--><object data="https://2689-2347.captiv8online.com/animations/embed/one/dry-eye-cause-symptoms?player_width=100%&player_height=100%&site_company_language=34&autostart=false" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://2689-2347.captiv8online.com/animations/embed/one/dry-eye-cause-symptoms?player_width=100%&player_height=100%&site_company_language=34&autostart=false">Dry Eye: Cause & Symptoms</a></object><!--> <!\\\\\\\[endif]--></div>
+<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\\\\\\\\\[if IE]><iframe frameborder="0" type="text/html" src="https://2689-2347.captiv8online.com/animations/embed/one/dry-eye-cause-symptoms?player_width=100%&player_height=100%&site_company_language=34&autostart=false" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\\\\\\\\\[endif]--><!--\\\\\\\\\[if !IE]> <--><object data="https://2689-2347.captiv8online.com/animations/embed/one/dry-eye-cause-symptoms?player_width=100%&player_height=100%&site_company_language=34&autostart=false" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://2689-2347.captiv8online.com/animations/embed/one/dry-eye-cause-symptoms?player_width=100%&player_height=100%&site_company_language=34&autostart=false">Dry Eye: Cause & Symptoms</a></object><!--> <!\\\\\\\\\[endif]--></div>
 
 <br>
 
@@ -147,8 +147,6 @@ Therapeutic contact lens options: Soft bandage lenses or Rigid [scleral contact 
 
 Contact lenses are able to protect the surface of dry eyes by acting like a bandage and keeping a constant layer of tears on the surface of the eye during wear.
 
-
-
 Step 4
 
 Steroid eye drops  
@@ -156,8 +154,6 @@ Steroid eye drops
 In severe dry eye disease, inflammation is the primary problem and strong prescription anti-inflammatory eye drops 
 
 Surgery
-
-
 
 Blink Training
 
@@ -179,26 +175,14 @@ Repeat for 1 minute
 
 Clayton JA. Dry Eye. N Engl J Med. 2018 Jun 7;378(23):2212-2223. doi: 10.1056/NEJMra1407936.
 
-
-
 O'Neil, Erin C. ; Henderson, Matthew ; Massaro-Giordano, Mina ; Bunya, Vatinee Y. Advances in dry eye disease treatment. Current Opinion in Ophthalmology, 2019, Vol.30(3), p.166(13)
-
-
 
 Hosseini, Kamran ; Lindstrom, Richard L ; Foulks, Gary ; Nichols, Kelly K. A randomized, double-masked, parallel-group, comparative study to evaluate the clinical efficacy and safety of 1% azithromycin-0.1% dexamethasone combination compared to 1% azithromycin alone, 0.1% dexamethasone alone, and vehicle in the treatment of subjects with blepharitis. Clinical ophthalmology (Auckland, N.Z.), 2016, Vol.10, pp.1495-503
 
-
-
 Albietz JM1, Schmid KL1. Randomised controlled trial of topical antibacterial Manuka (Leptospermum species) honey for evaporative dry eye due to meibomian gland dysfunction. Clin Exp Optom. 2017 Nov;100(6):603-615. doi: 10.1111/cxo.12524. Epub 2017 Jun 6.
-
-
 
 Craig JP, Chen YH, Turnbull PR. Prospective trial of intense pulsed light for the treatment of meibomian gland dysfunction. Invest Ophthalmol Vis Sci. 2015 Feb 12;56(3):1965-70. doi: 10.1167/iovs.14-15764.
 
-
-
 Borchman D. The optimum temperature for the heat therapy for meibomian gland dysfunction. Ocul Surf. 2019 Apr;17(2):360-364. doi: 10.1016/j.jtos.2019.02.005. Epub 2019 Feb 19.
-
-
 
 Blackie CA, Solomon JD, Greiner JV, Holmes M, Korb DR. Inner eyelid surface temperature as a function of warm compress methodology. Optom Vis Sci. 2008 Aug;85(8):675-83. doi: 10.1097/OPX.0b013e318181adef.
