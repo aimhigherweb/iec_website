@@ -18,8 +18,7 @@ Warm compresses are a bit like brushing your teeth, a little effort everyday wil
 
 Meibomian glands, found in your upper and lower eyelids, produce oil (lipids) that are essential to  eye health. But the eyes require adequate blinks to express oil from the meibomian glands. 
 
-The lipid  layer is the front line of defence for the eye and ocular surface and stabilizes the tear film, which is
- essential to clear vision and comfort. Blinking exercises will result in reduced eye discomfort and
+The lipid  layer is the front line of defence for the eye and ocular surface and stabilizes the tear film, which is  essential to clear vision and comfort. Blinking exercises will result in reduced eye discomfort and
  improved ocular surface health. Impress your optometrist by being diligent; do your exercises as
  prescribed and improvements should be evident at your next appointment.
 
@@ -27,12 +26,13 @@ The lipid  layer is the front line of defence for the eye and ocular surface and
 
 #### What else can I do?
 
-Think blink! In addition to prescribed blink exercises, consider doing blink  exercises whenever you are in a drying environment and any other times
- when your eyes are uncomfortable. Pay attention to blinking whenever you
+Think blink! In addition to prescribed blink exercises, consider doing blink  exercises whenever you are in a drying environment and any other times  when your eyes are uncomfortable. Pay attention to blinking whenever you
  are concentrating: working on a computer or smartphone and take a
  moment to do your blink exercises if you start to experience discomfort.
 
 #### Blink Exercise
 
-Open eyes. Count 1 , 2. Close eyes. Count 1, 2. Squeeze eyes. Count 1, 2. Open eyes. Count 1 , 2. Close eyes. Count 1, 2. Squeeze eyes. Count 1, 2.
-Repeat for 1 minute.
+* Open eyes. Count 1 , 2. 
+* Close eyes. Count 1, 2. 
+* Squeeze eyes. Count 1, 2. 
+* Repeat for 1 minute.
