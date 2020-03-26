@@ -95,6 +95,21 @@ For more severely irritated eyelids, an in-office exfoliation with the Blephex d
 
 #### Punctal Plugs 
 
+Tears should continually wash across the eye to keep it clean and comfortable and to drain away into a duct through the lower eyelid into the nose. It’s why your nose runs when you cry. When tear production is low, dissolvable or permanent (but removable if needed) plugs can be placed into the duct opening to improve dry eye symptoms and reduced reliance on lubricant drops. <sup>1</sup>​
+
+#### Anti Inflammatory eye drops: FML/ Minims Prednisolone/ Cyclosporine/ Cromofresh/ Lomide 
+
+Inflammation and dry eyes are related in a complex way. Anti-inflammatory drops are used short term to break the cycle between inflammation and dryness, or allow other therapies to work. In some cases, over-the-counter mast-cell stabilizers can counteract inflammation as a result of friction that a normal tear layer would prevent. <sup>7</sup> 
+
+#### Thick Lubricating Gels and Ointments at night: Genteal Gel/ VitaPos 
+
+Particularly useful for symptoms of dry eyes that are worse on waking in the morning, thick, long-lasting lubricants protect the eyes throughout the night. <sup>2</sup>
+
+#### Oral Medications 
+
+Low dose antibiotic tablets prescribed in conjunction with your GP can be effective in controlling the deeper inflammation within the meibomian glands and improve gland functioning. <sup>4</sup>
+
+### Step 3
 
 #### Treatments for dry eye
 
