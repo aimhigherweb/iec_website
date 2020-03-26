@@ -111,6 +111,26 @@ Low dose antibiotic tablets prescribed in conjunction with your GP can be effect
 
 ### Step 3
 
+#### Autologous/allogeneic serum eye drops 
+
+Eye drops made from the serum of a person's own blood, which has anti-inflammatory and repair functions, can soothe severely dry eyes and are prepared through the public hospital system. <sup>4</sup> 
+
+#### Therapeutic contact lens options: Soft Bandage or Scleral lenses 
+
+Contact lenses are able to protect the surface of dry eyes by acting like a bandage and keeping moisture on the surface of the eye during lens wear or protecting the surface of the eye from the rubbing action of the upper eyelid during blinks. <sup>4</sup>
+
+### Step 4 
+
+#### Long term steroid eye drops 
+
+In severe dry eye disease, inflammation becomes the primary problem and the long term use of prescription-only , preservative-free, anti-inflammatory eye drops is needed.
+
+#### Surgery 
+
+The final stage options include surgery to permanently block tear drainage, to smoothen or tighten eyelid shape or gland transplantation. <sup>2</sup>
+
+
+
 #### Treatments for dry eye
 
 <div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe frameborder="0" type="text/html" src="https://2689-2347.captiv8online.com/animations/embed/one/dry-eyes?player_width=100%&player_height=100%&site_company_language=34&autostart=false" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe></div>
