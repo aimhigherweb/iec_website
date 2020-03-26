@@ -29,7 +29,7 @@ In most dry eye cases, the watery aqueous component is produced at normal quanti
 
 Severe cases of dry eye are due to low production of aqueous tears, referred to as aqueous deficient dry eye.  This is less common than evaporative dry eye, and may be due to autoimmune disease, dehydration, poor sleep,  medication or prior eye surgery. <sup>1</sup>
 
-<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\\\\\\\\\\\[if IE]><iframe frameborder="0" type="text/html" src="https://2689-2347.captiv8online.com/animations/embed/one/dry-eye-cause-symptoms?player_width=100%&player_height=100%&site_company_language=34&autostart=false" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\\\\\\\\\\\[endif]--><!--\\\\\\\\\\\[if !IE]> <--><object data="https://2689-2347.captiv8online.com/animations/embed/one/dry-eye-cause-symptoms?player_width=100%&player_height=100%&site_company_language=34&autostart=false" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://2689-2347.captiv8online.com/animations/embed/one/dry-eye-cause-symptoms?player_width=100%&player_height=100%&site_company_language=34&autostart=false">Dry Eye: Cause & Symptoms</a></object><!--> <!\\\\\\\\\\\[endif]--></div>
+<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\\\\\\\\\\\\[if IE]><iframe frameborder="0" type="text/html" src="https://2689-2347.captiv8online.com/animations/embed/one/dry-eye-cause-symptoms?player_width=100%&player_height=100%&site_company_language=34&autostart=false" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\\\\\\\\\\\\[endif]--><!--\\\\\\\\\\\\[if !IE]> <--><object data="https://2689-2347.captiv8online.com/animations/embed/one/dry-eye-cause-symptoms?player_width=100%&player_height=100%&site_company_language=34&autostart=false" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://2689-2347.captiv8online.com/animations/embed/one/dry-eye-cause-symptoms?player_width=100%&player_height=100%&site_company_language=34&autostart=false">Dry Eye: Cause & Symptoms</a></object><!--> <!\\\\\\\\\\\\[endif]--></div>
 
 <br>
 
@@ -42,6 +42,32 @@ Severe cases of dry eye are due to low production of aqueous tears, referred to 
 **Adequate water intake and sleep**. Chronic dehydration or poor quality sleep most certainly causes dry eyes  and depending on the circumstances, may be relatively easy to address. <sup>1</sup>
 
 **Minimise environmental triggers.** Screen use is the biggest external factor on dry eyes. People stare more and blink less when concentrating, particularly when looking at screens so reducing unnecessary screen time, taking regular short breaks or even just being conscious of staring can reduce dry eye symptoms. Also, if appropriate, minimising drying medications, use of air conditioning or forced air heating, alcohol intake and ceasing smoking can be helpful​.<sup>1</sup> Commercially available air humidifier devices may also offer relief.
+
+#### Lubricants: Hylo Fresh/ Hylo Forte/ Thera Tears/ Tears Again Spray
+
+**Lubricating drops replenish the deficient tear film and are a fundamental component of dry eye disease  management.** There are many eye drops with varied ingredients and your optometrist will discuss the best option for you. **Preservative free** drops are essential to avoid further aggravation of the inflamed ocular surface. Often just switching to a preservative free lubricating drop can make a dramatic difference.
+
+#### Omega 3 Supplements
+
+**These are only beneficial for individuals that don’t get enough omega 3 in their diet** which typically means less than 2 serves of fish a week. In these cases ~1200mg/day of high quality fish oil can improve the quality of oil produced by the meibomian glands. <sup>4</sup>
+
+#### Warm Compresses 
+
+**A warm compress helps to clear blocked meibomian glands by liquefying the thickened oil inside.** The glands need to be heated to only 40-50 degrees but for a full 10 mins <sup>5</sup>​, followed by 1 minute of blink training. Performed regularly, this process helps to maintain regular function of the glands for an adequate protective lipid layer.
+
+#### Blink Training 
+
+**Proper blinking keeps your tears healthy by spreading tears and releasing oil from eyelid glands into the tears.** Blink training, described on the last page, both promotes more complete blinks and also maximises the effect of warm compresses.
+
+#### Optimel Manuka Honey 
+
+**Medical grade manuka honey is antibacterial, reduces swelling and promotes healing** and these qualities make it useful in treating meibomian gland disease. <sup>6</sup> It is easy to use but honey is mildly acidic which may cause temporary stinging on application - it doesn’t cause harm to the eyes on application.
+
+#### Glasses and Sunglasses 
+
+Sunglasses are crucial for the health of everyone's eyes but are particularly helpful
+protecting dry eyes from the harsh effects of wind. Clear glasses can be helpful for the
+same reason to protect from air conditioning even when no prescription is required.
 
 #### Treatments for dry eye
 
