@@ -37,35 +37,35 @@ Severe cases of dry eye are due to low production of aqueous tears, referred to 
 
 **Dry eye disease *can* be treated**. Lubricating eye drops are helpful but are ineffective on their own for the most cases. Dry eye disease is best treated with a **comprehensive**, **step wise**, **management system** <sup>2</sup> which involves restoring proper function to meibomian glands, maintaining good eyelid hygiene, protecting the eyes, *and* using lubricants.
 
-#### STEP 1 
+### Step 1 
 
-##### Lifestyle changes
+#### Lifestyle changes
 
 **Adequate water intake and sleep**. Chronic dehydration or poor quality sleep most certainly causes dry eyes  and depending on the circumstances, may be relatively easy to address. <sup>1</sup>
 
 **Minimise environmental triggers.** Screen use is the biggest external factor on dry eyes. People stare more and blink less when concentrating, particularly when looking at screens so reducing unnecessary screen time, taking regular short breaks or even just being conscious of staring can reduce dry eye symptoms. Also, if appropriate, minimising drying medications, use of air conditioning or forced air heating, alcohol intake and ceasing smoking can be helpful​.<sup>1</sup> Commercially available air humidifier devices may also offer relief.
 
-##### Lubricants: Hylo Fresh/ Hylo Forte/ Thera Tears/ Tears Again Spray
+#### Lubricants: Hylo Fresh/ Hylo Forte/ Thera Tears/ Tears Again Spray
 
 **Lubricating drops replenish the deficient tear film and are a fundamental component of dry eye disease  management.** There are many eye drops with varied ingredients and your optometrist will discuss the best option for you. **Preservative free** drops are essential to avoid further aggravation of the inflamed ocular surface. Often just switching to a preservative free lubricating drop can make a dramatic difference.
 
-##### Omega 3 Supplements
+#### Omega 3 Supplements
 
 **These are only beneficial for individuals that don’t get enough omega 3 in their diet** which typically means less than 2 serves of fish a week. In these cases ~1200mg/day of high quality fish oil can improve the quality of oil produced by the meibomian glands. <sup>4</sup>
 
-##### Warm Compresses 
+#### Warm Compresses 
 
 **A warm compress helps to clear blocked meibomian glands by liquefying the thickened oil inside.** The glands need to be heated to only 40-50 degrees but for a full 10 mins <sup>5</sup>​, followed by 1 minute of blink training. Performed regularly, this process helps to maintain regular function of the glands for an adequate protective lipid layer.
 
-##### Blink Training 
+#### Blink Training 
 
 **Proper blinking keeps your tears healthy by spreading tears and releasing oil from eyelid glands into the tears.** Blink training, described on the last page, both promotes more complete blinks and also maximises the effect of warm compresses.
 
-##### Optimel Manuka Honey 
+#### Optimel Manuka Honey 
 
 **Medical grade manuka honey is antibacterial, reduces swelling and promotes healing** and these qualities make it useful in treating meibomian gland disease. <sup>6</sup> It is easy to use but honey is mildly acidic which may cause temporary stinging on application - it doesn’t cause harm to the eyes on application.
 
-##### Glasses and Sunglasses 
+#### Glasses and Sunglasses 
 
 Sunglasses are crucial for the health of everyone's eyes but are particularly helpful
 protecting dry eyes from the harsh effects of wind. Clear glasses can be helpful for the
