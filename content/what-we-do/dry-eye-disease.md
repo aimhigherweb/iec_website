@@ -37,6 +37,10 @@ Severe cases of dry eye are due to low production of aqueous tears, referred to 
 
 **Dry eye disease *can* be treated**. Lubricating eye drops are helpful but are ineffective on their own for the most cases. Dry eye disease is best treated with a **comprehensive**, **step wise**, **management system** <sup>2</sup> which involves restoring proper function to meibomian glands, maintaining good eyelid hygiene, protecting the eyes, *and* using lubricants.
 
+<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe frameborder="0" type="text/html" src="https://2689-2347.captiv8online.com/animations/embed/one/dry-eyes?player_width=100%&player_height=100%&site_company_language=34&autostart=false" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe></div>
+
+<br>
+
 ### Step 1 
 
 #### Lifestyle changes
@@ -131,11 +135,6 @@ The final stage options include surgery to permanently block tear drainage, to s
 
 
 
-#### Treatments for dry eye
-
-<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe frameborder="0" type="text/html" src="https://2689-2347.captiv8online.com/animations/embed/one/dry-eyes?player_width=100%&player_height=100%&site_company_language=34&autostart=false" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe></div>
-
-<br>
 
 Fortunately, dry eye disease can be treated. With appropriate care, comfortable and well-lubricated eyes can be achieved, restoring quality of life. Lubricating eye drops alone are not an effective treatment for the majority of cases. Dry eye disease is best treated with a comprehensive, stepwise, management system which involves restoring proper function to meibomian glands, maintaining good eyelid hygiene, protecting the eyes, and using lubricants. 
 
