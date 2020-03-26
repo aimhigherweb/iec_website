@@ -71,6 +71,31 @@ Sunglasses are crucial for the health of everyone's eyes but are particularly he
 protecting dry eyes from the harsh effects of wind. Clear glasses can be helpful for the
 same reason to protect from air conditioning even when no prescription is required.
 
+### Step 2
+
+#### Eyelid Hygiene 
+
+**The eyelids are a difficult part of the body to adequately clean since soaps cause stinging if they get into the eyes.** But good eyelid hygiene is an important element of managing dry eye disease. <sup>1</sup> Antibacterial lid foams or washes cleanse the eyelids and lashes while conditioning the skin around the eyes without any stinging or
+irritation.
+
+#### Blephasteam 
+
+The blephasteam is an electronic eyelid warming device that guarantees **optimal heating
+temperature of the eyelids for the correct length of time.** Combined with in-office
+manual expression with your optometrist, it can be a useful addition or replacement to
+at-home lid warming and massage. <sup>2</sup>
+
+#### Blephex 
+
+For more severely irritated eyelids, an in-office exfoliation with the Blephex device, an electric brush, comprehensively cleans the eyelid skin of persistent built up debris and dry hardened skin. <sup>3</sup> 
+
+#### IPL 
+
+**Innovative Eye Care is the first practice in South Australia to offer Intense Pulsed Light (IPL) treatments for dry eye disease.** IPL technology generates an intense pulsed light directed at the lower eyelid, providing a deep warming effect to the oil glands and reducing inflammation. <sup>4</sup> Four treatments are required to best manage MGD over a 10 week period.
+
+#### Punctal Plugs 
+
+
 #### Treatments for dry eye
 
 <div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe frameborder="0" type="text/html" src="https://2689-2347.captiv8online.com/animations/embed/one/dry-eyes?player_width=100%&player_height=100%&site_company_language=34&autostart=false" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe></div>
