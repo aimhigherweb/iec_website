@@ -6,7 +6,7 @@ category: consultations
 
 <p>Colour vision deficiencies are the inability for an individual to distinguish various shades of colour. They can come in multiple types but red-green colour vision defects are the most common. Our optometrists at the Adelaide and Woodville branches of Innovative Eye Care use innovative equipment to detect various types of colour vision deficiencies.
 
-#### Physiology of Light
+#### **Physiology of Light**
 
 Visible light is the part of the electromagnetic spectrum that human eyes are able to detect. Other commonly known examples of rays on the electromagnetic spectrum are seen in the picture below and include X-rays, microwaves, radio waves and UV (ultraviolet) rays. This spectrum is made up of various wavelengths and each wavelength in the visible spectrum of light corresponds to a particular colour. For example, red light has a longer wavelength when compared to blue light.
 
@@ -18,7 +18,7 @@ Objects can either absorb or reflect specific wavelengths of light. The colour o
 
 ![](/uploads/apple-colour.png)
 
-#### Human Colour Vision
+#### **Human Colour Vision**
 
 The cells involved in detecting light within the eye are called photoreceptors. These cells are located at the back of the eye which is known as the retina. These cells are activated by light and then transmit electrical signals through the optic nerve to then be interpreted by the occipital lobe of the brain located at the back of the skull.
 
@@ -36,7 +36,7 @@ When used in combination, these three types of cones allow for humans to see all
 
 ![](/uploads/cones-spectrum.png)
 
-#### Colour Vision Deficiencies
+#### **Colour Vision Deficiencies**
 
 Colour vision deficiencies occur when one or more of the cone cells are absent, not working or detect a different colour than normal. There are three broad types of colour vision deficiencies:
 
@@ -68,7 +68,7 @@ For example, if someone has a missing red cone but normal green and blue cones, 
 
 ![](/uploads/protan-deutan-tritan.png)
 
-#### Frequency and Genetics
+#### **Frequency and Genetics**
 
 The most common forms of colour vision deficiencies are red-green defects. These defects are found in approximately 8% of males and 0.4% of females.<sup>3</sup>The gene responsible for red-green colour deficiencies is located on the X chromosome which is why males are more likely to be affected than women. Women are able to be carriers of the defective gene meaning they are able to pass the gene onto their offspring but are unaffected themselves.
 
@@ -76,7 +76,7 @@ The gene responsible for blue-yellow deficiencies is located on chromosome 7 mea
 
 ![](/uploads/x-linked-recessive.png)
 
-#### Testing
+#### **Testing**
 
 At Innovative Eye Care, we have a range of tool which are use to test an individual's colour vision.
 
@@ -98,7 +98,7 @@ This test requires the patient to look into a small electronic box and adjust a 
 
 ![](/uploads/medmont-c100.png)
 
-#### Management and Treatment
+#### **Management and Treatment**
 
 Currently, there is no cure for any types of colour blindness however most people find that they will have few limitations throughout life.
 
@@ -117,19 +117,19 @@ An important aspect of the management of colour vision deficiencies include occu
 
 Colour vision defects can also affect other professions including those centered around art, textiles and painting, horticulture, cartography, histopathology and pharmacy. Other counselling revolves around adaptations in daily living tasks such as cooking (determining if meat is cooked), clothing choices, driving (identification of traffic lights) and general wellbeing (identification of rashes and sunburns).
 
-Colour Blind Glasses - Do they work?
+***Colour Blind Glasses - Do they work?***
 
 You may have seen viral and emotional videos on the internet of people with colour vision deficiencies trying on colour blind glasses for the first time. The way these glasses work is by absorbing and filtering out wavelengths of light between green and red that normally lead to colour confusion in the brain’s of people with colour vision defects. This ultimately enhances the contrast between red and green colours however the results for most people can vary greatly. As stated above, there is no cure for colour vision abnormalities and in no way, do these spectacles modify a person’s cones, optic nerve or brain in order to fix a colour vision anomaly. It is important to understand that these glasses reduce the total amount of light entering the eye and therefore it is not recommended to wear these spectacles at night time. Furthermore, they can be quite costly and are usually not covered by private health insurance.
 
-Future Research
+***Future Research***
 
 There is current research looking into gene therapy for colour vision deficiencies. Researchers were able to restore colour vision in two adult monkeys which had red-green colour deficiencies however it is important to understand that more research is required in this field before human testing is even considered.<sup>9-10</sup>
 
-##### References
+##### **References**
 
 1.Remington LA, Remington LA. Clinical anatomy and physiology of the visual system. 3rd ed. St. Louis, Mo: Elsevier/Butterworth Heinemann; 2012. 292 p.
 
-2.OpenStax College. Anatomy and physiology [Internet]. Houston, Texas: Rice University; 2013 \[cited 2020 Apr 1]. Available from: https://openstaxcollege.org/files/textbook_version/hi_res_pdf/13/col11496-op.pdf
+2.OpenStax College. Anatomy and physiology \[Internet]. Houston, Texas: Rice University; 2013 \[cited 2020 Apr 1]. Available from: https://openstaxcollege.org/files/textbook_version/hi_res_pdf/13/col11496-op.pdf
 
 3.Gegenfurtner KR, Sharpe LT, editors. Color vision: from genes to perception. Cambridge ; New York: Cambridge University Press; 1999. 492 p.
 
@@ -139,7 +139,7 @@ There is current research looking into gene therapy for colour vision deficienci
 
 6.Dees EW, Baraas RC. Performance of normal females and carriers of color-vision deficiencies on standard color-vision tests. J Opt Soc Am A Opt Image Sci Vis. 2014 Apr 1;31(4):A401-409.
 
-7.Hasrod N, Rubin A. Defects of colour vision: A review of congenital and acquired colour vision deficiencies. Afr Vis Eye Health [Internet]. 2016 Mar 24 \[cited 2018 Mar 28];75(1). Available from: http://www.avehjournal.org/index.php/aveh/article/view/365
+7.Hasrod N, Rubin A. Defects of colour vision: A review of congenital and acquired colour vision deficiencies. Afr Vis Eye Health \[Internet]. 2016 Mar 24 \[cited 2018 Mar 28];75(1). Available from: http://www.avehjournal.org/index.php/aveh/article/view/365
 
 8.Simunovic MP. Acquired color vision deficiency. Surv Ophthalmol. 2016 Mar;61(2):132–55.
 
