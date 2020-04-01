@@ -20,9 +20,9 @@ As kids grow so do their eyes. Normally our eyes keep growing until the age of 1
 
 #### How prevalent is myopia?
 
-The prevalence of myopia is increasing drastically, with the World Health Organisation considering it an epidemic. Currently, 30% of the Australian population is myopic and it is estimated that by 2050 half of the worlds population will be myopic.<sup>4</sup>  Myopia tends to manifest in children, with the average age of onset being 8 years old<sup>5</sup>, however it has recently been discovered that 30% of myopic people develop myopia after the age of 17! 
+The prevalence of myopia is increasing drastically, with the World Health Organisation considering it an epidemic. Currently, 30% of the Australian population is myopic and it is estimated that by 2050 half of the worlds population will be myopic.<sup>4</sup>  Myopia tends to manifest in children, with the average age of onset being 8 years old<sup>5, 6</sup>, however it has recently been discovered that 30% of myopic people develop myopia after the age of 17! 
 
-
+There are two main risk factors for developing myopia; lifestyle and family history. If one or both parents are myopia, then the likelihood of a child developing myopia is increased. <sup>7</sup> 
 
 Some groups of people are more likely to be affected than others, with both genetic and environmental factors playing a role in the development and progression of myopia. Those that are higher educated, those that live in densely populated areas and those of Asian descent tend to be more adversely affected.<sup>4,5</sup> 
 
