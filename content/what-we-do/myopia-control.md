@@ -5,7 +5,7 @@ preview-image: myopia-control-1.jpg
 ---
 <div class="employee-heading">
 
-<p>Myopia, or shortsightedness, results in difficulty seeing distance objects clearly. This occurs because the focusing power of the eye is too strong or (more commonly) the length of the eye is too long. While blurry distance vision can be corrected with spectacles or contact lenses, the real issue is the structural changes at the back of the eye which increases the risk of irreversible eye disease.<sup>1,2</sup> The higher the level of myopia, the higher the risk. 
+<p>Myopia, or shortsightedness, is a common condition where the main symptom is blurred distance vision. This occurs because the focusing power of the eye is too strong or (more commonly) the length of the eye is too long. While blurry distance vision can be corrected with spectacles or contact lenses, the real issue is the structural changes at the back of the eye which increases the risk of irreversible eye disease. <sup>1,2</sup> The higher the level of myopia, the higher the risk. 
 
 <p>Our optometrists offer a wide range of treatment options to slow the progression of myopia. If you would like to find out more, <a href="/what-we-do/eye-exam">book an appointment</a> at our Adelaide or Woodville practices or speak to our friendly staff. 
 
@@ -14,12 +14,11 @@ preview-image: myopia-control-1.jpg
 
 #### How prevalent is myopia?
 
-The prevalence of myopia is increasing drastically, with the World Health Organisation considering it an epidemic. Currently, 30% of the Australian population is myopic and it is estimated that by 2050 half of the worlds population will be myopic.<sup>3</sup> 
-Some groups of people are more likely to be affected than others, with both genetic and environmental factors playing a role in the development and progression of myopia. Those that are higher educated, those that live in densely populated areas and those of Asian descent tend to be more adversely affected.<sup>4,5</sup> 
+The prevalence of myopia is increasing drastically, with the World Health Organisation considering it an epidemic. Currently, 30% of the Australian population is myopic and it is estimated that by 2050 half of the worlds population will be myopic.<sup>3</sup>  Some groups of people are more likely to be affected than others, with both genetic and environmental factors playing a role in the development and progression of myopia. Those that are higher educated, those that live in densely populated areas and those of Asian descent tend to be more adversely affected.<sup>4,5</sup> 
 
 ![](/uploads/pasted-image-0-1.png)
 
-<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\\\\\\\\\\[if IE]><iframe frameborder="0" type="text/html" src="https://2689-2347.captiv8online.com/animations/embed/one/o-t-t-d?player_width=100%&player_height=100%&site_company_language=34&autostart=false" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\\\\\\\\\\[endif]--><!--\\\\\\\\\\[if !IE]> <--><object data="https://2689-2347.captiv8online.com/animations/embed/one/o-t-t-d?player_width=100%&player_height=100%&site_company_language=34&autostart=false" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"> alt : <a href="https://2689-2347.captiv8online.com/animations/embed/one/o-t-t-d?player_width=100%&player_height=100%&site_company_language=34&autostart=false">Myopia</a></object><!--> <!\\\\\\\\\\[endif]--></div>
+<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\\\\\\\\\\\[if IE]><iframe frameborder="0" type="text/html" src="https://2689-2347.captiv8online.com/animations/embed/one/o-t-t-d?player_width=100%&player_height=100%&site_company_language=34&autostart=false" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\\\\\\\\\\\[endif]--><!--\\\\\\\\\\\[if !IE]> <--><object data="https://2689-2347.captiv8online.com/animations/embed/one/o-t-t-d?player_width=100%&player_height=100%&site_company_language=34&autostart=false" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"> alt : <a href="https://2689-2347.captiv8online.com/animations/embed/one/o-t-t-d?player_width=100%&player_height=100%&site_company_language=34&autostart=false">Myopia</a></object><!--> <!\\\\\\\\\\\[endif]--></div>
 <br>
 
 #### How does myopia affect the eye?
@@ -33,8 +32,7 @@ Historically, low myopia was considered a normal variation of the eye. Now there
 * **Low myopia** between -0.50 and -6.00 D <sup>6</sup>
 * **High myopia** beyond -6.00 D<sup>6</sup>
 
-The main difference between low and high myopia is the association with eye growth, or axial length. The best way to assess the risk of eye disease from myopia is to measure axial length and monitor the change over time. 
-Once the axial length exceeds 26.5mm, the risk of eye disease such as glaucoma and retinal detachment is significantly increased.<sup>2</sup> This is why slowing down the progression of myopia is so important. 
+The main difference between low and high myopia is the association with eye growth, or axial length. The best way to assess the risk of eye disease from myopia is to measure axial length and monitor the change over time.  Once the axial length exceeds 26.5mm, the risk of eye disease such as glaucoma and retinal detachment is significantly increased.<sup>2</sup> This is why slowing down the progression of myopia is so important. 
 
 #### How bad are the risks, even just for low myopia?
 
@@ -53,8 +51,7 @@ If Alex had access to myopia control treatments when he was a teenager, it is un
 
 #### How can myopia be controlled?
 
-Standard spectacle or contact lenses will make the distance vision clear but will do nothing to stop the lengthening of the eye or decrease the risk of permanent eye disease. While myopia cannot be cured or reversed, we can slow down and even stop its progression, making early detection and intervention critical. 
-Current evidence shows that [orthokeratology](/what-we-do/orthokeratology-corneal-reshaping), atropine eye drops and multifocal contact lenses are the most effective tools to control myopia. 
+Standard spectacle or contact lenses will make the distance vision clear but will do nothing to stop the lengthening of the eye or decrease the risk of permanent eye disease. While myopia cannot be cured or reversed, we can slow down and even stop its progression, making early detection and intervention critical.  Current evidence shows that [orthokeratology](/what-we-do/orthokeratology-corneal-reshaping), atropine eye drops and multifocal contact lenses are the most effective tools to control myopia. 
 
 To find out more, make an [appointment](https://innovativeeyecare.com.au/contact) with one of our optometrists. 
 
