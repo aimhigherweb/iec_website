@@ -16,7 +16,7 @@ preview-image: myopia-control-1.jpg
 
 In myopic eyes, light is focused in front of the retina rather than on it, causing blurry distance vision. This usually occurs because the eye is physically too long. Myopia is a progressive condition, meaning over time the eye continues to grow longer, increasing the level of myopia. As the eye grows, the tissues at the back of the eye become stretched. People with high levels of myopia are at an increased risk of irreversible eye disease (e.g. retinal detachments and glaucoma).<sup>1,2</sup> Myopia can develop at any age but the younger the onset the higher the risk of progression to high myopia. 
 
-As kids grow so do their eyes. Normally our eyes keep growing until the age of 14, after which it stabilizes. However, in myopic eyes this normal growth pattern is interrupted and the eye continues to grow exponentially resulting in progressive myopia. 
+As kids grow so do their eyes. Normally our eyes keep growing until the age of 14, after which it stabilizes.<sup>3</sup> However, in myopic eyes this normal growth pattern is interrupted and the eye continues to grow exponentially resulting in progressive myopia.<sup>3</sup>
 
 #### How prevalent is myopia?
 
