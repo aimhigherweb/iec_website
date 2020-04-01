@@ -12,18 +12,22 @@ preview-image: myopia-control-1.jpg
 <p><h4><a href="https://mykidsvision.org/" target="_blank">Assess My Child's Myopia Risk Here</a></h4></p>
 </div>
 
+#### How does myopia affect the eye?
+
+In myopic eyes, light is focused in front of the retina rather than on it, causing blurry distance vision. This usually occurs because the eye is physically too long. Myopia is a progressive condition, meaning over time the eye continues to grow longer, increasing the level of myopia. As the eye grows, the tissues at the back of the eye become stretched. People with high levels of myopia are at an increased risk of irreversible eye disease (e.g. retinal detachments and glaucoma).<sup>1,2</sup> Myopia can develop at any age but the younger the onset the higher the risk of progression to high myopia. 
+
+As kids grow so do their eyes. Normally our eyes keep growing until the age of 14, after which it stabilizes. However, in myopic eyes this normal growth pattern is interrupted and the eye continues to grow exponentially resulting in progressive myopia. 
+
 #### How prevalent is myopia?
 
 The prevalence of myopia is increasing drastically, with the World Health Organisation considering it an epidemic. Currently, 30% of the Australian population is myopic and it is estimated that by 2050 half of the worlds population will be myopic.<sup>3</sup>  Some groups of people are more likely to be affected than others, with both genetic and environmental factors playing a role in the development and progression of myopia. Those that are higher educated, those that live in densely populated areas and those of Asian descent tend to be more adversely affected.<sup>4,5</sup> 
 
 ![](/uploads/pasted-image-0-1.png)
 
-<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\\\\\\\\\\\[if IE]><iframe frameborder="0" type="text/html" src="https://2689-2347.captiv8online.com/animations/embed/one/o-t-t-d?player_width=100%&player_height=100%&site_company_language=34&autostart=false" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\\\\\\\\\\\[endif]--><!--\\\\\\\\\\\[if !IE]> <--><object data="https://2689-2347.captiv8online.com/animations/embed/one/o-t-t-d?player_width=100%&player_height=100%&site_company_language=34&autostart=false" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"> alt : <a href="https://2689-2347.captiv8online.com/animations/embed/one/o-t-t-d?player_width=100%&player_height=100%&site_company_language=34&autostart=false">Myopia</a></object><!--> <!\\\\\\\\\\\[endif]--></div>
+<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\\\\\\\\\\\\[if IE]><iframe frameborder="0" type="text/html" src="https://2689-2347.captiv8online.com/animations/embed/one/o-t-t-d?player_width=100%&player_height=100%&site_company_language=34&autostart=false" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\\\\\\\\\\\\[endif]--><!--\\\\\\\\\\\\[if !IE]> <--><object data="https://2689-2347.captiv8online.com/animations/embed/one/o-t-t-d?player_width=100%&player_height=100%&site_company_language=34&autostart=false" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"> alt : <a href="https://2689-2347.captiv8online.com/animations/embed/one/o-t-t-d?player_width=100%&player_height=100%&site_company_language=34&autostart=false">Myopia</a></object><!--> <!\\\\\\\\\\\\[endif]--></div>
 <br>
 
-#### How does myopia affect the eye?
 
-In myopic eyes, light is focused in front of the retina rather than on it, causing blurry distance vision. This usually occurs because the eye is physically too long. Myopia is a progressive condition, meaning over time the eye continues to grow longer, increasing the level of myopia over time. As the eye grows, the tissues at the back of the eye become stretched. People with high levels of myopia are at an increased risk of irreversible eye disease (e.g. retinal detachments and glaucoma).<sup>1,2</sup> Myopia can develop at any age but the younger the onset the higher the risk of progression to high myopia. 
 
 #### What are the associated risks of myopia?
 
