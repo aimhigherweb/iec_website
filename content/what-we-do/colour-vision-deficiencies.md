@@ -125,7 +125,7 @@ You may have seen viral and emotional videos on the internet of people with colo
 
 There is current research looking into gene therapy for colour vision deficiencies. Researchers were able to restore colour vision in two adult monkeys which had red-green colour deficiencies however it is important to understand that more research is required in this field before human testing is even considered.<sup>9-10</sup>
 
-#### **References**
+### **References**
 
 1.Remington LA, Remington LA. Clinical anatomy and physiology of the visual system. 3rd ed. St. Louis, Mo: Elsevier/Butterworth Heinemann; 2012. 292 p.
 
