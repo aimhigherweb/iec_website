@@ -1,7 +1,7 @@
 ---
 title: Jasmine Hall
 jobtitle: Administrative Officer & Imaging Technician
-photo: /uploads/A74I9469 E1.jpg
+photo: /uploads/jasmine.jpg
 skill1: Technical Skill
 skill2: Friendliness
 skill3: Persistence
