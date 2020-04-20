@@ -1,7 +1,7 @@
 ---
 title: Sally Spencer
 jobtitle: Administration Officer Woodville
-photo: /uploads/sally-1.jpg
+photo: /uploads/sally.jpg
 skill1: DILIGENCE
 rating1: 100
 skill2: EMPATHY
