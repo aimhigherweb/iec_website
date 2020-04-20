@@ -1,7 +1,7 @@
 ---
 title: Harold Gent
 jobtitle: Operations and Technical Support Manager
-photo: /uploads/Harold Gent.JPG
+photo: /uploads/harold.jpg
 skill1: Resourceful
 rating1: 95
 skill2: Proactive
