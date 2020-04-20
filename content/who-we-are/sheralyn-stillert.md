@@ -1,15 +1,15 @@
 ---
 title: Sheralyn Stillert
-date: 2018-11-07
-jobtitle: Customer Service
-photo: /uploads/sheralyn-1.jpg
 skill1: EASYGOING
-rating1: 100
 skill2: WARM
-rating2: 100
 skill3: FUN
-rating3: 95
 skill4: PRACTICAL JOKER
+date: 2018-11-07T00:00:00.000Z
+jobtitle: Customer Service
+photo: /uploads/sheralyn.jpg
+rating1: 100
+rating2: 100
+rating3: 95
 rating4: 90
 ---
 
