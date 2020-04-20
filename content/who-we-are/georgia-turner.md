@@ -1,15 +1,15 @@
 ---
 title: Georgia Hoy
-date: 2018-11-08
-jobtitle: Operations Manager
-photo: /uploads/georgia-1.jpg
 skill1: SPREAD SHEET LOVER
-rating1: 100
 skill2: HARD WORKING
-rating2: 100
 skill3: COMPASSIONATE
-rating3: 90
 skill4: DILIGENT
+date: 2018-11-08T00:00:00.000Z
+jobtitle: Operations Manager
+photo: /uploads/georgia.jpg
+rating1: 100
+rating2: 100
+rating3: 90
 rating4: 95
 ---
 
