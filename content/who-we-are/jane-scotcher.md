@@ -1,7 +1,7 @@
 ---
 title: Jane Scotcher
 jobtitle: Practice Manager
-photo: /uploads/jane-1.jpg
+photo: /uploads/jane.jpg
 skill1: DISPENSING
 rating1: 100
 skill2: INDUSTRY KNOWLEDGE
