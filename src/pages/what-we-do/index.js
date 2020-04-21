@@ -421,7 +421,7 @@ export const query = graphql`
       }
     }
     refractiveConditions: allMarkdownRemark(
-      filter: { frontmatter: { category: { eq: "refractiveConditions" } } }
+      filter: { frontmatter: { category: { eq: "refractive-conditions" } } }
     ) {
       edges {
         node {
