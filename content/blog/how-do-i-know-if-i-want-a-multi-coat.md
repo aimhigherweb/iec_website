@@ -1,5 +1,5 @@
 ---
-title: How do I know if I want a multi coat?
+title: How do I know if I want a multicoat?
 date: 2020-04-30T05:02:10.965Z
 author: 'Karl Evans '
 author_url: /who-we-are/karl-evans
