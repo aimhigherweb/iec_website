@@ -13,7 +13,7 @@ Driving is a task that most people perform everyday. This involves judging dista
 * Around **90%** of the decisions we make while driving are based on **visual information.**<sup>1</sup>
 * **Poor eyesight** is the **main risk factor** for road crashes.<sup>1</sup>
 * 20% of drivers can't see the road clearly due to uncorrected poor vision and have a 30% higher crash involvement rate.<sup>2</sup>
-* Importantly, **80%**of all vision impairments can be **prevented or cured.**<sup>3</sup>
+* Importantly, **80%** of all vision impairments can be **prevented or cured.**<sup>3</sup>
 * By age 50, risk of road accidents increase due to:
 
   * **Increased light sensitivity** to glare created by headlights.
