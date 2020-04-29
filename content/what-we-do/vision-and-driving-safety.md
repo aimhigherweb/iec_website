@@ -62,7 +62,7 @@ In order to stay safe on the road and maintain good vision, we recommend the fol
 * Wear any recommended spectacles, contact lenses or vision aids when driving.
 * Protect your eyes from glare on sunny days with sunglasses (preferably polarised sunglasses).
 
-  * ​Polarised lenses have been shown to improve driver reaction times during the day by eliminating reflected glare. (4)
+  * ​Polarised lenses have been shown to improve driver reaction times during the day by eliminating reflected glare.<sup>4</sup>
 
 [Contact us](https://www.innovativeeyecare.com.au/contact) to see one of our friendly optometrists regarding vision and driving safety.
 
