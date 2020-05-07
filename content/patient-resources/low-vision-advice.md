@@ -34,3 +34,7 @@ to contrast with the food. For example, mashed potatoes or white rice will be ea
     <td><p>* Well organise drawers / shelves / first aid kits to avoid frustrating searches</p><p>* Sunglasses allow greater comfort in the presence of light and glare</p><p>* Avoid upholstery and carpets with patterns, because these can create visual confusion - instead, choose textured furniture, offering tactile cues for identification</p><p>* Affix the rugs on the floor with tape and remove electrical cords to reduce the risk of falls and injuries</p></td>
   </tr>
 </table>
+
+###### References
+
+Hernández‐Moreno, L,Senra, H,Lewis, P,Moreno, N,Linhares, J,Santana, R,Ramos, PL,Marques, AP, &Macedo, AF.Cost‐effectiveness of basic vision rehabilitation (The basic VRS‐effect study): study protocol for a randomised controlled trial.*Ophthalmic Physiol Opt*2020;40:350–364.[htt​ps://doi.org/10.1111/opo.12665](https://doi.org/10.1111/opo.12665)
