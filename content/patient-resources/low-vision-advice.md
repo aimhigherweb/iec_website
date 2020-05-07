@@ -6,6 +6,15 @@ Low vision doesn't have to be debilitating. Our optometrists keep updated on the
 
 ##### Improving activities in daily life
 
+ <style>
+      table,
+      th,
+      td {
+        padding: 10px;
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+    </style>
 <table style="width:100%">
   <tr>
     <th>Aspect</th>
