@@ -5,11 +5,11 @@ author: Dylan Bentley
 author_url: /who-we-are/dylan-bentley
 preview_image: /uploads/photo-1563986768609-322da13575f3.jpeg
 ---
-<div><p>Visual hygiene is a phrase that is often used in optometry, but it's a concept that can be confusing. It essentially involves allowing the visual system to operate in the most comfortable conditions possible. From [children learning to read](https://www.innovativeeyecare.com.au/what-we-do/childrens-vision) for the first time, to [mum and dad working from home](https://www.innovativeeyecare.com.au/what-we-do/presbyopia), to [grandma and grandpa](https://www.innovativeeyecare.com.au/what-we-do/presbyopia) sitting down and reading the newspaper in the morning – nearly everybody can benefit by improving their visual hygiene.
+<div><p>Visual hygiene is a phrase that is often used in optometry, but it's a concept that can be confusing. It essentially involves allowing the visual system to operate in the most comfortable conditions possible. From <a href="https://www.innovativeeyecare.com.au/what-we-do/childrens-vision">children learning to read</a> for the first time, to  <a href="https://www.innovativeeyecare.com.au/what-we-do/presbyopia">mum and dad working from home</a>, to <a href="https://www.innovativeeyecare.com.au/what-we-do/presbyopia">grandma and grandpa</a> sitting down and reading the newspaper in the morning – nearly everybody can benefit by improving their visual hygiene.
 
 Recently, computer vision syndrome has emerged as a term that describes a group of eye and vision related problems resulting from poor visual hygiene when using a computer. It affects <b>50-90% of computer users</b>, with common symptoms including eye strain, blurred vision, double vision, headaches and dry eyes.<sup>1</sup>
 
-We've put some information together on how to improve your visual hygiene, so computer vision syndrome doesn't affect your day-to-day life. If you are suffering from any of these symptoms or would like to talk to one of our optometrists about visual hygiene, do not hesitate to [book an appointment](https://www.innovativeeyecare.com.au/contact) at either our Adelaide or Woodville practices.</p></div>
+We've put some information together on how to improve your visual hygiene, so computer vision syndrome doesn't affect your day-to-day life. If you are suffering from any of these symptoms or would like to talk to one of our optometrists about visual hygiene, do not hesitate to <a href="https://www.innovativeeyecare.com.au/contact/">book an appointment</a>at either our Adelaide or Woodville practices.</p></div>
 
 ###### Working distance
 
@@ -50,9 +50,6 @@ Importantly, use any [glasses](https://www.innovativeeyecare.com.au/what-we-do/g
 ###### References
 
 1. Rosenfield M. Computer vision syndrome: a review of ocular causes and potential treatments. Ophthalmic Physiol Opt. 2011 Sep 1;31(5):502–15.
-
 2. Anshel JR. Visual ergonomics in the workplace. AAOHN J Off J Am Assoc Occup Health Nurses. 2007 Oct;55(10):414–20; quiz 421–2.
-
-4. Jones L, Downie LE, Korb D, Benitez-del-Castillo JM, Dana R, Deng SX, et al. TFOS DEWS II Management and Therapy Report. Ocul Surf. 2017 Jul;15(3):575–628.
-
-5. Australian Government. Get up and grow: caring for our kids : staff handbook. Department of Health and Ageing; 2012.
+3. Jones L, Downie LE, Korb D, Benitez-del-Castillo JM, Dana R, Deng SX, et al. TFOS DEWS II Management and Therapy Report. Ocul Surf. 2017 Jul;15(3):575–628.
+4. Australian Government. Get up and grow: caring for our kids : staff handbook. Department of Health and Ageing; 2012.
