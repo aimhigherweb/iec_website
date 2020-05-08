@@ -294,7 +294,7 @@ export const query = graphql`
     l3: allMarkdownRemark(
       filter: {
         fileAbsolutePath: { regex: "/(patient-resources)/.*\\\\.md$/" }
-        frontmatter: { category: { eq: "everyday-eye-care" } }
+        frontmatter: { category: { eq: "Everyday Eye Care" } }
       }
     ) {
       edges {

@@ -1,6 +1,6 @@
 ---
 title: 'Warm Compresses and Blink Exercises '
-category: everyday-eye-care
+category: Everyday Eye Care
 ---
 <div class="employee-heading"> 
 

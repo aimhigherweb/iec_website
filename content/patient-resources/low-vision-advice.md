@@ -1,6 +1,6 @@
 ---
 title: Low Vision Advice
-category: everyday-eye-care
+category: Everyday Eye Care
 ---
 Low vision doesn't have to be debilitating. Our optometrists keep updated on the latest research to find out how you can adapt your environment to make sure low vision doesn't interfere with your day-to-day life.
 
