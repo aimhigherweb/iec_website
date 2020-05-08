@@ -5,26 +5,16 @@ module.exports = {
     author: `@sreng-s`
   },
   plugins: [
-    'gatsby-plugin-eslint',
-    `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        // The property ID; the tracking code won't be generated without it
         trackingId: 'UA-129433065-1',
-        // Defines where to place the tracking script - `true` in the head and `false` in the body
-        head: false,
-        anonymize: false,
-        respectDNT: true,
-        // Delays sending pageview hits on route update (in milliseconds)
-        pageTransitionDelay: 10,
-        // Defers execution of google analytics script after page load
-        defer: false,
-        // Any additional optional fields
-        sampleRate: 5,
-        siteSpeedSampleRate: 10
+        head: true,
+        anonymize: false
       }
     },
+    'gatsby-plugin-eslint',
+    `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-plugin-nprogress`
     },
