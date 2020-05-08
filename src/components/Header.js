@@ -56,18 +56,6 @@ class Header extends Component {
           />
           <link rel="stylesheet" href="/css/video-js.min.css" />
           <script async type="text/javascript" src="/js/video.min.js" />
-          <link
-            rel="preconnect"
-            href="https://www.googletagmanager.com/gtag/js?id=UA-129433065-1"
-          />
-          <script defer>
-            {`
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-              gtag('config', 'UA-129433065-1');
-            `}
-          </script >
         </Helmet>
         <div id="wrapper">
           <header id="header">
