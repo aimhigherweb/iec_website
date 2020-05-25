@@ -7,3 +7,5 @@
 // You can delete this file if you're not using it
 
 import './src/assets/scss/main.scss'
+import { PageWrapper } from './src/state'
+export const wrapRootElement = PageWrapper

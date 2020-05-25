@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import Search from '../components/Search'
 
 export default function() {
   return (
@@ -38,9 +37,6 @@ export default function() {
                   <a href="tel:0884459050">(08) 8445 9050</a>
                 </span>
               </address>
-            </div>
-            <div className="footer__col">
-              <Search />
             </div>
           </div>
         </div>

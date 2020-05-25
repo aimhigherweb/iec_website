@@ -6,7 +6,6 @@
     "react/display-name": 0
   },
   "extends": ["eslint:recommended", "plugin:react/recommended"],
-  "version": "detect",
   "env": {
     "browser": true
   }

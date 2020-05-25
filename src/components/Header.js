@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import { Helmet } from 'react-helmet'
 import { Link } from 'gatsby'
+import SearchBox from './SearchBox'
+import SearchResults from './SearchResults'
 
 class Header extends Component {
   componentDidMount() {
@@ -57,6 +59,7 @@ class Header extends Component {
           <link rel="stylesheet" href="/css/video-js.min.css" />
           <script async type="text/javascript" src="/js/video.min.js" />
         </Helmet>
+        <SearchResults />
         <div id="wrapper">
           <header id="header">
             <ul className="socials-list">
@@ -99,6 +102,8 @@ class Header extends Component {
             >
               <i className="icon-wifi" /> book online
             </Link>
+
+            <SearchBox />
           </header>
         </div>
       </>
