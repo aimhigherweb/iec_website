@@ -1,5 +1,5 @@
 ---
-title: Looking after your eyes while working from home
+title: Computer vision syndrome and working from home
 date: 2020-05-07T04:48:18.112Z
 author: Dylan Bentley
 author_url: /who-we-are/dylan-bentley
