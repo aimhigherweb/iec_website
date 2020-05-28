@@ -4,7 +4,7 @@ category: Contact Lens Instructions
 preview_image: /uploads/care-of-scleral-lenses.jpg
 ---
 <div class="employee-heading">
-<p>\[Scleral contact lenses](/what-we-do/scleral-lenses) are a type of RGP (Rigid Gas Permeable) lens used for conditions such as \[keratoconus and pellucid marginal cornea degeneration](/what-we-do/keratoconus). However, incorrect care of scleral contact lenses and solutions can increase the risk of eye infections and corneal ulcers. Risk factors for acquiring an eye infection include improper lens cleaning and disinfection, poor hygiene practices and smoking. Following your practitioner's hygiene regime, along with regular reviews, will minimise this risk.</p> 
+<p>\\[Scleral contact lenses](/what-we-do/scleral-lenses) are a type of RGP (Rigid Gas Permeable) lens used for conditions such as \\[keratoconus and pellucid marginal cornea degeneration](/what-we-do/keratoconus). However, incorrect care of scleral contact lenses and solutions can increase the risk of eye infections and corneal ulcers. Risk factors for acquiring an eye infection include improper lens cleaning and disinfection, poor hygiene practices and smoking. Following your practitioner's hygiene regime, along with regular reviews, will minimise this risk.</p> 
 <p>Always thoroughly wash your hands with an antibacterial-based hand wash and dry them with a clean lint-free towel before handling, removing or inserting your lenses. Make sure to clean all parts of your hands, including between the fingers and dry thoroughly.</p>
 </div>
 
@@ -22,21 +22,17 @@ Always wash and rinse your hands thoroughly and dry them with a lint-free towel/
 
 #### Insertion
 
-<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\\[if IE]><iframe frameborder="0" type="text/html" src="https://www.youtube.com/embed/JTejt66WBng" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\\[endif]--><!--\\[if !IE]> <--><object data="https://www.youtube.com/embed/JTejt66WBng" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://www.youtube.com/embed/JTejt66WBng">Scleral Lens Insertion & Removal By EyeSpace Lenses</a></object><!--> <!\\[endif]--></div>
+<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\\\[if IE]><iframe frameborder="0" type="text/html" src="https://www.youtube.com/embed/RzwCHsv_eqA" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\\\[endif]--><!--\\\[if !IE]> <--><object data="https://www.youtube.com/embed/RzwCHsv_eqA" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://www.youtube.com/embed/RzwCHsv_eqA">Scleral Lens Insertion & Removal By EyeSpace Lenses</a></object><!--> <!\\\[endif]--></div>
 
 <br>
 
-<b><i>Step 1</i></b>
-Remove lenses from the <b>cleaning solution case</b> and rinse with saline. If using hydrogen peroxide solution a minimum soaking time of 6 hours is required for the acid to neutralise to saline.
+<b><i>Step 1</i></b> Remove lenses from the <b>cleaning solution case</b> and rinse with saline. If using hydrogen peroxide solution a minimum soaking time of 6 hours is required for the acid to neutralise to saline.
 
-<b><i>Step 2</i></b>
-Fill the bowl of the lens with a <b>lubricating eye drop</b> or <b>saline solution</b>. If using the tripod method, place the lens on the middle finger, index finger and thumb. If using a suction tool, place the lens on the tip of the scleral suction tool. Ensure you are facing down horizontally, looking into a flat mirror. Reach around with your dominant hand to lift up the top lid, and use your non-dominant middle finger to hold the lower lid open. Using the mirror, place the lens on the eye. The suction tool must be squeezed to release the lens. To save confusion, it's a good idea to always insert the right lens first.
+<b><i>Step 2</i></b> Fill the bowl of the lens with a <b>lubricating eye drop</b> or <b>saline solution</b>. If using the tripod method, place the lens on the middle finger, index finger and thumb. If using a suction tool, place the lens on the tip of the scleral suction tool. Ensure you are facing down horizontally, looking into a flat mirror. Reach around with your dominant hand to lift up the top lid, and use your non-dominant middle finger to hold the lower lid open. Using the mirror, place the lens on the eye. The suction tool must be squeezed to release the lens. To save confusion, it's a good idea to always insert the right lens first.
 
-<b><i>Step 3</i></b>
-If you happen to drop your lens, use <b>saline solution</b> to rinse. Place the lens in the palm of your hand and rinse thoroughly for 5 seconds.
+<b><i>Step 3</i></b> If you happen to drop your lens, use <b>saline solution</b> to rinse. Place the lens in the palm of your hand and rinse thoroughly for 5 seconds.
 
-<b><i>Step 4</i></b>
-Dry and wipe out your lens case with a tissue. Leave the case lid off to air dry while wearing your lenses.
+<b><i>Step 4</i></b> Dry and wipe out your lens case with a tissue. Leave the case lid off to air dry while wearing your lenses.
 
 You may experience some discomfort if the lens is not in place correctly on the eye or if a foreign body, such as an eyelash or make-up pigment, is trapped underneath the lens. If this is the case, remove the lens and reinsert.
 
@@ -46,7 +42,7 @@ CAPTION: Tripod method. A rubber inserter can also be used to hold the lens if d
 
 #### Removal
 
-<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\\[if IE]><iframe frameborder="0" type="text/html" src="https://2689-2347.captiv8online.com/animations/embed/one/large-diameter-rigid-lens-removal?player_width=100%&player_height=100%&site_company_language=34&autostart=false" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\\[endif]--><!--\\[if !IE]> <--><object data="https://2689-2347.captiv8online.com/animations/embed/one/large-diameter-rigid-lens-removal?player_width=100%&player_height=100%&site_company_language=34&autostart=false" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://2689-2347.captiv8online.com/animations/embed/one/large-diameter-rigid-lens-removal?player_width=100%&player_height=100%&site_company_language=34&autostart=false">Large Diameter GP Removal</a></object><!--> <!\\[endif]--></div>
+<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\\\[if IE]><iframe frameborder="0" type="text/html" src="https://2689-2347.captiv8online.com/animations/embed/one/large-diameter-rigid-lens-removal?player_width=100%&player_height=100%&site_company_language=34&autostart=false" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\\\[endif]--><!--\\\[if !IE]> <--><object data="https://2689-2347.captiv8online.com/animations/embed/one/large-diameter-rigid-lens-removal?player_width=100%&player_height=100%&site_company_language=34&autostart=false" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://2689-2347.captiv8online.com/animations/embed/one/large-diameter-rigid-lens-removal?player_width=100%&player_height=100%&site_company_language=34&autostart=false">Large Diameter GP Removal</a></object><!--> <!\\\[endif]--></div>
 
 <i><b>Method 1 – Manual Removal</b></i>
 
