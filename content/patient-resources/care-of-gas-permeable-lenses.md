@@ -28,7 +28,7 @@ Always wash and rinse your hands thoroughly and dry them with a lint-free towel/
 
 <b><i>Step 4.</i></b> Dry and wipe out your lens case with a tissue. Leave the case lid off to air dry while wearing your lenses.
 
-<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\\\\\\\[if IE]><iframe frameborder="0" type="text/html" src="<https://www.youtube.com/embed/6oNZ7DrSXB8&t=6s>" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\\\\\\\[endif]--><!--\\\\\\\[if !IE]> <--><object data="<https://www.youtube.com/embed/6oNZ7DrSXB8&t=6s>" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="<https://www.youtube.com/embed/6oNZ7DrSXB8&t=6s>">Rigid Lens Application</a></object><!--> <!\\\\\\\[endif]--></div>
+<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\\\\[if IE]><iframe frameborder="0" type="text/html" src="https://www.youtube.com/embed/6oNZ7DrSXB8" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\\\\[endif]--><!--\\\\[if !IE]> <--><object data="https://www.youtube.com/embed/6oNZ7DrSXB8" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://www.youtube.com/embed/6oNZ7DrSXB8">Scleral Lens Insertion & Removal By EyeSpace Lenses</a></object><!--> <!\\\\[endif]--></div>
 
 <br>
 
