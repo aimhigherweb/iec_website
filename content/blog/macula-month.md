@@ -15,4 +15,4 @@ Other conditions can also affect the macula. Some are associated with conditions
 1. Gies P, Roy C, Javorniczky J, Henderson S, Lemus-Deschamps L, Driscoll C. *Global Solar UV Index: Australian measurements, forecasts and comparison with the UK.* Photochem Photobiol 2004 Jan;79(1):32-9.
 2. Chalam KV, Khetpal V, Rusovici R, Balaiya S. A review: role of ultraviolet radiation in age-related macular degeneration. *Eye Contact Lens*. 2011;37(4):225‐232.
 3. Age-Related Eye Disease Study Research Group. The Age-Related Eye Disease Study (AREDS): design implications. AREDS report no. 1. *Control Clin Trials*. 1999;20(6):573‐600.
-4. Bowling, B. and Kanski, J., 2015. *Kanski's Clinical Ophthalmology*. 8th ed. Elsevier.
+4. BowlingB and Kanski J, 2015. *Kanski's Clinical Ophthalmology*. 8th ed. Elsevier.
