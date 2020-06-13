@@ -15,6 +15,8 @@ category: advanced-imaging-technology
 
 <br>
 
+**<br>**
+
 ##### References
 
 1. Iskander, R. Wachel, P. Simpson, P. Consejo, A. Jesus, D. (2016). Principles of Operation, accuracy and precision of an Eye Surface Profiler. Ophthalmic and Physiological Optics. 36(3). 
