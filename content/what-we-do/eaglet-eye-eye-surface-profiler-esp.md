@@ -3,7 +3,9 @@ title: "Eaglet Eye – Eye Surface Profiler (ESP) "
 category: advanced-imaging-technology
 ---
 <div class="employee-heading">
-<p><p>The Eaglet-Eye ESP is a corneo-scleral topographer, meaning it maps out the shape of the front of the eye. The term topography refers to capturing the shape and features of land surfaces, and just like mountains, the front surface of our eyes have unique topographical features. It's not only important to assess the shape of the cornea, but also to accurately assess the shape of the surrounding sclera (the white part of the eye). </p> 
+<p><p>The Eaglet-Eye ESP is a corneo-scleral topographer, meaning it maps out the shape of the front of the eye. The term topography refers to capturing the shape and features of land surfaces, and just like mountains, the front surface of our eyes have unique topographical features. It's not only important to assess the shape of the cornea, but also to accurately assess the shape of the surrounding sclera (the white part of the eye).</p>
+
+</div class="employee-heading"> 
 
 <p>At Innovative Eye Care, our optometrists are equipped with the latest technology which allows us to map out and produce a three dimensional image of the front surface of your eye. The Eaglet-Eye ESP is particularly special, as it is the first topographer with the ability to map out the sclera as well as the cornea, with incredible accuracy.<sup>1, 2</sup> 
 
