@@ -11,7 +11,7 @@ category: advanced-imaging-technology
 
 <p>Many conditions and procedures can alter the shape of the sclera, including <a href="/what-we-do/keratoconus">keratoconus</a> and corneal cross linking.<sup>3, 4, 5</sup> The three dimensional maps attained by the Eaglet Eye - ESP allows our optometrists to monitor keratoconus and gain a better understanding of how it is affecting our patient's eyes.<sup>4</sup> 
 
-<p>The Eaglet-Eye ESP is also very useful for when designing custom made <a href="/what-we-do/scleral-contact-lenses">scleral contact lenses</a>.<sup>6</sup> These lenses are large diameter lenses that are typically 16-18mm in diameter. Where conventional corneal topographers can only achieve a 14mm diameter scan, the Eaglet-Eye ESP gives us a much bigger picture, achieving a whopping 20mm diameter scan! <sup>2, 6</sup> 
+<p>The Eaglet-Eye ESP is also very useful for when designing custom made <a href="/what-we-do/scleral-contact-lenses">scleral contact lenses</a>.<sup>6</sup> These lenses are large diameter lenses that are typically 16-18mm in diameter. Where conventional corneal topographers are limited to an 8-10mm diameter scan, the Eaglet-Eye ESP gives us a much bigger picture, with the ability to capture the entire surface of an open eye! <sup>2, 6</sup> 
 
 <br>
 
