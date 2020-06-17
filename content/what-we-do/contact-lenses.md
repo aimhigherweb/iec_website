@@ -192,16 +192,12 @@ RGP lenses are made from a stiffer material and do not drape on the eyes like so
 
 The costs of being fitted into contact lenses varies depending on the type of lens used and the complexity of the fitting process. Careful fitting of all contact lenses is required to offer the clearest and most comfortable vision without compromising the health of the eye. 
 
-In some cases, patients with high or complex prescriptions (like keratoconus) may have the majority of the contact lens fitting consultation costs covered by Medicare. In patients that do not meet this criteria there is a consultation fee of up to $80. 
+In some cases, patients with high or complex prescriptions (like keratoconus) may have some or all of their consultation costs covered by Medicare. 
 
-In most contact lens additional specialized technology needs to be used during the fitting process, such as [corneal topography](/what-we-do/corneal-topography) and [OCT scans](/what-we-do/oct), which can attract additional charges of up to $80. 
-
-
-
- Medicare does not provide benefits for these additional tests and the use of this equipment will carry a small additional charge (children and pension/health care card holders get 50% off).
+In most contact lens additional specialized technology needs to be used during the fitting process, such as [corneal topography](/what-we-do/corneal-topography) and [OCT scans](/what-we-do/oct), which can attract additional charges of up to $80. We conduct these measurements at half price for children/students and pension/healthcare card holders. 
 
 Daily replacement soft lenses tend to be priced at just over $100 for a 3 month supply per eye. A monthly replacement soft lens is about 2/3rd of this cost for the same 3 month period per eye, but does require cleaning solutions, is less convenient and carries a higher risk of infection than a daily replacement lens. More complex soft lens types like toric lenses to correct astigmatism, or [multifocal lenses for patients with presbyopia](/what-we-do/contact-lenses-for-presbyopia) will be more expensive than a standard lens.
 
-Rigid lenses (including orthokeratology lenses) cost $350-$450 each depending on the complexity of the design. Scleral lenses are more difficult to manufacure and cost $600 each. Don't forget these lenses last 1-2 years on average. Back-up lenses of identical parameters can be ordered at half price within 12 months of the original order.
+Rigid lenses (including orthokeratology lenses) cost $400-$500 each depending on the complexity of the design. Scleral lenses are more complex and difficult to manufacure and cost $650 each. Don't forget these lenses last 1-2 years on average. Back-up lenses of identical parameters can be ordered at half price within 12 months of the original order.
 
 Please feel free to [contact our team](/contact) for more details about the costs of different contact lenses.
