@@ -1,5 +1,5 @@
 ---
-title: 'Optical Coherance Tomography Angiography (OCT-A) '
+title: "Optical Coherance Tomography Angiography (OCT-A) "
 category: advanced-imaging-technology
 ---
 <div class="employee-heading">
@@ -40,7 +40,6 @@ At first glance, when assessing conventional retinal photos and OCT scans, this 
 
 OCT-A of this eye has shown abnormal enlargement of the deep capillary network which is indicative of a rare form of macular telangectasia.<sup>6</sup> This is a vision threatening condition and would have been missed if only conventional imaging of the retina was done. 
 
-![](/uploads/image.png)
 
 #### References
 
