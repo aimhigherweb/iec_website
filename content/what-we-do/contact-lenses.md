@@ -192,9 +192,13 @@ RGP lenses are made from a stiffer material and do not drape on the eyes like so
 
 The costs of being fitted into contact lenses varies depending on the type of lens used and the complexity of the fitting process. Careful fitting of all contact lenses is required to offer the clearest and most comfortable vision without compromising the health of the eye. 
 
-In most cases patients with high prescriptions, different prescriptions between the eyes or irregular prescriptions (like keratoconus) may have the majority of the costs of their contact lens fitting consultations covered by Medicare. In patients that do not meet this criteria there is a fitting charge of $150 for standard cases and refits, and $180 for complex cases. This includes the appointments to teach you how to use the lenses, aftercare appointments to ensure the lenses are fitting well over time, and any trial lens required to get the fit correct. 
+In some cases, patients with high or complex prescriptions (like keratoconus) may have the majority of the contact lens fitting consultation costs covered by Medicare. In patients that do not meet this criteria there is a consultation fee of up to $80. 
 
-In most contact lens fits we use technology such as [corneal topography](/what-we-do/corneal-topography) and [OCT scans](/what-we-do/oct) to perfect the fit of our lenses. Medicare does not provide benefits for these additional tests and the use of this equipment will carry a small additional charge (children and pension/health care card holders get 50% off).
+In most contact lens additional specialized technology needs to be used during the fitting process, such as [corneal topography](/what-we-do/corneal-topography) and [OCT scans](/what-we-do/oct), which can attract additional charges of up to $80. 
+
+
+
+ Medicare does not provide benefits for these additional tests and the use of this equipment will carry a small additional charge (children and pension/health care card holders get 50% off).
 
 Daily replacement soft lenses tend to be priced at just over $100 for a 3 month supply per eye. A monthly replacement soft lens is about 2/3rd of this cost for the same 3 month period per eye, but does require cleaning solutions, is less convenient and carries a higher risk of infection than a daily replacement lens. More complex soft lens types like toric lenses to correct astigmatism, or [multifocal lenses for patients with presbyopia](/what-we-do/contact-lenses-for-presbyopia) will be more expensive than a standard lens.
 
