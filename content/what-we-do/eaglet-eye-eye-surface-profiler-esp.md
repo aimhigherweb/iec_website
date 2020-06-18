@@ -7,6 +7,8 @@ category: advanced-imaging-technology
 
 </div class="employee-heading"> 
 
+![](/uploads/esp.jpg)
+
 <p>At Innovative Eye Care, our optometrists are equipped with the latest technology which allows us to map out and produce a three dimensional image of the front surface of your eye. The Eaglet-Eye ESP is particularly special, as it is the first topographer with the ability to map out the sclera as well as the cornea, with incredible accuracy.<sup>1, 2</sup> 
 
 <p>Many conditions and procedures can alter the shape of the sclera, including <a href="/what-we-do/keratoconus">keratoconus</a> and corneal cross linking.<sup>3, 4, 5</sup> The three dimensional maps attained by the Eaglet Eye - ESP allows our optometrists to monitor keratoconus and gain a better understanding of how it is affecting our patient's eyes.<sup>4</sup> 
