@@ -1,0 +1,21 @@
+name: Run Cypress e2e Tests
+on:
+  push:
+jobs:
+  test:
+    name: Run Cypress e2e tests
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@master
+      - name: Install Dependencies 
+        run: npm install
+      - name: Build 
+        run: npm run build
+      - name: Cypress run
+        run: npm run ci
+        env:
+          # pass the Dashboard record key as an environment variable
+          CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          URL: 'http://localhost:9000'
