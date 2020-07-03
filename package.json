@@ -3,7 +3,7 @@
   "private": true,
   "description": "",
   "version": "0.1.0",
-  "author": "Sreng S. <srengtrecom@yahoo.com>",
+  "author": "Jake Brown",
   "dependencies": {
     "fuse.js": "^3.6.1",
     "gatsby": "^2.22.9",
@@ -37,15 +37,7 @@
     "video.js": "^7.7.6"
   },
   "devDependencies": {
-    "eslint": "^6.8.0",
-    "eslint-config-airbnb": "^18.1.0",
-    "eslint-loader": "^3.0.4",
-    "eslint-plugin-import": "^2.20.2",
-    "eslint-plugin-jsx-a11y": "^6.2.3",
-    "eslint-plugin-react": "^7.20.0",
-    "gatsby-plugin-eslint": "^2.0.8",
     "cypress": "^4.9.0",
-    "prettier": "^1.19.1",
     "start-server-and-test": "^1.11.0"
   },
   "keywords": [
@@ -59,8 +51,6 @@
     "clean": "gatsby clean",
     "cy:run": "cypress run",
     "ci": "start-server-and-test serve http://localhost:8000 'cypress run --record --parallel'",
-    "lint": "eslint src",
-    "format": "prettier --write \"**/*.{js,jsx,json}\""
   },
   "repository": {
     "type": "git",
