@@ -1,0 +1,21 @@
+name: Run Lighouse CI
+on:
+  push:
+jobs:
+  lighthouse:
+    name: Run Lighthouse CI
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@master
+      - name: Install Dependencies 
+        run: npm install
+      - name: Build 
+        run: npm run build
+      - name: Run Lighthouse CI
+        uses: treosh/lighthouse-ci-action@v2
+        with:
+          configPath: "./lighthouserc.json"
+          temporaryPublicStorage: true
+          uploadArtifacts: true # save results as an action artifacts
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
