@@ -1,30 +1,31 @@
-import React, { useState } from 'react'
-import { graphql, Link } from 'gatsby'
-import { Helmet } from 'react-helmet'
-import Img from 'gatsby-image'
+import React, { useState } from "react"
+import { graphql, Link } from "gatsby"
+import { Helmet } from "react-helmet"
+import Img from "gatsby-image"
 // import styled from 'styled-components';
-import VideoJs from 'video.js'
+import VideoJs from "video.js"
 
-import Header from '../components/Header'
-import TopNav from '../components/TopNav'
-import Footer from '../components/Footer'
+import Header from "../components/Header"
+import TopNav from "../components/TopNav"
+import Footer from "../components/Footer"
 
-export default function(props) {
+export default function (props) {
   const [showVideo, setShowVideo] = useState(false)
 
   async function playMainVideo() {
-    console.log('Showing and playing video')
+    console.log("Showing and playing video")
     setShowVideo(true)
-    VideoJs('main-video').play()
+    VideoJs("main-video").play()
   }
 
   const {
     imageFiles,
     img01,
-    lachlan_hoy,
+    lachlan_1,
     karl_1,
-    mark_1,
-    joanna_1
+    pooja_1,
+    dylan_1,
+    joanna_1,
   } = props.data
   let Images = {}
 
@@ -51,12 +52,12 @@ export default function(props) {
           sizes={img01.childImageSharp.fluid}
           loading="lazy"
           style={{
-            position: 'absolute',
+            position: "absolute",
             left: 0,
             top: 0,
-            width: '100%',
-            height: '100%',
-            zIndex: -1
+            width: "100%",
+            height: "100%",
+            zIndex: -1,
           }}
         />
         <div className="container">
@@ -72,7 +73,7 @@ export default function(props) {
           </Link>
           <div
             className="main-video__container"
-            hidden={showVideo == false ? 'hidden' : ''}
+            hidden={showVideo == false ? "hidden" : ""}
           >
             <video
               id="main-video"
@@ -98,15 +99,15 @@ export default function(props) {
       </div>
       <div className="content-section location-section">
         <Img
-          sizes={Images['img04']}
+          sizes={Images["img04"]}
           loading="eager"
           style={{
-            position: 'absolute',
+            position: "absolute",
             left: 0,
             top: 0,
-            width: '100%',
-            height: '100%',
-            zIndex: -1
+            width: "100%",
+            height: "100%",
+            zIndex: -1,
           }}
         />
         <div className="container">
@@ -140,7 +141,7 @@ export default function(props) {
                   Phone: (08) 8231 9341
                 </a>
                 <span className="location__text">
-                  <b>Monday - Friday</b> 8.30 am - 5.30 pm <br />{' '}
+                  <b>Monday - Friday</b> 8.30 am - 5.30 pm <br />{" "}
                   <b>Saturday</b> 8.30 am - 12 pm
                 </span>
                 <a
@@ -154,11 +155,11 @@ export default function(props) {
                 <div
                   className="1stAvailableWidget widget"
                   id="2798"
-                  style={{ cursor: 'pointer' }}
+                  style={{ cursor: "pointer" }}
                 >
                   <p
                     className="btn btn-primary"
-                    style={{ textAlign: 'center' }}
+                    style={{ textAlign: "center" }}
                   >
                     <i className="fa fa-calendar" aria-hidden="true" /> Book
                     Online Now
@@ -208,11 +209,11 @@ export default function(props) {
                 <div
                   className="1stAvailableWidget widget"
                   id="2797"
-                  style={{ cursor: 'pointer' }}
+                  style={{ cursor: "pointer" }}
                 >
                   <p
                     className="btn btn-primary"
-                    style={{ textAlign: 'center' }}
+                    style={{ textAlign: "center" }}
                   >
                     <i className="fa fa-calendar" aria-hidden="true" /> Book
                     Online Now
@@ -233,24 +234,24 @@ export default function(props) {
           <li>
             <Link to="/what-we-do/eyewear-collections">
               <Img
-                sizes={Images['img05']}
+                sizes={Images["img05"]}
                 style={{
-                  position: 'absolute',
+                  position: "absolute",
                   left: 0,
                   top: 0,
-                  width: '100%',
-                  height: '100%',
-                  zIndex: -1
+                  width: "100%",
+                  height: "100%",
+                  zIndex: -1,
                 }}
               />
               <div className="services__caption">
                 <div className="services__wrap">
                   <div className="services__icon">
                     <Img
-                      sizes={Images['icon07']}
+                      sizes={Images["icon07"]}
                       style={{
-                        width: '150px',
-                        height: 'auto'
+                        width: "150px",
+                        height: "auto",
                       }}
                       alt="Eyewear experts"
                     />
@@ -263,24 +264,24 @@ export default function(props) {
           <li>
             <Link to="/what-we-do/contact-lenses">
               <Img
-                sizes={Images['img06']}
+                sizes={Images["img06"]}
                 style={{
-                  position: 'absolute',
+                  position: "absolute",
                   left: 0,
                   top: 0,
-                  width: '100%',
-                  height: '100%',
-                  zIndex: -1
+                  width: "100%",
+                  height: "100%",
+                  zIndex: -1,
                 }}
               />
               <div className="services__caption">
                 <div className="services__wrap">
                   <div className="services__icon">
                     <Img
-                      sizes={Images['icon02']}
+                      sizes={Images["icon02"]}
                       style={{
-                        width: '150px',
-                        height: 'auto'
+                        width: "150px",
+                        height: "auto",
                       }}
                       alt="Bespoke Contact Lenses"
                     />
@@ -295,24 +296,24 @@ export default function(props) {
           <li>
             <Link to="/what-we-do/childrens-vision">
               <Img
-                sizes={Images['img07']}
+                sizes={Images["img07"]}
                 style={{
-                  position: 'absolute',
+                  position: "absolute",
                   left: 0,
                   top: 0,
-                  width: '100%',
-                  height: '100%',
-                  zIndex: -1
+                  width: "100%",
+                  height: "100%",
+                  zIndex: -1,
                 }}
               />
               <div className="services__caption">
                 <div className="services__wrap">
                   <div className="services__icon">
                     <Img
-                      sizes={Images['icon03']}
+                      sizes={Images["icon03"]}
                       style={{
-                        width: '150px',
-                        height: 'auto'
+                        width: "150px",
+                        height: "auto",
                       }}
                       alt="Paediatric Vision"
                     />
@@ -325,24 +326,24 @@ export default function(props) {
           <li>
             <Link to="/what-we-do/dry-eye-disease">
               <Img
-                sizes={Images['img08']}
+                sizes={Images["img08"]}
                 style={{
-                  position: 'absolute',
+                  position: "absolute",
                   left: 0,
                   top: 0,
-                  width: '100%',
-                  height: '100%',
-                  zIndex: -1
+                  width: "100%",
+                  height: "100%",
+                  zIndex: -1,
                 }}
               />
               <div className="services__caption">
                 <div className="services__wrap">
                   <div className="services__icon">
                     <Img
-                      sizes={Images['icon04']}
+                      sizes={Images["icon04"]}
                       style={{
-                        width: '150px',
-                        height: 'auto'
+                        width: "150px",
+                        height: "auto",
                       }}
                       alt="Dry Eye Clinic"
                     />
@@ -355,24 +356,24 @@ export default function(props) {
           <li>
             <Link to="/what-we-do/oct">
               <Img
-                sizes={Images['img09']}
+                sizes={Images["img09"]}
                 style={{
-                  position: 'absolute',
+                  position: "absolute",
                   left: 0,
                   top: 0,
-                  width: '100%',
-                  height: '100%',
-                  zIndex: -1
+                  width: "100%",
+                  height: "100%",
+                  zIndex: -1,
                 }}
               />
               <div className="services__caption">
                 <div className="services__wrap">
                   <div className="services__icon">
                     <Img
-                      sizes={Images['icon05']}
+                      sizes={Images["icon05"]}
                       style={{
-                        width: '150px',
-                        height: 'auto'
+                        width: "150px",
+                        height: "auto",
                       }}
                       alt="Advanced Imaging Technology"
                     />
@@ -387,24 +388,24 @@ export default function(props) {
           <li>
             <Link to="/what-we-do/orthokeratology-corneal-reshaping">
               <Img
-                sizes={Images['img10']}
+                sizes={Images["img10"]}
                 style={{
-                  position: 'absolute',
+                  position: "absolute",
                   left: 0,
                   top: 0,
-                  width: '100%',
-                  height: '100%',
-                  zIndex: -1
+                  width: "100%",
+                  height: "100%",
+                  zIndex: -1,
                 }}
               />
               <div className="services__caption">
                 <div className="services__wrap">
                   <div className="services__icon">
                     <Img
-                      sizes={Images['icon06']}
+                      sizes={Images["icon06"]}
                       style={{
-                        width: '150px',
-                        height: 'auto'
+                        width: "150px",
+                        height: "auto",
                       }}
                       alt="Overnight vision correction"
                     />
@@ -432,7 +433,7 @@ export default function(props) {
         <ul className="team-list">
           <li className="employee-box open-close">
             <div className="employee-inner hover-elem">
-              <Img sizes={lachlan_hoy.childImageSharp.fluid} alt="" />
+              <Img sizes={lachlan_1.childImageSharp.fluid} alt="" />
               <Link
                 to="/who-we-are/lachlan-hoy"
                 className="employee-inner__rollover "
@@ -468,13 +469,30 @@ export default function(props) {
           </li>
           <li className="employee-box open-close">
             <div className="employee-inner hover-elem">
-              <Img sizes={mark_1.childImageSharp.fluid} alt="" />
+              <Img sizes={pooja_1.childImageSharp.fluid} alt="" />
               <Link
-                to="/who-we-are/mark-parsons"
+                to="/who-we-are/pooja-bhindi"
                 className="employee-inner__rollover "
               >
                 <div className="employee-inner__rollover__box">
-                  <strong className="name">Mark Parsons</strong>
+                  <strong className="name">Pooja Bhindi</strong>
+                  <span className="position">Optometrist</span>
+                  <span className="btn-opener">
+                    <i className="icon-zoom" />
+                  </span>
+                </div>
+              </Link>
+            </div>
+          </li>
+          <li className="employee-box open-close">
+            <div className="employee-inner hover-elem">
+              <Img sizes={dylan_1.childImageSharp.fluid} alt="" />
+              <Link
+                to="/who-we-are/dylan-bentley"
+                className="employee-inner__rollover "
+              >
+                <div className="employee-inner__rollover__box">
+                  <strong className="name">Dylan Bentley</strong>
                   <span className="position">Optometrist</span>
                   <span className="btn-opener">
                     <i className="icon-zoom" />
@@ -504,14 +522,14 @@ export default function(props) {
       </div>
       <div className="content-section simple-section content-section--white-color content-section--with-overlay blue--overlay text-center">
         <Img
-          sizes={Images['img31']}
+          sizes={Images["img31"]}
           style={{
-            position: 'absolute',
+            position: "absolute",
             left: 0,
             top: 0,
-            width: '100%',
-            height: '100%',
-            zIndex: -1
+            width: "100%",
+            height: "100%",
+            zIndex: -1,
           }}
         />
         <div className="container">
@@ -528,11 +546,11 @@ export default function(props) {
       <div className="content-section lenses-information content-section--white-color">
         <div className="bg-holder">
           <Img
-            sizes={Images['bg-box02']}
+            sizes={Images["bg-box02"]}
             style={{
-              width: '100%',
-              height: '100%',
-              zIndex: -1
+              width: "100%",
+              height: "100%",
+              zIndex: -1,
             }}
           />
         </div>
@@ -598,7 +616,7 @@ export default function(props) {
       </div>
       <div className="content-section ortho-section content-section--white-color content-section__black-bg">
         <div className="bg-holder bg--left-position">
-          <Img fluid={Images['bg-box']} alt="" />
+          <Img fluid={Images["bg-box"]} alt="" />
         </div>
         <div className="container">
           <div className="container__wrap container--right-postion">
@@ -611,12 +629,12 @@ export default function(props) {
               <li>
                 <div className="lenses__image height">
                   <Img
-                    sizes={Images['img33']}
+                    sizes={Images["img33"]}
                     style={{
-                      width: '50px',
-                      height: '50px'
+                      width: "50px",
+                      height: "50px",
                     }}
-                    imgStyle={{ objectFit: 'contain' }}
+                    imgStyle={{ objectFit: "contain" }}
                     alt=""
                   />
                 </div>
@@ -626,12 +644,12 @@ export default function(props) {
               <li>
                 <div className="lenses__image height">
                   <Img
-                    sizes={Images['img34']}
+                    sizes={Images["img34"]}
                     style={{
-                      width: '50px',
-                      height: '50px'
+                      width: "50px",
+                      height: "50px",
                     }}
-                    imgStyle={{ objectFit: 'contain' }}
+                    imgStyle={{ objectFit: "contain" }}
                     alt=""
                   />
                 </div>
@@ -641,12 +659,12 @@ export default function(props) {
               <li>
                 <div className="lenses__image height">
                   <Img
-                    sizes={Images['img35']}
+                    sizes={Images["img35"]}
                     style={{
-                      width: '50px',
-                      height: '50px'
+                      width: "50px",
+                      height: "50px",
                     }}
-                    imgStyle={{ objectFit: 'contain' }}
+                    imgStyle={{ objectFit: "contain" }}
                     alt=""
                   />
                 </div>
@@ -656,12 +674,12 @@ export default function(props) {
               <li>
                 <div className="lenses__image height">
                   <Img
-                    sizes={Images['img36']}
+                    sizes={Images["img36"]}
                     style={{
-                      width: '50px',
-                      height: '50px'
+                      width: "50px",
+                      height: "50px",
                     }}
-                    imgStyle={{ objectFit: 'contain' }}
+                    imgStyle={{ objectFit: "contain" }}
                     alt=""
                   />
                 </div>
@@ -671,12 +689,12 @@ export default function(props) {
               <li>
                 <div className="lenses__image height">
                   <Img
-                    sizes={Images['img37']}
+                    sizes={Images["img37"]}
                     style={{
-                      width: '50px',
-                      height: '50px'
+                      width: "50px",
+                      height: "50px",
                     }}
-                    imgStyle={{ objectFit: 'contain' }}
+                    imgStyle={{ objectFit: "contain" }}
                     alt=""
                   />
                 </div>
@@ -695,14 +713,14 @@ export default function(props) {
       </div>
       <div className="content-section online-book-section">
         <Img
-          sizes={Images['img38']}
+          sizes={Images["img38"]}
           style={{
-            position: 'absolute',
+            position: "absolute",
             left: 0,
             top: 0,
-            width: '100%',
-            height: '100%',
-            zIndex: -1
+            width: "100%",
+            height: "100%",
+            zIndex: -1,
           }}
         />
         <div className="container">
@@ -722,14 +740,14 @@ export default function(props) {
       </div>
       <div className="content-section simple-section content-section--white-color content-section--with-overlay white--overlay text-center">
         <Img
-          sizes={Images['img30']}
+          sizes={Images["img30"]}
           style={{
-            position: 'absolute',
+            position: "absolute",
             left: 0,
             top: 0,
-            width: '100%',
-            height: '100%',
-            zIndex: -1
+            width: "100%",
+            height: "100%",
+            zIndex: -1,
           }}
         />
         <div className="container">
@@ -740,19 +758,19 @@ export default function(props) {
             <p>Help us build our community of healthy eyes</p>
           </div>
           <strong className="promo-text">
-            Exceptional eye care for your friend{' '}
+            Exceptional eye care for your friend{" "}
             <span>$50 Gift Card for you</span>
           </strong>
         </div>
         <div className="icon-logo icon-logo--left">
           <Img
-            sizes={Images['icon-logo02']}
+            sizes={Images["icon-logo02"]}
             style={{
-              width: '100%',
-              height: '100%',
-              zIndex: -1
+              width: "100%",
+              height: "100%",
+              zIndex: -1,
             }}
-            imgStyle={{ objectFit: 'contain' }}
+            imgStyle={{ objectFit: "contain" }}
             alt="Innovative Eye Care"
           />
         </div>
@@ -761,7 +779,7 @@ export default function(props) {
         <div className="container">
           <div className="container__wrap container--left-position">
             <strong className="statistic-text">
-              <span className="small-text">Between</span>{' '}
+              <span className="small-text">Between</span>{" "}
               <span className="large-text">5 and 35%</span>
               of us suffer from dry eye disease
             </strong>
@@ -777,11 +795,11 @@ export default function(props) {
                 <div className="hold">
                   <div className="symptoms__img height">
                     <Img
-                      sizes={Images['eye01']}
+                      sizes={Images["eye01"]}
                       style={{
-                        height: '87px'
+                        height: "87px",
                       }}
-                      imgStyle={{ objectFit: 'contain' }}
+                      imgStyle={{ objectFit: "contain" }}
                       alt="STINGING & BURNING"
                     />
                   </div>
@@ -794,11 +812,11 @@ export default function(props) {
                 <div className="hold">
                   <div className="symptoms__img height extra-size">
                     <Img
-                      sizes={Images['eye02']}
+                      sizes={Images["eye02"]}
                       style={{
-                        height: '87px'
+                        height: "87px",
                       }}
-                      imgStyle={{ objectFit: 'contain' }}
+                      imgStyle={{ objectFit: "contain" }}
                       alt="GRITTY SENSATION"
                     />
                   </div>
@@ -809,11 +827,11 @@ export default function(props) {
                 <div className="hold">
                   <div className="symptoms__img height">
                     <Img
-                      sizes={Images['eye03']}
+                      sizes={Images["eye03"]}
                       style={{
-                        height: '87px'
+                        height: "87px",
                       }}
-                      imgStyle={{ objectFit: 'contain' }}
+                      imgStyle={{ objectFit: "contain" }}
                       alt="REDNESS"
                     />
                   </div>
@@ -824,11 +842,11 @@ export default function(props) {
                 <div className="hold">
                   <div className="symptoms__img height">
                     <Img
-                      sizes={Images['eye04']}
+                      sizes={Images["eye04"]}
                       style={{
-                        height: '87px'
+                        height: "87px",
                       }}
-                      imgStyle={{ objectFit: 'contain' }}
+                      imgStyle={{ objectFit: "contain" }}
                       alt="WATERINESS"
                     />
                   </div>
@@ -839,11 +857,11 @@ export default function(props) {
                 <div className="hold">
                   <div className="symptoms__img height">
                     <Img
-                      sizes={Images['eye05']}
+                      sizes={Images["eye05"]}
                       style={{
-                        height: '87px'
+                        height: "87px",
                       }}
-                      imgStyle={{ objectFit: 'contain' }}
+                      imgStyle={{ objectFit: "contain" }}
                       alt="BLURRY VISION"
                     />
                   </div>
@@ -854,19 +872,19 @@ export default function(props) {
           </div>
         </div>
         <div className="symptoms-image">
-          <Img fluid={Images['img29']} alt="" />
+          <Img fluid={Images["img29"]} alt="" />
         </div>
       </div>
       <div className="content-section simple-section content-section--white-color content-section--with-overlay blue--overlay text-center">
         <Img
-          sizes={Images['img28']}
+          sizes={Images["img28"]}
           style={{
-            position: 'absolute',
+            position: "absolute",
             left: 0,
             top: 0,
-            width: '100%',
-            height: '100%',
-            zIndex: -1
+            width: "100%",
+            height: "100%",
+            zIndex: -1,
           }}
         />
         <div className="container">
@@ -886,12 +904,12 @@ export default function(props) {
             <li>
               <div className="eye-problems__img height">
                 <Img
-                  sizes={Images['img-working']}
+                  sizes={Images["img-working"]}
                   style={{
-                    height: '87px',
-                    width: '100%'
+                    height: "87px",
+                    width: "100%",
                   }}
-                  imgStyle={{ objectFit: 'contain' }}
+                  imgStyle={{ objectFit: "contain" }}
                   alt="working"
                 />
               </div>
@@ -900,12 +918,12 @@ export default function(props) {
             <li>
               <div className="eye-problems__img height">
                 <Img
-                  sizes={Images['img-computer']}
+                  sizes={Images["img-computer"]}
                   style={{
-                    height: '87px',
-                    width: '100%'
+                    height: "87px",
+                    width: "100%",
                   }}
-                  imgStyle={{ objectFit: 'contain' }}
+                  imgStyle={{ objectFit: "contain" }}
                   alt="computer"
                 />
               </div>
@@ -914,12 +932,12 @@ export default function(props) {
             <li>
               <div className="eye-problems__img height">
                 <Img
-                  sizes={Images['img-tv']}
+                  sizes={Images["img-tv"]}
                   style={{
-                    height: '87px',
-                    width: '100%'
+                    height: "87px",
+                    width: "100%",
                   }}
-                  imgStyle={{ objectFit: 'contain' }}
+                  imgStyle={{ objectFit: "contain" }}
                   alt="tv"
                 />
               </div>
@@ -928,12 +946,12 @@ export default function(props) {
             <li>
               <div className="eye-problems__img height">
                 <Img
-                  sizes={Images['img-books']}
+                  sizes={Images["img-books"]}
                   style={{
-                    height: '87px',
-                    width: '100%'
+                    height: "87px",
+                    width: "100%",
                   }}
-                  imgStyle={{ objectFit: 'contain' }}
+                  imgStyle={{ objectFit: "contain" }}
                   alt="books"
                 />
               </div>
@@ -942,12 +960,12 @@ export default function(props) {
             <li>
               <div className="eye-problems__img height">
                 <Img
-                  sizes={Images['img-car']}
+                  sizes={Images["img-car"]}
                   style={{
-                    height: '87px',
-                    width: '100%'
+                    height: "87px",
+                    width: "100%",
                   }}
-                  imgStyle={{ objectFit: 'contain' }}
+                  imgStyle={{ objectFit: "contain" }}
                   alt="car"
                 />
               </div>
@@ -969,14 +987,14 @@ export default function(props) {
       </div>
       <div className="content-section ipl-section text-center">
         <Img
-          sizes={Images['img27']}
+          sizes={Images["img27"]}
           style={{
-            position: 'absolute',
+            position: "absolute",
             left: 0,
             top: 0,
-            width: '100%',
-            height: '100%',
-            zIndex: -1
+            width: "100%",
+            height: "100%",
+            zIndex: -1,
           }}
         />
         <div className="container">
@@ -998,12 +1016,12 @@ export default function(props) {
             <div className="three-columns__item">
               <div className="roundered__img blue-border">
                 <Img
-                  sizes={Images['img24']}
+                  sizes={Images["img24"]}
                   style={{
-                    height: '100%',
-                    width: '100%'
+                    height: "100%",
+                    width: "100%",
                   }}
-                  imgStyle={{ objectFit: 'contain', WebkitUserDrag: 'none' }}
+                  imgStyle={{ objectFit: "contain", WebkitUserDrag: "none" }}
                   alt=""
                 />
               </div>
@@ -1015,12 +1033,12 @@ export default function(props) {
             <div className="three-columns__item">
               <div className="roundered__img blue-border">
                 <Img
-                  sizes={Images['img25']}
+                  sizes={Images["img25"]}
                   style={{
-                    height: '100%',
-                    width: '100%'
+                    height: "100%",
+                    width: "100%",
                   }}
-                  imgStyle={{ objectFit: 'contain', WebkitUserDrag: 'none' }}
+                  imgStyle={{ objectFit: "contain", WebkitUserDrag: "none" }}
                   alt=""
                 />
               </div>
@@ -1035,12 +1053,12 @@ export default function(props) {
             <div className="three-columns__item">
               <div className="roundered__img blue-border">
                 <Img
-                  sizes={Images['img26']}
+                  sizes={Images["img26"]}
                   style={{
-                    height: '100%',
-                    width: '100%'
+                    height: "100%",
+                    width: "100%",
                   }}
-                  imgStyle={{ objectFit: 'contain', WebkitUserDrag: 'none' }}
+                  imgStyle={{ objectFit: "contain", WebkitUserDrag: "none" }}
                   alt=""
                 />
               </div>
@@ -1054,14 +1072,14 @@ export default function(props) {
       </div>
       <div className="content-section eye-care-section content-section--white-color content-section--with-overlay black--overlay text-center">
         <Img
-          sizes={Images['img20']}
+          sizes={Images["img20"]}
           style={{
-            position: 'absolute',
+            position: "absolute",
             left: 0,
             top: 0,
-            width: '100%',
-            height: '100%',
-            zIndex: -1
+            width: "100%",
+            height: "100%",
+            zIndex: -1,
           }}
         />
         <div className="container">
@@ -1081,12 +1099,12 @@ export default function(props) {
             <div className="three-columns__item">
               <div className="roundered__img">
                 <Img
-                  sizes={Images['img21']}
+                  sizes={Images["img21"]}
                   style={{
-                    height: '100%',
-                    width: '100%'
+                    height: "100%",
+                    width: "100%",
                   }}
-                  imgStyle={{ objectFit: 'contain', WebkitUserDrag: 'none' }}
+                  imgStyle={{ objectFit: "contain", WebkitUserDrag: "none" }}
                   alt=""
                 />
               </div>
@@ -1097,12 +1115,12 @@ export default function(props) {
             <div className="three-columns__item">
               <div className="roundered__img">
                 <Img
-                  sizes={Images['img22']}
+                  sizes={Images["img22"]}
                   style={{
-                    height: '100%',
-                    width: '100%'
+                    height: "100%",
+                    width: "100%",
                   }}
-                  imgStyle={{ objectFit: 'contain', WebkitUserDrag: 'none' }}
+                  imgStyle={{ objectFit: "contain", WebkitUserDrag: "none" }}
                   alt=""
                 />
               </div>
@@ -1113,12 +1131,12 @@ export default function(props) {
             <div className="three-columns__item">
               <div className="roundered__img">
                 <Img
-                  sizes={Images['img23']}
+                  sizes={Images["img23"]}
                   style={{
-                    height: '100%',
-                    width: '100%'
+                    height: "100%",
+                    width: "100%",
                   }}
-                  imgStyle={{ objectFit: 'contain', WebkitUserDrag: 'none' }}
+                  imgStyle={{ objectFit: "contain", WebkitUserDrag: "none" }}
                   alt=""
                 />
               </div>
@@ -1131,23 +1149,23 @@ export default function(props) {
       </div>
       <div className="content-section address-section content-section--white-color">
         <Img
-          sizes={Images['img19']}
+          sizes={Images["img19"]}
           style={{
-            position: 'absolute',
+            position: "absolute",
             left: 0,
             top: 0,
-            width: '100%',
-            height: '100%',
-            zIndex: -1
+            width: "100%",
+            height: "100%",
+            zIndex: -1,
           }}
         />
         <div className="icon-logo">
-          <Img fluid={Images['icon-logo']} alt="innovative eye care" />
+          <Img fluid={Images["icon-logo"]} alt="innovative eye care" />
         </div>
         <div className="container">
           <div className="address-information">
             <div className="address__image">
-              <Img fluid={Images['logo-australia']} alt="south australia" />
+              <Img fluid={Images["logo-australia"]} alt="south australia" />
             </div>
             <div className="address__description container__wrap">
               <div className="content-section__haeding haeding--large-heading">
@@ -1173,14 +1191,14 @@ export default function(props) {
       </div>
       <div className="content-section subscribe-section content-section--with-overlay blue--overlay content-section--white-color">
         <Img
-          sizes={Images['img18']}
+          sizes={Images["img18"]}
           style={{
-            position: 'absolute',
+            position: "absolute",
             left: 0,
             top: 0,
-            width: '100%',
-            height: '100%',
-            zIndex: -1
+            width: "100%",
+            height: "100%",
+            zIndex: -1,
           }}
         />
         <div className="container">
@@ -1198,7 +1216,7 @@ export default function(props) {
             </strong>
             <div
               className="createsend-button"
-              style={{ height: '27px', display: 'inline-block' }}
+              style={{ height: "27px", display: "inline-block" }}
               data-listid="i/72/8F9/A2C/3B195BB0D66BEAA7"
             ></div>
           </div>
@@ -1207,12 +1225,12 @@ export default function(props) {
       <div className="content-section join-section content-section--gray">
         <div className="decorate-image image__cup">
           <Img
-            sizes={Images['img-cup']}
+            sizes={Images["img-cup"]}
             style={{
-              height: '100%',
-              width: '237px'
+              height: "100%",
+              width: "237px",
             }}
-            imgStyle={{ objectFit: 'contain', WebkitUserDrag: 'none' }}
+            imgStyle={{ objectFit: "contain", WebkitUserDrag: "none" }}
             alt=""
           />
         </div>
@@ -1230,29 +1248,29 @@ export default function(props) {
             </a>
             <div className="decorate-image">
               <Img
-                sizes={Images['img16']}
+                sizes={Images["img16"]}
                 style={{
-                  height: '100%',
-                  width: '237px'
+                  height: "100%",
+                  width: "237px",
                 }}
-                imgStyle={{ objectFit: 'contain', WebkitUserDrag: 'none' }}
+                imgStyle={{ objectFit: "contain", WebkitUserDrag: "none" }}
                 alt=""
               />
             </div>
             <div className="decorate-image decorate-image--right">
               <Img
-                sizes={Images['img17']}
+                sizes={Images["img17"]}
                 style={{
-                  height: '100%',
-                  width: '237px'
+                  height: "100%",
+                  width: "237px",
                 }}
-                imgStyle={{ objectFit: 'contain', WebkitUserDrag: 'none' }}
+                imgStyle={{ objectFit: "contain", WebkitUserDrag: "none" }}
                 alt=""
               />
             </div>
           </div>
           <div className="browser-preview">
-            <Img fluid={Images['img15']} alt="" />
+            <Img fluid={Images["img15"]} alt="" />
           </div>
         </div>
       </div>
@@ -1284,28 +1302,35 @@ export const pageQuery = graphql`
         }
       }
     }
-    lachlan_hoy: file(relativePath: { eq: "uploads/lachlan-hoy.jpg" }) {
+    lachlan_1: file(relativePath: { eq: "uploads/staff-lachlan-1.jpg" }) {
       childImageSharp {
         fluid(quality: 90, maxWidth: 504) {
           ...GatsbyImageSharpFluid_withWebp
         }
       }
     }
-    karl_1: file(relativePath: { eq: "uploads/karl-1.jpg" }) {
+    karl_1: file(relativePath: { eq: "uploads/staff-karl-1.jpg" }) {
       childImageSharp {
         fluid(quality: 90, maxWidth: 504) {
           ...GatsbyImageSharpFluid
         }
       }
     }
-    mark_1: file(relativePath: { eq: "uploads/mark-1.jpg" }) {
+    pooja_1: file(relativePath: { eq: "uploads/staff-pooja-1.jpg" }) {
       childImageSharp {
         fluid(quality: 90, maxWidth: 504) {
           ...GatsbyImageSharpFluid_withWebp
         }
       }
     }
-    joanna_1: file(relativePath: { eq: "uploads/joanna-1.jpg" }) {
+    dylan_1: file(relativePath: { eq: "uploads/staff-dylan-1.jpg" }) {
+      childImageSharp {
+        fluid(quality: 90, maxWidth: 504) {
+          ...GatsbyImageSharpFluid_withWebp
+        }
+      }
+    }
+    joanna_1: file(relativePath: { eq: "uploads/staff-joanna-1.jpg" }) {
       childImageSharp {
         fluid(quality: 90, maxWidth: 504) {
           ...GatsbyImageSharpFluid_withWebp
