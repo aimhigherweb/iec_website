@@ -469,13 +469,13 @@ export default function (props) {
           </li>
           <li className="employee-box open-close">
             <div className="employee-inner hover-elem">
-              <Img sizes={pooja_1.childImageSharp.fluid} alt="" />
+              <Img sizes={dylan_1.childImageSharp.fluid} alt="" />
               <Link
-                to="/who-we-are/pooja-bhindi"
+                to="/who-we-are/dylan-bentley"
                 className="employee-inner__rollover "
               >
                 <div className="employee-inner__rollover__box">
-                  <strong className="name">Pooja Bhindi</strong>
+                  <strong className="name">Dylan Bentley</strong>
                   <span className="position">Optometrist</span>
                   <span className="btn-opener">
                     <i className="icon-zoom" />
@@ -486,13 +486,13 @@ export default function (props) {
           </li>
           <li className="employee-box open-close">
             <div className="employee-inner hover-elem">
-              <Img sizes={dylan_1.childImageSharp.fluid} alt="" />
+              <Img sizes={pooja_1.childImageSharp.fluid} alt="" />
               <Link
-                to="/who-we-are/dylan-bentley"
+                to="/who-we-are/pooja-bhindi"
                 className="employee-inner__rollover "
               >
                 <div className="employee-inner__rollover__box">
-                  <strong className="name">Dylan Bentley</strong>
+                  <strong className="name">Pooja Bhindi</strong>
                   <span className="position">Optometrist</span>
                   <span className="btn-opener">
                     <i className="icon-zoom" />
