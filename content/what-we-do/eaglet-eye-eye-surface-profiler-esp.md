@@ -1,5 +1,5 @@
 ---
-title: "Eaglet Eye – Eye Surface Profiler (ESP) "
+title: Corneal Tomography
 category: advanced-imaging-technology
 ---
 <div class="employee-heading">
