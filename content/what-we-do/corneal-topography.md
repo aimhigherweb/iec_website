@@ -29,11 +29,7 @@ The Medmont E300 corneal topographer provides a similar three-dimensional repres
 
 ![](/uploads/topographer.jpg)
 
-
-
 <br>
-
-
 
 ##### References
 
