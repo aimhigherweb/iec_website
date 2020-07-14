@@ -4,7 +4,7 @@ category: advanced-imaging-technology
 preview-image: anterior-photography-collage.png
 ---
 <div class="employee-heading">
-<p>Anterior imaging (that is, imaging of the front of the eye) is vital for detecting and recording important information about your eye health, as well as for providing information about the shape of your eye in <a href="/what-we-do/contact-lenses">contact lens<a/> fittings. At Innovative Eye Care we use the highest quality equipment to ensure the best monitoring of our patients' eyes. </p>
+<p>Anterior imaging (imaging of the front of the eye) is vital for detecting and recording important information about your eye health, as well as for providing information about the shape of your eye in <a href="/what-we-do/contact-lenses">contact lens</a> fittings. At Innovative Eye Care we use the highest quality equipment to ensure the best monitoring of our patients' eyes. </p>
 </div>
 
 Both our Adelaide and Woodville practices are equipped with slit-lamp bio-microscopes that have a high quality Canon digital camera incorporated to take high resolution images. Your optometrist will use these for a magnified and detailed view of your eyes during your eye examination.
