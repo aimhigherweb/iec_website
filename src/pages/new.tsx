@@ -108,6 +108,20 @@ const TeamStaffImage = styled.img`
   height: 100px;
   filter: grayscale(100%);
 `
+const TeamDescription = styled.div`
+  padding: 10%;
+  text-align: center;
+`
+const TeamService = styled.div`
+  display: flex;
+  justify-content: center;
+`
+const TeamServiceImage = styled.img`
+  width: auto;
+  height: 30px;
+  margin: 20px;
+`
+
 const TeamSection = (
   <Section>
     <div>
@@ -118,8 +132,28 @@ const TeamSection = (
         <TeamStaffImage src="/images2/staff-dylan.png" />
         <TeamStaffImage src="/images2/staff-pooja.png" />
       </TeamStaff>
+      <TeamDescription>
+        As practitioners, we firmly believe in comprehensive care. As
+        innovators, we provide this care with the most up-to-date technology,
+        knowledge, products and services available. As people, we value each one
+        of our patients and their individual needs. Our practice is proudly
+        independent and South Australian owned and operated. Part of a long
+        legacy of optometry in Adelaide and its surrounds, we welcome
+        generations of family members as they continue in our care.{" "}
+      </TeamDescription>
+      <TeamService>
+        <TeamServiceImage src="/images2/service-eyewear-experts.png" />
+        <TeamServiceImage src="/images2/service-bespoke-contact-lenses.png" />
+        <TeamServiceImage src="/images2/service-paediatric-vision.png" />
+        <TeamServiceImage src="/images2/service-dry-eye-clinic.png" />
+        <TeamServiceImage src="/images2/service-adv-imaging.png" />
+        <TeamServiceImage src="/images2/service-orthok-correction.png" />
+      </TeamService>
+    </div>
   </Section>
 )
+
+//--------------------------------------------------------
 const Home: React.FC = (props) => {
   console.log(`*** Home.RENDER`)
   return (
