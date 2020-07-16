@@ -93,11 +93,39 @@ const MainSection = (
     </MainHeader>
   </Main>
 )
+
+//-------------------------------------------------------
+const TeamTitle = styled.h1`
+  text-align: center;
+  font-family: "Times New Roman";
+`
+const TeamStaff = styled.div`
+  display: flex;
+  justify-content: center;
+`
+const TeamStaffImage = styled.img`
+  width: auto;
+  height: 100px;
+  filter: grayscale(100%);
+`
+const TeamSection = (
+  <Section>
+    <div>
+      <TeamTitle>We are a team of industry leaders</TeamTitle>
+      <TeamStaff>
+        <TeamStaffImage src="/images2/staff-lachie.png" />
+        <TeamStaffImage src="/images2/staff-karl.png" />
+        <TeamStaffImage src="/images2/staff-dylan.png" />
+        <TeamStaffImage src="/images2/staff-pooja.png" />
+      </TeamStaff>
+  </Section>
+)
 const Home: React.FC = (props) => {
   console.log(`*** Home.RENDER`)
   return (
     <Container>
       {MainSection}
+      {TeamSection}
     </Container>
   )
 }
