@@ -4,12 +4,12 @@ category: advanced-imaging-technology
 preview-image: null
 ---
 <div class="employee-heading">
-<p>An ocular biometer measures the size and shape of the eye, specifically axial lengths (distance from the front to the back of the eye implicated in <a href="/what-we-do/auto-phoropter">refractive error</a>), anterior chamber depth (important for  <a href="/what-we-do/glaucoma">glaucoma</a>) and keratometry (curvature of the cornea, the clear structure at the front of the eye). Each of these measurements aids in the management of diseases like <a href="/what-we-do/cataract">cataract</a>, and the monitoring of progressive <a href="/what-we-do/myopia">myopia</a>. Both our Adelaide and Woodville branches are equipped with either optical or ultrasound biometers.</p>
+<p>An ocular biometer measures the size and shape of the eye, specifically axial lengths (distance from the front to the back of the eye implicated in <a href="/what-we-do/auto-phoropter">refractive error</a>), anterior chamber depth (important for  <a href="/what-we-do/glaucoma">glaucoma</a>) and keratometry (curvature of the cornea, the clear structure at the front of the eye). Each of these measurements aids in the management of diseases like <a href="/what-we-do/cataract">cataract</a>, and the monitoring of progressive <a href="/what-we-do/myopia">myopia</a>. Both our Adelaide and Woodville branches are equipped with either optical or ultrasound biometers like the <i>IOL Master</i>, and most recently the <i>Pentacam AXL Wave</i>.</p>
 </div>
 
 #### Cataract
 
-The main function of an optical biometer is to calculate the power of the intraocular lens (IOL) for patients who are undergoing [cataract](/what-we-do/cataract) surgery. Patients with cataracts develop opacities within the lens inside their eye, which causes blurry and cloudy vision. The lens is replaced during surgery with an artificial IOL, the optical power of which is decided beforehand for clear vision at a chosen distance. There are a multitude of intraocular lenses available, including aspheric, toric, multifocal and monovision lenses. The optical biometer helps us to measure the power of the lens in the eye, and have more informed discussions with our cataract patients about their IOL options.
+The main function of an optical biometer is to calculate the power of the intraocular lens (IOL) for patients who are undergoing [cataract](/what-we-do/cataract) surgery.  Cataract is the opacification of the crystalline lens in the eye, which causes blurry and cloudy vision. With the addition of the Pentacam AXL Wave, we can now also objectively quantify the opacification by densitometry. The opacified lens is replaced during surgery with an artificial IOL, the optical power of which is decided beforehand for clear vision at a chosen distance. Optical biometry helps us to measure the power of the lens in the eye, determine what 
 
 #### Myopia control
 
