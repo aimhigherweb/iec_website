@@ -4,7 +4,7 @@ category: advanced-imaging-technology
 ---
 <div class="employee-heading">
 
-<p>The Pentacam AXL Wave is the latest addition to Innovative Eye Care’s arsenal of advanced imaging technology at the Hutt Street branch. Its main functionality is as a tomographer. Tomography refers to the cross-sectional scanning of body tissues using non-invasive techniques. In relation to the cornea, tomography gives a much more complete view of the anterior ocular tissues than topography, which uses reflection to assess the front surface alone.</p>
+<p>The Pentacam AXL Wave is the latest addition to Innovative Eye Care’s arsenal of advanced imaging technology at our Hutt Street branch. Its main functionality is as a tomographer. Tomography refers to the cross-sectional scanning of body tissues using non-invasive techniques. In relation to the cornea, tomography gives a much more complete view of the anterior ocular tissues than topography, which uses reflection to assess the front surface alone.</p>
 
 </div>
 
