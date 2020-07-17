@@ -1,11 +1,10 @@
 ---
 title: Optical and Ultrasound Biometry
 category: advanced-imaging-technology
-preview-image: 
+preview-image: null
 ---
-
 <div class="employee-heading">
-<p>Our newest addition to our growing collection of specialised equipment, the ocular biometer measures the size and shape of the eye by looking at axial lengths, anterior chamber depth and keratometry. Each of these measurements aids in the management of diseases like <a href="/what-we-do/cataract">cataract</a>, and the monitoring of progressive <a href="/what-we-do/myopia">myopia</a>. Both our Adelaide and Woodville branches are equipped with either optical or ultrasound biometers.</p>
+<p>An ocular biometer measures the size and shape of the eye, specifically axial lengths (distance from the front to the back of the eye implicated in <a href="/what-we-do/auto-phoropter">refractive error</a>), anterior chamber depth (important for  <a href="/what-we-do/glaucoma">glaucoma</a>) and keratometry (curvature of the cornea, the clear structure at the front of the eye). Each of these measurements aids in the management of diseases like <a href="/what-we-do/cataract">cataract</a>, and the monitoring of progressive <a href="/what-we-do/myopia">myopia</a>. Both our Adelaide and Woodville branches are equipped with either optical or ultrasound biometers.</p>
 </div>
 
 #### Cataract
