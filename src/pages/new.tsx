@@ -1,16 +1,9 @@
 import React from "react"
 import styled from "styled-components"
 
-const Container = styled.div`
-  height: 100%;
-  margin: 0;
-`
-
-const Section = styled.div`
-  width: auto;
-  height: 100vh;
-  background-color: lightblue;
-`
+//----------------------------------------------------------
+//-- Section 0: Main
+//----------------------------------------------------------
 const Main = styled(Section)`
   background-image: url("/images2/z-main-bg.jpg");
   background-size: cover;
@@ -94,7 +87,9 @@ const MainSection = (
   </Main>
 )
 
-//-------------------------------------------------------
+//----------------------------------------------------------
+//-- Section 1: Team
+//----------------------------------------------------------
 const TeamTitle = styled.h1`
   text-align: center;
   font-family: "Times New Roman";
@@ -153,8 +148,19 @@ const TeamSection = (
   </Section>
 )
 
-//--------------------------------------------------------
-const Home: React.FC = (props) => {
+//----------------------------------------------------------
+//-- Render
+//----------------------------------------------------------
+const Container = styled.div`
+  height: 100%;
+  margin: 0;
+`
+const Section = styled.div`
+  width: auto;
+  height: 100vh;
+  background-color: lightblue;
+`
+const Home: React.FC = () => {
   console.log(`*** Home.RENDER`)
   return (
     <Container>
