@@ -93,59 +93,93 @@ const Main = (
 //----------------------------------------------------------
 //-- Section 1: Team
 //----------------------------------------------------------
+const DEBUG_TEAM = "0px solid blue"
 const TeamSection = styled.div`
-  padding: 80px 10%;
+  padding: 40px 10%;
 `
 
 const TeamTitle = styled.h1`
   text-align: center;
   font-family: "Times New Roman";
-  font-size: 2.5em;
+  font-size: 2em;
 `
-const TeamStaff = styled.div`
+
+const TeamStaffBar = styled.div`
   display: flex;
   justify-content: center;
+  padding: 0 40px;
+  border: ${DEBUG_TEAM};
+`
+const TeamStaff = styled.div`
+  flex: 1;
+  margin: 0 4px;
 `
 const TeamStaffImage = styled.img`
-  width: auto;
-  height: 200px;
-  margin: 0 20px;
-
+  width: 100%;
+  height: auto;
   filter: grayscale(100%);
 `
+
 const TeamDescription = styled.div`
-  padding: 40px 10%;
+  padding: 40px 40px;
   text-align: center;
+  font-size: 0.6em;
+  border: ${DEBUG_TEAM};
 `
+
 const TeamService = styled.div`
   display: flex;
-  padding: 0 10%;
   justify-content: space-around;
+  padding: 0 40px;
+  border: ${DEBUG_TEAM};
 `
 const TeamServiceItem = styled.div`
-  width: 140px;
+  flex: 1;
+  border: ${DEBUG_TEAM};
 `
 const TeamServiceImage = styled.img`
   display: block;
   width: auto;
-  height: 60px;
+  height: 24px;
   margin: 16px auto;
+  border: ${DEBUG_TEAM};
 `
 const TeamServiceTitle = styled.p`
-  font-size: 0.6em;
+  font-size: 0.5em;
   font-weight: 600;
   text-align: center;
+  border: ${DEBUG_TEAM};
+`
+
+const TeamFooter = styled.div`
+  padding: 40px 0 0 0;
+  border: ${DEBUG_TEAM};
+`
+const TeamFooterImage = styled.img`
+  display: block;
+  width: auto;
+  height: 12px;
+  margin: 0px auto;
+  border: ${DEBUG_TEAM};
 `
 
 const Team = (
   <TeamSection>
     <TeamTitle>We are a team of industry leaders</TeamTitle>
-    <TeamStaff>
-      <TeamStaffImage src="/images2/staff-lachie.png" />
-      <TeamStaffImage src="/images2/staff-karl.png" />
-      <TeamStaffImage src="/images2/staff-dylan.png" />
-      <TeamStaffImage src="/images2/staff-pooja.png" />
-    </TeamStaff>
+    <TeamStaffBar>
+      <TeamStaff>
+        <TeamStaffImage src="/images2/staff-lachie.png" />
+      </TeamStaff>
+      <TeamStaff>
+        <TeamStaffImage src="/images2/staff-karl.png" />
+      </TeamStaff>
+      <TeamStaff>
+        <TeamStaffImage src="/images2/staff-dylan.png" />
+      </TeamStaff>
+      <TeamStaff>
+        <TeamStaffImage src="/images2/staff-pooja.png" />
+      </TeamStaff>
+    </TeamStaffBar>
     <TeamDescription>
       As practitioners, we firmly believe in comprehensive care. As innovators,
       we provide this care with the most up-to-date technology, knowledge,
@@ -205,6 +239,9 @@ const Team = (
         </TeamServiceTitle>
       </TeamServiceItem>
     </TeamService>
+    <TeamFooter>
+      <TeamFooterImage src="/images2/icon-arrow-down.png" />
+    </TeamFooter>
   </TeamSection>
 )
 
