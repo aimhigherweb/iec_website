@@ -4,7 +4,10 @@ import styled from "styled-components"
 //----------------------------------------------------------
 //-- Section 0: Main
 //----------------------------------------------------------
-const Main = styled(Section)`
+const MainSection = styled.div`
+  width: auto;
+  height: 100vh;
+
   background-image: url("/images2/z-main-bg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -70,8 +73,8 @@ const MainBookingButton = styled.button`
   border: none;
 `
 
-const MainSection = (
-  <Main>
+const Main = (
+  <MainSection>
     <MainHeader>
       <Logo />
       <Menu />
@@ -84,15 +87,20 @@ const MainSection = (
         <MainBookingButton>Book Online Woodville.</MainBookingButton>
       </MainBooking>
     </MainHeader>
-  </Main>
+  </MainSection>
 )
 
 //----------------------------------------------------------
 //-- Section 1: Team
 //----------------------------------------------------------
+const TeamSection = styled.div`
+  padding: 80px 10%;
+`
+
 const TeamTitle = styled.h1`
   text-align: center;
   font-family: "Times New Roman";
+  font-size: 2.5em;
 `
 const TeamStaff = styled.div`
   display: flex;
@@ -100,52 +108,104 @@ const TeamStaff = styled.div`
 `
 const TeamStaffImage = styled.img`
   width: auto;
-  height: 100px;
+  height: 200px;
+  margin: 0 20px;
+
   filter: grayscale(100%);
 `
 const TeamDescription = styled.div`
-  padding: 10%;
+  padding: 40px 10%;
   text-align: center;
 `
 const TeamService = styled.div`
   display: flex;
-  justify-content: center;
+  padding: 0 10%;
+  justify-content: space-around;
+`
+const TeamServiceItem = styled.div`
+  width: 140px;
 `
 const TeamServiceImage = styled.img`
+  display: block;
   width: auto;
-  height: 30px;
-  margin: 20px;
+  height: 60px;
+  margin: 16px auto;
+`
+const TeamServiceTitle = styled.p`
+  font-size: 0.6em;
+  font-weight: 600;
+  text-align: center;
 `
 
-const TeamSection = (
-  <Section>
-    <div>
-      <TeamTitle>We are a team of industry leaders</TeamTitle>
-      <TeamStaff>
-        <TeamStaffImage src="/images2/staff-lachie.png" />
-        <TeamStaffImage src="/images2/staff-karl.png" />
-        <TeamStaffImage src="/images2/staff-dylan.png" />
-        <TeamStaffImage src="/images2/staff-pooja.png" />
-      </TeamStaff>
-      <TeamDescription>
-        As practitioners, we firmly believe in comprehensive care. As
-        innovators, we provide this care with the most up-to-date technology,
-        knowledge, products and services available. As people, we value each one
-        of our patients and their individual needs. Our practice is proudly
-        independent and South Australian owned and operated. Part of a long
-        legacy of optometry in Adelaide and its surrounds, we welcome
-        generations of family members as they continue in our care.{" "}
-      </TeamDescription>
-      <TeamService>
+const Team = (
+  <TeamSection>
+    <TeamTitle>We are a team of industry leaders</TeamTitle>
+    <TeamStaff>
+      <TeamStaffImage src="/images2/staff-lachie.png" />
+      <TeamStaffImage src="/images2/staff-karl.png" />
+      <TeamStaffImage src="/images2/staff-dylan.png" />
+      <TeamStaffImage src="/images2/staff-pooja.png" />
+    </TeamStaff>
+    <TeamDescription>
+      As practitioners, we firmly believe in comprehensive care. As innovators,
+      we provide this care with the most up-to-date technology, knowledge,
+      products and services available. As people, we value each one of our
+      patients and their individual needs. Our practice is proudly independent
+      and South Australian owned and operated. Part of a long legacy of
+      optometry in Adelaide and its surrounds, we welcome generations of family
+      members as they continue in our care.{" "}
+    </TeamDescription>
+    <TeamService>
+      <TeamServiceItem>
         <TeamServiceImage src="/images2/service-eyewear-experts.png" />
+        <TeamServiceTitle>
+          EYEWEAR
+          <br />
+          EXPERTS
+        </TeamServiceTitle>
+      </TeamServiceItem>
+      <TeamServiceItem>
         <TeamServiceImage src="/images2/service-bespoke-contact-lenses.png" />
+        <TeamServiceTitle>
+          BESPOKE
+          <br />
+          CONTACT LENSES
+        </TeamServiceTitle>
+      </TeamServiceItem>
+      <TeamServiceItem>
         <TeamServiceImage src="/images2/service-paediatric-vision.png" />
+        <TeamServiceTitle>
+          PAEDIATRIC
+          <br />
+          VISION
+        </TeamServiceTitle>
+      </TeamServiceItem>
+      <TeamServiceItem>
         <TeamServiceImage src="/images2/service-dry-eye-clinic.png" />
+        <TeamServiceTitle>
+          DRY EYE
+          <br />
+          CLINIC
+        </TeamServiceTitle>
+      </TeamServiceItem>
+      <TeamServiceItem>
         <TeamServiceImage src="/images2/service-adv-imaging.png" />
+        <TeamServiceTitle>
+          ADVANCED
+          <br />
+          IMAGING
+        </TeamServiceTitle>
+      </TeamServiceItem>
+      <TeamServiceItem>
         <TeamServiceImage src="/images2/service-orthok-correction.png" />
-      </TeamService>
-    </div>
-  </Section>
+        <TeamServiceTitle>
+          ORTHO-K OVERNIGHT
+          <br />
+          CORRECTION
+        </TeamServiceTitle>
+      </TeamServiceItem>
+    </TeamService>
+  </TeamSection>
 )
 
 //----------------------------------------------------------
@@ -155,17 +215,12 @@ const Container = styled.div`
   height: 100%;
   margin: 0;
 `
-const Section = styled.div`
-  width: auto;
-  height: 100vh;
-  background-color: lightblue;
-`
 const Home: React.FC = () => {
   console.log(`*** Home.RENDER`)
   return (
     <Container>
-      {MainSection}
-      {TeamSection}
+      {Main}
+      {Team}
     </Container>
   )
 }
