@@ -246,6 +246,109 @@ const Team = (
 )
 
 //----------------------------------------------------------
+//-- Section 2: Style
+//----------------------------------------------------------
+const DEBUG_STYLE = "0px solid blue"
+const StyleSection = styled.div`
+  width: auto;
+  height: 100vh;
+
+  background-image: url("/images2/bg-section-style.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+`
+
+const StyleTitle = styled.h1`
+  padding-top: 40px;
+  text-align: center;
+  font-family: "Times New Roman";
+  font-size: 1.2em;
+  color: white;
+  border: ${DEBUG_STYLE};
+`
+
+const StyleDescription = styled.div`
+  padding: 40px 40px;
+  text-align: left;
+  font-size: 0.8em;
+  border: ${DEBUG_STYLE};
+`
+const StyleBookingButton = styled.button`
+  margin-top: 8px;
+  padding: 4px 16px;
+  color: white;
+  font-family: "Times New Roman";
+  font-size: 1em;
+  font-weight: 600;
+  background-color: #5091cd;
+  border: none;
+`
+
+const StyleFooter = styled.div`
+  position: relative;
+  bottom: 0px;
+  left: 0px;
+  background-color: #bcb0a240;
+  border: ${DEBUG_STYLE};
+`
+const StyleBrandBar = styled.div`
+  display: flex;
+  justify-content: space-around;
+  border: ${DEBUG_STYLE};
+`
+const StyleBrandItem = styled.div`
+  flex: 1;
+  padding: 0 10px;
+  border: ${DEBUG_STYLE};
+`
+const StyleBrandImage = styled.img`
+  display: block;
+  width: auto;
+  height: 24px;
+  margin: 16px auto;
+  border: ${DEBUG_STYLE};
+`
+
+const Style = (
+  <StyleSection>
+    <StyleTitle>
+      We prioritise your eye health without
+      <br />
+      compromising your style
+    </StyleTitle>
+    <StyleDescription>
+      We&apos;ve made it easy to schedule your next appointment
+      <br />
+      with our online booking system.
+      <br />
+      <StyleBookingButton>Book online today.</StyleBookingButton>
+    </StyleDescription>
+    <StyleFooter>
+      <StyleBrandBar>
+        <StyleBrandItem>
+          <StyleBrandImage src="/images2/icon-style-lindberg.png" />
+        </StyleBrandItem>
+        <StyleBrandItem>
+          <StyleBrandImage src="/images2/icon-style-face.png" />
+        </StyleBrandItem>
+        <StyleBrandItem>
+          <StyleBrandImage src="/images2/icon-style-prodesign.png" />
+        </StyleBrandItem>
+        <StyleBrandItem>
+          <StyleBrandImage src="/images2/icon-style-monkey.png" />
+        </StyleBrandItem>
+        <StyleBrandItem>
+          <StyleBrandImage src="/images2/icon-style-maui.png" />
+        </StyleBrandItem>
+        <StyleBrandItem>
+          <StyleBrandImage src="/images2/icon-style-goodgryf.png" />
+        </StyleBrandItem>
+      </StyleBrandBar>
+    </StyleFooter>
+  </StyleSection>
+)
+
+//----------------------------------------------------------
 //-- Render
 //----------------------------------------------------------
 const Container = styled.div`
@@ -257,6 +360,8 @@ const Home: React.FC = () => {
   return (
     <Container>
       {Main}
+      {Team}
+      {Style}
       {Team}
     </Container>
   )
