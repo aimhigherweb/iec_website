@@ -204,7 +204,7 @@ export default function(props) {
               icon="/images/icon06.png"
               title="Ortho K"
               desc="Experience the freedom of ortho-K overnight reshaping contact lens molds."
-              articles={props.data.contactLenses.edges}
+              articles={props.data.orthoK.edges}
             />
           </li>
           <li className="what-we-do-box">
