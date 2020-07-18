@@ -1,5 +1,13 @@
 import React from "react"
+
 import styled from "styled-components"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import {
+  faMapMarker,
+  faClock,
+  faPhoneAlt,
+} from "@fortawesome/free-solid-svg-icons"
+import { faFacebook, faInstagram } from "@fortawesome/free-brands-svg-icons"
 
 //----------------------------------------------------------
 //-- Section 0: Main
@@ -17,15 +25,15 @@ const MainHeader = styled.div`
   padding: 40px;
   width: auto;
   height: 70px;
-  border: ${DEBUG_TEAM};
+  border: ${DEBUG_MAIN};
 `
 const Logo = styled.img.attrs({
-  src: "/images2/z-logo.png",
+  src: "/images2/icon-logo.png",
 })`
   width: 270px;
   height: 70px;
   background: clear;
-  border: ${DEBUG_TEAM};
+  border: ${DEBUG_MAIN};
 `
 const Menu = styled.img.attrs({
   src: "/images2/z-icon-menu.png",
@@ -37,13 +45,13 @@ const Menu = styled.img.attrs({
   width: 40px;
   height: 31px;
   background: clear;
-  border: ${DEBUG_TEAM};
+  border: ${DEBUG_MAIN};
 `
 const MainSearch = styled.div`
   position: absolute;
   bottom: 40px;
   left: 40px;
-  border: ${DEBUG_TEAM};
+  border: ${DEBUG_MAIN};
 `
 const MainSearchInput = styled.input`
   width: 250px;
@@ -65,7 +73,7 @@ const MainBooking = styled.div`
   position: absolute;
   bottom: 40px;
   right: 40px;
-  border: ${DEBUG_TEAM};
+  border: ${DEBUG_MAIN};
 `
 const MainBookingButton = styled.button`
   padding: 4px 16px;
@@ -356,6 +364,238 @@ const Style = (
 )
 
 //----------------------------------------------------------
+//-- Section 3: Social
+//----------------------------------------------------------
+const DEBUG_SOCIAL = "0px solid blue"
+const SocialSection = styled.div`
+  padding: 40px 10%;
+`
+
+const SocialTitle = styled.h1`
+  text-align: center;
+  font-family: "Times New Roman";
+  font-size: 1.4em;
+`
+
+const SocialStaffBar = styled.div`
+  display: flex;
+  justify-content: center;
+  padding: 0 40px;
+  border: ${DEBUG_SOCIAL};
+`
+const SocialStaff = styled.div`
+  flex: 1;
+  margin: 0 4px;
+`
+const SocialStaffImage = styled.img`
+  width: 100%;
+  height: auto;
+  filter: grayscale(100%);
+`
+
+const Social = (
+  <SocialSection>
+    <SocialTitle>
+      Follow us on Instagram and Facebook
+      <br /> to see what we&apos;ve been up to!
+    </SocialTitle>
+    <SocialStaffBar>
+      <SocialStaff>
+        <SocialStaffImage src="/images2/social-insta1.jpg" />
+      </SocialStaff>
+      <SocialStaff>
+        <SocialStaffImage src="/images2/social-insta2.jpg" />
+      </SocialStaff>
+      <SocialStaff>
+        <SocialStaffImage src="/images2/social-insta1.jpg" />
+      </SocialStaff>
+      <SocialStaff>
+        <SocialStaffImage src="/images2/social-insta2.jpg" />
+      </SocialStaff>
+    </SocialStaffBar>
+  </SocialSection>
+)
+
+//----------------------------------------------------------
+//-- Section 4: Footer
+//----------------------------------------------------------
+const DEBUG_FOOTER = "0px solid blue"
+const FooterSection = styled.div`
+  padding: 20px;
+  margin-bottom: 40px;
+  border: ${DEBUG_FOOTER};
+`
+
+const FooterLogo = styled.img`
+  width: 120px;
+  height: auto;
+  border: ${DEBUG_FOOTER};
+`
+
+const FooterContent = styled.div`
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  border: ${DEBUG_FOOTER};
+`
+const FooterContentItem = styled.div`
+  flex: 1;
+  margin: 0 4px;
+  border: ${DEBUG_FOOTER};
+`
+const FooterContact = styled.div`
+  display: flex;
+  margin-bottom: 10px;
+  border: ${DEBUG_FOOTER};
+`
+const FooterContactIcon = styled(FontAwesomeIcon)`
+  flex: 1;
+  font-size: 12px;
+  color: #d2d2d2;
+  border: ${DEBUG_FOOTER};
+`
+const FooterContactText = styled.div`
+  flex: 3;
+  font-size: 0.5em;
+  border: ${DEBUG_FOOTER};
+`
+
+const FooterMenu = styled.ul`
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  border: ${DEBUG_FOOTER};
+`
+const FooterMenuItem = styled.li`
+  border: ${DEBUG_FOOTER};
+`
+
+const FooterNewsletterTitle = styled.div`
+  margin-bottom: 10px;
+  font-size: 0.9em;
+  font-weight: 600;
+  font-family: "Times New Roman";
+  border: ${DEBUG_FOOTER};
+`
+const FooterNewsletterInput = styled.input`
+  padding: 0 4px;
+  margin-bottom: 10px;
+  font-size: 0.9em;
+  background-color: #f2f2f2;
+  border: ${DEBUG_FOOTER};
+  border: 1px solid #c2c2c2;
+`
+const FooterNewsletterIcon = styled(FontAwesomeIcon)`
+  margin-right: 10px;
+  font-size: 24px;
+  color: #d2d2d2;
+  cursor: pointer;
+  border: ${DEBUG_FOOTER};
+`
+const FooterGutter = styled.div`
+  margin-top: 40px;
+  border-top: 1px solid #e2e2e2;
+`
+const FooterGutterText = styled.div`
+  margin: 20px 0;
+  font-size: 0.6em;
+  color: black;
+`
+
+const Footer = (
+  <FooterSection>
+    <FooterLogo src="images2/icon-logo-white.png" />
+    <FooterContent>
+      <FooterContentItem>
+        <FooterContact>
+          <FooterContactIcon icon={faMapMarker} />
+          <FooterContactText>
+            60 Hutt Street
+            <br />
+            Adelaide SA 5000
+          </FooterContactText>
+        </FooterContact>
+        <FooterContact>
+          <FooterContactIcon icon={faClock} />
+          <FooterContactText>
+            Mon-Fri 8.30am - 5.30pm
+            <br />
+            Sat 8.30am - 12pm
+          </FooterContactText>
+        </FooterContact>
+        <FooterContact>
+          <FooterContactIcon icon={faPhoneAlt} />
+          <FooterContactText>(08) 8231 9341</FooterContactText>
+        </FooterContact>
+      </FooterContentItem>
+      <FooterContentItem>
+        <FooterContact>
+          <FooterContactIcon icon={faMapMarker} />
+          <FooterContactText>
+            850 Port Road
+            <br />
+            Woodville SA 5011
+          </FooterContactText>
+        </FooterContact>
+        <FooterContact>
+          <FooterContactIcon icon={faClock} />
+          <FooterContactText>
+            Mon-Fri 8.30am - 5.30pm
+            <br />
+            Sat CLOSED
+          </FooterContactText>
+        </FooterContact>
+        <FooterContact>
+          <FooterContactIcon icon={faPhoneAlt} />
+          <FooterContactText>(08) 8445 9050</FooterContactText>
+        </FooterContact>
+      </FooterContentItem>
+      <FooterContentItem>
+        <FooterMenu>
+          <FooterMenuItem>Who We Are</FooterMenuItem>
+          <FooterMenuItem>What We Do</FooterMenuItem>
+          <FooterMenuItem>Patient Resources</FooterMenuItem>
+          <FooterMenuItem>Contact</FooterMenuItem>
+          <FooterMenuItem>Blog</FooterMenuItem>
+        </FooterMenu>
+      </FooterContentItem>
+      <FooterContentItem>
+        <FooterMenu>
+          <FooterMenuItem>Contact Lens Care</FooterMenuItem>
+          <FooterMenuItem>Blepharitis</FooterMenuItem>
+          <FooterMenuItem>Dry Eye</FooterMenuItem>
+          <FooterMenuItem>Nutrition</FooterMenuItem>
+          <FooterMenuItem>About Us</FooterMenuItem>
+        </FooterMenu>
+      </FooterContentItem>
+      <FooterContentItem>
+        <div>
+          <FooterNewsletterTitle>Newsletter</FooterNewsletterTitle>
+          <div>
+            <FooterNewsletterInput placeholder="Enter Your Email" />
+          </div>
+          <div>
+            <FooterNewsletterIcon
+              icon={faFacebook}
+              style={{ color: "#0000dd" }}
+            />
+            <FooterNewsletterIcon
+              icon={faInstagram}
+              style={{ color: "purple" }}
+            />
+          </div>
+        </div>
+      </FooterContentItem>
+    </FooterContent>
+    <FooterGutter>
+      <FooterGutterText>
+        Copyright (C) 2020 INNOVATIVE EYE CARE. Designed by The Benjamins
+      </FooterGutterText>
+    </FooterGutter>
+  </FooterSection>
+)
+
+//----------------------------------------------------------
 //-- Render
 //----------------------------------------------------------
 const Container = styled.div`
@@ -369,7 +609,8 @@ const Home: React.FC = () => {
       {Main}
       {Team}
       {Style}
-      {Team}
+      {Social}
+      {Footer}
     </Container>
   )
 }
