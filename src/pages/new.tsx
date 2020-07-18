@@ -4,6 +4,7 @@ import styled from "styled-components"
 //----------------------------------------------------------
 //-- Section 0: Main
 //----------------------------------------------------------
+const DEBUG_MAIN = "0px solid blue"
 const MainSection = styled.div`
   width: auto;
   height: 100vh;
@@ -16,7 +17,7 @@ const MainHeader = styled.div`
   padding: 40px;
   width: auto;
   height: 70px;
-  border: 1px solid clear;
+  border: ${DEBUG_TEAM};
 `
 const Logo = styled.img.attrs({
   src: "/images2/z-logo.png",
@@ -24,7 +25,7 @@ const Logo = styled.img.attrs({
   width: 270px;
   height: 70px;
   background: clear;
-  border: 1px solid clear;
+  border: ${DEBUG_TEAM};
 `
 const Menu = styled.img.attrs({
   src: "/images2/z-icon-menu.png",
@@ -36,11 +37,13 @@ const Menu = styled.img.attrs({
   width: 40px;
   height: 31px;
   background: clear;
+  border: ${DEBUG_TEAM};
 `
 const MainSearch = styled.div`
   position: absolute;
   bottom: 40px;
   left: 40px;
+  border: ${DEBUG_TEAM};
 `
 const MainSearchInput = styled.input`
   width: 250px;
@@ -62,6 +65,7 @@ const MainBooking = styled.div`
   position: absolute;
   bottom: 40px;
   right: 40px;
+  border: ${DEBUG_TEAM};
 `
 const MainBookingButton = styled.button`
   padding: 4px 16px;
@@ -78,15 +82,15 @@ const Main = (
     <MainHeader>
       <Logo />
       <Menu />
-      <MainSearch>
-        <MainSearchInput placeholder="Search now." />
-      </MainSearch>
-      <MainBooking>
-        <MainBookingButton>Book Online Adelaide.</MainBookingButton>
-        &nbsp;&nbsp;&nbsp;
-        <MainBookingButton>Book Online Woodville.</MainBookingButton>
-      </MainBooking>
     </MainHeader>
+    <MainSearch>
+      <MainSearchInput placeholder="Search now." />
+    </MainSearch>
+    <MainBooking>
+      <MainBookingButton>Book Online Adelaide.</MainBookingButton>
+      &nbsp;&nbsp;&nbsp;
+      <MainBookingButton>Book Online Woodville.</MainBookingButton>
+    </MainBooking>
   </MainSection>
 )
 
@@ -250,6 +254,7 @@ const Team = (
 //----------------------------------------------------------
 const DEBUG_STYLE = "0px solid blue"
 const StyleSection = styled.div`
+  position: relative;
   width: auto;
   height: 100vh;
 
@@ -259,18 +264,18 @@ const StyleSection = styled.div`
 `
 
 const StyleTitle = styled.h1`
-  padding-top: 40px;
+  padding-top: 80px;
   text-align: center;
   font-family: "Times New Roman";
   font-size: 1.2em;
   color: white;
   border: ${DEBUG_STYLE};
 `
-
 const StyleDescription = styled.div`
-  padding: 40px 40px;
+  padding: 40px 80px;
   text-align: left;
   font-size: 0.8em;
+  font-weight: 500;
   border: ${DEBUG_STYLE};
 `
 const StyleBookingButton = styled.button`
@@ -285,10 +290,10 @@ const StyleBookingButton = styled.button`
 `
 
 const StyleFooter = styled.div`
-  position: relative;
+  position: absolute;
   bottom: 0px;
   left: 0px;
-  background-color: #bcb0a240;
+  background-color: #00000033; /*#bcb0a240 */
   border: ${DEBUG_STYLE};
 `
 const StyleBrandBar = styled.div`
@@ -323,28 +328,30 @@ const Style = (
       <br />
       <StyleBookingButton>Book online today.</StyleBookingButton>
     </StyleDescription>
-    <StyleFooter>
-      <StyleBrandBar>
-        <StyleBrandItem>
-          <StyleBrandImage src="/images2/icon-style-lindberg.png" />
-        </StyleBrandItem>
-        <StyleBrandItem>
-          <StyleBrandImage src="/images2/icon-style-face.png" />
-        </StyleBrandItem>
-        <StyleBrandItem>
-          <StyleBrandImage src="/images2/icon-style-prodesign.png" />
-        </StyleBrandItem>
-        <StyleBrandItem>
-          <StyleBrandImage src="/images2/icon-style-monkey.png" />
-        </StyleBrandItem>
-        <StyleBrandItem>
-          <StyleBrandImage src="/images2/icon-style-maui.png" />
-        </StyleBrandItem>
-        <StyleBrandItem>
-          <StyleBrandImage src="/images2/icon-style-goodgryf.png" />
-        </StyleBrandItem>
-      </StyleBrandBar>
-    </StyleFooter>
+    <div>
+      <StyleFooter>
+        <StyleBrandBar>
+          <StyleBrandItem>
+            <StyleBrandImage src="/images2/icon-style-lindberg.png" />
+          </StyleBrandItem>
+          <StyleBrandItem>
+            <StyleBrandImage src="/images2/icon-style-face.png" />
+          </StyleBrandItem>
+          <StyleBrandItem>
+            <StyleBrandImage src="/images2/icon-style-prodesign.png" />
+          </StyleBrandItem>
+          <StyleBrandItem>
+            <StyleBrandImage src="/images2/icon-style-monkey.png" />
+          </StyleBrandItem>
+          <StyleBrandItem>
+            <StyleBrandImage src="/images2/icon-style-maui.png" />
+          </StyleBrandItem>
+          <StyleBrandItem>
+            <StyleBrandImage src="/images2/icon-style-goodgryf.png" />
+          </StyleBrandItem>
+        </StyleBrandBar>
+      </StyleFooter>
+    </div>
   </StyleSection>
 )
 
