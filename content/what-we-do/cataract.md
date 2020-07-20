@@ -9,7 +9,7 @@ preview-image: cataract.jpg
 
 #### What are cataracts?
 
-<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\\\\\\[if IE]><iframe frameborder="0" type="text/html" src="https://2689-2347.captiv8online.com/animations/embed/one/cat-wh-is-it?player_width=100%&player_height=100%&site_company_language=34&autostart=false" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\\\\\\[endif]--><!--\\\\\\[if !IE]> <--><object data="https://2689-2347.captiv8online.com/animations/embed/one/cat-wh-is-it?player_width=100%&player_height=100%&site_company_language=34&autostart=false" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://2689-2347.captiv8online.com/animations/embed/one/cat-wh-is-it?player_width=100%&player_height=100%&site_company_language=34&autostart=false">Cataract: What is it?</a></object><!--> <!\\\\\\[endif]--></div>
+<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\\\\\\\[if IE]><iframe frameborder="0" type="text/html" src="https://2689-2347.captiv8online.com/animations/embed/one/cat-wh-is-it?player_width=100%&player_height=100%&site_company_language=34&autostart=false" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\\\\\\\[endif]--><!--\\\\\\\[if !IE]> <--><object data="https://2689-2347.captiv8online.com/animations/embed/one/cat-wh-is-it?player_width=100%&player_height=100%&site_company_language=34&autostart=false" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://2689-2347.captiv8online.com/animations/embed/one/cat-wh-is-it?player_width=100%&player_height=100%&site_company_language=34&autostart=false">Cataract: What is it?</a></object><!--> <!\\\\\\\[endif]--></div>
 
 <br>
 
@@ -18,8 +18,6 @@ Cataracts arise within the lens inside the eye. They are associated with age rel
 #### What types of cataracts are there?
 
 There are three major types of cataracts which are classified by where the opacification occurs in the crystalline lens. They are *nuclear sclerotic*, *cortical* and *posterior subcapsular* cataracts. These types all affect an individual’s vision slightly differently, but common symptoms of cataracts include blurred vision (in the distance and/or when reading), increased problems with glare and nighttime vision, haloes around lights, and possibly double vision.
-
-![](/uploads/cataract-types-2.png "A nuclear sclerotic, cortical and posterior sub-capsular cataract.")
 
 #### How do I know if I have cataracts?
 
