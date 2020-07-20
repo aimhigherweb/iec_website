@@ -4,12 +4,12 @@ category: eye-disease
 preview-image: cataract.jpg
 ---
 <div class="employee-heading">
-<p>A cataract is a cloudiness of the natural lens of the eye which progresses over time and makes it difficult to see. Cataracts cause light scatter, which can lead to visual problems over time. Almost 35% of Australians have cataract compared to 3.1% with macular degeneration and 2.3% with glaucoma making them one of the most commonly entered visual problems we see in an eye care setting.<sup>1</sup> Optometrists at our Adelaide and Woodville branches have <a href="/what-we-do/anterior-imaging">cutting-edge technology</a> at their disposal that can reveal any changes to the lens of the eye that may lead to cataracts, before symptoms appear. Book an <a href="/what-we-do/eye-exam">eye test</a> for cataract diagnostics and treatment options, or <a href="/contact">contact us</a> for more information. </p>
+<p>A cataract is a cloudiness of the natural lens of the eye which progresses over time and makes it difficult to see. Cataracts cause light scatter, which can lead to visual problems over time. Almost 1 in 3 Australians over the age of 55 have cataract compared to around 1 in 30 with macular degeneration and and 1 in 40 with glaucoma, making them one of the most common visual problems we see.<sup>1</sup> Optometrists at our Adelaide and Woodville branches have <a href="/what-we-do/anterior-imaging">cutting-edge technology</a> at their disposal that can reveal any changes to the lens of the eye that may lead to cataracts, before symptoms appear. Book an <a href="/what-we-do/eye-exam">eye test</a> for cataract diagnostics and treatment options, or <a href="/contact">contact us</a> for more information. </p>
 </div>
 
 #### What are cataracts?
 
-<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\\\\\[if IE]><iframe frameborder="0" type="text/html" src="https://2689-2347.captiv8online.com/animations/embed/one/cat-wh-is-it?player_width=100%&player_height=100%&site_company_language=34&autostart=false" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\\\\\[endif]--><!--\\\\\[if !IE]> <--><object data="https://2689-2347.captiv8online.com/animations/embed/one/cat-wh-is-it?player_width=100%&player_height=100%&site_company_language=34&autostart=false" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://2689-2347.captiv8online.com/animations/embed/one/cat-wh-is-it?player_width=100%&player_height=100%&site_company_language=34&autostart=false">Cataract: What is it?</a></object><!--> <!\\\\\[endif]--></div>
+<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\\\\\\[if IE]><iframe frameborder="0" type="text/html" src="https://2689-2347.captiv8online.com/animations/embed/one/cat-wh-is-it?player_width=100%&player_height=100%&site_company_language=34&autostart=false" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\\\\\\[endif]--><!--\\\\\\[if !IE]> <--><object data="https://2689-2347.captiv8online.com/animations/embed/one/cat-wh-is-it?player_width=100%&player_height=100%&site_company_language=34&autostart=false" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://2689-2347.captiv8online.com/animations/embed/one/cat-wh-is-it?player_width=100%&player_height=100%&site_company_language=34&autostart=false">Cataract: What is it?</a></object><!--> <!\\\\\\[endif]--></div>
 
 <br>
 
@@ -44,7 +44,5 @@ If these changes are not enough to alleviate an individual's visual problems, re
 #### References
 
 1. Australian Institute of Health and Welfare, 2005. Vision Problems Among Older Australians. Canberra, pp.12-15.
-
 2. RANZCO - Cataract Surgery (A Guide for Patients). Edition number 10, 30 August 2017.
-
 3. Australian Institute of Health and Welfare 2019. Hospitals at a glance 2017–18. Canberra: AIHW. Available at: https://www.aihw.gov.au/reports/hospitals/hospitals-at-a-glance-2017-18
