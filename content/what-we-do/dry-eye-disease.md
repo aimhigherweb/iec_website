@@ -3,7 +3,7 @@ title: Dry Eye Disease
 category: dry-eye-clinic
 preview-image: dry-eye.jpg
 ---
-## Are your eyes **DRIED**? (***D***ry *R*ed *I*rritated *E*ye *D*isease)
+## Are your eyes **DRIED**? (***D**ry Red Irritated Eye Disease*)
 
 <p>Dry eye disease describes a spectrum of conditions that feature ineffective lubrication of the eye. Symptoms range from discomfort through to disabling pain, redness and fluctuating vision and can impact on many visual activities.
 
