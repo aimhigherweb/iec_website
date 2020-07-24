@@ -5,11 +5,13 @@ preview-image: contact-lens-info-woman.jpg
 ---
 <div class="employee-heading">
 <p><p>Contact lenses are an alternative option to spectacles for correcting vision and can offer clear vision for an array of eye conditions. At our Adelaide and Woodville branches, an optometrist can advise you on whether contact lenses are right for you. The following information will answer some of the questions you may have about contact lenses before your <a href="/what-we-do/eye-exam">appointment</a>.</p>
+
+
 <p><b>For more information on contact lenses, please see the links below:</b></p>
-<h4>• <a href="/what-we-do/soft-contact-lenses">Soft Contact Lenses</a></h4>
-<h4>• <a href="/what-we-do/gas-permeable-contact-lenses">Rigid Contact Lenses</a></h4>
-<h4>• <a href="/what-we-do/scleral-contact-lenses">Scleral Contact Lenses</a></h4>
-<h4>• <a href="/what-we-do/orthokeratology-corneal-reshaping">Orthokeratology Lenses</a></h4>
+<a href="/what-we-do/soft-contact-lenses">Soft Contact Lenses</a>
+• <a href="/what-we-do/gas-permeable-contact-lenses">Rigid Contact Lenses</a>
+• <a href="/what-we-do/scleral-contact-lenses">Scleral Contact Lenses</a>
+• <a href="/what-we-do/orthokeratology-corneal-reshaping">Orthokeratology Lenses</a>
 </div>
 
 ![](/uploads/scl-rgp-scleral-2.jpg)
