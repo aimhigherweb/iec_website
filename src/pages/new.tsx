@@ -429,11 +429,13 @@ const FooterSection = styled.div`
 
 const FooterLogo = styled.div`
   display: flex;
+  margin-bottom: 10px;
 `
 const FooterLogoItem = styled.div`
   flex: 0 1 20%;
 `
 const FooterLogoImg = styled.img`
+  margin-left: 10px;
   width: 120px;
   height: auto;
   border: ${DEBUG_FOOTER};
@@ -456,7 +458,7 @@ const FooterContact = styled.div`
   border: ${DEBUG_FOOTER};
 `
 const FooterContactIcon = styled(FontAwesomeIcon)`
-  flex: 1;
+  flex: 0 1 40px;
   font-size: 12px;
   color: #d2d2d2;
   border: ${DEBUG_FOOTER};
