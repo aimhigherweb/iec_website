@@ -5,7 +5,7 @@ preview-image: dry-eye.jpg
 ---
 ## <div class="employee-heading">
 
-## Are your eyes **DRIED**? (***D**ry Red Irritated Eye Disease*)
+## Are your eyes **DRIED**? (**\*D**ry Red Irritated Eye Disease*)
 
 <p>Dry eye disease describes a spectrum of conditions that feature ineffective lubrication of the eye. Symptoms range from discomfort through to disabling pain, redness and fluctuating vision and can impact on many visual activities.
 
@@ -17,9 +17,9 @@ The underlying causes of dry eyes are complex and numerous and need a thorough <
 <h4>• <a href="/what-we-do/blephex">Blephex</a></h4>
 <h4>• <a href="/what-we-do/ipl">IPL (Intense Pulse Light)</a></h4>
 <h4>• <a href="/what-we-do/punctal-plugs">Punctal Plugs</a></h4>
-<h4>• <a href="/what-we-do/eye-drops">Eye Drops</a></h4></p>
+<h4>• <a href="/what-we-do/eye-drops">Eye Drops</a></h4></p></div>
 
-</div>
+<br>
 
 #### What causes dry eye disease?
 
@@ -35,7 +35,7 @@ In most dry eye cases, the watery aqueous component is produced at normal quanti
 
 Severe cases of dry eye are due to low production of aqueous tears, referred to as aqueous deficient dry eye.  This is less common than evaporative dry eye, and may be due to autoimmune disease, dehydration, poor sleep,  medication or prior eye surgery. <sup>1</sup>
 
-<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\\\\\\\\\\\\\\\[if IE]><iframe frameborder="0" type="text/html" src="https://2689-2347.captiv8online.com/animations/embed/one/dry-eye-cause-symptoms?player_width=100%&player_height=100%&site_company_language=34&autostart=false" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\\\\\\\\\\\\\\\[endif]--><!--\\\\\\\\\\\\\\\[if !IE]> <--><object data="https://2689-2347.captiv8online.com/animations/embed/one/dry-eye-cause-symptoms?player_width=100%&player_height=100%&site_company_language=34&autostart=false" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://2689-2347.captiv8online.com/animations/embed/one/dry-eye-cause-symptoms?player_width=100%&player_height=100%&site_company_language=34&autostart=false">Dry Eye: Cause & Symptoms</a></object><!--> <!\\\\\\\\\\\\\\\[endif]--></div>
+<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\\\\\\\\\\\\\\\\[if IE]><iframe frameborder="0" type="text/html" src="https://2689-2347.captiv8online.com/animations/embed/one/dry-eye-cause-symptoms?player_width=100%&player_height=100%&site_company_language=34&autostart=false" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\\\\\\\\\\\\\\\\[endif]--><!--\\\\\\\\\\\\\\\\[if !IE]> <--><object data="https://2689-2347.captiv8online.com/animations/embed/one/dry-eye-cause-symptoms?player_width=100%&player_height=100%&site_company_language=34&autostart=false" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://2689-2347.captiv8online.com/animations/embed/one/dry-eye-cause-symptoms?player_width=100%&player_height=100%&site_company_language=34&autostart=false">Dry Eye: Cause & Symptoms</a></object><!--> <!\\\\\\\\\\\\\\\\[endif]--></div>
 
 <br>
 
