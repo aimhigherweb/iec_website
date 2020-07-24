@@ -3,11 +3,13 @@ title: Millie Meegan
 jobtitle: Administration & Patient Care
 photo: /uploads/millie.jpg
 skill1: Imaging
-rating1: 99
-skill2: Positivity
-rating2: 100
-skill3: Tenacity
+rating1: 100
+skill2: Administration
+rating2: 95
+skill3: Dispensing
 rating3: 95
+skill4: Tenacity
+rating4: 100
 ---
 Millie has been studying optometry at Flinders University since 2017. Raised locally in a family of health practitioners, she has had an interest in the field since she was an ankle-biter.
 
