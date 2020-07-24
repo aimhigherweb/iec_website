@@ -3,13 +3,11 @@ title: Dry Eye Disease
 category: dry-eye-clinic
 preview-image: dry-eye.jpg
 ---
-<div class="employee-heading>
-
 ## Are your eyes **DRIED**? (***D***ry *R*ed *I*rritated *E*ye *D*isease)
 
 <p>Dry eye disease describes a spectrum of conditions that feature ineffective lubrication of the eye. Symptoms range from discomfort through to disabling pain, redness and fluctuating vision and can impact on many visual activities.
 
-The underlying causes of dry eyes are complex and numerous and need a thorough <a href="/what-we-do/eye-exam">examination</a> for your optometrist to determine the cause and most appropriate treatment. At our Adelaide and Woodville practices our therapeutic optometrists are equipped with the technology to appropriately diagnose and treat dry eye disease. </p>
+The underlying causes of dry eyes are complex and numerous and need a thorough <a href="/what-we-do/eye-exam">examination for your optometrist to determine the cause and most appropriate treatment. At our Adelaide and Woodville practices our therapeutic optometrists are equipped with the technology to appropriately diagnose and treat dry eye disease. </p>
 
 <p><b>For more information on our dry eye clinic, please see the links below:</b></p>
 <h4>• <a href="/what-we-do/blepharitis">Blepharitis</a></h4>
@@ -18,7 +16,6 @@ The underlying causes of dry eyes are complex and numerous and need a thorough <
 <h4>• <a href="/what-we-do/ipl">IPL (Intense Pulse Light)</a></h4>
 <h4>• <a href="/what-we-do/punctal-plugs">Punctal Plugs</a></h4>
 <h4>• <a href="/what-we-do/eye-drops">Eye Drops</a></h4></p>
-</div>
 
 #### What causes dry eye disease?
 
