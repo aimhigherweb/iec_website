@@ -17,7 +17,7 @@ const MainSection = styled.div`
   width: auto;
   height: 100vh;
 
-  background-image: url("/images2/z-main-bg.jpg");
+  background-image: url("/images2/bg-section-main.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 `
@@ -36,7 +36,7 @@ const Logo = styled.img.attrs({
   border: ${DEBUG_MAIN};
 `
 const Menu = styled.img.attrs({
-  src: "/images2/z-icon-menu.png",
+  src: "/images2/icon-menu.png",
 })`
   position: relative;
   float: right;
@@ -301,6 +301,7 @@ const StyleFooter = styled.div`
   position: absolute;
   bottom: 0px;
   left: 0px;
+  width: 100%;
   background-color: #00000033; /*#bcb0a240 */
   border: ${DEBUG_STYLE};
 `
@@ -317,8 +318,8 @@ const StyleBrandItem = styled.div`
 const StyleBrandImage = styled.img`
   display: block;
   width: auto;
-  height: 24px;
-  margin: 16px auto;
+  height: 64px;
+  margin: 0px auto;
   border: ${DEBUG_STYLE};
 `
 
@@ -426,7 +427,13 @@ const FooterSection = styled.div`
   border: ${DEBUG_FOOTER};
 `
 
-const FooterLogo = styled.img`
+const FooterLogo = styled.div`
+  display: flex;
+`
+const FooterLogoItem = styled.div`
+  flex: 0 1 20%;
+`
+const FooterLogoImg = styled.img`
   width: 120px;
   height: auto;
   border: ${DEBUG_FOOTER};
@@ -504,7 +511,11 @@ const FooterGutterText = styled.div`
 
 const Footer = (
   <FooterSection>
-    <FooterLogo src="images2/icon-logo-white.png" />
+    <FooterLogo>
+      <FooterLogoItem>
+        <FooterLogoImg src="images2/icon-logo-white.png" />
+      </FooterLogoItem>
+    </FooterLogo>
     <FooterContent>
       <FooterContentItem>
         <FooterContact>
@@ -577,11 +588,11 @@ const Footer = (
           <div>
             <FooterNewsletterIcon
               icon={faFacebook}
-              style={{ color: "#0000dd" }}
+              style={{ color: "#828282" }}
             />
             <FooterNewsletterIcon
               icon={faInstagram}
-              style={{ color: "purple" }}
+              style={{ color: "#828282" }}
             />
           </div>
         </div>
