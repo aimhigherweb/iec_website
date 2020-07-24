@@ -20,7 +20,7 @@ The underlying causes of dry eyes are complex and numerous and need a thorough <
 <h4>• <a href="/what-we-do/eye-drops">Eye Drops</a></h4></p>
 </div>
 
-##### What causes dry eye disease?
+#### What causes dry eye disease?
 
 The tear film is made up of three elements:the mucin (mucous) layer, the  watery aqueous layer and the oily lipid layer . <sup>1</sup> Specialised cells (such as  **goblet cells**) embedded throughout the surface of the eye create the **mucin  component**. The **lacrimal gland** under the bony aspect of the eyebrow  secretes the watery **aqueous component**. The **meibomian glands** in the  upper and lower eyelids secrete oil to make up the **lipid component**.
 
@@ -38,7 +38,7 @@ Severe cases of dry eye are due to low production of aqueous tears, referred to 
 
 <br>
 
-##### Treatments and Care
+#### Treatments and Care
 
 **Dry eye disease *can* be treated**. Lubricating eye drops are helpful but are ineffective on their own for the most cases. Dry eye disease is best treated with a **comprehensive**, **step wise**, **management system** <sup>2</sup> which involves restoring proper function to meibomian glands, maintaining good eyelid hygiene, protecting the eyes, *and* using lubricants.
 
