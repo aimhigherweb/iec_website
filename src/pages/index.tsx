@@ -1,5 +1,5 @@
 import React from "react"
-
+import { Link } from "gatsby"
 import styled from "styled-components"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import {
@@ -565,11 +565,21 @@ const Footer = (
       </FooterContentItem>
       <FooterContentItem>
         <FooterMenu>
-          <FooterMenuItem>Who We Are</FooterMenuItem>
-          <FooterMenuItem>What We Do</FooterMenuItem>
-          <FooterMenuItem>Patient Resources</FooterMenuItem>
-          <FooterMenuItem>Contact</FooterMenuItem>
-          <FooterMenuItem>Blog</FooterMenuItem>
+          <FooterMenuItem>
+            <Link to="/who-we-are">Who We Are</Link>
+          </FooterMenuItem>
+          <FooterMenuItem>
+            <Link to="/what-we-do">What We Do</Link>
+          </FooterMenuItem>
+          <FooterMenuItem>
+            <Link to="/patient-resources">Patient Resources</Link>
+          </FooterMenuItem>
+          <FooterMenuItem>
+            <Link to="/contact">Contact</Link>
+          </FooterMenuItem>
+          <FooterMenuItem>
+            <Link to="/blog">Blog</Link>
+          </FooterMenuItem>
         </FooterMenu>
       </FooterContentItem>
       <FooterContentItem>
