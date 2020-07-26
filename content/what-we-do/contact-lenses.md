@@ -6,7 +6,6 @@ preview-image: contact-lens-info-woman.jpg
 <div class="employee-heading">
 <p><p>Contact lenses are an alternative option to spectacles for correcting vision and can offer clear vision for an array of eye conditions. At our Adelaide and Woodville branches, an optometrist can advise you on whether contact lenses are right for you. The following information will answer some of the questions you may have about contact lenses before your <a href="/what-we-do/eye-exam">appointment</a>.</p>
 
-
 <p><b>For more information on contact lenses, please see the links below:</b></p>
 <a href="/what-we-do/soft-contact-lenses">Soft Contact Lenses</a>
 • <a href="/what-we-do/gas-permeable-contact-lenses">Rigid Contact Lenses</a>
@@ -20,43 +19,25 @@ CAPTION: A soft lens, an orthokeratology lens, and a scleral lens
 
 #### Soft disposable lenses
 
-There are several different types of disposable (frequent replacement) lenses. Innovative Eye Care recommends [Alcon soft contact lenses](/what-we-do/alcon-soft-contact-lenses/) because of their superior clarity and wearability.
+There are several different types of disposable (frequent replacement) lenses. They can vary not only in optical power, but also in size, shape, material and modality (wear-time before replacement). Innovative Eye Care recommends [Alcon soft contact lenses](/what-we-do/alcon-soft-contact-lenses/) because of their superior clarity and wearability.<sup>1</sup>
 
 ##### Daily replacement lenses (lenses that are new with each use and discarded after wear)
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;border-color:#ccc;}
-.tg td{font-family:Arial, sans-serif;font-size:16px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#fff;}
-.tg th{font-family:Arial, sans-serif;font-size:16px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#f0f0f0;}
-.tg .tg-7op0{font-weight:bold;font-family:Arial, Helvetica, sans-serif !important;;border-color:#000000;vertical-align:top}
-.tg .tg-6vm2{font-weight:bold;font-family:Arial, Helvetica, sans-serif !important;;background-color:#efefef;color:#000000;border-color:#000000;vertical-align:top}
-.tg .tg-fdbh{font-family:Arial, Helvetica, sans-serif !important;;border-color:#000000;vertical-align:top}
-</style>
 
-<table class="tg" align="center">
-  <tr>
-    <th class="tg-fdbh">Pros</th>
-    <th class="tg-fdbh">Cons</th>
-  </tr>
-  <tr>
-    <td class="tg-fdbh">Lesser risk of infection – disposables have fewer deposit and inflammatory problems than monthly and fortnightly lenses</td>
-    <td class="tg-fdbh">Limited range – currently, there is a restricted number of prescriptions that can be corrected with dailies<br></td>
-  </tr>
-  <tr>
-    <td class="tg-fdbh">Convenience – dailies do not require cleaning or storage with solutions and you can take spare lenses with you wherever you go, making them ideal for travel</td>
-    <td class="tg-fdbh">Higher cost for full-time wearers – those who wear dailies every day may pay more for frequent replenishment of lens supply, although often patients find the increased convenience easily justifies the difference<br></td>
-  </tr>
-  <tr>
-    <td class="tg-fdbh">Greater oxygen-supply – the newest daily lenses are made from silicone-hydrogel materials which increase oxygen flow to the eye and prevent dryness (these are slightly more expensive than standard dailies)</td>
-    <td class="tg-fdbh"><br></td>
-  </tr>
-  <tr>
-    <td class="tg-fdbh">Cost-efficient for part-time wearers – easy if you only use your lenses occasionally, and if a lens is lost or damaged the cost is negligible – just pop a new lens into your eye!</td>
-    <td class="tg-fdbh"><br></td>
-  </tr>
-</table> 
 
-<br>
+Lesser risk of infection – disposables have fewer deposit and inflammatory problems than monthly and fortnightly lenses
+
+Greater oxygen-supply – the newest daily lenses are made from silicone-hydrogel materials which increase oxygen flow to the eye and prevent dryness (these are slightly more expensive than standard dailies)
+
+Convenience – dailies do not require cleaning or storage with solutions and you can take spare lenses with you wherever you go, making them ideal for travel
+
+Cost-efficient for part-time wearers – easy if you only use your lenses occasionally, and if a lens is lost or damaged the cost is negligible – just pop a new lens into your eye!
+
+
+
+Limited range – currently, there is a restricted number of prescriptions that can be corrected with dailies
+
+Higher cost for full-time wearers – those who wear dailies every day may pay more for frequent replenishment of lens supply, although often patients find the increased convenience easily justifies the difference
 
 ##### Monthly/fortnightly lenses (lenses that are worn daily but replaced monthly/fortnightly)
 
@@ -203,3 +184,7 @@ Daily replacement soft lenses tend to be priced at just over $100 for a 3 month 
 Rigid lenses (including orthokeratology lenses) cost $400-$500 each depending on the complexity of the design. Scleral lenses are more complex and difficult to manufacure and cost $650 each. Don't forget these lenses last 1-2 years on average. Back-up lenses of identical parameters can be ordered at half price within 12 months of the original order.
 
 Please feel free to [contact our team](/contact) for more details about the costs of different contact lenses.
+
+##### References
+
+1. A prospective, controlled, double-masked clinical trial to evaluate the performance of PRECISION1™; Alcon data on file, 2018 (available upon request)
