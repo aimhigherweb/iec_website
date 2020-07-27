@@ -4,11 +4,13 @@ category: advanced-imaging-technology
 ---
 <div class="employee-heading">
 
-<p>The Pentacam AXL Wave is the latest addition to Innovative Eye Care’s arsenal of advanced imaging technology at our Hutt Street branch. Its main functionality is as a tomographer. Tomography refers to the cross-sectional scanning of body tissues using non-invasive techniques. In relation to the cornea, tomography gives a much more complete view of the anterior ocular tissues than topography, which uses reflection to assess the front surface alone.</p>
+<p>The Pentacam AXL Wave is the latest addition to Innovative Eye Care’s arsenal of advanced imaging technology at our Hutt Street branch. Its main functionality is as a tomographer. Tomography refers to the cross-sectional mapping of body tissues using non-invasive techniques. In relation to the cornea, tomography gives a much more complete view of the anterior ocular tissues than topography, which uses reflection to assess the front surface alone.</p>
 
 </div>
 
 This machine uses Scheimpflug imaging to map the front and back surfaces of the cornea as well as its thickness and volume, the anterior chamber conformation and volume, and the anterior lens topography and density. This is a step beyond what most reflection-based [topographers](https://www.innovativeeyecare.com.au/what-we-do/corneal-topography) use, which map only the front corneal surface. Its accuracy as a non-contact alternative independent of tear film quality has been proven in countless clinical trials. For this reason, it’s much better for mapping eyes with [dry eye disease](https://www.innovativeeyecare.com.au/what-we-do/dry-eye-disease).
+
+![](/uploads/corneal-tomography.jpg)
 
 It also serves as a topographer (maps the eye’s front surface), an imager (captures the anterior eye’s structure), autorefractor (approximates refractive error extremely accurately), wavefront aberrometer (quantifies the eye’s lower-order and higher-order aberrations affecting vision) and ocular biometer (measures the physical parameters of the eye).
 
