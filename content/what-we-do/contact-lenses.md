@@ -67,7 +67,7 @@ Please feel free to [contact our team](/contact) for more details about the cost
 
 3. Peterson, R.C., Fonn, D., Woods, C.A., Jones, L., 2010. Impact of a rub and rinse on solution-induced corneal staining. *Optom Vis Sci.* 87(12), pp.1030-1036
 
-4. uses of RGPs
+4. Jupiter D.G., Katz H.R., 2000. Management of irregular astigmatism with rigid gas permeable contact lenses. CLAO Journal; 26(1): 14-17.
 
 5. Wang Y, Qian X, Zhang X, Xia W, Zhong L, Sun Z, et al., 2013. Plasma surface modification of rigid contact lenses decreases bacterial adhesion. Eye Contact Lens. Nov;39(6):376–80.
 
