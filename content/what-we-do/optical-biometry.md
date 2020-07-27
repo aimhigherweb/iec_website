@@ -9,13 +9,13 @@ preview-image: null
 
 #### Myopia control
 
-Optical biometry is crucial for our [myopia](/what-we-do/myopia) patients. Axial myopia, or short-sightedness, is a condition that causes the eyeball to elongate, which focusses light in front of the now displaced retina causing blurred distance vision. As it progresses, the eye gets longer which increases the risk for [retinal detachment](/what-we-do/flashes-floaters-retinal-tear-detachment) due to the stretching of retinal tissue. The optical biometer measures axial length to monitor [myopia progression](https://www.innovativeeyecare.com.au/what-we-do/myopia-control) and better manage myopic patients to reduce the risk of complications. It's also useful for assessing the impact of [orthokeratology](/what-we-do/orthokeratology-corneal-reshaping) on slowing myopia progression.
+Optical biometry is crucial for our [myopia](/what-we-do/myopia) patients. Axial myopia, or short-sightedness, is a condition that causes the eyeball to elongate, which focusses light in front of the now displaced retina causing blurred distance vision. Axial lengths of 24mm are normal, and anything over 26.5mm increases the risk for [retinal detachment](/what-we-do/flashes-floaters-retinal-tear-detachment) due to the stretching of retinal tissue. The optical biometer measures axial length to monitor [myopia progression](https://www.innovativeeyecare.com.au/what-we-do/myopia-control) and better manage myopic patients to reduce the risk of complications. It's also useful for assessing the impact of [orthokeratology](/what-we-do/orthokeratology-corneal-reshaping) on slowing myopia progression.
 
-![](/uploads/axial-length.jpg)
+![](/uploads/pentacam-axial-length.jpg)
 
 #### Cataract
 
-The main function of an optical biometer is to calculate the power of the intraocular lens (IOL) for patients who are undergoing [cataract](/what-we-do/cataract) surgery.  Cataract is the opacification of the crystalline lens in the eye, which causes blurry and cloudy vision. With the addition of the Pentacam AXL Wave, we can now also objectively quantify the opacification by densitometry. The opacified lens is replaced during surgery with an artificial IOL, the optical power of which is decided beforehand for clear vision at a chosen distance. Optical biometry helps us to measure the power of the lens in the eye, determine what 
+The main function of an optical biometer is to calculate the power of the intraocular lens (IOL) for patients who are undergoing [cataract](/what-we-do/cataract) surgery.  Cataract is the opacification of the crystalline lens in the eye, which causes blurry and cloudy vision. With the addition of the Pentacam AXL Wave, we can now also objectively quantify the opacification by densitometry. The opacified lens is replaced during surgery with an artificial IOL, the optical power of which is decided beforehand for clear vision at a chosen distance. Optical biometry also helps us to determine how dense the opacified lens is, which is highly useful for deciding on when to refer for cataract surgery.
 
 #### Anterior chamber depth
 
