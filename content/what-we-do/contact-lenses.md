@@ -55,24 +55,19 @@ Careful fitting of all contact lenses is required to offer the clearest and most
 
 Daily replacement soft lenses tend to be priced at around $1 per lens, although depending on wearing schedule monthly and fortnightly replacement lenses can be around 2 thirds of the cost. However, cleaning and storage solutions are also required for these lenses. More complex soft lens types like toric lenses to correct [astigmatism](https://www.innovativeeyecare.com.au/what-we-do/astigmatism), or [multifocal lenses for patients with presbyopia](/what-we-do/contact-lenses-for-presbyopia) will be more expensive than a standard lens.
 
-Rigid lenses (including orthokeratology lenses) will suit those with higher scripts and/or irregular corneas, dry eye patients and progressing myopes. Cost is dependent on the complexity of the design. Scleral lenses are more complex and difficult to manufacture, which is translated into a slightly higher cost than RGP lenses. Despite this, the cost of rigid lenses is similar to soft lenses in that they tend to last around 2 years on average, and back-up lenses of identical parameters can be ordered at half price within 12 months of the original order.
+Rigid lenses (including orthokeratology lenses) will suit those with higher scripts and/or irregular corneas, dry eye patients and progressing myopes. Cost is dependent on the complexity of the design. Scleral lenses are take longer to manufacture and use a larger quantity of material, which is translated into a slightly higher cost than RGP lenses. Despite this, the cost of rigid and scleral lenses is cheaper than soft lenses in that they last longer, and back-up lenses of identical parameters can be ordered at half price within 12 months of the original order.
 
 Please feel free to [contact our team](/contact) for more details about the costs of different contact lenses.
+
+<br>
 
 ##### References
 
 1. A prospective, controlled, double-masked clinical trial to evaluate the performance of PRECISION1™; *Alcon* data on file, 2018 (available upon request).
-
 2. Weibel, K. et al, 2013. Microbial Keratitis and Contact Lens Wear. *Contact Lens Spectrum*, 28(6), pp.24-40.
-
 3. Peterson, R.C., Fonn, D., Woods, C.A., Jones, L., 2010. Impact of a rub and rinse on solution-induced corneal staining. *Optom Vis Sci.* 87(12), pp.1030-1036
-
 4. Jupiter D.G., Katz H.R., 2000. Management of irregular astigmatism with rigid gas permeable contact lenses. CLAO Journal; 26(1): 14-17.
-
 5. Wang Y, Qian X, Zhang X, Xia W, Zhong L, Sun Z, et al., 2013. Plasma surface modification of rigid contact lenses decreases bacterial adhesion. Eye Contact Lens. Nov;39(6):376–80.
-
 6. Bullimore, M., Sinnott, L. and Jones-Jordan, L., 2013. The Risk of Microbial Keratitis With Overnight Corneal Reshaping Lenses.*Optometry and Vision Science*, 90(9), pp.937-944.
-
 7. Wildsoet, C., Chia, A., Cho, P., Guggenheim, J., Polling, J., Read, S., Sankaridurg, P., Saw, S., Trier, K., Walline, J., Wu, P. and Wolffsohn, J., 2019. IMI – Interventions for Controlling Myopia Onset and Progression Report.*Investigative Opthalmology & Visual Science*, 60(3), p.M106.
-
 8. Harthan, J. et al. (2018). Therapeutic uses of scleral contact lenses for ocular surface disease: patient selection and special considerations. *Clin Optom (Auckl)*. 10(1), pp.65-74.
