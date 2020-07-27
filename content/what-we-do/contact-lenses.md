@@ -13,178 +13,58 @@ preview-image: contact-lens-info-woman.jpg
 • <a href="/what-we-do/orthokeratology-corneal-reshaping">Orthokeratology Lenses</a>
 </div>
 
-![](/uploads/scl-rgp-scleral-2.jpg)
+![](/uploads/lenses.jpg)
 
-CAPTION: A soft lens, an orthokeratology lens, and a scleral lens
+### What kinds of contact lenses are there?
 
 #### Soft disposable lenses
 
 There are several different types of disposable (frequent replacement) lenses. They can vary not only in optical power, but also in size, shape, material and modality (wear-time before replacement). Innovative Eye Care recommends [Alcon soft contact lenses](/what-we-do/alcon-soft-contact-lenses/) because of their superior clarity and wearability.<sup>1</sup>
 
-##### Daily replacement lenses (lenses that are new with each use and discarded after wear)
+##### Daily replacement lenses
 
-
-
-Lesser risk of infection – disposables have fewer deposit and inflammatory problems than monthly and fortnightly lenses
-
-Greater oxygen-supply – the newest daily lenses are made from silicone-hydrogel materials which increase oxygen flow to the eye and prevent dryness (these are slightly more expensive than standard dailies)
-
-Convenience – dailies do not require cleaning or storage with solutions and you can take spare lenses with you wherever you go, making them ideal for travel
-
-Cost-efficient for part-time wearers – easy if you only use your lenses occasionally, and if a lens is lost or damaged the cost is negligible – just pop a new lens into your eye!
-
-
-
-Limited range – currently, there is a restricted number of prescriptions that can be corrected with dailies
-
-Higher cost for full-time wearers – those who wear dailies every day may pay more for frequent replenishment of lens supply, although often patients find the increased convenience easily justifies the difference
+Daily lenses are lenses that are discarded after each use. These soft lenses are perfect for users who don't wear their lenses every day, as they are more cost-effective and don't require cleaning or storage with solutions. As well as this, there's a reduced risk of infection and inflammation in daily soft lenses because there's no opportunity for proteins or pathogens to build on the lens. Paired with this is the material most soft contact lenses are made from – silicone hydrogel increases oxygen flow to the eye and prevents dryness. Check with your optometrist whether daily soft contact lenses are right for you, as they come in a limited range of prescriptions.
 
 ##### Monthly/fortnightly lenses (lenses that are worn daily but replaced monthly/fortnightly)
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;border-color:#fff;}
-.tg td{font-family:Arial, sans-serif;font-size:16px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#fff;color:#333;background-color:#fff;}
-.tg th{font-family:Arial, sans-serif;font-size:16px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#fff;color:#333;background-color:#f0f0f0;}
-.tg .tg-7op0{font-weight:bold;font-family:Arial, Helvetica, sans-serif !important;;border-color:#000000;vertical-align:top}
-.tg .tg-6vm2{font-weight:bold;font-family:Arial, Helvetica, sans-serif !important;;background-color:#efefef;color:#000000;border-color:#000000;vertical-align:top}
-.tg .tg-fdbh{font-family:Arial, Helvetica, sans-serif !important;;border-color:#000000;vertical-align:top}
-</style>
-
-<table class="tg" align="center">
-  <tr>
-    <th class="tg-fdbh">Pros</th>
-    <th class="tg-fdbh">Cons</th>
-  </tr>
-  <tr>
-    <td class="tg-fdbh">Wider range – these lenses are able to correct a greater array of prescriptions and patients with presbyopia have the option of multifocal lenses</td>
-    <td class="tg-fdbh">Risk of infection – longer-use lenses are more prone to deposits and pose a slightly higher chance of microbial infection and inflammatory reactions than daily disposable or rigid gas permeable lenses<br></td>
-  </tr>
-  <tr>
-    <td class="tg-fdbh">Greater oxygen-supply – most are made from new-generation silicone-hydrogel materials which allow increased oxygen flow to the eye and decreased dryness with wear</td>
-    <td class="tg-fdbh">Care and storage – cleaning of the lenses and storage in disinfection solution is required after each day of wear, and you will need to take the solution with you should you travel<br></td>
-  </tr>
-  <tr>
-    <td class="tg-fdbh">Convenience – suitable for intermittent wear with days away from your contact lenses if required (after consultation with your optometrist)</td>
-    <td class="tg-fdbh"><br></td>
-  </tr>
-  <tr>
-    <td class="tg-fdbh">Overnight wear – certain patients who would benefit from sleeping in their contact lenses without significantly compromising the health of their eyes have the option of lenses for overnight wear (after discussing this with their optometrist)</td>
-    <td class="tg-fdbh"><br></td>
-  </tr>
-  <tr>
-    <td class="tg-fdbh">Cost-efficient – the cost per year for lenses and solutions may be slightly cheaper than daily lenses if you wear them most days</td>
-    <td class="tg-fdbh"><br></td>
-  </tr>
-</table> 
-
-#### Rigid Gas Permeable (RGP) lenses
-
-RGP lenses are made from a stiffer material and do not drape on the eyes like soft lenses do. Because of this, careful fitting is required. Rigid lenses are generally reserved for extreme prescriptions or precision fits, such as scleral lenses for keratoconus. [Orthokeratology](/what-we-do/orthokeratology-corneal-reshaping) lenses are a form of these hard lenses. Innovative Eye Care practitioners have had a keen interest in rigid lens fitting for a number of years and use a pioneering lens design software called EyeSpace to custom-design every hard lens used in the practice. Learn about proper care of RGP lenses [here](/patient-resources/care-of-gas-permeable-lenses). For more specific care instructions for scleral lenses, click [here](/patient-resources/care-of-scleral-lenses). 
-
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;border-color:#fff;}
-.tg td{font-family:Arial, sans-serif;font-size:16px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#fff;color:#333;background-color:#fff;}
-.tg th{font-family:Arial, sans-serif;font-size:16px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#fff;color:#333;background-color:#f0f0f0;}
-.tg .tg-7op0{font-weight:bold;font-family:Arial, Helvetica, sans-serif !important;;border-color:#000000;vertical-align:top}
-.tg .tg-6vm2{font-weight:bold;font-family:Arial, Helvetica, sans-serif !important;;background-color:#efefef;color:#000000;border-color:#000000;vertical-align:top}
-.tg .tg-fdbh{font-family:Arial, Helvetica, sans-serif !important;;border-color:#000000;vertical-align:top}
-</style>
-
-<table class="tg" align="center">
-  <tr>
-    <th class="tg-fdbh">Pros</th>
-    <th class="tg-fdbh">Cons</th>
-  </tr>
-  <tr>
-    <td class="tg-fdbh">Greater refractive correction – rigid lenses are able to correct larger degrees of refractive error and eyes with irregular corneal surfaces or following surgery or injury</td>
-    <td class="tg-fdbh">Comfort – rigid lenses are generally initially less comfortable and have a longer adaptation time than soft lenses (scleral lenses tend to be significantly easier to adapt to)<br></td>
-  </tr>
-  <tr>
-    <td class="tg-fdbh">Clarity – vision quality is usually better than with soft lenses</td>
-    <td class="tg-fdbh">Convenience – cleaning the lenses and storage in disinfection solution is required after each day of wear, and you will need to take this solution with you if you travel<br></td>
-  </tr>
-  <tr>
-    <td class="tg-fdbh">Cost-effective – lenses tend to last longer (can be up to 1-2 years) and require less frequent replacement</td>
-    <td class="tg-fdbh">Irritation – problems can arise due to dust in smaller diameter lenses (this is not a problem with the larger scleral lenses as the edge of the lens seals against the eye, preventing debris from being trapped beneath)</td>
-  </tr>
-  <tr>
-    <td class="tg-fdbh">Suitability – these lenses are great for non-contact sports and are small enough to often be undetectable to an observer when on the eye</td>
-    <td class="tg-fdbh">Risk of loss – lenses can potentially become dislodged and misplaced due to their size and stability in the eye (this is not a problem with the larger scleral lenses which are very stable in the eye)</td>
-  </tr>
-  <tr>
-    <td class="tg-fdbh">Cost-efficient – the cost per year for lenses and solutions may be slightly cheaper than daily lenses if you wear them most days</td>
-    <td class="tg-fdbh"><br></td>
-  </tr>
-</table> 
-
-<br>
+Monthly or fortnightly lenses are replaced as their name suggests. That means they require disinfection and storage with solutions between wears, as the lens is being re-worn. For this same reason there is a slightly higher risk of infection or inflammatory events due to debris build-up. However, these soft contact lenses are available in a wider array of prescriptions for [myopes](https://www.innovativeeyecare.com.au/what-we-do/myopia), [hyperopes](https://www.innovativeeyecare.com.au/what-we-do/hyperopia) and [presbyopes](https://www.innovativeeyecare.com.au/what-we-do/presbyopia), and they can often be just as cost- and time-efficient as daily lenses for full-time wearers even considering the price of solutions. Similarly to daily lenses, the oxygen supply is also higher in silicone hydrogel lenses, which reduces sensations of dryness.
 
 ![](/uploads/contact-lenses-2.jpg)
 
+#### Rigid gas permeable (RGP) lenses
+
+RGP lenses are made from a stiffer material and do not drape on the eyes like soft lenses do. Because of this, careful fitting is required. Rigid lenses are generally reserved for very high prescriptions or precision fits, including for irregular corneal surfaces (like [keratoconus](https://www.innovativeeyecare.com.au/what-we-do/keratoconus)) or following injury and surgery. They provide a clarity of vision for these patients that isn't possible in conventional soft lenses, which makes them perfect for things like sport. Depending on how well they're looked after, they can last up to 2 years before needing to be replaced, although they have some potential for loss even when on-eye due to their small size.
+
+Innovative Eye Care practitioners have had a keen interest in rigid lens fitting for a number of years and use a pioneering lens design software called [EyeSpace](https://www.eyespacelenses.com/) to custom-design every hard lens used in the practice. Often during the fitting process, the lenses may feel slightly uncomfortable but this subsides with regular wear. Learn about proper care of RGP lenses [here](/patient-resources/care-of-gas-permeable-lenses). For more specific care instructions for scleral lenses, click [here](/patient-resources/care-of-scleral-lenses). 
+
 #### Orthokeratology lenses
 
-[Orthokeratology](/what-we-do/orthokeratology-corneal-reshaping) (ortho-K for short) is an exciting new treatment in vision correction now available to our patients, eliminating the need to wear contact lenses or spectacles to see clearly during the day. Ortho-K vision correction works by gently reshaping the centre of the cornea overnight with custom designed contact lenses. Technically speaking, these lenses use the hydrostatic forces of you own tear-film underneath the lens to redistribute the epithelial cells on the eye’s surface. Essentially this means that once the lenses are removed in the morning, you will have clear vision without the need for any spectacles or contact lenses. Ortho-K can treat mild to moderate [myopia](/what-we-do/myopia) (short-sightedness), mild [hyperopia](/what-we-do/hyperopia) (long-sightedness), mild [astigmatism](/what-we-do/astigmatism) and even [presbyopia](/what-we-do/presbyopia). The ortho-K vision correction process is completely reversible. It has recently been shown to reduce the progression of short-sightedness in younger patients. Learn about proper care of ortho-K lenses [here](/patient-resources/care-of-orthokeratology-lenses). 
+[Orthokeratology](/what-we-do/orthokeratology-corneal-reshaping) (ortho-K for short) is an exciting new treatment in reversible vision correction. Ortho-K overnight vision correction works while you sleep by gently reshaping the centre of the cornea (the transparent light-bending surface at the front of the eye) with custom-designed contact lenses. Technically speaking, these lenses use the hydrostatic forces of you own tears underneath the lens to redistribute the surface cells of the cornea. When the lenses are removed in the morning, the cornea's structure has changed slightly, giving you clear vision without the need for any spectacles or contact lenses. When cleaned thoroughly after each use, the risk of infection is as similarly low as in overnight wear soft lenses.<sup>2</sup>
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;border-color:#fff;}
-.tg td{font-family:Arial, sans-serif;font-size:16px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#fff;color:#333;background-color:#fff;}
-.tg th{font-family:Arial, sans-serif;font-size:16px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#fff;color:#333;background-color:#f0f0f0;}
-.tg .tg-7op0{font-weight:bold;font-family:Arial, Helvetica, sans-serif !important;;border-color:#000000;vertical-align:top}
-.tg .tg-6vm2{font-weight:bold;font-family:Arial, Helvetica, sans-serif !important;;background-color:#efefef;color:#000000;border-color:#000000;vertical-align:top}
-.tg .tg-fdbh{font-family:Arial, Helvetica, sans-serif !important;;border-color:#000000;vertical-align:top}
-</style>
+Ortho-K can treat mild to moderate [myopia](/what-we-do/myopia) (short-sightedness), mild [hyperopia](/what-we-do/hyperopia) (long-sightedness), mild [astigmatism](/what-we-do/astigmatism) and even [presbyopia](/what-we-do/presbyopia). Best of all, the ortho-K vision correction process is completely reversible, unlike laser eye surgery. It has recently been shown to reduce the [progression of short-sightedness](https://www.innovativeeyecare.com.au/what-we-do/myopia-control) in younger patients, which is extremely important in preventing complications with age including [retinal detachment](https://www.innovativeeyecare.com.au/what-we-do/flashes-floaters-retinal-tear-detachment) and [glaucoma](https://www.innovativeeyecare.com.au/what-we-do/glaucoma).<sup>3</sup> Learn about proper care of ortho-K lenses [here](/patient-resources/care-of-orthokeratology-lenses). 
 
-<table class="tg" align="center">
-  <tr>
-    <th class="tg-fdbh">Pros</th>
-    <th class="tg-fdbh">Cons</th>
-  </tr>
-  <tr>
-    <td class="tg-fdbh">Night-wear only – orthokeratology lenses offer clear vision during the day without wearing corrective lenses</td>
-    <td class="tg-fdbh">Adjustment – as the treatment starts to take effect there can be days where vision is not perfect; however, this generally only causes issues over the first week and in most patients, approximately half of the change of prescription occurs after the first night!<br></td>
-  </tr>
-  <tr>
-    <td class="tg-fdbh">Comfort – for patients who are bothered by day-time contact lens wear due to dry eyes or lifestyle (for example cyclists, water-polo players, surfers) find wearing lenses overnight to be much more tolerable</td>
-    <td class="tg-fdbh">Comfort – the lenses can take some getting used to, though as they are only worn during sleep they are generally well tolerated<br></td>
-  </tr>
-  <tr>
-    <td class="tg-fdbh">Myopia control – ortho-K has been shown to reduce the progression of myopia in young patients</td>
-    <td class="tg-fdbh">Temporary distortion – some patients find that the vision in the evenings can result in halos forming around lights as the pupil enlarges in the dark, but this generally improves with time and if the effect is highly bothersome your optometrist can prescribe drops to improve this when required</td>
-  </tr>
-  <tr>
-    <td class="tg-fdbh">Cost-efficient – lenses can last for up to 1-2 years if they are looked after and the eyes are stable, meaning costs are lower over time, and the process costs less overall than refractive surgery</td>
-    <td class="tg-fdbh">Replacement cost – if lenses are lost or broken, replacements can be costly (your optometrist will recommend you have a spare pair of lenses which can be purchased at 50% of the normal cost within 18 months)</td>
-  </tr>
-  <tr>
-    <td class="tg-fdbh">Convenience – some patients with low prescriptions may only need to wear their lenses every second night!</td>
-    <td class="tg-fdbh"><br></td>
-  </tr>
-  <tr>
-    <td class="tg-fdbh">Low risk – the chance of infection has shown to be very low, and for patients considering laser vision correction but concerned about the risk of surgery and potential for incomplete correction or post-surgical dry eyes, Ortho-K may be a better alternative</td>
-    <td class="tg-fdbh"><br></td>
-  </tr>
-  <tr>
-    <td class="tg-fdbh">Reversible – the cornea would return to its original shape should you choose to discontinue with orthokeratology</td>
-    <td class="tg-fdbh"><br></td>
-  </tr>
-</table> 
+#### Scleral lenses
 
-<br>
+Scleral lenses are larger diameter RGP lenses commonly used in extreme corneal irregularity and dry eye disease.<sup>4</sup> Their larger size means they rest on the white of the eye (sclera) rather than on the clear, sensitive part of the eye (cornea) as in conventional RGPs. This makes them very stable on eye for extremely clear vision, as the tear film under the lens fills in the irregular gaps of the corneal surface. It also makes them incredibly comfortable because the lens vaults over the sensitive part of the eye and bathes it in fluid, reducing the sensation of dryness that can be common with contact lens wear. 
 
-#### Cost
+### How do I know if contact lenses are right for me?
 
-The costs of being fitted into contact lenses varies depending on the type of lens used and the complexity of the fitting process. Careful fitting of all contact lenses is required to offer the clearest and most comfortable vision without compromising the health of the eye. 
+You need to see your optometrist to determine if contact lenses are right for you, or to obtain a script for your contact lenses.  
 
-In some cases, patients with high or complex prescriptions (like keratoconus) may have some or all of their consultation costs covered by Medicare. 
+Careful fitting of all contact lenses is required to offer the clearest and most comfortable vision without compromising the health of the eye. The costs of being fitted into contact lenses varies depending on the type of lens used and the complexity of the fitting process. For most contact lens designs, additional specialized technology needs to be used, such as [corneal topography](/what-we-do/corneal-topography), [tomography](https://www.innovativeeyecare.com.au/what-we-do/corneal-tomography) and wavefront aberrometry, which can attract additional charges. We conduct these measurements at half price for concession card holders.
 
-In most contact lens additional specialized technology needs to be used during the fitting process, such as [corneal topography](/what-we-do/corneal-topography) and [OCT scans](/what-we-do/oct), which can attract additional charges of up to $80. We conduct these measurements at half price for children/students and pension/healthcare card holders. 
+Daily replacement soft lenses tend to be priced at around $1 per lens, although depending on wearing schedule monthly and fortnightly replacement lenses can be around 2 thirds of the cost. However, cleaning and storage solutions are also required for these lenses. More complex soft lens types like toric lenses to correct [astigmatism](https://www.innovativeeyecare.com.au/what-we-do/astigmatism), or [multifocal lenses for patients with presbyopia](/what-we-do/contact-lenses-for-presbyopia) will be more expensive than a standard lens.
 
-Daily replacement soft lenses tend to be priced at just over $100 for a 3 month supply per eye. A monthly replacement soft lens is about 2/3rd of this cost for the same 3 month period per eye, but does require cleaning solutions, is less convenient and carries a higher risk of infection than a daily replacement lens. More complex soft lens types like toric lenses to correct astigmatism, or [multifocal lenses for patients with presbyopia](/what-we-do/contact-lenses-for-presbyopia) will be more expensive than a standard lens.
-
-Rigid lenses (including orthokeratology lenses) cost $400-$500 each depending on the complexity of the design. Scleral lenses are more complex and difficult to manufacure and cost $650 each. Don't forget these lenses last 1-2 years on average. Back-up lenses of identical parameters can be ordered at half price within 12 months of the original order.
+Rigid lenses (including orthokeratology lenses) will suit those with higher scripts and/or irregular corneas, dry eye patients and progressing myopes. Cost is dependent on the complexity of the design. Scleral lenses are more complex and difficult to manufacture, which is translated into a slightly higher cost than RGP lenses. Despite this, the cost of rigid lenses is similar to soft lenses in that they tend to last around 2 years on average, and back-up lenses of identical parameters can be ordered at half price within 12 months of the original order.
 
 Please feel free to [contact our team](/contact) for more details about the costs of different contact lenses.
 
 ##### References
 
-1. A prospective, controlled, double-masked clinical trial to evaluate the performance of PRECISION1™; Alcon data on file, 2018 (available upon request)
+1. A prospective, controlled, double-masked clinical trial to evaluate the performance of PRECISION1™; *Alcon* data on file, 2018 (available upon request).
+
+2. Bullimore, M., Sinnott, L. and Jones-Jordan, L., 2013. The Risk of Microbial Keratitis With Overnight Corneal Reshaping Lenses.*Optometry and Vision Science*, 90(9), pp.937-944.
+
+3. Wildsoet, C., Chia, A., Cho, P., Guggenheim, J., Polling, J., Read, S., Sankaridurg, P., Saw, S., Trier, K., Walline, J., Wu, P. and Wolffsohn, J., 2019. IMI – Interventions for Controlling Myopia Onset and Progression Report.*Investigative Opthalmology & Visual Science*, 60(3), p.M106.
+
+4. Harthan, J. et al. (2018). Therapeutic uses of scleral contact lenses for ocular surface disease: patient selection and special considerations. *Clin Optom (Auckl)*. 10(1), pp.65-74.
