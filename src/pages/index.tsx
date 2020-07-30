@@ -614,7 +614,16 @@ const FooterContactIcon = styled(FontAwesomeIcon)`
 const FooterContactText = styled.div`
   flex: 3;
   font-size: 0.5em;
+  @media (max-width: 768px) {
+    flex: 1;
+  }
   border: ${DEBUG_FOOTER};
+`
+const FooterContactSpacer = styled.div`
+  flex: 0;
+  @media (max-width: 768px) {
+    flex: 2;
+  }
 `
 
 const FooterMenu = styled.ul`
@@ -675,6 +684,7 @@ const Footer = (
     <FooterContent>
       <FooterContentItem>
         <FooterContact>
+          <FooterContactSpacer />
           <FooterContactIcon icon={faMapMarker} />
           <FooterContactText>
             <a href="https://g.page/iecadel?share">
@@ -683,24 +693,30 @@ const Footer = (
               Adelaide SA 5000
             </a>
           </FooterContactText>
+          <FooterContactSpacer />
         </FooterContact>
         <FooterContact>
+          <FooterContactSpacer />
           <FooterContactIcon icon={faPhoneAlt} />
           <FooterContactText>
             <a href="tel:61882319341">(08) 8231 9341</a>
           </FooterContactText>
+          <FooterContactSpacer />
         </FooterContact>
         <FooterContact>
+          <FooterContactSpacer />
           <FooterContactIcon icon={faClock} />
           <FooterContactText>
             Mon-Fri 8.30am - 5.30pm
             <br />
             Sat 8.30am - 12pm
           </FooterContactText>
+          <FooterContactSpacer />
         </FooterContact>
       </FooterContentItem>
       <FooterContentItem>
         <FooterContact>
+          <FooterContactSpacer />
           <FooterContactIcon icon={faMapMarker} />
           <FooterContactText>
             <a href="https://g.page/iecwoodville?share">
@@ -709,20 +725,25 @@ const Footer = (
               Woodville SA 5011
             </a>
           </FooterContactText>
+          <FooterContactSpacer />
         </FooterContact>
         <FooterContact>
+          <FooterContactSpacer />
           <FooterContactIcon icon={faPhoneAlt} />
           <FooterContactText>
             <a href="tel:61884459050">(08) 8445 9050</a>
           </FooterContactText>
+          <FooterContactSpacer />
         </FooterContact>
         <FooterContact>
+          <FooterContactSpacer />
           <FooterContactIcon icon={faClock} />
           <FooterContactText>
             Mon-Fri 8.30am - 5.30pm
             <br />
             Sat CLOSED
           </FooterContactText>
+          <FooterContactSpacer />
         </FooterContact>
       </FooterContentItem>
       <FooterContentItem>
