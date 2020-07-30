@@ -259,52 +259,64 @@ const Team = (
     </TeamDescription>
     <TeamService>
       <TeamServiceItem>
-        <TeamServiceImage src="/images2/service-eyewear-experts.png" />
-        <TeamServiceTitle>
-          EYEWEAR
-          <br />
-          EXPERTS
-        </TeamServiceTitle>
+        <Link to="/what-we-do/eyewear-collections">
+          <TeamServiceImage src="/images2/service-eyewear-experts.png" />
+          <TeamServiceTitle>
+            EYEWEAR
+            <br />
+            EXPERTS
+          </TeamServiceTitle>
+        </Link>
       </TeamServiceItem>
       <TeamServiceItem>
-        <TeamServiceImage src="/images2/service-bespoke-contact-lenses.png" />
-        <TeamServiceTitle>
-          BESPOKE
-          <br />
-          CONTACT LENSES
-        </TeamServiceTitle>
+        <Link to="/what-we-do/contact-lenses">
+          <TeamServiceImage src="/images2/service-bespoke-contact-lenses.png" />
+          <TeamServiceTitle>
+            BESPOKE
+            <br />
+            CONTACT LENSES
+          </TeamServiceTitle>
+        </Link>
       </TeamServiceItem>
       <TeamServiceItem>
-        <TeamServiceImage src="/images2/service-paediatric-vision.png" />
-        <TeamServiceTitle>
-          PAEDIATRIC
-          <br />
-          VISION
-        </TeamServiceTitle>
+        <Link to="/what-we-do/childrens-vision">
+          <TeamServiceImage src="/images2/service-paediatric-vision.png" />
+          <TeamServiceTitle>
+            PAEDIATRIC
+            <br />
+            VISION
+          </TeamServiceTitle>
+        </Link>
       </TeamServiceItem>
       <TeamServiceItem>
-        <TeamServiceImage src="/images2/service-dry-eye-clinic.png" />
-        <TeamServiceTitle>
-          DRY EYE
-          <br />
-          CLINIC
-        </TeamServiceTitle>
+        <Link to="/what-we-do/dry-eye-disease">
+          <TeamServiceImage src="/images2/service-dry-eye-clinic.png" />
+          <TeamServiceTitle>
+            DRY EYE
+            <br />
+            CLINIC
+          </TeamServiceTitle>
+        </Link>
       </TeamServiceItem>
       <TeamServiceItem>
-        <TeamServiceImage src="/images2/service-adv-imaging.png" />
-        <TeamServiceTitle>
-          ADVANCED
-          <br />
-          IMAGING
-        </TeamServiceTitle>
+        <Link to="/what-we-do/oct">
+          <TeamServiceImage src="/images2/service-adv-imaging.png" />
+          <TeamServiceTitle>
+            ADVANCED
+            <br />
+            IMAGING
+          </TeamServiceTitle>
+        </Link>
       </TeamServiceItem>
       <TeamServiceItem>
-        <TeamServiceImage src="/images2/service-orthok-correction.png" />
-        <TeamServiceTitle>
-          ORTHO-K OVERNIGHT
-          <br />
-          CORRECTION
-        </TeamServiceTitle>
+        <Link to="/what-we-do/orthokeratology-corneal-reshaping">
+          <TeamServiceImage src="/images2/service-orthok-correction.png" />
+          <TeamServiceTitle>
+            ORTHO-K OVERNIGHT
+            <br />
+            CORRECTION
+          </TeamServiceTitle>
+        </Link>
       </TeamServiceItem>
     </TeamService>
     <TeamFooter>
@@ -407,22 +419,34 @@ const StyleFooterPart = (
   <StyleFooter>
     <StyleBrandBar>
       <StyleBrandItem>
-        <StyleBrandImage src="/images2/icon-style-lindberg.png" />
+        <Link to="/what-we-do/lindberg">
+          <StyleBrandImage src="/images2/icon-style-lindberg.png" />
+        </Link>
       </StyleBrandItem>
       <StyleBrandItem>
-        <StyleBrandImage src="/images2/icon-style-face.png" />
+        <Link to="/what-we-do/face-a-face">
+          <StyleBrandImage src="/images2/icon-style-face.png" />
+        </Link>
       </StyleBrandItem>
       <StyleBrandItem>
-        <StyleBrandImage src="/images2/icon-style-prodesign.png" />
+        <Link to="/what-we-do/prodesign">
+          <StyleBrandImage src="/images2/icon-style-prodesign.png" />
+        </Link>
       </StyleBrandItem>
       <StyleBrandItem>
-        <StyleBrandImage src="/images2/icon-style-monkey.png" />
+        <Link to="/what-we-do/prodesign">
+          <StyleBrandImage src="/images2/icon-style-monkey.png" />
+        </Link>
       </StyleBrandItem>
       <StyleBrandItem>
-        <StyleBrandImage src="/images2/icon-style-maui.png" />
+        <Link to="/what-we-do/prodesign">
+          <StyleBrandImage src="/images2/icon-style-maui.png" />
+        </Link>
       </StyleBrandItem>
       <StyleBrandItem>
-        <StyleBrandImage src="/images2/icon-style-goodgryf.png" />
+        <Link to="/what-we-do/prodesign">
+          <StyleBrandImage src="/images2/icon-style-goodgryf.png" />
+        </Link>
       </StyleBrandItem>
     </StyleBrandBar>
   </StyleFooter>
@@ -468,21 +492,21 @@ const SocialTitle = styled.h1`
   }
 `
 
-const SocialStaffBar = styled.div`
+const SocialItemBar = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   padding: 0 40px;
   border: ${DEBUG_SOCIAL};
 `
-const SocialStaff = styled.div`
+const SocialItem = styled.div`
   flex: 1;
   margin: 0 4px;
   @media (max-width: 768px) {
     flex-basis: 40%;
   }
 `
-const SocialStaffImage = styled.img`
+const SocialItemImage = styled.img`
   width: 100%;
   height: auto;
   filter: grayscale(100%);
@@ -493,20 +517,28 @@ const Social = (
     <SocialTitle>
       Follow us on Instagram and Facebook to see what we&apos;ve been up to!
     </SocialTitle>
-    <SocialStaffBar>
-      <SocialStaff>
-        <SocialStaffImage src="/images2/social-insta1.jpg" />
-      </SocialStaff>
-      <SocialStaff>
-        <SocialStaffImage src="/images2/social-insta2.jpg" />
-      </SocialStaff>
-      <SocialStaff>
-        <SocialStaffImage src="/images2/social-insta1.jpg" />
-      </SocialStaff>
-      <SocialStaff>
-        <SocialStaffImage src="/images2/social-insta2.jpg" />
-      </SocialStaff>
-    </SocialStaffBar>
+    <SocialItemBar>
+      <SocialItem>
+        <a href="https://www.instagram.com/innovative.eye.care">
+          <SocialItemImage src="/images2/social-insta1.jpg" />
+        </a>
+      </SocialItem>
+      <SocialItem>
+        <a href="https://www.instagram.com/innovative.eye.care">
+          <SocialItemImage src="/images2/social-insta2.jpg" />
+        </a>
+      </SocialItem>
+      <SocialItem>
+        <a href="https://www.instagram.com/innovative.eye.care">
+          <SocialItemImage src="/images2/social-insta1.jpg" />
+        </a>
+      </SocialItem>
+      <SocialItem>
+        <a href="https://www.instagram.com/innovative.eye.care">
+          <SocialItemImage src="/images2/social-insta2.jpg" />
+        </a>
+      </SocialItem>
+    </SocialItemBar>
   </SocialSection>
 )
 
@@ -639,11 +671,19 @@ const Footer = (
       <FooterContentItem>
         <FooterContact>
           <FooterContactIcon icon={faMapMarker} />
-          <FooterContactText>
-            60 Hutt Street
-            <br />
-            Adelaide SA 5000
-          </FooterContactText>
+          <a href="https://g.page/iecadel?share">
+            <FooterContactText>
+              60 Hutt Street
+              <br />
+              Adelaide SA 5000
+            </FooterContactText>
+          </a>
+        </FooterContact>
+        <FooterContact>
+          <FooterContactIcon icon={faPhoneAlt} />
+          <a href="tel:61882319341">
+            <FooterContactText>(08) 8231 9341</FooterContactText>
+          </a>
         </FooterContact>
         <FooterContact>
           <FooterContactIcon icon={faClock} />
@@ -653,19 +693,23 @@ const Footer = (
             Sat 8.30am - 12pm
           </FooterContactText>
         </FooterContact>
-        <FooterContact>
-          <FooterContactIcon icon={faPhoneAlt} />
-          <FooterContactText>(08) 8231 9341</FooterContactText>
-        </FooterContact>
       </FooterContentItem>
       <FooterContentItem>
         <FooterContact>
           <FooterContactIcon icon={faMapMarker} />
-          <FooterContactText>
-            850 Port Road
-            <br />
-            Woodville SA 5011
-          </FooterContactText>
+          <a href="https://g.page/iecwoodville?share">
+            <FooterContactText>
+              850 Port Road
+              <br />
+              Woodville SA 5011
+            </FooterContactText>
+          </a>
+        </FooterContact>
+        <FooterContact>
+          <FooterContactIcon icon={faPhoneAlt} />
+          <a href="tel:61884459050">
+            <FooterContactText>(08) 8445 9050</FooterContactText>
+          </a>
         </FooterContact>
         <FooterContact>
           <FooterContactIcon icon={faClock} />
@@ -674,10 +718,6 @@ const Footer = (
             <br />
             Sat CLOSED
           </FooterContactText>
-        </FooterContact>
-        <FooterContact>
-          <FooterContactIcon icon={faPhoneAlt} />
-          <FooterContactText>(08) 8445 9050</FooterContactText>
         </FooterContact>
       </FooterContentItem>
       <FooterContentItem>
@@ -701,11 +741,23 @@ const Footer = (
       </FooterContentItem>
       <FooterContentItem>
         <FooterMenu>
-          <FooterMenuItem>Contact Lens Care</FooterMenuItem>
-          <FooterMenuItem>Blepharitis</FooterMenuItem>
-          <FooterMenuItem>Dry Eye</FooterMenuItem>
-          <FooterMenuItem>Nutrition</FooterMenuItem>
-          <FooterMenuItem>About Us</FooterMenuItem>
+          <FooterMenuItem>
+            <Link to="/what-we-do/contact-lenses">Contact Lens Care</Link>
+          </FooterMenuItem>
+          <FooterMenuItem>
+            <Link to="/what-we-do/blepharitis">Blepharitis</Link>
+          </FooterMenuItem>
+          <FooterMenuItem>
+            <Link to="/what-we-do/dry-eye-disease">Dry Eye</Link>
+          </FooterMenuItem>
+          <FooterMenuItem>
+            <Link to="/patient-resources/nutrition-and-supplements-for-age-related-macular-degeneration">
+              Nutrition
+            </Link>
+          </FooterMenuItem>
+          <FooterMenuItem>
+            <Link to="/who-we-are">About Us</Link>
+          </FooterMenuItem>
         </FooterMenu>
       </FooterContentItem>
       <FooterContentItem>
@@ -715,14 +767,18 @@ const Footer = (
             <FooterNewsletterInput placeholder="Enter Your Email" />
           </div>
           <div>
-            <FooterNewsletterIcon
-              icon={faFacebook}
-              style={{ color: "#828282" }}
-            />
-            <FooterNewsletterIcon
-              icon={faInstagram}
-              style={{ color: "#828282" }}
-            />
+            <a href="https://www.facebook.com/innovativeeyecareadelaide">
+              <FooterNewsletterIcon
+                icon={faFacebook}
+                style={{ color: "#828282" }}
+              />
+            </a>
+            <a href="https://www.instagram.com/innovative.eye.care">
+              <FooterNewsletterIcon
+                icon={faInstagram}
+                style={{ color: "#828282" }}
+              />
+            </a>
           </div>
         </div>
       </FooterContentItem>
