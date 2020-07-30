@@ -14,6 +14,11 @@ import { useMatchMedia } from "../hooks/useMatchMedia"
 //----------------------------------------------------------
 //-- Section 0: Main
 //----------------------------------------------------------
+const ExtLink = styled.a`
+  margin: 0;
+  padding: 0;
+`
+
 const DEBUG_MAIN = "0px solid blue"
 const MainSection = styled.div`
   width: auto;
@@ -671,19 +676,19 @@ const Footer = (
       <FooterContentItem>
         <FooterContact>
           <FooterContactIcon icon={faMapMarker} />
-          <a href="https://g.page/iecadel?share">
-            <FooterContactText>
+          <FooterContactText>
+            <a href="https://g.page/iecadel?share">
               60 Hutt Street
               <br />
               Adelaide SA 5000
-            </FooterContactText>
-          </a>
+            </a>
+          </FooterContactText>
         </FooterContact>
         <FooterContact>
           <FooterContactIcon icon={faPhoneAlt} />
-          <a href="tel:61882319341">
-            <FooterContactText>(08) 8231 9341</FooterContactText>
-          </a>
+          <FooterContactText>
+            <a href="tel:61882319341">(08) 8231 9341</a>
+          </FooterContactText>
         </FooterContact>
         <FooterContact>
           <FooterContactIcon icon={faClock} />
@@ -697,19 +702,19 @@ const Footer = (
       <FooterContentItem>
         <FooterContact>
           <FooterContactIcon icon={faMapMarker} />
-          <a href="https://g.page/iecwoodville?share">
-            <FooterContactText>
+          <FooterContactText>
+            <a href="https://g.page/iecwoodville?share">
               850 Port Road
               <br />
               Woodville SA 5011
-            </FooterContactText>
-          </a>
+            </a>
+          </FooterContactText>
         </FooterContact>
         <FooterContact>
           <FooterContactIcon icon={faPhoneAlt} />
-          <a href="tel:61884459050">
-            <FooterContactText>(08) 8445 9050</FooterContactText>
-          </a>
+          <FooterContactText>
+            <a href="tel:61884459050">(08) 8445 9050</a>
+          </FooterContactText>
         </FooterContact>
         <FooterContact>
           <FooterContactIcon icon={faClock} />
