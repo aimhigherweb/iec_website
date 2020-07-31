@@ -3,11 +3,13 @@ title: LINDBERG
 category: eyewear-experts
 ---
 <div class="employee-heading">
-LINDBERG eyewear tells the world that you subscribe to a different way of thinking. You have a connoisseur's appreciation of exceptional design and high quality materials. Our practice currently carries selected models from the Spirit Titanium, N.O.W. Titanium, Air Titanium Rim, Strip Titanium 9700, 9800 and 9900, as well as Acetanium collections. See the LINDBERG designs <a href="http://lindberg.com">here</a>.
+See the world in a new level of luxury with LINDBERG eyewear. With impeccable craftsmanship, every frame embodies the Danish design tradition of discreet, classic elegance and carefully considered simplicity. 
+
+LINDBERG designs feature exclusive high quality materials that are responsibly sourced and selected for timeless elegance and exceptional strength. Each frame is carefully engineered with patent technical innovations, making LINDBERG frames incredibly strong and flexible, yet one of the lightest and most comfortable in the world. 
+
+LINDBERG frames are individually crafted and customised to your preferences. The design is in your hands, combining an array of unique materials you can create a frame exclusive to you. 
+
+
+
+Explore the world of LINDBERG designs <a href="http://lindberg.com">here</a>.
 </div>
-
-##### Why we love LINDBERG
-
-* Avant-garde and timelessly elegant
-* Pure titanium for reinforced strength and durability
-* Ultra light weight
