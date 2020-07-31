@@ -14,30 +14,18 @@ import { useMatchMedia } from "../hooks/useMatchMedia"
 //----------------------------------------------------------
 //-- Section 0: Main
 //----------------------------------------------------------
-const ExtLink = styled.a`
-  margin: 0;
-  padding: 0;
-`
-
 const DEBUG_MAIN = "0px solid blue"
-const MainSection = styled.div`
-  width: auto;
-  height: 100vh;
 
-  background-image: url("/images2/bg-section-main.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  @media (max-width: 768px) {
-    background-
-  }
-`
 const MainHeader = styled.div`
-  padding: 40px;
-  width: auto;
-  height: 70px;
+  position: fixed;
+  z-index: 9999;
+  padding: 20px;
+  width: 100%;
+  height: auto;
   @media (max-width: 768px) {
     padding: 20px;
   }
+  background-color: #424242;
   border: ${DEBUG_MAIN};
 `
 const Logo = styled.img.attrs({
@@ -54,19 +42,29 @@ const Logo = styled.img.attrs({
 const Menu = styled.img.attrs({
   src: "/images2/icon-menu.png",
 })`
-  position: relative;
-  float: right;
-  top: 0px;
-  right: 0px;
+  position: fixed;
+  top: 20px;
+  right: 20px;
   width: 40px;
   height: 31px;
   background: clear;
   border: ${DEBUG_MAIN};
 `
+
+const MainFooter = styled.div`
+  position: fixed;
+  z-index: 9999;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 80px;
+  background-color: #424242;
+`
 const MainSearch = styled.div`
-  position: absolute;
-  bottom: 40px;
+  position: fixed;
+  bottom: 20px;
   left: 40px;
+  background-color: #424242;
   @media (max-width: 768px) {
     left: 40px;
     right: 40px;
@@ -94,7 +92,7 @@ const MainSearchInput = styled.input`
 `
 const MainBooking = styled.div`
   position: absolute;
-  bottom: 40px;
+  bottom: 20px;
   right: 40px;
   @media (max-width: 768px) {
     position: static;
@@ -116,21 +114,36 @@ const MainBookingButton = styled.button`
   }
 `
 
+const MainSection = styled.div`
+  width: auto;
+  height: 100vh;
+
+  background-image: url("/images2/bg-section-main.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  @media (max-width: 768px) {
+    background-
+  }
+`
+
 const Main = (
-  <MainSection>
+  <div>
     <MainHeader>
       <Logo />
       <Menu />
     </MainHeader>
-    <MainSearch>
-      <MainSearchInput placeholder="Search now." />
-    </MainSearch>
-    <MainBooking>
-      <MainBookingButton>Book Online Adelaide.</MainBookingButton>
-      &nbsp;&nbsp;&nbsp;
-      <MainBookingButton>Book Online Woodville.</MainBookingButton>
-    </MainBooking>
-  </MainSection>
+    <MainFooter>
+      <MainSearch>
+        <MainSearchInput placeholder="Search now." />
+      </MainSearch>
+      <MainBooking>
+        <MainBookingButton>Book Online Adelaide.</MainBookingButton>
+        &nbsp;&nbsp;&nbsp;
+        <MainBookingButton>Book Online Woodville.</MainBookingButton>
+      </MainBooking>
+    </MainFooter>
+    <MainSection></MainSection>
+  </div>
 )
 
 //----------------------------------------------------------
@@ -666,7 +679,7 @@ const FooterGutter = styled.div`
   border-top: 1px solid #e2e2e2;
 `
 const FooterGutterText = styled.div`
-  margin: 20px 0;
+  margin: 20px 0 40px 0;
   font-size: 0.6em;
   color: black;
   @media (max-width: 768px) {
