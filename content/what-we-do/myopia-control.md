@@ -26,10 +26,8 @@ There are two main risk factors for developing myopia; lifestyle and family hist
 
 ![](/uploads/pasted-image-0-1.png)
 
-<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\\\\\\\\\\\\[if IE]><iframe frameborder="0" type="text/html" src="https://2689-2347.captiv8online.com/animations/embed/one/o-t-t-d?player_width=100%&player_height=100%&site_company_language=34&autostart=false" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\\\\\\\\\\\\[endif]--><!--\\\\\\\\\\\\[if !IE]> <--><object data="https://2689-2347.captiv8online.com/animations/embed/one/o-t-t-d?player_width=100%&player_height=100%&site_company_language=34&autostart=false" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"> alt : <a href="https://2689-2347.captiv8online.com/animations/embed/one/o-t-t-d?player_width=100%&player_height=100%&site_company_language=34&autostart=false">Myopia</a></object><!--> <!\\\\\\\\\\\\[endif]--></div>
+<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\\\\\\\\\\\\\[if IE]><iframe frameborder="0" type="text/html" src="https://2689-2347.captiv8online.com/animations/embed/one/o-t-t-d?player_width=100%&player_height=100%&site_company_language=34&autostart=false" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\\\\\\\\\\\\\[endif]--><!--\\\\\\\\\\\\\[if !IE]> <--><object data="https://2689-2347.captiv8online.com/animations/embed/one/o-t-t-d?player_width=100%&player_height=100%&site_company_language=34&autostart=false" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"> alt : <a href="https://2689-2347.captiv8online.com/animations/embed/one/o-t-t-d?player_width=100%&player_height=100%&site_company_language=34&autostart=false">Myopia</a></object><!--> <!\\\\\\\\\\\\\[endif]--></div>
 <br>
-
-
 
 #### What are the associated risks of myopia?
 
@@ -91,7 +89,7 @@ Specialised soft contact lenses called MiSight (Coopervision) show a 40% reducti
 
 ##### Spectacle lens options
 
-Regular spectacles, although make distance vision clear, offer no myopia control benefit. In myopic individuals that have an accommodative lag (decreased ability to focus up close), progressive additional spectacle lenses can reduce myopia progression by up to 30%.<sup>14</sup> The accommodative (focusing) system is tested by your optometrist during your [appointment](https://innovativeeyecare.com.au/contact/) to find the best option for you. 
+Regular spectacles, although make distance vision clear, offer no myopia control benefit. In myopic individuals that have an accommodative lag (decreased ability to focus up close), bifocal spectacle lenses can reduce myopia progression by up to 30%.<sup>14</sup> The accommodative (focusing) system is tested by your optometrist during your [appointment](https://innovativeeyecare.com.au/contact/) to find the best option for you. 
 
 #### Other considerations
 
