@@ -44,7 +44,7 @@ The progression of myopia can be slowed and in some cases halted completely with
 
 #### How common is myopia?
 
-It is a very common condition, and the incidence is rising rapidly, with the WHO calling myopia an epidemic.<sup>4</sup> Currently, 30% of the population is shortsighted and by 2050, it is predicted that 50% of the population will be myopic.<sup>4</sup> Usually myopia begins to develop in early teenage years and it commonly gets progressively worse over the following few years.
+It is a very common condition, and the incidence is rising rapidly, with the WHO calling myopia an epidemic.<sup>4,5</sup> Currently, 30% of the population is shortsighted and by 2050, it is predicted that 50% of the population will be myopic.<sup>4,5</sup> Usually myopia begins to develop in early teenage years and it commonly gets progressively worse over the following few years.
 
 ##### References
 
@@ -52,3 +52,4 @@ It is a very common condition, and the incidence is rising rapidly, with the WHO
 2. Flitcroft, D. I. (2012). "The complex interactions of retinal, optical and environmental factors in myopia aetiology." Progress in Retinal and Eye Research 31(6): 622-660.
 3. Haarman, A. E. G., et al. (2020). "The Complications of Myopia: A Review and Meta-Analysis". Invest Ophthalmol Vis Sci. 61(4): 49. 
 4. Institute, W. H. O.-B. H. V. (2016). "The Impact of Myopia and High Myopia." Report of the Joint World Health Organisation-Brien Holden Vision Institute Global Scientific Meeting on Myopia.
+5. Resnikoff, S., et al. (2019). "Myopia - A 21st Century Public Health Issue". Invest Ophthalmol Vis Sci. 60(3): 3. 
