@@ -28,6 +28,8 @@ A comprehensive [eye test](https://innovativeeyecare.com.au/contact/) is the onl
 * Holding iPads and books close to the face
 * Lack of interest in playing outdoor games
 
+  ![](/uploads/0aded48b23e39439e9eff0706f97a488b601e42a_child-reading.jpg)
+
 #### What causes myopia?
 
 The exact causes and mechanisms of myopia are not known. Recent research has shown that the development of myopia is influenced by both genetic and environmental factors.<sup>2</sup> Excessive amounts of reading and time spent indoors have been shown to contribute to the development of myopia.<sup>4</sup>
