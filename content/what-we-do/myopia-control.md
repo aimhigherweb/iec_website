@@ -91,7 +91,7 @@ Specialised soft contact lenses called MiSight (Coopervision) show a 40% reducti
 
 ![](/uploads/kssvdgf.png)
 
-Regular spectacles, although make distance vision clear, offer no myopia control benefit. In myopic individuals that have an accommodative lag (decreased ability to focus up close), bifocal spectacle lenses can reduce myopia progression by up to 30%.<sup>14</sup> The accommodative (focusing) system is tested by your optometrist during your [appointment](https://innovativeeyecare.com.au/contact/) to find the best option for you. 
+Regular spectacles, although make distance vision clear, offer minimal myopia control benefit. In myopic individuals that have an accommodative lag (decreased ability to focus up close), bifocal spectacle lenses may reduce myopia progression by up to 30%.<sup>14</sup> The accommodative (focusing) system is tested by your optometrist during your [appointment](https://innovativeeyecare.com.au/contact/) to find the best option for you. 
 
 #### Other considerations
 
