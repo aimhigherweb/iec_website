@@ -32,8 +32,6 @@ A comprehensive [eye test](https://innovativeeyecare.com.au/contact/) is the onl
 
 The exact causes and mechanisms of myopia are not known. Recent research has shown that the development of myopia is influenced by both genetic and environmental factors.<sup>2</sup> 
 
-
-
 At various times people have blamed excessive amounts of reading, poor metabolism, poor diet, poor light, poor posture and genetic factors. Recent research has shown that the development of myopia is influenced by both genetic and environmental factors.<sup>2</sup>
 
 #### Can myopia be cured?
@@ -46,7 +44,7 @@ The progression of myopia can be slowed and in some cases halted completely with
 
 #### How common is myopia?
 
-It is a very common condition. About 30% of the population is shortsighted and by 2050, it is predicted that 50% of the population will be myopic.<sup>4</sup> Usually myopia begins to develop in early teenage years and it commonly gets worse over the following few years.
+It is a very common condition, and the incidence is rising rapidly, with the WHO calling myopia an epidemic.<sup>4</sup> Currently, 30% of the population is shortsighted and by 2050, it is predicted that 50% of the population will be myopic.<sup>4</sup> Usually myopia begins to develop in early teenage years and it commonly gets progressively worse over the following few years.
 
 ##### References
 
