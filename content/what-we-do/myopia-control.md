@@ -36,7 +36,7 @@ Historically, low myopia was considered a normal variation of the eye. Now there
 * **Low myopia** between -0.50 and -6.00 D <sup>6</sup>
 * **High myopia** beyond -6.00 D<sup>6</sup>
 
-The main difference between low and high myopia is the association with eye growth, or axial length. The best way to assess the risk of eye disease from myopia is to measure axial length and monitor the change over time.  Once the axial length exceeds 26.5mm, the risk of eye disease such as glaucoma and retinal detachment is significantly increased.<sup>2</sup> This is why slowing down the progression of myopia is so important. 
+The main difference between low and high myopia is the association with eye growth, or axial length. The best way to assess the risk of eye disease from myopia is to measure axial length and monitor the change over time.  Due to the structural changes that occur at the back of the eye, once the axial length exceeds 26.5mm, the risk of eye disease such as glaucoma and retinal detachment is significantly increased.<sup>2</sup> This is why slowing down the progression of myopia is so important. 
 
 #### How bad are the risks, even just for low myopia?
 
