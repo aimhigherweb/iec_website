@@ -30,9 +30,7 @@ A comprehensive [eye test](https://innovativeeyecare.com.au/contact/) is the onl
 
 #### What causes myopia?
 
-The exact causes and mechanisms of myopia are not known. Recent research has shown that the development of myopia is influenced by both genetic and environmental factors.<sup>2</sup> 
-
-At various times people have blamed excessive amounts of reading, poor metabolism, poor diet, poor light, poor posture and genetic factors. Recent research has shown that the development of myopia is influenced by both genetic and environmental factors.<sup>2</sup>
+The exact causes and mechanisms of myopia are not known. Recent research has shown that the development of myopia is influenced by both genetic and environmental factors.<sup>2</sup> Excessive amounts of reading and time spent indoors have been shown to contribute to the development of myopia. 
 
 #### Can myopia be cured?
 
@@ -44,12 +42,13 @@ The progression of myopia can be slowed and in some cases halted completely with
 
 #### How common is myopia?
 
-It is a very common condition, and the incidence is rising rapidly, with the WHO calling myopia an epidemic.<sup>4,5</sup> Currently, 30% of the population is shortsighted and by 2050, it is predicted that 50% of the population will be myopic.<sup>4,5</sup> Usually myopia begins to develop in early teenage years and it commonly gets progressively worse over the following few years.
+It is a very common condition, and the incidence is rising rapidly, with the WHO calling myopia an epidemic.<sup>5,6</sup> Currently, 30% of the population is shortsighted and by 2050, it is predicted that 50% of the population will be myopic.<sup>5,6</sup> Usually myopia begins to develop in early teenage years and it commonly gets progressively worse over the following few years.
 
 ##### References
 
-1. Willhem, J. L., et al. (2016). "Association of Axial Length With Risk of Uncorrectable Visual Impairment for Europeans With Myopia." JAMA Ophthalmol 134(12):1355-1363. 
+1. Willhem, J. L., et al. (2016). "Association of Axial Length With Risk of Uncorrectable Visual Impairment for Europeans With Myopia." JAMA Ophthalmol. 134(12):1355-1363. 
 2. Flitcroft, D. I. (2012). "The complex interactions of retinal, optical and environmental factors in myopia aetiology." Progress in Retinal and Eye Research 31(6): 622-660.
 3. Haarman, A. E. G., et al. (2020). "The Complications of Myopia: A Review and Meta-Analysis". Invest Ophthalmol Vis Sci. 61(4): 49. 
-4. Institute, W. H. O.-B. H. V. (2016). "The Impact of Myopia and High Myopia." Report of the Joint World Health Organisation-Brien Holden Vision Institute Global Scientific Meeting on Myopia.
-5. Resnikoff, S., et al. (2019). "Myopia - A 21st Century Public Health Issue". Invest Ophthalmol Vis Sci. 60(3): 3. 
+4. Cooper, J., Tkatchenko, A. V., (2018). "A Review of Current Concepts of the Etiology and Treatment of Myopia." Eye Contact Lens. 44(4). 231-247. 
+5. Institute, W. H. O.-B. H. V. (2016). "The Impact of Myopia and High Myopia." Report of the Joint World Health Organisation-Brien Holden Vision Institute Global Scientific Meeting on Myopia.
+6. Resnikoff, S., et al. (2019). "Myopia - A 21st Century Public Health Issue". Invest Ophthalmol Vis Sci. 60(3): 3.
