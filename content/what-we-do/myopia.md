@@ -8,11 +8,11 @@ preview-image: myopia-vision-final.jpg
 <p>At our Adelaide and Woodville practices, our optometrists offer <a href="/what-we-do/myopia-control">myopia control</a> treatments to prevent the progression of myopia. If you are interested in knowing more, please contact our staff or <a href="/what-we-do/eye-exam">book an appointment</a>.</p>
 </div>
 
-There is currently no cure for myopia, but [spectacles](/what-we-do/glasses), [contact lenses](/what-we-do/contact-lenses), [orthokeratology](/what-we-do/orthokeratology-corneal-reshaping) and refractive surgery can all provide good distance vision for people with this condition. Due to the structural change to the eye, myopia increases the risk of ocular disease such as [retinal detachment](/what-we-do//what-we-do/flashes-floaters-retinal-tear-detachment), [cataract](/what-we-do/cataract) and [glaucoma](/what-we-do/glaucoma) later in life.<sup>1,2</sup>
+There is currently no cure for myopia, but [spectacles](/what-we-do/glasses), [contact lenses](/what-we-do/contact-lenses), [orthokeratology](/what-we-do/orthokeratology-corneal-reshaping) and refractive surgery can all assist in treating the symptom of blurry distance vision for people with this condition. Due to the structural change to the eye, myopia increases the risk of ocular disease such as [retinal detachment](/what-we-do//what-we-do/flashes-floaters-retinal-tear-detachment), [cataract](/what-we-do/cataract) and [glaucoma](/what-we-do/glaucoma) later in life.<sup>1,2</sup> 
 
-#### How can I tell if I am shortsighted?
+#### How can I tell if I am myopic?
 
-Shortsighted people have difficulty seeing distant objects clearly. They find it hard to read road signs and scoreboards and to play ball games, and recognising people in the distance may also be a problem. Often a person will not realise that they cannot see clearly until they have an eye examination.
+The most common symptom of myopia is blurry distance vision. Myopic people find it hard to read road signs or scoreboards, and recognising people in the distance may also be a problem. Often a person will not realise that they cannot see clearly until they have an eye examination.
 
 ![](/uploads/myopia-vision-final.jpg)
 
@@ -44,11 +44,8 @@ The progression of myopia can be slowed and in some cases halted completely with
 
 It is a very common condition. About 30% of the population is shortsighted and by 2050, it is predicted that 50% of the population will be myopic.<sup>3</sup> Usually myopia begins to develop in early teenage years and it commonly gets worse over the following few years.
 
-
 ##### References
 
 1. Willhem, J. L., et al. (2016). "Association of Axial Length With Risk of Uncorrectable Visual Impairment for Europeans With Myopia." JAMA Ophthalmol 134(12):1355-1363. 
-
 2. Flitcroft, D. I. (2012). "The complex interactions of retinal, optical and environmental factors in myopia aetiology." Progress in Retinal and Eye Research 31(6): 622-660.
-
-3. Institute, W. H. O.-B. H. V. (2016). "The Impact of Myopia and High Myopia." Report of the Joint World Health Organisation-Brien Holden Vision Institute Global Scientific Meeting on Myopia. 
+3. Institute, W. H. O.-B. H. V. (2016). "The Impact of Myopia and High Myopia." Report of the Joint World Health Organisation-Brien Holden Vision Institute Global Scientific Meeting on Myopia.
