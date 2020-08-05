@@ -20,7 +20,7 @@ CAPTION: A view typical of someone with myopia
 
 #### How can I tell if my child is shortsighted?
 
-A comprehensive [eye test](/contact/) is the only sure way of determining whether your child's vision is normal. Some clues to myopia in a child include:
+A comprehensive [eye test](https://innovativeeyecare.com.au/contact/) is the only sure way of determining whether your child's vision is normal. Some clues to myopia in a child include:
 
 * Screwing up eyes to see distant objects
 * Difficulty reading the whiteboard at school
