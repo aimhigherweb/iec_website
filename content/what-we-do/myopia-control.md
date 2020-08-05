@@ -26,7 +26,7 @@ There are two main risk factors for developing myopia; lifestyle and family hist
 
 ![](/uploads/pasted-image-0-1.png)
 
-<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\\\\\\\\\\\\\\\[if IE]><iframe frameborder="0" type="text/html" src="https://2689-2347.captiv8online.com/animations/embed/one/o-t-t-d?player_width=100%&player_height=100%&site_company_language=34&autostart=false" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\\\\\\\\\\\\\\\[endif]--><!--\\\\\\\\\\\\\\\[if !IE]> <--><object data="https://2689-2347.captiv8online.com/animations/embed/one/o-t-t-d?player_width=100%&player_height=100%&site_company_language=34&autostart=false" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"> alt : <a href="https://2689-2347.captiv8online.com/animations/embed/one/o-t-t-d?player_width=100%&player_height=100%&site_company_language=34&autostart=false">Myopia</a></object><!--> <!\\\\\\\\\\\\\\\[endif]--></div>
+<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\\\\\\\\\\\\\\\\[if IE]><iframe frameborder="0" type="text/html" src="https://2689-2347.captiv8online.com/animations/embed/one/o-t-t-d?player_width=100%&player_height=100%&site_company_language=34&autostart=false" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\\\\\\\\\\\\\\\\[endif]--><!--\\\\\\\\\\\\\\\\[if !IE]> <--><object data="https://2689-2347.captiv8online.com/animations/embed/one/o-t-t-d?player_width=100%&player_height=100%&site_company_language=34&autostart=false" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"> alt : <a href="https://2689-2347.captiv8online.com/animations/embed/one/o-t-t-d?player_width=100%&player_height=100%&site_company_language=34&autostart=false">Myopia</a></object><!--> <!\\\\\\\\\\\\\\\\[endif]--></div>
 <br>
 
 #### What are the associated risks of myopia?
@@ -91,7 +91,7 @@ Specialised soft contact lenses called MiSight (Coopervision) show a 40% reducti
 
 ![](/uploads/kssvdgf.png)
 
-Regular spectacles, although make distance vision clear, offer minimal myopia control benefit. Some spectacles, such as the Miyosmart lens has been clinically proven to be effective in slowing down myopia progression. The Miyosmart lens incorporates Defocus Incorporated Multiple Segments (DIMS) technology that provides both clear vision and the benefit of slowing axial length growth by 60%.<sup>14</sup>
+Regular spectacles, although make distance vision clear, offer minimal myopia control benefit. Some spectacles that incorporate specialised designs, such as the Miyosmart lens, have been clinically proven to be effective in slowing down myopia progression. The Miyosmart lens incorporates Defocus Incorporated Multiple Segments (DIMS) technology that provides both clear vision and the benefit of slowing axial length growth by 60%.<sup>14</sup> This lens will be available in Australia as of October 2020. 
 
 In myopic individuals that have an accommodative lag (decreased ability to focus up close), bifocal spectacle lenses may reduce myopia progression by up to 30%.<sup>15</sup> The accommodative (focusing) system is tested by your optometrist during your [appointment](https://innovativeeyecare.com.au/contact/) to find the best option for you. 
 
@@ -120,4 +120,5 @@ Axial eye length is the best metric of risk and progression for myopia. It has t
 11. Gifford, K. et al. (2019). "IMI - Clinical Management Guidelines Report". InvestOphthalVis Sci. 60(3)
 12. Bullimore, M. A, Richdale, K. (2020). "Myopia Control 2020: Where are we and where are we heading?" Ophthalmic Physiol Opt. 40(3): 254-270.  
 13. Ruiz-Pomeda, A. et al. (2018). "MiSight Assessment Study Spain (MASS). A 2 year randomised clinical trial". Graefes Arch Clin Exp Ophthalmol. 256:1011-1021. 
-14. Cheng, D. et al. (2014). "Effect of bifocal and prismatic bifocal spectacles on myopia progression in children: three-year results of a randomised clinical trial" JAMA Ophthalmol. 132:258-293.
+14. Lam, C. S. Y. et al. (2020). "Defocus Incorporated Multiple Segments (DIMS) spectacle lenses slow myopia progression: a 2-year randomised clinical trial". Br J Ophthalmol. 104(3): 363-368. 
+15. Cheng, D. et al. (2014). "Effect of bifocal and prismatic bifocal spectacles on myopia progression in children: three-year results of a randomised clinical trial" JAMA Ophthalmol. 132:258-293.
