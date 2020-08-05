@@ -30,11 +30,11 @@ A comprehensive [eye test](https://innovativeeyecare.com.au/contact/) is the onl
 
 #### What causes myopia?
 
-The exact causes and mechanisms of myopia are not known. Recent research has shown that the development of myopia is influenced by both genetic and environmental factors.<sup>2</sup> Excessive amounts of reading and time spent indoors have been shown to contribute to the development of myopia. 
+The exact causes and mechanisms of myopia are not known. Recent research has shown that the development of myopia is influenced by both genetic and environmental factors.<sup>2</sup> Excessive amounts of reading and time spent indoors have been shown to contribute to the development of myopia.<sup>4</sup>
 
 #### Can myopia be cured?
 
-Despite ongoing research, a cure for myopia has not yet been found. Properly prescribed spectacles or contact lenses, including [orthokeratology](/what-we-do/orthokeratology-corneal-reshaping) lenses, will enable a person with myopia to see clearly. [Soft contact lenses](/what-we-do/soft-contact-lenses) can also be useful, particularly VTI brand NaturalVue and Coopervision MiSight lenses. Laser surgery to permanently reshape the front surface of the eye can also help some people with myopia. Your optometrist can advise you about the latest developments and whether they would be suitable for you.
+Despite ongoing research, a cure for myopia has not yet been found. Properly prescribed spectacles or contact lenses, including [orthokeratology](/what-we-do/orthokeratology-corneal-reshaping) lenses, will enable a person with myopia to see clearly. [](/what-we-do/soft-contact-lenses)Laser surgery to permanently reshape the front surface of the eye can also help some people with myopia achieve clear distance vision. Your optometrist can advise you about the latest developments and whether they would be suitable for you. 
 
 #### Can myopia be prevented?
 
