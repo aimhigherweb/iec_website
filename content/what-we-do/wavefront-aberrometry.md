@@ -24,7 +24,7 @@ A Hartmann-Shack wavefront sensor detects the deviation of light at hundred of p
 
 ![](/uploads/aberrometry-myopia.jpg)
 
-*Visual performance of a patient's optical system (eye) based on aberrometry readings, divided into corneal and internal components.*
+CAPTION: Visual performance of a patient's optical system (eye) based on aberrometry readings, divided into corneal and internal components.
 
 ##### How can aberrometry benefit me?
 
