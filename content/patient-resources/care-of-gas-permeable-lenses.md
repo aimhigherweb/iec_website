@@ -28,7 +28,7 @@ Always wash and rinse your hands thoroughly and dry them with a lint-free towel/
 
 <b><i>Step 4.</i></b> Dry and wipe out your lens case with a tissue. Leave the case lid off to air dry while wearing your lenses.
 
-<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\\\\[if IE]><iframe frameborder="0" type="text/html" src="https://www.youtube.com/embed/6oNZ7DrSXB8" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\\\\[endif]--><!--\\\\[if !IE]> <--><object data="https://www.youtube.com/embed/6oNZ7DrSXB8" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://www.youtube.com/embed/6oNZ7DrSXB8">Scleral Lens Insertion & Removal By EyeSpace Lenses</a></object><!--> <!\\\\[endif]--></div>
+<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\\\\\[if IE]><iframe frameborder="0" type="text/html" src="https://www.youtube.com/embed/6oNZ7DrSXB8" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\\\\\[endif]--><!--\\\\\[if !IE]> <--><object data="https://www.youtube.com/embed/6oNZ7DrSXB8" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://www.youtube.com/embed/6oNZ7DrSXB8">Scleral Lens Insertion & Removal By EyeSpace Lenses</a></object><!--> <!\\\\\[endif]--></div>
 
 <br>
 
@@ -46,13 +46,9 @@ Always wash and rinse your hands thoroughly and dry them with a lint-free towel/
 
 <i><b>Method 2 – Suction Removal.</b></i> Using your middle fingers, open the eyelids wider than the lens diameter. With the suction tool between your index finger and thumb, align the suction cup so it is positioned in front of and parallel to the lens. When the suction cup touches the lens, apply pressure gently to adhere the lens to the cup and remove the lens from your eye. After removal from the eye, carefully slide the lens sideways off the suction tool and it will come off easily
 
-![](/uploads/suction-tools.jpg)
-
-CAPTION: Different styles of suction tool.
-
 #### Cleaning
 
-Always clean your lenses after wear. An effective cleaning process is vital to ensure comfortable, hygienic and infection-free contact lens wear. With correct cleaning, contact lenses will feel better on your eyes, allow better eye health and vision, and dramatically reduce bacteria and other contaminants. There are multiple types of rigid lens cleaning solutions: Peroxide based systems like AO Sept and multipurpose rigid lens solutions like Menicare and Boston Simplus. There are several steps involved in cleaning and storing Ortho-K lenses that vary depending on the system.
+Always clean your lenses after wear. An effective cleaning process is vital to ensure comfortable, hygienic and infection-free contact lens wear. With correct cleaning, contact lenses will feel better on your eyes, allow better eye health and vision, and dramatically reduce bacteria and other contaminants. There are multiple types of rigid lens cleaning solutions: Peroxide based systems like AO Sept and multipurpose rigid lens solutions like Menicare and Boston Simplus. There are several steps involved in cleaning and storing RGP lenses that vary depending on the system.
 
 ##### Peroxide cleaner ([AO Sept with Hydraglyde](http://eyesolutions.com.au/collections/frontpage/products/aoseptwithhydraglyde))
 
@@ -62,8 +58,6 @@ To clean your lenses fill the case up to the line, place your lenses in the corr
 
 Care should be taken not to get the un-neutralised peroxide in your eyes as this will sting painfully. If this occurs rinse thoroughly with water and contact your optometrist if the pain persists or your vision is affected. Find AOSept at our shop [here](http://eyesolutions.com.au/collections/frontpage/products/aoseptwithhydraglyde).
 
-![](/uploads/ao-sept-hydraglyde-menicare.jpg)
-
 ##### Multipurpose solutions ([Menicare](http://eyesolutions.com.au/collections/frontpage/products/menicare-plus-contact-lens-solution) and Boston Simplus)
 
 1. <i>To clean:</i> Place a few drops of rigid contact lens solution on the palm and the lens, then rub with your finger-pad for at least 10 seconds on each side. The back surface (concave) is best cleaned by moving your thumb across the surface. This step removes material that deposits on the lens during wear. Whilst Ortho-K lenses are strong, with incorrect technique or too much force they can break.
@@ -72,8 +66,6 @@ Care should be taken not to get the un-neutralised peroxide in your eyes as this
 ##### Regular protein removal ([Progent](http://eyesolutions.com.au/collections/frontpage/products/menicon-progent-contact-lens-solution))
 
 To clean and maintain the wettability of your lenses use intensive cleaner, such as Menicon Progent. Place the lenses into the contact lens case holders. Open vial A and B by twisting the cap and pour the contents into the contact lens case. Replace the lid and tighten. Leave the lenses in the solution for 30 minutes, then remove and rinse thoroughly with saline. Lenses can now be worn or soaked in your daily cleaner. (please note that this product may not be available in all countries, ask your practitioner).
-
-![](/uploads/progent.jpg)
 
 #### Risk of breakage
 
