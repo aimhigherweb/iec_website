@@ -9,19 +9,23 @@ preview_image: /uploads/blog-cover.jpg
 
 The Pentacam AXL Wave is the latest addition to Innovative Eye Care’s arsenal of advanced imaging technology. It functions as a:
 
-* Tomographer (maps corneal, iris and lenticular tissue)
-* Topographer (maps the front surface of the cornea)
-* Autorefractor (objectively measures refractive error)
-* Wavefront aberrometer (quantifies the eye’s lower-order and higher-order aberrations affecting vision)
-* Biometer (measures the physical parameters of the eye)
-* Imager (captures the anterior eye’s structure)
+* <a href="https://www.innovativeeyecare.com.au/what-we-do/corneal-tomography">Tomographer</a> (maps corneal, iris and lenticular tissue)
+* <a href="https://www.innovativeeyecare.com.au/what-we-do/corneal-topography">Topographer</a> (maps the front surface of the cornea)
+* <a href="https://www.innovativeeyecare.com.au/what-we-do/auto-phoropter">Autorefractor</a> (objectively measures refractive error)
+* <a href="https://www.innovativeeyecare.com.au/what-we-do/wavefront-aberrometry">Wavefront aberrometer</a> (quantifies the eye’s lower-order and higher-order aberrations affecting vision)
+* <a href="https://www.innovativeeyecare.com.au/what-we-do/optical-biometry">Biometer</a> (measures the physical parameters of the eye)
+* <a href="https://www.innovativeeyecare.com.au/what-we-do/anterior-imaging">Anterior ocular imager</a> (captures the anterior eye’s structure)
 * Retroillumination and densitometer (images and measures the clarity of the optical media)
 
 </div>
 
 #### Scheimpflug-Based Tomography
 
-The Pentacam AXL Wave is on the cutting edge of tomography, advancing beyond reflection-based systems. It’s able to directly measure the elevation of both the front and back surfaces of the cornea (the clear structure at the front of the eye that bends light) with Scheimpflug imaging. It also measures corneal thickness and volume, anterior chamber conformation and volume, and anterior lens topography and density. This is many steps beyond what most topographers use (Placido disc imaging) which maps only the front corneal surface. Its accuracy as a non-contact alternative independent of tear film quality has been proven in countless clinical trials. For this reason, it’s much better for mapping irregular cornea, and dry eyes. The data from the shape of the eye can be used to design and simulate various custom-made contact lenses including orthokeratology, corneal RGP and scleral lenses.
+The Pentacam AXL Wave is on the cutting edge of tomography, advancing beyond reflection-based systems. It’s able to directly measure the elevation of both the front and back surfaces of the cornea (the clear structure at the front of the eye that bends light) with Scheimpflug imaging. It also measures corneal thickness and volume, anterior chamber conformation and volume, and anterior lens topography and density. This is many steps beyond what most topographers use (Placido disc imaging) which maps only the front corneal surface. Its accuracy as a non-contact alternative independent of tear film quality has been proven in countless clinical trials. For this reason, it’s much better for mapping irregular cornea, and [dry eyes](https://www.innovativeeyecare.com.au/what-we-do/dry-eye-disease). The data from the shape of the eye can be used to design and simulate various custom-made [contact lenses](https://www.innovativeeyecare.com.au/what-we-do/contact-lenses) including [orthokeratology](https://www.innovativeeyecare.com.au/what-we-do/orthokeratology-corneal-reshaping), [corneal RGP](https://www.innovativeeyecare.com.au/what-we-do/gas-permeable-contact-lenses) and [scleral lenses](https://www.innovativeeyecare.com.au/what-we-do/scleral-contact-lenses).
+
+![](/uploads/schiempflug.jpg)
+
+*Figure 1: Tomographic scan of the structures at the front of the eye, including the cornea, sclera, anterior chamber, iris and lens.*
 
 #### Objective Refraction
 
@@ -29,11 +33,11 @@ The Pentacam AXL Wave can very accurately objectively measure your refraction, w
 
 #### Wavefront Aberrometry
 
-The ability of the Pentacam AXL Wave to measure the way light passes through the eye’s multiple structures is known as wavefront aberrometry. Lower-order aberrations including defocus (myopia, hyperopia) and astigmatism can easily be corrected with spectacles and contact lenses. However, the Pentacam AXL Wave also quantifies higher-order aberrations, and can even isolate whether these aberrations are being induced by the cornea or by internal structures. Higher-order aberrations are present in specific diseases like keratoconus and pterygium, and are more difficult to manage by conventional means. It’s why patients with these conditions often have unclear vision even with optical correction. In future, we will be able to correct higher-order aberrations using custom-made scleral contact lenses.
+The ability of the Pentacam AXL Wave to measure the way light passes through the eye’s multiple structures is known as [wavefront aberrometry](https://www.innovativeeyecare.com.au/what-we-do/wavefront-aberrometry). Lower-order aberrations including defocus ([myopia](https://www.innovativeeyecare.com.au/what-we-do/myopia), [hyperopia](innovativeeyecare.com.au/what-we-do/hyperopia)) and [astigmatism](https://www.innovativeeyecare.com.au/what-we-do/astigmatism) can easily be corrected with [spectacles](https://www.innovativeeyecare.com.au/what-we-do/glasses) and contact lenses. However, the Pentacam AXL Wave also quantifies higher-order aberrations, and can even isolate whether these aberrations are being induced by the cornea or by internal structures. Higher-order aberrations are present in specific diseases like [keratoconus](https://www.innovativeeyecare.com.au/what-we-do/keratoconus) and [pterygium](https://www.innovativeeyecare.com.au/what-we-do/pterygium-pinguecula), and are more difficult to manage by conventional means. It’s why patients with these conditions often have unclear vision even with optical correction. In future, we will be able to correct higher-order aberrations using custom-made [scleral contact lenses](https://www.innovativeeyecare.com.au/what-we-do/scleral-contact-lenses).
 
 ![](/uploads/aberrometry-myopia.jpg)
 
-*Figure 1: Visual performance of an eye based on the presence of lower- and higher-order aberrations found on wavefront aberrometry.*
+*Figure 2: Visual performance of an eye based on the presence of lower- and higher-order aberrations found on wavefront aberrometry.*
 
 #### Optical Biometry
 
