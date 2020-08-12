@@ -5,8 +5,6 @@ author: Dylan Bentley & Millie Meegan
 author_url: https://www.innovativeeyecare.com.au/who-we-are/dylan-bentley
 preview_image: /uploads/blog-cover.png
 ---
-
-
 <div class="employee-heading">
 
 The Pentacam AXL Wave is the latest addition to Innovative Eye Care’s arsenal of advanced imaging technology. It functions as a:
@@ -25,6 +23,8 @@ The Pentacam AXL Wave is the latest addition to Innovative Eye Care’s arsenal 
 
 The Pentacam AXL Wave is on the cutting edge of tomography, advancing beyond reflection-based systems. It’s able to directly measure the elevation of both the front and back surfaces of the cornea (the clear structure at the front of the eye that bends light) with Scheimpflug imaging. It also measures corneal thickness and volume, anterior chamber conformation and volume, and anterior lens topography and density. This is many steps beyond what most topographers use (Placido disc imaging) which maps only the front corneal surface. Its accuracy as a non-contact alternative independent of tear film quality has been proven in countless clinical trials. For this reason, it’s much better for mapping irregular cornea, and [dry eyes](https://www.innovativeeyecare.com.au/what-we-do/dry-eye-disease). The data from the shape of the eye can be used to design and simulate various custom-made [contact lenses](https://www.innovativeeyecare.com.au/what-we-do/contact-lenses) including [orthokeratology](https://www.innovativeeyecare.com.au/what-we-do/orthokeratology-corneal-reshaping), [corneal RGP](https://www.innovativeeyecare.com.au/what-we-do/gas-permeable-contact-lenses) and [scleral lenses](https://www.innovativeeyecare.com.au/what-we-do/scleral-contact-lenses).
 
+![](/uploads/schiempflug.jpg)
+
 *Figure 1: Tomographic scan of the structures at the front of the eye, including the cornea, sclera, anterior chamber, iris and lens.*
 
 #### Objective Refraction
@@ -35,11 +35,15 @@ The Pentacam AXL Wave can very accurately objectively measure your refraction, w
 
 The ability of the Pentacam AXL Wave to measure the way light passes through the eye’s multiple structures is known as [wavefront aberrometry](https://www.innovativeeyecare.com.au/what-we-do/wavefront-aberrometry). Lower-order aberrations including defocus ([myopia](https://www.innovativeeyecare.com.au/what-we-do/myopia), [hyperopia](innovativeeyecare.com.au/what-we-do/hyperopia)) and [astigmatism](https://www.innovativeeyecare.com.au/what-we-do/astigmatism) can easily be corrected with [spectacles](https://www.innovativeeyecare.com.au/what-we-do/glasses) and contact lenses. However, the Pentacam AXL Wave also quantifies higher-order aberrations, and can even isolate whether these aberrations are being induced by the cornea or by internal structures. Higher-order aberrations are present in specific diseases like [keratoconus](https://www.innovativeeyecare.com.au/what-we-do/keratoconus) and [pterygium](https://www.innovativeeyecare.com.au/what-we-do/pterygium-pinguecula), and are more difficult to manage by conventional means. It’s why patients with these conditions often have unclear vision even with optical correction. In future, we will be able to correct higher-order aberrations using custom-made [scleral contact lenses](https://www.innovativeeyecare.com.au/what-we-do/scleral-contact-lenses).
 
+![](/uploads/aberrometry-myopia.jpg)
+
 *Figure 2: Visual performance of an eye based on the presence of lower- and higher-order aberrations found on wavefront aberrometry.*
 
 #### Optical Biometry
 
 Biometry measures the axial thickness of the eyes optical structures; cornea, anterior chamber, lens, and vitreous chamber. The measurement is contactless, noninvasive, and provides an extremely precise objective assessment. Quantifying the length of the eye is important for monitoring its [growth in children](https://www.innovativeeyecare.com.au/what-we-do/myopia-control), particularly in regards to myopia, hyperopia and [amblyopia](https://www.innovativeeyecare.com.au/what-we-do/amblyopia). Pathological myopia is defined as an axial length of over 26mm, and children are at risk of secondary conditions causing vision impairment if their eye growth is not controlled (see Myopia Management Software below).<sup>1</sup> Corneal thickness is intrinsic to management of [keratoconus](https://www.innovativeeyecare.com.au/what-we-do/keratoconus) and other thinning conditions (ectasia). The Pentacam AXL Wave provides both an anterior and posterior elevation map, which are crucial in identifying and monitoring early ectasia where standard corneal topography cannot.<sup>2</sup> Biometry of the cornea, lens and axial length can also be applied to [cataract surgery](https://www.innovativeeyecare.com.au/what-we-do/cataract), where your Ophthalmologist considers these aspects when deciding on an intraocular lens (IOL). With biometric readings, assessment of the anterior chamber depth can determine whether you are at risk of angle-closure glaucoma.
+
+![](/uploads/al-ok.jpg)
 
 *Figure 3: A short-sighted patient with an above average axial length.*
 
@@ -50,6 +54,8 @@ A built-in database can determine your child’s risk of myopia development and 
 #### Retroillumination
 
 Almost everyone over the age of 55 has some degree of cataract.<sup>3</sup> The Pentacam AXL Wave assesses the crystalline lens inside the eye where the [cataracts](https://www.innovativeeyecare.com.au/what-we-do/cataract) form with retroillumination (back-lighting). We can monitor how the cataract progresses and take preoperative measurements for IOL selection in collaboration with your Ophthalmologist. If you have had cataract surgery before, this equipment also checks that your new lens is positioned exactly where it needs to be.
+
+![](/uploads/retroillumination.jpg)
 
 *Figure 4: A small, spoke-like lenticular opacity seen with retroillumination.*
 
