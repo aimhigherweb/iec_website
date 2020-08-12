@@ -20,4 +20,4 @@ Due to its extensive abilities, the Pentacam AXL Wave has applications for all p
 
 ![](/uploads/pentacam-topography.jpg)
 
-*Figure 1: Various tomographic maps of a keratoconic eye as taken by the Pentacam AXL Wave.*
+*Figure 2: Various tomographic maps of a keratoconic eye as taken by the Pentacam AXL Wave.*
