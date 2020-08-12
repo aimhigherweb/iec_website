@@ -3,7 +3,7 @@ title: Introducing the Pentacam AXL Wave
 date: 2020-08-12T01:20:10.880Z
 author: Dylan Bentley & Millie Meegan
 author_url: https://www.innovativeeyecare.com.au/who-we-are/dylan-bentley
-preview_image: /uploads/blog-cover.jpg
+preview_image: /uploads/blog-cover.png
 ---
 <div class="employee-heading">
 
@@ -29,7 +29,7 @@ The Pentacam AXL Wave is on the cutting edge of tomography, advancing beyond ref
 
 #### Objective Refraction
 
-The Pentacam AXL Wave can very accurately objectively measure your refraction, without needing to say whether you prefer ‘1’ or ‘2’. This makes determining your prescription quicker and easier, and allows more time for refining your spectacles.
+The Pentacam AXL Wave can very accurately objectively measure your refraction, without needing to say whether you prefer ‘1’ or ‘2’. This makes determining your prescription quicker and easier, and allows more time for refining your [spectacles](https://www.innovativeeyecare.com.au/what-we-do/glasses).
 
 #### Wavefront Aberrometry
 
@@ -41,7 +41,7 @@ The ability of the Pentacam AXL Wave to measure the way light passes through the
 
 #### Optical Biometry
 
-Biometry measures the axial thickness of the eyes optical structures; cornea, anterior chamber, lens, and vitreous chamber. The measurement is contactless, noninvasive, and provides an extremely precise objective assessment. Quantifying the length of the eye is important for monitoring its growth in children, particularly in regards to myopia, hyperopia and amblyopia. Pathological myopia is defined as an axial length of over 26.5mm, and children are at risk of secondary conditions causing vision impairment if their eye growth is not controlled (see Myopia Management Software below). Corneal thickness is intrinsic to management of keratoconus and other thinning conditions (ectasia). The Pentacam AXL Wave provides both an anterior and posterior elevation map, which are crucial in identifying and monitoring early ectasia where standard corneal topography cannot. Biometry of the cornea, lens and axial length can also be applied to cataract surgery, where your Ophthalmologist considers these aspects when deciding on an intraocular lens (IOL). With biometric readings, assessment of the anterior chamber depth can determine whether you are at risk of angle-closure glaucoma.
+Biometry measures the axial thickness of the eyes optical structures; cornea, anterior chamber, lens, and vitreous chamber. The measurement is contactless, noninvasive, and provides an extremely precise objective assessment. Quantifying the length of the eye is important for monitoring its [growth in children](https://www.innovativeeyecare.com.au/what-we-do/myopia-control), particularly in regards to myopia, hyperopia and [amblyopia](https://www.innovativeeyecare.com.au/what-we-do/amblyopia). Pathological myopia is defined as an axial length of over 26mm, and children are at risk of secondary conditions causing vision impairment if their eye growth is not controlled (see Myopia Management Software below).<sup>1</sup> Corneal thickness is intrinsic to management of [keratoconus](https://www.innovativeeyecare.com.au/what-we-do/keratoconus) and other thinning conditions (ectasia). The Pentacam AXL Wave provides both an anterior and posterior elevation map, which are crucial in identifying and monitoring early ectasia where standard corneal topography cannot.<sup>2</sup> Biometry of the cornea, lens and axial length can also be applied to [cataract surgery](https://www.innovativeeyecare.com.au/what-we-do/cataract), where your Ophthalmologist considers these aspects when deciding on an intraocular lens (IOL). With biometric readings, assessment of the anterior chamber depth can determine whether you are at risk of angle-closure glaucoma.
 
 ![](/uploads/al-ok.jpg)
 
@@ -49,11 +49,11 @@ Biometry measures the axial thickness of the eyes optical structures; cornea, an
 
 #### Myopia Management Software
 
-A built-in database can determine your child’s risk of myopia development and progression based on high quality peer-reviewed evidence from the Brien Holden Vision Institute. It uses external information including time spent outdoors, time spent reading and parental optical prescription, as well as actual measurements of the eye including axial length in optical biometry and refraction. It compares these against a database and can identify children with axial lengths outside the normal range. With repeat visits, it’s able to monitor growth of the eye and project the trajectory of that growth. This information helps determine the best course of action for implementing myopia control to slow the growth of the eye. Ultimately, controlling the eye’s growth process reduces the risk of vision impairment including retinal detachment.
+A built-in database can determine your child’s risk of myopia development and progression based on high quality peer-reviewed evidence from the Brien Holden Vision Institute. It uses external information including time spent outdoors, time spent reading and parental optical prescription, as well as actual measurements of the eye including axial length in optical biometry and refraction. It compares these against a database and can identify children with axial lengths outside the normal range. With repeat visits, it’s able to monitor growth of the eye and project the trajectory of that growth. This information helps determine the best course of action for implementing [myopia control](https://www.innovativeeyecare.com.au/what-we-do/myopia-control) to slow the growth of the eye. Ultimately, controlling the eye’s growth process reduces the risk of vision impairment including retinal detachment.<sup>1</sup>
 
 #### Retroillumination
 
-Almost everyone over the age of 55 has some degree of cataract. The Pentacam AXL Wave assesses the crystalline lens inside the eye where the cataracts form with retroillumination (back-lighting). We can monitor how the cataract progresses and take preoperative measurements for IOL selection in collaboration with your Ophthalmologist. If you have had cataract surgery before, this equipment also checks that your new lens is positioned exactly where it needs to be.
+Almost everyone over the age of 55 has some degree of cataract.<sup>3</sup> The Pentacam AXL Wave assesses the crystalline lens inside the eye where the [cataracts](https://www.innovativeeyecare.com.au/what-we-do/cataract) form with retroillumination (back-lighting). We can monitor how the cataract progresses and take preoperative measurements for IOL selection in collaboration with your Ophthalmologist. If you have had cataract surgery before, this equipment also checks that your new lens is positioned exactly where it needs to be.
 
 ![](/uploads/retroillumination.jpg)
 
@@ -65,5 +65,12 @@ Due to its extensive abilities, the Pentacam AXL Wave is a comprehensive screeni
 
 #### References
 
-1. OCULUS, 2019.OCULUS Myopia Master: Refraction, Axial Length And Keratometry. \[online] Available at: https://www.oculus.de/en/products/myopia-management/myopia-master/highlights/
-2. OCULUS, 2019.OCULUS Pentacam AXL Wave: The Next Generation. \[online] Available at: http://www.eyeoptics.dk/files/oculus/pentacam_axl_wave_en_0120_versand.pdf
+1. World Health Organization & Brien Holden Vision Institute, 2015.*The Impact Of Myopia And High Myopia*. New South Wales: World Health Organization.
+
+2. de Sanctis, U., Loiacono, C., Richiardi, L., Turco, D., Mutani, B. and Grignolo, F., 2008. Sensitivity and Specificity of Posterior Corneal Elevation Measured by Pentacam in Discriminating Keratoconus/Subclinical Keratoconus. *Ophthalmology*, 115(9), pp.1534-1539.
+
+3. Australian Institute of Health and Welfare, 2005. Vision Problems Among Older Australians. Canberra, pp.12-15.
+
+2. OCULUS, 2019.OCULUS Myopia Master: Refraction, Axial Length And Keratometry. \[online] Available at: https://www.oculus.de/en/products/myopia-management/myopia-master/highlights/
+
+3. OCULUS, 2019.OCULUS Pentacam AXL Wave: The Next Generation. \[online] Available at: http://www.eyeoptics.dk/files/oculus/pentacam_axl_wave_en_0120_versand.pdf
