@@ -4,7 +4,7 @@ category: Contact Lens Instructions
 preview_image: /uploads/contact-lenses-2.jpg
 ---
 <div class="employee-heading">
-<p>Rigid Gas Permeable (RGP) contact lenses are a recognised safe form of vision correction.<sup>1</sup> However, incorrect care of contact lenses can increase the risk of eye infections and corneal ulcers. Risk factors for contact lens related corneal infection include improper lens cleaning and disinfection including rinsing with tap water, poor hygiene practices and smoking.<sup>2</sup> Following your optometrist's hygiene regime, along with regular reviews, will minimise this risk.</p>\
+<p>Rigid Gas Permeable (RGP) contact lenses are a recognised safe form of vision correction.<sup>1</sup> However, incorrect care of contact lenses can increase the risk of eye infections and corneal ulcers. Risk factors for contact lens related corneal infection include improper lens cleaning and disinfection including rinsing with tap water, poor hygiene practices and smoking.<sup>2</sup> Following your optometrist's hygiene regime, along with regular reviews, will minimise this risk.</p>
 
 <p>Always thoroughly disinfect your hands and dry them with a clean lint-free towel before handling, removing or inserting your lenses. Make sure to clean all parts of your hands, including between the fingers and dry thoroughly.</p>
 </div>
@@ -29,7 +29,7 @@ Always wash and rinse your hands thoroughly and dry them with a lint-free towel/
 
 <b><i>Step 4.</i></b> Dry and wipe out your lens case with a tissue. Leave the case lid off to air dry face down.<sup>4</sup>
 
-<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\\\\\\\\[if IE]><iframe frameborder="0" type="text/html" src="https://www.youtube.com/embed/6oNZ7DrSXB8" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\\\\\\\\[endif]--><!--\\\\\\\\[if !IE]> <--><object data="https://www.youtube.com/embed/6oNZ7DrSXB8" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://www.youtube.com/embed/6oNZ7DrSXB8">Scleral Lens Insertion & Removal By EyeSpace Lenses</a></object><!--> <!\\\\\\\\[endif]--></div>
+<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\\\\\\\\\[if IE]><iframe frameborder="0" type="text/html" src="https://www.youtube.com/embed/6oNZ7DrSXB8" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\\\\\\\\\[endif]--><!--\\\\\\\\\[if !IE]> <--><object data="https://www.youtube.com/embed/6oNZ7DrSXB8" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://www.youtube.com/embed/6oNZ7DrSXB8">Scleral Lens Insertion & Removal By EyeSpace Lenses</a></object><!--> <!\\\\\\\\\[endif]--></div>
 
 <br>
 
