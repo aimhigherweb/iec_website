@@ -29,7 +29,7 @@ Always wash and rinse your hands thoroughly and dry them with a lint-free towel/
 
 <b><i>Step 4.</i></b> Dry and wipe out your lens case with a tissue. Leave the case lid off to air dry face down.<sup>4</sup>
 
-<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\\\\\\\[if IE]><iframe frameborder="0" type="text/html" src="https://www.youtube.com/embed/6oNZ7DrSXB8" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\\\\\\\[endif]--><!--\\\\\\\[if !IE]> <--><object data="https://www.youtube.com/embed/6oNZ7DrSXB8" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://www.youtube.com/embed/6oNZ7DrSXB8">Scleral Lens Insertion & Removal By EyeSpace Lenses</a></object><!--> <!\\\\\\\[endif]--></div>
+<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\\\\\\\\[if IE]><iframe frameborder="0" type="text/html" src="https://www.youtube.com/embed/6oNZ7DrSXB8" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\\\\\\\\[endif]--><!--\\\\\\\\[if !IE]> <--><object data="https://www.youtube.com/embed/6oNZ7DrSXB8" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://www.youtube.com/embed/6oNZ7DrSXB8">Scleral Lens Insertion & Removal By EyeSpace Lenses</a></object><!--> <!\\\\\\\\[endif]--></div>
 
 <br>
 
@@ -50,6 +50,8 @@ Always wash and rinse your hands thoroughly and dry them with a lint-free towel/
 #### Cleaning
 
 An effective cleaning process is vital to ensure comfortable, hygienic and infection-free contact lens wear. With correct cleaning, contact lenses will feel better on your eyes, allow better eye health and vision, and dramatically reduce the risk of infection. Always clean your lenses after wear, and NEVER RINSE OR STORE YOUR LENSES IN TAP WATER.<sup>3</sup> The acanthamoeba microorganism is plentiful in tap water and can cause a severe, painful and sight-threatening infection.
+
+![](/uploads/contact-and-lenses-water-dont-mix.png)
 
 ##### Peroxide cleaner ([AO Sept with Hydraglyde](http://eyesolutions.com.au/collections/frontpage/products/aoseptwithhydraglyde))
 
