@@ -49,7 +49,7 @@ CAPTION: A lens facing the right side up (right), and wrong side up (left)
 * Gently squeeze the lens between thumb and index finger to remove the lens.
 * An alternative method is to remove the lens directly from the cornea using the thumb and index finger.
 
-<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\\\\[if IE]><iframe frameborder="0" type="text/html" src="https://www.youtube.com/embed/R2KRU2iMR_Y" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\\\\[endif]--><!--\\\\[if !IE]> <--><object data="https://www.youtube.com/embed/R2KRU2iMR_Y" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://www.youtube.com/embed/R2KRU2iMR_Y">Scleral Lens Insertion & Removal By EyeSpace Lenses</a></object><!--> <!\\\\[endif]--></div>
+<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\\\\\[if IE]><iframe frameborder="0" type="text/html" src="https://www.youtube.com/embed/R2KRU2iMR_Y" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\\\\\[endif]--><!--\\\\\[if !IE]> <--><object data="https://www.youtube.com/embed/R2KRU2iMR_Y" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://www.youtube.com/embed/R2KRU2iMR_Y">Scleral Lens Insertion & Removal By EyeSpace Lenses</a></object><!--> <!\\\\\[endif]--></div>
 
 <br>
 
@@ -61,7 +61,9 @@ CAPTION: A lens facing the right side up (right), and wrong side up (left)
 
 #### Cleaning and disinfecting
 
-Cleaning and disinfecting are two separate procedures which must be followed one after the other once your lenses have been removed. The importance of effective cleaning cannot be over-emphasised. Clean each lens immediately after taking it out of the eye, as this removes protein deposition which builds up on the lens during wear.
+Cleaning and disinfecting are two separate procedures which must be followed one after the other once your lenses have been removed. The importance of effective cleaning cannot be over-emphasised. Clean each lens immediately after taking it out of the eye, as this removes protein deposition which builds up on the lens during wear. RINSING YOUR LENSES WITH TAP WATER IS NOT AN EFFECTIVE CLEANING METHOD - the acanthamoeba microorganism is plentiful in tap water and can cause a severe, painful and sight-threatening infection.<sup>1</sup>
+
+![](/uploads/contact-and-lenses-water-dont-mix.png)
 
 ##### Cleaning
 
@@ -71,7 +73,7 @@ Make sure fingernails are trimmed and avoid direct fingernail contact with the l
 * Apply 1 or 2 drops of your specified cleaning solution on the lens.
 * Rub gently with a circular motion for about 15 seconds on each side of the lens. Make sure both sides of the lens are cleaned.
 * Rinse thoroughly with saline or multipurpose solution. You may need to rinse and rub with saline or multipurpose solution more than once to ensure the entire cleaner is removed. Insufficient rinsing will mean that the contact lens may sting on insertion the next time.
-* Place lenses in your contat lens case ready for disinfection.
+* Place lenses in your contact lens case ready for disinfection.
 
 ##### Disinfecting
 
@@ -115,3 +117,7 @@ These soaking solutions contain a weak disinfecting chemical. The lenses can be 
 * Change the solution if it has been longer than a week without wearing the lenses.
 * Discard the lenses as recommended by your optometrist. Replace your lens case at least every three months, as old cases have been shown to increase the risk of infection due to the formation of bio-films.
 * **If your eyes are sore, red, or have any discharge, remove your lenses and contact your eye care practitioner or the acute eye-clinic at your local hospital after hours.**
+
+#### References
+
+1. Cornea & Contact Lens Society of Australia. 2020. *Contact Lenses And Water Do Not Mix!* Website. Available at: <https://www.cclsa.org.au/tap/>.
