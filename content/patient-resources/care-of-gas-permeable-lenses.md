@@ -4,8 +4,9 @@ category: Contact Lens Instructions
 preview_image: /uploads/contact-lenses-2.jpg
 ---
 <div class="employee-heading">
-<p>Rigid Gas Permeable (RGP) contact lenses are a recognised safe form of vision correction.<sup>1</sup> However, incorrect care of contact lenses can increase the risk of eye infections and corneal ulcers. Risk factors for contact lens related corneal infection include improper lens cleaning and disinfection, poor hygiene practices and smoking.<sup>2</sup> Following your optometrist's hygiene regime, along with regular reviews, will minimise this risk.</p>
-<p>Always thoroughly wash your hands with an antibacterial-based hand wash and dry them with a clean lint-free towel before handling, removing or inserting your lenses. Make sure to clean all parts of your hands, including between the fingers and dry thoroughly.</p>
+<p>Rigid Gas Permeable (RGP) contact lenses are a recognised safe form of vision correction.<sup>1</sup> However, incorrect care of contact lenses can increase the risk of eye infections and corneal ulcers. Risk factors for contact lens related corneal infection include improper lens cleaning and disinfection including rinsing with tap water, poor hygiene practices and smoking.<sup>2</sup> Following your optometrist's hygiene regime, along with regular reviews, will minimise this risk.</p>\
+
+<p>Always thoroughly disinfect your hands and dry them with a clean lint-free towel before handling, removing or inserting your lenses. Make sure to clean all parts of your hands, including between the fingers and dry thoroughly.</p>
 </div>
 
 #### Safety & hygiene
@@ -24,11 +25,11 @@ Always wash and rinse your hands thoroughly and dry them with a lint-free towel/
 
 <b><i>Step 2.</i></b> Place 1-2 drops of a <b>lubricating eye drop</b> and fill the back of the lens. Place the lens on your index finger and inset directly onto the centre (coloured part) of your eye in a face-down position, parallel to the floor. To save confusion, it's a good idea to always insert the right lens first.
 
-<b><i>Step 3.</i></b> If you happen to drop your lens, use <b>saline solution</b> to rinse. Place the lens in the palm of your hand and rinse thoroughly for 5 seconds.
+<b><i>Step 3.</i></b> If you happen to drop your lens, use <b>saline solution</b> to rinse. DO NOT USE TAP WATER.<sup>3</sup> Place the lens in the palm of your hand and rinse thoroughly for 5 seconds.
 
-<b><i>Step 4.</i></b> Dry and wipe out your lens case with a tissue. Leave the case lid off to air dry while wearing your lenses.
+<b><i>Step 4.</i></b> Dry and wipe out your lens case with a tissue. Leave the case lid off to air dry face down.<sup>4</sup>
 
-<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\\\\\\[if IE]><iframe frameborder="0" type="text/html" src="https://www.youtube.com/embed/6oNZ7DrSXB8" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\\\\\\[endif]--><!--\\\\\\[if !IE]> <--><object data="https://www.youtube.com/embed/6oNZ7DrSXB8" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://www.youtube.com/embed/6oNZ7DrSXB8">Scleral Lens Insertion & Removal By EyeSpace Lenses</a></object><!--> <!\\\\\\[endif]--></div>
+<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\\\\\\\[if IE]><iframe frameborder="0" type="text/html" src="https://www.youtube.com/embed/6oNZ7DrSXB8" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\\\\\\\[endif]--><!--\\\\\\\[if !IE]> <--><object data="https://www.youtube.com/embed/6oNZ7DrSXB8" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://www.youtube.com/embed/6oNZ7DrSXB8">Scleral Lens Insertion & Removal By EyeSpace Lenses</a></object><!--> <!\\\\\\\[endif]--></div>
 
 <br>
 
@@ -48,30 +49,32 @@ Always wash and rinse your hands thoroughly and dry them with a lint-free towel/
 
 #### Cleaning
 
-Always clean your lenses after wear, and NEVER rinse or store your lenses in tap water, as micro-organisms are plentiful and can cause infections in your eyes. An effective cleaning process is vital to ensure comfortable, hygienic and infection-free contact lens wear. With correct cleaning, contact lenses will feel better on your eyes, allow better eye health and vision, and dramatically reduce bacteria and other contaminants. There are multiple types of rigid lens cleaning solutions: Peroxide based systems like AO Sept and multipurpose rigid lens solutions like Menicare and Boston Simplus. There are several steps involved in cleaning and storing RGP lenses that vary depending on the system.
+An effective cleaning process is vital to ensure comfortable, hygienic and infection-free contact lens wear. With correct cleaning, contact lenses will feel better on your eyes, allow better eye health and vision, and dramatically reduce the risk of infection. Always clean your lenses after wear, and NEVER RINSE OR STORE YOUR LENSES IN TAP WATER.<sup>3</sup> The acanthamoeba microorganism is plentiful in tap water and can cause a severe, painful and sight-threatening infection.
 
 ##### Peroxide cleaner ([AO Sept with Hydraglyde](http://eyesolutions.com.au/collections/frontpage/products/aoseptwithhydraglyde))
 
-These solutions work by having your contact lenses immersed and sterilised in 3% hydrogen peroxide. Over the course of a 6 hour period the catalyst in the case converts the hydrogen peroxide into water and oxygen gas. This cleaning solution has the advantage that when your lenses are removed from the case they require no rinsing as they are covered only in sterile, non-preserved water. They also generally require no rubbing step, which decreases the risk of accidental breakage. The case can be left to air dry when not in use, and should be replaced with each new bottle of solution. AOSept now had the addition of Hydraglyde, an ingredient which improves the wettability of your contact lenses.
+* <i>To clean, disinfect and condition:</i> Fill the case up to the line, place your lenses in the correct cage-holder, then submerge the case and screw closed. Over the course of a 6 hour period the catalyst in the case converts the disinfecting hydrogen peroxide solution into water and oxygen gas. The solution also includes Hydraglyde, an ingredient which improves the wettability of your contact lenses.
 
-To clean your lenses fill the case up to the line, place your lenses in the correct cage-holder. Then submerge the case and screw closed. Take care when transporting the case as sometimes the small gas-release hole can leak solution.
-
-Care should be taken not to get the un-neutralised peroxide in your eyes as this will sting painfully. If this occurs rinse thoroughly with water and contact your optometrist if the pain persists or your vision is affected. Find AOSept at our shop [here](http://eyesolutions.com.au/collections/frontpage/products/aoseptwithhydraglyde).
+This cleaning solution requires no rubbing step, which decreases the risk of accidental breakage. The lenses do not need to be rinsed after the clean, as the solution neutralises to sterile water. The case can be left to air dry when not in use, and should be replaced with each new bottle of solution. Take care when transporting the case as sometimes the small gas-release hole can leak solution. Do not remove the lenses from the case before 6 hours, as the un-neutralised hydrogen peroxide in your eyes will sting painfully. If this occurs, rinse thoroughly with water and contact your optometrist if the pain persists or your vision is affected. Find AOSept at our shop [here](http://eyesolutions.com.au/collections/frontpage/products/aoseptwithhydraglyde).
 
 ##### Multipurpose solutions ([Menicare](http://eyesolutions.com.au/collections/frontpage/products/menicare-plus-contact-lens-solution) and Boston Simplus)
 
-1. <i>To clean:</i> Place a few drops of rigid contact lens solution on the palm and the lens, then rub with your finger-pad for at least 10 seconds on each side. The back surface (concave) is best cleaned by moving your thumb across the surface. This step removes material that deposits on the lens during wear. Whilst RGP lenses are strong, with incorrect technique or too much force they can break.
-2. <i>To disinfect and condition:</i> Place the lens in fresh solution in your lens case, ensuring the lens is completely submerged. This step kills microbes on your lenses and prepares the surface of your lens to stay wet throughout wear, increasing comfort. Store your lenses in this solution for at least 4 hours for the cleaning process to be complete. 
+* <i>To clean:</i> Place a few drops of rigid contact lens solution on the palm and the lens, then rub with your finger-pad for at least 10 seconds on each side. The back surface (concave) is best cleaned by moving your thumb across the surface. This step removes material that deposits on the lens during wear.
+* <i>To disinfect and condition:</i> Place the lens in fresh solution in your lens case, ensuring the lens is completely submerged. This step kills microbes on your lenses and prepares the surface of your lens to stay wet throughout wear, increasing comfort. Store your lenses in this solution for at least 4 hours for the cleaning process to be complete. 
+
+Whilst RGP lenses are strong, with incorrect technique or too much force they can break, so take care during the cleaning step. 
 
 ##### Regular protein removal ([Progent](http://eyesolutions.com.au/collections/frontpage/products/menicon-progent-contact-lens-solution))
 
-To clean and maintain the wettability of your lenses use intensive cleaner, such as Menicon Progent. Place the lenses into the contact lens case holders. Open vial A and B by twisting the cap and pour the contents into the contact lens case. Replace the lid and tighten. Leave the lenses in the solution for 30 minutes, then remove and rinse thoroughly with saline. Lenses can now be worn or soaked in your daily cleaner. (please note that this product may not be available in all countries, ask your practitioner).
+* <i>To use:</i> Place the lenses into the contact lens case holders. Open vial A and B by twisting the cap and pour the contents into the contact lens case. Replace the lid and tighten. Leave the lenses in the solution for 30 minutes, then remove and rinse thoroughly with saline. 
 
-#### Risk of breakage
+An intensive cleaner like Menicon Progent cleans and maintain the wettability of your lenses. After rinsing the lenses, they can be worn following this protein clean or can be disinfected with the daily cleaner.
+
+#### Breakage
 
 Rigid contact lenses are made of a strong polymer which resists damage in normal wearing circumstances. It is very rare for a lens to break in your eye unless something hits your eye or your removal technique is incorrect/very forceful. The solutions you use to clean your lenses will not weaken or degrade them ‒ not even the powerful Progent fortnightly deep cleaner. However, they can still break if mishandled. There are some tricks you can learn to minimise this chance.
 
-<b>Habits that may cause a lens to break include:</b>
+<i>Habits that may cause a lens to break include:</i>
 
 * Pressure on the lens. If the lens lands on a mirror or flat surface. Gently slide it off to the edge of the surface or use a suction tool to remove it from the surface.
 * Pulling the lens too firmly from the suction tool. Slide the lens off the suction point instead.
@@ -79,26 +82,17 @@ Rigid contact lenses are made of a strong polymer which resists damage in normal
 
 ![](/uploads/mishandling-lenses.jpg)
 
-It is very rare for a lens to break in your eye unless something hits your eye or your removal technique is incorrect/very forceful. The solutions you use to clean your lenses will not weaken or degrade them ‒ not even the powerful Progent fortnightly deep cleaner.
-
 #### In case of breakage
 
-We understand that when you are learning how to use your lenses you may be inadvertently forceful during insertion, removal or cleaning. Because of this we offer a 1 month manufacturer’s replacement warranty on accidental breakages. Outside of this period, your lens is not covered by a warranty and the lens will need to be replaced at your cost if damaged or lost. If you break a lens within 18 months of its original purchase/fit then we are happy to offer 50% off the price. Outside of this 18 month period the lens will be full-price.
+We understand that when you are learning how to use your lenses you may be inadvertently forceful during insertion, removal or cleaning. Because of this we offer a 1 month manufacturer’s replacement warranty on accidental breakages. Outside of this period, your lens is not covered by a warranty and the lens will need to be replaced at your cost if damaged or lost. If you break a lens within 12 months of its original purchase/fit then we are happy to offer 50% off the price. Outside of this 12 month period the lens will be full-price.
 
-Normally a lens will take less than one week to arrive from the lab when ordered. If you are very dependent on the lens, we will of course ask our lens company to manufacture it as soon as possible. Because of the inevitable waiting time, we encourage all rigid lens wearers to have a spare set of lenses available for a situation where a lens is lost or broken. We also offer 50% off the full price for a spare lens if purchased within 12 months of the original. 
-
-If you do lose or damage a lens, please don’t fret, just give our friendly team a call and we will arrange a replacement as quickly as we can.
+Normally a lens will take less than one week to arrive from the lab when ordered. If you are very dependent on the lens, we will of course ask our lens company to manufacture it as soon as possible. Because of the inevitable waiting time, we encourage all rigid lens wearers to have a spare set of lenses available for a situation where a lens is lost or broken.
 
 #### Things to remember!
 
-* Do not modify the recommended cleaning routine or solutions without consulting your optometrist. Other solutions may not be compatible with your eyes and lenses, and may cause discomfort or allergic reactions.
-* Do not heat solutions.
-* Shortcuts with cleaning solutions may appear to save money but can result in ineffective lens cleaning and disinfection. Incorrect cleaning solutions may damage your lenses or lead to an eye infection which can result in vision loss.
-* Never clean or store your rigid lens with soft contact lens solutions. These products work in a different way to the rigid lens solutions and will not clean and condition your rigid lenses.
-* Replace the contact lens case every time you start a new bottle of lens cleaner to avoid microbial contamination.
-* To avoid contamination do not touch the tips of solution bottles. Replace caps after use.
-* If your eyes are very painful after hours, consult your local hospital or emergency eye clinic.
-* If you notice scratches and chips or misplace a lens, contact your optometrist for a replacement. 
+Do not modify the recommended cleaning routine or solutions without consulting your optometrist. Other solutions may not be compatible with your eyes and lenses, and may cause discomfort or allergic reactions. Shortcuts with cleaning solutions may appear to save money but can result in ineffective lens cleaning and disinfection. Incorrect cleaning solutions may damage your lenses or lead to an eye infection which can result in vision loss. For this reason, never clean or store your rigid lens with soft contact lens solutions. These products work in a different way to the rigid lens solutions and will not clean and condition your rigid lenses.
+
+To ensure the solutions are effective and to avoid contamination, replace the contact lens case every time you start a new bottle of lens cleaner to avoid microbial contamination. Do not heat solutions, and do not touch the tips of the solution bottles. 
 
 <b><i>Do not use your rigid gas permeable lenses in the following cases:</i></b>
 
@@ -111,7 +105,8 @@ If you do lose or damage a lens, please don’t fret, just give our friendly tea
 * Allergy to any ingredient, such as peroxide and hydraglyde in a recommended cleaning solution 
 * Any active corneal infection (bacterial, fungal or viral)
 * Red or irritated eyes
-* Remember, your eye must: <b>look</b> good, <b>feel</b> good, <b>see</b> good - if in doubt, take them out
+
+Remember, your eye must: <b>look</b> good, <b>feel</b> good, <b>see</b> good - if in doubt, take them out
 
 <br>
 
@@ -119,3 +114,5 @@ If you do lose or damage a lens, please don’t fret, just give our friendly tea
 
 1. Bailey CS et al. A review of relative risks associated with four types of contact lenses. Cornea, (1990) Journals.lww.com
 2. Ladage PM, Yamamoto K, Ren DH, Li l, Jester JV, Pretoll WM, et al. Effects of rigid and soft contact lens daily wear on corneal epithelium, tear lactate dehydrogenase, and bacterial binding to exfoliated epithelium cells. OPHTHA, Elsevier; 2001 Jul 1;108(7);1279-88
+3. Cornea & Contact Lens Society of Australia. 2020. *Contact Lenses And Water Do Not Mix!* Website. Available at: <https://www.cclsa.org.au/tap/>.
+4. Wu, Y., Zhu, H., Willcox, M. and Stapleton, F., 2010. Impact of Air-Drying Lens Cases in Various Locations and Positions.*Optometry and Vision Science*, 87(7), p.1.
