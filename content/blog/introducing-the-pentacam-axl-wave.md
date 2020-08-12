@@ -1,6 +1,8 @@
 ---
 title: Introducing the Pentacam AXL Wave
 date: 2020-08-12T01:20:10.880Z
+author: Dylan Bentley & Millie Meegan
+author_url: https://www.innovativeeyecare.com.au/who-we-are/dylan-bentley
 preview_image: /uploads/blog-cover.jpg
 ---
 <div class="employee-heading">
