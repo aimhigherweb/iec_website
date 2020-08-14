@@ -6,6 +6,7 @@ skill1: Technical Skill
 skill2: Friendliness
 skill3: Persistence
 skill4: Attention To Detail
+order: 11
 ---
 
 Jasmine joined the Innovative team in 2017 as an administrative officer and imaging technician. Working at 60 Hutt Street has given her the opportunity to expand her knowledge of the eye and strengthen her skills an optical dispenser.

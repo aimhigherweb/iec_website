@@ -6,6 +6,7 @@ skill1: Contact Lenses
 skill2: Paediatric Vision
 skill3: Diabetic Eye Care
 skill4: Glaucoma
+order: 3
 ---
 
 Dylan is a therapeutically endorsed optometrist who trained at Flinders University in South Australia. Before graduating, he was 1 of only 4 recipients nationwide to receive an American Academy of Optometry scholarship for clinical and academic excellence. He's also had the opportunity to build his skills at the State University of New York's College of Optometry, as well as at our very own Australian College of Optometry in Victoria.

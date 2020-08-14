@@ -10,6 +10,7 @@ skill3: LOYALTY
 rating3: 90
 skill4: EASYGOING
 rating4: 100
+order: 13
 ---
 
 Sally joined Innovative Eye Care with prior experience working in quality independent optometry practices. Raised in regional South Australia, Sally believes in good old fashion service, always bringing a smile and a can do attitude when assisting patients with their visual requirements. She has strong background in customer service and aged health professions, making her the perfect fit with the Innovative Eye Care ethos.

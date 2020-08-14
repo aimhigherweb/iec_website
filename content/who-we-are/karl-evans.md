@@ -11,6 +11,7 @@ rating1: 100
 rating2: 95
 rating3: 90
 rating4: 90
+order: 2
 ---
 
 Karl grew up in Toowoomba in country Queensland and followed his passion for physical sciences directly from school into the Bachelor of Applied Science (Optometry) degree at QUT in Brisbane. Since graduating alongside Lachlan in 2007, Karl has worked in many reputable practices around Australia whilst also acquiring a Graduate Certificate in Ocular Therapeutics.

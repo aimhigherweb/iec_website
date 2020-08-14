@@ -10,6 +10,7 @@ skill3: KERATOCONUS
 rating3: 100
 skill4: CONTACT LENSES
 rating4: 100
+order: 1
 ---
 
 Lachlan Hoy is a second generation Optometrist who graduated from the Queensland University of Technology with Honours in 2007. He was awarded the Don Noack award for excellence in contact lenses in the same year. In 2007 Lachlan began working at Ron Fieldhouse & Associates and completed postgraduate ocular therapeutics training at the University of Melbourne. Lachlan purchased the long-standing Adelaide city practice of R. Fieldhouse & Associates in 2010, which is now known as Innovative Eye Care.

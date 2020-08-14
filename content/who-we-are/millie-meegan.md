@@ -10,6 +10,7 @@ skill3: Dispensing
 rating3: 95
 skill4: Tenacity
 rating4: 100
+order: 10
 ---
 
 Millie has been studying optometry at Flinders University since 2017. Raised locally in a family of health practitioners, she has had an interest in the field since she was an ankle-biter.

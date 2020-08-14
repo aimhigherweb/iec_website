@@ -10,6 +10,7 @@ skill3: Green Thumb
 rating3: 100
 skill4: Industry Knowledge
 rating4: 100
+order: 9
 ---
 
 Harold has joined Innovative Eye Care from a background in the optics industry as a qualified optical dispenser and ophthalmic equipment sales manager. Recently, Harold’s experience in contact lens solutions supply and technical support has broadened his appreciation of each aspect of vision and eye health.

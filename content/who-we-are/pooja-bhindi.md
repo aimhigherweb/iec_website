@@ -6,6 +6,7 @@ skill1: MYOPIA CONTROL
 skill2: CONTACT LENSES
 skill3: BINOCULAR VISION
 skill4: THERAPEUTIC EYE CARE
+order: 4
 ---
 
 Pooja has joined Innovative Eye Care after graduating from Flinders University in 2019 with outstanding results. During her time at university, she juggled study with a role in the Flinders University Optometry Student Association, of which she was president during her final year, and volunteering for St Vincent de Paul's mobile eye clinic.
