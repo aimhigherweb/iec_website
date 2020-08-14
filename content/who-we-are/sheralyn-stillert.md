@@ -6,7 +6,7 @@ skill3: FUN
 skill4: PRACTICAL JOKER
 date: 2018-11-07T00:00:00.000Z
 jobtitle: Customer Service
-photo: /uploads/sheralyn.jpg
+photo: /uploads/staff-sheralyn.png
 rating1: 100
 rating2: 100
 rating3: 95

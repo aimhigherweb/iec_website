@@ -6,7 +6,7 @@ skill3: COMPASSIONATE
 skill4: DILIGENT
 date: 2018-11-08T00:00:00.000Z
 jobtitle: Operations Manager
-photo: /uploads/georgia.jpg
+photo: /uploads/staff-georgia.png
 rating1: 100
 rating2: 100
 rating3: 90
