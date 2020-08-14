@@ -29,7 +29,7 @@ Always wash and rinse your hands thoroughly and dry them with a lint-free towel/
 
 <b><i>Step 4.</i></b> Dry and wipe out your lens case with a tissue. Leave the case lid off to air dry face down.<sup>4</sup>
 
-<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\\\\\\\\\[if IE]><iframe frameborder="0" type="text/html" src="https://www.youtube.com/embed/6oNZ7DrSXB8" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\\\\\\\\\[endif]--><!--\\\\\\\\\[if !IE]> <--><object data="https://www.youtube.com/embed/6oNZ7DrSXB8" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://www.youtube.com/embed/6oNZ7DrSXB8">Scleral Lens Insertion & Removal By EyeSpace Lenses</a></object><!--> <!\\\\\\\\\[endif]--></div>
+<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\\\\\\\\\\[if IE]><iframe frameborder="0" type="text/html" src="https://www.youtube.com/embed/6oNZ7DrSXB8" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\\\\\\\\\\[endif]--><!--\\\\\\\\\\[if !IE]> <--><object data="https://www.youtube.com/embed/6oNZ7DrSXB8" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://www.youtube.com/embed/6oNZ7DrSXB8">Scleral Lens Insertion & Removal By EyeSpace Lenses</a></object><!--> <!\\\\\\\\\\[endif]--></div>
 
 <br>
 
@@ -86,7 +86,7 @@ Rigid contact lenses are made of a strong polymer which resists damage in normal
 
 #### In case of breakage
 
-We understand that when you are learning how to use your lenses you may be inadvertently forceful during insertion, removal or cleaning. Because of this we offer a 1 month manufacturer’s replacement warranty on accidental breakages. Outside of this period, your lens is not covered by a warranty and the lens will need to be replaced at your cost if damaged or lost. If you break a lens within 12 months of its original purchase/fit then we are happy to offer 50% off the price. Outside of this 12 month period the lens will be full-price.
+We understand that when you are learning how to use your lenses you may be inadvertently forceful during insertion, removal or cleaning. Because of this we offer a 1 month manufacturer’s replacement warranty on accidental breakages. Outside of this period, your lens is not covered by a warranty and the lens will need to be replaced at your cost if damaged or lost.
 
 Normally a lens will take less than one week to arrive from the lab when ordered. If you are very dependent on the lens, we will of course ask our lens company to manufacture it as soon as possible. Because of the inevitable waiting time, we encourage all rigid lens wearers to have a spare set of lenses available for a situation where a lens is lost or broken.
 
