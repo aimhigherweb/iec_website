@@ -46,8 +46,7 @@ As we get older the tissues of our eyes become more opaque, causing conditions s
 If glare becomes more problematic then shielding your eyes from light during the day with [quality sunglasses](/what-we-do/sunglasses) can be helpful. The [anti-reflective coating](/what-we-do/spectacle-lenses) on the modern lenses that we use at Innovative Eye Care will also reduce the reflections of light within your lens, especially from behind you, which makes driving easier.
 
 ![](/uploads/anti-glare-lenses.jpg)
-
-CAPTION: An illustration to show how a spectacle lens with an anti-reflective coating (right) can reduce glare at night.
+_An illustration to show how a spectacle lens with an anti-reflective coating (right) can reduce glare at night._
 
 <br>
 

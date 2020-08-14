@@ -26,8 +26,7 @@ preview_image: /uploads/saccade-2-pens-preview.jpg
 8. To vary the exercise, change the position of the pens to diagonally up and down, both diagonally up, both diagonally down, and directly up and down.
 
 ![](/uploads/saccade-2-pens.jpg)
-
-CAPTION: Moving gaze to shaking pen.
+_Moving gaze to shaking pen._
 
 Try to do 5 rounds of these exercises, 3 times a day. To make the exercises harder over time, increase the distance between the pens.
 

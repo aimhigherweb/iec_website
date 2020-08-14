@@ -26,8 +26,7 @@ There is not just one test, but a range of different measurements used to diagno
 These days, we have [advanced technology](/what-we-do/oct) at our disposal that grants our optometrists a more detailed look at your eyes. This is especially significant for glaucoma patients as it allows for more accurate diagnosis, more acute progression monitoring, and more personalised treatment. Our Heidelberg Spectralis gives insight into multiple indicators of glaucoma, including <i>anterior chamber angle</i>, <i>retinal nerve fibre layer thickness</i>, <i>minimum rim width thickness</i>, <i>hemisphere thickness asymmetry</i>, and <i>ganglion cell layer thickness</i>.
 
 ![](/uploads/glaucoma-optic-nerve.jpg)
-
-CAPTION: Scans taken by the Heidelberg Spectralis OCT that reveals indications of glaucoma, including hemisphere thickness asymmetry, neuroretinal fibre layer thickness and anterior chamber depth.
+_Scans taken by the Heidelberg Spectralis OCT that reveals indications of glaucoma, including hemisphere thickness asymmetry, neuroretinal fibre layer thickness and anterior chamber depth._
 
 #### How is glaucoma treated?
 

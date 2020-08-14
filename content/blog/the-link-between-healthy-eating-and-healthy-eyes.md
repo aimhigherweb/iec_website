@@ -21,8 +21,7 @@ As our bodies metabolise organic materials for energy, certain unstable byproduc
 Several regenerative benefits are associated with vitamin C. As with omega-3, vitamin C is another 'essential nutrient' that we are unable to synthesise ourselves. It has been found that vitamin C has a crucial role in the assembly and preservation of connective tissue, including collagen in the cornea and the fine vascular capillaries that carry blood in the back of our eyes.<sup>4</sup> It therefore follows that a higher intake of vitamin C helps to prevent the degeneration of those tissues, which can be the cause of diseases like macular degeneration and [cataract](/what-we-do/cataract). The most well-known source of vitamin C is oranges, but high levels of it can also be found in broccoli, capsicum, potatoes and tomatoes.
 
 ![](healthy-eating-healthy-eyes.png)
-
-CAPTION: If you are considering changing your diet in any way, this should be in accordance with your doctor's advice. Please consult your general practitioner before altering your dietary intake.
+_If you are considering changing your diet in any way, this should be in accordance with your doctor's advice. Please consult your general practitioner before altering your dietary intake._
 
 <sup>1</sup> Landrum, J. and Bone, R. (2001). Lutein, Zeaxanthin, and the Macular Pigment. Archives of Biochemistry and Biophysics, 385(1), pp.28-40.
 <sup>2</sup> Lutein + Zeaxanthin and Omega-3 Fatty Acids for Age-Related Macular Degeneration. (2013). Journal of the American Medical Association, 309(19), p.2005.

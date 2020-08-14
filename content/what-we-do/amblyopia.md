@@ -33,9 +33,8 @@ There is a 'critical period' that occurs before the age of 8-9 years where the v
 This involves the child using an occlusive patch over the <i>good</i> eye to force the bad eye to carry out visual tasks and make the correct connections with the brain. Typically patching is only required for a few hours a day and is best combined with visually stimulating tasks such as video games, reading or television programmes. **Visit our [patching](/patient-resources/patching-therapy-for-amblyopia) page for more information about this therapy.**
 
 ![](/uploads/amblyopia-patching.jpg)
+_Patches worn for amblyopia therapy are often fun and brightly coloured to encourage wear._
 
-CAPTION: Patches worn for amblyopia therapy are often fun and brightly coloured to encourage wear. 
-
-In some eyes even with treatment the amblyopic eye may not recover the same vision as the good eye. Enabling the amblyopic eye to see at a level that can meet a driving standard is often deemed a success. This is so that the patient can still function in society should something happen to affect the good eye. In these instances care should be taken to protect the good eye with safety glasses in the future during physical activities like sport. 
+In some eyes even with treatment the amblyopic eye may not recover the same vision as the good eye. Enabling the amblyopic eye to see at a level that can meet a driving standard is often deemed a success. This is so that the patient can still function in society should something happen to affect the good eye. In these instances care should be taken to protect the good eye with safety glasses in the future during physical activities like sport.
 
 Exciting new research is showing that older children and adults may be able to improve their amblyopia to some extent with the use of computer assisted therapy.

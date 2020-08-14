@@ -54,5 +54,4 @@ At Innovative Eye Care we recommend a dilated eye exam to best assess the health
 We use a range of equipment on the forefront of diagnostics during a [comprehensive diabetic health exam](/what-we-do/eye-exam). This includes [retinal photography](/what-we-do/retinal-photography) to record and monitor subtle signs in the retina, examination using bio-microscopy to stereoscopically assess both the central and peripheral retina, and [optical coherence tomography](/what-we-do/oct), a technology that can scan the retinal layers to look for swelling and other damage. Some of the additional tests necessary for a comprehensive diabetic retinal examination fall outside of what is covered by Medicare. Because of this there may be additional charges to cover the cost of the equipment and consumables. Find out more about exam billing [here](/what-we-do/exam-billing).
 
 ![](/uploads/diabetes-prp-treatment.png)
-
-CAPTION: An image captured by the Heidelberg OCT showing evidence of proliferative diabetic retinopathy (top) and the same retina after treatment with anti-vascular injections.
+_An image captured by the Heidelberg OCT showing evidence of proliferative diabetic retinopathy (top) and the same retina after treatment with anti-vascular injections._

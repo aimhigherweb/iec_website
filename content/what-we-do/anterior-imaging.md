@@ -13,8 +13,6 @@ As well as being useful in anterior imaging is very useful in order to photodocu
 
 The Pentacam AXL Wave uses Scheimpflug imaging to scan the tissues at the front of the eye. It maps the front and back corneal surfaces, as well as its thickness and volume. It also captures information about the anterior chamber (in particular its conformation and volume), and the anterior lens topography and density. Its ability to scan the anterior eye in extreme detail makes it ideal for use in managing complex disease and to design various custom-made contact lenses including [orthokeratology](https://www.innovativeeyecare.com.au/what-we-do/orthokeratology-corneal-reshaping), [bespoke RGP](https://www.innovativeeyecare.com.au/what-we-do/gas-permeable-contact-lenses) and [scleral lenses](https://www.innovativeeyecare.com.au/what-we-do/scleral-contact-lenses). 
 
-![](/uploads/pupil-1200x630.jpg)
-
 #### Heidelberg Spectralis
 
 The Heidelberg Spectralis is a state-of-the-art [OCT machine](https://innovativeeyecare.com.au/what-we-do/oct) that takes highly detailed cross-sectional scans of your eye. Typically used for imaging the optic nerve and retina at the [back of the eye](https://www.innovativeeyecare.com.au/what-we-do/retinal-photography), the same principles can be applied to the cornea, sclera, iris and lens at the front of the eye. Its especially useful when assessing the fit of rigid contact lenses (namely [scleral lenses](https://www.innovativeeyecare.com.au/what-we-do/scleral-contact-lenses)) where the 'landing zones', or areas where the lens makes contact with the eye, can be manipulated for better comfort.
