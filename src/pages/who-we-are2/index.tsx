@@ -173,6 +173,7 @@ const TeamStaffBar = styled.div`
 const TeamStaff = styled.div`
   flex: 1;
   margin: 0 4px;
+  flex-basis: 20%;
   @media (max-width: 768px) {
     flex-basis: 40%;
   }
