@@ -4,7 +4,7 @@ category: Contact Lens Instructions
 preview_image: /uploads/care-of-scleral-lenses.jpg
 ---
 <div class="employee-heading">
-<p>\\\[Scleral contact lenses](/what-we-do/scleral-lenses) are a type of RGP (Rigid Gas Permeable) lens used for conditions such as \\\[keratoconus and pellucid marginal cornea degeneration](/what-we-do/keratoconus). However, incorrect care of scleral contact lenses and solutions can increase the risk of eye infections and corneal ulcers. Risk factors for acquiring an eye infection include improper lens cleaning and disinfection, poor hygiene practices and smoking. Following your practitioner's hygiene regime, along with regular reviews, will minimise this risk.</p> 
+<p>\\\\[Scleral contact lenses](/what-we-do/scleral-lenses) are a type of RGP (Rigid Gas Permeable) lens used for conditions such as \\\\[keratoconus and pellucid marginal cornea degeneration](/what-we-do/keratoconus). However, incorrect care of scleral contact lenses and solutions can increase the risk of eye infections and corneal ulcers. Risk factors for acquiring an eye infection include improper lens cleaning and disinfection, poor hygiene practices and smoking. Following your practitioner's hygiene regime, along with regular reviews, will minimise this risk.</p> 
 <p>Always thoroughly wash your hands with an antibacterial-based hand wash and dry them with a clean lint-free towel before handling, removing or inserting your lenses. Make sure to clean all parts of your hands, including between the fingers and dry thoroughly.</p>
 </div>
 
@@ -22,7 +22,7 @@ Always wash and rinse your hands thoroughly and dry them with a lint-free towel/
 
 #### Insertion
 
-<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\\\\[if IE]><iframe frameborder="0" type="text/html" src="https://www.youtube.com/embed/RzwCHsv_eqA" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\\\\[endif]--><!--\\\\[if !IE]> <--><object data="https://www.youtube.com/embed/RzwCHsv_eqA" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://www.youtube.com/embed/RzwCHsv_eqA">Scleral Lens Insertion & Removal By EyeSpace Lenses</a></object><!--> <!\\\\[endif]--></div>
+<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\\\\\[if IE]><iframe frameborder="0" type="text/html" src="https://www.youtube.com/embed/RzwCHsv_eqA" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\\\\\[endif]--><!--\\\\\[if !IE]> <--><object data="https://www.youtube.com/embed/RzwCHsv_eqA" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://www.youtube.com/embed/RzwCHsv_eqA">Scleral Lens Insertion & Removal By EyeSpace Lenses</a></object><!--> <!\\\\\[endif]--></div>
 
 <br>
 
@@ -36,12 +36,11 @@ Always wash and rinse your hands thoroughly and dry them with a lint-free towel/
 
 You may experience some discomfort if the lens is not in place correctly on the eye or if a foreign body, such as an eyelash or make-up pigment, is trapped underneath the lens. If this is the case, remove the lens and reinsert.
 
-![](/uploads/tripod.jpg)
-_Tripod method. A rubber inserter can also be used to hold the lens if dexterity is a problem – ask your optometrist about this._
+![](/uploads/tripod.jpg) *Tripod method. A rubber inserter can also be used to hold the lens if dexterity is a problem – ask your optometrist about this.*
 
 #### Removal
 
-<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\\\\[if IE]><iframe frameborder="0" type="text/html" src="https://2689-2347.captiv8online.com/animations/embed/one/large-diameter-rigid-lens-removal?player_width=100%&player_height=100%&site_company_language=34&autostart=false" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\\\\[endif]--><!--\\\\[if !IE]> <--><object data="https://2689-2347.captiv8online.com/animations/embed/one/large-diameter-rigid-lens-removal?player_width=100%&player_height=100%&site_company_language=34&autostart=false" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://2689-2347.captiv8online.com/animations/embed/one/large-diameter-rigid-lens-removal?player_width=100%&player_height=100%&site_company_language=34&autostart=false">Large Diameter GP Removal</a></object><!--> <!\\\\[endif]--></div>
+<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\\\\\[if IE]><iframe frameborder="0" type="text/html" src="https://2689-2347.captiv8online.com/animations/embed/one/large-diameter-rigid-lens-removal?player_width=100%&player_height=100%&site_company_language=34&autostart=false" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\\\\\[endif]--><!--\\\\\[if !IE]> <--><object data="https://2689-2347.captiv8online.com/animations/embed/one/large-diameter-rigid-lens-removal?player_width=100%&player_height=100%&site_company_language=34&autostart=false" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://2689-2347.captiv8online.com/animations/embed/one/large-diameter-rigid-lens-removal?player_width=100%&player_height=100%&site_company_language=34&autostart=false">Large Diameter GP Removal</a></object><!--> <!\\\\\[endif]--></div>
 
 <i><b>Method 1 – Manual Removal</b></i>
 
@@ -56,8 +55,7 @@ _Tripod method. A rubber inserter can also be used to hold the lens if dexterity
 * Pull the lens from the eye to remove
 * After removal from the eye, carefully slide the lens sideways off the suction tool and it will come off easily
 
-![](/uploads/suction-tools.jpg)
-_Different suction tools available for scleral lenses._
+![](/uploads/suction-tools.jpg) *Different suction tools available for scleral lenses.*
 
 #### Cleaning
 
@@ -100,9 +98,9 @@ It is very rare for a lens to break in your eye unless something hits your eye o
 
 #### In case of breakage
 
-We understand that when you are learning how to use your lenses you may be inadvertently forceful during insertion, removal or cleaning. Because of this we offer a 1 month manufacturer’s replacement warranty on accidental breakages. Outside of this period, your lens is not covered by a warranty and the lens will need to be replaced at your cost if damaged or lost. If you break a lens within 18 months of its original purchase/fit then we are happy to offer 50% off the price. Outside of this 18 month period the lens will be full-price.
+We understand that when you are learning how to use your lenses you may be inadvertently forceful during insertion, removal or cleaning. Because of this we offer a 1 month manufacturer’s replacement warranty on accidental breakages. Outside of this period, your lens is not covered by a warranty and the lens will need to be replaced at your cost if damaged or lost.
 
-Normally a lens will take less than one week to arrive from the lab when ordered. If you are very dependent on the lens, we will of course ask our lens company to manufacture it as soon as possible. Because of the inevitable waiting time, we encourage all scleral lens wearers to have a spare set of lenses available for a situation where a lens is lost or broken. We also offer 50% off the full price for a spare lens if purchased within 12 months of the original. 
+Normally a lens will take less than one week to arrive from the lab when ordered. If you are very dependent on the lens, we will of course ask our lens company to manufacture it as soon as possible. Because of the inevitable waiting time, we encourage all scleral lens wearers to have a spare set of lenses available for a situation where a lens is lost or broken. 
 
 If you do lose or damage a lens, please don’t fret, just give our friendly team a call and we will arrange a replacement as quickly as we can.
 
