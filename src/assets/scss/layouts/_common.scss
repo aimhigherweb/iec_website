@@ -3385,6 +3385,15 @@ h3 {
   color: black;
 }
 
+img + em {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  font-style: italic;
+  margin-top: -5px;
+}
+
 .caption {
   text-align: center;
   font-style: italic;

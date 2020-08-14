@@ -17,5 +17,4 @@ While spectacles are an equally viable treatment for correcting hyperopia, many 
 Today at Innovative Eye Care we fit just as many patients into hyperopic ortho-K lenses as myopic. For more information about contact lens options for hyperopes click [here](/what-we-do/hyperopia).
 
 ![](/uploads/hyperopic-ok.jpg)
-
-CAPTION: A well-fitting hyperopic ortho-K lens
+_A well-fitting hyperopic ortho-K lens_

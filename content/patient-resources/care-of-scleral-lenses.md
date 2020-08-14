@@ -37,8 +37,7 @@ Always wash and rinse your hands thoroughly and dry them with a lint-free towel/
 You may experience some discomfort if the lens is not in place correctly on the eye or if a foreign body, such as an eyelash or make-up pigment, is trapped underneath the lens. If this is the case, remove the lens and reinsert.
 
 ![](/uploads/tripod.jpg)
-
-CAPTION: Tripod method. A rubber inserter can also be used to hold the lens if dexterity is a problem – ask your optometrist about this.
+_Tripod method. A rubber inserter can also be used to hold the lens if dexterity is a problem – ask your optometrist about this._
 
 #### Removal
 
@@ -58,8 +57,7 @@ CAPTION: Tripod method. A rubber inserter can also be used to hold the lens if d
 * After removal from the eye, carefully slide the lens sideways off the suction tool and it will come off easily
 
 ![](/uploads/suction-tools.jpg)
-
-CAPTION: Different suction tools available for scleral lenses.
+_Different suction tools available for scleral lenses._
 
 #### Cleaning
 

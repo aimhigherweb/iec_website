@@ -16,24 +16,21 @@ preview-image: spec_lenses.jpg
 [Single vision lenses](https://www.perfectionlens.com/portfolio-items/single-vision/) are the most commonly prescribed type of vision correction in spectacles. These have the same focal power over the whole lens and can be used to correct a variety of vision problems, including myopia and hyperopia. Some of the more sophisticated Perfection single vision lenses are particularly accurate, with 10,000 control points on the lens during manufacturing.
 
 ![](/uploads/single_vision_powers.jpg)
-
-CAPTION: A simulation of the view through a pair of single vision lenses.
+_A simulation of the view through a pair of single vision lenses._
 
 ##### Progressive lenses
 
 [Progressive lenses](https://www.perfectionlens.com/portfolio-items/everyday/) allow you to see near, intermediate and long distances without needing to change spectacle. The top area of the lens is used for distance vision and the bottom area is used for close vision, while the middle area is used for intermediate viewing. As there is no visible line separating the different areas, these lenses are the most cosmetically appealing. The field of view in a progressive lens is narrower than in a single vision lens or bifocal, and there is some blur outside of the central corridor of the lens. Most patients adapt to this very well after a few weeks by learning to move their eyes and head together to keep their gaze through the 'sweet spot' of the lens.
 
 ![](/uploads/everyday_powers_1000.jpg)
-
-CAPTION: A simulation of the view through a Perfection Everyday progressive lens.
+_A simulation of the view through a Perfection Everyday progressive lens._
 
 ##### Occupational lenses
 
 [Occupationals](https://www.perfectionlens.com/portfolio-items/device/), or IT lenses, solve the problem of a pair of reading glasses not providing clear vision on computers and intermediate objects. Because of this, some optometrists refer to them as the modern-day reading glasses. Occuptionals are a variety of progressive lens designed to give a wider field of view for intermediate and near focuses. These lenses do not provide clear vision for distance but are great for anyone in an office environment, as the top of the lens gives a customised focus for distances further away than your habitual reading point.
 
 ![](/uploads/device_powers_1000.jpg)
-
-CAPTION: A simulation of the view through a Perfection Device occupational lens.
+_A simulation of the view through a Perfection Device occupational lens._
 
 #### Lens coatings
 

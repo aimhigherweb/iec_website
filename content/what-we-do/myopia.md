@@ -15,8 +15,7 @@ There is currently no cure for myopia, but [spectacles](/what-we-do/glasses), [c
 The most common symptom of myopia is blurry distance vision. Myopic people find it hard to read road signs or scoreboards, and recognising people in the distance may also be a problem. Often a person will not realise that they cannot see clearly until they have an eye examination.
 
 ![](/uploads/myopia-vision-final.jpg)
-
-CAPTION: A view typical of someone with myopia
+_A view typical of someone with myopia_
 
 #### How can I tell if my child is shortsighted?
 

@@ -14,8 +14,7 @@ preview-image: pattern-glare-test-2.jpg
 Pattern glare is caused when repetitive striped patterns overexcite the visual cortex of the brain. It can be tested for using the Pattern Glare Test, which involves presenting the patient with three different pattern on a piece of card. Of these three patterns, the first has spatial frequency that is too low to produce symptoms, and the last has a spatial frequency that is too high. The second pattern has a spatial frequency of 2-5 cycles per degree, which can generate symptoms in a person with pattern glare.
 
 ![](/uploads/pattern-glare-test-2.jpg)
-
-CAPTION: Image courtesy of Cerium Visual Technologies
+_Image courtesy of Cerium Visual Technologies_
 
 #### What are the symptoms of pattern glare?
 

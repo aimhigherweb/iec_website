@@ -19,8 +19,7 @@ Both of these types of scans reveal structures and abnormalities of the eye that
 
 ![](/uploads/wavelengths1.png)
 ![](/uploads/wavelengths2.png)
-
-CAPTION: Spectralis imaging of a healthy retina with MultiColor (top left), infrared light (top right), green reflectance (bottom left) and blue reflectance (bottom right).
+_Spectralis imaging of a healthy retina with MultiColor (top left), infrared light (top right), green reflectance (bottom left) and blue reflectance (bottom right)._
 
 #### Canon Non-Mydriatic Retinal Camera
 

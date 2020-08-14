@@ -40,5 +40,4 @@ When an optometrist examines your eyes for floaters or flashes, they may dilate 
 Some people experience flashes of light that appear as jagged lines or ‘heat waves’ in both eyes, often lasting 10 to 20 minutes. These are not flashes from the vitreous gel pulling on the retina; instead, these types of flashes are usually caused by a spasm of blood vessels in the brain, called a <i>migraine</i>. If a headache follows the flashes, it is called a migraine headache. However, jagged lines or heat waves can occur without a headache. In this case, the light flashes are called an ophthalmic migraine, or migraine without headache. Contact your optometrist if you experience these symptoms.
 
 ![](/uploads/migraine_aura.jpg)
-
-CAPTION: An artist's depiction of how a migraine aura appears.
+_An artist's depiction of how a migraine aura appears._

@@ -15,16 +15,14 @@ Our eyes are not perfect optical systems, as biological tissue, so everyone has 
 The wavefront shapes are commonly simple, such as a sphere or cylinder. These simple shapes are known as lower-order aberrations and are easily corrected by [spectacles](https://www.innovativeeyecare.com.au/what-we-do/glasses) and [contact lenses](https://www.innovativeeyecare.com.au/what-we-do/soft-contact-lenses).<sup>1</sup> However, it’s the less common wavefront shapes that make up higher-order aberrations, such as coma and trefoil. Higher-order aberrations are responsible for common visual symptoms like glare, haloes, poor night vision and doubling.<sup>3</sup> They are more severe in conditions like [keratoconus](https://www.innovativeeyecare.com.au/what-we-do/keratoconus), [pterygium](https://www.innovativeeyecare.com.au/what-we-do/pterygium-pinguecula), and [corneal graft](https://www.innovativeeyecare.com.au/what-we-do/corneal-grafts), and cannot be totally improved with conventional optical correction.<sup>4,5</sup>
 
 ![](/uploads/zernike-shape.png)
-
-CAPTION: Lower-order aberrations (defocus and astigmatism) and higher-order aberrations (coma) forming the total wavefront.
+_Lower-order aberrations (defocus and astigmatism) and higher-order aberrations (coma) forming the total wavefront._
 
 ##### How does wavefront aberrometry work?
 
 A Hartmann-Shack wavefront sensor detects the deviation of light at hundred of points through the pupil.<sup>2</sup> Coupled with this measurement of the total eye aberration, the Pentacam AXL Wave also uses [Scheimpflug imaging](https://www.innovativeeyecare.com.au/what-we-do/corneal-tomography) to measure the shape of the front and back surface of the cornea. Both total eye aberration and corneal tomography combined can identify the source of aberration as either corneal or internal.
 
 ![](/uploads/aberrometry-myopia.jpg)
-
-CAPTION: Visual performance of a patient's optical system (eye) based on aberrometry readings, divided into corneal and internal components.
+_Visual performance of a patient's optical system (eye) based on aberrometry readings, divided into corneal and internal components._
 
 ##### How can aberrometry benefit me?
 

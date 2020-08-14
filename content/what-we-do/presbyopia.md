@@ -27,8 +27,7 @@ It is important to understand how your eyes change their focus for viewing close
 The lens loses its flexibility with age and is less able to change its shape. This is a completely normal change, just like stiffening joints or greying hair. The loss in lens flexibility is the reason that close focusing becomes more difficult. Interestingly, the muscle that changes the shape of the lens when it is flexible continues to function normally until old age. 
 
 ![](/uploads/presbyopia.jpg)
-
-CAPTION: Presbyopia causes near objects to become blurry while distant objects remain clear
+_Presbyopia causes near objects to become blurry while distant objects remain clear_
 
 #### Who is likely to become presbyopic?
 
