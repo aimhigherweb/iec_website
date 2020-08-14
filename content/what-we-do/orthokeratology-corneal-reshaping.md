@@ -76,8 +76,7 @@ Today at Innovative Eye Care we fit just as many patients into hyperopic ortho-K
 We custom-design our ortho-K lenses with cutting-edge software program [EyeSpace](http://www.eyespace.com.au/) by Innovatus Technology. This gives us the highest levels of accuracy for the greatest chance of success when fitting your lenses. Our bespoke designs can correct high astigmatism, presbyopia and post-LASIK (refractive surgery) with residual myopia or irregular treatment areas. If you want to find out more about ortho-K for your eyes, please [book an appointment with us](/contact).
 
 ![](/uploads/myopic-ok-lens.jpg)
-
-CAPTION: A well-fitting myopic ortho-K lens
+_A well-fitting myopic ortho-K lens_
 
 #### Lens design
 
@@ -90,9 +89,7 @@ Your optometrist will make changes to this lens until it looks optimal in the si
 **Our optometrist Lachlan Hoy played a key role in forging EyeSpace, which is now used by contact lens practitioners across the world including Australia, the US, New Zealand and South Africa. EyeSpace customises each lens to your prescription and eye shape to a degree of accuracy smaller than one micron. **
 
 ![](/uploads/orthok-3d-topography.jpg)
-
-CAPTION: Corneal topographies taken before myopic ortho-K treatment (left) and after (right). Exaggerated 3D representation. Central area inside the red-ring has been flattened, correcting the short-sightedness.
+_Corneal topographies taken before myopic ortho-K treatment (left) and after (right). Exaggerated 3D representation. Central area inside the red-ring has been flattened, correcting the short-sightedness._
 
 <div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\[if IE]><iframe frameborder="0" type="text/html" src="https://www.youtube.com/embed/DijzbyHLSKo?player_width=100%&player_height=100%&site_company_language=34&autostart=false" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\[endif]--><!--\[if !IE]> <--><object data="https://www.youtube.com/embed/DijzbyHLSKo?player_width=100%&player_height=100%&site_company_language=34&autostart=false" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://www.youtube.com/embed/DijzbyHLSKo?player_width=100%&player_height=100%&site_company_language=34&autostart=false">Today Tonight Orthokeratology</a></object><!--> <!\[endif]--></div>
-
-CAPTION: A news story on Today Tonight from 2012 about ortho-K, featuring one of our previous optometrists Shonit Jagmohan.
+*A news story on Today Tonight from 2012 about ortho-K, featuring one of our previous optometrists Shonit Jagmohan.*

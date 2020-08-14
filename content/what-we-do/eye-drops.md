@@ -25,16 +25,13 @@ preview-image: eye-drops.jpg
   9. If you need to put a different drop into the eyes, allow 5 minutes between them so they do not wash each other out and reduce their effect. 
 
 ![](/uploads/eye-drops.jpg)
-
-CAPTION: Figure 1: Looking at tip of bottle to insert eye drop
+_Figure 1: Looking at tip of bottle to insert eye drop_
 
 ![](/uploads/eye-drops-nose.jpg)
-
-CAPTION: Figure 2: Resting body of bottle against nose to insert eye drop
+_Figure 2: Resting body of bottle against nose to insert eye drop_
 
 <div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--[if IE]><iframe frameborder="0" type="text/html" src="https://www.youtube.com/embed/uY5HLrXo6HE?player_width=100%&player_height=100%&site_company_language=34&autostart=false" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><![endif]--><!--[if !IE]> <--><object data="https://www.youtube.com/embed/uY5HLrXo6HE?player_width=100%&player_height=100%&site_company_language=34&autostart=false" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://www.youtube.com/embed/uY5HLrXo6HE?player_width=100%&player_height=100%&site_company_language=34&autostart=false">Applying Eye Drops</a></object><!--> <![endif]--></div>
-
-CAPTION: Source: [Glaucoma Australia](www.glaucoma.org.au/eyedrops)
+*Source: [Glaucoma Australia](www.glaucoma.org.au/eyedrops)*
 
 #### FAQ for patients using glaucoma drops
 

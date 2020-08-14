@@ -14,8 +14,7 @@ preview-image: age-related-macular-degeneration-geographic-atrophy.jpg
 Age-related macular degeneration (ARMD or AMD) is a progressive eye disease that causes breakdown of the central part of the retina, known as the macula. The macula is responsible for a person’s central vision, colour vision, and fine detailed vision; however, it does not have an affect on your peripheral vision. 
 
 ![](/uploads/macular-degeneration.jpg)
-
-CAPTION: A simulation of the type of central vision loss that may occur in ARMD
+_A simulation of the type of central vision loss that may occur in ARMD_
 
 #### What are the types of age related macular degeneration?
 
@@ -51,8 +50,7 @@ Treatment options for dry macular degeneration are very limited. Specific anti-o
 If there is fluid or blood beneath or within the retina, early detection is key to improve the chance of visual recovery. Your optometrist will give you an Amsler grid to take home if you are risk of wet ARMD. This grid should be checked in each eye every day to looks for signs of subtle distortion or loss of vision typical of early wet ARMD. If these changes are noticed, your eyes should be promptly tested by your optometrist for changes at the macula. Given early detection is critical to saving sight, a lack of symptom recognition could risk blindness.
 
 ![](/uploads/amsler-grid-and-instructions.jpg)
-
-CAPTION: Amsler Grid used to test for the onset of wet ARMD
+_Amsler Grid used to test for the onset of wet ARMD_
 
 If wet ARMD is diagnosed by your optometrist, injections from an eye surgeon are often required to decrease the growth of new vessels within the eye. With time, this helps stop the swelling, and in most cases returns the vision to a reasonable level.
 
