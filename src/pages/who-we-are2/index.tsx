@@ -880,6 +880,7 @@ export const query = graphql`
   {
     teamList: allMarkdownRemark(
       filter: { fileAbsolutePath: { regex: "/(who-we-are)/.*\\\\.md$/" } }
+      sort: { fields: frontmatter___order }
     ) {
       edges {
         node {
