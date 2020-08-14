@@ -25,8 +25,7 @@ preview_image: /uploads/contact-lenses-4.jpg
 * Squeeze Test: Gently squeeze the lens between thumb and forefinger. If the edges meet, the lens is positioned the correct way.
 
 ![](/uploads/lenses-1-.jpg)
-
-CAPTION: A lens facing the right side up (right), and wrong side up (left)
+_A lens facing the right side up (right), and wrong side up (left)_
 
 #### Insertion
 
