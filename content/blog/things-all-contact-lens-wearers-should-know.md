@@ -3,6 +3,7 @@ title: Things all contact lens wearers should know
 date: 2020-08-18T02:01:36.155Z
 author: Dylan Bentley
 author_url: https://www.innovativeeyecare.com.au/who-we-are/dylan-bentley
+preview_image: /uploads/contact-lens.jpg
 ---
 <div class="employee-heading">
 
