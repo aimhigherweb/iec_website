@@ -59,7 +59,7 @@ Never lick your contact lenses in an attempt to clean them. Saliva is not steril
 
 **Do not wash your contact lenses in tap water**
 
-Do not wash or store your contact lenses in tap water. Tap water is not sterile and is home to different stains of bacteria which can lead to bacterial and parasitic infections in your eye.<sup>4</sup> If you need to rinse your lens, use preservative-free saline solution and store your lenses in the solution recommended by your optometrist.
+Do not wash or store your contact lenses in tap water. Tap water is not sterile and is home to different strains of bacteria which can lead to bacterial and parasitic infections in your eye.<sup>4</sup> If you need to rinse your lens, use preservative-free saline solution and store your lenses in the solution recommended by your optometrist.
 
 ![](/uploads/tap.jpg)
 
