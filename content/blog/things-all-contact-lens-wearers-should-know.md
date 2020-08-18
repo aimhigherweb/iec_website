@@ -27,29 +27,29 @@ Cleaning and disinfecting your lenses reduces the risk of possible complications
 
 **Have a pair of back up spectacles**
 
-It is important to have a backup pair of spectacles to wear if you are having difficulties with your contact lenses. This ensures your vision isn't reduced if there's something wrong, and that you're not tempted to wear the lenses in this instance.
+It is important to have a backup pair of [spectacles](https://www.innovativeeyecare.com.au/what-we-do/glasses) to wear if you are having difficulties with your contact lenses. This ensures you are able to see if there's something wrong, and that you're not tempted to wear the lenses in this instance.
 
 **Dispose of your soft lenses at the recommended time for the date of opening**
 
-Ensure that you only wear your soft lenses for recommended time. Wearing lenses past their replacement date puts you at risk of infection.<sup>3</sup> The replacement schedule related to time after opening, NOT total time of wear. Even if you wear your monthly lenses for 10 days of the month, you must replace them after 30 days of opening.
+Ensure that you only wear your soft lenses for recommended time. Wearing lenses past their replacement date puts you at risk of infection.<sup>3</sup> The [replacement schedule](https://www.innovativeeyecare.com.au/what-we-do/soft-contact-lenses) related to time after opening, NOT total time of wear. Even if you wear your monthly lenses for 10 days of the month, you must replace them after 30 days of opening.
 
 **Have regular eye examination with your optometrist**
 
-At every appointment, your optometrist will assess your vision when wearing contact lenses, the overall fit of the lenses and your eye health. Some complications of contact lenses wear are unnoticeable, so it is important to have regular examinations even if you are having no difficulties with your lenses.
+At every appointment, your optometrist will assess your vision when wearing contact lenses, the overall fit of the lenses and your [eye health](https://www.innovativeeyecare.com.au/what-we-do/anterior-imaging). Some complications of contact lenses wear are unnoticeable, so it is important to have regular examinations even if you are having no difficulties with your lenses.
 
 ![](/uploads/untitled2.jpg)
 
 **Do not sleep in your contact lenses**
 
-Some contact lenses (like orthokeratology lenses) are designed to be slept in, and in these cases the optometrist has given direct instruction to do so. Unless your optometrist has advised otherwise, do not sleep in your lenses. Over-wearing your lenses puts you at a greater risk of contact lenses related adverse events.<sup>3</sup>
+Some contact lenses (like [orthokeratology lenses](https://www.innovativeeyecare.com.au/what-we-do/orthokeratology-corneal-reshaping)) are designed to be slept in, and in these cases the optometrist has given direct instruction to do so. Unless your optometrist has advised otherwise, do not sleep in your lenses. Over-wearing your lenses puts you at a greater risk of contact lenses related issues.<sup>3</sup>
 
 **Do not swim in contact lenses**
 
-It is not advisable to swim in your contact lenses. Pool water can increase the likelihood of contact lenses related infections.<sup>4</sup> If you are heavily involved in water sports and require contact lenses, consider daily disposable lenses or orthokeratology. If you must wear your lenses in water, wear goggles over the top.
+It is not advisable to swim in your contact lenses. Pool water can increase the likelihood of [contact lenses-related infections](https://www.innovativeeyecare.com.au/what-we-do/keratitis).<sup>4</sup> These infections are worse than your typical conjunctivitis red eyes, and can be sight-threatening. If you are heavily involved in water sports and require contact lenses, consider daily disposable lenses or orthokeratology. If you must wear your lenses in water, wear goggles over the top.
 
 **Do not lick your contact lenses**
 
-Never lick your contact lenses in an attempt to clean them. Saliva is not sterile. There are many bacteria that live in our mouth and in our saliva and licking your contact lenses greatly increases the risk of microbial infection in your eye. Always use preservative-free saline solution for rinsing your lenses.
+Never lick your contact lenses in an attempt to clean them. Saliva is not sterile. There are many bacteria that live in our mouth and in our saliva and licking your contact lenses greatly increases the risk of microbial infection in your eye. Always use [preservative-free saline solution](https://eyesolutions.com.au/collections/frontpage/products/eyeye-saline-360ml) for rinsing your lenses.
 
 **Do not wash your contact lenses in tap water**
 
@@ -63,12 +63,11 @@ Red eyes are not happy eyes. Do not wear your lenses if your eyes are red, irrit
 
 Do not use any product that is past its expiry date. It is a good idea to mark the date of opening on your bottle of solution so that you know when it needs to be thrown out. Most solutions don’t keep for more than 3 months once opened – this is because the preservatives start breaking down so the solution is no longer guaranteed to disinfect your lenses.
 
+<br>
+
 #### References
 
 1. Wu YT, Zhu H, Willcox M, Stapleton F. (2009). Impact of air-drying lens cases in various locations and positions. Optom Vis Sci. 87(7): 465-8. doi:10.1097/opx.0b013e3181e172a1.
-
 2. Sweeney, D., Holden, B., Evans, K., Ng, V. and Cho, P. (2009). Best practice contact lens care: A review of the Asia Pacific Contact Lens Care Summit. Clinical and Experimental Optometry, 92: 78–89. doi:10.1111/j.1444-0938.2009.00353.
-
 3. Stapleton, F., et al. (2008). The incidence of contact lens-related microbial keratitis in Australia. Ophthalmology 115(10): 1655-1662. doi:10.1016/j.ophtha.2008.04.002
-
 4. Carnt, N. and F. Stapleton. (2015). "Strategies for the prevention of contact lens-related Acanthamoeba keratitis: a review." Ophthalmic Physiol Opt. 36(2): 77-92. doi:10.1111/opo.12271.
