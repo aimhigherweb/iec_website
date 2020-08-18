@@ -17,6 +17,8 @@ Contact lens care can be confusing, whether you're new to wearing or you're a lo
 
 Before touching your lenses or eyes, ensure that you wash your hands thoroughly with antibacterial soap. Dry your hands with a lint-free towel to avoid getting fibres on your contact lenses. If you wear make-up, put your lens in before applying make-up, and remove it before taking out your lenses.
 
+![](/uploads/hands.jpg)
+
 **Clean and tidy bench space**
 
 Make sure that your bench or working space is clean and tidy to minimise issues of dust and debris on the lens surface. Try to avoid inserting your lenses in the bathroom, as they typically house the most germs in the entire home.<sup>1</sup>
@@ -24,6 +26,8 @@ Make sure that your bench or working space is clean and tidy to minimise issues 
 **Clean and disinfect your lenses every day**
 
 Cleaning and disinfecting your lenses reduces the risk of possible complications secondary to microbial build-up on the lenses. Use the solutions recommended by your optometrist, preferably a hydrogen peroxide cleaner, which is a thorough disinfectant.<sup>2</sup>
+
+![](/uploads/aoesept.jpg)
 
 **Have a pair of back up spectacles**
 
@@ -47,6 +51,8 @@ Some contact lenses (like [orthokeratology lenses](https://www.innovativeeyecare
 
 It is not advisable to swim in your contact lenses. Pool water can increase the likelihood of [contact lenses-related infections](https://www.innovativeeyecare.com.au/what-we-do/keratitis).<sup>4</sup> These infections are worse than your typical conjunctivitis red eyes, and can be sight-threatening. If you are heavily involved in water sports and require contact lenses, consider daily disposable lenses or orthokeratology. If you must wear your lenses in water, wear goggles over the top.
 
+![](/uploads/goggles.jpg)
+
 **Do not lick your contact lenses**
 
 Never lick your contact lenses in an attempt to clean them. Saliva is not sterile. There are many bacteria that live in our mouth and in our saliva and licking your contact lenses greatly increases the risk of microbial infection in your eye. Always use [preservative-free saline solution](https://eyesolutions.com.au/collections/frontpage/products/eyeye-saline-360ml) for rinsing your lenses.
@@ -54,6 +60,8 @@ Never lick your contact lenses in an attempt to clean them. Saliva is not steril
 **Do not wash your contact lenses in tap water**
 
 Do not wash or store your contact lenses in tap water. Tap water is not sterile and is home to different stains of bacteria which can lead to bacterial and parasitic infections in your eye.<sup>4</sup> If you need to rinse your lens, use preservative-free saline solution and store your lenses in the solution recommended by your optometrist.
+
+![](/uploads/tap.jpg)
 
 **Do not wear your lenses if your eyes are red or sore**
 
