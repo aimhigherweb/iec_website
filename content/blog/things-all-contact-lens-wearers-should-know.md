@@ -21,7 +21,7 @@ Before touching your lenses or eyes, ensure that you wash your hands thoroughly 
 
 **Clean and tidy bench space**
 
-Make sure that your bench or working space is clean and tidy to minimise issues of dust and debris on the lens surface. Try to avoid inserting your lenses in the bathroom, as they typically house the most germs in the entire home.<sup>1</sup>
+Make sure that your bench or working space is clean and tidy to minimise issues of dust and debris on the lens surface. Try to avoid inserting your lenses in the bathroom, as it typically has the most germs in the entire home.<sup>1</sup>
 
 **Clean and disinfect your lenses every day**
 
