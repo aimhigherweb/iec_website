@@ -12,7 +12,7 @@ There are certain pairings of things that simply do not mix well together; water
 
 ![](/uploads/dskaln.png)
 
-Washing contact lenses in tap water poses an increased risk of a very serious, sight-threatening eye infection. This is caused by a microorganism called acanthamoeba which is found in many sources of water, including tap water, fresh water, spas, pools and even showers.<sup>1</sup> 
+Washing contact lenses in tap water poses an increased risk of a very serious, sight-threatening eye infection. This is caused by a microorganism called acanthamoeba which is found in many sources of water, including tap water, fresh water, spas, pools and even showers.<sup>1, 2</sup> 
 
 These types of infections are painful, difficult to treat and complications can lead to permanent vision loss. 
 
@@ -28,6 +28,10 @@ When wearing contact lenses it is important to always follow the recommended wea
 
 * DO NOT mix and match solutions or change the recommended disinfecting solutions. 
 * Always use fresh, unexpired solutions for your lenses. Solutions generally expire 90 days after opening the bottle, so always check the label.
+
+A safe and simple way of cleaning and disinfecting your lenses is with a peroxide cleaner, such as AOSept. Over the course of a 6 hour period the catalyst in the case converts the disinfecting hydrogen peroxide solution into water and oxygen gas, meaning that there is no need to rinse the lenses after!
+
+
 
 **References** 
 
