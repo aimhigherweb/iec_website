@@ -15,6 +15,7 @@ import { useMatchMedia } from "../hooks/useMatchMedia"
 //-- Section 0: Main
 //----------------------------------------------------------
 const DEBUG_MAIN = "0px solid blue"
+const MAX_WIDTH = "768px"
 
 const MainHeader = styled.div`
   position: fixed;
@@ -22,7 +23,7 @@ const MainHeader = styled.div`
   padding: 20px;
   width: 100%;
   height: auto;
-  @media (max-width: 768px) {
+  @media (max-width: ${MAX_WIDTH}) {
     padding: 20px;
   }
   background-color: #424242;
@@ -34,7 +35,7 @@ const Logo = styled.img.attrs({
   width: 270px;
   height: auto;
   background: clear;
-  @media (max-width: 768px) {
+  @media (max-width: ${MAX_WIDTH}) {
     width: 160px;
   }
   border: ${DEBUG_MAIN};
@@ -65,7 +66,7 @@ const MainSearch = styled.div`
   bottom: 20px;
   left: 40px;
   background-color: #424242;
-  @media (max-width: 768px) {
+  @media (max-width: ${MAX_WIDTH}) {
     left: 40px;
     right: 40px;
   }
@@ -86,7 +87,7 @@ const MainSearchInput = styled.input`
     font-weight: 800;
     color: white;
   }
-  @media (max-width: 768px) {
+  @media (max-width: ${MAX_WIDTH}) {
     width: 100%;
   }
 `
@@ -94,7 +95,7 @@ const MainBooking = styled.div`
   position: absolute;
   bottom: 20px;
   right: 40px;
-  @media (max-width: 768px) {
+  @media (max-width: ${MAX_WIDTH}) {
     position: static;
     margin: 20px 20px;
   }
@@ -108,7 +109,7 @@ const MainBookingButton = styled.button`
   font-weight: 600;
   background-color: #5091cd;
   border: none;
-  @media (max-width: 768px) {
+  @media (max-width: ${MAX_WIDTH}) {
     width: 100%;
     padding: 8px 24px;
   }
@@ -121,7 +122,7 @@ const MainSection = styled.div`
   background-image: url("/images2/bg-section-main.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  @media (max-width: 768px) {
+  @media (max-width: ${MAX_WIDTH}) {
     background-
   }
 `
@@ -152,7 +153,7 @@ const Main = (
 const DEBUG_TEAM = "0px solid blue"
 const TeamSection = styled.div`
   padding: 40px 10%;
-  @media (max-width: 768px) {
+  @media (max-width: ${MAX_WIDTH}) {
     padding: 20px 0px;
   }
 `
@@ -173,7 +174,7 @@ const TeamStaffBar = styled.div`
 const TeamStaff = styled.div`
   flex: 1;
   margin: 0 4px;
-  @media (max-width: 768px) {
+  @media (max-width: ${MAX_WIDTH}) {
     flex-basis: 40%;
   }
 `
@@ -187,7 +188,7 @@ const TeamDescription = styled.div`
   padding: 40px 40px;
   text-align: center;
   font-size: 0.8em;
-  @media (max-width: 768px) {
+  @media (max-width: ${MAX_WIDTH}) {
     padding: 20px 40px;
     text-align: justify;
     font-size: 1em;
@@ -204,7 +205,7 @@ const TeamService = styled.div`
 `
 const TeamServiceItem = styled.div`
   flex: 1;
-  @media (max-width: 768px) {
+  @media (max-width: ${MAX_WIDTH}) {
     flex-basis: 50%;
   }
   border: ${DEBUG_TEAM};
@@ -214,7 +215,7 @@ const TeamServiceImage = styled.img`
   width: auto;
   height: 24px;
   margin: 16px auto;
-  @media (max-width: 768px) {
+  @media (max-width: ${MAX_WIDTH}) {
     height: 50px;
   }
   border: ${DEBUG_TEAM};
@@ -223,7 +224,7 @@ const TeamServiceTitle = styled.p`
   font-size: 0.5em;
   font-weight: 600;
   text-align: center;
-  @media (max-width: 768px) {
+  @media (max-width: ${MAX_WIDTH}) {
     font-size: 0.7em;
   }
   border: ${DEBUG_TEAM};
@@ -238,7 +239,7 @@ const TeamFooterImage = styled.img`
   width: auto;
   height: 12px;
   margin: 0px auto;
-  @media (max-width: 768px) {
+  @media (max-width: ${MAX_WIDTH}) {
     height: 24px;
   }
   border: ${DEBUG_TEAM};
@@ -363,7 +364,7 @@ const StyleTitle = styled.h1`
   font-family: "Times New Roman";
   font-size: 1.2em;
   color: white;
-  @media (max-width: 768px) {
+  @media (max-width: ${MAX_WIDTH}) {
     padding: 40px 40px;
     font-size: 1.7em;
   }
@@ -374,7 +375,7 @@ const StyleDescription = styled.div`
   text-align: left;
   font-size: 0.8em;
   font-weight: 500;
-  @media (max-width: 768px) {
+  @media (max-width: ${MAX_WIDTH}) {
     font-size: 1em;
     font-weight: 600;
   }
@@ -389,7 +390,7 @@ const StyleBookingButton = styled.button`
   font-weight: 600;
   background-color: #5091cd;
   border: none;
-  @media (max-width: 768px) {
+  @media (max-width: ${MAX_WIDTH}) {
     width: 100%;
     padding 8px;
     font-size: 1.5em;
@@ -402,7 +403,7 @@ const StyleFooter = styled.div`
   left: 0px;
   width: 100%;
   background-color: #00000033; /*#bcb0a240 */
-  @media (max-width: 768px) {
+  @media (max-width: ${MAX_WIDTH}) {
     position: static;
   }
   border: ${DEBUG_STYLE};
@@ -416,7 +417,7 @@ const StyleBrandBar = styled.div`
 const StyleBrandItem = styled.div`
   flex: 1;
   padding: 0 10px;
-  @media (max-width: 768px) {
+  @media (max-width: ${MAX_WIDTH}) {
     flex-basis: 100%;
     background-color: #c0b4a8;
   }
@@ -427,7 +428,7 @@ const StyleBrandImage = styled.img`
   width: auto;
   height: 64px;
   margin: 0px auto;
-  @media (max-width: 768px) {
+  @media (max-width: ${MAX_WIDTH}) {
     height: 90px;
     background-color: #c0b4a8;
   }
@@ -505,7 +506,7 @@ const SocialTitle = styled.h1`
   text-align: center;
   font-family: "Times New Roman";
   font-size: 1.4em;
-  @media (max-width: 768px) {
+  @media (max-width: ${MAX_WIDTH}) {
     font-size: 2em;
   }
 `
@@ -520,7 +521,7 @@ const SocialItemBar = styled.div`
 const SocialItem = styled.div`
   flex: 1;
   margin: 0 4px;
-  @media (max-width: 768px) {
+  @media (max-width: ${MAX_WIDTH}) {
     flex-basis: 40%;
   }
 `
@@ -568,7 +569,7 @@ const FooterSection = styled.div`
   padding: 20px 20px;
   margin-bottom: 40px;
   border: ${DEBUG_FOOTER};
-  @media (max-width: 768px) {
+  @media (max-width: ${MAX_WIDTH}) {
     padding: 20px 40px;
   }
 `
@@ -579,7 +580,7 @@ const FooterLogo = styled.div`
 `
 const FooterLogoItem = styled.div`
   flex: 0 1 20%;
-  @media (max-width: 768px) {
+  @media (max-width: ${MAX_WIDTH}) {
     flex: 1;
   }
 `
@@ -587,7 +588,7 @@ const FooterLogoImg = styled.img`
   margin-left: 10px;
   width: 120px;
   height: auto;
-  @media (max-width: 768px) {
+  @media (max-width: ${MAX_WIDTH}) {
     margin: 0;
     padding: 16px;
     width: auto;
@@ -605,7 +606,7 @@ const FooterContent = styled.div`
 const FooterContentItem = styled.div`
   flex: 1;
   margin: 0 4px;
-  @media (max-width: 768px) {
+  @media (max-width: ${MAX_WIDTH}) {
     flex: 100%;
   }
   border: ${DEBUG_FOOTER};
@@ -613,7 +614,7 @@ const FooterContentItem = styled.div`
 const FooterContact = styled.div`
   display: flex;
   margin-bottom: 10px;
-  @media (max-width: 768px) {
+  @media (max-width: ${MAX_WIDTH}) {
     justify-content: center;
   }
   border: ${DEBUG_FOOTER};
@@ -627,14 +628,14 @@ const FooterContactIcon = styled(FontAwesomeIcon)`
 const FooterContactText = styled.div`
   flex: 3;
   font-size: 0.5em;
-  @media (max-width: 768px) {
+  @media (max-width: ${MAX_WIDTH}) {
     flex: 1;
   }
   border: ${DEBUG_FOOTER};
 `
 const FooterContactSpacer = styled.div`
   flex: 0;
-  @media (max-width: 768px) {
+  @media (max-width: ${MAX_WIDTH}) {
     flex: 2;
   }
 `
@@ -646,7 +647,7 @@ const FooterMenu = styled.ul`
   border: ${DEBUG_FOOTER};
 `
 const FooterMenuItem = styled.li`
-  @media (max-width: 768px) {
+  @media (max-width: ${MAX_WIDTH}) {
     text-align: center;
   }
   border: ${DEBUG_FOOTER};
@@ -682,7 +683,7 @@ const FooterGutterText = styled.div`
   margin: 20px 0 40px 0;
   font-size: 0.6em;
   color: black;
-  @media (max-width: 768px) {
+  @media (max-width: ${MAX_WIDTH}) {
     font-size: 0.8em;
   }
 `
