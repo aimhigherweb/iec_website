@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useState } from "react"
 import { graphql, Link } from "gatsby"
 import styled from "styled-components"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
@@ -185,6 +185,28 @@ const TeamStaffImage = styled.img`
   width: 100%;
   height: auto;
   filter: grayscale(100%);
+  &:hover {
+    filter: none;
+  }
+`
+const TeamStaffTitle = styled.div`
+  font-size: 0.9em;
+  font-weight: 700;
+  text-align: center;
+`
+const TeamStaffJob = styled.div`
+  font-size: 0.6em;
+  margin-bottom: 8px;
+  text-align: center;
+`
+const StaffInfo = styled.div`
+  width: 100%;
+  padding: 0 4px;
+  border: ${DEBUG_TEAM};
+`
+const StaffInfoHtml = styled.div`
+  font-size: 0.7em;
+  color: grey;
 `
 
 const TeamDescription = styled.div`
@@ -249,23 +271,23 @@ const TeamFooterImage = styled.img`
 `
 
 const Team = (teamList) => {
-  // ;<div>
-  //   <ul className="team-list">
-  //     {teamList.edges.map(({ node }, i) => {
-  //       return (
-  //         <li className="employee-box open-close" key={i}>
-  //           <PersonBox
-  //             name={node.frontmatter.title}
-  //             jobtitle={node.frontmatter.jobtitle}
-  //             photo={UploadedImages[node.frontmatter.photo]}
-  //             url={node.parent.name}
-  //           />
-  //         </li>
-  //       )
-  //     })}
-  //   </ul>
-  // </div>
+  const [chosen, setChosen] = useState({
+    rowIndex: null,
+    staffIndex: null,
+    staffNode: null,
+  })
 
+  const selectStaffMember = (index) => {
+    const rowIndex = Math.floor(index / 4)
+    setChosen({
+      rowIndex: rowIndex,
+      staffIndex: index,
+      lastInRowIndex: (rowIndex + 1) * 4 - 1,
+      staffNode: teamList.edges[index].node,
+    })
+  }
+
+  console.log(`*** who-we-are.Team.RENDER... ${JSON.stringify(chosen)}`)
   return (
     <TeamSection>
       <TeamTitle>Meet the team</TeamTitle>
@@ -273,9 +295,26 @@ const Team = (teamList) => {
         <TeamStaffBar>
           {teamList.edges.map(({ node }, i) => {
             return (
-              <TeamStaff key={i}>
-                <TeamStaffImage src={node.frontmatter.photo} />
-              </TeamStaff>
+              <>
+                <TeamStaff key={i} onClick={() => selectStaffMember(i)}>
+                  <TeamStaffImage src={node.frontmatter.photo} />
+                  {i === chosen.staffIndex && (
+                    <>
+                      <TeamStaffTitle>{node.frontmatter.title}</TeamStaffTitle>
+                      <TeamStaffJob>{node.frontmatter.jobtitle}</TeamStaffJob>
+                    </>
+                  )}
+                </TeamStaff>
+                {i === chosen.lastInRowIndex && chosen.staffNode && (
+                  <StaffInfo>
+                    <StaffInfoHtml
+                      dangerouslySetInnerHTML={{
+                        __html: chosen.staffNode.html,
+                      }}
+                    />
+                  </StaffInfo>
+                )}
+              </>
             )
           })}
         </TeamStaffBar>
