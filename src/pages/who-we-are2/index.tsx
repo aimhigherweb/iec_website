@@ -15,7 +15,7 @@ import { useMatchMedia } from "../../hooks/useMatchMedia"
 //-- Section 0: Main
 //----------------------------------------------------------
 const DEBUG_MAIN = "0px solid blue"
-const MAX_WIDTH = "768px"
+const MAX_WIDTH = "168px"
 
 const MainHeader = styled.div`
   position: fixed;
@@ -164,20 +164,22 @@ const TeamTitle = styled.h1`
   font-size: 2em;
 `
 
+const TeamStaffContainer = styled.div`
+  align-content: center;
+  padding: 20px;
+  border: ${DEBUG_TEAM};
+`
 const TeamStaffBar = styled.div`
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  padding: 0 40px;
+  justify-content: flex-start;
+  padding: 0 0px;
   border: ${DEBUG_TEAM};
 `
 const TeamStaff = styled.div`
-  flex: 1;
-  margin: 0 4px;
-  flex-basis: 20%;
-  @media (max-width: ${MAX_WIDTH}) {
-    flex-basis: 40%;
-  }
+  width: 25%;
+  padding: 0 4px;
+  border: ${DEBUG_TEAM};
 `
 const TeamStaffImage = styled.img`
   width: 100%;
@@ -267,15 +269,17 @@ const Team = (teamList) => {
   return (
     <TeamSection>
       <TeamTitle>Meet the team</TeamTitle>
-      <TeamStaffBar>
-        {teamList.edges.map(({ node }, i) => {
-          return (
-            <TeamStaff key={i}>
-              <TeamStaffImage src={node.frontmatter.photo} />
-            </TeamStaff>
-          )
-        })}
-      </TeamStaffBar>
+      <TeamStaffContainer>
+        <TeamStaffBar>
+          {teamList.edges.map(({ node }, i) => {
+            return (
+              <TeamStaff key={i}>
+                <TeamStaffImage src={node.frontmatter.photo} />
+              </TeamStaff>
+            )
+          })}
+        </TeamStaffBar>
+      </TeamStaffContainer>
       <TeamDescription>
         <p>
           As practitioners, we firmly believe in comprehensive care. As
