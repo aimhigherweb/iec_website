@@ -1,5 +1,5 @@
 ---
-title: Can I wash my contact lenses with tap water?
+title: Why can't I use tap water with my contact lenses?
 date: 2020-08-19T00:09:56.723Z
 author: "Pooja Bhindi "
 author_url: https://www.innovativeeyecare.com.au/who-we-are/pooja-bhindi
@@ -7,7 +7,7 @@ preview_image: /uploads/macau-photo-agency-szowadu0jxu-unsplash.jpg
 ---
 <div class="employee-heading">
 
-The short answer is – NO. There are certain pairings of things that simply do not mix well together; water and oil, orange juice and toothpaste, scotch and water, bathtubs and toasters, and tap water and contact lenses! 
+There are certain pairings of things that simply do not mix well together; water and oil, orange juice and toothpaste, scotch and water, bathtubs and toasters, and tap water and contact lenses! 
 
 </div>
 
