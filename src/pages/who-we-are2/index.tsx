@@ -339,68 +339,78 @@ const Team = (teamList, match) => {
 //-- Section 3: Social
 //----------------------------------------------------------
 const DEBUG_SOCIAL = "0px solid blue"
-const SocialSection = styled.div`
+const HistorySection = styled.div`
   padding: 40px 10%;
 `
 
-const SocialTitle = styled.h1`
-  text-align: center;
-  font-family: "Times New Roman";
-  font-size: 1.4em;
-  @media (max-width: ${MAX_WIDTH_PX}) {
-    font-size: 2em;
-  }
-`
-
-const SocialItemBar = styled.div`
+const HistoryBar = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   padding: 0 40px;
   border: ${DEBUG_SOCIAL};
 `
-const SocialItem = styled.div`
-  flex: 1;
-  margin: 0 4px;
-  @media (max-width: ${MAX_WIDTH_PX}) {
-    flex-basis: 40%;
-  }
+const HistoryTimeline = styled.div`
+  padding: 40px;
+  width: ${(props) => (props.match ? "100%" : "50%")};
+  background-image: url("/images2/bg-section-history.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 `
-const SocialItemImage = styled.img`
-  width: 100%;
-  height: auto;
-  filter: grayscale(100%);
+const HistoryTimelineItem = styled.div`
+  margin-bottom: 20px;
+  font-size: 0.7em;
+  font-weight: 700;
+  color: white;
+`
+const HistoryDetail = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px;
+  width: ${(props) => (props.match ? "100%" : "50%")};
+`
+const HistoryDetailTitle = styled.div`
+  margin-bottom: 20px;
+  padding: 0;
+  font-size: 2em;
+  font-weight: 700;
+`
+const HistoryDetailDesc = styled.div`
+  margin-bottom: 20px;
+  font-size: 0.7em;
+`
+const HistoryDetailLink = styled.div`
+  margin-bottom: 20px;
+  font-size: 0.9em;
+  font-weight: 700;
 `
 
-const Social = (
-  <SocialSection>
-    <SocialTitle>
-      Follow us on Instagram and Facebook to see what we&apos;ve been up to!
-    </SocialTitle>
-    <SocialItemBar>
-      <SocialItem>
-        <a href="https://www.instagram.com/innovative.eye.care">
-          <SocialItemImage src="/images2/social-insta1.jpg" />
-        </a>
-      </SocialItem>
-      <SocialItem>
-        <a href="https://www.instagram.com/innovative.eye.care">
-          <SocialItemImage src="/images2/social-insta2.jpg" />
-        </a>
-      </SocialItem>
-      <SocialItem>
-        <a href="https://www.instagram.com/innovative.eye.care">
-          <SocialItemImage src="/images2/social-insta1.jpg" />
-        </a>
-      </SocialItem>
-      <SocialItem>
-        <a href="https://www.instagram.com/innovative.eye.care">
-          <SocialItemImage src="/images2/social-insta2.jpg" />
-        </a>
-      </SocialItem>
-    </SocialItemBar>
-  </SocialSection>
-)
+const History = (historyList, match) => {
+  const [historyItem, setHistoryItem] = useState(historyList[0])
+
+  return (
+    <HistorySection>
+      <HistoryBar>
+        <HistoryTimeline>
+          {historyList &&
+            historyList.map((history, i) => {
+              return (
+                <HistoryTimelineItem key={i}>
+                  {history.article}{" "}
+                </HistoryTimelineItem>
+              )
+            })}
+        </HistoryTimeline>
+        <HistoryDetail>
+          <HistoryDetailTitle>{historyItem.title}</HistoryDetailTitle>
+          <HistoryDetailDesc>{historyItem.description}</HistoryDetailDesc>
+          <HistoryDetailLink>{historyItem.link}</HistoryDetailLink>
+        </HistoryDetail>
+      </HistoryBar>
+    </HistorySection>
+  )
+}
 
 //----------------------------------------------------------
 //-- Render
@@ -409,6 +419,60 @@ const Container = styled.div`
   height: 100%;
   margin: 0;
 `
+
+//--- TEMP
+const historyList = [
+  {
+    article: "2016 | The Merger",
+    title: "North Terrace Optometrists merges with Innovative Eye Care",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    link: "Article Link >>",
+  },
+  {
+    article: "2012 | Ron Fieldhouse retires",
+    title: "Retirement",
+    description: "Lorem ipsum 1",
+    link: "Article Link >>",
+  },
+  {
+    article: "2010 | The Purchase",
+    title: "Purchase",
+    description: "Lorem ipsum 2",
+    link: "Article Link >>",
+  },
+  {
+    article: "2007 | Lachlan - R Fieldhouse & Associates",
+    title: "Purchase",
+    description: "Lorem ipsum 3",
+    link: "Article Link >>",
+  },
+  {
+    article: "2007 | Don Noack Award",
+    title: "Purchase",
+    description: "Lorem ipsum 4",
+    link: "Article Link >>",
+  },
+  {
+    article: "1996 | North Tce Optometrists",
+    title: "Purchase",
+    description: "Lorem ipsum 5",
+    link: "Article Link >>",
+  },
+  {
+    article: "1984 | Nort Tce Practice",
+    title: "Purchase",
+    description: "Lorem ipsum 6",
+    link: "Article Link >>",
+  },
+  {
+    article: "1959 | R Fieldhouse & Associates",
+    title: "Purchase",
+    description: "Lorem ipsum 7",
+    link: "Article Link >>",
+  },
+]
+
 const Home: React.FC = ({ data }) => {
   const match = useMatchMedia({ width: MAX_WIDTH })
   const { teamList } = data
@@ -416,9 +480,9 @@ const Home: React.FC = ({ data }) => {
   console.log(`*** Home.RENDER... match=${match}`)
   return (
     <Container>
-      {Main}
+      {History(historyList, match)}
       {Team(teamList, match)}
-      {Social}
+      {Main}
     </Container>
   )
 }
