@@ -2,12 +2,7 @@ import React, { useState } from "react"
 import { graphql, Link } from "gatsby"
 import styled from "styled-components"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import {
-  faMapMarker,
-  faClock,
-  faPhoneAlt,
-} from "@fortawesome/free-solid-svg-icons"
-import { faFacebook, faInstagram } from "@fortawesome/free-brands-svg-icons"
+import { faClock } from "@fortawesome/free-solid-svg-icons"
 
 import { useMatchMedia } from "../../hooks/useMatchMedia"
 
@@ -500,6 +495,7 @@ const History = (historyList, match) => {
 const Container = styled.div`
   height: 100%;
   margin: 0;
+  margin-bottom: 80px;
 `
 
 //--- TEMP
