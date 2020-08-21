@@ -245,12 +245,20 @@ const Team = (teamList, match) => {
     staffNode: null,
   })
 
+  const columns = match ? 2 : 4
+  const finalTeamList = teamList.edges
+  if (finalTeamList) {
+    const fillers = finalTeamList.length % columns
+    for (let i = 0; i < fillers; ++i) {
+      finalTeamList.push({ node: { frontmatter: {} } })
+    }
+  }
+
   const selectStaffMember = (index, show) => {
     console.log(
       `*** whoWeAre.Team.selectStaffMember... index=${index} show=${show}`
     )
     if (show) {
-      const columns = match ? 2 : 4
       const rowIndex = Math.floor(index / columns)
       setChosen({
         rowIndex: rowIndex,
@@ -557,9 +565,9 @@ const Home: React.FC = ({ data }) => {
   console.log(`*** Home.RENDER... match=${match}`)
   return (
     <Container>
-      {History(historyList, match)}
-      {Team(teamList, match)}
       {Main}
+      {Team(teamList, match)}
+      {History(historyList, match)}
     </Container>
   )
 }
