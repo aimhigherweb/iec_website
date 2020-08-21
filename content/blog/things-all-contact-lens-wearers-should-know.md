@@ -31,7 +31,7 @@ Cleaning and disinfecting your lenses reduces the risk of possible complications
 
 **Have a pair of back up spectacles**
 
-It is important to have a backup pair of [spectacles](https://www.innovativeeyecare.com.au/what-we-do/glasses) to wear if you are having difficulties with your contact lenses. This ensures you are able to see if there's something wrong, and that you're not tempted to wear the lenses during the healing period.
+It is important to have a backup pair of [spectacles](https://www.innovativeeyecare.com.au/what-we-do/glasses) to wear if you are having difficulties with your contact lenses. This ensures you are able to see if there's something wrong, and that you're not tempted to wear the lenses during this period.
 
 **Dispose of your soft lenses at the recommended time for the date of opening**
 
