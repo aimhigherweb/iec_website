@@ -283,8 +283,8 @@ const Team = (teamList, match) => {
               ? { filter: "grayscale(0)" }
               : { filter: "grayscale(1)" }
             return (
-              <>
-                <TeamStaff key={i} match={match}>
+              <div key={i}>
+                <TeamStaff match={match}>
                   <TeamStaffImage
                     src={node.frontmatter.photo}
                     style={filter}
@@ -308,7 +308,7 @@ const Team = (teamList, match) => {
                     />
                   </StaffInfo>
                 )}
-              </>
+              </div>
             )
           })}
         </TeamStaffBar>
@@ -418,6 +418,7 @@ const Home: React.FC = ({ data }) => {
     <Container>
       {Main}
       {Team(teamList, match)}
+      {Social}
     </Container>
   )
 }
