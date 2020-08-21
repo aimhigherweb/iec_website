@@ -7,7 +7,7 @@ preview_image: /uploads/contact-lens.jpg
 ---
 <div class="employee-heading">
 
-Contact lens care can be confusing, whether you're new to wearing or you're a long-time wearer. Here's a few of the key points to bear in mind when you're wearing and handling your lenses. Remember, above all else, your eyes should <b>look</b> good, <b>feel</b> good and <b>see</b> good. If in doubt – take them out!
+[Contact lens care](https://www.innovativeeyecare.com.au/patient-resources) can be confusing, whether you're new to wearing or you're a long-time wearer. Here's a few of the key points to bear in mind when you're wearing and handling your [contact lenses](https://www.innovativeeyecare.com.au/what-we-do/contact-lenses). Remember, above all else, your eyes should <b>look</b> good, <b>feel</b> good and <b>see</b> good. If in doubt – take them out!
 
 </div>
 
@@ -31,7 +31,7 @@ Cleaning and disinfecting your lenses reduces the risk of possible complications
 
 **Have a pair of back up spectacles**
 
-It is important to have a backup pair of [spectacles](https://www.innovativeeyecare.com.au/what-we-do/glasses) to wear if you are having difficulties with your contact lenses. This ensures you are able to see if there's something wrong, and that you're not tempted to wear the lenses in this instance.
+It is important to have a backup pair of [spectacles](https://www.innovativeeyecare.com.au/what-we-do/glasses) to wear if you are having difficulties with your contact lenses. This ensures you are able to see if there's something wrong, and that you're not tempted to wear the lenses while your eyes are sore.
 
 **Dispose of your soft lenses at the recommended time for the date of opening**
 
