@@ -7,7 +7,7 @@ preview_image: /uploads/macau-photo-agency-szowadu0jxu-unsplash.jpg
 ---
 <div class="employee-heading">
 
-There are certain pairings of things that simply do not mix well together; water and oil, orange juice and toothpaste, scotch and water, bathtubs and toasters, and tap water and contact lenses! 
+There are certain pairings of things that simply do not mix well together; water and oil, orange juice and toothpaste, scotch and water, bathtubs and toasters, and tap water and [contact lenses](https://www.innovativeeyecare.com.au/what-we-do/contact-lenses)! 
 
 </div>
 
