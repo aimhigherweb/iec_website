@@ -13,7 +13,7 @@ There are certain pairings of things that simply do not mix well together; water
 
 ![](/uploads/tap.jpg)
 
-Washing contact lenses in tap water poses an increased risk of a very serious, sight-threatening eye infection. This is caused by a microorganism called acanthamoeba which is found in many sources of water, including tap water, fresh water, bottled water, spas, pools and even showers.<sup>1, 2</sup> These types of infections are painful, difficult to treat and complications can lead to permanent vision loss. 
+Washing contact lenses in tap water poses an increased risk of a very serious, sight-threatening eye infection. This is caused by a microorganism called [acanthamoeba](https://www.innovativeeyecare.com.au/what-we-do/keratitis) which is found in many sources of water, including tap water, fresh water, bottled water, spas, pools and even showers.<sup>1, 2</sup> These types of infections are painful, difficult to treat and complications can lead to permanent vision loss. 
 
 **What can you do to reduce your risk of an acanthamoeba infection? <sup>1, 2</sup>** 
 
@@ -21,11 +21,11 @@ Washing contact lenses in tap water poses an increased risk of a very serious, s
 * DO NOT store your lenses in water
 * DO NOT swim or shower in your contact lenses
 
-![](/uploads/eye.jpg)
 
-When wearing contact lenses it is important to always follow the recommended wear and care instructions of your optometrist. Remember to not mix and match solutions or change the recommended disinfecting solutions. Always use fresh, unexpired solutions for your lenses and do not top up solutions. Solutions generally expire 90 days after opening the bottle, so always check the label.
 
-A safe and simple way of cleaning and disinfecting your lenses is with a peroxide cleaner, such as AOSept Hydraglyde.<sup>3</sup> Over the course of a 6 hour period, the catalyst in the case converts the disinfecting hydrogen peroxide solution into water and oxygen gas, meaning that there is no need to rinse the lenses after! The peroxide cleaner is the best daily cleaner we have to prevent acanthamoeba infections.<sup>2</sup>
+When wearing contact lenses it is important to always follow the recommended wear and care instructions of your optometrist. If you need to rinse your contact lenses, use [saline solution](https://eyesolutions.com.au/collections/frontpage/products/eyeye-saline-360ml) – a sterile alternative made for the express purpose of safely rinsing your contact lens.
+
+A safe and simple way of cleaning and disinfecting your lenses is with a peroxide cleaner, such as AOSept Hydraglyde.<sup>3</sup> Over the course of a 6 hour period, the catalyst in the case converts the hydrogen peroxide into water and oxygen gas, meaning that there is no need to rinse the lenses after! The peroxide cleaner is the best daily cleaner we have to prevent acanthamoeba infections.<sup>2</sup>
 
 <br>
 
