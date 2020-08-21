@@ -283,8 +283,8 @@ const Team = (teamList, match) => {
               ? { filter: "grayscale(0)" }
               : { filter: "grayscale(1)" }
             return (
-              <div key={i}>
-                <TeamStaff match={match}>
+              <>
+                <TeamStaff div key={i} match={match}>
                   <TeamStaffImage
                     src={node.frontmatter.photo}
                     style={filter}
@@ -300,7 +300,7 @@ const Team = (teamList, match) => {
                   )}
                 </TeamStaff>
                 {i === chosen.lastInRowIndex && chosen.staffNode && (
-                  <StaffInfo>
+                  <StaffInfo div key="staffInfoRow">
                     <StaffInfoHtml
                       dangerouslySetInnerHTML={{
                         __html: chosen.staffNode.html,
@@ -308,7 +308,7 @@ const Team = (teamList, match) => {
                     />
                   </StaffInfo>
                 )}
-              </div>
+              </>
             )
           })}
         </TeamStaffBar>
