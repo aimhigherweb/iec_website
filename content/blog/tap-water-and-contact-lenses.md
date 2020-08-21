@@ -11,8 +11,6 @@ There are certain pairings of things that simply do not mix well together; water
 
 </div>
 
-![](/uploads/tap.jpg)
-
 Washing contact lenses in tap water poses an increased risk of a very serious, sight-threatening eye infection. This is caused by a microorganism called [acanthamoeba](https://www.innovativeeyecare.com.au/what-we-do/keratitis) which is found in many sources of water, including tap water, fresh water, bottled water, spas, pools and even showers.<sup>1, 2</sup> These types of infections are painful, difficult to treat and complications can lead to permanent vision loss. 
 
 **What can you do to reduce your risk of an acanthamoeba infection? <sup>1, 2</sup>** 
@@ -22,6 +20,8 @@ Washing contact lenses in tap water poses an increased risk of a very serious, s
 * DO NOT swim or shower in your contact lenses
 
 
+
+![](/uploads/tap.jpg)
 
 When wearing contact lenses it is important to always follow the recommended wear and care instructions of your optometrist. If you need to rinse your contact lenses, use [saline solution](https://eyesolutions.com.au/collections/frontpage/products/eyeye-saline-360ml) – a sterile alternative made for the express purpose of safely rinsing your contact lens.
 
