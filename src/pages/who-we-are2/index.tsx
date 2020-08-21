@@ -350,19 +350,60 @@ const HistoryBar = styled.div`
   padding: 0 40px;
   border: ${DEBUG_SOCIAL};
 `
-const HistoryTimeline = styled.div`
-  padding: 40px;
+const HistoryTimeline = styled.ul`
+  padding: 20px;
   width: ${(props) => (props.match ? "100%" : "50%")};
+
   background-image: url("/images2/bg-section-history.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 `
-const HistoryTimelineItem = styled.div`
-  margin-bottom: 20px;
+const HistoryTimelineItem = styled.li`
+  padding-left: 33px;
+  margin-bottom: 2.5em;
+  list-style: none;
+
   font-size: 0.7em;
   font-weight: 700;
-  color: white;
+  color: ${(props) => (props.highlight ? "#5091cd" : "white")};
+
+  position: relative;
+  margin-bottom: 0;
+  padding-bottom: 2.5em;
+
+  &:after {
+    /* bullets */
+    content: ${(props) =>
+      props.highlight
+        ? "url('/images2/icon-bullet-blue.png')"
+        : "url('/images2/icon-bullet-white.png')"};
+    position: absolute;
+    left: 0px; /*adjust manually*/
+    top: 4px;
+  }
+  &:before {
+    /* lines */
+    content: "";
+    position: absolute;
+    left: 4px;
+    border-left: 1px solid white;
+    height: 100%;
+    width: 1px;
+  }
+  &:first-child:before {
+    top: 7px;
+  }
+  &:last-child:before {
+    height: 7px;
+  }
 `
+const HistoryTimelineItemTitle = styled.div`
+  font-size: 1.2857em; /* 18/16 -> 18px */
+  font-weight: 300;
+  display: inline;
+  margin-right: 0.5em;
+`
+
 const HistoryDetail = styled.div`
   display: flex;
   flex-direction: column;
@@ -375,6 +416,7 @@ const HistoryDetailTitle = styled.div`
   padding: 0;
   font-size: 2em;
   font-weight: 700;
+  line-height: 1.1;
 `
 const HistoryDetailDesc = styled.div`
   margin-bottom: 20px;
@@ -384,10 +426,23 @@ const HistoryDetailLink = styled.div`
   margin-bottom: 20px;
   font-size: 0.9em;
   font-weight: 700;
+  text-transform: uppercase;
 `
 
 const History = (historyList, match) => {
-  const [historyItem, setHistoryItem] = useState(historyList[0])
+  const [chosen, setChosen] = useState({
+    historyIndex: null,
+    historyItem: null,
+  })
+
+  const selectHistoryItem = (index, show) => {
+    let finalShow = show
+    if (index === chosen.historyIndex && chosen.historyItem) {
+      finalShow = true
+    }
+    const item = finalShow ? historyList[index] : null
+    setChosen({ historyIndex: index, historyItem: item })
+  }
 
   return (
     <HistorySection>
@@ -395,17 +450,32 @@ const History = (historyList, match) => {
         <HistoryTimeline>
           {historyList &&
             historyList.map((history, i) => {
+              const highlight = i === chosen.historyIndex
               return (
-                <HistoryTimelineItem key={i}>
-                  {history.article}{" "}
+                <HistoryTimelineItem key={i} highlight={highlight}>
+                  <HistoryTimelineItemTitle
+                    onClick={() => selectHistoryItem(i, true)}
+                    onMouseEnter={() => selectHistoryItem(i, true)}
+                    onMouseLeave={() => selectHistoryItem(i, false)}
+                  >
+                    {history.article}
+                  </HistoryTimelineItemTitle>
                 </HistoryTimelineItem>
               )
             })}
         </HistoryTimeline>
         <HistoryDetail>
-          <HistoryDetailTitle>{historyItem.title}</HistoryDetailTitle>
-          <HistoryDetailDesc>{historyItem.description}</HistoryDetailDesc>
-          <HistoryDetailLink>{historyItem.link}</HistoryDetailLink>
+          {chosen.historyItem && (
+            <>
+              <HistoryDetailTitle>
+                {chosen.historyItem.title}
+              </HistoryDetailTitle>
+              <HistoryDetailDesc>
+                {chosen.historyItem.description}
+              </HistoryDetailDesc>
+              <HistoryDetailLink>{chosen.historyItem.link}</HistoryDetailLink>
+            </>
+          )}
         </HistoryDetail>
       </HistoryBar>
     </HistorySection>
@@ -432,43 +502,50 @@ const historyList = [
   {
     article: "2012 | Ron Fieldhouse retires",
     title: "Retirement",
-    description: "Lorem ipsum 1",
+    description:
+      "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.",
     link: "Article Link >>",
   },
   {
     article: "2010 | The Purchase",
     title: "Purchase",
-    description: "Lorem ipsum 2",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     link: "Article Link >>",
   },
   {
     article: "2007 | Lachlan - R Fieldhouse & Associates",
-    title: "Purchase",
-    description: "Lorem ipsum 3",
+    title: "Lachlan - R Fieldhouse",
+    description:
+      "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.",
     link: "Article Link >>",
   },
   {
     article: "2007 | Don Noack Award",
-    title: "Purchase",
-    description: "Lorem ipsum 4",
+    title: "Don Noack Award",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     link: "Article Link >>",
   },
   {
     article: "1996 | North Tce Optometrists",
-    title: "Purchase",
-    description: "Lorem ipsum 5",
+    title: "North Tce Optometrists",
+    description:
+      "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.",
     link: "Article Link >>",
   },
   {
-    article: "1984 | Nort Tce Practice",
-    title: "Purchase",
-    description: "Lorem ipsum 6",
+    article: "1984 | North Tce Practice",
+    title: "North Tce Practice",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     link: "Article Link >>",
   },
   {
     article: "1959 | R Fieldhouse & Associates",
-    title: "Purchase",
-    description: "Lorem ipsum 7",
+    title: "R Fieldhouse",
+    description:
+      "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.",
     link: "Article Link >>",
   },
 ]
