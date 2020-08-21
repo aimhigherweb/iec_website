@@ -184,12 +184,13 @@ const TeamStaff = styled.div`
 const TeamStaffImage = styled.img`
   width: 100%;
   height: auto;
-  filter: grayscale(100%);
+  filter: ${(props) => (props.chosen ? "none" : "grayscale(1)")};
   &:hover {
-    filter: none;
+    filter: ${(props) => (props.chosen ? "none" : "none")};
   }
 `
 const TeamStaffTitle = styled.div`
+  color: #5091cd;
   font-size: 0.9em;
   font-weight: 700;
   text-align: center;
@@ -277,28 +278,47 @@ const Team = (teamList) => {
     staffNode: null,
   })
 
-  const selectStaffMember = (index) => {
-    const rowIndex = Math.floor(index / 4)
-    setChosen({
-      rowIndex: rowIndex,
-      staffIndex: index,
-      lastInRowIndex: (rowIndex + 1) * 4 - 1,
-      staffNode: teamList.edges[index].node,
-    })
+  const selectStaffMember = (index, show) => {
+    console.log(`*** whoWeAre.Team.selectStaffMember... ${index} ${show}`)
+    if (show) {
+      const rowIndex = Math.floor(index / 4)
+      setChosen({
+        rowIndex: rowIndex,
+        staffIndex: index,
+        lastInRowIndex: (rowIndex + 1) * 4 - 1,
+      })
+    } else {
+      setChosen({ rowIndex: null, staffIndex: null, lastInRowIndex: null })
+    }
+  }
+  const selectStaffMemberInfo = (index, show) => {
+    console.log(`*** whoWeAre.Team.selectStaffMemberInfo... ${index} ${show}`)
+    const val = show ? teamList.edges[index].node : null
+    setChosen({ ...chosen, staffNode: val })
   }
 
-  console.log(`*** who-we-are.Team.RENDER... ${JSON.stringify(chosen)}`)
+  console.log(`*** whoWeAre.Team.RENDER`)
   return (
     <TeamSection>
       <TeamTitle>Meet the team</TeamTitle>
       <TeamStaffContainer>
         <TeamStaffBar>
           {teamList.edges.map(({ node }, i) => {
+            const highlighted = i === chosen.staffIndex
+            const filter = highlighted
+              ? { filter: "grayscale(0)" }
+              : { filter: "grayscale(1)" }
             return (
               <>
-                <TeamStaff key={i} onClick={() => selectStaffMember(i)}>
-                  <TeamStaffImage src={node.frontmatter.photo} />
-                  {i === chosen.staffIndex && (
+                <TeamStaff key={i}>
+                  <TeamStaffImage
+                    src={node.frontmatter.photo}
+                    style={filter}
+                    onMouseEnter={() => selectStaffMember(i, true)}
+                    onMouseLeave={() => selectStaffMember(i, false)}
+                    onClick={() => selectStaffMemberInfo(i, true)}
+                  />
+                  {highlighted && (
                     <>
                       <TeamStaffTitle>{node.frontmatter.title}</TeamStaffTitle>
                       <TeamStaffJob>{node.frontmatter.jobtitle}</TeamStaffJob>
