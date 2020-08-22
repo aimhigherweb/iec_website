@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import React, { useState, useEffect } from "react"
 import { graphql, Link } from "gatsby"
 import styled from "styled-components"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
@@ -150,7 +150,7 @@ const DEBUG_TEAM = "0px solid blue"
 const TeamSection = styled.div`
   padding: 40px 10%;
   @media (max-width: ${MAX_WIDTH_PX}) {
-    padding: 20px 0px;
+    padding: 20px 20px;
   }
 `
 
@@ -158,6 +158,11 @@ const TeamTitle = styled.h1`
   text-align: center;
   font-family: "Times New Roman";
   font-size: 2em;
+`
+const TeamSubtitle = styled.h4`
+  text-align: center;
+  font-size: 1em;
+  font-weight: 500;
 `
 
 const TeamStaffContainer = styled.div`
@@ -174,12 +179,13 @@ const TeamStaffBar = styled.div`
 `
 const TeamStaff = styled.div`
   width: ${(props) => (props.match ? "50%" : "25%")};
-  padding: 0 4px;
+  padding: 0 0px;
   border: ${DEBUG_TEAM};
 `
 const TeamStaffImage = styled.img`
   width: 100%;
   height: auto;
+  background: linear-gradient(to bottom, white 50%, lightgrey 50%);
   filter: ${(props) => (props.chosen ? "none" : "grayscale(1)")};
   &:hover {
     filter: ${(props) => (props.chosen ? "none" : "none")};
@@ -198,6 +204,7 @@ const TeamStaffJob = styled.div`
 `
 const StaffInfo = styled.div`
   width: 100%;
+  margin-top: 8px;
   padding: 0 4px;
   border: ${DEBUG_TEAM};
 `
@@ -278,6 +285,10 @@ const Team = (teamList, match) => {
   return (
     <TeamSection>
       <TeamTitle>Meet the team</TeamTitle>
+      <TeamSubtitle>
+        Our Optometrists are industry leaders. Our special interests include
+        contact lenses, paediatric vision and theraputic optometry.
+      </TeamSubtitle>
       <TeamStaffContainer>
         <TeamStaffBar>
           {teamList.edges.map(({ node }, i) => {
@@ -292,7 +303,6 @@ const Team = (teamList, match) => {
                     src={node.frontmatter.photo}
                     style={filter}
                     onMouseEnter={() => selectStaffMember(i, true)}
-                    onMouseLeave={() => selectStaffMember(i, false)}
                     onClick={() => selectStaffMemberInfo(i, true)}
                   />
                   {highlighted && (
@@ -339,26 +349,28 @@ const Team = (teamList, match) => {
 }
 
 //----------------------------------------------------------
-//-- Section 3: Social
+//-- Section 2: History
 //----------------------------------------------------------
 const DEBUG_SOCIAL = "0px solid blue"
 const HistorySection = styled.div`
   padding: 40px 10%;
+  border: ${DEBUG_SOCIAL};
 `
 
 const HistoryBar = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding: 0 40px;
+  padding: 0 0;
   border: ${DEBUG_SOCIAL};
 `
 const HistoryTimeline = styled.ul`
   padding: 20px;
   width: ${(props) => (props.match ? "100%" : "50%")};
 
-  background-image: url("/images2/bg-section-history.jpg");
+  background-image: url("/images2/bg-section-history.png");
   background-size: cover;
+  background-position: 50% 50%;
   background-repeat: no-repeat;
 `
 const HistoryTimelineItem = styled.li`
@@ -369,6 +381,9 @@ const HistoryTimelineItem = styled.li`
   font-size: 0.7em;
   font-weight: 700;
   color: ${(props) => (props.highlight ? "#5091cd" : "white")};
+  @media (max-width: ${MAX_WIDTH_PX}) {
+    font-size: 0.5em;
+  }
 
   position: relative;
   margin-bottom: 0;
@@ -437,6 +452,10 @@ const History = (historyList, match) => {
     historyIndex: null,
     historyItem: null,
   })
+
+  useEffect(() => {
+    selectHistoryItem(0, true)
+  }, [])
 
   const selectHistoryItem = (index, show) => {
     let finalShow = show
