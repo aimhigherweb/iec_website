@@ -1,8 +1,6 @@
 import React, { useState, useEffect } from "react"
-import { graphql, Link } from "gatsby"
+import { graphql } from "gatsby"
 import styled from "styled-components"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faClock } from "@fortawesome/free-solid-svg-icons"
 
 import { useMatchMedia } from "../../hooks/useMatchMedia"
 
@@ -10,7 +8,7 @@ import { useMatchMedia } from "../../hooks/useMatchMedia"
 //-- Section 0: Main
 //----------------------------------------------------------
 const DEBUG_MAIN = "0px solid blue"
-const MAX_WIDTH = 500
+const MAX_WIDTH = 768
 const MAX_WIDTH_PX = `${MAX_WIDTH}px`
 
 const MainHeader = styled.div`
