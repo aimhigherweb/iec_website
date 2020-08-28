@@ -1,7 +1,7 @@
-import React from 'react'
-import { Link } from 'gatsby'
+import React from "react"
+import { Link } from "gatsby"
 
-export default function() {
+export default function () {
   return (
     <footer id="footer">
       <div className="footer__holder">

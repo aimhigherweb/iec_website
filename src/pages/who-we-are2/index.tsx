@@ -4,6 +4,7 @@ import styled from "styled-components"
 
 import { useMatchMedia } from "../../hooks/useMatchMedia"
 import { Main } from "../../components/Main"
+import { Footer } from "../../components/Footer"
 
 //----------------------------------------------------------
 //-- Section 1: Team
@@ -468,6 +469,7 @@ const Home: React.FC = ({ data }) => {
       {Main()}
       {Team(teamList, match)}
       {History(historyList, match)}
+      {Footer()}
     </Container>
   )
 }
