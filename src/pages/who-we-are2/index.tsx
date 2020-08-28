@@ -459,7 +459,7 @@ const historyList = [
   },
 ]
 
-const Home: React.FC = ({ data }) => {
+const WhoWeAre: React.FC = ({ data }) => {
   const match = useMatchMedia({ width: MAX_WIDTH })
   const { teamList } = data
 
@@ -474,7 +474,7 @@ const Home: React.FC = ({ data }) => {
   )
 }
 
-export default Home
+export default WhoWeAre
 
 export const query = graphql`
   {

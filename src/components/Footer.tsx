@@ -20,6 +20,7 @@ const FooterSection = styled.div`
   padding: 20px 20px;
   margin-bottom: 40px;
   border: ${DEBUG_FOOTER};
+  border-top: 1px solid #e2e2e2;
   @media (max-width: ${MAX_WIDTH_PX}) {
     padding: 20px 40px;
   }
@@ -131,7 +132,7 @@ const FooterGutter = styled.div`
   border-top: 1px solid #e2e2e2;
 `
 const FooterGutterText = styled.div`
-  margin: 20px 0 40px 0;
+  margin: 20px 0 0px 0;
   font-size: 0.6em;
   color: black;
   @media (max-width: ${MAX_WIDTH_PX}) {
