@@ -26,26 +26,6 @@ const TeamTitle = styled.h1`
   font-size: 2em;
 `
 
-const TeamStaffBar = styled.div`
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  padding: 0 40px;
-  border: ${DEBUG_TEAM};
-`
-const TeamStaff = styled.div`
-  flex: 1;
-  margin: 0 4px;
-  @media (max-width: ${MAX_WIDTH_PX}) {
-    flex-basis: 40%;
-  }
-`
-const TeamStaffImage = styled.img`
-  width: 100%;
-  height: auto;
-  filter: grayscale(100%);
-`
-
 const TeamDescription = styled.div`
   padding: 40px 40px;
   text-align: center;
@@ -62,8 +42,10 @@ const TeamService = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  margin-bottom: 20px;
   padding: 0 40px;
   border: ${DEBUG_TEAM};
+  border-bottom: 1px solid #424242;
 `
 const TeamServiceItem = styled.div`
   flex: 1;
@@ -92,22 +74,53 @@ const TeamServiceTitle = styled.p`
   border: ${DEBUG_TEAM};
 `
 
-const TeamFooter = styled.div`
-  padding: 40px 0 0 0;
+const ServiceDetail = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 10px 40px;
   border: ${DEBUG_TEAM};
 `
-const TeamFooterImage = styled.img`
+const ServiceDetailImage = styled.img`
   display: block;
   width: auto;
-  height: 12px;
-  margin: 0px auto;
+  height: 24px;
+  margin-right: 20px;
   @media (max-width: ${MAX_WIDTH_PX}) {
-    height: 24px;
+    height: 50px;
   }
+  border: ${DEBUG_TEAM};
+`
+const ServiceDetailText = styled.div`
+  flex: 1;
+  @media (max-width: ${MAX_WIDTH_PX}) {
+    flex-basis: 50%;
+  }
+  border: ${DEBUG_TEAM};
+`
+const ServiceDetailTextTitle = styled.p`
+  font-size: 0.8em;
+  font-weight: 600;
+  text-transform: uppercase;
+  @media (max-width: ${MAX_WIDTH_PX}) {
+    font-size: 0.6em;
+  }
+  border: ${DEBUG_TEAM};
+`
+const ServiceDetailTextDesc = styled.div`
+  font-size: 0.8em;
   border: ${DEBUG_TEAM};
 `
 
 const Team = (current) => {
+  const extractFirstDiv = (html) => {
+    const regex = /^<div(.)*>(.)<\/div>/gs
+    const result = regex.exec(html)
+    if (result && result.length > 0) {
+      return result[0]
+    }
+  }
+
   return (
     <TeamSection>
       <TeamTitle>What We Do</TeamTitle>
@@ -191,11 +204,19 @@ const Team = (current) => {
       {current &&
         current.map((item, i) => {
           return (
-            <TeamDescription key={i}>
-              <TeamServiceImage src="/images2/service-eyewear-experts.png" />
-              <h4>{item.node.frontmatter.title}</h4>
-              <div dangerouslySetInnerHTML={{ __html: item.node.html }} />
-            </TeamDescription>
+            <ServiceDetail key={i}>
+              <ServiceDetailImage src="/images2/service-eyewear-experts.png" />
+              <ServiceDetailText>
+                <ServiceDetailTextTitle>
+                  {item.node.frontmatter.title}
+                </ServiceDetailTextTitle>
+                <ServiceDetailTextDesc
+                  dangerouslySetInnerHTML={{
+                    __html: extractFirstDiv(item.node.html),
+                  }}
+                />
+              </ServiceDetailText>
+            </ServiceDetail>
           )
         })}
     </TeamSection>
@@ -217,12 +238,12 @@ const WhatWeDo: React.FC = (props) => {
   const [current, setCurrent] = useState(acuteRedEyes.edges)
 
   console.log(`*** WhatWeDo.RENDER... match=${match}`)
-  console.log(
-    `*** WhatWeDo.RENDER... consultations=${JSON.stringify(acuteRedEyes)}`
-  )
+  // console.log(
+  //   `*** WhatWeDo.RENDER... consultations=${JSON.stringify(acuteRedEyes)}`
+  // )
+  //    {Main()}
   return (
     <Container>
-      {Main()}
       {Team(current)}
       {Footer()}
     </Container>
