@@ -20,13 +20,13 @@ const MAX_WIDTH = "768px"
 const MainHeader = styled.div`
   position: fixed;
   z-index: 9999;
-  padding: 20px;
+  padding: 16px 10px 10px 20px;
   width: 100%;
   height: auto;
   @media (max-width: ${MAX_WIDTH}) {
     padding: 20px;
   }
-  background-color: #424242;
+  background-color: black;
   border: ${DEBUG_MAIN};
 `
 const Logo = styled.img.attrs({
@@ -44,7 +44,7 @@ const Menu = styled.img.attrs({
   src: "/images2/icon-menu.png",
 })`
   position: fixed;
-  top: 20px;
+  top: 30px;
   right: 20px;
   width: 40px;
   height: 31px;
@@ -59,13 +59,12 @@ const MainFooter = styled.div`
   bottom: 0;
   width: 100%;
   height: 80px;
-  background-color: #424242;
+  background-color: black;
 `
 const MainSearch = styled.div`
   position: fixed;
   bottom: 20px;
   left: 40px;
-  background-color: #424242;
   @media (max-width: ${MAX_WIDTH}) {
     left: 40px;
     right: 40px;
@@ -80,7 +79,7 @@ const MainSearchInput = styled.input`
   font-size: 1em;
   font-weight: 800;
   background-color: rgba(0, 0, 0, 0);
-  border: 1px solid white;
+  border: 1px solid #ffffff88;
   outline: none;
   ::placeholder {
     font-family: "Times New Roman";
@@ -127,6 +126,25 @@ const MainSection = styled.div`
   }
 `
 
+const MainVideo = styled.div`
+  width: auto;
+  height: 100vh;
+  background-color: black;
+  ::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    content: "";
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+`
+const MainVideoContent = styled.video`
+  min-width: 100%;
+  min-height: 100%;
+`
+
 const Main = (
   <div>
     <MainHeader>
@@ -143,7 +161,20 @@ const Main = (
         <MainBookingButton>Book Online Woodville.</MainBookingButton>
       </MainBooking>
     </MainFooter>
-    <MainSection></MainSection>
+    <MainVideo>
+      <MainVideoContent
+        id="main-video"
+        className="video-js vjs-fill"
+        controls={false}
+        preload="auto"
+        autoPlay={true}
+        loop={true}
+        data-setup='{"fill":true}'
+      >
+        <track kind="captions" />
+        <source src="/videos/video-main.mp4" type="video/mp4" />
+      </MainVideoContent>
+    </MainVideo>
   </div>
 )
 
