@@ -1,13 +1,6 @@
 import React from "react"
-import { Link } from "gatsby"
+import { Link, navigate } from "gatsby"
 import styled from "styled-components"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import {
-  faMapMarker,
-  faClock,
-  faPhoneAlt,
-} from "@fortawesome/free-solid-svg-icons"
-import { faFacebook, faInstagram } from "@fortawesome/free-brands-svg-icons"
 
 import { useMatchMedia } from "../hooks/useMatchMedia"
 import { Main } from "../components/Main"
@@ -117,7 +110,7 @@ const TeamFooterImage = styled.img`
 const Team = (
   <TeamSection>
     <TeamTitle>We are a team of industry leaders</TeamTitle>
-    <TeamStaffBar>
+    <TeamStaffBar onClick={() => navigate("/who-we-are2")}>
       <TeamStaff>
         <TeamStaffImage src="/images2/staff-lachie.png" />
       </TeamStaff>

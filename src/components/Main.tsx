@@ -1,5 +1,6 @@
 import React from "react"
 import styled from "styled-components"
+import { navigate } from "gatsby"
 
 //----------------------------------------------------------
 //-- Section 0: Main
@@ -139,7 +140,7 @@ const MainVideoContent = styled.video`
 const MainDiv = (
   <div>
     <MainHeader>
-      <Logo />
+      <Logo onClick={() => navigate("/")} />
       <Menu />
     </MainHeader>
     <MainFooter>
