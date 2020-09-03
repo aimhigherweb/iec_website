@@ -1,14 +1,14 @@
-import React from 'react'
-import { graphql, Link } from 'gatsby'
-import { Helmet } from 'react-helmet'
+import React from "react"
+import { graphql, Link } from "gatsby"
+import { Helmet } from "react-helmet"
 
-import Header from '../../components/Header'
-import TopNav from '../../components/TopNav'
-import Footer from '../../components/Footer'
-import OnlineBooking from '../../components/OnlineBooking'
-import Img from 'gatsby-image'
+import Header from "../../components/Header"
+import TopNav from "../../components/TopNav"
+import Footer from "../../components/Footer-old"
+import OnlineBooking from "../../components/OnlineBooking"
+import Img from "gatsby-image"
 
-export default function(props) {
+export default function (props) {
   const { introBGImage, markdownRemark } = props.data
 
   return (
@@ -23,12 +23,12 @@ export default function(props) {
         <Img
           sizes={introBGImage.childImageSharp.fluid}
           style={{
-            position: 'absolute',
+            position: "absolute",
             left: 0,
             top: 0,
-            width: '100%',
-            height: '100%',
-            zIndex: -1
+            width: "100%",
+            height: "100%",
+            zIndex: -1,
           }}
         />
         <div className="container">
@@ -124,7 +124,7 @@ export default function(props) {
           <div className="employee-slide ">
             <div
               className="employee-slide__inner"
-              style={{ paddingTop: '10px' }}
+              style={{ paddingTop: "10px" }}
             >
               <div className="container">
                 <div className="content-wrap">
@@ -136,14 +136,14 @@ export default function(props) {
                       </div>
                       <div
                         dangerouslySetInnerHTML={{
-                          __html: markdownRemark.html
+                          __html: markdownRemark.html,
                         }}
                       />
                     </div>
                     <div className="employee-slide__col employee-slide__col-sidebar">
                       <img
                         src={`${markdownRemark.frontmatter.photo}`}
-                        style={{ marginBottom: '50px' }}
+                        style={{ marginBottom: "50px" }}
                         alt=""
                       />
                       <div className="employee-heading">
@@ -158,7 +158,7 @@ export default function(props) {
                             <span
                               className="line"
                               style={{
-                                width: markdownRemark.frontmatter.rating1 + '%'
+                                width: markdownRemark.frontmatter.rating1 + "%",
                               }}
                             />
                           </div>
@@ -171,7 +171,7 @@ export default function(props) {
                             <span
                               className="line"
                               style={{
-                                width: markdownRemark.frontmatter.rating2 + '%'
+                                width: markdownRemark.frontmatter.rating2 + "%",
                               }}
                             />
                           </div>
@@ -184,7 +184,7 @@ export default function(props) {
                             <span
                               className="line"
                               style={{
-                                width: markdownRemark.frontmatter.rating3 + '%'
+                                width: markdownRemark.frontmatter.rating3 + "%",
                               }}
                             />
                           </div>
@@ -197,7 +197,7 @@ export default function(props) {
                             <span
                               className="line"
                               style={{
-                                width: markdownRemark.frontmatter.rating4 + '%'
+                                width: markdownRemark.frontmatter.rating4 + "%",
                               }}
                             />
                           </div>

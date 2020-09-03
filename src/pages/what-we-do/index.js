@@ -1,14 +1,14 @@
-import React from 'react'
-import { graphql, Link } from 'gatsby'
-import { Helmet } from 'react-helmet'
-import HoverBox from '../../components/HoverBox'
+import React from "react"
+import { graphql, Link } from "gatsby"
+import { Helmet } from "react-helmet"
+import HoverBox from "../../components/HoverBox"
 
-import Header from '../../components/Header'
-import TopNav from '../../components/TopNav'
-import Footer from '../../components/Footer'
-import Img from 'gatsby-image'
+import Header from "../../components/Header"
+import TopNav from "../../components/TopNav"
+import Footer from "../../components/Footer-old"
+import Img from "gatsby-image"
 
-export default function(props) {
+export default function (props) {
   const { headerImage, introBGImage, imageFiles } = props.data
   let Images = {}
 
@@ -35,12 +35,12 @@ export default function(props) {
         <Img
           sizes={headerImage.childImageSharp.fluid}
           style={{
-            position: 'absolute',
+            position: "absolute",
             left: 0,
             top: 0,
-            width: '100%',
-            height: '100%',
-            zIndex: -1
+            width: "100%",
+            height: "100%",
+            zIndex: -1,
           }}
         />
         <div className="container">
@@ -65,12 +65,12 @@ export default function(props) {
         <Img
           sizes={introBGImage.childImageSharp.fluid}
           style={{
-            position: 'absolute',
+            position: "absolute",
             left: 0,
             top: 0,
-            width: '100%',
-            height: '100%',
-            zIndex: -1
+            width: "100%",
+            height: "100%",
+            zIndex: -1,
           }}
         />
         <div className="container">
@@ -100,8 +100,8 @@ export default function(props) {
                 <ul className="intro-section__list">
                   <li>
                     <span className="ico-holder">
-                      {' '}
-                      <img src="/images/icon01.png" alt="" />{' '}
+                      {" "}
+                      <img src="/images/icon01.png" alt="" />{" "}
                     </span>
                     <Link to="/what-we-do/eyewear-collections">
                       <span className="list-text">Eyewear Experts</span>
@@ -109,8 +109,8 @@ export default function(props) {
                   </li>
                   <li>
                     <span className="ico-holder">
-                      {' '}
-                      <img src="/images/icon02.png" alt="" />{' '}
+                      {" "}
+                      <img src="/images/icon02.png" alt="" />{" "}
                     </span>
                     <Link to="/what-we-do/contact-lenses">
                       <span className="list-text">Bespoke Contact Lenses</span>
@@ -118,8 +118,8 @@ export default function(props) {
                   </li>
                   <li>
                     <span className="ico-holder">
-                      {' '}
-                      <img src="/images/icon03.png" alt="" />{' '}
+                      {" "}
+                      <img src="/images/icon03.png" alt="" />{" "}
                     </span>
                     <Link to="/what-we-do/childrens-vision">
                       <span className="list-text">Paediatric Vision</span>
@@ -127,8 +127,8 @@ export default function(props) {
                   </li>
                   <li>
                     <span className="ico-holder">
-                      {' '}
-                      <img src="/images/icon04.png" alt="" />{' '}
+                      {" "}
+                      <img src="/images/icon04.png" alt="" />{" "}
                     </span>
                     <Link to="/what-we-do/dry-eye-disease">
                       <span className="list-text">Dry Eye Clinic</span>
@@ -136,8 +136,8 @@ export default function(props) {
                   </li>
                   <li>
                     <span className="ico-holder">
-                      {' '}
-                      <img src="/images/icon05.png" alt="" />{' '}
+                      {" "}
+                      <img src="/images/icon05.png" alt="" />{" "}
                     </span>
                     <Link to="/what-we-do/oct">
                       <span className="list-text">
@@ -147,8 +147,8 @@ export default function(props) {
                   </li>
                   <li>
                     <span className="ico-holder">
-                      {' '}
-                      <img src="/images/icon06.png" alt="" />{' '}
+                      {" "}
+                      <img src="/images/icon06.png" alt="" />{" "}
                     </span>
                     <Link to="/what-we-do/orthokeratology-corneal-reshaping">
                       <span className="list-text">
@@ -169,7 +169,7 @@ export default function(props) {
         <ul className="what-we-do-list">
           <li className="what-we-do-box">
             <HoverBox
-              img={Images['1-Consultations']}
+              img={Images["1-Consultations"]}
               urlRoot="/what-we-do"
               icon="/images/icon01.png"
               title="Consultations"
@@ -179,7 +179,7 @@ export default function(props) {
           </li>
           <li className="what-we-do-box">
             <HoverBox
-              img={Images['2-EyewearExperts']}
+              img={Images["2-EyewearExperts"]}
               urlRoot="/what-we-do"
               icon="/images/icon07.png"
               title="Eyewear Experts"
@@ -189,7 +189,7 @@ export default function(props) {
           </li>
           <li className="what-we-do-box">
             <HoverBox
-              img={Images['3-ContactLenses']}
+              img={Images["3-ContactLenses"]}
               urlRoot="/what-we-do"
               icon="/images/icon02.png"
               title="Contact Lenses"
@@ -199,7 +199,7 @@ export default function(props) {
           </li>
           <li className="what-we-do-box">
             <HoverBox
-              img={Images['4-Ortho-K']}
+              img={Images["4-Ortho-K"]}
               urlRoot="/what-we-do"
               icon="/images/icon06.png"
               title="Ortho K"
@@ -209,7 +209,7 @@ export default function(props) {
           </li>
           <li className="what-we-do-box">
             <HoverBox
-              img={Images['5-RefractiveConditions']}
+              img={Images["5-RefractiveConditions"]}
               urlRoot="/what-we-do"
               icon="/images/icon08.png"
               title="Refractive Conditions"
@@ -219,7 +219,7 @@ export default function(props) {
           </li>
           <li className="what-we-do-box">
             <HoverBox
-              img={Images['6-PaediatricVision']}
+              img={Images["6-PaediatricVision"]}
               urlRoot="/what-we-do"
               icon="/images/icon03.png"
               title="Paediatric Vision"
@@ -229,7 +229,7 @@ export default function(props) {
           </li>
           <li className="what-we-do-box">
             <HoverBox
-              img={Images['7-DryEyeClinic']}
+              img={Images["7-DryEyeClinic"]}
               urlRoot="/what-we-do"
               icon="/images/icon04.png"
               title="Dry Eye Clinic"
@@ -239,7 +239,7 @@ export default function(props) {
           </li>
           <li className="what-we-do-box">
             <HoverBox
-              img={Images['8-AcuteRedEyes']}
+              img={Images["8-AcuteRedEyes"]}
               urlRoot="/what-we-do"
               icon="/images/icon09.png"
               title="Acute Red Eyes"
@@ -249,7 +249,7 @@ export default function(props) {
           </li>
           <li className="what-we-do-box">
             <HoverBox
-              img={Images['9-AdvancedImagingTechnology']}
+              img={Images["9-AdvancedImagingTechnology"]}
               urlRoot="/what-we-do"
               icon="/images/icon05.png"
               title="Advanced Imaging Technology"
@@ -259,7 +259,7 @@ export default function(props) {
           </li>
           <li className="what-we-do-box">
             <HoverBox
-              img={Images['10-EyeDisease']}
+              img={Images["10-EyeDisease"]}
               urlRoot="/what-we-do"
               icon="/images/icon10.png"
               title="Eye Disease"
@@ -270,14 +270,14 @@ export default function(props) {
           <li className="what-we-do-box what-we-do-box-double">
             <div className="what-we-do-inner hover-elem">
               <Img
-                sizes={Images['img30-lilac']}
+                sizes={Images["img30-lilac"]}
                 style={{
-                  position: 'absolute',
+                  position: "absolute",
                   left: 0,
                   top: 0,
-                  width: '100%',
-                  height: '100%',
-                  zIndex: -1
+                  width: "100%",
+                  height: "100%",
+                  zIndex: -1,
                 }}
               />
               <div className="container">
@@ -300,14 +300,14 @@ export default function(props) {
       </div>
       <div className="content-section online-book-section">
         <Img
-          sizes={Images['img38']}
+          sizes={Images["img38"]}
           style={{
-            position: 'absolute',
+            position: "absolute",
             left: 0,
             top: 0,
-            width: '100%',
-            height: '100%',
-            zIndex: -1
+            width: "100%",
+            height: "100%",
+            zIndex: -1,
           }}
         />
         <div className="container">

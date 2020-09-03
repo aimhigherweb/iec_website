@@ -1,10 +1,10 @@
-import React from 'react'
+import React from "react"
 
-import Header from '../components/Header'
-import TopNav from '../components/TopNav'
-import Footer from '../components/Footer'
+import Header from "../components/Header"
+import TopNav from "../components/TopNav"
+import Footer from "../components/Footer-old"
 
-export default function() {
+export default function () {
   return (
     <>
       <Header />
@@ -18,7 +18,7 @@ export default function() {
             <br />
             <p>
               We&apos;ve recently upgraded this site, so the page you&apos;re
-              looking for might have moved. Browse the menu above to find it, or{' '}
+              looking for might have moved. Browse the menu above to find it, or{" "}
               <a href="/contact/">contact us</a>.
             </p>
             <p>

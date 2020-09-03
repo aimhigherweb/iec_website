@@ -1,15 +1,15 @@
-import React from 'react'
-import { graphql, Link } from 'gatsby'
-import { Helmet } from 'react-helmet'
-import Img from 'gatsby-image'
+import React from "react"
+import { graphql, Link } from "gatsby"
+import { Helmet } from "react-helmet"
+import Img from "gatsby-image"
 
-import PersonBox from '../../components/PersonBox'
-import Header from '../../components/Header'
-import TopNav from '../../components/TopNav'
-import Footer from '../../components/Footer'
-import OnlineBooking from '../../components/OnlineBooking'
+import PersonBox from "../../components/PersonBox"
+import Header from "../../components/Header"
+import TopNav from "../../components/TopNav"
+import Footer from "../../components/Footer-old"
+import OnlineBooking from "../../components/OnlineBooking"
 
-export default function(props) {
+export default function (props) {
   const { headerImage, introBGImage, teamList, uploadFiles } = props.data
   let UploadedImages = {}
 
@@ -33,12 +33,12 @@ export default function(props) {
         <Img
           sizes={headerImage.childImageSharp.fluid}
           style={{
-            position: 'absolute',
+            position: "absolute",
             left: 0,
             top: 0,
-            width: '100%',
-            height: '100%',
-            zIndex: -1
+            width: "100%",
+            height: "100%",
+            zIndex: -1,
           }}
         />
         <div className="container">
@@ -66,12 +66,12 @@ export default function(props) {
         <Img
           sizes={introBGImage.childImageSharp.fluid}
           style={{
-            position: 'absolute',
+            position: "absolute",
             left: 0,
             top: 0,
-            width: '100%',
-            height: '100%',
-            zIndex: -1
+            width: "100%",
+            height: "100%",
+            zIndex: -1,
           }}
         />
         <div className="container">
@@ -190,7 +190,7 @@ export default function(props) {
       </div>
       <div
         className="timeline-section"
-        style={{ backgroundImage: 'url(/images/brickwall-bg.png)' }}
+        style={{ backgroundImage: "url(/images/brickwall-bg.png)" }}
       >
         <div className="container">
           <div className="timeline-section__timeline-wrap">
@@ -203,7 +203,7 @@ export default function(props) {
                     <strong className="timeline__title">2016</strong>
                     <div className="timeline__content">
                       <p>
-                        <b>North Terrace Optometrists</b> merges with{' '}
+                        <b>North Terrace Optometrists</b> merges with{" "}
                         <b>Innovative Eye Care:</b> the team expands
                       </p>
                     </div>
@@ -230,7 +230,7 @@ export default function(props) {
                     <strong className="timeline__title">2010</strong>
                     <div className="timeline__content">
                       <p>
-                        <b>Lachlan Scott-Hoy</b> purchases{' '}
+                        <b>Lachlan Scott-Hoy</b> purchases{" "}
                         <b>R Fieldhouse and Associates</b>, now known as
                         <b>Innovative Eye Care</b>
                       </p>
@@ -244,7 +244,7 @@ export default function(props) {
                     <strong className="timeline__title">2007</strong>
                     <div className="timeline__content">
                       <p>
-                        <b>Lachlan Scott-Hoy</b> begins working at{' '}
+                        <b>Lachlan Scott-Hoy</b> begins working at{" "}
                         <b>R Fieldhouse and Associates</b>
                       </p>
                     </div>
@@ -259,7 +259,7 @@ export default function(props) {
                     <strong className="timeline__title">2007</strong>
                     <div className="timeline__content">
                       <p>
-                        <b>Lachlan Scott-Hoy</b> receives the{' '}
+                        <b>Lachlan Scott-Hoy</b> receives the{" "}
                         <b>Don Noack Award</b> for excellence in contact lenses
                       </p>
                     </div>
@@ -272,7 +272,7 @@ export default function(props) {
                     <strong className="timeline__title">1996</strong>
                     <div className="timeline__content">
                       <p>
-                        North Terrace practice becomes known as{' '}
+                        North Terrace practice becomes known as{" "}
                         <b>North Terrace Optometrists</b>
                       </p>
                     </div>
@@ -287,7 +287,7 @@ export default function(props) {
                     <strong className="timeline__title">1984</strong>
                     <div className="timeline__content">
                       <p>
-                        <b>Kevin Rooney, Mark Parsons</b> and <b>Simon Leong</b>{' '}
+                        <b>Kevin Rooney, Mark Parsons</b> and <b>Simon Leong</b>{" "}
                         purchase the North Terrace practice
                       </p>
                     </div>
@@ -300,7 +300,7 @@ export default function(props) {
                     <strong className="timeline__title">1959</strong>
                     <div className="timeline__content">
                       <p>
-                        <b>R Fieldhouse and Associates</b> is founded by{' '}
+                        <b>R Fieldhouse and Associates</b> is founded by{" "}
                         <b>Ron Fieldhouse</b>
                       </p>
                     </div>

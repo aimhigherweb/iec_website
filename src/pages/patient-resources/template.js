@@ -1,12 +1,12 @@
-import React from 'react'
-import { graphql } from 'gatsby'
-import { Helmet } from 'react-helmet'
+import React from "react"
+import { graphql } from "gatsby"
+import { Helmet } from "react-helmet"
 
-import Header from '../../components/Header'
-import TopNav from '../../components/TopNav'
-import Footer from '../../components/Footer'
+import Header from "../../components/Header"
+import TopNav from "../../components/TopNav"
+import Footer from "../../components/Footer-old"
 
-export default function(props) {
+export default function (props) {
   const { markdownRemark } = props.data
 
   return (
@@ -22,7 +22,7 @@ export default function(props) {
           <div className="employee-slide ">
             <div
               className="employee-slide__inner"
-              style={{ paddingTop: '10px' }}
+              style={{ paddingTop: "10px" }}
             >
               <div className="container">
                 <div className="content-wrap">

@@ -1,59 +1,59 @@
-import React, { Component } from 'react'
-import { graphql, Link } from 'gatsby'
-import { Helmet } from 'react-helmet'
+import React, { Component } from "react"
+import { graphql, Link } from "gatsby"
+import { Helmet } from "react-helmet"
 
-import Header from '../../components/Header'
-import TopNav from '../../components/TopNav'
-import Footer from '../../components/Footer'
-import Img from 'gatsby-image'
+import Header from "../../components/Header"
+import TopNav from "../../components/TopNav"
+import Footer from "../../components/Footer-old"
+import Img from "gatsby-image"
 
 class Contact extends Component {
   componentDidMount() {
-    let bodyReset = ''
-    const w = '820px' // Specify the maximum width of iframe
+    let bodyReset = ""
+    const w = "820px" // Specify the maximum width of iframe
 
     // Check for testing environment
     const hostname = window.location.hostname
-    let widgetVersion = '/makatea'
-    let origin = 'https://1stavailable.com.au'
+    let widgetVersion = "/makatea"
+    let origin = "https://1stavailable.com.au"
     if (
       hostname.match(
         /localhost|(^|\.)1stavailable\.com\.au|(^|\.)myhealth1st\.com\.au/gi
       )
     ) {
-      origin = window.location.protocol + '//' + window.location.host
+      origin = window.location.protocol + "//" + window.location.host
     } else if (hostname.match(/^test1stavailable\.com\.au/gi)) {
-      origin = 'https://makatea.1stavailable.com.au'
+      origin = "https://makatea.1stavailable.com.au"
     } else {
-      widgetVersion = ''
+      widgetVersion = ""
     }
 
-    const getScrollPosition = function() {
+    const getScrollPosition = function () {
       return (
         (document.documentElement && document.documentElement.scrollTop) ||
         document.body.scrollTop
       )
     }
 
-    const createWidget = function(widgetEl, type) {
+    const createWidget = function (widgetEl, type) {
       var button = widgetEl
       // var wid_id = button.id;
 
       // Create popup
-      var popup = document.createElement('div')
+      var popup = document.createElement("div")
 
       // Insert the overlay into the DOM after the button element
-      if (widgetEl.tagName === 'LI') {
+      if (widgetEl.tagName === "LI") {
         document.body.appendChild(popup)
-        document.getElementsByTagName('body')[0].style.overflow = 'auto'
+        document.getElementsByTagName("body")[0].style.overflow = "auto"
       } else {
         document.body.appendChild(popup)
       }
 
       // Click event to show the overlay and widget iframe
-      button.onclick = function(e) {
+      button.onclick = function (e) {
         var wid_id = this.id
-        var wid_skin = this.getAttribute('skin')
+        var wid_skin = this.getAttribute("skin")
 
         // Disable the default click handler for the popup button
         if (!e) e = window.event
@@ -64,107 +64,107 @@ class Contact extends Component {
         bodyReset = document.body.style.cssText
 
         // Background element + styling
-        var bg = document.createElement('div')
-        bg.style.position = 'fixed'
-        bg.style.zIndex = '0'
-        bg.style.width = '100%'
-        bg.style.height = '200%'
-        bg.style.top = '0'
-        bg.style.left = '0'
+        var bg = document.createElement("div")
+        bg.style.position = "fixed"
+        bg.style.zIndex = "0"
+        bg.style.width = "100%"
+        bg.style.height = "200%"
+        bg.style.top = "0"
+        bg.style.left = "0"
 
         // Background tranparent background
         try {
-          bg.style.backgroundColor = 'rgba(0,0,0,0.85)'
+          bg.style.backgroundColor = "rgba(0,0,0,0.85)"
         } catch (e) {
           // No rgba support - probably ie 7 or 8
           if (
-            navigator.appVersion.indexOf('MSIE 7.') !== -1 ||
-            navigator.appVersion.indexOf('MSIE 8.') !== -1
+            navigator.appVersion.indexOf("MSIE 7.") !== -1 ||
+            navigator.appVersion.indexOf("MSIE 8.") !== -1
           ) {
             // ie7/8
-            bg.style.background = 'url(#)' // workaround to make transparent div clickable
+            bg.style.background = "url(#)" // workaround to make transparent div clickable
             bg.style.filter =
-              'progid:DXImageTransform.Microsoft.gradient(startColorstr=#CC000000, endColorstr=#CC000000)'
+              "progid:DXImageTransform.Microsoft.gradient(startColorstr=#CC000000, endColorstr=#CC000000)"
 
-            if (document.compatMode !== 'CSS1Compat') {
+            if (document.compatMode !== "CSS1Compat") {
               // Quirks mode
-              bg.style.position = 'absolute'
+              bg.style.position = "absolute"
             }
           } else {
             // fallback no tranparency
-            bg.style.backgroundColor = 'black'
+            bg.style.backgroundColor = "black"
           }
         }
 
         // close button element + styling
-        let close = document.createElement('a')
-        close.style.position = 'relative'
-        close.style.top = '0'
-        close.style.right = '.2em'
-        close.style.float = 'right'
-        close.style.fontSize = '48px'
-        close.style.zIndex = '1'
-        close.style.lineHeight = '1'
-        close.style.margin = '0'
-        close.style.textDecoration = 'none'
-        close.style.color = '#888'
-        close.style.cursor = 'pointer'
-        close.innerHTML = ' &times; '
+        let close = document.createElement("a")
+        close.style.position = "relative"
+        close.style.top = "0"
+        close.style.right = ".2em"
+        close.style.float = "right"
+        close.style.fontSize = "48px"
+        close.style.zIndex = "1"
+        close.style.lineHeight = "1"
+        close.style.margin = "0"
+        close.style.textDecoration = "none"
+        close.style.color = "#888"
+        close.style.cursor = "pointer"
+        close.innerHTML = " &times; "
 
         // iframe container element + styling
-        let iframeContainer = document.createElement('div')
-        iframeContainer.style.margin = '0 auto'
-        iframeContainer.style.overflow = 'auto'
-        iframeContainer.style['-webkit-overflow-scrolling'] = 'touch'
-        iframeContainer.style.position = 'relative'
-        iframeContainer.style.width = '100%'
+        let iframeContainer = document.createElement("div")
+        iframeContainer.style.margin = "0 auto"
+        iframeContainer.style.overflow = "auto"
+        iframeContainer.style["-webkit-overflow-scrolling"] = "touch"
+        iframeContainer.style.position = "relative"
+        iframeContainer.style.width = "100%"
         iframeContainer.style.maxWidth = w
-        iframeContainer.style.height = '100%'
-        iframeContainer.style.filter = 'none'
-        iframeContainer.style.border = 'none'
+        iframeContainer.style.height = "100%"
+        iframeContainer.style.filter = "none"
+        iframeContainer.style.border = "none"
 
         // iframe element + styling
-        let iframe = document.createElement('iframe')
-        iframe.style.boxSizing = 'border-box'
-        iframe.style.padding = '0'
-        iframe.style.margin = '0'
-        iframe.style.border = 'none'
-        iframe.style.position = 'absolute'
-        iframe.style.top = '0'
-        iframe.style.left = '0'
-        iframe.style.width = '100%'
-        iframe.style.height = '100%'
-        iframe.setAttribute('width', '100%')
-        iframe.setAttribute('height', '100%')
+        let iframe = document.createElement("iframe")
+        iframe.style.boxSizing = "border-box"
+        iframe.style.padding = "0"
+        iframe.style.margin = "0"
+        iframe.style.border = "none"
+        iframe.style.position = "absolute"
+        iframe.style.top = "0"
+        iframe.style.left = "0"
+        iframe.style.width = "100%"
+        iframe.style.height = "100%"
+        iframe.setAttribute("width", "100%")
+        iframe.setAttribute("height", "100%")
         iframe.setAttribute(
-          'src',
+          "src",
           origin +
-            '/AppointmentWidget' +
+            "/AppointmentWidget" +
             widgetVersion +
-            '?theme=popup&' +
+            "?theme=popup&" +
             type +
-            '_id=' +
+            "_id=" +
             wid_id +
-            (wid_skin ? '&skin=' + wid_skin : '')
+            (wid_skin ? "&skin=" + wid_skin : "")
         )
 
         // add iframe to its container
         iframeContainer.appendChild(iframe)
 
         // popup styling
-        popup.style.display = 'none'
-        popup.style.position = 'absolute'
-        popup.style.zIndex = '999999'
-        popup.style.textAlign = 'center'
-        popup.style.top = '0'
-        popup.style.left = '0'
-        popup.style.width = '100%'
+        popup.style.display = "none"
+        popup.style.position = "absolute"
+        popup.style.zIndex = "999999"
+        popup.style.textAlign = "center"
+        popup.style.top = "0"
+        popup.style.left = "0"
+        popup.style.width = "100%"
         if (
-          navigator.appVersion.indexOf('MSIE 7.') !== -1 ||
-          navigator.appVersion.indexOf('MSIE 8.') !== -1 ||
-          navigator.appVersion.indexOf('MSIE 9.') !== -1
+          navigator.appVersion.indexOf("MSIE 7.") !== -1 ||
+          navigator.appVersion.indexOf("MSIE 8.") !== -1 ||
+          navigator.appVersion.indexOf("MSIE 9.") !== -1
         )
-          popup.style.height = '100%'
+          popup.style.height = "100%"
 
         // add elements to popup
         popup.appendChild(bg)
@@ -172,9 +172,9 @@ class Contact extends Component {
         popup.appendChild(iframeContainer)
 
         // Click event to hide the overlay
-        popup.getElementsByTagName('a')[0].onclick = function() {
+        popup.getElementsByTagName("a")[0].onclick = function () {
           // hide popup
-          popup.style.display = 'none'
+          popup.style.display = "none"
 
           // clear popup children
           while (popup.lastChild) {
@@ -189,52 +189,52 @@ class Contact extends Component {
 
           // ie7-8 quirks mode popup positioning workarounds
           if (
-            (navigator.appVersion.indexOf('MSIE 7.') !== -1 ||
-              navigator.appVersion.indexOf('MSIE 8.') !== -1) &&
-            document.compatMode !== 'CSS1Compat'
+            (navigator.appVersion.indexOf("MSIE 7.") !== -1 ||
+              navigator.appVersion.indexOf("MSIE 8.") !== -1) &&
+            document.compatMode !== "CSS1Compat"
           ) {
             // ie7/8 quirks mode
-            document.getElementsByTagName('body')[0].style.overflow = 'auto'
-            popup.getElementsByTagName('div')[0].style.width = '80%'
+            document.getElementsByTagName("body")[0].style.overflow = "auto"
+            popup.getElementsByTagName("div")[0].style.width = "80%"
           }
         }
 
         // prevent click events propagating though the iframe
-        popup.getElementsByTagName('iframe')[0].onclick = function(e) {
+        popup.getElementsByTagName("iframe")[0].onclick = function (e) {
           if (!e) e = window.event
           e.cancelBubble = true
           if (e.stopPropagation) e.stopPropagation()
         }
 
         // show and position popup
-        popup.style.display = 'block'
-        popup.style.top = getScrollPosition() + 'px'
+        popup.style.display = "block"
+        popup.style.top = getScrollPosition() + "px"
 
         // adjust popup height to account for close button on narrow screens
-        popup.style.height = 'calc(100% - ' + iframeContainer.offsetTop + 'px)'
+        popup.style.height = "calc(100% - " + iframeContainer.offsetTop + "px)"
 
         // prevent scrolling on document
-        document.body.style.top = getScrollPosition() * -1 + 'px'
-        document.body.style.overflow = 'hidden'
-        document.body.style.position = 'fixed'
-        document.body.style.width = '100%'
-        document.body.style.height = '100%'
-        if (navigator.appVersion.indexOf('MSIE'))
-          document.body.style.overflow = 'visible'
+        document.body.style.top = getScrollPosition() * -1 + "px"
+        document.body.style.overflow = "hidden"
+        document.body.style.position = "fixed"
+        document.body.style.width = "100%"
+        document.body.style.height = "100%"
+        if (navigator.appVersion.indexOf("MSIE"))
+          document.body.style.overflow = "visible"
 
         // ie7-8 quirks mode popup positioning
         if (
-          (navigator.appVersion.indexOf('MSIE 7.') !== -1 ||
-            navigator.appVersion.indexOf('MSIE 8.') !== -1) &&
-          document.compatMode !== 'CSS1Compat'
+          (navigator.appVersion.indexOf("MSIE 7.") !== -1 ||
+            navigator.appVersion.indexOf("MSIE 8.") !== -1) &&
+          document.compatMode !== "CSS1Compat"
         ) {
           // ie7/8 quirks mode
-          document.getElementsByTagName('body')[0].style.overflow = 'hidden'
-          popup.style.width = document.body.clientWidth + 'px'
-          popup.style.height = document.body.clientHeight + 'px'
-          popup.style.top = getScrollPosition() + 'px'
-          if (popup.getElementsByTagName('div')[1].offsetWidth > 800) {
-            popup.getElementsByTagName('div')[1].style.width = '800px'
+          document.getElementsByTagName("body")[0].style.overflow = "hidden"
+          popup.style.width = document.body.clientWidth + "px"
+          popup.style.height = document.body.clientHeight + "px"
+          popup.style.top = getScrollPosition() + "px"
+          if (popup.getElementsByTagName("div")[1].offsetWidth > 800) {
+            popup.getElementsByTagName("div")[1].style.width = "800px"
           }
         }
 
@@ -242,27 +242,27 @@ class Contact extends Component {
       }
     }
 
-    const widget_setup = function() {
-      const firstAvailableMenulist = document.getElementById('menu1st')
+    const widget_setup = function () {
+      const firstAvailableMenulist = document.getElementById("menu1st")
 
       // prevent # link scrolling to the top
       if (firstAvailableMenulist) {
-        firstAvailableMenulist.onclick = function(e) {
+        firstAvailableMenulist.onclick = function (e) {
           if (!e) e = window.event
           if (e.preventDefault) e.preventDefault()
         }
       }
 
-      var practiceList = document.getElementsByClassName('1stAvailableWidget')
+      var practiceList = document.getElementsByClassName("1stAvailableWidget")
       for (let i = 0; i < practiceList.length; i++) {
-        createWidget(practiceList[i], 'practice')
+        createWidget(practiceList[i], "practice")
       }
 
       var practitionerList = document.getElementsByClassName(
-        '1stAvailableWidget2'
+        "1stAvailableWidget2"
       )
       for (let i = 0; i < practitionerList.length; i++) {
-        createWidget(practitionerList[i], 'practitioner')
+        createWidget(practitionerList[i], "practitioner")
       }
     }
 
@@ -291,14 +291,14 @@ class Contact extends Component {
 
         <div className="content-section location-section">
           <Img
-            sizes={Images['img04']}
+            sizes={Images["img04"]}
             style={{
-              position: 'absolute',
+              position: "absolute",
               left: 0,
               top: 0,
-              width: '100%',
-              height: '100%',
-              zIndex: -1
+              width: "100%",
+              height: "100%",
+              zIndex: -1,
             }}
           />
           <div className="container">
@@ -334,7 +334,7 @@ class Contact extends Component {
                     Phone: (08) 8231 9341
                   </a>
                   <span className="location__text">
-                    <b>Monday - Friday</b> 8.30 am - 5.30 pm <br />{' '}
+                    <b>Monday - Friday</b> 8.30 am - 5.30 pm <br />{" "}
                     <b>Saturday</b> 8.30 am - 12 pm
                   </span>
                   <a
@@ -348,11 +348,11 @@ class Contact extends Component {
                   <div
                     className="1stAvailableWidget widget"
                     id="2798"
-                    style={{ cursor: 'pointer' }}
+                    style={{ cursor: "pointer" }}
                   >
                     <p
                       className="btn btn-primary"
-                      style={{ textAlign: 'center' }}
+                      style={{ textAlign: "center" }}
                     >
                       <i className="fa fa-calendar" aria-hidden="true" />
                       Book Online Now
@@ -402,11 +402,11 @@ class Contact extends Component {
                   <div
                     className="1stAvailableWidget widget"
                     id="2797"
-                    style={{ cursor: 'pointer' }}
+                    style={{ cursor: "pointer" }}
                   >
                     <p
                       className="btn btn-primary"
-                      style={{ textAlign: 'center' }}
+                      style={{ textAlign: "center" }}
                     >
                       <i className="fa fa-calendar" aria-hidden="true" />
                       Book Online Now
@@ -419,14 +419,14 @@ class Contact extends Component {
         </div>
         <div className="content-section online-book-section">
           <Img
-            sizes={Images['img38']}
+            sizes={Images["img38"]}
             style={{
-              position: 'absolute',
+              position: "absolute",
               left: 0,
               top: 0,
-              width: '100%',
-              height: '100%',
-              zIndex: -1
+              width: "100%",
+              height: "100%",
+              zIndex: -1,
             }}
           />
           <div className="container">

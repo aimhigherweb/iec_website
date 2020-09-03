@@ -1,13 +1,13 @@
-import React from 'react'
-import { graphql, Link } from 'gatsby'
-import { Helmet } from 'react-helmet'
-import Header from '../../components/Header'
-import TopNav from '../../components/TopNav'
-import Footer from '../../components/Footer'
-import HoverBox from '../../components/HoverBox'
-import Img from 'gatsby-image'
+import React from "react"
+import { graphql, Link } from "gatsby"
+import { Helmet } from "react-helmet"
+import Header from "../../components/Header"
+import TopNav from "../../components/TopNav"
+import Footer from "../../components/Footer-old"
+import HoverBox from "../../components/HoverBox"
+import Img from "gatsby-image"
 
-export default function(props) {
+export default function (props) {
   const { imageFiles, introBGImage } = props.data
 
   let Images = {}
@@ -33,12 +33,12 @@ export default function(props) {
           <Img
             sizes={introBGImage.childImageSharp.fluid}
             style={{
-              position: 'absolute',
+              position: "absolute",
               left: 0,
               top: 0,
-              width: '100%',
-              height: '100%',
-              zIndex: -1
+              width: "100%",
+              height: "100%",
+              zIndex: -1,
             }}
           />
           <div className="container">
@@ -74,8 +74,8 @@ export default function(props) {
                   <ul className="intro-section__list">
                     <li>
                       <span className="ico-holder">
-                        {' '}
-                        <img src="/images/icon01.png" alt="" />{' '}
+                        {" "}
+                        <img src="/images/icon01.png" alt="" />{" "}
                       </span>
                       <Link to="/what-we-do/eyewear-collections">
                         <span className="list-text">Eyewear Experts</span>
@@ -83,8 +83,8 @@ export default function(props) {
                     </li>
                     <li>
                       <span className="ico-holder">
-                        {' '}
-                        <img src="/images/icon02.png" alt="" />{' '}
+                        {" "}
+                        <img src="/images/icon02.png" alt="" />{" "}
                       </span>
                       <Link to="/what-we-do/contact-lenses">
                         <span className="list-text">
@@ -94,8 +94,8 @@ export default function(props) {
                     </li>
                     <li>
                       <span className="ico-holder">
-                        {' '}
-                        <img src="/images/icon03.png" alt="" />{' '}
+                        {" "}
+                        <img src="/images/icon03.png" alt="" />{" "}
                       </span>
                       <Link to="/what-we-do/childrens-vision">
                         <span className="list-text">Paediatric Vision</span>
@@ -103,8 +103,8 @@ export default function(props) {
                     </li>
                     <li>
                       <span className="ico-holder">
-                        {' '}
-                        <img src="/images/icon04.png" alt="" />{' '}
+                        {" "}
+                        <img src="/images/icon04.png" alt="" />{" "}
                       </span>
                       <Link to="/what-we-do/dry-eye-disease">
                         <span className="list-text">Dry Eye Clinic</span>
@@ -112,8 +112,8 @@ export default function(props) {
                     </li>
                     <li>
                       <span className="ico-holder">
-                        {' '}
-                        <img src="/images/icon05.png" alt="" />{' '}
+                        {" "}
+                        <img src="/images/icon05.png" alt="" />{" "}
                       </span>
                       <Link to="/what-we-do/oct">
                         <span className="list-text">
@@ -123,8 +123,8 @@ export default function(props) {
                     </li>
                     <li>
                       <span className="ico-holder">
-                        {' '}
-                        <img src="/images/icon06.png" alt="" />{' '}
+                        {" "}
+                        <img src="/images/icon06.png" alt="" />{" "}
                       </span>
                       <Link to="/what-we-do/orthokeratology-corneal-reshaping">
                         <span className="list-text">
@@ -145,7 +145,7 @@ export default function(props) {
           <ul className="patient-resources-list">
             <li className="patient-resources-box">
               <HoverBox
-                img={Images['3-ContactLenses']}
+                img={Images["3-ContactLenses"]}
                 urlRoot="/patient-resources"
                 icon="/images/icon01.png"
                 title="Contact Lens Instructions"
@@ -155,7 +155,7 @@ export default function(props) {
             </li>
             <li className="patient-resources-box">
               <HoverBox
-                img={Images['10-EyeDisease']}
+                img={Images["10-EyeDisease"]}
                 urlRoot="/patient-resources"
                 icon="/images/icon07.png"
                 title="Vision Training"
@@ -165,7 +165,7 @@ export default function(props) {
             </li>
             <li className="patient-resources-box">
               <HoverBox
-                img={Images['5-RefractiveConditions']}
+                img={Images["5-RefractiveConditions"]}
                 urlRoot="/patient-resources"
                 icon="/images/icon02.png"
                 title="Everyday Eye Care"
@@ -177,14 +177,14 @@ export default function(props) {
         </div>
         <div className="content-section online-book-section">
           <Img
-            sizes={Images['img38']}
+            sizes={Images["img38"]}
             style={{
-              position: 'absolute',
+              position: "absolute",
               left: 0,
               top: 0,
-              width: '100%',
-              height: '100%',
-              zIndex: -1
+              width: "100%",
+              height: "100%",
+              zIndex: -1,
             }}
           />
           <div className="container">

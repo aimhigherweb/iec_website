@@ -7,7 +7,7 @@ import VideoJs from "video.js"
 
 import Header from "../components/Header"
 import TopNav from "../components/TopNav"
-import Footer from "../components/Footer"
+import Footer from "../components/Footer-old"
 
 export default function (props) {
   const [showVideo, setShowVideo] = useState(false)

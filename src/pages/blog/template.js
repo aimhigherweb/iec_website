@@ -1,10 +1,10 @@
-import React, { Component } from 'react'
-import { graphql } from 'gatsby'
-import { Helmet } from 'react-helmet'
+import React, { Component } from "react"
+import { graphql } from "gatsby"
+import { Helmet } from "react-helmet"
 
-import Header from '../../components/Header'
-import TopNav from '../../components/TopNav'
-import Footer from '../../components/Footer'
+import Header from "../../components/Header"
+import TopNav from "../../components/TopNav"
+import Footer from "../../components/Footer-old"
 
 class BlogTemplate extends Component {
   render() {
@@ -23,7 +23,7 @@ class BlogTemplate extends Component {
             <div className="employee-slide ">
               <div
                 className="employee-slide__inner"
-                style={{ paddingTop: '20px' }}
+                style={{ paddingTop: "20px" }}
               >
                 <div className="container">
                   <div className="content-wrap">

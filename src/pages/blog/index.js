@@ -1,13 +1,13 @@
-import React from 'react'
-import { graphql, Link } from 'gatsby'
-import { Helmet } from 'react-helmet'
+import React from "react"
+import { graphql, Link } from "gatsby"
+import { Helmet } from "react-helmet"
 
-import Header from '../../components/Header'
-import TopNav from '../../components/TopNav'
-import Footer from '../../components/Footer'
-import Img from 'gatsby-image'
+import Header from "../../components/Header"
+import TopNav from "../../components/TopNav"
+import Footer from "../../components/Footer-old"
+import Img from "gatsby-image"
 
-export default function(props) {
+export default function (props) {
   const { introBGImage, list } = props.data
 
   return (
@@ -22,12 +22,12 @@ export default function(props) {
         <Img
           sizes={introBGImage.childImageSharp.fluid}
           style={{
-            position: 'absolute',
+            position: "absolute",
             left: 0,
             top: 0,
-            width: '100%',
-            height: '100%',
-            zIndex: -1
+            width: "100%",
+            height: "100%",
+            zIndex: -1,
           }}
         />
         <div className="container">
@@ -65,8 +65,8 @@ export default function(props) {
                     {node.frontmatter.title}
                   </div>
                   <div className="blog-list__byline">
-                    On{' '}
-                    <span style={{ textTransform: 'uppercase' }}>
+                    On{" "}
+                    <span style={{ textTransform: "uppercase" }}>
                       {node.frontmatter.date}
                     </span>
                     &middot; By {node.frontmatter.author}
