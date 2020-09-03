@@ -1,8 +1,9 @@
 ---
 title: Optical Coherence Tomography (OCT)
 category: advanced-imaging-technology
-preview-image: spectralis-untersuchung_600x399.jpg
+preview_image: spectralis-untersuchung_600x399.jpg
 ---
+
 <div class="employee-heading">
 <p><p>Optical coherence tomography (OCT) is a non-contact, non-invasive technique that scans the structure of your eye and creates a 3D image of every detail, including aspects that cannot be investigated by other methods. In most cases it is able to detect structural damage before patients notice problems themselves so that subsequent treatment may arrest any loss of vision. OCT is also a fantastic way to monitor corneal pathology and the fitting of <a href="/what-we-do/soft-contact-lenses">soft</a> and <a href="/what-we-do/gas-permeable-contact-lenses">rigid contact lenses</a>, from the most simple to the most complicated. Innovative Eye Care has two spectral-domain OCTs available for use at both our Adelaide and Woodville practices, and we consider them the ultimate tools for diagnosis and early detection of eye disease and retinal conditions. </p>
 <p><b>For more information on our advanced imaging technology, please see the links below:</b></p>
@@ -40,7 +41,7 @@ _Anterior OCT displaying the anterior eye anatomical structures._
 
 With the ability to image the cornea, limbus, sclera, anterior chamber and contact lenses on eye, OCT is an invaluable tool in contact lens practice. Some OCT machines use Scanning Laser Ophthalmoscopes (SLO) rather than infrared to directly view the fundus and anterior chamber. In contact lens practice, SLO is a bonus addition to OCT, giving a high quality view of the tear film and contact lens surface.
 
-OCT can be used for the examination and imaging of thickness and fitting characteristics of [soft contact lenses](/what-we-do/soft-contact-lenses), in particular high plus, high minus and toric lenses. Soft contact lens edge profiles can be assessed and lens-edge interactions with the sclera accurately visualised to better understand how the lens fits on the eye. Lens thicknesses can also be visualised and assessed, as well as the presence and degree of any prism ballasts used to stabilise toric lenses on the eye. 
+OCT can be used for the examination and imaging of thickness and fitting characteristics of [soft contact lenses](/what-we-do/soft-contact-lenses), in particular high plus, high minus and toric lenses. Soft contact lens edge profiles can be assessed and lens-edge interactions with the sclera accurately visualised to better understand how the lens fits on the eye. Lens thicknesses can also be visualised and assessed, as well as the presence and degree of any prism ballasts used to stabilise toric lenses on the eye.
 
 In bespoke contact lens modalities such as [RGP](/what-we-do/gas-permeable-contact-lenses), [ortho-K](/what-we-do/orthokeratology-corneal-reshaping), and [scleral](/what-we-do/scleral-contact-lenses), OCT imaging adds another dimension to the examination, specification, and management. Rather than solely using keratometry data, many lens designs use sagittal height to calculate lens measurements. While biomicroscope techniques and [corneal topography](/what-we-do/corneal-topography) can calculate corneal sagittal height and anterior chamber depths with reasonable accuracy, OCT can do much more with higher resolution examination and increased measurement accuracy. Even epithelial thickness can be monitored as it is molded in [ortho-K](/what-we-do/orthokeratology-corneal-reshaping) treatment.
 

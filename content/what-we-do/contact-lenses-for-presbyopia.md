@@ -1,8 +1,9 @@
 ---
 title: Contact Lenses For Presbyopia
 category: contact-lenses
-preview-image: color-eye.jpg
+preview_image: color-eye.jpg
 ---
+
 <div class="employee-heading">
 <p>Spectacles aren't the only option for both distance and near vision! If you're over 45 years of age and typically wear reading glasses, progressive or bifocal spectacles, that doesn't mean you can't wear a pair of contact lenses to provide the same level of vision.</p>
 <p>Contact lenses are perfect for when you want to be able to do the things you enjoy in life without the hassle of having to wear a frame on your face. There are two primary options for presbyopic contact lens wear: multifocal contact lenses and monovision (or blended) contact lenses. <a href="/what-we-do/soft-contact-lenses">Soft disposable contact lenses</a> or <a href="/what-we-do/gas-permeable-contact-lenses">rigid gas permeable lenses</a> are both available in these options. During your <a href="/what-we-do/eye-exam">consultation</a>, your optometrist will advise which is best for you.</p>

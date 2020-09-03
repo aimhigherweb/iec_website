@@ -1,8 +1,9 @@
 ---
-title: 'Ortho-K: Corneal Reshaping'
+title: "Ortho-K: Corneal Reshaping"
 category: orthok
-preview-image: ml-1.jpg
+preview_image: ml-1.jpg
 ---
+
 <div class="employee-heading">
 <p><p>Orthokeratology lenses fitted by our optometrists in Adelaide or Woodville are worn while you sleep, leaving you with clear vision during the day without the need for contact lenses or glasses.</p>
 <p><b>For more information on orthokeratology, please see the links below:</b></p>
@@ -19,9 +20,9 @@ preview-image: ml-1.jpg
 
 <br>
 
-Orthokeratology may sound dramatic but it's quite simple. Like <i>ortho</i>dontics and <i>ortho</i>paedics, the <i>ortho</i> in <i>ortho</i>keratology means correction. Orthodontics corrects teeth. Orthopaedics corrects skeletal injuries. Orthokeratology corrects the cornea: the front surface of the eye. 
+Orthokeratology may sound dramatic but it's quite simple. Like <i>ortho</i>dontics and <i>ortho</i>paedics, the <i>ortho</i> in <i>ortho</i>keratology means correction. Orthodontics corrects teeth. Orthopaedics corrects skeletal injuries. Orthokeratology corrects the cornea: the front surface of the eye.
 
-Orthokeratology (or ortho-K) is a process in which custom [contact lenses](/what-we-do/contact-lenses) are used to gently reshape the front surface of the cornea while you are asleep. This is a fantastic alternative for people who don't want to wear contact lenses or spectacles during the day, and would rather avoid eye surgery. The process reduces or even eliminates [nearsightedness](/what-we-do/myopia), [farsightedness](/what-we-do/hyperopia), [presbyopia](/what-we-do/presbyopia) and [astigmatism](/what-we-do/astigmatism). 
+Orthokeratology (or ortho-K) is a process in which custom [contact lenses](/what-we-do/contact-lenses) are used to gently reshape the front surface of the cornea while you are asleep. This is a fantastic alternative for people who don't want to wear contact lenses or spectacles during the day, and would rather avoid eye surgery. The process reduces or even eliminates [nearsightedness](/what-we-do/myopia), [farsightedness](/what-we-do/hyperopia), [presbyopia](/what-we-do/presbyopia) and [astigmatism](/what-we-do/astigmatism).
 
 ![](/uploads/effortless-lenses-work-while-you-sleep.jpg)
 
@@ -29,9 +30,9 @@ Orthokeratology (or ortho-K) is a process in which custom [contact lenses](/what
 
 The individual lenses are designed to mold the front surface of your eye as you wear them overnight. The process uses the forces of the tear fluid beneath the lens to re-shape the cornea to the lens design. For treatment of myopia, the lens produces a flatter central cornea and steepens the peripheral cornea, correcting nearsightedness by decreasing the power of the eye. For hyperopia and presbyopia, the reverse geometry design of the contact lens steepens the central cornea and flattens the peripheral cornea, correcting long-sightedness by increasing the power of the eye.
 
-Improvements in vision can usually be seen the very next day. The effect stabilises after approximately one week. With high minus powers (myopia over -6.00D), stabilisation can take two to four weeks. As ortho-K does not make permanent changes, your eyes will revert to their former state within one to four weeks if you stop wearing the lenses. 
+Improvements in vision can usually be seen the very next day. The effect stabilises after approximately one week. With high minus powers (myopia over -6.00D), stabilisation can take two to four weeks. As ortho-K does not make permanent changes, your eyes will revert to their former state within one to four weeks if you stop wearing the lenses.
 
-Ortho-K lenses are surprisingly comfortable. Most people comment that they forget they have lenses in after the first week. The risks of wearing ortho-K lenses are no higher than any other contacts. Of course, [proper care](/patient-resources/care-of-gas-permeable-lenses) is important to minimise the risk of allergies and bacterial infections from poor hygiene. 
+Ortho-K lenses are surprisingly comfortable. Most people comment that they forget they have lenses in after the first week. The risks of wearing ortho-K lenses are no higher than any other contacts. Of course, [proper care](/patient-resources/care-of-gas-permeable-lenses) is important to minimise the risk of allergies and bacterial infections from poor hygiene.
 
 ![](/uploads/ortho-k-1.jpeg)
 
@@ -49,11 +50,11 @@ Ortho-K is also completely reversible and completely safe for both adults and ch
 
 Ortho-K is ideal for children and adults with these prescriptions:
 
-* \-1.00 up to -8.00 dipotres of myopia and above
-* +1.00 to +4.00 dipotres of hyperopia
-* Up to moderate (-4.00 dipotres) of astigmatism
+- \-1.00 up to -8.00 dipotres of myopia and above
+- +1.00 to +4.00 dipotres of hyperopia
+- Up to moderate (-4.00 dipotres) of astigmatism
 
-You must have a healthy cornea that is free of disease to wear ortho-K lenses. These criteria are the same as for potential candidates for laser surgeries such as LASIK. 
+You must have a healthy cornea that is free of disease to wear ortho-K lenses. These criteria are the same as for potential candidates for laser surgeries such as LASIK.
 
 ![](/uploads/children-myopia-control.jpg)
 
@@ -84,7 +85,7 @@ Ortho-K could not be implemented without a [corneal topographer](/what-we-do/cor
 
 At your initial appointment we will take a range of measurements in each eye. This data is imported into our lens simulation software, EyeSpace, to design your lenses.
 
-Your optometrist will make changes to this lens until it looks optimal in the simulation before ordering. This simulation process means that more complex prescriptions can be treated with ortho-K, and provides the greatest chance of successful lenses with fewer fitting appointments and lens changes. 
+Your optometrist will make changes to this lens until it looks optimal in the simulation before ordering. This simulation process means that more complex prescriptions can be treated with ortho-K, and provides the greatest chance of successful lenses with fewer fitting appointments and lens changes.
 
 **Our optometrist Lachlan Hoy played a key role in forging EyeSpace, which is now used by contact lens practitioners across the world including Australia, the US, New Zealand and South Africa. EyeSpace customises each lens to your prescription and eye shape to a degree of accuracy smaller than one micron. **
 

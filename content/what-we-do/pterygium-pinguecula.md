@@ -1,8 +1,9 @@
 ---
 title: Pterygium and Pinguecula
 category: eye-disease
-preview-image: pterygium.png
+preview_image: pterygium.png
 ---
+
 <div class="employee-heading">
 <p>Pterygium and pingueculum are variants of the same condition in which the conjunctiva (a membrane that covers the white of the eye) is damaged and responds by continuing to grow. It occurs most commonly in people who spent a great deal of time outdoors.<sup>1,2</sup> In the case of a pterygium, the conjunctiva grows centrally onto the cornea, whereas in a pingueculum the conjunctiva only grows locally on the visible white of the eye. The primary complaints about both pterygia and pinguecula are poor cosmetic appearance but they may also cause significant irritation and pterygia can cause reversible vision loss.<sup>1</sup></p>
 </div>
@@ -21,7 +22,7 @@ Pinguecula are very common, affecting over half of eyes in sunny climates and mo
 
 <b>References</b>
 
-1. Viso E, Gude F, Rodríguez-Ares MT. Prevalence of pinguecula and pterygium in a general population in Spain. Eye (Lond). 2011 Mar;25(3):350-7. 
+1. Viso E, Gude F, Rodríguez-Ares MT. Prevalence of pinguecula and pterygium in a general population in Spain. Eye (Lond). 2011 Mar;25(3):350-7.
 2. Panchapakesan J, Hourihan F, Mitchell P. Prevalence of pterygium and pinguecula: the Blue Mountains Eye Study. Aust NZ J Ophthalmol. 1998 May;26 Suppl 1:S2-5.
-3. Chen J, Maqsood S, Kaye S, Tey A, Ahmad S. Pterygium: are we any closer to the cause? Br J Ophthalmol. 2014 Apr;98(4):423-4. 
+3. Chen J, Maqsood S, Kaye S, Tey A, Ahmad S. Pterygium: are we any closer to the cause? Br J Ophthalmol. 2014 Apr;98(4):423-4.
 4. Frucht-Pery J, Siganos CS, Solomon A, Shvartzenberg T, Richard C, Trinquand C.Topical indomethacin solution versus dexamethasone solution for treatment of inflamed pterygium and pinguecula: a prospective randomized clinical study. Am J Ophthalmol. 1999 Feb;127(2):148-52.

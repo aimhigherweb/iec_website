@@ -1,10 +1,10 @@
 ---
 title: Eyewear for Children
 category: eyewear-experts
-preview-image: nike-fw15-a4-landscape-kid-male-opt.jpg
+preview_image: nike-fw15-a4-landscape-kid-male-opt.jpg
 ---
 
-We know that choosing a frame for a child or teen is a whole different ball game to choosing for an adult. You're looking at smaller sizes, varied colours, extreme durability - and something they will love enough to actually wear. 
+We know that choosing a frame for a child or teen is a whole different ball game to choosing for an adult. You're looking at smaller sizes, varied colours, extreme durability - and something they will love enough to actually wear.
 <strong>That's where we come in.</strong>
 
 #### Nike Vision
@@ -15,8 +15,8 @@ Nike has revolutionised athletic footwear and sportswear. Nike realises that the
 
 We love Nike because our young patients do! These sporty frames come in a huge range of colours for boys and girls.
 
-  * Affordability without compromising durability
-  * Fashionable and colourful
+- Affordability without compromising durability
+- Fashionable and colourful
 
 #### Vulkan
 
@@ -24,10 +24,10 @@ This frame brand is known for its outgoing styles that stand out from the crowd,
 
 ##### Why we love Vulkan
 
-Vulkan eyewear is a brand our patients return to again and again for its diverse collection and superior quality. It is especially popular amongst kids in middle school for its conventional styles. 
+Vulkan eyewear is a brand our patients return to again and again for its diverse collection and superior quality. It is especially popular amongst kids in middle school for its conventional styles.
 
-  * Excellent quality and functionality
-  * Diverse collection in a multitude of colours
+- Excellent quality and functionality
+- Diverse collection in a multitude of colours
 
 #### RG512
 
@@ -37,8 +37,8 @@ A French eyewear brand, RG512 is dedicated to producing sleek frames of a high q
 
 Quality and affordability go hand in hand where RG512 is concerned. For patients who are looking for tough, affordable frames, this is the frame brand we direct them to.
 
-  * Conventional and classic styles
-  * Tough frames for active kids
+- Conventional and classic styles
+- Tough frames for active kids
 
 #### Kensie Eyewear
 
@@ -48,5 +48,5 @@ The Kensie designers take the latest trends and put a Kensie spin on them, ensur
 
 If you have a high prescription, chances are you've struggled to find a frame that doesn't compromise on style. This is where Kensie eyewear comes to the rescue. Small eye sizes mean we can accomodate complex scripts with ease.
 
-  * Classic frame shapes
-  * Affordable prices for bright colours
+- Classic frame shapes
+- Affordable prices for bright colours

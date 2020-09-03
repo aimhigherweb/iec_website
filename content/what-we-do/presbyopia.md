@@ -1,7 +1,7 @@
 ---
 title: Presbyopia
 category: refractive-conditions
-preview-image: book-presbyopia.jpg
+preview_image: book-presbyopia.jpg
 ---
 
 <div class="employee-heading">
@@ -24,7 +24,7 @@ Close tasks such as reading and sewing become difficult, particularly in poor li
 
 It is important to understand how your eyes change their focus for viewing close objects. Normally they are focused for distance vision. Inside the eye there is a lens about the size of a pea. To focus on close objects, a special muscle in the eye changes the shape of the lens. This process is called accommodation.
 
-The lens loses its flexibility with age and is less able to change its shape. This is a completely normal change, just like stiffening joints or greying hair. The loss in lens flexibility is the reason that close focusing becomes more difficult. Interestingly, the muscle that changes the shape of the lens when it is flexible continues to function normally until old age. 
+The lens loses its flexibility with age and is less able to change its shape. This is a completely normal change, just like stiffening joints or greying hair. The loss in lens flexibility is the reason that close focusing becomes more difficult. Interestingly, the muscle that changes the shape of the lens when it is flexible continues to function normally until old age.
 
 ![](/uploads/presbyopia.jpg)
 _Presbyopia causes near objects to become blurry while distant objects remain clear_
@@ -39,7 +39,7 @@ No. Presbyopia is usually first noticed around the age of 40 to 45 years. Althou
 
 #### How is presbyopia treated?
 
-Presbyopia is corrected by a prescription designed especially for close distances, in the form of spectacles or contact lenses. It is important that the prescription is calculated for the distance at which you do your close tasks. It is not possible to treat presbyopia by surgery unless the surgeon deliberately makes one eye shortsighted for reading. 
+Presbyopia is corrected by a prescription designed especially for close distances, in the form of spectacles or contact lenses. It is important that the prescription is calculated for the distance at which you do your close tasks. It is not possible to treat presbyopia by surgery unless the surgeon deliberately makes one eye shortsighted for reading.
 
 Through discussion with your optometrist, you will be able to decide on the best way of preparing your prescription. The correction for presbyopia will make near objects clear but distant objects blurry. This means that if you have a pair of spectacles just for reading, you will not be able to watch television while wearing them.
 

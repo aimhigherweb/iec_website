@@ -1,7 +1,7 @@
 ---
 title: Safety Glasses
 category: eyewear-experts
-preview-image: safety-glasses.jpg
+preview_image: safety-glasses.jpg
 ---
 
 <div class="employee-heading">

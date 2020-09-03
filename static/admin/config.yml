@@ -4,12 +4,12 @@ backend:
 media_folder: "static/uploads" # Media files will be stored in the repo under images/uploads
 public_folder: "/uploads" # Media files will be stored in the repo under images/uploads
 collections:
-  - name: "blog" # Used in routes, e.g., /admin/collections/blog
-    label: "Blog" # Used in the UI
-    folder: "content/blog" # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
-    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
-    fields: # The fields for each document, usually in front matter
+  - name: "blog"
+    label: "Blog"
+    folder: "content/blog"
+    create: true #
+    slug: "{{slug}}"
+    fields:
       - { label: "Title", name: "title", widget: "string", required: false }
       - {
           label: "Publish Date",
@@ -31,12 +31,12 @@ collections:
           required: false,
         }
       - { label: "Body", name: "body", widget: "markdown", required: false }
-  - name: "patient-resources" # Used in routes, e.g., /admin/collections/blog
-    label: "Patient Resources" # Used in the UI
-    folder: "content/patient-resources" # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
-    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
-    fields: # The fields for each document, usually in front matter
+  - name: "patient-resources"
+    label: "Patient Resources"
+    folder: "content/patient-resources"
+    create: true
+    slug: "{{slug}}"
+    fields:
       - { label: "Title", name: "title", widget: "string", required: false }
       - {
           label: "Category",
@@ -51,12 +51,12 @@ collections:
           required: false,
         }
       - { label: "Body", name: "body", widget: "markdown", required: false }
-  - name: "who-we-are" # Used in routes, e.g., /admin/collections/blog
-    label: "Who We Are" # Used in the UI
-    folder: "content/who-we-are" # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
-    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
-    fields: # The fields for each document, usually in front matter
+  - name: "who-we-are"
+    label: "Who We Are"
+    folder: "content/who-we-are"
+    create: true
+    slug: "{{slug}}"
+    fields:
       - { label: "Title", name: "title", widget: "string", required: false }
       - {
           label: "Job Title",
@@ -105,12 +105,12 @@ collections:
           valueType: "int",
           required: false,
         }
-  - name: "what-we-do" # Used in routes, e.g., /admin/collections/blog
-    label: "What We Do" # Used in the UI
-    folder: "content/what-we-do" # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
-    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
-    fields: # The fields for each document, usually in front matter
+  - name: "what-we-do"
+    label: "What We Do"
+    folder: "content/what-we-do"
+    create: true
+    slug: "{{slug}}"
+    fields:
       - { label: "Title", name: "title", widget: "string", required: false }
       - {
           label: "Category",
@@ -120,7 +120,7 @@ collections:
         }
       - {
           label: "Preview Image",
-          name: "preview-image",
+          name: "preview_image",
           widget: "image",
           required: false,
         }

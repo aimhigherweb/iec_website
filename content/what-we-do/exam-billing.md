@@ -1,8 +1,9 @@
 ---
 title: Exam Billing
 category: consultations
-preview-image: innovative-eye-care-medicare-eye.jpg
+preview_image: innovative-eye-care-medicare-eye.jpg
 ---
+
 <div class="employee-heading">
 <p>The 2014 Budget made significant changes to how optometrists can subsidise by the government in Australia. As a result both our Adelaide and Woodville practices have altered how we bill our <a href="/what-we-do/eye-exam">consultations</a> so that we may continue to provide our patients with the best eye care, vision and access to technology in the future. </p>
 </div>
@@ -47,17 +48,17 @@ Consultation fees will now be standardised, rather than varying in line with the
 
  <br>
 
-We are still pleased to be able to bulk-bill health care and pension card holders. 
+We are still pleased to be able to bulk-bill health care and pension card holders.
 
 We continue to use the Easyclaim system to claim your Medicare rebate for you on the spot. This is then paid back onto your cheque or savings card.
 
 The costs of the additional equipment such as [retinal photography](/what-we-do/retinal-photography) and [anterior imaging](/what-we-do/anterior-imaging), [corneal topography](/what-we-do/corneal-topography) and [OCT scans](/what-we-do/oct) has never been covered by Medicare and unfortunately this has not changed. Because we believe this technology is important in providing quality eye care, we continue to offer this technology at 50% off for health card and pension card holders as well as children to enable access.
 
-We love it when patients that have had a great experience at Innovative Eye Care mention this to their friends, family and colleagues. As a reward we will send you a [$50 voucher](/what-we-do/gift-cards) if you refer someone you know to our practice! This can be used on full-price sunglasses or spectacles frames within 3 months.
+We love it when patients that have had a great experience at Innovative Eye Care mention this to their friends, family and colleagues. As a reward we will send you a [\$50 voucher](/what-we-do/gift-cards) if you refer someone you know to our practice! This can be used on full-price sunglasses or spectacles frames within 3 months.
 
 #### Changes to the Medicare system
 
-Since 1975, many optometric clinical services have been included in the Medicare Schedule. This means that when visiting your local optometrist as a patient, you have received a contribution from the government towards the cost of your appointment. The rebate amount has always only been 85% of the value that the government suggests is an appropriate full fee for the consultation. 
+Since 1975, many optometric clinical services have been included in the Medicare Schedule. This means that when visiting your local optometrist as a patient, you have received a contribution from the government towards the cost of your appointment. The rebate amount has always only been 85% of the value that the government suggests is an appropriate full fee for the consultation.
 
 In the 2014 Budget, the government announced significant changes to the Medicare rebates for optometry services, even though these went largely unnoticed in the media. These included a cut of almost five per cent in the rebate you receive and a freezing of the Medicare rebate until this year. This means the rebate has remained unchanged while costs of providing care continue to rise. The changes come on top of many years of inadequate indexing of the rebate, which means the rebate hasn’t increased in line with costs. The government rebate is continuing to fall further behind the true cost of providing quality eye care.
 

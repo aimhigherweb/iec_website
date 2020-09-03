@@ -1,7 +1,7 @@
 ---
 title: Spectacle Lenses
 category: eyewear-experts
-preview-image: spec_lenses.jpg
+preview_image: spec_lenses.jpg
 ---
 
 <div class="employee-heading">
@@ -58,7 +58,7 @@ Anti-reflective coatings help to prevent glare and reflections. These can be par
 
 #### Tinted lenses
 
-All types of lens, including multifocals, can be permanently tinted to provide glare protection when in the sun.  Driving and watersports especially can be improved with the use of polarised sunglass lenses. These eliminate unwanted reflections from road surfaces and water.  To give more functionality to your normal spectacles you can choose to have them made with a photochromatic lens. These are activated by UV light, darkening when outside and lightening to a completely clear lens inside. This process often takes less than a minute, making them suitable for full-time wear without having to worry about carrying an extra pair of sunglasses.
+All types of lens, including multifocals, can be permanently tinted to provide glare protection when in the sun. Driving and watersports especially can be improved with the use of polarised sunglass lenses. These eliminate unwanted reflections from road surfaces and water. To give more functionality to your normal spectacles you can choose to have them made with a photochromatic lens. These are activated by UV light, darkening when outside and lightening to a completely clear lens inside. This process often takes less than a minute, making them suitable for full-time wear without having to worry about carrying an extra pair of sunglasses.
 
 <div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe frameborder="0" type="text/html" src="https://2689-2347.captiv8online.com/animations/embed/one/l-t-t-l?player_width=100%&player_height=100%&site_company_language=34&autostart=false" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe></div>
 

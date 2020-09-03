@@ -1,7 +1,7 @@
 ---
 title: Orthokeratology for Myopia
 category: orthok
-preview-image: ok-flower.jpg
+preview_image: ok-flower.jpg
 ---
 
 <div class="employee-heading">
@@ -18,14 +18,13 @@ The development of myopia seems to also be influenced by environmental factors, 
 
 The increase in myopia cases is worryingly high across the world.
 
-  * There are approximately 1.4 billion people worldwide with myopia
-  * This is estimated to reach 2.5 billion by 2020
-  * 93% of 18 year old girls in Taiwan are myopic
-  * 7/10 college graduates in Singapore are myopic
-  * Up to 78% of 15 year old girls in urban China are myopic
+- There are approximately 1.4 billion people worldwide with myopia
+- This is estimated to reach 2.5 billion by 2020
+- 93% of 18 year old girls in Taiwan are myopic
+- 7/10 college graduates in Singapore are myopic
+- Up to 78% of 15 year old girls in urban China are myopic
 
 We have not missed out close to home, either:
-
 
 #### Progression and associated risks
 
@@ -33,10 +32,10 @@ Adult-onset myopia (developing after 20 years of age) can progress over time, th
 
 All levels of myopia increase the chance of these blinding conditions:
 
-  * Retinal detachment
-  * Cataracts
-  * Glaucoma
-  * Myopia retinal degeneration
+- Retinal detachment
+- Cataracts
+- Glaucoma
+- Myopia retinal degeneration
 
 These risks escalates as the level of myopia increases. Myopia maculopathy, a progressive condition causing holes in the retina due to over-stretching, is the fourth most common cause of visual impairment in the UK ahead of diabetic eye disease.
 
