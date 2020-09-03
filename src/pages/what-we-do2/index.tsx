@@ -27,8 +27,7 @@ const TeamTitle = styled.h1`
 `
 
 const TeamDescription = styled.div`
-  padding: 40px 40px;
-  text-align: center;
+  padding: 20px 40px 0 40px;
   font-size: 0.8em;
   @media (max-width: ${MAX_WIDTH_PX}) {
     padding: 20px 40px;
@@ -43,12 +42,13 @@ const TeamService = styled.div`
   flex-wrap: wrap;
   justify-content: space-around;
   margin-bottom: 20px;
-  padding: 0 40px;
+  padding: 40px 40px;
   border: ${DEBUG_TEAM};
   border-bottom: 1px solid #424242;
 `
 const TeamServiceItem = styled.div`
   flex: 1;
+  flex-basis: 20%;
   @media (max-width: ${MAX_WIDTH_PX}) {
     flex-basis: 50%;
   }
@@ -112,8 +112,23 @@ const ServiceDetailTextDesc = styled.div`
   border: ${DEBUG_TEAM};
 `
 
-const Team = (current) => {
+const Team = (data) => {
+  const {
+    acuteRedEyes,
+    advancedImagingTechnology,
+    consultations,
+    contactLenses,
+    dryEyeClinic,
+    eyeDisease,
+    eyewearExperts,
+    orthok,
+    paediatricVision,
+    refractiveConditions,
+  } = data
+  const [current, setCurrent] = useState(paediatricVision.edges)
+
   const extractFirstDiv = (html) => {
+    console.log(`*** WhatWeDo.extractFirstDiv... html=${html}`)
     const regex = /^<div(.)*>(.)<\/div>/gs
     const result = regex.exec(html)
     if (result && result.length > 0) {
@@ -140,69 +155,94 @@ const Team = (current) => {
         </p>
       </TeamDescription>
       <TeamService>
-        <TeamServiceItem>
-          <Link to="/what-we-do/eyewear-collections">
-            <TeamServiceImage src="/images2/service-eyewear-experts.png" />
-            <TeamServiceTitle>
-              EYEWEAR
-              <br />
-              EXPERTS
-            </TeamServiceTitle>
-          </Link>
+        <TeamServiceItem onClick={() => setCurrent(eyewearExperts.edges)}>
+          <TeamServiceImage src="/images2/service-eyewear-experts.png" />
+          <TeamServiceTitle>
+            EYEWEAR
+            <br />
+            EXPERTS
+          </TeamServiceTitle>
         </TeamServiceItem>
-        <TeamServiceItem>
-          <Link to="/what-we-do/contact-lenses">
-            <TeamServiceImage src="/images2/service-bespoke-contact-lenses.png" />
-            <TeamServiceTitle>
-              BESPOKE
-              <br />
-              CONTACT LENSES
-            </TeamServiceTitle>
-          </Link>
+        <TeamServiceItem onClick={() => setCurrent(contactLenses.edges)}>
+          <TeamServiceImage src="/images2/service-bespoke-contact-lenses.png" />
+          <TeamServiceTitle>
+            BESPOKE
+            <br />
+            CONTACT LENSES
+          </TeamServiceTitle>
         </TeamServiceItem>
-        <TeamServiceItem>
-          <Link to="/what-we-do/childrens-vision">
-            <TeamServiceImage src="/images2/service-paediatric-vision.png" />
-            <TeamServiceTitle>
-              PAEDIATRIC
-              <br />
-              VISION
-            </TeamServiceTitle>
-          </Link>
+        <TeamServiceItem onClick={() => setCurrent(paediatricVision.edges)}>
+          <TeamServiceImage src="/images2/service-paediatric-vision.png" />
+          <TeamServiceTitle>
+            PAEDIATRIC
+            <br />
+            VISION
+          </TeamServiceTitle>
         </TeamServiceItem>
-        <TeamServiceItem>
-          <Link to="/what-we-do/dry-eye-disease">
-            <TeamServiceImage src="/images2/service-dry-eye-clinic.png" />
-            <TeamServiceTitle>
-              DRY EYE
-              <br />
-              CLINIC
-            </TeamServiceTitle>
-          </Link>
+        <TeamServiceItem onClick={() => setCurrent(dryEyeClinic.edges)}>
+          <TeamServiceImage src="/images2/service-dry-eye-clinic.png" />
+          <TeamServiceTitle>
+            DRY EYE
+            <br />
+            CLINIC
+          </TeamServiceTitle>
         </TeamServiceItem>
-        <TeamServiceItem>
-          <Link to="/what-we-do/oct">
-            <TeamServiceImage src="/images2/service-adv-imaging.png" />
-            <TeamServiceTitle>
-              ADVANCED
-              <br />
-              IMAGING
-            </TeamServiceTitle>
-          </Link>
+        <TeamServiceItem
+          onClick={() => setCurrent(advancedImagingTechnology.edges)}
+        >
+          <TeamServiceImage src="/images2/service-adv-imaging.png" />
+          <TeamServiceTitle>
+            ADVANCED
+            <br />
+            IMAGING
+          </TeamServiceTitle>
         </TeamServiceItem>
-        <TeamServiceItem>
-          <Link to="/what-we-do/orthokeratology-corneal-reshaping">
-            <TeamServiceImage src="/images2/service-orthok-correction.png" />
-            <TeamServiceTitle>
-              ORTHO-K OVERNIGHT
-              <br />
-              CORRECTION
-            </TeamServiceTitle>
-          </Link>
+        <TeamServiceItem onClick={() => setCurrent(orthok.edges)}>
+          <TeamServiceImage src="/images2/service-orthok-correction.png" />
+          <TeamServiceTitle>
+            ORTHO-K OVERNIGHT
+            <br />
+            CORRECTION
+          </TeamServiceTitle>
+        </TeamServiceItem>
+        <TeamServiceItem onClick={() => setCurrent(acuteRedEyes.edges)}>
+          <TeamServiceImage src="/images2/service-acute-red-eyes.png" />
+          <TeamServiceTitle>
+            ACUTE
+            <br />
+            RED EYES
+          </TeamServiceTitle>
+        </TeamServiceItem>
+        <TeamServiceItem onClick={() => setCurrent(refractiveConditions.edges)}>
+          <TeamServiceImage src="/images2/service-refractive-conditions.png" />
+          <TeamServiceTitle>
+            REFRACTIVE
+            <br />
+            CONDITIONS
+          </TeamServiceTitle>
+        </TeamServiceItem>
+        <TeamServiceItem onClick={() => setCurrent(eyeDisease.edges)}>
+          <TeamServiceImage src="/images2/service-eye-disease.png" />
+          <TeamServiceTitle>
+            EYE
+            <br />
+            DISEASE
+          </TeamServiceTitle>
+        </TeamServiceItem>
+        <TeamServiceItem onClick={() => setCurrent(consultations.edges)}>
+          <TeamServiceImage src="/images2/service-eye-consultations.png" />
+          <TeamServiceTitle>
+            EYE
+            <br />
+            CONSULTATIONS
+          </TeamServiceTitle>
         </TeamServiceItem>
       </TeamService>
       {current &&
         current.map((item, i) => {
+          console.log(
+            `*** WhatWeDo.list... item.node=${JSON.stringify(item.node)}`
+          )
           return (
             <ServiceDetail key={i}>
               <ServiceDetailImage src="/images2/service-eyewear-experts.png" />
@@ -234,17 +274,11 @@ const Container = styled.div`
 
 const WhatWeDo: React.FC = (props) => {
   const match = useMatchMedia({ width: MAX_WIDTH })
-  const { acuteRedEyes } = props.data
-  const [current, setCurrent] = useState(acuteRedEyes.edges)
-
   console.log(`*** WhatWeDo.RENDER... match=${match}`)
-  // console.log(
-  //   `*** WhatWeDo.RENDER... consultations=${JSON.stringify(acuteRedEyes)}`
-  // )
-  //    {Main()}
+  //{Main()}
   return (
     <Container>
-      {Team(current)}
+      {Team(props.data)}
       {Footer()}
     </Container>
   )
@@ -278,6 +312,7 @@ export const query = graphql`
     ) {
       edges {
         node {
+          html
           ...sublist
         }
       }
@@ -291,6 +326,7 @@ export const query = graphql`
     ) {
       edges {
         node {
+          html
           ...sublist
         }
       }
@@ -304,6 +340,7 @@ export const query = graphql`
     ) {
       edges {
         node {
+          html
           ...sublist
         }
       }
@@ -317,6 +354,7 @@ export const query = graphql`
     ) {
       edges {
         node {
+          html
           ...sublist
         }
       }
@@ -330,6 +368,7 @@ export const query = graphql`
     ) {
       edges {
         node {
+          html
           ...sublist
         }
       }
@@ -343,6 +382,7 @@ export const query = graphql`
     ) {
       edges {
         node {
+          html
           ...sublist
         }
       }
@@ -356,6 +396,7 @@ export const query = graphql`
     ) {
       edges {
         node {
+          html
           ...sublist
         }
       }
@@ -369,6 +410,7 @@ export const query = graphql`
     ) {
       edges {
         node {
+          html
           ...sublist
         }
       }
@@ -382,6 +424,7 @@ export const query = graphql`
     ) {
       edges {
         node {
+          html
           ...sublist
         }
       }
