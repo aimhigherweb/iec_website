@@ -62,14 +62,6 @@ const TeamServiceImage = styled.img`
   @media (max-width: ${MAX_WIDTH_PX}) {
     height: 50px;
   }
-  color: red;
-  filter: ${(props) => (props.chosen ? "none" : "none")};
-  &:hover {
-    filter: ${(props) =>
-      props.chosen
-        ? "opacity(1.0) drop-shadow(0 0 0 blue)"
-        : "opacity(0.5) drop-shadow(0 0 0 blue)"};
-  }
   border: ${DEBUG_TEAM};
 `
 const TeamServiceTitle = styled.p`
