@@ -83,10 +83,17 @@ const ServiceDetail = styled.div`
 `
 const ServiceDetailImage = styled.img`
   display: block;
-  width: auto;
-  height: 24px;
+  width: 32px;
+  height: 32px;
   margin-right: 20px;
+  border-radius: 50%;
+  object-fit: cover;
+  filter: ${(props) => (props.chosen ? "none" : "grayscale(1)")};
+  &:hover {
+    filter: ${(props) => (props.chosen ? "none" : "none")};
+  }
   @media (max-width: ${MAX_WIDTH_PX}) {
+    width: 50px;
     height: 50px;
   }
   border: ${DEBUG_TEAM};
@@ -128,7 +135,6 @@ const Team = (data) => {
   const [current, setCurrent] = useState(paediatricVision.edges)
 
   const extractFirstDiv = (html) => {
-    console.log(`*** WhatWeDo.extractFirstDiv... html=${html}`)
     const regex = /^<div(.)*>(.)<\/div>/gs
     const result = regex.exec(html)
     if (result && result.length > 0) {
@@ -240,12 +246,10 @@ const Team = (data) => {
       </TeamService>
       {current &&
         current.map((item, i) => {
-          console.log(
-            `*** WhatWeDo.list... item.node=${JSON.stringify(item.node)}`
-          )
+          const imageSrc = `/uploads/${item.node.frontmatter.preview_image}`
           return (
             <ServiceDetail key={i}>
-              <ServiceDetailImage src="/images2/service-eyewear-experts.png" />
+              <ServiceDetailImage src={imageSrc} />
               <ServiceDetailText>
                 <ServiceDetailTextTitle>
                   {item.node.frontmatter.title}
@@ -298,8 +302,12 @@ export const query = graphql`
     ) {
       edges {
         node {
+          frontmatter {
+            title
+            category
+            preview_image
+          }
           html
-          ...sublist
         }
       }
     }
@@ -312,8 +320,12 @@ export const query = graphql`
     ) {
       edges {
         node {
+          frontmatter {
+            title
+            category
+            preview_image
+          }
           html
-          ...sublist
         }
       }
     }
@@ -326,8 +338,12 @@ export const query = graphql`
     ) {
       edges {
         node {
+          frontmatter {
+            title
+            category
+            preview_image
+          }
           html
-          ...sublist
         }
       }
     }
@@ -340,8 +356,12 @@ export const query = graphql`
     ) {
       edges {
         node {
+          frontmatter {
+            title
+            category
+            preview_image
+          }
           html
-          ...sublist
         }
       }
     }
@@ -354,8 +374,12 @@ export const query = graphql`
     ) {
       edges {
         node {
+          frontmatter {
+            title
+            category
+            preview_image
+          }
           html
-          ...sublist
         }
       }
     }
@@ -368,8 +392,12 @@ export const query = graphql`
     ) {
       edges {
         node {
+          frontmatter {
+            title
+            category
+            preview_image
+          }
           html
-          ...sublist
         }
       }
     }
@@ -382,8 +410,12 @@ export const query = graphql`
     ) {
       edges {
         node {
+          frontmatter {
+            title
+            category
+            preview_image
+          }
           html
-          ...sublist
         }
       }
     }
@@ -396,8 +428,12 @@ export const query = graphql`
     ) {
       edges {
         node {
+          frontmatter {
+            title
+            category
+            preview_image
+          }
           html
-          ...sublist
         }
       }
     }
@@ -410,8 +446,12 @@ export const query = graphql`
     ) {
       edges {
         node {
+          frontmatter {
+            title
+            category
+            preview_image
+          }
           html
-          ...sublist
         }
       }
     }
@@ -424,8 +464,12 @@ export const query = graphql`
     ) {
       edges {
         node {
+          frontmatter {
+            title
+            category
+            preview_image
+          }
           html
-          ...sublist
         }
       }
     }
