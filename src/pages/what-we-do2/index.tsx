@@ -62,6 +62,14 @@ const TeamServiceImage = styled.img`
   @media (max-width: ${MAX_WIDTH_PX}) {
     height: 50px;
   }
+  color: red;
+  filter: ${(props) => (props.chosen ? "none" : "none")};
+  &:hover {
+    filter: ${(props) =>
+      props.chosen
+        ? "opacity(1.0) drop-shadow(0 0 0 blue)"
+        : "opacity(0.5) drop-shadow(0 0 0 blue)"};
+  }
   border: ${DEBUG_TEAM};
 `
 const TeamServiceTitle = styled.p`
@@ -70,6 +78,10 @@ const TeamServiceTitle = styled.p`
   text-align: center;
   @media (max-width: ${MAX_WIDTH_PX}) {
     font-size: 0.7em;
+  }
+  color: ${(props) => (props.chosen ? "#5091cd" : "black")};
+  &:hover {
+    color: ${(props) => (props.chosen ? "#5091cd" : "#5091cd")};
   }
   border: ${DEBUG_TEAM};
 `
@@ -132,7 +144,10 @@ const Team = (data) => {
     paediatricVision,
     refractiveConditions,
   } = data
-  const [current, setCurrent] = useState(paediatricVision.edges)
+  const [current, setCurrent] = useState({
+    index: 0,
+    data: eyewearExperts.edges,
+  })
 
   const extractFirstDiv = (html) => {
     const regex = /^<div(.)*>(.)<\/div>/gs
@@ -161,83 +176,105 @@ const Team = (data) => {
         </p>
       </TeamDescription>
       <TeamService>
-        <TeamServiceItem onClick={() => setCurrent(eyewearExperts.edges)}>
+        <TeamServiceItem
+          onClick={() => setCurrent({ index: 0, data: eyewearExperts.edges })}
+        >
           <TeamServiceImage src="/images2/service-eyewear-experts.png" />
-          <TeamServiceTitle>
+          <TeamServiceTitle chosen={current.index === 0}>
             EYEWEAR
             <br />
             EXPERTS
           </TeamServiceTitle>
         </TeamServiceItem>
-        <TeamServiceItem onClick={() => setCurrent(contactLenses.edges)}>
+        <TeamServiceItem
+          onClick={() => setCurrent({ index: 1, data: contactLenses.edges })}
+        >
           <TeamServiceImage src="/images2/service-bespoke-contact-lenses.png" />
-          <TeamServiceTitle>
+          <TeamServiceTitle chosen={current.index === 1}>
             BESPOKE
             <br />
             CONTACT LENSES
           </TeamServiceTitle>
         </TeamServiceItem>
-        <TeamServiceItem onClick={() => setCurrent(paediatricVision.edges)}>
+        <TeamServiceItem
+          onClick={() => setCurrent({ index: 2, data: paediatricVision.edges })}
+        >
           <TeamServiceImage src="/images2/service-paediatric-vision.png" />
-          <TeamServiceTitle>
+          <TeamServiceTitle chosen={current.index === 2}>
             PAEDIATRIC
             <br />
             VISION
           </TeamServiceTitle>
         </TeamServiceItem>
-        <TeamServiceItem onClick={() => setCurrent(dryEyeClinic.edges)}>
+        <TeamServiceItem
+          onClick={() => setCurrent({ index: 3, data: dryEyeClinic.edges })}
+        >
           <TeamServiceImage src="/images2/service-dry-eye-clinic.png" />
-          <TeamServiceTitle>
+          <TeamServiceTitle chosen={current.index === 3}>
             DRY EYE
             <br />
             CLINIC
           </TeamServiceTitle>
         </TeamServiceItem>
         <TeamServiceItem
-          onClick={() => setCurrent(advancedImagingTechnology.edges)}
+          onClick={() =>
+            setCurrent({ index: 4, data: advancedImagingTechnology.edges })
+          }
         >
           <TeamServiceImage src="/images2/service-adv-imaging.png" />
-          <TeamServiceTitle>
+          <TeamServiceTitle chosen={current.index === 4}>
             ADVANCED
             <br />
             IMAGING
           </TeamServiceTitle>
         </TeamServiceItem>
-        <TeamServiceItem onClick={() => setCurrent(orthok.edges)}>
+        <TeamServiceItem
+          onClick={() => setCurrent({ index: 5, data: orthok.edges })}
+        >
           <TeamServiceImage src="/images2/service-orthok-correction.png" />
-          <TeamServiceTitle>
+          <TeamServiceTitle chosen={current.index === 5}>
             ORTHO-K OVERNIGHT
             <br />
             CORRECTION
           </TeamServiceTitle>
         </TeamServiceItem>
-        <TeamServiceItem onClick={() => setCurrent(acuteRedEyes.edges)}>
+        <TeamServiceItem
+          onClick={() => setCurrent({ index: 6, data: acuteRedEyes.edges })}
+        >
           <TeamServiceImage src="/images2/service-acute-red-eyes.png" />
-          <TeamServiceTitle>
+          <TeamServiceTitle chosen={current.index === 6}>
             ACUTE
             <br />
             RED EYES
           </TeamServiceTitle>
         </TeamServiceItem>
-        <TeamServiceItem onClick={() => setCurrent(refractiveConditions.edges)}>
+        <TeamServiceItem
+          onClick={() =>
+            setCurrent({ index: 7, data: refractiveConditions.edges })
+          }
+        >
           <TeamServiceImage src="/images2/service-refractive-conditions.png" />
-          <TeamServiceTitle>
+          <TeamServiceTitle chosen={current.index === 7}>
             REFRACTIVE
             <br />
             CONDITIONS
           </TeamServiceTitle>
         </TeamServiceItem>
-        <TeamServiceItem onClick={() => setCurrent(eyeDisease.edges)}>
+        <TeamServiceItem
+          onClick={() => setCurrent({ index: 8, data: eyeDisease.edges })}
+        >
           <TeamServiceImage src="/images2/service-eye-disease.png" />
-          <TeamServiceTitle>
+          <TeamServiceTitle chosen={current.index === 8}>
             EYE
             <br />
             DISEASE
           </TeamServiceTitle>
         </TeamServiceItem>
-        <TeamServiceItem onClick={() => setCurrent(consultations.edges)}>
+        <TeamServiceItem
+          onClick={() => setCurrent({ index: 9, data: consultations.edges })}
+        >
           <TeamServiceImage src="/images2/service-eye-consultations.png" />
-          <TeamServiceTitle>
+          <TeamServiceTitle chosen={current.index === 9}>
             EYE
             <br />
             CONSULTATIONS
@@ -245,7 +282,8 @@ const Team = (data) => {
         </TeamServiceItem>
       </TeamService>
       {current &&
-        current.map((item, i) => {
+        current.data &&
+        current.data.map((item, i) => {
           const imageSrc = `/uploads/${item.node.frontmatter.preview_image}`
           return (
             <ServiceDetail key={i}>
