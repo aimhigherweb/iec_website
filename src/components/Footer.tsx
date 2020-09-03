@@ -1,5 +1,5 @@
 import React from "react"
-import { Link } from "gatsby"
+import { Link, navigate } from "gatsby"
 import styled from "styled-components"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import {
@@ -142,7 +142,7 @@ const FooterGutterText = styled.div`
 
 const FooterDiv = (
   <FooterSection>
-    <FooterLogo>
+    <FooterLogo onClick={() => navigate("/")}>
       <FooterLogoItem>
         <FooterLogoImg src="images2/icon-logo-white.png" />
       </FooterLogoItem>
