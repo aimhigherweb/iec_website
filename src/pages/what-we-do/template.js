@@ -1,49 +1,95 @@
 import React from "react"
-import { graphql } from "gatsby"
-import { Helmet } from "react-helmet"
+import { graphql, Link } from "gatsby"
+import styled from "styled-components"
 
-import Header from "../../components/Header"
-import TopNav from "../../components/TopNav"
-import Footer from "../../components/Footer-old"
+import { useMatchMedia } from "../../hooks/useMatchMedia"
+import { Main } from "../../components/Main"
+import { Footer } from "../../components/Footer"
 
-export default function (props) {
-  const { markdownRemark } = props.data
+//----------------------------------------------------------
+//-- Section 1: Detail
+//----------------------------------------------------------
+const DEBUG_TEAM = "1px solid blue"
+const MAX_WIDTH = 768
+const MAX_WIDTH_PX = `${MAX_WIDTH}px`
+
+const DetailSection = styled.div`
+  display: flex;
+  padding: 0;
+  @media (max-width: ${MAX_WIDTH_PX}) {
+    padding: 20px 0px;
+  }
+  border: ${DEBUG_TEAM};
+`
+const DetailTitle = styled.h1`
+  text-align: center;
+  font-family: "Times New Roman";
+  font-size: 2em;
+  border: ${DEBUG_TEAM};
+`
+
+const LeftPart = styled.div`
+  flex: 1;
+  @media (max-width: ${MAX_WIDTH_PX}) {
+  }
+  background-color: lightyellow;
+  border: ${DEBUG_TEAM};
+  border-top: 1px solid red;
+`
+const ArticlePart = styled.div`
+  flex: 2;
+  padding: 20px;
+  @media (max-width: ${MAX_WIDTH_PX}) {
+  }
+  border: ${DEBUG_TEAM};
+`
+const RightPart = styled.div`
+  flex: 1;
+  @media (max-width: ${MAX_WIDTH_PX}) {
+  }
+  background-color: lightyellow;
+  border: ${DEBUG_TEAM};
+`
+
+const Detail = (data) => {
+  const { markdownRemark } = data
+  const { title } = markdownRemark.frontmatter
+
+  console.log(`*** WhatWeDoTemplate.Detail... data=${JSON.stringify(data)}`)
 
   return (
-    <>
-      <Helmet>
-        <title>{markdownRemark.frontmatter.title}</title>
-      </Helmet>
-      <Header />
-      <TopNav />
+    <DetailSection>
+      <LeftPart>
+        <div>Article Parts</div>
+        <img></img>
+      </LeftPart>
+      <ArticlePart>
+        <DetailTitle>{title}</DetailTitle>
+        <div dangerouslySetInnerHTML={{ __html: markdownRemark.html }} />
+      </ArticlePart>
+      <RightPart></RightPart>
+    </DetailSection>
+  )
+}
 
-      <div className="content-section">
-        <div className="employee-box open-close ">
-          <div className="employee-slide ">
-            <div
-              className="employee-slide__inner"
-              style={{ paddingTop: "10px" }}
-            >
-              <div className="container">
-                <div className="content-wrap">
-                  <h2>{markdownRemark.frontmatter.title}</h2>
-                  <div className="employee-slide__row">
-                    <div
-                      className="employee-slide__col employee-slide__col-content"
-                      dangerouslySetInnerHTML={{
-                        __html: markdownRemark.html,
-                      }}
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+//----------------------------------------------------------
+//-- Render
+//----------------------------------------------------------
+const Container = styled.div`
+  height: 100%;
+  margin: 40px;
+  margin-bottom: 80px;
+`
 
-      <Footer />
-    </>
+const WhatWeDoTemplate = (props) => {
+  const match = useMatchMedia({ width: MAX_WIDTH })
+  console.log(`*** WhatWeDoTemplate.RENDER... match=${match}`)
+  console.log(`*** WhatWeDoTemplate.RENDER... props=${JSON.stringify(props)}`)
+  return (
+    <Container>
+      {Detail(props.data)}
+      {Footer()}
+    </Container>
   )
 }
 
@@ -58,3 +104,5 @@ export const WhatWeDoSingleQuery = graphql`
     }
   }
 `
+
+export default WhatWeDoTemplate
