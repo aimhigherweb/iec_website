@@ -1,5 +1,24 @@
-const path = require('path')
-exports.createPages = async ({ actions, graphql, reporter }) => {
+const path = require("path")
+const { createFilePath } = require(`gatsby-source-filesystem`)
+
+exports.onCreateNode = ({ node, getNode, actions }) => {
+  const { createNodeField } = actions
+
+  if (node.internal.type === `MarkdownRemark`) {
+    const slug = createFilePath({
+      node,
+      getNode,
+      basePath: `pages`,
+    })
+    createNodeField({
+      node,
+      name: `slug`,
+      value: slug,
+    })
+  }
+}
+
+async function createContentPages(graphql, actions, reporter) {
   const { createPage } = actions
   const blogTemplate = path.resolve(`src/pages/blog/template.js`)
   const patientResourcesTemplate = path.resolve(
@@ -7,11 +26,15 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
   )
   const whatWeDoTemplate = path.resolve(`src/pages/what-we-do/template.js`)
   const whoWeAreTemplate = path.resolve(`src/pages/who-we-are/template.js`)
+
   const result = await graphql(`
     {
       allMarkdownRemark {
         edges {
           node {
+            fields {
+              slug
+            }
             id
             frontmatter {
               author
@@ -34,27 +57,40 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
     return
   }
   result.data.allMarkdownRemark.edges.forEach(({ node }) => {
-    let temp = null
+    let template = null
+    let pagePath = null
+
     switch (node.parent.relativeDirectory) {
-      case 'blog':
-        temp = blogTemplate
+      case "blog":
+        template = blogTemplate
+        pagePath = `${node.fields.slug}`
         break
-      case 'patient-resources':
-        temp = patientResourcesTemplate
+      case "patient-resources":
+        template = patientResourcesTemplate
+        pagePath = `${node.fields.slug}`
         break
-      case 'who-we-are':
-        temp = whoWeAreTemplate
+      case "who-we-are":
+        template = whoWeAreTemplate
+        pagePath = `${node.fields.slug}`
         break
-      case 'what-we-do':
-        temp = whatWeDoTemplate
+      case "what-we-do":
+        template = whatWeDoTemplate
+        pagePath = `${node.fields.slug}`
         break
     }
+    reporter.info(`Creating: ${pagePath}`)
+
     createPage({
-      path: node.parent.relativeDirectory + '/' + node.parent.name,
-      component: temp,
+      path: pagePath,
+      component: template,
       context: {
-        id: node.id
-      } // additional data can be passed via context
+        id: node.id,
+        slug: node.fields.slug,
+      },
     })
   })
+}
+
+exports.createPages = async ({ graphql, actions, reporter }) => {
+  await createContentPages(graphql, actions, reporter)
 }
