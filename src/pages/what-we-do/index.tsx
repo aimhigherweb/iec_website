@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react"
+import React, { useState } from "react"
 import { graphql, Link } from "gatsby"
 import styled from "styled-components"
 
@@ -281,9 +281,11 @@ const Team = (data) => {
             <ServiceDetail key={i}>
               <ServiceDetailImage src={imageSrc} />
               <ServiceDetailText>
-                <ServiceDetailTextTitle>
-                  {item.node.frontmatter.title}
-                </ServiceDetailTextTitle>
+                <Link to={item.node.fields.slug}>
+                  <ServiceDetailTextTitle>
+                    {item.node.frontmatter.title}
+                  </ServiceDetailTextTitle>
+                </Link>
                 <ServiceDetailTextDesc
                   dangerouslySetInnerHTML={{
                     __html: extractFirstDiv(item.node.html),
@@ -337,6 +339,9 @@ export const query = graphql`
             category
             preview_image
           }
+          fields {
+            slug
+          }
           html
         }
       }
@@ -354,6 +359,9 @@ export const query = graphql`
             title
             category
             preview_image
+          }
+          fields {
+            slug
           }
           html
         }
@@ -373,6 +381,9 @@ export const query = graphql`
             category
             preview_image
           }
+          fields {
+            slug
+          }
           html
         }
       }
@@ -391,7 +402,9 @@ export const query = graphql`
             category
             preview_image
           }
-          html
+          fields {
+            slug
+          }
         }
       }
     }
@@ -408,6 +421,9 @@ export const query = graphql`
             title
             category
             preview_image
+          }
+          fields {
+            slug
           }
           html
         }
@@ -427,6 +443,9 @@ export const query = graphql`
             category
             preview_image
           }
+          fields {
+            slug
+          }
           html
         }
       }
@@ -444,6 +463,9 @@ export const query = graphql`
             title
             category
             preview_image
+          }
+          fields {
+            slug
           }
           html
         }
@@ -463,6 +485,9 @@ export const query = graphql`
             category
             preview_image
           }
+          fields {
+            slug
+          }
           html
         }
       }
@@ -481,6 +506,9 @@ export const query = graphql`
             category
             preview_image
           }
+          fields {
+            slug
+          }
           html
         }
       }
@@ -498,6 +526,9 @@ export const query = graphql`
             title
             category
             preview_image
+          }
+          fields {
+            slug
           }
           html
         }
