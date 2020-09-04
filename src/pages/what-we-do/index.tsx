@@ -1,5 +1,5 @@
 import React, { useState } from "react"
-import { graphql, Link } from "gatsby"
+import { graphql, Link, navigate } from "gatsby"
 import styled from "styled-components"
 
 import { useMatchMedia } from "../../hooks/useMatchMedia"
@@ -124,6 +124,37 @@ const ServiceDetailTextDesc = styled.div`
 `
 
 const Team = (data) => {
+  const whatWeDoCategories = [
+    { title: "EYEWEAR EXPERTS", image: "/images2/service-eyewear-experts.png" },
+    {
+      title: "BESPOKE CONTACT LENSES",
+      image: "/images2/service-bespoke-contact-lenses.png",
+    },
+    {
+      title: "PAEDIATRIC VISION",
+      image: "/images2/service-paediatric-vision.png",
+    },
+    { title: "DRY EYE CLINIC", image: "/images2/service-dry-eye-clinic.png" },
+    {
+      title: "ADVANCED IMAGING",
+      image: "/images2/service-adv-imaging.png",
+    },
+    {
+      title: "ORTHO-K OVERNIGHT CORRECTION",
+      image: "/images2/service-orthok-correction.png",
+    },
+    { title: "ACUTE RED EYES", image: "/images2/service-acute-red-eyes.png" },
+    {
+      title: "REFRACTIVE CONDITIONS",
+      image: "/images2/service-refractive-conditions.png",
+    },
+    { title: "EYE DISEASE", image: "/images2/service-eye-disease.png" },
+    {
+      title: "EYE CONSULTATIONS",
+      image: "/images2/service-eye-consultations.png",
+    },
+  ]
+
   const {
     acuteRedEyes,
     advancedImagingTechnology,
@@ -149,6 +180,34 @@ const Team = (data) => {
     }
   }
 
+  const categoryClick = (index) => {
+    if (index === 0) {
+      setCurrent({ index: 0, data: eyewearExperts.edges })
+    } else if (index === 1) {
+      setCurrent({ index: 0, data: contactLenses.edges })
+    } else if (index === 2) {
+      setCurrent({ index: 0, data: paediatricVision.edges })
+    } else if (index === 3) {
+      setCurrent({ index: 0, data: dryEyeClinic.edges })
+    } else if (index === 4) {
+      setCurrent({ index: 0, data: advancedImagingTechnology.edges })
+    } else if (index === 5) {
+      setCurrent({ index: 0, data: orthok.edges })
+    } else if (index === 6) {
+      setCurrent({ index: 0, data: acuteRedEyes.edges })
+    } else if (index === 7) {
+      setCurrent({ index: 0, data: refractiveConditions.edges })
+    } else if (index === 8) {
+      setCurrent({ index: 0, data: eyeDisease.edges })
+    } else if (index === 9) {
+      setCurrent({ index: 0, data: consultations.edges })
+    }
+  }
+
+  const articleClick = (slug) => {
+    navigate(slug, { state: current })
+  }
+
   return (
     <TeamSection>
       <TeamTitle>What We Do</TeamTitle>
@@ -168,110 +227,18 @@ const Team = (data) => {
         </p>
       </TeamDescription>
       <TeamService>
-        <TeamServiceItem
-          onClick={() => setCurrent({ index: 0, data: eyewearExperts.edges })}
-        >
-          <TeamServiceImage src="/images2/service-eyewear-experts.png" />
-          <TeamServiceTitle chosen={current.index === 0}>
-            EYEWEAR
-            <br />
-            EXPERTS
-          </TeamServiceTitle>
-        </TeamServiceItem>
-        <TeamServiceItem
-          onClick={() => setCurrent({ index: 1, data: contactLenses.edges })}
-        >
-          <TeamServiceImage src="/images2/service-bespoke-contact-lenses.png" />
-          <TeamServiceTitle chosen={current.index === 1}>
-            BESPOKE
-            <br />
-            CONTACT LENSES
-          </TeamServiceTitle>
-        </TeamServiceItem>
-        <TeamServiceItem
-          onClick={() => setCurrent({ index: 2, data: paediatricVision.edges })}
-        >
-          <TeamServiceImage src="/images2/service-paediatric-vision.png" />
-          <TeamServiceTitle chosen={current.index === 2}>
-            PAEDIATRIC
-            <br />
-            VISION
-          </TeamServiceTitle>
-        </TeamServiceItem>
-        <TeamServiceItem
-          onClick={() => setCurrent({ index: 3, data: dryEyeClinic.edges })}
-        >
-          <TeamServiceImage src="/images2/service-dry-eye-clinic.png" />
-          <TeamServiceTitle chosen={current.index === 3}>
-            DRY EYE
-            <br />
-            CLINIC
-          </TeamServiceTitle>
-        </TeamServiceItem>
-        <TeamServiceItem
-          onClick={() =>
-            setCurrent({ index: 4, data: advancedImagingTechnology.edges })
-          }
-        >
-          <TeamServiceImage src="/images2/service-adv-imaging.png" />
-          <TeamServiceTitle chosen={current.index === 4}>
-            ADVANCED
-            <br />
-            IMAGING
-          </TeamServiceTitle>
-        </TeamServiceItem>
-        <TeamServiceItem
-          onClick={() => setCurrent({ index: 5, data: orthok.edges })}
-        >
-          <TeamServiceImage src="/images2/service-orthok-correction.png" />
-          <TeamServiceTitle chosen={current.index === 5}>
-            ORTHO-K OVERNIGHT
-            <br />
-            CORRECTION
-          </TeamServiceTitle>
-        </TeamServiceItem>
-        <TeamServiceItem
-          onClick={() => setCurrent({ index: 6, data: acuteRedEyes.edges })}
-        >
-          <TeamServiceImage src="/images2/service-acute-red-eyes.png" />
-          <TeamServiceTitle chosen={current.index === 6}>
-            ACUTE
-            <br />
-            RED EYES
-          </TeamServiceTitle>
-        </TeamServiceItem>
-        <TeamServiceItem
-          onClick={() =>
-            setCurrent({ index: 7, data: refractiveConditions.edges })
-          }
-        >
-          <TeamServiceImage src="/images2/service-refractive-conditions.png" />
-          <TeamServiceTitle chosen={current.index === 7}>
-            REFRACTIVE
-            <br />
-            CONDITIONS
-          </TeamServiceTitle>
-        </TeamServiceItem>
-        <TeamServiceItem
-          onClick={() => setCurrent({ index: 8, data: eyeDisease.edges })}
-        >
-          <TeamServiceImage src="/images2/service-eye-disease.png" />
-          <TeamServiceTitle chosen={current.index === 8}>
-            EYE
-            <br />
-            DISEASE
-          </TeamServiceTitle>
-        </TeamServiceItem>
-        <TeamServiceItem
-          onClick={() => setCurrent({ index: 9, data: consultations.edges })}
-        >
-          <TeamServiceImage src="/images2/service-eye-consultations.png" />
-          <TeamServiceTitle chosen={current.index === 9}>
-            EYE
-            <br />
-            CONSULTATIONS
-          </TeamServiceTitle>
-        </TeamServiceItem>
+        {whatWeDoCategories &&
+          whatWeDoCategories.map((category, i) => {
+            const imageSrc = category.image
+            return (
+              <TeamServiceItem key={i} onClick={() => categoryClick(i)}>
+                <TeamServiceImage src={imageSrc} />
+                <TeamServiceTitle chosen={current.index === 0}>
+                  {category.title}
+                </TeamServiceTitle>
+              </TeamServiceItem>
+            )
+          })}
       </TeamService>
       {current &&
         current.data &&
@@ -281,7 +248,7 @@ const Team = (data) => {
             <ServiceDetail key={i}>
               <ServiceDetailImage src={imageSrc} />
               <ServiceDetailText>
-                <Link to={item.node.fields.slug}>
+                <Link to={item.node.fields.slug} state={current}>
                   <ServiceDetailTextTitle>
                     {item.node.frontmatter.title}
                   </ServiceDetailTextTitle>
@@ -309,11 +276,13 @@ const Container = styled.div`
 `
 
 const WhatWeDo: React.FC = (props) => {
-  const match = useMatchMedia({ width: MAX_WIDTH })
+  const match = useMatchMedia({
+    width: MAX_WIDTH,
+  })
   console.log(`*** WhatWeDo.RENDER... match=${match}`)
+  //      {Main()}
   return (
     <Container>
-      {Main()}
       {Team(props.data)}
       {Footer()}
     </Container>

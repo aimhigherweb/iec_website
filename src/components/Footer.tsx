@@ -144,7 +144,7 @@ const FooterDiv = (
   <FooterSection>
     <FooterLogo onClick={() => navigate("/")}>
       <FooterLogoItem>
-        <FooterLogoImg src="images2/icon-logo-white.png" />
+        <FooterLogoImg src="/images2/icon-logo-white.png" />
       </FooterLogoItem>
     </FooterLogo>
     <FooterContent>
