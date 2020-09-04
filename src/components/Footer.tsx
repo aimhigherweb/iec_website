@@ -215,10 +215,10 @@ const FooterDiv = (
       <FooterContentItem>
         <FooterMenu>
           <FooterMenuItem>
-            <Link to="/who-we-are2">Who We Are</Link>
+            <Link to="/who-we-are">Who We Are</Link>
           </FooterMenuItem>
           <FooterMenuItem>
-            <Link to="/what-we-do2">What We Do</Link>
+            <Link to="/what-we-do">What We Do</Link>
           </FooterMenuItem>
           <FooterMenuItem>
             <Link to="/patient-resources">Patient Resources</Link>

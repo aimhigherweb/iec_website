@@ -311,9 +311,9 @@ const Container = styled.div`
 const WhatWeDo: React.FC = (props) => {
   const match = useMatchMedia({ width: MAX_WIDTH })
   console.log(`*** WhatWeDo.RENDER... match=${match}`)
-  //{Main()}
   return (
     <Container>
+      {Main()}
       {Team(props.data)}
       {Footer()}
     </Container>
