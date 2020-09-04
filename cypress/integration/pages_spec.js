@@ -11,14 +11,14 @@ describe("Test Pages", () => {
   it("Who We Are Page", () => {
     cy.visit("")
     cy.contains("Who We Are").click()
-    cy.contains("We are a team of industry leader")
-    cy.contains("Meet the Team")
+    cy.contains("Meet the team")
+    cy.contains("Our Optometrists are industry leaders")
   })
 
   it("What We Do", () => {
     cy.visit("")
     cy.contains("What We Do").click()
-    cy.contains("Your eyes are our focus, all day, every day")
+    cy.contains("We do things a little differently here")
   })
 
   it("Patient Resources", () => {
