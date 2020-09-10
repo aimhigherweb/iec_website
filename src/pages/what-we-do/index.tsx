@@ -245,8 +245,9 @@ const Team = (data) => {
         current.articles &&
         current.articles.map((item, i) => {
           const imageSrc = `/uploads/${item.node.frontmatter.preview_image}`
-          const payload = current
+          const payload = { ...current }
           payload["category"] = whatWeDoCategories[current.index]
+          payload["articleIndex"] = i
 
           return (
             <ServiceDetail key={i}>
