@@ -34,8 +34,22 @@ const LeftPart = styled.div`
   }
   background-color: lightyellow;
   border: ${DEBUG_TEAM};
-  border-top: 1px solid red;
+  border-top: 1px solid black;
 `
+const CategoryImage = styled.img`
+  display: block;
+  width: 32px;
+  height: 32px;
+  margin-right: 20px;
+  border-radius: 50%;
+  object-fit: cover;
+  @media (max-width: ${MAX_WIDTH_PX}) {
+    width: 50px;
+    height: 50px;
+  }
+  border: ${DEBUG_TEAM};
+`
+
 const ArticlePart = styled.div`
   flex: 2;
   padding: 20px;
@@ -49,19 +63,22 @@ const RightPart = styled.div`
   }
   background-color: lightyellow;
   border: ${DEBUG_TEAM};
+  border-top: 1px solid black;
 `
 
-const Detail = (data) => {
+const Detail = (state, data) => {
   const { markdownRemark } = data
   const { title } = markdownRemark.frontmatter
+  const { index, category, articles } = state
 
+  console.log(`*** WhatWeDoTemplate.Detail... state=${JSON.stringify(state)}`)
   console.log(`*** WhatWeDoTemplate.Detail... data=${JSON.stringify(data)}`)
 
   return (
     <DetailSection>
       <LeftPart>
-        <div>Article Parts</div>
-        <img></img>
+        <div>{category.title}</div>
+        <CategoryImage src={category.image} />
       </LeftPart>
       <ArticlePart>
         <DetailTitle>{title}</DetailTitle>
@@ -87,7 +104,7 @@ const WhatWeDoTemplate = (props) => {
   console.log(`*** WhatWeDoTemplate.RENDER... props=${JSON.stringify(props)}`)
   return (
     <Container>
-      {Detail(props.data)}
+      {Detail(props.location.state, props.data)}
       {Footer()}
     </Container>
   )
