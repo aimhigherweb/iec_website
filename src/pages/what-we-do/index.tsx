@@ -68,6 +68,7 @@ const TeamServiceTitle = styled.p`
   font-size: 0.5em;
   font-weight: 600;
   text-align: center;
+  text-transform: uppercase;
   @media (max-width: ${MAX_WIDTH_PX}) {
     font-size: 0.7em;
   }
@@ -125,32 +126,32 @@ const ServiceDetailTextDesc = styled.div`
 
 const Team = (data) => {
   const whatWeDoCategories = [
-    { title: "EYEWEAR EXPERTS", image: "/images2/service-eyewear-experts.png" },
+    { title: "Eyewear Experts", image: "/images2/service-eyewear-experts.png" },
     {
-      title: "BESPOKE CONTACT LENSES",
+      title: "Bespoke Contact Lenses",
       image: "/images2/service-bespoke-contact-lenses.png",
     },
     {
-      title: "PAEDIATRIC VISION",
+      title: "Paediatric Vision",
       image: "/images2/service-paediatric-vision.png",
     },
-    { title: "DRY EYE CLINIC", image: "/images2/service-dry-eye-clinic.png" },
+    { title: "Dry Eye Clinic", image: "/images2/service-dry-eye-clinic.png" },
     {
-      title: "ADVANCED IMAGING",
+      title: "Advanced Imaging",
       image: "/images2/service-adv-imaging.png",
     },
     {
-      title: "ORTHO-K OVERNIGHT CORRECTION",
+      title: "Ortho-K Overnight Correction",
       image: "/images2/service-orthok-correction.png",
     },
-    { title: "ACUTE RED EYES", image: "/images2/service-acute-red-eyes.png" },
+    { title: "Acute Red Eyes", image: "/images2/service-acute-red-eyes.png" },
     {
-      title: "REFRACTIVE CONDITIONS",
+      title: "Refractive Conditions",
       image: "/images2/service-refractive-conditions.png",
     },
-    { title: "EYE DISEASE", image: "/images2/service-eye-disease.png" },
+    { title: "Eye Disease", image: "/images2/service-eye-disease.png" },
     {
-      title: "EYE CONSULTATIONS",
+      title: "Eye Consultations",
       image: "/images2/service-eye-consultations.png",
     },
   ]
@@ -169,7 +170,7 @@ const Team = (data) => {
   } = data
   const [current, setCurrent] = useState({
     index: 0,
-    data: eyewearExperts.edges,
+    articles: eyewearExperts.edges,
   })
 
   const extractFirstDiv = (html) => {
@@ -182,25 +183,25 @@ const Team = (data) => {
 
   const categoryClick = (index) => {
     if (index === 0) {
-      setCurrent({ index: 0, data: eyewearExperts.edges })
+      setCurrent({ index: 0, articles: eyewearExperts.edges })
     } else if (index === 1) {
-      setCurrent({ index: 0, data: contactLenses.edges })
+      setCurrent({ index: 1, articles: contactLenses.edges })
     } else if (index === 2) {
-      setCurrent({ index: 0, data: paediatricVision.edges })
+      setCurrent({ index: 2, articles: paediatricVision.edges })
     } else if (index === 3) {
-      setCurrent({ index: 0, data: dryEyeClinic.edges })
+      setCurrent({ index: 3, articles: dryEyeClinic.edges })
     } else if (index === 4) {
-      setCurrent({ index: 0, data: advancedImagingTechnology.edges })
+      setCurrent({ index: 4, articles: advancedImagingTechnology.edges })
     } else if (index === 5) {
-      setCurrent({ index: 0, data: orthok.edges })
+      setCurrent({ index: 5, articles: orthok.edges })
     } else if (index === 6) {
-      setCurrent({ index: 0, data: acuteRedEyes.edges })
+      setCurrent({ index: 6, articles: acuteRedEyes.edges })
     } else if (index === 7) {
-      setCurrent({ index: 0, data: refractiveConditions.edges })
+      setCurrent({ index: 7, articles: refractiveConditions.edges })
     } else if (index === 8) {
-      setCurrent({ index: 0, data: eyeDisease.edges })
+      setCurrent({ index: 8, articles: eyeDisease.edges })
     } else if (index === 9) {
-      setCurrent({ index: 0, data: consultations.edges })
+      setCurrent({ index: 9, articles: consultations.edges })
     }
   }
 
@@ -241,14 +242,17 @@ const Team = (data) => {
           })}
       </TeamService>
       {current &&
-        current.data &&
-        current.data.map((item, i) => {
+        current.articles &&
+        current.articles.map((item, i) => {
           const imageSrc = `/uploads/${item.node.frontmatter.preview_image}`
+          const payload = current
+          payload["category"] = whatWeDoCategories[current.index]
+
           return (
             <ServiceDetail key={i}>
               <ServiceDetailImage src={imageSrc} />
               <ServiceDetailText>
-                <Link to={item.node.fields.slug} state={current}>
+                <Link to={item.node.fields.slug} state={payload}>
                   <ServiceDetailTextTitle>
                     {item.node.frontmatter.title}
                   </ServiceDetailTextTitle>
