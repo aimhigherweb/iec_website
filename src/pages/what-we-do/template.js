@@ -106,7 +106,7 @@ const ItemTitle = styled.div`
 `
 const ItemTitleCurrent = styled(ItemTitle)`
   font-weight: 700;
-  color: #5091cd;
+  color: black;
 `
 const RightNav = styled.div`
   flex: 1;
@@ -139,10 +139,15 @@ const Detail = (state, data) => {
         {articles &&
           articles.map((item, i) => {
             const title = item.node.frontmatter.title
+            const payload = { ...state, articleIndex: i }
             if (articleIndex === i) {
               return <ItemTitleCurrent key={i}>{title}</ItemTitleCurrent>
             } else {
-              return <ItemTitle key={i}>{title}</ItemTitle>
+              return (
+                <Link to={item.node.fields.slug} state={payload}>
+                  <ItemTitle key={i}>{title}</ItemTitle>
+                </Link>
+              )
             }
           })}
       </RightPart>
