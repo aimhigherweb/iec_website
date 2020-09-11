@@ -128,15 +128,15 @@ const Patient = (data) => {
   const patientResCategories = [
     {
       title: "Content Lens Instructions",
-      image: "/images2/service-eyewear-experts.png",
+      image: "/images2/service-eye-consultations.png",
     },
     {
       title: "Vision Training",
-      image: "/images2/service-bespoke-contact-lenses.png",
+      image: "/images2/service-eyewear-experts.png",
     },
     {
       title: "Everyday Eye Care",
-      image: "/images2/service-paediatric-vision.png",
+      image: "/images2/service-bespoke-contact-lenses.png",
     },
   ]
 
@@ -197,7 +197,7 @@ const Patient = (data) => {
             return (
               <PatientResServiceItem key={i} onClick={() => categoryClick(i)}>
                 <PatientResServiceImage src={imageSrc} />
-                <PatientResServiceTitle chosen={current.index === 0}>
+                <PatientResServiceTitle chosen={current.index === i}>
                   {category.title}
                 </PatientResServiceTitle>
               </PatientResServiceItem>

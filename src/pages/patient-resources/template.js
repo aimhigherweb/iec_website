@@ -15,7 +15,7 @@ const MAX_WIDTH_PX = `${MAX_WIDTH}px`
 
 const DetailSection = styled.div`
   display: flex;
-  padding: 0 0 40px 0;
+  padding: 40px 0 40px 0;
   @media (max-width: ${MAX_WIDTH_PX}) {
     padding: 20px 0px;
   }
@@ -120,7 +120,7 @@ const Detail = (state, data) => {
   const { title } = markdownRemark.frontmatter
   const { index, category, articles, articleIndex } = state
 
-  console.log(`*** WhatWeDoTemplate.Detail... articleIndex=${articleIndex}`)
+  console.log(`*** PatientResTemplate.Detail... articleIndex=${articleIndex}`)
 
   const finalArticles = []
   let prevFinalArticle = null
@@ -134,7 +134,11 @@ const Detail = (state, data) => {
       finalArticles.push(finalArticle)
 
       if (i === 0) {
-        prevFinalArticle = { title: "", slug: "/what-we-do", payload: null }
+        prevFinalArticle = {
+          title: "",
+          slug: "/patient-resources",
+          payload: null,
+        }
       }
       if (i === articleIndex - 1) {
         prevFinalArticle = { ...finalArticle }
@@ -195,15 +199,16 @@ const Detail = (state, data) => {
 //----------------------------------------------------------
 const Container = styled.div`
   height: 100%;
-  margin: 40px;
+  margin: 0px;
   margin-bottom: 80px;
 `
 
-const WhatWeDoTemplate = (props) => {
+const PatientResTemplate = (props) => {
   const match = useMatchMedia({ width: MAX_WIDTH })
-  console.log(`*** WhatWeDoTemplate.RENDER... match=${match}`)
+  console.log(`*** PatientResTemplate.RENDER... match=${match}`)
   return (
     <Container>
+      {Main(false, null)}
       {Detail(props.location.state, props.data)}
       {Footer()}
     </Container>
@@ -222,4 +227,4 @@ export const PatientResourceSingleQuery = graphql`
   }
 `
 
-export default WhatWeDoTemplate
+export default PatientResTemplate
