@@ -14,7 +14,6 @@ const MainHeader = styled.div`
   z-index: 9999;
   padding: 16px 10px 10px 20px;
   width: 100%;
-  height: auto;
   @media (max-width: ${MAX_WIDTH_PX}) {
     padding: 20px;
   }
@@ -137,43 +136,49 @@ const MainVideoContent = styled.video`
   min-height: 100%;
 `
 
-const MainDiv = (
-  <div>
-    <MainHeader>
-      <Logo onClick={() => navigate("/")} />
-      <Menu />
-    </MainHeader>
-    <MainFooter>
-      <MainSearch>
-        <MainSearchInput placeholder="Search now." />
-      </MainSearch>
-      <MainBooking>
-        <MainBookingButton>Book Online Adelaide.</MainBookingButton>
-        &nbsp;&nbsp;&nbsp;
-        <MainBookingButton>Book Online Woodville.</MainBookingButton>
-      </MainBooking>
-    </MainFooter>
-    <MainVideo>
-      <MainVideoContent
-        id="main-video"
-        className="video-js vjs-fill"
-        controls={false}
-        preload="auto"
-        autoPlay={true}
-        loop={true}
-        data-setup='{"fill":true}'
-      >
-        <track kind="captions" />
-        <source src="/videos/video-main.mp4" type="video/mp4" />
-      </MainVideoContent>
-    </MainVideo>
-  </div>
-)
+const MainDiv = (showFull) => {
+  return (
+    <div>
+      <MainHeader>
+        <Logo onClick={() => navigate("/")} />
+        <Menu />
+      </MainHeader>
+      {showFull && (
+        <MainFooter>
+          <MainSearch>
+            <MainSearchInput placeholder="Search now." />
+          </MainSearch>
+          <MainBooking>
+            <MainBookingButton>Book Online Adelaide.</MainBookingButton>
+            &nbsp;&nbsp;&nbsp;
+            <MainBookingButton>Book Online Woodville.</MainBookingButton>
+          </MainBooking>
+        </MainFooter>
+      )}
+      {showFull && (
+        <MainVideo>
+          <MainVideoContent
+            id="main-video"
+            className="video-js vjs-fill"
+            controls={false}
+            preload="auto"
+            autoPlay={true}
+            loop={true}
+            data-setup='{"fill":true}'
+          >
+            <track kind="captions" />
+            <source src="/videos/video-main.mp4" type="video/mp4" />
+          </MainVideoContent>
+        </MainVideo>
+      )}
+    </div>
+  )
+}
 
 //----------------------------------------------------------
 //-- Render
 //----------------------------------------------------------
-export const Main: React.FC = () => {
+export const Main: React.FC = (showFull) => {
   console.log(`*** Main.RENDER`)
-  return MainDiv
+  return MainDiv(showFull)
 }
