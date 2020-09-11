@@ -205,10 +205,6 @@ const Team = (data) => {
     }
   }
 
-  const articleClick = (slug) => {
-    navigate(slug, { state: current })
-  }
-
   return (
     <TeamSection>
       <TeamTitle>What We Do</TeamTitle>
@@ -287,7 +283,7 @@ const WhatWeDo: React.FC = (props) => {
   console.log(`*** WhatWeDo.RENDER... match=${match}`)
   return (
     <Container>
-      {Main(true, "/videos/what-we-do.mp4")}
+      {Main(false, "/videos/what-we-do.mp4")}
       {Team(props.data)}
       {Footer()}
     </Container>

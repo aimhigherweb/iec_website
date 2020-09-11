@@ -42,6 +42,9 @@ const Menu = styled.img.attrs({
   background: clear;
   border: ${DEBUG_MAIN};
 `
+const MainHeaderFiller = styled.div`
+  height: 100px;
+`
 
 const MainFooter = styled.div`
   position: fixed;
@@ -143,6 +146,7 @@ const MainDiv = (showFull, videoToPlay) => {
         <Logo onClick={() => navigate("/")} />
         <Menu />
       </MainHeader>
+      {!showFull && <MainHeaderFiller />}
       {showFull && (
         <MainFooter>
           <MainSearch>
@@ -180,5 +184,6 @@ const MainDiv = (showFull, videoToPlay) => {
 //----------------------------------------------------------
 export const Main: React.FC = (showFull, videoToPlay) => {
   console.log(`*** Main.RENDER`)
+  //
   return MainDiv(showFull, videoToPlay)
 }

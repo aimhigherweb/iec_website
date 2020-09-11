@@ -133,6 +133,9 @@ const Detail = (state, data) => {
       const finalArticle = { title: title, slug: slug, payload: payload }
       finalArticles.push(finalArticle)
 
+      if (i === 0) {
+        prevFinalArticle = { title: "", slug: "/what-we-do", payload: null }
+      }
       if (i === articleIndex - 1) {
         prevFinalArticle = { ...finalArticle }
       } else if (

@@ -466,7 +466,7 @@ const WhoWeAre: React.FC = ({ data }) => {
   console.log(`*** Home.RENDER... match=${match}`)
   return (
     <Container>
-      {Main(true, "/videos/who-we-are.mp4")}
+      {Main(false, "/videos/who-we-are.mp4")}
       {Team(teamList, match)}
       {History(historyList, match)}
       {Footer()}
