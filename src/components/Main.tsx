@@ -136,7 +136,7 @@ const MainVideoContent = styled.video`
   min-height: 100%;
 `
 
-const MainDiv = (showFull) => {
+const MainDiv = (showFull, videoToPlay) => {
   return (
     <div>
       <MainHeader>
@@ -155,7 +155,7 @@ const MainDiv = (showFull) => {
           </MainBooking>
         </MainFooter>
       )}
-      {showFull && (
+      {showFull && videoToPlay && (
         <MainVideo>
           <MainVideoContent
             id="main-video"
@@ -167,7 +167,7 @@ const MainDiv = (showFull) => {
             data-setup='{"fill":true}'
           >
             <track kind="captions" />
-            <source src="/videos/video-main.mp4" type="video/mp4" />
+            <source src={videoToPlay} type="video/mp4" />
           </MainVideoContent>
         </MainVideo>
       )}
@@ -178,7 +178,7 @@ const MainDiv = (showFull) => {
 //----------------------------------------------------------
 //-- Render
 //----------------------------------------------------------
-export const Main: React.FC = (showFull) => {
+export const Main: React.FC = (showFull, videoToPlay) => {
   console.log(`*** Main.RENDER`)
-  return MainDiv(showFull)
+  return MainDiv(showFull, videoToPlay)
 }

@@ -436,7 +436,7 @@ const Home: React.FC = () => {
   console.log(`*** Home.RENDER`)
   return (
     <Container>
-      {Main()}
+      {Main(true, "/videos/video-main.mp4")}
       {Team}
       {Style(match)}
       {Social}

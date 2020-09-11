@@ -285,9 +285,9 @@ const WhatWeDo: React.FC = (props) => {
     width: MAX_WIDTH,
   })
   console.log(`*** WhatWeDo.RENDER... match=${match}`)
-  //      {Main()}
   return (
     <Container>
+      {Main(true, "/videos/what-we-do.mp4")}
       {Team(props.data)}
       {Footer()}
     </Container>
