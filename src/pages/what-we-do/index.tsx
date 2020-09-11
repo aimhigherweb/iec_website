@@ -230,7 +230,7 @@ const What = (data) => {
             return (
               <WhatServiceItem key={i} onClick={() => categoryClick(i)}>
                 <WhatServiceImage src={imageSrc} />
-                <WhatServiceTitle chosen={current.index === 0}>
+                <WhatServiceTitle chosen={current.index === i}>
                   {category.title}
                 </WhatServiceTitle>
               </WhatServiceItem>

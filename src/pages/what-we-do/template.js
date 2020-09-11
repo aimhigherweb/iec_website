@@ -15,7 +15,7 @@ const MAX_WIDTH_PX = `${MAX_WIDTH}px`
 
 const DetailSection = styled.div`
   display: flex;
-  padding: 0 0 40px 0;
+  padding: 40px 0 40px 0;
   @media (max-width: ${MAX_WIDTH_PX}) {
     padding: 20px 0px;
   }
@@ -195,7 +195,7 @@ const Detail = (state, data) => {
 //----------------------------------------------------------
 const Container = styled.div`
   height: 100%;
-  margin: 40px;
+  margin: 0px;
   margin-bottom: 80px;
 `
 
@@ -204,6 +204,7 @@ const WhatWeDoTemplate = (props) => {
   console.log(`*** WhatWeDoTemplate.RENDER... match=${match}`)
   return (
     <Container>
+      {Main(false, null)}
       {Detail(props.location.state, props.data)}
       {Footer()}
     </Container>
