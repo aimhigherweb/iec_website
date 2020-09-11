@@ -7,26 +7,26 @@ import { Main } from "../../components/Main"
 import { Footer } from "../../components/Footer"
 
 //----------------------------------------------------------
-//-- Section 1: Team
+//-- Section 1: What
 //----------------------------------------------------------
 const DEBUG_TEAM = "0px solid blue"
 const MAX_WIDTH = 768
 const MAX_WIDTH_PX = `${MAX_WIDTH}px`
 
-const TeamSection = styled.div`
+const WhatSection = styled.div`
   padding: 40px 10%;
   @media (max-width: ${MAX_WIDTH_PX}) {
     padding: 20px 0px;
   }
 `
 
-const TeamTitle = styled.h1`
+const WhatTitle = styled.h1`
   text-align: center;
   font-family: "Times New Roman";
   font-size: 2em;
 `
 
-const TeamDescription = styled.div`
+const WhatDescription = styled.div`
   padding: 20px 40px 0 40px;
   font-size: 0.8em;
   @media (max-width: ${MAX_WIDTH_PX}) {
@@ -37,7 +37,7 @@ const TeamDescription = styled.div`
   border: ${DEBUG_TEAM};
 `
 
-const TeamService = styled.div`
+const WhatService = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -46,7 +46,7 @@ const TeamService = styled.div`
   border: ${DEBUG_TEAM};
   border-bottom: 1px solid #424242;
 `
-const TeamServiceItem = styled.div`
+const WhatServiceItem = styled.div`
   flex: 1;
   flex-basis: 20%;
   @media (max-width: ${MAX_WIDTH_PX}) {
@@ -54,7 +54,7 @@ const TeamServiceItem = styled.div`
   }
   border: ${DEBUG_TEAM};
 `
-const TeamServiceImage = styled.img`
+const WhatServiceImage = styled.img`
   display: block;
   width: auto;
   height: 24px;
@@ -64,7 +64,7 @@ const TeamServiceImage = styled.img`
   }
   border: ${DEBUG_TEAM};
 `
-const TeamServiceTitle = styled.p`
+const WhatServiceTitle = styled.p`
   font-size: 0.5em;
   font-weight: 600;
   text-align: center;
@@ -124,7 +124,7 @@ const ServiceDetailTextDesc = styled.div`
   border: ${DEBUG_TEAM};
 `
 
-const Team = (data) => {
+const What = (data) => {
   const whatWeDoCategories = [
     { title: "Eyewear Experts", image: "/images2/service-eyewear-experts.png" },
     {
@@ -206,9 +206,9 @@ const Team = (data) => {
   }
 
   return (
-    <TeamSection>
-      <TeamTitle>What We Do</TeamTitle>
-      <TeamDescription>
+    <WhatSection>
+      <WhatTitle>What We Do</WhatTitle>
+      <WhatDescription>
         <p>&lsquo;Your eyes are our focus, all day, every day.&rsquo;</p>
         <p>
           We do things a little differently here. Every aspect of your vision
@@ -222,21 +222,21 @@ const Team = (data) => {
           span bespoke contact lenses, spectacles, vision training and
           therapeutic treatments. We support Australian made.
         </p>
-      </TeamDescription>
-      <TeamService>
+      </WhatDescription>
+      <WhatService>
         {whatWeDoCategories &&
           whatWeDoCategories.map((category, i) => {
             const imageSrc = category.image
             return (
-              <TeamServiceItem key={i} onClick={() => categoryClick(i)}>
-                <TeamServiceImage src={imageSrc} />
-                <TeamServiceTitle chosen={current.index === 0}>
+              <WhatServiceItem key={i} onClick={() => categoryClick(i)}>
+                <WhatServiceImage src={imageSrc} />
+                <WhatServiceTitle chosen={current.index === 0}>
                   {category.title}
-                </TeamServiceTitle>
-              </TeamServiceItem>
+                </WhatServiceTitle>
+              </WhatServiceItem>
             )
           })}
-      </TeamService>
+      </WhatService>
       {current &&
         current.articles &&
         current.articles.map((item, i) => {
@@ -263,7 +263,7 @@ const Team = (data) => {
             </ServiceDetail>
           )
         })}
-    </TeamSection>
+    </WhatSection>
   )
 }
 
@@ -284,7 +284,7 @@ const WhatWeDo: React.FC = (props) => {
   return (
     <Container>
       {Main(false, "/videos/what-we-do.mp4")}
-      {Team(props.data)}
+      {What(props.data)}
       {Footer()}
     </Container>
   )
