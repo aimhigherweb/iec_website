@@ -207,7 +207,7 @@ const Patient = (data) => {
       {current &&
         current.articles &&
         current.articles.map((item, i) => {
-          const imageSrc = `/uploads/${item.node.frontmatter.preview_image}`
+          const imageSrc = item.node.frontmatter.preview_image
           const payload = { ...current }
           payload["category"] = patientResCategories[current.index]
           payload["articleIndex"] = i
