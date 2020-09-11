@@ -122,10 +122,36 @@ const Detail = (state, data) => {
 
   console.log(`*** WhatWeDoTemplate.Detail... articleIndex=${articleIndex}`)
 
+  const finalArticles = []
+  let prevFinalArticle = null
+  let nextFinalArticle = null
+  if (articles) {
+    articles.map((item, i) => {
+      const title = item.node.frontmatter.title
+      const slug = item.node.fields.slug
+      const payload = { ...state, articleIndex: i }
+      const finalArticle = { title: title, slug: slug, payload: payload }
+      finalArticles.push(finalArticle)
+
+      if (i === articleIndex - 1) {
+        prevFinalArticle = { ...finalArticle }
+      } else if (
+        articleIndex !== articles.length - 1 &&
+        i === articleIndex + 1
+      ) {
+        nextFinalArticle = { ...finalArticle }
+      }
+    })
+  }
+
   return (
     <DetailSection>
       <LeftNav>
-        <NavArrowImage src="/images2/icon-arrow-left.png" />
+        {prevFinalArticle && (
+          <Link to={prevFinalArticle.slug} state={prevFinalArticle.payload}>
+            <NavArrowImage src="/images2/icon-arrow-left.png" />
+          </Link>
+        )}
       </LeftNav>
       <LeftPart>
         <CategoryTitle>{category.title}</CategoryTitle>
@@ -136,23 +162,26 @@ const Detail = (state, data) => {
         <div dangerouslySetInnerHTML={{ __html: markdownRemark.html }} />
       </ArticlePart>
       <RightPart>
-        {articles &&
-          articles.map((item, i) => {
-            const title = item.node.frontmatter.title
-            const payload = { ...state, articleIndex: i }
-            if (articleIndex === i) {
-              return <ItemTitleCurrent key={i}>{title}</ItemTitleCurrent>
-            } else {
-              return (
-                <Link to={item.node.fields.slug} state={payload}>
-                  <ItemTitle key={i}>{title}</ItemTitle>
-                </Link>
-              )
-            }
-          })}
+        {finalArticles.map((finalArticle, i) => {
+          if (articleIndex === i) {
+            return (
+              <ItemTitleCurrent key={i}>{finalArticle.title}</ItemTitleCurrent>
+            )
+          } else {
+            return (
+              <Link to={finalArticle.slug} state={finalArticle.payload} key={i}>
+                <ItemTitle>{finalArticle.title}</ItemTitle>
+              </Link>
+            )
+          }
+        })}
       </RightPart>
       <RightNav>
-        <NavArrowImage src="/images2/icon-arrow-right.png" />
+        {nextFinalArticle && (
+          <Link to={nextFinalArticle.slug} state={nextFinalArticle.payload}>
+            <NavArrowImage src="/images2/icon-arrow-right.png" />
+          </Link>
+        )}
       </RightNav>
     </DetailSection>
   )
