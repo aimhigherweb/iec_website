@@ -1,71 +1,236 @@
-import React, { Component } from "react"
-import { graphql } from "gatsby"
-import { Helmet } from "react-helmet"
+import React from "react"
+import { graphql, Link } from "gatsby"
+import styled from "styled-components"
 
-import Header from "../../components/Header"
-import TopNav from "../../components/TopNav"
-import Footer from "../../components/Footer-old"
+import { useMatchMedia } from "../../hooks/useMatchMedia"
+import { Main } from "../../components/Main"
+import { Footer } from "../../components/Footer"
 
-class BlogTemplate extends Component {
-  render() {
-    const post = this.props.data.markdownRemark
+//----------------------------------------------------------
+//-- Section 1: Detail
+//----------------------------------------------------------
+const DEBUG_TEAM = "0px solid blue"
+const MAX_WIDTH = 768
+const MAX_WIDTH_PX = `${MAX_WIDTH}px`
 
-    return (
-      <>
-        <Helmet>
-          <title>{post.frontmatter.title}</title>
-        </Helmet>
-        <Header />
-        <TopNav />
-
-        <div className="content-section">
-          <div className="employee-box open-close ">
-            <div className="employee-slide ">
-              <div
-                className="employee-slide__inner"
-                style={{ paddingTop: "20px" }}
-              >
-                <div className="container">
-                  <div className="content-wrap">
-                    <h1>{post.frontmatter.title}</h1>
-                    <div className="employee-slide__row">
-                      <div className="employee-slide__col employee-slide__col-content">
-                        <div className="employee-heading">
-                          <p>{post.frontmatter.date}</p>
-                          <p>
-                            <a href={post.frontmatter.author_url}>
-                              {post.frontmatter.author}
-                            </a>
-                          </p>
-                        </div>
-                        <div dangerouslySetInnerHTML={{ __html: post.html }} />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <Footer />
-      </>
-    )
+const DetailSection = styled.div`
+  display: flex;
+  padding: 40px 0 40px 0;
+  @media (max-width: ${MAX_WIDTH_PX}) {
+    padding: 20px 0px;
   }
+  border: ${DEBUG_TEAM};
+`
+
+const LeftNav = styled.div`
+  flex: 1;
+  @media (max-width: ${MAX_WIDTH_PX}) {
+  }
+  border: ${DEBUG_TEAM};
+`
+const NavArrowImage = styled.img`
+  display: block;
+  width: auto;
+  height: 24px;
+  margin: 0px auto;
+  margin-top: 400px;
+  @media (max-width: ${MAX_WIDTH_PX}) {
+    height: 18px;
+  }
+  border: ${DEBUG_TEAM};
+`
+const LeftPart = styled.div`
+  flex: 2;
+  @media (max-width: ${MAX_WIDTH_PX}) {
+  }
+  border: ${DEBUG_TEAM};
+  border-top: 1px solid black;
+`
+const CategoryTitle = styled.div`
+  margin-top: 20px;
+  font-size: 0.8em;
+  font-weight: 600;
+  @media (max-width: ${MAX_WIDTH_PX}) {
+    font-size: 1.2em;
+  }
+  border: ${DEBUG_TEAM};
+`
+const CategoryImage = styled.img`
+  margin-top: 10px;
+  display: block;
+  width: 64px;
+  height: 64px;
+  margin-right: 20px;
+  border-radius: 50%;
+  padding: 8px;
+  object-fit: cover;
+  @media (max-width: ${MAX_WIDTH_PX}) {
+    width: 96px;
+    height: 96px;
+  }
+  border: ${DEBUG_TEAM};
+  border: 1px solid #424242;
+`
+
+const ArticlePart = styled.div`
+  flex: 6;
+  padding: 0px 40px;
+  @media (max-width: ${MAX_WIDTH_PX}) {
+  }
+  border: ${DEBUG_TEAM};
+`
+const ArticleTitle = styled.h1`
+  text-align: center;
+  font-family: "Times New Roman";
+  font-size: 1.6em;
+  border: ${DEBUG_TEAM};
+`
+
+const RightPart = styled.div`
+  flex: 2;
+  @media (max-width: ${MAX_WIDTH_PX}) {
+  }
+
+  border: ${DEBUG_TEAM};
+  border-top: 1px solid black;
+`
+const ItemTitle = styled.div`
+  margin-top: 20px;
+  font-size: 0.6em;
+  font-weight: 600;
+  text-transform: uppercase;
+  @media (max-width: ${MAX_WIDTH_PX}) {
+    font-size: 0.8em;
+  }
+  border: ${DEBUG_TEAM};
+`
+const ItemTitleCurrent = styled(ItemTitle)`
+  font-weight: 700;
+  color: black;
+`
+const RightNav = styled.div`
+  flex: 1;
+  @media (max-width: ${MAX_WIDTH_PX}) {
+  }
+  border: ${DEBUG_TEAM};
+`
+
+const Detail = (state, data) => {
+  const { markdownRemark } = data
+  const { title, date, author } = markdownRemark.frontmatter
+  const { index, category, articles, articleIndex } = state
+
+  console.log(`*** BlogTemplate.Detail... articleIndex=${articleIndex}`)
+  console.log(`*** BlogTemplate.Detail... frontmatter=${JSON.stringify(data)}`)
+
+  const finalArticles = []
+  let prevFinalArticle = null
+  let nextFinalArticle = null
+  if (articles) {
+    articles.map((item, i) => {
+      const title = item.node.frontmatter.title
+      const slug = item.node.fields.slug
+      const payload = { ...state, articleIndex: i }
+      const finalArticle = { title: title, slug: slug, payload: payload }
+      finalArticles.push(finalArticle)
+
+      if (i === 0) {
+        prevFinalArticle = {
+          title: "",
+          slug: "/blog",
+          payload: null,
+        }
+      }
+      if (i === articleIndex - 1) {
+        prevFinalArticle = { ...finalArticle }
+      } else if (
+        articleIndex !== articles.length - 1 &&
+        i === articleIndex + 1
+      ) {
+        nextFinalArticle = { ...finalArticle }
+      }
+    })
+  }
+
+  return (
+    <DetailSection>
+      <LeftNav>
+        {prevFinalArticle && (
+          <Link to={prevFinalArticle.slug} state={prevFinalArticle.payload}>
+            <NavArrowImage src="/images2/icon-arrow-left.png" />
+          </Link>
+        )}
+      </LeftNav>
+      <LeftPart>
+        <CategoryTitle>
+          {date} {author}
+        </CategoryTitle>
+        <CategoryImage />
+      </LeftPart>
+      <ArticlePart>
+        <ArticleTitle>{title}</ArticleTitle>
+        <div dangerouslySetInnerHTML={{ __html: markdownRemark.html }} />
+      </ArticlePart>
+      <RightPart>
+        {finalArticles.map((finalArticle, i) => {
+          if (articleIndex === i) {
+            return (
+              <ItemTitleCurrent key={i}>{finalArticle.title}</ItemTitleCurrent>
+            )
+          } else {
+            return (
+              <Link to={finalArticle.slug} state={finalArticle.payload} key={i}>
+                <ItemTitle>{finalArticle.title}</ItemTitle>
+              </Link>
+            )
+          }
+        })}
+      </RightPart>
+      <RightNav>
+        {nextFinalArticle && (
+          <Link to={nextFinalArticle.slug} state={nextFinalArticle.payload}>
+            <NavArrowImage src="/images2/icon-arrow-right.png" />
+          </Link>
+        )}
+      </RightNav>
+    </DetailSection>
+  )
 }
 
-export default BlogTemplate
+//----------------------------------------------------------
+//-- Render
+//----------------------------------------------------------
+const Container = styled.div`
+  height: 100%;
+  margin: 0px;
+  margin-bottom: 80px;
+`
 
-export const pageQuery = graphql`
-  query BlogPostById($id: String) {
+const BlogTemplate = (props) => {
+  const match = useMatchMedia({ width: MAX_WIDTH })
+  console.log(`*** BlogTemplate.RENDER... match=${match}`)
+  return (
+    <Container>
+      {Main(false, null)}
+      {Detail(props.location.state, props.data)}
+      {Footer()}
+    </Container>
+  )
+}
+
+export const BlogSingleQuery = graphql`
+  query BlogById($id: String) {
     markdownRemark(id: { eq: $id }) {
-      html
       frontmatter {
         title
-        author
-        author_url
+        preview_image
         date(formatString: "DD MMMM YYYY")
+        author
       }
+      id
+      html
     }
   }
 `
+
+export default BlogTemplate
