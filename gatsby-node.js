@@ -18,6 +18,33 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
   }
 }
 
+exports.sourceNodes = ({ actions, getNodes, getNode }) => {
+  console.log(`*** GatsbyNode.sourceNodes... START`)
+  const { createNodeField } = actions
+  getNodes()
+    .filter((node) => node.internal.type === "MarkdownRemark")
+    .forEach((node) => {
+      if (node.frontmatter.author) {
+        const authorNode = getNodes().find(
+          (node2) =>
+            node2.internal.type === "MarkdownRemark" &&
+            node2.frontmatter.title === node.frontmatter.author
+        )
+        if (authorNode) {
+          createNodeField({
+            node,
+            name: "author",
+            value: authorNode.id,
+          })
+        } else {
+          console.log(
+            `*** GatsbyNode.sourceNodes... could not find author for title=${node.frontmatter.title} author=${node.frontmatter.author}`
+          )
+        }
+      }
+    })
+}
+
 async function createContentPages(graphql, actions, reporter) {
   const { createPage } = actions
   const blogTemplate = path.resolve(`src/pages/blog/template.js`)
@@ -37,7 +64,6 @@ async function createContentPages(graphql, actions, reporter) {
             }
             id
             frontmatter {
-              author
               date
               title
             }
@@ -69,7 +95,7 @@ async function createContentPages(graphql, actions, reporter) {
         template = patientResourcesTemplate
         pagePath = `${node.fields.slug}`
         break
-      case "who-we-are":
+      case "author":
         template = whoWeAreTemplate
         pagePath = `${node.fields.slug}`
         break
