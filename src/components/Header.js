@@ -1,41 +1,39 @@
-import React, { Component } from 'react'
-import { Helmet } from 'react-helmet'
-import { Link } from 'gatsby'
-import SearchBox from './SearchBox'
-import SearchResults from './SearchResults'
+import React, { Component } from "react"
+import { Helmet } from "react-helmet"
+import { Link } from "gatsby"
 
 class Header extends Component {
   componentDidMount() {
-    const e = document.createElement('script')
-    e.type = 'application/ld+json'
+    const e = document.createElement("script")
+    e.type = "application/ld+json"
     e.async = true
     e.json = {
-      '@context': 'http://innovativeeyecare.com.au/',
-      '@type': 'BlogPosting',
+      "@context": "http://innovativeeyecare.com.au/",
+      "@type": "BlogPosting",
       mainEntityOfPage: {
-        '@type': 'WebPage',
-        '@id': '{{ .Site.BaseURL }}'
+        "@type": "WebPage",
+        "@id": "{{ .Site.BaseURL }}",
       },
-      articleSection: '{{ .Section }}',
-      name: '{{ .Title }}',
-      headline: '{{ .Title }}',
+      articleSection: "{{ .Section }}",
+      name: "{{ .Title }}",
+      headline: "{{ .Title }}",
       description:
-        '{{ if .Description }}{{ .Description }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ end }}{{ end }}',
-      inLanguage: 'en-US',
-      author: '{{ .Params.Author }}',
-      creator: '{{ .Params.Author }}',
-      publisher: '{{ .Params.Author }}',
-      accountablePerson: '{{ .Params.Author }}',
-      copyrightHolder: '{{ .Params.Author }}',
+        "{{ if .Description }}{{ .Description }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ end }}{{ end }}",
+      inLanguage: "en-US",
+      author: "{{ .Params.Author }}",
+      creator: "{{ .Params.Author }}",
+      publisher: "{{ .Params.Author }}",
+      accountablePerson: "{{ .Params.Author }}",
+      copyrightHolder: "{{ .Params.Author }}",
       copyrightYear: "{{ .Date.Format '2006' }}",
-      datePublished: '{{ .Date }}',
-      dateModified: '{{ .Date }}',
-      url: '{{ .Permalink }}',
-      wordCount: '{{ .WordCount }}',
+      datePublished: "{{ .Date }}",
+      dateModified: "{{ .Date }}",
+      url: "{{ .Permalink }}",
+      wordCount: "{{ .WordCount }}",
       keywords:
-        '[ {{ if isset .Params "tags" }}{{ range .Params.tags }}"{{ . }}",{{ end }}{{ end }}"Blog" ]' //todo
+        '[ {{ if isset .Params "tags" }}{{ range .Params.tags }}"{{ . }}",{{ end }}{{ end }}"Blog" ]', //todo
     }
-    const s = document.getElementsByTagName('script')[0]
+    const s = document.getElementsByTagName("script")[0]
     s.parentNode.insertBefore(e, s)
 
     document.body.appendChild(s)
@@ -59,7 +57,6 @@ class Header extends Component {
           <link rel="stylesheet" href="/css/video-js.min.css" />
           <script async type="text/javascript" src="/js/video.min.js" />
         </Helmet>
-        <SearchResults />
         <div id="wrapper">
           <header id="header">
             <ul className="socials-list">
@@ -102,8 +99,6 @@ class Header extends Component {
             >
               <i className="icon-wifi" /> book online
             </Link>
-
-            <SearchBox />
           </header>
         </div>
       </>
