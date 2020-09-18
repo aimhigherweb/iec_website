@@ -2,7 +2,6 @@
 title: Helpful or hype? Blue light filters
 date: 2018-08-07T00:00:00.000Z
 author: Millie Meegan
-author_url: /who-we-are/millie-meegan
 preview_image: /uploads/blue-light-power-button.jpg
 ---
 

@@ -17,12 +17,13 @@ collections:
           widget: "datetime",
           required: false,
         }
-      - { label: "Author", name: "author", widget: "string", required: false }
       - {
-          label: "Author URL",
-          name: "author_url",
-          widget: "string",
-          required: false,
+          label: "Author",
+          name: "author",
+          widget: "relation",
+          collection: "author",
+          searchFields: ["title"],
+          valueField: "title",
         }
       - {
           label: "Preview Image",
@@ -51,9 +52,9 @@ collections:
           required: false,
         }
       - { label: "Body", name: "body", widget: "markdown", required: false }
-  - name: "who-we-are"
+  - name: "author"
     label: "Who We Are"
-    folder: "content/who-we-are"
+    folder: "content/author"
     create: true
     slug: "{{slug}}"
     fields:

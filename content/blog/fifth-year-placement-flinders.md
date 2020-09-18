@@ -1,8 +1,7 @@
 ---
 title: "Katie's student placement at IEC"
 date: 2018-03-17
-author: Katie Schneider
-author_url: 
+author: Millie Meegan
 preview_image: /uploads/katie-preview.jpg
 ---
 

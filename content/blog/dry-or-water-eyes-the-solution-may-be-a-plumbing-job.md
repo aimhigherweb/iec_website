@@ -2,7 +2,6 @@
 title: "Dry or watery eyes? The solution may be a plumbing job"
 date: 2017-08-14
 author: Karl Evans
-author_url: /who-we-are/karl-evans
 preview_image: /uploads/vibe.jpg
 ---
 
