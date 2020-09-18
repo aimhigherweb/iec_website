@@ -1,43 +1,42 @@
 module.exports = {
   siteMetadata: {
     title: `Innovative Eye Care`,
+    siteUrl: `https://www.innovativeeyecare.com.au`,
     description: ``,
-    author: `@sreng-s`
+    author: `Jake Brown`,
   },
   plugins: [
+    `gatsby-plugin-layout`,
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: 'UA-129433065-1',
+        trackingId: "UA-129433065-1",
         head: true,
-        anonymize: false
-      }
+        anonymize: false,
+      },
     },
-    'gatsby-plugin-eslint',
+    "gatsby-plugin-eslint",
     `gatsby-plugin-react-helmet`,
-    {
-      resolve: `gatsby-plugin-nprogress`
-    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: 'pages',
-        path: `${__dirname}/src/pages`
-      }
+        name: `content`,
+        path: `${__dirname}/content`,
+      },
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `static`,
-        path: `${__dirname}/static`
-      }
+        path: `${__dirname}/static`,
+      },
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `content`,
-        path: `${__dirname}/content`
-      }
+        name: `uploads`,
+        path: `${__dirname}/static/uploads`,
+      },
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
@@ -51,38 +50,42 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `static/images/icon-logo03.png` // This path is relative to the root of the site.
-      }
+        icon: `static/images/icon-logo03.png`, // This path is relative to the root of the site.
+      },
     },
     `gatsby-plugin-catch-links`,
     {
-      resolve: 'gatsby-transformer-remark',
+      resolve: "gatsby-transformer-remark",
       options: {
         plugins: [
           {
             resolve: `gatsby-remark-images`,
             options: {
-              maxWidth: 590
-            }
+              maxWidth: 590,
+            },
           },
           {
             resolve: `gatsby-remark-responsive-iframe`,
             options: {
-              wrapperStyle: `margin-bottom: 1.0725rem`
-            }
+              wrapperStyle: `margin-bottom: 1.0725rem`,
+            },
           },
           `gatsby-remark-prismjs`,
           `gatsby-remark-copy-linked-files`,
-          `gatsby-remark-smartypants`
-        ]
-      }
+          `gatsby-remark-smartypants`,
+        ],
+      },
     },
-    `gatsby-plugin-netlify-cms`,
-    `gatsby-plugin-sass`
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
-  ]
+    `gatsby-plugin-sass`,
+    {
+      resolve: `gatsby-plugin-netlify-cms`,
+      options: {},
+    },
+    {
+      resolve: `gatsby-plugin-styled-components`,
+      options: {},
+    },
+  ],
   mapping: {
     "MarkdownRemark.fields.author": `MarkdownRemark`,
   },
