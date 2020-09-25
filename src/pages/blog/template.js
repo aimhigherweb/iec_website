@@ -117,7 +117,10 @@ const RightNav = styled.div`
 
 const Detail = (state, data) => {
   const { markdownRemark } = data
-  const { title, date, author } = markdownRemark.frontmatter
+  const { title, date } = markdownRemark.frontmatter
+  const { author } = markdownRemark.fields
+  const authorTitle = author.frontmatter.title
+  const authorPhoto = author.frontmatter.photo
   const { index, category, articles, articleIndex } = state
 
   console.log(`*** BlogTemplate.Detail... articleIndex=${articleIndex}`)
@@ -163,9 +166,10 @@ const Detail = (state, data) => {
       </LeftNav>
       <LeftPart>
         <CategoryTitle>
-          {date} {author}
+          {date}
+          <br /> {authorTitle}
         </CategoryTitle>
-        <CategoryImage />
+        <CategoryImage src={authorPhoto} />
       </LeftPart>
       <ArticlePart>
         <ArticleTitle>{title}</ArticleTitle>
@@ -226,6 +230,15 @@ export const BlogSingleQuery = graphql`
         preview_image
         date(formatString: "DD MMMM YYYY")
         author
+      }
+      fields {
+        slug
+        author {
+          frontmatter {
+            title
+            photo
+          }
+        }
       }
       id
       html
