@@ -71,8 +71,8 @@
   ],
   "license": "MIT",
   "scripts": {
-    "build": "gatsby build",
-    "start": "gatsby develop",
+    "build": "gatsby clean ; gatsby build",
+    "start": "gatsby clean ; gatsby develop",
     "serve": "gatsby serve -p 8000",
     "clean": "gatsby clean",
     "cy:run": "cypress run",
