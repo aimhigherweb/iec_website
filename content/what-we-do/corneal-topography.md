@@ -1,7 +1,7 @@
 ---
 title: Corneal Topography
 category: advanced-imaging-technology
-preview-image: corneal-topo.png
+preview-image: /uploads/astig-.jpg
 ---
 <div class="employee-heading">
 <p>Integral to our Adelaide and Woodville practices so heavily involved with <a href="/what-we-do/contact-lenses">contact lenses</a>, the topographer maps the shape of our patients' cornea – the transparent front surface of the eye. The term topography refers to capturing the shape and features of land surfaces, and just like mountains, the front surface of our eyes have unique topographical features. It's not only important to assess the shape of the cornea, but also to accurately assess the shape of the surrounding sclera (the white part of the eye). We're equipped with the latest in this mapping technology, investing in three distinct pieces of equipment to achieve this – the <i>Medmont E300</i>, the <i>OCULUS Pentacam AXL Wave</i>, and the <i>Eaglet Eye: Eye Surface Profiler (ESP)</i>.</p>
