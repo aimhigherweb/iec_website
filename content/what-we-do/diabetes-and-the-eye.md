@@ -1,7 +1,7 @@
 ---
 title: Diabetes & The Eye
 category: eye-disease
-preview-image: diabetic_retinopathy.jpg
+preview-image: /uploads/elderly-px.jpg
 ---
 <div class="employee-heading">
 <p>After diabetes has been present for some years, changes may occur at the back of the eye in the retina, known as diabetic retinopathy. Your optometrist may use an instrument called an ophthalmoscope and <a href="what-we-do/retinal-photography">posterior imaging</a> that will clearly show these changes. There are two main types of this condition: non-proliferative (sometimes called background) retinopathy and proliferative retinopathy. The risk of developing retinopathy increases with the length of time you have had diabetes and is also increased when blood glucose levels are not well controlled over time. All diabetics should ensure they visit their optometrist at least every two years for a thorough <a href="/what-we-do/eye-exam">examination</a>.</p>
