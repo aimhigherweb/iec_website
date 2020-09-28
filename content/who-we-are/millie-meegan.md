@@ -1,6 +1,6 @@
 ---
 title: Millie Meegan
-jobtitle: Administration & Patient Care
+jobtitle: Patient Care Administrative Officer
 photo: /uploads/millie.jpg
 skill1: Imaging
 rating1: 100
