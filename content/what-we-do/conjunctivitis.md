@@ -1,7 +1,7 @@
 ---
 title: Conjunctivitis
 category: acute-red-eyes
-preview-image: conjunctivitis.jpg
+preview-image: /uploads/conjunctivitis-preview.jpg
 ---
 <div class="employee-heading">
 <p>Conjunctivitis (commonly called 'pink-eye') occurs through inflammation of the thin transparent layer that lines the inner eyelids and white parts of the eye. This commonly occurs in children but can affect adults. Most cases of conjunctivitis will heal without intervention, but treatment from your optometrist can speed up the recovery and decrease the chance of permanent damage in severe cases. There are three different types of conjunctivitis: infectious, allergic and toxic conjunctivitis.
