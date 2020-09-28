@@ -1,6 +1,7 @@
 ---
 title: Fundus Autofluorescence
 category: advanced-imaging-technology
+preview-image: /uploads/baf-oct.jpg
 ---
 <div class="employee-heading">
 <p>Fundus autofluorescence (FAF) is a non-invasive, high definition scan of the deeper retinal layers at the back of the eye. FAF highlights areas of metabolic stress in detail that is above and beyond that of conventional retinal cameras. 
