@@ -1,7 +1,7 @@
 ---
 title: Eye Test
 category: consultations
-preview-image: consultation-room.jpg
+preview-image: /uploads/consulting-room.png
 ---
 <div class="employee-heading">
 
