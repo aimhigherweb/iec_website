@@ -10,7 +10,7 @@ category: advanced-imaging-technology
 
 This machine uses Scheimpflug imaging to map the front and back surfaces of the cornea as well as its thickness and volume, the anterior chamber conformation and volume, and the anterior lens topography and density. This is a step beyond what most reflection-based [topographers](https://www.innovativeeyecare.com.au/what-we-do/corneal-topography) use, which map only the front corneal surface. Its accuracy as a non-contact alternative independent of tear film quality has been proven in countless clinical trials. For this reason, it’s much better for mapping eyes with [dry eye disease](https://www.innovativeeyecare.com.au/what-we-do/dry-eye-disease).
 
-![](/uploads/corneal-tomography.jpg)
+![](/uploads/scheimpflug-db.jpg)
 
 *Figure 1: Scan of the front and back of the cornea, anterior chamber, front surface of the iris and lens, and eyelids.*
 
