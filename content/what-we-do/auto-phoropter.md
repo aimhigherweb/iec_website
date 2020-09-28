@@ -1,7 +1,7 @@
 ---
 title: Automated Refraction
 category: advanced-imaging-technology
-preview-image: ee4e43c2e44fa8335334d76acda595c42011f491.jpg
+preview-image: /uploads/30e99791d9ccd11df11a37f9446fdee439391556.jpg
 ---
 <div class="employee-heading">
 <p>Gone are the days of wearing an uncomfortable trial frame during your <a href="https://www.innovativeeyecare.com.au/what-we-do/eye-exam">eye exam</a> as your optometrist tugs and prods a myriad of different lenses in front of your eyes! All consulting rooms at Innovative Eye Care now use state-of-the-art Nidek autophoropters to make this process quick and easy. As well as this, our Hutt Street practice is equipped with a state-of-the-art <i>Pentacam AXL Wave</i> and our Woodville practice uses an autorefractor to streamline the process while maintaining the accuracy of your prescription.</p>
