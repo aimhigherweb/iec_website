@@ -1,7 +1,7 @@
 ---
 title: Spectacle Lenses
 category: eyewear-experts
-preview-image: spec_lenses.jpg
+preview-image: /uploads/spectacle-lenses.jpeg
 ---
 
 <div class="employee-heading">
