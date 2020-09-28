@@ -1,6 +1,7 @@
 ---
-title: 'Warm Compresses and Blink Exercises '
+title: "Warm Compresses and Blink Exercises "
 category: Everyday Eye Care
+preview_image: /uploads/blink-training.png
 ---
 <div class="employee-heading"> 
 
@@ -10,24 +11,18 @@ category: Everyday Eye Care
 
 Warm compresses are a bit like brushing your teeth, a little effort everyday will have eye comfort dividends in the long run.
 
-![](/uploads/sdfhhfghs.jpg)
-
-<br>
-
 ### Blink Training
 
 Meibomian glands, found in your upper and lower eyelids, produce oil (lipids) that are essential to  eye health. But the eyes require adequate blinks to express oil from the meibomian glands. 
 
-The lipid  layer is the front line of defence for the eye and ocular surface and stabilizes the tear film, which is  essential to clear vision and comfort. Blinking exercises will result in reduced eye discomfort and
- improved ocular surface health. Impress your optometrist by being diligent; do your exercises as
+The lipid  layer is the front line of defence for the eye and ocular surface and stabilizes the tear film, which is  essential to clear vision and comfort. Blinking exercises will result in reduced eye discomfort and  improved ocular surface health. Impress your optometrist by being diligent; do your exercises as
  prescribed and improvements should be evident at your next appointment.
 
 ![](/uploads/sdkjhfa.jpg)
 
 #### What else can I do?
 
-Think blink! In addition to prescribed blink exercises, consider doing blink  exercises whenever you are in a drying environment and any other times  when your eyes are uncomfortable. Pay attention to blinking whenever you
- are concentrating: working on a computer or smartphone and take a
+Think blink! In addition to prescribed blink exercises, consider doing blink  exercises whenever you are in a drying environment and any other times  when your eyes are uncomfortable. Pay attention to blinking whenever you  are concentrating: working on a computer or smartphone and take a
  moment to do your blink exercises if you start to experience discomfort.
 
 #### Blink Exercise
