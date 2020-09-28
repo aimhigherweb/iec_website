@@ -1,7 +1,7 @@
 ---
 title: Children's Vision
 category: paediatric-vision
-preview-image: child-reading-2.jpg
+preview-image: /uploads/kid-reading.jpeg
 ---
 Innovative Eye Care has optometrists at both our Adelaide and Woodville practices which are passionate about improving children’s vision and providing high quality paediatric eye care.
 
