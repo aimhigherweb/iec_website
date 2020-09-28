@@ -1,7 +1,7 @@
 ---
 title: Hyperopia
 category: refractive-conditions
-preview-image: hyperopia-vision.jpg
+preview-image: /uploads/hyperopia-book.jpeg
 ---
 
 <div class="employee-heading">
