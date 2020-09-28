@@ -1,7 +1,7 @@
 ---
 title: Convergence Insufficiency
 category: paediatric-vision
-preview-image: /uploads/convergence-insuffiicency.jpeg
+preview-image: /uploads/convergence-insufficiency.png
 ---
 <div class="employee-heading">
 <p>Binocular vision disorders are conditions affecting how the eyes work together. Convergence insufficiency is one of the most common disorders of binocular vision.<sup>1</sup> In convergence insufficiency, the eyes struggle to converge, or look inward. It can affect people of all ages, and becomes noticeable when the strain of trying to look inward causes headaches and sore eyes (known as asthenopia) or double vision.</p>
