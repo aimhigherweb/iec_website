@@ -1,7 +1,7 @@
 ---
 title: Macular Degeneration
 category: eye-disease
-preview-image: age-related-macular-degeneration-geographic-atrophy.jpg
+preview-image: /uploads/armd.jpg
 ---
 
 <div class="employee-heading">
