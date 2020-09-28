@@ -1,7 +1,7 @@
 ---
 title: Eyewear Collections
 category: eyewear-experts
-preview-image: prodesign-advertisement.jpg
+preview-image: /uploads/eyewear-collection.png
 ---
 <div class="employee-heading">
 <p><p><strong>Your frame says a lot about you.</strong> That's why we curate our collection for a range of needs and aesthetics. Sourcing global brands for craftsmanship, quality and style,  we hand-pick each frame with you in mind. Choosing the right frame is important.<strong> We want you to smile when you put it on. </strong> For more information on our eyewear expertise, please see the links below</b></p>
