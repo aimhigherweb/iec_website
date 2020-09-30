@@ -1,5 +1,5 @@
 import React, { useState } from "react"
-import { graphql, Link } from "gatsby"
+import { graphql, navigate } from "gatsby"
 import styled from "styled-components"
 
 import { useMatchMedia } from "../../hooks/useMatchMedia"
@@ -96,15 +96,11 @@ const BlogList = (data) => {
     articles: blogArticles.edges,
   })
 
-  const extractFirstDiv = (html) => {
-    const regex = /^<div(.)*>(.)<\/div>/gs
-    const result = regex.exec(html)
-    if (result && result.length > 0) {
-      return result[0]
-    }
+  const articleClicked = (slug, payload) => {
+    navigate(slug, {
+      state: { payload },
+    })
   }
-
-  const articleClicked = (slug, payload) => {}
 
   return (
     <BlogSection>
@@ -127,7 +123,7 @@ const BlogList = (data) => {
           return (
             <ArticleDetail
               key={i}
-              onClick={articleClicked(item.node.fields.slug, payload)}
+              onClick={() => articleClicked(item.node.fields.slug, payload)}
             >
               <ArticleDetailLeft>
                 <ArticleDetailImage src={imageSrc} />
