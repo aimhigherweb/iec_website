@@ -306,7 +306,6 @@ export const query = graphql`
           fields {
             slug
           }
-          html
           excerpt(truncate: true, pruneLength: 250)
         }
       }
@@ -328,7 +327,6 @@ export const query = graphql`
           fields {
             slug
           }
-          html
           excerpt(truncate: true, pruneLength: 250)
         }
       }
@@ -350,7 +348,6 @@ export const query = graphql`
           fields {
             slug
           }
-          html
           excerpt(truncate: true, pruneLength: 250)
         }
       }
@@ -372,7 +369,6 @@ export const query = graphql`
           fields {
             slug
           }
-          html
           excerpt(truncate: true, pruneLength: 250)
         }
       }
@@ -394,7 +390,6 @@ export const query = graphql`
           fields {
             slug
           }
-          html
           excerpt(truncate: true, pruneLength: 250)
         }
       }
@@ -416,7 +411,6 @@ export const query = graphql`
           fields {
             slug
           }
-          html
           excerpt(truncate: true, pruneLength: 250)
         }
       }
@@ -438,7 +432,6 @@ export const query = graphql`
           fields {
             slug
           }
-          html
           excerpt(truncate: true, pruneLength: 250)
         }
       }
@@ -460,7 +453,6 @@ export const query = graphql`
           fields {
             slug
           }
-          html
           excerpt(truncate: true, pruneLength: 250)
         }
       }
@@ -482,7 +474,6 @@ export const query = graphql`
           fields {
             slug
           }
-          html
           excerpt(truncate: true, pruneLength: 250)
         }
       }
@@ -504,7 +495,6 @@ export const query = graphql`
           fields {
             slug
           }
-          html
           excerpt(truncate: true, pruneLength: 250)
         }
       }

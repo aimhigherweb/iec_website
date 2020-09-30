@@ -24,10 +24,12 @@ const BlogTitle = styled.h1`
   text-align: center;
   font-family: "Times New Roman";
   font-size: 2em;
+  border: ${DEBUG_TEAM};
 `
 
 const BlogDescription = styled.div`
-  padding: 20px 40px 0 40px;
+  padding: 8px 40px;
+  margin-bottom: 10px;
   font-size: 0.8em;
   @media (max-width: ${MAX_WIDTH_PX}) {
     padding: 20px 40px;
@@ -41,44 +43,53 @@ const ArticleDetail = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  padding: 10px 40px;
+  padding: 10px 140px;
+  border: ${DEBUG_TEAM};
+`
+const ArticleDetailLeft = styled.div`
+  flex: 3;
+  height: 200px;
   border: ${DEBUG_TEAM};
 `
 const ArticleDetailImage = styled.img`
-  display: block;
-  width: 32px;
-  height: 32px;
-  margin-right: 20px;
-  border-radius: 50%;
+  width: 100%;
+  height: 100%;
   object-fit: cover;
-  filter: ${(props) => (props.chosen ? "none" : "grayscale(1)")};
-  &:hover {
-    filter: ${(props) => (props.chosen ? "none" : "none")};
-  }
   @media (max-width: ${MAX_WIDTH_PX}) {
-    width: 50px;
-    height: 50px;
   }
   border: ${DEBUG_TEAM};
 `
-const ArticleDetailText = styled.div`
-  flex: 1;
+const ArticleDetailRight = styled.div`
+  flex: 4;
+  padding: 20px;
+  background-color: #f2f2f2;
   @media (max-width: ${MAX_WIDTH_PX}) {
     flex-basis: 50%;
   }
   border: ${DEBUG_TEAM};
 `
+const ArticleDetailText = styled.div`
+  border: ${DEBUG_TEAM};
+`
+const ArticleDetailTextDate = styled.p`
+  font-size: 0.6em;
+  color: #424242;
+  @media (max-width: ${MAX_WIDTH_PX}) {
+    font-size: 0.5em;
+  }
+  border: ${DEBUG_TEAM};
+`
 const ArticleDetailTextTitle = styled.p`
-  font-size: 0.8em;
+  font-size: 0.7em;
   font-weight: 600;
-  text-transform: uppercase;
   @media (max-width: ${MAX_WIDTH_PX}) {
     font-size: 0.6em;
   }
   border: ${DEBUG_TEAM};
 `
 const ArticleDetailTextDesc = styled.div`
-  font-size: 0.8em;
+  font-size: 0.7em;
+  color: #525252;
   border: ${DEBUG_TEAM};
 `
 
@@ -96,6 +107,8 @@ const BlogList = (data) => {
       return result[0]
     }
   }
+
+  const articleClicked = (slug, payload) => {}
 
   return (
     <BlogSection>
@@ -116,20 +129,28 @@ const BlogList = (data) => {
           payload["articleIndex"] = i
 
           return (
-            <ArticleDetail key={i}>
-              <ArticleDetailImage src={imageSrc} />
-              <ArticleDetailText>
-                <Link to={item.node.fields.slug} state={payload}>
+            <ArticleDetail
+              key={i}
+              onClick={articleClicked(item.node.fields.slug, payload)}
+            >
+              <ArticleDetailLeft>
+                <ArticleDetailImage src={imageSrc} />
+              </ArticleDetailLeft>
+              <ArticleDetailRight>
+                <ArticleDetailTextDate>
+                  {item.node.frontmatter.date}
+                </ArticleDetailTextDate>
+                <ArticleDetailText>
                   <ArticleDetailTextTitle>
                     {item.node.frontmatter.title}
                   </ArticleDetailTextTitle>
-                </Link>
-                <ArticleDetailTextDesc
-                  dangerouslySetInnerHTML={{
-                    __html: extractFirstDiv(item.node.html),
-                  }}
-                />
-              </ArticleDetailText>
+                  <ArticleDetailTextDesc
+                    dangerouslySetInnerHTML={{
+                      __html: item.node.excerpt,
+                    }}
+                  />
+                </ArticleDetailText>
+              </ArticleDetailRight>
             </ArticleDetail>
           )
         })}
@@ -180,7 +201,6 @@ export const query = graphql`
           fields {
             slug
           }
-          html
           excerpt(truncate: true, pruneLength: 250)
         }
       }
