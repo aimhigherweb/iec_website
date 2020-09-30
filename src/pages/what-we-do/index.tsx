@@ -175,10 +175,10 @@ const What = (data) => {
   })
 
   const extractFirstDiv = (html) => {
-    const regex = /^<div(.)*>(.)<\/div>/gs
+    const regex = /^<div[ \w\d="-]+>(.)+<\/div>/gs
     const result = regex.exec(html)
     if (result && result.length > 0) {
-      return result[0]
+      return `${result[0].substring(0, 300)} ...`
     }
   }
 
@@ -241,7 +241,8 @@ const What = (data) => {
       {current &&
         current.articles &&
         current.articles.map((item, i) => {
-          const imageSrc = `/uploads/${item.node.frontmatter.preview_image}`
+          const previewImage = item.node.frontmatter.preview_image
+          const imageSrc = previewImage ? `/uploads/${previewImage}` : " "
           const payload = { ...current }
           payload["category"] = whatWeDoCategories[current.index]
           payload["articleIndex"] = i
@@ -376,6 +377,7 @@ export const query = graphql`
           fields {
             slug
           }
+          html
         }
       }
     }
