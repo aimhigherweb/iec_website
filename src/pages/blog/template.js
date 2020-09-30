@@ -13,6 +13,18 @@ const DEBUG_TEAM = "0px solid blue"
 const MAX_WIDTH = 768
 const MAX_WIDTH_PX = `${MAX_WIDTH}px`
 
+const TopHeader = styled.div`
+  height: 400px;
+  @media (max-width: ${MAX_WIDTH_PX}) {
+  }
+  border: ${DEBUG_TEAM};
+`
+const TopHeaderImage = styled.img`
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+`
+
 const DetailSection = styled.div`
   display: flex;
   padding: 40px 0 40px 0;
@@ -48,10 +60,10 @@ const LeftPart = styled.div`
 `
 const CategoryTitle = styled.div`
   margin-top: 20px;
-  font-size: 0.8em;
+  font-size: 0.7em;
   font-weight: 600;
   @media (max-width: ${MAX_WIDTH_PX}) {
-    font-size: 1.2em;
+    font-size: 0.8em;
   }
   border: ${DEBUG_TEAM};
 `
@@ -64,12 +76,13 @@ const CategoryImage = styled.img`
   border-radius: 50%;
   padding: 8px;
   object-fit: cover;
+  background-color: #f2f2f2;
   @media (max-width: ${MAX_WIDTH_PX}) {
     width: 96px;
     height: 96px;
   }
   border: ${DEBUG_TEAM};
-  border: 1px solid #424242;
+  border: 1px solid #f2f2f2;
 `
 
 const ArticlePart = styled.div`
@@ -122,7 +135,7 @@ const Detail = (state, data) => {
   }
 
   const { markdownRemark } = data
-  const { title, date } = markdownRemark.frontmatter
+  const { preview_image, title, date } = markdownRemark.frontmatter
   const { author } = markdownRemark.fields
   const authorTitle = author.frontmatter.title
   const authorPhoto = author.frontmatter.photo
@@ -161,48 +174,58 @@ const Detail = (state, data) => {
   }
 
   return (
-    <DetailSection>
-      <LeftNav>
-        {prevFinalArticle && (
-          <Link to={prevFinalArticle.slug} state={prevFinalArticle.payload}>
-            <NavArrowImage src="/images2/icon-arrow-left.png" />
-          </Link>
-        )}
-      </LeftNav>
-      <LeftPart>
-        <CategoryTitle>
-          {date}
-          <br /> {authorTitle}
-        </CategoryTitle>
-        <CategoryImage src={authorPhoto} />
-      </LeftPart>
-      <ArticlePart>
-        <ArticleTitle>{title}</ArticleTitle>
-        <div dangerouslySetInnerHTML={{ __html: markdownRemark.html }} />
-      </ArticlePart>
-      <RightPart>
-        {finalArticles.map((finalArticle, i) => {
-          if (articleIndex === i) {
-            return (
-              <ItemTitleCurrent key={i}>{finalArticle.title}</ItemTitleCurrent>
-            )
-          } else {
-            return (
-              <Link to={finalArticle.slug} state={finalArticle.payload} key={i}>
-                <ItemTitle>{finalArticle.title}</ItemTitle>
-              </Link>
-            )
-          }
-        })}
-      </RightPart>
-      <RightNav>
-        {nextFinalArticle && (
-          <Link to={nextFinalArticle.slug} state={nextFinalArticle.payload}>
-            <NavArrowImage src="/images2/icon-arrow-right.png" />
-          </Link>
-        )}
-      </RightNav>
-    </DetailSection>
+    <div>
+      <TopHeader>
+        <TopHeaderImage src={preview_image}></TopHeaderImage>
+      </TopHeader>
+
+      <DetailSection>
+        <LeftNav>
+          {prevFinalArticle && (
+            <Link to={prevFinalArticle.slug} state={prevFinalArticle.payload}>
+              <NavArrowImage src="/images2/icon-arrow-left.png" />
+            </Link>
+          )}
+        </LeftNav>
+        <LeftPart>
+          <CategoryTitle>{date}</CategoryTitle>
+          <CategoryImage src={authorPhoto} />
+          <CategoryTitle>by {authorTitle}</CategoryTitle>
+        </LeftPart>
+        <ArticlePart>
+          <ArticleTitle>{title}</ArticleTitle>
+          <div dangerouslySetInnerHTML={{ __html: markdownRemark.html }} />
+        </ArticlePart>
+        <RightPart>
+          {finalArticles.map((finalArticle, i) => {
+            if (articleIndex === i) {
+              return (
+                <ItemTitleCurrent key={i}>
+                  {finalArticle.title}
+                </ItemTitleCurrent>
+              )
+            } else {
+              return (
+                <Link
+                  to={finalArticle.slug}
+                  state={finalArticle.payload}
+                  key={i}
+                >
+                  <ItemTitle>{finalArticle.title}</ItemTitle>
+                </Link>
+              )
+            }
+          })}
+        </RightPart>
+        <RightNav>
+          {nextFinalArticle && (
+            <Link to={nextFinalArticle.slug} state={nextFinalArticle.payload}>
+              <NavArrowImage src="/images2/icon-arrow-right.png" />
+            </Link>
+          )}
+        </RightNav>
+      </DetailSection>
+    </div>
   )
 }
 
@@ -233,7 +256,7 @@ export const BlogSingleQuery = graphql`
       frontmatter {
         title
         preview_image
-        date(formatString: "DD MMMM YYYY")
+        date(formatString: "DD/MM/YYYY")
         author
       }
       fields {
