@@ -6,7 +6,9 @@ import { useMatchMedia } from "../hooks/useMatchMedia"
 
 const CustomWrapper = ({ children }) => {
   const { path } = children.props
-  const match = useMatchMedia({ width: 768 })
+  const match = useMatchMedia({
+    width: 768,
+  })
 
   // const [navList, setNavList] = useState(null)
   // const [navStyle, setNavStyle] = useState(null)
@@ -45,12 +47,12 @@ const CustomWrapper = ({ children }) => {
     //checkNavList()
   }, [match, path])
 
+  //<div style={navStyle}>
+  //  {navList}
+
   return (
     <SessionWrapper>
-      <div style={navStyle}>
-        {navList}
-        {children}
-      </div>
+      <div>{children}</div>
     </SessionWrapper>
   )
 }
