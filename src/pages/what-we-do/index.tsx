@@ -4,7 +4,8 @@ import styled from "styled-components"
 
 import { useMatchMedia } from "../../hooks/useMatchMedia"
 import { Main } from "../../components/Main"
-import { Footer } from "../../components/Footer"
+import Layout from "../../components/Layout/Layout"
+import { Footer } from "../../components/Layout/Footer"
 
 //----------------------------------------------------------
 //-- Section 1: What
