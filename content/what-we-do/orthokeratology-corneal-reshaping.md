@@ -59,7 +59,7 @@ You must have a healthy cornea that is free of disease to wear ortho-K lenses. T
 
 #### Ortho-K for myopia control
 
-Research shows a 32%-100% slowing in the rate of myopia progression through using ortho-K; most reports suggest a 70% average. Results in our practice and others in Australasia show complete halting of myopia progression in some patients.
+Research shows a 32%-100% slowing in the rate of myopia progression through using ortho-K; most reports suggest a 70% average.<sup>4, 5</sup> Results in our practice and others in Australasia show complete halting of myopia progression in some patients.
 
 When myopic eyes are corrected with conventional spectacles and contact lenses, light entering the eye centrally will focus at the retina; however, light entering off centre will focus behind the retina. This is thought to stimulate lengthening at the back of the eye as the retina tries to reach the focal point behind the eye, worsening the condition. This can lead to a number of problems later in life, including an increased risk of [retinal detachment](/what-we-do/flashes-floaters-retinal-tear-detachment) and [glaucoma](/what-we-do/glaucoma).
 
@@ -96,4 +96,6 @@ Your optometrist will make changes to this lens until it looks optimal in the si
 
 1. Bullimore, M. A. Johnson, L. A. (2020). "Overnight Orthokeratology". Cont Lens Anterior Eye. 43(4): 322-332.
 2. Liu, Y. M. Xie, P. (2016). "The safety of orthokeratology - A systematic review". Eye and Contact lens. 42: 35-42. 
-3. Bullimore, M. a. Sinnott, L. T. Jones-Jordan, L. A. (2013). "The risk of microbial keratitis with overnight corneal reshaping lenses". Optometry and Vision Science. 90(9): 937-944.
+3. Bullimore, M. a. Sinnott, L. T. Jones-Jordan, L. A. (2013). "The risk of microbial keratitis with overnight corneal reshaping lenses". Optometry and Vision Science. 90(9): 937-944.  
+4. Hiraoka, T. Kahita, T. Okamoto, F. Takahashi, H. Oshika, T. (2012). "Long-term effect of overnight orthokeratology on axial length elongation in childhood myopia: A 5-year follow-up study." Investigative ophthalmology and visual science. 53(7): 3913-3919. 
+5. Bullimore, M. Richdale, K. (2020). "Myopia control 2020: where are we and where are we heading?"Ophthalmic and physiological optics. 40(3): 254-270.
