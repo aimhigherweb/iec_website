@@ -43,7 +43,7 @@ Overnight contact lenses are a great option for many people: the idea of not wea
 
 In short, ortho-K works best for people who don't want to or are unable to wear glasses or contact lenses all day, but don't mind wearing contact lenses while they sleep. [Children and teenagers](/what-we-do/childrens-vision) especially can benefit from the freedom to play sports and wear sunglasses. This also means contact lenses or spectacles will not be left or lost at school or sport. Ortho-K can be an excellent option for those with youth-onset myopia in being able to [slow and even halt its progression](/what-we-do/myopia-control).
 
-Ortho-K is also completely reversible and completely safe for both adults and children. While you might expect children to be at an increased risk of infection from ortho-K wear, there is no significant difference between the groups. The chance of orthokeratology-related microbial keratitis from wearing overnight these lenses is only 13 in 10,000 wearing years, as compared to 25 in 10,000 wearing years for overnight soft contact lens wear.
+Ortho-K is also completely reversible and safe for both adults and children.<sup>2, 3</sup> While you might expect children to be at an increased risk of infection from ortho-K wear, there is no significant difference between the groups.<sup>3</sup> 
 
 #### Will ortho-K work for me?
 
