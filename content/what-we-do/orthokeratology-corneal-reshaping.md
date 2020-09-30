@@ -49,7 +49,7 @@ Ortho-K is also completely reversible and completely safe for both adults and ch
 
 Ortho-K is ideal for children and adults with these prescriptions:
 
-* \-1.00 up to -8.00 dipotres of myopia and above
+* \-1.00 up to -6.00 dipotres of myopia and above
 * +1.00 to +4.00 dipotres of hyperopia
 * Up to moderate (-4.00 dipotres) of astigmatism
 
