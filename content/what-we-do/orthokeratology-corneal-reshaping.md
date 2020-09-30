@@ -1,5 +1,5 @@
 ---
-title: 'Ortho-K: Corneal Reshaping'
+title: "Ortho-K: Corneal Reshaping"
 category: orthok
 preview-image: ml-1.jpg
 ---
@@ -15,7 +15,7 @@ preview-image: ml-1.jpg
 
 # Ortho-what? Orthokeratology!
 
-<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\[if IE]><iframe frameborder="0" type="text/html" src="https://2689-2347.captiv8online.com/animations/embed/one/o-t-o-o-t-o?player_width=100%&player_height=100%&site_company_language=34&autostart=false" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\[endif]--><!--\[if !IE]> <--><object data="https://2689-2347.captiv8online.com/animations/embed/one/o-t-o-o-t-o?player_width=100%&player_height=100%&site_company_language=34&autostart=false" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://2689-2347.captiv8online.com/animations/embed/one/o-t-o-o-t-o?player_width=100%&player_height=100%&site_company_language=34&autostart=false">Ortho-K</a></object><!--> <!\[endif]--></div>
+<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\\[if IE]><iframe frameborder="0" type="text/html" src="https://2689-2347.captiv8online.com/animations/embed/one/o-t-o-o-t-o?player_width=100%&player_height=100%&site_company_language=34&autostart=false" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\\[endif]--><!--\\[if !IE]> <--><object data="https://2689-2347.captiv8online.com/animations/embed/one/o-t-o-o-t-o?player_width=100%&player_height=100%&site_company_language=34&autostart=false" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://2689-2347.captiv8online.com/animations/embed/one/o-t-o-o-t-o?player_width=100%&player_height=100%&site_company_language=34&autostart=false">Ortho-K</a></object><!--> <!\\[endif]--></div>
 
 <br>
 
@@ -31,7 +31,7 @@ The individual lenses are designed to mold the front surface of your eye as you 
 
 Improvements in vision can usually be seen the very next day. The effect stabilises after approximately one week. With high minus powers (myopia over -6.00D), stabilisation can take two to four weeks. As ortho-K does not make permanent changes, your eyes will revert to their former state within one to four weeks if you stop wearing the lenses. 
 
-Ortho-K lenses are surprisingly comfortable. Most people comment that they forget they have lenses in after the first week. The risks of wearing ortho-K lenses are no higher than any other contacts. Of course, [proper care](/patient-resources/care-of-gas-permeable-lenses) is important to minimise the risk of allergies and bacterial infections from poor hygiene. 
+Ortho-K lenses are surprisingly comfortable. Most people comment that they forget they have lenses in after the first week. The risks of wearing ortho-K lenses are no higher than any other contact lens. Of course, [proper care](/patient-resources/care-of-gas-permeable-lenses) is important to minimise the risk of allergies and bacterial infections from poor hygiene. 
 
 ![](/uploads/ortho-k-1.jpeg)
 
@@ -75,8 +75,7 @@ Today at Innovative Eye Care we fit just as many patients into hyperopic ortho-K
 
 We custom-design our ortho-K lenses with cutting-edge software program [EyeSpace](http://www.eyespace.com.au/) by Innovatus Technology. This gives us the highest levels of accuracy for the greatest chance of success when fitting your lenses. Our bespoke designs can correct high astigmatism, presbyopia and post-LASIK (refractive surgery) with residual myopia or irregular treatment areas. If you want to find out more about ortho-K for your eyes, please [book an appointment with us](/contact).
 
-![](/uploads/myopic-ok-lens.jpg)
-_A well-fitting myopic ortho-K lens_
+![](/uploads/myopic-ok-lens.jpg) *A well-fitting myopic ortho-K lens*
 
 #### Lens design
 
@@ -86,10 +85,9 @@ At your initial appointment we will take a range of measurements in each eye. Th
 
 Your optometrist will make changes to this lens until it looks optimal in the simulation before ordering. This simulation process means that more complex prescriptions can be treated with ortho-K, and provides the greatest chance of successful lenses with fewer fitting appointments and lens changes. 
 
-**Our optometrist Lachlan Hoy played a key role in forging EyeSpace, which is now used by contact lens practitioners across the world including Australia, the US, New Zealand and South Africa. EyeSpace customises each lens to your prescription and eye shape to a degree of accuracy smaller than one micron. **
+**Our optometrist Lachlan Hoy played a key role in forging EyeSpace, which is now used by contact lens practitioners across the world including Australia, the US, New Zealand and South Africa. EyeSpace customises each lens to your prescription and eye shape to a degree of accuracy smaller than one micron.** 
 
-![](/uploads/orthok-3d-topography.jpg)
-_Corneal topographies taken before myopic ortho-K treatment (left) and after (right). Exaggerated 3D representation. Central area inside the red-ring has been flattened, correcting the short-sightedness._
+![](/uploads/orthok-3d-topography.jpg) *Corneal topographies taken before myopic ortho-K treatment (left) and after (right). Exaggerated 3D representation. Central area inside the red-ring has been flattened, correcting the short-sightedness.*
 
-<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\[if IE]><iframe frameborder="0" type="text/html" src="https://www.youtube.com/embed/DijzbyHLSKo?player_width=100%&player_height=100%&site_company_language=34&autostart=false" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\[endif]--><!--\[if !IE]> <--><object data="https://www.youtube.com/embed/DijzbyHLSKo?player_width=100%&player_height=100%&site_company_language=34&autostart=false" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://www.youtube.com/embed/DijzbyHLSKo?player_width=100%&player_height=100%&site_company_language=34&autostart=false">Today Tonight Orthokeratology</a></object><!--> <!\[endif]--></div>
-*A news story on Today Tonight from 2012 about ortho-K, featuring one of our previous optometrists Shonit Jagmohan.*
+<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\\[if IE]><iframe frameborder="0" type="text/html" src="https://www.youtube.com/embed/DijzbyHLSKo?player_width=100%&player_height=100%&site_company_language=34&autostart=false" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\\[endif]--><!--\\[if !IE]> <--><object data="https://www.youtube.com/embed/DijzbyHLSKo?player_width=100%&player_height=100%&site_company_language=34&autostart=false" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://www.youtube.com/embed/DijzbyHLSKo?player_width=100%&player_height=100%&site_company_language=34&autostart=false">Today Tonight Orthokeratology</a></object><!--> <!\\[endif]--></div>
+\*A news story on Today Tonight from 2012 about ortho-K, featuring one of our previous optometrists Shonit Jagmohan.\*
