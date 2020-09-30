@@ -63,13 +63,13 @@ Research shows a 32%-100% slowing in the rate of myopia progression through usin
 
 When myopic eyes are corrected with conventional spectacles and contact lenses, light entering the eye centrally will focus on the retina; however, light entering off centre will focus behind the retina. This is thought to stimulate lengthening at the back of the eye as the retina tries to reach the focal point behind the eye, worsening the condition. This can lead to a number of problems later in life, including an increased risk of [retinal detachment](/what-we-do/flashes-floaters-retinal-tear-detachment) and [glaucoma](/what-we-do/glaucoma).
 
-Ortho-K lenses can slow this growth by changing the shape of the eye surface, allowing central light to focus accurately at the retina and off-centre light to focus in front of the retina. The retina will no longer attempt to elongate. 
+Ortho-K lenses can slow this growth by changing the shape of the eye surface, allowing central light to focus accurately at the retina and off-center light to focus in front of the retina. The retina will no longer attempt to elongate. 
 
 #### Ortho-K for hyperopia control
 
 Hyperopic ortho-K has generated far less interest from researchers, contact lens manufacturers and optometrists compared to myopic ortho-K. The first hyperopic ortho-K lenses involved steep-fitting rigid contact lenses to induce central corneal steepening, and was first described by Jessen in 1962. In more recent times, the use of high oxygen-permeable materials and newer designs have sparked a new interest in hyperopic ortho-K.
 
-Today at Innovative Eye Care we fit just as many patients into hyperopic ortho-K lenses as myopic. For more information about contact lens options forhyperopes click [here](/what-we-do/hyperopia).
+Today at Innovative Eye Care we fit just as many patients into hyperopic ortho-K lenses as myopic. For more information about contact lens options for hyperopes click [here](/what-we-do/hyperopia).
 
 ### We're always finding new solutions!
 
