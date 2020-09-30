@@ -15,7 +15,7 @@ preview-image: ml-1.jpg
 
 # Ortho-what? Orthokeratology!
 
-<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\\\\[if IE]><iframe frameborder="0" type="text/html" src="https://2689-2347.captiv8online.com/animations/embed/one/o-t-o-o-t-o?player_width=100%&player_height=100%&site_company_language=34&autostart=false" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\\\\[endif]--><!--\\\\[if !IE]> <--><object data="https://2689-2347.captiv8online.com/animations/embed/one/o-t-o-o-t-o?player_width=100%&player_height=100%&site_company_language=34&autostart=false" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://2689-2347.captiv8online.com/animations/embed/one/o-t-o-o-t-o?player_width=100%&player_height=100%&site_company_language=34&autostart=false">Ortho-K</a></object><!--> <!\\\\[endif]--></div>
+<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\\\\\[if IE]><iframe frameborder="0" type="text/html" src="https://2689-2347.captiv8online.com/animations/embed/one/o-t-o-o-t-o?player_width=100%&player_height=100%&site_company_language=34&autostart=false" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\\\\\[endif]--><!--\\\\\[if !IE]> <--><object data="https://2689-2347.captiv8online.com/animations/embed/one/o-t-o-o-t-o?player_width=100%&player_height=100%&site_company_language=34&autostart=false" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://2689-2347.captiv8online.com/animations/embed/one/o-t-o-o-t-o?player_width=100%&player_height=100%&site_company_language=34&autostart=false">Ortho-K</a></object><!--> <!\\\\\[endif]--></div>
 
 <br>
 
@@ -63,7 +63,7 @@ Research shows a 32%-100% slowing in the rate of myopia progression through usin
 
 When myopic eyes are corrected with conventional spectacles and contact lenses, light entering the eye centrally will focus on the retina; however, light entering off centre will focus behind the retina. This is thought to stimulate lengthening at the back of the eye as the retina tries to reach the focal point behind the eye, worsening the condition. This can lead to a number of problems later in life, including an increased risk of [retinal detachment](/what-we-do/flashes-floaters-retinal-tear-detachment) and [glaucoma](/what-we-do/glaucoma).
 
-Ortho-K lenses can slow this growth by changing the shape of the eye surface, allowing central light to focus accurately at the retina and off-centre light to focus in front of the retina. The retina will no longer attempt to elongate. For more information about contact lens options for over 40 year olds click [here](/what-we-do/myopia).
+Ortho-K lenses can slow this growth by changing the shape of the eye surface, allowing central light to focus accurately at the retina and off-centre light to focus in front of the retina. The retina will no longer attempt to elongate. 
 
 #### Ortho-K for hyperopia control
 
@@ -89,8 +89,8 @@ Your optometrist will make changes to this lens until it looks optimal in the si
 
 ![](/uploads/orthok-3d-topography.jpg) *Corneal topographies taken before myopic ortho-K treatment (left) and after (right). Exaggerated 3D representation. Central area inside the red-ring has been flattened, correcting the short-sightedness.*
 
-<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\\\\[if IE]><iframe frameborder="0" type="text/html" src="https://www.youtube.com/embed/DijzbyHLSKo?player_width=100%&player_height=100%&site_company_language=34&autostart=false" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\\\\[endif]--><!--\\\\[if !IE]> <--><object data="https://www.youtube.com/embed/DijzbyHLSKo?player_width=100%&player_height=100%&site_company_language=34&autostart=false" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://www.youtube.com/embed/DijzbyHLSKo?player_width=100%&player_height=100%&site_company_language=34&autostart=false">Today Tonight Orthokeratology</a></object><!--> <!\\\\[endif]--></div>
-\\\*A news story on Today Tonight from 2012 about ortho-K, featuring one of our previous optometrists Shonit Jagmohan.\\\*
+<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\\\\\[if IE]><iframe frameborder="0" type="text/html" src="https://www.youtube.com/embed/DijzbyHLSKo?player_width=100%&player_height=100%&site_company_language=34&autostart=false" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\\\\\[endif]--><!--\\\\\[if !IE]> <--><object data="https://www.youtube.com/embed/DijzbyHLSKo?player_width=100%&player_height=100%&site_company_language=34&autostart=false" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://www.youtube.com/embed/DijzbyHLSKo?player_width=100%&player_height=100%&site_company_language=34&autostart=false">Today Tonight Orthokeratology</a></object><!--> <!\\\\\[endif]--></div>
+\\\\*A news story on Today Tonight from 2012 about ortho-K, featuring one of our previous optometrists Shonit Jagmohan.\\\\*
 
 #### References
 
