@@ -32,9 +32,6 @@ const BlogDescription = styled.div`
   margin-bottom: 10px;
   font-size: 0.8em;
   @media (max-width: ${MAX_WIDTH_PX}) {
-    padding: 20px 40px;
-    text-align: justify;
-    font-size: 1em;
   }
   border: ${DEBUG_TEAM};
 `
@@ -48,7 +45,6 @@ const ArticleDetail = styled.div`
 `
 const ArticleDetailLeft = styled.div`
   flex: 3;
-  height: 200px;
   border: ${DEBUG_TEAM};
 `
 const ArticleDetailImage = styled.img`
