@@ -41,6 +41,7 @@ const PatientResService = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  align-items: stretch;
   margin-bottom: 20px;
   padding: 40px 40px;
   border: ${DEBUG_TEAM};
@@ -48,7 +49,6 @@ const PatientResService = styled.div`
 const PatientResServiceItem = styled.div`
   flex: 1;
   flex-basis: 20%;
-  padding: 16px 0;
   @media (max-width: ${MAX_WIDTH_PX}) {
     flex-basis: 50%;
   }
@@ -56,6 +56,7 @@ const PatientResServiceItem = styled.div`
   border: 1px solid black;
 `
 const PatientResServiceTitle = styled.p`
+  margin: 8px;
   font-size: 0.7em;
   font-weight: 600;
   text-align: center;
@@ -64,6 +65,7 @@ const PatientResServiceTitle = styled.p`
     font-size: 0.7em;
   }
   color: ${(props) => (props.chosen ? "white" : "black")};
+  border: ${DEBUG_TEAM};
 `
 
 const ServiceDetail = styled.div`
@@ -114,7 +116,7 @@ const ServiceDetailTextDesc = styled.div`
 const Patient = (data) => {
   const patientResCategories = [
     {
-      title: "Content Lens Instructions",
+      title: "Contact Lens Instructions",
     },
     {
       title: "Vision Training",
