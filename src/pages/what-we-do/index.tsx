@@ -174,14 +174,6 @@ const What = (data) => {
     articles: eyewearExperts.edges,
   })
 
-  const extractFirstDiv = (html) => {
-    const regex = /^<div[ \w\d="-]+>(.)+<\/div>/gs
-    const result = regex.exec(html)
-    if (result && result.length > 0) {
-      return `${result[0].substring(0, 300)} ...`
-    }
-  }
-
   const categoryClick = (index) => {
     if (index === 0) {
       setCurrent({ index: 0, articles: eyewearExperts.edges })
@@ -258,7 +250,7 @@ const What = (data) => {
                 </Link>
                 <ServiceDetailTextDesc
                   dangerouslySetInnerHTML={{
-                    __html: extractFirstDiv(item.node.html),
+                    __html: item.node.excerpt,
                   }}
                 />
               </ServiceDetailText>
@@ -315,6 +307,7 @@ export const query = graphql`
             slug
           }
           html
+          excerpt(truncate: true, pruneLength: 250)
         }
       }
     }
@@ -336,6 +329,7 @@ export const query = graphql`
             slug
           }
           html
+          excerpt(truncate: true, pruneLength: 250)
         }
       }
     }
@@ -357,6 +351,7 @@ export const query = graphql`
             slug
           }
           html
+          excerpt(truncate: true, pruneLength: 250)
         }
       }
     }
@@ -378,6 +373,7 @@ export const query = graphql`
             slug
           }
           html
+          excerpt(truncate: true, pruneLength: 250)
         }
       }
     }
@@ -399,6 +395,7 @@ export const query = graphql`
             slug
           }
           html
+          excerpt(truncate: true, pruneLength: 250)
         }
       }
     }
@@ -420,6 +417,7 @@ export const query = graphql`
             slug
           }
           html
+          excerpt(truncate: true, pruneLength: 250)
         }
       }
     }
@@ -441,6 +439,7 @@ export const query = graphql`
             slug
           }
           html
+          excerpt(truncate: true, pruneLength: 250)
         }
       }
     }
@@ -462,6 +461,7 @@ export const query = graphql`
             slug
           }
           html
+          excerpt(truncate: true, pruneLength: 250)
         }
       }
     }
@@ -483,6 +483,7 @@ export const query = graphql`
             slug
           }
           html
+          excerpt(truncate: true, pruneLength: 250)
         }
       }
     }
@@ -504,6 +505,7 @@ export const query = graphql`
             slug
           }
           html
+          excerpt(truncate: true, pruneLength: 250)
         }
       }
     }
