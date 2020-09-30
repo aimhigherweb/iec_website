@@ -116,6 +116,11 @@ const RightNav = styled.div`
 `
 
 const Detail = (state, data) => {
+  if (!state) {
+    console.log(`*** PatientResTemplate.Detail... NO STATE`)
+    return <div>NO STATE</div>
+  }
+
   const { markdownRemark } = data
   const { title } = markdownRemark.frontmatter
   const { index, category, articles, articleIndex } = state

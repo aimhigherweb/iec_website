@@ -283,11 +283,11 @@ const WhatWeDo: React.FC = (props) => {
   })
   console.log(`*** WhatWeDo.RENDER... match=${match}`)
   return (
-    <Container>
+    <Layout>
       {Main(false, "/videos/what-we-do.mp4")}
       {What(props.data)}
       {Footer()}
-    </Container>
+    </Layout>
   )
 }
 

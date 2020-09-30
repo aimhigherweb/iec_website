@@ -9,6 +9,10 @@ import OnlineBooking from "../../components/OnlineBooking"
 import Img from "gatsby-image"
 
 export default function (props) {
+  if (!props.data) {
+    console.log(`*** WhoWeAreTemplate.Detail... NO STATE`)
+    return <div>NO STATE</div>
+  }
   const { introBGImage, markdownRemark } = props.data
 
   return (
