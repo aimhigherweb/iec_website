@@ -44,39 +44,26 @@ const PatientResService = styled.div`
   margin-bottom: 20px;
   padding: 40px 40px;
   border: ${DEBUG_TEAM};
-  border-bottom: 1px solid #424242;
 `
 const PatientResServiceItem = styled.div`
   flex: 1;
   flex-basis: 20%;
+  padding: 16px 0;
   @media (max-width: ${MAX_WIDTH_PX}) {
     flex-basis: 50%;
   }
-  border: ${DEBUG_TEAM};
-`
-const PatientResServiceImage = styled.img`
-  display: block;
-  width: auto;
-  height: 24px;
-  margin: 16px auto;
-  @media (max-width: ${MAX_WIDTH_PX}) {
-    height: 50px;
-  }
-  border: ${DEBUG_TEAM};
+  background-color: ${(props) => (props.chosen ? "black" : "white")};
+  border: 1px solid black;
 `
 const PatientResServiceTitle = styled.p`
-  font-size: 0.5em;
+  font-size: 0.7em;
   font-weight: 600;
   text-align: center;
   text-transform: uppercase;
   @media (max-width: ${MAX_WIDTH_PX}) {
     font-size: 0.7em;
   }
-  color: ${(props) => (props.chosen ? "#5091cd" : "black")};
-  &:hover {
-    color: ${(props) => (props.chosen ? "#5091cd" : "#5091cd")};
-  }
-  border: ${DEBUG_TEAM};
+  color: ${(props) => (props.chosen ? "white" : "black")};
 `
 
 const ServiceDetail = styled.div`
@@ -128,15 +115,12 @@ const Patient = (data) => {
   const patientResCategories = [
     {
       title: "Content Lens Instructions",
-      image: "/images2/service-eye-consultations.png",
     },
     {
       title: "Vision Training",
-      image: "/images2/service-eyewear-experts.png",
     },
     {
       title: "Everyday Eye Care",
-      image: "/images2/service-bespoke-contact-lenses.png",
     },
   ]
 
@@ -193,11 +177,14 @@ const Patient = (data) => {
       <PatientResService>
         {patientResCategories &&
           patientResCategories.map((category, i) => {
-            const imageSrc = category.image
+            const chosen = current.index === i
             return (
-              <PatientResServiceItem key={i} onClick={() => categoryClick(i)}>
-                <PatientResServiceImage src={imageSrc} />
-                <PatientResServiceTitle chosen={current.index === i}>
+              <PatientResServiceItem
+                key={i}
+                onClick={() => categoryClick(i)}
+                chosen={chosen}
+              >
+                <PatientResServiceTitle chosen={chosen}>
                   {category.title}
                 </PatientResServiceTitle>
               </PatientResServiceItem>
