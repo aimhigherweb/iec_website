@@ -79,7 +79,7 @@ We custom-design our ortho-K lenses with cutting-edge software program [EyeSpace
 
 #### Lens design
 
-Ortho-K could not be implemented without a [corneal topographer](/what-we-do/corneal-topography). This takes a map or topography of your cornea, which allows us to measure and describe changes during the process of ortho-K molding your eyes.
+Ortho-K could not be implemented without a [corneal topographer](/what-we-do/corneal-topography). This takes a map or topography of your cornea, which allows us to measure and assess changes during the treatment process of orthokeratology.
 
 At your initial appointment we will take a range of measurements in each eye. This data is imported into our lens simulation software, EyeSpace, to design your lenses.
 
