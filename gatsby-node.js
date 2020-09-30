@@ -51,7 +51,7 @@ async function createContentPages(graphql, actions, reporter) {
   const patientResourcesTemplate = path.resolve(
     `src/pages/patient-resources/template.js`
   )
-  const whatWeDoTemplate = path.resolve(`src/pages/what-we-do/template.js`)
+  const whatWeDoTemplate = path.resolve(`src/pages/what-we-do/template.tsx`)
   const whoWeAreTemplate = path.resolve(`src/pages/who-we-are/template.js`)
 
   const result = await graphql(`

@@ -2,9 +2,10 @@ import React from "react"
 import { graphql, Link } from "gatsby"
 import styled from "styled-components"
 
+import { useSession } from "../../state/SessionWrapper"
 import { useMatchMedia } from "../../hooks/useMatchMedia"
 import { Main } from "../../components/Main"
-import { Footer } from "../../components/Footer"
+import { Footer } from "../../components/Layout/Footer"
 
 //----------------------------------------------------------
 //-- Section 1: Detail
@@ -116,15 +117,36 @@ const RightNav = styled.div`
 `
 
 const Detail = (state, data) => {
+  const session = useSession()
+  //const { index2, articles2 } = session
+  // if (!state) {
+  //   console.log(`*** WhatWeDoTemplate.Detail... NO STATE`)
+  //   console.log(`*** WhatWeDoTemplate.Detail... data=${JSON.stringify(data)}`)
+  //   return <div>NO STATE Index={JSON.stringify(session)}</div>
+  // }
+
   const { markdownRemark } = data
-  const { title } = markdownRemark.frontmatter
-  const { index, category, articles, articleIndex } = state
+  let title = undefined
+  if (markdownRemark) {
+    title = markdownRemark.frontmatter.title
+  }
+
+  let index = undefined
+  let category = undefined
+  let articles = undefined
+  let articleIndex = undefined
+  if (state) {
+    index = state.index
+    category = state.category
+    articles = state.articles
+    articleIndex = state.articleIndex
+  }
 
   console.log(`*** WhatWeDoTemplate.Detail... articleIndex=${articleIndex}`)
 
   const finalArticles = []
-  let prevFinalArticle = null
-  let nextFinalArticle = null
+  let prevFinalArticle = undefined
+  let nextFinalArticle = undefined
   if (articles) {
     articles.map((item, i) => {
       const title = item.node.frontmatter.title
@@ -149,19 +171,12 @@ const Detail = (state, data) => {
 
   return (
     <DetailSection>
-      <LeftNav>
-        {prevFinalArticle && (
-          <Link to={prevFinalArticle.slug} state={prevFinalArticle.payload}>
-            <NavArrowImage src="/images2/icon-arrow-left.png" />
-          </Link>
-        )}
-      </LeftNav>
       <LeftPart>
         <CategoryTitle>{category.title}</CategoryTitle>
         <CategoryImage src={category.image} />
       </LeftPart>
       <ArticlePart>
-        <ArticleTitle>{title}</ArticleTitle>
+        <ArticleTitle>{title ? title : "No-Title"}</ArticleTitle>
         <div dangerouslySetInnerHTML={{ __html: markdownRemark.html }} />
       </ArticlePart>
       <RightPart>
