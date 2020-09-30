@@ -67,7 +67,7 @@ Ortho-K lenses can slow this growth by changing the shape of the eye surface, al
 
 #### Ortho-K for hyperopia control
 
-Hyperopic ortho-K has generated far less interest from researchers, contact lens manufacturers and optometrists compared to myopic ortho-K. The first hyperopic ortho-K lenses involved steep-fitting rigid contact lenses to induce central corneal steepening, and was first described by Jessen in 1962. In more recent times, the use of high oxygen-permeable materials and newer designs have sparked a new interest in hyperopic ortho-K.
+Hyperopic ortho-K has generated far less interest from researchers, contact lens manufacturers and optometrists compared to myopic ortho-K. The first hyperopic ortho-K lenses involved steep-fitting rigid contact lenses to induce central corneal steepening, and was first described by Jessen in 1962. In more recent times, the use of high oxygen-permeable materials and newer designs have sparked a new found interest in hyperopic ortho-K.
 
 Today at Innovative Eye Care we fit just as many patients into hyperopic ortho-K lenses as myopic. For more information about contact lens options for hyperopes click [here](/what-we-do/hyperopia).
 
