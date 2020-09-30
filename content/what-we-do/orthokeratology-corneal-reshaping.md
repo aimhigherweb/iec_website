@@ -53,7 +53,7 @@ Ortho-K is ideal for children and adults with these prescriptions:
 * +1.00 to +4.00 dipotres of hyperopia
 * Up to moderate (-4.00 dipotres) of astigmatism
 
-You must have a healthy cornea that is free of disease to wear ortho-K lenses. These criteria are the same as for potential candidates for laser surgeries such as LASIK. 
+You must have a healthy cornea that is free of disease to wear ortho-K lenses. These criteria are the same as for potential candidates for laser surgeries such as LASIK. To find out if you are a suitable candidate for ortho-K lenses, [make an appointment](/contact/) with one of our optometrists. 
 
 ![](/uploads/children-myopia-control.jpg)
 
