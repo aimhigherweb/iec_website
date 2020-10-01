@@ -167,6 +167,7 @@ const MainDiv = (showFull, videoToPlay) => {
             controls={false}
             preload="auto"
             autoPlay={true}
+            muted={true}
             loop={true}
             data-setup='{"fill":true}'
           >
