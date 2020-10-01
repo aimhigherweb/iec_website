@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useState, useEffect } from "react"
 import { Link, navigate } from "gatsby"
 import styled from "styled-components"
 
@@ -389,39 +389,76 @@ const SocialItem = styled.div`
 `
 const SocialItemImage = styled.img`
   width: 100%;
-  height: auto;
-  filter: grayscale(100%);
+  height: 200px;
+  object-fit: contain;
+  filter: grayscale(1);
+  &:hover {
+    filter: none;
+  }
 `
 
-const Social = (
-  <SocialSection>
-    <SocialTitle>
-      Follow us on Instagram and Facebook to see what we&apos;ve been up to!
-    </SocialTitle>
-    <SocialItemBar>
-      <SocialItem>
-        <a href="https://www.instagram.com/innovative.eye.care">
-          <SocialItemImage src="/images2/social-insta1.jpg" />
-        </a>
-      </SocialItem>
-      <SocialItem>
-        <a href="https://www.instagram.com/innovative.eye.care">
-          <SocialItemImage src="/images2/social-insta2.jpg" />
-        </a>
-      </SocialItem>
-      <SocialItem>
-        <a href="https://www.instagram.com/innovative.eye.care">
-          <SocialItemImage src="/images2/social-insta1.jpg" />
-        </a>
-      </SocialItem>
-      <SocialItem>
-        <a href="https://www.instagram.com/innovative.eye.care">
-          <SocialItemImage src="/images2/social-insta2.jpg" />
-        </a>
-      </SocialItem>
-    </SocialItemBar>
-  </SocialSection>
-)
+const obtainInstaFeed = async () => {
+  console.log(`*** Home.obtainInstaFeed`)
+
+  const url = `https://www.instagram.com/innovative.eye.care/?__a=1`
+  const response = await fetch(url)
+  const json = await response.json()
+
+  const result = []
+  const MAX_ITEMS = 5
+
+  const { edge_owner_to_timeline_media } = json.graphql.user
+  if (edge_owner_to_timeline_media) {
+    const { edges } = edge_owner_to_timeline_media
+    if (edges?.length > 0) {
+      edges.forEach((edge) => {
+        if (edge.node && edge.node.display_url) {
+          if (result.length < MAX_ITEMS) {
+            result.push(edge.node.display_url)
+          }
+        }
+      })
+    }
+  }
+
+  return result
+}
+
+const Social = () => {
+  console.log(`*** Home.Social`)
+  const [posts, setPosts] = useState()
+
+  const latestPosts = () => {
+    obtainInstaFeed().then((latestPosts) => {
+      setPosts(latestPosts)
+    })
+  }
+
+  useEffect(() => {
+    console.log(`*** Home.Social.useEffect`)
+    latestPosts()
+  }, [])
+
+  return (
+    <SocialSection>
+      <SocialTitle>
+        Follow us on Instagram and Facebook to see what we&apos;ve been up to!
+      </SocialTitle>
+      <SocialItemBar>
+        {posts &&
+          posts.map((post, i) => {
+            return (
+              <SocialItem key={i}>
+                <a href="https://www.instagram.com/innovative.eye.care">
+                  <SocialItemImage src={post} />
+                </a>
+              </SocialItem>
+            )
+          })}
+      </SocialItemBar>
+    </SocialSection>
+  )
+}
 
 //----------------------------------------------------------
 //-- Render
@@ -439,7 +476,7 @@ const Home: React.FC = () => {
       {Main(true, "/videos/video-main.mp4")}
       {Team}
       {Style(match)}
-      {Social}
+      {Social()}
       {Footer()}
     </Container>
   )
