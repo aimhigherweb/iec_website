@@ -41,6 +41,7 @@ const ArticleDetail = styled.div`
   flex-wrap: wrap;
   justify-content: space-around;
   padding: 10px 140px;
+  cursor: pointer;
   border: ${DEBUG_TEAM};
 `
 const ArticleDetailLeft = styled.div`
