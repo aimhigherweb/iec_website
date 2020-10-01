@@ -52,7 +52,7 @@ const MainFooter = styled.div`
   left: 0;
   bottom: 0;
   width: 100%;
-  height: 80px;
+  height: 70px;
   background-color: black;
 `
 const MainSearch = styled.div`
@@ -67,7 +67,7 @@ const MainSearch = styled.div`
 `
 const MainSearchInput = styled.input`
   width: 250px;
-  padding: 8px 8px;
+  padding: 6px 8px;
   color: red;
   font-family: "Times New Roman";
   font-size: 1em;
