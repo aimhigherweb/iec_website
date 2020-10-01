@@ -374,24 +374,21 @@ const SocialItemBar = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding: 0 40px;
+  padding: 0 0px;
   border: ${DEBUG_SOCIAL};
 `
 const SocialItem = styled.div`
   flex: 1;
-  margin: 0 4px;
+  margin: 8px;
   @media (max-width: ${MAX_WIDTH_PX}) {
-    flex-basis: 40%;
   }
+  border: ${DEBUG_SOCIAL};
 `
 const SocialItemImage = styled.img`
   width: 100%;
-  height: 200px;
-  object-fit: contain;
-  filter: grayscale(1);
-  &:hover {
-    filter: none;
-  }
+  height: 100%;
+  object-fit: cover;
+  border: ${DEBUG_SOCIAL};
 `
 
 const obtainInstaFeed = async () => {
@@ -409,9 +406,10 @@ const obtainInstaFeed = async () => {
     const { edges } = edge_owner_to_timeline_media
     if (edges?.length > 0) {
       edges.forEach((edge) => {
-        if (edge.node && edge.node.display_url) {
+        const { display_url } = edge.node
+        if (display_url) {
           if (result.length < MAX_ITEMS) {
-            result.push(edge.node.display_url)
+            result.push({ imageUrl: edge.node.display_url })
           }
         }
       })
@@ -447,7 +445,7 @@ const Social = () => {
             return (
               <SocialItem key={i}>
                 <a href="https://www.instagram.com/innovative.eye.care">
-                  <SocialItemImage src={post} />
+                  <SocialItemImage src={post.imageUrl} />
                 </a>
               </SocialItem>
             )
