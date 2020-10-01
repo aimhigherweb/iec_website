@@ -111,6 +111,7 @@ const ServiceDetailTextTitle = styled.p`
 const ServiceDetailTextDesc = styled.div`
   font-size: 0.8em;
   border: ${DEBUG_TEAM};
+  border-bottom: 1px dotted #aaaaaa;
 `
 
 const Patient = (data) => {
