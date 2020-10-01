@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react"
-import { Link, navigate } from "gatsby"
+import { Link } from "gatsby"
 import styled from "styled-components"
 
 import { useMatchMedia } from "../hooks/useMatchMedia"
@@ -107,10 +107,19 @@ const TeamFooterImage = styled.img`
   border: ${DEBUG_TEAM};
 `
 
+//onClick={() => navigate("/who-we-are2")}
+
+//        <Link to="/what-we-do/eyewear-collections">
+//        <Link to="/what-we-do/contact-lenses">
+//        <Link to="/what-we-do/childrens-vision">
+//        <Link to="/what-we-do/dry-eye-disease">
+//        <Link to="/what-we-do/oct">
+//        <Link to="/what-we-do/orthokeratology-corneal-reshaping">
+
 const Team = (
   <TeamSection>
     <TeamTitle>We are a team of industry leaders</TeamTitle>
-    <TeamStaffBar onClick={() => navigate("/who-we-are2")}>
+    <TeamStaffBar>
       <TeamStaff>
         <TeamStaffImage src="/images2/staff-lachie.png" />
       </TeamStaff>
@@ -140,64 +149,52 @@ const Team = (
     </TeamDescription>
     <TeamService>
       <TeamServiceItem>
-        <Link to="/what-we-do/eyewear-collections">
-          <TeamServiceImage src="/images2/service-eyewear-experts.png" />
-          <TeamServiceTitle>
-            EYEWEAR
-            <br />
-            EXPERTS
-          </TeamServiceTitle>
-        </Link>
+        <TeamServiceImage src="/images2/service-eyewear-experts.png" />
+        <TeamServiceTitle>
+          EYEWEAR
+          <br />
+          EXPERTS
+        </TeamServiceTitle>
       </TeamServiceItem>
       <TeamServiceItem>
-        <Link to="/what-we-do/contact-lenses">
-          <TeamServiceImage src="/images2/service-bespoke-contact-lenses.png" />
-          <TeamServiceTitle>
-            BESPOKE
-            <br />
-            CONTACT LENSES
-          </TeamServiceTitle>
-        </Link>
+        <TeamServiceImage src="/images2/service-bespoke-contact-lenses.png" />
+        <TeamServiceTitle>
+          BESPOKE
+          <br />
+          CONTACT LENSES
+        </TeamServiceTitle>
       </TeamServiceItem>
       <TeamServiceItem>
-        <Link to="/what-we-do/childrens-vision">
-          <TeamServiceImage src="/images2/service-paediatric-vision.png" />
-          <TeamServiceTitle>
-            PAEDIATRIC
-            <br />
-            VISION
-          </TeamServiceTitle>
-        </Link>
+        <TeamServiceImage src="/images2/service-paediatric-vision.png" />
+        <TeamServiceTitle>
+          PAEDIATRIC
+          <br />
+          VISION
+        </TeamServiceTitle>
       </TeamServiceItem>
       <TeamServiceItem>
-        <Link to="/what-we-do/dry-eye-disease">
-          <TeamServiceImage src="/images2/service-dry-eye-clinic.png" />
-          <TeamServiceTitle>
-            DRY EYE
-            <br />
-            CLINIC
-          </TeamServiceTitle>
-        </Link>
+        <TeamServiceImage src="/images2/service-dry-eye-clinic.png" />
+        <TeamServiceTitle>
+          DRY EYE
+          <br />
+          CLINIC
+        </TeamServiceTitle>
       </TeamServiceItem>
       <TeamServiceItem>
-        <Link to="/what-we-do/oct">
-          <TeamServiceImage src="/images2/service-adv-imaging.png" />
-          <TeamServiceTitle>
-            ADVANCED
-            <br />
-            IMAGING
-          </TeamServiceTitle>
-        </Link>
+        <TeamServiceImage src="/images2/service-adv-imaging.png" />
+        <TeamServiceTitle>
+          ADVANCED
+          <br />
+          IMAGING
+        </TeamServiceTitle>
       </TeamServiceItem>
       <TeamServiceItem>
-        <Link to="/what-we-do/orthokeratology-corneal-reshaping">
-          <TeamServiceImage src="/images2/service-orthok-correction.png" />
-          <TeamServiceTitle>
-            ORTHO-K OVERNIGHT
-            <br />
-            CORRECTION
-          </TeamServiceTitle>
-        </Link>
+        <TeamServiceImage src="/images2/service-orthok-correction.png" />
+        <TeamServiceTitle>
+          ORTHO-K OVERNIGHT
+          <br />
+          CORRECTION
+        </TeamServiceTitle>
       </TeamServiceItem>
     </TeamService>
     <TeamFooter>
@@ -405,7 +402,7 @@ const obtainInstaFeed = async () => {
   const json = await response.json()
 
   const result = []
-  const MAX_ITEMS = 5
+  const MAX_ITEMS = 4
 
   const { edge_owner_to_timeline_media } = json.graphql.user
   if (edge_owner_to_timeline_media) {
