@@ -437,7 +437,23 @@ const Social = () => {
   return (
     <SocialSection>
       <SocialTitle>
-        Follow us on Instagram and Facebook to see what we&apos;ve been up to!
+        Follow us on{" "}
+        <a
+          href="https://www.instagram.com/innovative.eye.care"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Instagram
+        </a>{" "}
+        and{" "}
+        <a
+          href="https://www.facebook.com/innovativeeyecareadelaide/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Facebook
+        </a>{" "}
+        to see what we&apos;ve been up to!
       </SocialTitle>
       <SocialItemBar>
         {posts &&
