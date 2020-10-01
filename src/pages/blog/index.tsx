@@ -98,7 +98,7 @@ const BlogList = (data) => {
 
   const articleClicked = (slug, payload) => {
     navigate(slug, {
-      state: { payload },
+      state: payload,
     })
   }
 

@@ -95,7 +95,7 @@ const ArticlePart = styled.div`
 const ArticleTitle = styled.h1`
   text-align: center;
   font-family: "Times New Roman";
-  font-size: 1.6em;
+  font-size: 1.5em;
   border: ${DEBUG_TEAM};
 `
 
