@@ -370,7 +370,31 @@ const Style = (match) => {
 //----------------------------------------------------------
 const DEBUG_SOCIAL = "0px solid blue"
 const SocialSection = styled.div`
-  padding: 40px 10%;
+  padding: 40px 5%;
+`
+
+const SocialHeader = styled.div`
+  position: relative;
+  margin-bottom: 40px;
+  background-color: yellow;
+  height: 200px;
+  border: ${DEBUG_SOCIAL};
+`
+const SocialHeaderImage = styled.img`
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border: ${DEBUG_SOCIAL};
+`
+const SocialHeaderCaption = styled.p`
+  position: absolute;
+  bottom: -8px;
+  left: 20px;
+  color: white;
+  font-size: 1em;
+  font-weight: 600;
+  font-family: "Times New Roman";
+  border: ${DEBUG_SOCIAL};
 `
 
 const SocialTitle = styled.h1`
@@ -398,7 +422,7 @@ const SocialItem = styled.div`
 `
 const SocialItemImage = styled.img`
   width: 100%;
-  height: 100%;
+  height: auto;
   object-fit: cover;
   border: ${DEBUG_SOCIAL};
 `
@@ -448,6 +472,10 @@ const Social = () => {
 
   return (
     <SocialSection>
+      <SocialHeader>
+        <SocialHeaderImage src="images2/social-insta2.jpg" />
+        <SocialHeaderCaption>See better. See us.</SocialHeaderCaption>
+      </SocialHeader>
       <SocialTitle>
         Follow us on{" "}
         <a
