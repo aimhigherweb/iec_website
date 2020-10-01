@@ -171,6 +171,13 @@ const Detail = (state, data) => {
 
   return (
     <DetailSection>
+      <LeftNav>
+        {prevFinalArticle && (
+          <Link to={prevFinalArticle.slug} state={prevFinalArticle.payload}>
+            <NavArrowImage src="/images2/icon-arrow-left.png" />
+          </Link>
+        )}
+      </LeftNav>
       <LeftPart>
         <CategoryTitle>{category.title}</CategoryTitle>
         <CategoryImage src={category.image} />
