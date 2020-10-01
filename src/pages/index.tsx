@@ -297,34 +297,46 @@ const StyleFooterPart = (
   <StyleFooter>
     <StyleBrandBar>
       <StyleBrandItem>
-        <Link to="/what-we-do/lindberg">
+        <a href="https://lindberg.com" target="_blank" rel="noreferrer">
           <StyleBrandImage src="/images2/icon-style-lindberg.png" />
-        </Link>
+        </a>
       </StyleBrandItem>
       <StyleBrandItem>
-        <Link to="/what-we-do/face-a-face">
+        <a
+          href="https://www.faceaface-paris.com"
+          target="_blank"
+          rel="noreferrer"
+        >
           <StyleBrandImage src="/images2/icon-style-face.png" />
-        </Link>
+        </a>
       </StyleBrandItem>
       <StyleBrandItem>
-        <Link to="/what-we-do/prodesign">
+        <a
+          href="https://www.prodesigndenmark.com"
+          target="_blank"
+          rel="noreferrer"
+        >
           <StyleBrandImage src="/images2/icon-style-prodesign.png" />
-        </Link>
+        </a>
       </StyleBrandItem>
       <StyleBrandItem>
-        <Link to="/what-we-do/prodesign">
+        <a
+          href="https://www.monkeyglasses.com"
+          target="_blank"
+          rel="noreferrer"
+        >
           <StyleBrandImage src="/images2/icon-style-monkey.png" />
-        </Link>
+        </a>
       </StyleBrandItem>
       <StyleBrandItem>
-        <Link to="/what-we-do/prodesign">
+        <a href="https://www.mauijim.com" target="_blank" rel="noreferrer">
           <StyleBrandImage src="/images2/icon-style-maui.png" />
-        </Link>
+        </a>
       </StyleBrandItem>
       <StyleBrandItem>
-        <Link to="/what-we-do/prodesign">
+        <a href="https://www.goodgryf.co.nz" target="_blank" rel="noreferrer">
           <StyleBrandImage src="/images2/icon-style-goodgryf.png" />
-        </Link>
+        </a>
       </StyleBrandItem>
     </StyleBrandBar>
   </StyleFooter>
