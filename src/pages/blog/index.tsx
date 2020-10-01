@@ -15,6 +15,7 @@ const MAX_WIDTH_PX = `${MAX_WIDTH}px`
 
 const BlogSection = styled.div`
   padding: 40px 10%;
+  padding-top: 110px;
   @media (max-width: ${MAX_WIDTH_PX}) {
     padding: 20px 0px;
   }
@@ -167,7 +168,7 @@ const Blog: React.FC = (props) => {
   console.log(`*** Blog.RENDER... match=${match}`)
   return (
     <Container>
-      {Main(false, null)}
+      {Main(true, null)}
       {BlogList(props.data)}
       {Footer()}
     </Container>
