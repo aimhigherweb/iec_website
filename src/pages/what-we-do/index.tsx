@@ -45,7 +45,7 @@ const WhatService = styled.div`
   margin-bottom: 20px;
   padding: 40px 40px;
   border: ${DEBUG_TEAM};
-  border-bottom: 1px solid #424242;
+  border-bottom: 1px solid #212121;
 `
 const WhatServiceItem = styled.div`
   flex: 1;
@@ -121,8 +121,10 @@ const ServiceDetailTextTitle = styled.p`
   border: ${DEBUG_TEAM};
 `
 const ServiceDetailTextDesc = styled.div`
+  padding-bottom: 20px;
   font-size: 0.8em;
   border: ${DEBUG_TEAM};
+  border-bottom: 1px dotted #aaaaaa;
 `
 
 const What = (data) => {
