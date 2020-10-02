@@ -54,6 +54,6 @@ describe("Test Pages", () => {
       "Macular Month is about reminding us of the importance of eye health"
     )
     cy.contains("Millie Meegan")
-    cy.contains("28 May 2020")
+    cy.contains("28/05/2020")
   })
 })
