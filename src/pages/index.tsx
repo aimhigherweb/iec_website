@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react"
-import { Link } from "gatsby"
 import styled from "styled-components"
 
 import { useMatchMedia } from "../hooks/useMatchMedia"
@@ -396,6 +395,22 @@ const SocialHeaderCaption = styled.p`
   font-family: "Times New Roman";
   border: ${DEBUG_SOCIAL};
 `
+const SocialHeaderLeftNav = styled.img`
+  position: absolute;
+  width: 10px;
+  height: 20px;
+  left: 14px;
+  top: 95px;
+  border: ${DEBUG_SOCIAL};
+`
+const SocialHeaderRightNav = styled.img`
+  position: absolute;
+  width: 10px;
+  height: 20px;
+  right: 14px;
+  top: 95px;
+  border: ${DEBUG_SOCIAL};
+`
 
 const SocialTitle = styled.h1`
   text-align: center;
@@ -410,12 +425,22 @@ const SocialItemBar = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding: 0 0px;
   border: ${DEBUG_SOCIAL};
+`
+const SocialItemNavArrowImage = styled.img`
+  display: block;
+  width: auto;
+  height: 16px;
+  margin: 0px auto;
+  margin-top: 100px;
+  @media (max-width: ${MAX_WIDTH_PX}) {
+    height: 18px;
+  }
+  border: ${DEBUG_TEAM};
 `
 const SocialItem = styled.div`
   flex: 1;
-  margin: 8px;
+  margin: 20px;
   @media (max-width: ${MAX_WIDTH_PX}) {
   }
   border: ${DEBUG_SOCIAL};
@@ -473,6 +498,8 @@ const Social = () => {
   return (
     <SocialSection>
       <SocialHeader>
+        <SocialHeaderLeftNav src="images2/icon-arrow-left-white.svg" />
+        <SocialHeaderRightNav src="images2/icon-arrow-right-white.svg" />
         <SocialHeaderImage src="images2/social-insta2.jpg" />
         <SocialHeaderCaption>See better. See us.</SocialHeaderCaption>
       </SocialHeader>
@@ -496,16 +523,26 @@ const Social = () => {
         to see what we&apos;ve been up to!
       </SocialTitle>
       <SocialItemBar>
+        <div>
+          <SocialItemNavArrowImage src="images2/icon-arrow-left.png" />
+        </div>
         {posts &&
           posts.map((post, i) => {
+            let imageSrc = post.imageUrl
+            if (i === 0) {
+              imageSrc = "images2/temp.png" //!!! temp
+            }
             return (
               <SocialItem key={i}>
                 <a href="https://www.instagram.com/innovative.eye.care">
-                  <SocialItemImage src={post.imageUrl} />
+                  <SocialItemImage src={imageSrc} />
                 </a>
               </SocialItem>
             )
           })}
+        <div>
+          <SocialItemNavArrowImage src="images2/icon-arrow-right.png" />
+        </div>
       </SocialItemBar>
     </SocialSection>
   )
