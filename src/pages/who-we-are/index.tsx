@@ -56,6 +56,7 @@ const TeamStaffImage = styled.img`
   &:hover {
     filter: ${(props) => (props.chosen ? "none" : "none")};
   }
+  cursor: pointer;
 `
 const TeamStaffTitle = styled.div`
   color: #5091cd;
