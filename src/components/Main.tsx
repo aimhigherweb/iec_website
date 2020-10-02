@@ -1,6 +1,7 @@
 import React from "react"
-import styled from "styled-components"
 import { navigate } from "gatsby"
+import styled from "styled-components"
+import { FaSearch } from "react-icons/fa"
 
 //----------------------------------------------------------
 //-- Section 0: Main
@@ -65,6 +66,11 @@ const MainSearch = styled.div`
   }
   border: ${DEBUG_MAIN};
 `
+const MainSearchWrapper = styled.div`
+  position: relative;
+  border: ${DEBUG_MAIN};
+  border: 1px solid white;
+`
 const MainSearchInput = styled.input`
   width: 250px;
   padding: 6px 8px;
@@ -73,7 +79,7 @@ const MainSearchInput = styled.input`
   font-size: 1em;
   font-weight: 800;
   background-color: rgba(0, 0, 0, 0);
-  border: 1px solid #ffffff88;
+  border: 1px solid black;
   outline: none;
   ::placeholder {
     font-family: "Times New Roman";
@@ -83,7 +89,10 @@ const MainSearchInput = styled.input`
   @media (max-width: ${MAX_WIDTH_PX}) {
     width: 100%;
   }
+  border: ${DEBUG_MAIN};
 `
+const MainSearchIcon = styled.span``
+
 const MainBooking = styled.div`
   position: absolute;
   bottom: 20px;
@@ -150,7 +159,18 @@ const MainDiv = (showFull, videoToPlay) => {
       {showFull && (
         <MainFooter>
           <MainSearch>
-            <MainSearchInput placeholder="Search now." />
+            <MainSearchWrapper>
+              <MainSearchInput placeholder="Search now." />
+              <MainSearchIcon>
+                <FaSearch
+                  style={{
+                    color: "white",
+                    paddingTop: "4px",
+                    marginRight: "6px",
+                  }}
+                />
+              </MainSearchIcon>
+            </MainSearchWrapper>
           </MainSearch>
           <MainBooking>
             <MainBookingButton>Book Online Adelaide.</MainBookingButton>
