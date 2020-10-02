@@ -28,7 +28,7 @@ const WhatTitle = styled.h1`
 `
 
 const WhatDescription = styled.div`
-  padding: 20px 40px 0 40px;
+  padding: 0px 40px 0 40px;
   font-size: 0.8em;
   @media (max-width: ${MAX_WIDTH_PX}) {
     padding: 20px 40px;

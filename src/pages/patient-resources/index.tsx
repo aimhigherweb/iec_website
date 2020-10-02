@@ -27,7 +27,7 @@ const PatientResTitle = styled.h1`
 `
 
 const PatientResDescription = styled.div`
-  padding: 20px 40px 0 40px;
+  padding: 0px 40px 0 40px;
   font-size: 0.8em;
   @media (max-width: ${MAX_WIDTH_PX}) {
     padding: 20px 40px;
@@ -43,7 +43,7 @@ const PatientResService = styled.div`
   justify-content: space-around;
   align-items: stretch;
   margin-bottom: 20px;
-  padding: 40px 40px;
+  padding: 20px 40px;
   border: ${DEBUG_TEAM};
 `
 const PatientResServiceItem = styled.div`

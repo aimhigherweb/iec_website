@@ -224,10 +224,10 @@ const FooterDiv = (
             <Link to="/patient-resources">Patient Resources</Link>
           </FooterMenuItem>
           <FooterMenuItem>
-            <Link to="/contact">Contact</Link>
+            <Link to="/blog">Blog</Link>
           </FooterMenuItem>
           <FooterMenuItem>
-            <Link to="/blog">Blog</Link>
+            <Link to="/contact">Contact</Link>
           </FooterMenuItem>
         </FooterMenu>
       </FooterContentItem>
