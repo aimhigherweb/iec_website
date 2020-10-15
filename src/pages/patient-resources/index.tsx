@@ -109,6 +109,7 @@ const ServiceDetailTextTitle = styled.p`
   border: ${DEBUG_TEAM};
 `
 const ServiceDetailTextDesc = styled.div`
+  padding-bottom: 20px;
   font-size: 0.8em;
   border: ${DEBUG_TEAM};
   border-bottom: 1px dotted #aaaaaa;
@@ -213,7 +214,7 @@ const Patient = (data) => {
                 </Link>
                 <ServiceDetailTextDesc
                   dangerouslySetInnerHTML={{
-                    __html: extractFirstDiv(item.node.html),
+                    __html: item.node.excerpt, //extractFirstDiv(item.node.html)
                   }}
                 />
               </ServiceDetailText>
@@ -270,6 +271,7 @@ export const query = graphql`
             slug
           }
           html
+          excerpt(truncate: true, pruneLength: 250)
         }
       }
     }
@@ -291,6 +293,7 @@ export const query = graphql`
             slug
           }
           html
+          excerpt(truncate: true, pruneLength: 250)
         }
       }
     }
@@ -312,6 +315,7 @@ export const query = graphql`
             slug
           }
           html
+          excerpt(truncate: true, pruneLength: 250)
         }
       }
     }
