@@ -18,7 +18,7 @@ const MainHeader = styled.div`
   @media (max-width: ${MAX_WIDTH_PX}) {
     padding: 20px;
   }
-  background-color: black;
+  background-color: #00000066;
   border: ${DEBUG_MAIN};
 `
 const Logo = styled.img.attrs({
@@ -54,7 +54,7 @@ const MainFooter = styled.div`
   bottom: 0;
   width: 100%;
   height: 70px;
-  background-color: black;
+  background-color: #00000066;
 `
 const MainSearch = styled.div`
   position: fixed;
