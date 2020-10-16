@@ -27,17 +27,6 @@ describe("Test Pages", () => {
     cy.contains("Your eye care routine will often involve at-home care ")
   })
 
-  it("Contact", () => {
-    cy.visit("")
-    cy.contains("Contact").click()
-    cy.contains("Our Locations")
-    cy.contains(
-      "Innovative Eye Care has two convenient locations in South Australia - Hutt Street, Adelaide and Port Road, Woodville."
-    )
-    cy.contains("Phone: (08) 8231 9341")
-    cy.contains("Phone: (08) 8445 9050")
-  })
-
   it("Blog", () => {
     cy.visit("")
     cy.contains("Blog").click()
@@ -55,5 +44,19 @@ describe("Test Pages", () => {
     )
     cy.contains("Millie Meegan")
     cy.contains("28/05/2020")
+  })
+
+  it("Contact", () => {
+    cy.visit("")
+    cy.contains("Contact").click()
+    cy.contains("Adelaide")
+    cy.contains("60 Hutt Street")
+    cy.contains("(08) 8231 9341")
+    cy.contains("Book Online")
+
+    cy.contains("Woodville")
+    cy.contains("850 Port Road")
+    cy.contains("(08) 8445 9050")
+    cy.contains("Book Online")
   })
 })
