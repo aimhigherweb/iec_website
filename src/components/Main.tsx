@@ -27,6 +27,7 @@ const Logo = styled.img.attrs({
   width: 270px;
   height: auto;
   background: clear;
+  cursor: pointer;
   @media (max-width: ${MAX_WIDTH_PX}) {
     width: 160px;
   }
@@ -41,6 +42,7 @@ const Menu = styled.img.attrs({
   width: 40px;
   height: 31px;
   background: clear;
+  cursor: pointer;
   border: ${DEBUG_MAIN};
 `
 const MainHeaderFiller = styled.div`
