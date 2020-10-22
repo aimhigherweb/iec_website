@@ -116,16 +116,52 @@ const RightNav = styled.div`
 `
 
 const Detail = (state, data) => {
-  if (!state) {
-    console.log(`*** PatientResTemplate.Detail... NO STATE`)
-    return <div>NO STATE</div>
-  }
+  //if (!state) {
+  //  console.log(`*** PatientResTemplate.Detail... NO STATE`)
+  //  return <div>NO STATE</div>
+  //}
 
   const { markdownRemark } = data
   const { title } = markdownRemark.frontmatter
-  const { index, category, articles, articleIndex } = state
 
-  console.log(`*** PatientResTemplate.Detail... articleIndex=${articleIndex}`)
+  let index = undefined
+  let category = undefined
+  let articles = undefined
+  let articleIndex = undefined
+  if (state) {
+    index = state.index
+    category = state.category
+    articles = state.articles
+    articleIndex = state.articleIndex
+  } else {
+    const patientResCategories = [
+      {
+        category: "Contact Lens Instructions",
+        title: "Contact Lens Instructions",
+        image: "",
+      },
+      {
+        category: "Vision Training",
+        title: "Vision Training",
+        image: "",
+      },
+      {
+        category: "Everyday Eye Care",
+        title: "Everyday Eye Care",
+        image: "",
+      },
+    ]
+
+    const categoryId = markdownRemark.frontmatter.category
+    const currentCategory = patientResCategories.find(
+      (cat) => cat.category === categoryId
+    )
+
+    index = 0
+    category = { title: currentCategory.title, image: currentCategory.image }
+    articles = []
+    articleIndex = 0
+  }
 
   const finalArticles = []
   let prevFinalArticle = null
@@ -167,7 +203,6 @@ const Detail = (state, data) => {
       </LeftNav>
       <LeftPart>
         <CategoryTitle>{category.title}</CategoryTitle>
-        <CategoryImage src={category.image} />
       </LeftPart>
       <ArticlePart>
         <ArticleTitle>{title}</ArticleTitle>
@@ -225,6 +260,8 @@ export const PatientResourceSingleQuery = graphql`
     markdownRemark(id: { eq: $id }) {
       frontmatter {
         title
+        category
+        preview_image
       }
       id
       html

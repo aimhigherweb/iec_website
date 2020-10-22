@@ -118,13 +118,19 @@ const ServiceDetailTextDesc = styled.div`
 const Patient = (data) => {
   const patientResCategories = [
     {
+      category: "Contact Lens Instructions",
       title: "Contact Lens Instructions",
+      image: "",
     },
     {
+      category: "Vision Training",
       title: "Vision Training",
+      image: "",
     },
     {
+      category: "Everyday Eye Care",
       title: "Everyday Eye Care",
+      image: "",
     },
   ]
 
