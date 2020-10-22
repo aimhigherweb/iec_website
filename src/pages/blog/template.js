@@ -1,5 +1,5 @@
 import React from "react"
-import { graphql, Link } from "gatsby"
+import { graphql, Link, navigate } from "gatsby"
 import styled from "styled-components"
 
 import { useMatchMedia } from "../../hooks/useMatchMedia"
@@ -37,6 +37,7 @@ const DetailSection = styled.div`
 const LeftNav = styled.div`
   flex: 1;
   @media (max-width: ${MAX_WIDTH_PX}) {
+    display: none;
   }
   border: ${DEBUG_TEAM};
 `
@@ -54,6 +55,7 @@ const NavArrowImage = styled.img`
 const LeftPart = styled.div`
   flex: 2;
   @media (max-width: ${MAX_WIDTH_PX}) {
+    display: none;
   }
   border: ${DEBUG_TEAM};
   border-top: 1px solid black;
@@ -93,17 +95,42 @@ const ArticlePart = styled.div`
   border: ${DEBUG_TEAM};
 `
 const ArticleTitle = styled.h1`
-  text-align: center;
   font-family: "Times New Roman";
   font-size: 1.5em;
+  @media (max-width: ${MAX_WIDTH_PX}) {
+  }
   border: ${DEBUG_TEAM};
+`
+const ArticleAuthor = styled.div`
+  display: none;
+  @media (max-width: ${MAX_WIDTH_PX}) {
+    display: block;
+    margin-bottom: 20px;
+  }
+  border: ${DEBUG_TEAM};
+`
+const ArticleButton = styled.button`
+  display: none;
+  margin-bottom: 16px;
+  padding: 4px 16px;
+  color: white;
+  font-family: "Times New Roman";
+  font-size: 1.1em;
+  font-weight: 600;
+  background-color: #5091cd;
+  border: none;
+  @media (max-width: ${MAX_WIDTH_PX}) {
+    display: block;
+    width: 100%;
+    padding: 8px 24px;
+  }
 `
 
 const RightPart = styled.div`
   flex: 2;
   @media (max-width: ${MAX_WIDTH_PX}) {
+    display: none;
   }
-
   border: ${DEBUG_TEAM};
   border-top: 1px solid black;
 `
@@ -124,6 +151,7 @@ const ItemTitleCurrent = styled(ItemTitle)`
 const RightNav = styled.div`
   flex: 1;
   @media (max-width: ${MAX_WIDTH_PX}) {
+    display: none;
   }
   border: ${DEBUG_TEAM};
 `
@@ -201,7 +229,20 @@ const Detail = (state, data) => {
         </LeftPart>
         <ArticlePart>
           <ArticleTitle>{title}</ArticleTitle>
+          <ArticleAuthor>
+            <CategoryTitle>{date}</CategoryTitle>
+            <CategoryImage src={authorPhoto} />
+            <CategoryTitle>by {authorTitle}</CategoryTitle>
+          </ArticleAuthor>
           <div dangerouslySetInnerHTML={{ __html: markdownRemark.html }} />
+          <ArticleButton onClick={() => navigate("/blog")}>
+            Back to blog
+          </ArticleButton>
+          {nextFinalArticle && (
+            <Link to={nextFinalArticle.slug} state={nextFinalArticle.payload}>
+              <ArticleButton>Next post</ArticleButton>
+            </Link>
+          )}
         </ArticlePart>
         <RightPart>
           {finalArticles.map((finalArticle, i) => {

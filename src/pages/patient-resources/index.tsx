@@ -140,14 +140,6 @@ const Patient = (data) => {
     articles: contactLensInstructions.edges,
   })
 
-  const extractFirstDiv = (html) => {
-    const regex = /^<div(.)*>(.)<\/div>/gs
-    const result = regex.exec(html)
-    if (result && result.length > 0) {
-      return result[0]
-    }
-  }
-
   const categoryClick = (index) => {
     if (index === 0) {
       setCurrent({ index: 0, articles: contactLensInstructions.edges })
