@@ -117,13 +117,14 @@ const RightNav = styled.div`
 `
 
 const Detail = (state, data) => {
-  const session = useSession()
-  //const { index2, articles2 } = session
-  // if (!state) {
-  //   console.log(`*** WhatWeDoTemplate.Detail... NO STATE`)
-  //   console.log(`*** WhatWeDoTemplate.Detail... data=${JSON.stringify(data)}`)
-  //   return <div>NO STATE Index={JSON.stringify(session)}</div>
-  // }
+  // const session = useSession()
+  //   const { index2, articles2 } = session
+  //   let stateDiv = null
+  //   if (!state) {
+  //     console.log(`*** WhatWeDoTemplate.Detail... NO STATE`)
+  //     console.log(`*** WhatWeDoTemplate.Detail... data=${JSON.stringify(data)}`)
+  //     stateDiv = <div>NO STATE Index={JSON.stringify(session)}</div>
+  //   }
 
   const { markdownRemark } = data
   let title = undefined
@@ -140,6 +141,71 @@ const Detail = (state, data) => {
     category = state.category
     articles = state.articles
     articleIndex = state.articleIndex
+  } else {
+    //!!! cms table
+    const whatWeDoCategories = [
+      {
+        category: "eyewear-experts",
+        title: "Eyewear Experts",
+        image: "/images2/service-eyewear-experts.png",
+      },
+      {
+        category: "contact-lenses",
+        title: "Bespoke Contact Lenses",
+        image: "/images2/service-bespoke-contact-lenses.png",
+      },
+      {
+        category: "paediatric-vision",
+        title: "Paediatric Vision",
+        image: "/images2/service-paediatric-vision.png",
+      },
+      {
+        category: "dry-eye-clinic",
+        title: "Dry Eye Clinic",
+        image: "/images2/service-dry-eye-clinic.png",
+      },
+      {
+        category: "advanced-imaging-technology",
+        title: "Advanced Imaging",
+        image: "/images2/service-adv-imaging.png",
+      },
+      {
+        category: "orthok",
+        title: "Ortho-K Overnight Correction",
+        image: "/images2/service-orthok-correction.png",
+      },
+      {
+        category: "acute-red-eyes",
+        title: "Acute Red Eyes",
+        image: "/images2/service-acute-red-eyes.png",
+      },
+      {
+        category: "refractive-conditions",
+        title: "Refractive Conditions",
+        image: "/images2/service-refractive-conditions.png",
+      },
+      {
+        category: "eye-disease",
+        title: "Eye Disease",
+        image: "/images2/service-eye-disease.png",
+      },
+      {
+        category: "consultations",
+        title: "Eye Consultations",
+        image: "/images2/service-eye-consultations.png",
+      },
+    ]
+    const categoryId = markdownRemark.frontmatter.category
+    const currentCategory = whatWeDoCategories.find(
+      (cat) => cat.category === categoryId
+    )
+    //const previewImage = markdownRemark.frontmatter.preview_image
+    //const imageSrc = previewImage ? `/uploads/${previewImage}` : " "
+
+    index = 0
+    category = { title: currentCategory.title, image: currentCategory.image }
+    articles = []
+    articleIndex = 0
   }
 
   console.log(`*** WhatWeDoTemplate.Detail... articleIndex=${articleIndex}`)
@@ -151,12 +217,23 @@ const Detail = (state, data) => {
     articles.map((item, i) => {
       const title = item.node.frontmatter.title
       const slug = item.node.fields.slug
-      const payload = { ...state, articleIndex: i }
-      const finalArticle = { title: title, slug: slug, payload: payload }
+      const payload = {
+        ...state,
+        articleIndex: i,
+      }
+      const finalArticle = {
+        title: title,
+        slug: slug,
+        payload: payload,
+      }
       finalArticles.push(finalArticle)
 
       if (i === 0) {
-        prevFinalArticle = { title: "", slug: "/what-we-do", payload: null }
+        prevFinalArticle = {
+          title: "",
+          slug: "/what-we-do",
+          payload: null,
+        }
       }
       if (i === articleIndex - 1) {
         prevFinalArticle = { ...finalArticle }
@@ -183,8 +260,13 @@ const Detail = (state, data) => {
         <CategoryImage src={category.image} />
       </LeftPart>
       <ArticlePart>
+        {stateDiv}
         <ArticleTitle>{title ? title : "No-Title"}</ArticleTitle>
-        <div dangerouslySetInnerHTML={{ __html: markdownRemark.html }} />
+        <div
+          dangerouslySetInnerHTML={{
+            __html: markdownRemark.html,
+          }}
+        />
       </ArticlePart>
       <RightPart>
         {finalArticles.map((finalArticle, i) => {
@@ -238,6 +320,8 @@ export const WhatWeDoSingleQuery = graphql`
     markdownRemark(id: { eq: $id }) {
       frontmatter {
         title
+        category
+        preview_image
       }
       id
       html
