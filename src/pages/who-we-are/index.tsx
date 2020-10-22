@@ -221,7 +221,7 @@ const Team = (teamList, match) => {
 const DEBUG_SOCIAL = "0px solid blue"
 const HistorySection = styled.div`
   padding: 40px 10%;
-  border: ${DEBUG_SOCIAL};
+  border: ${DEBUG_HISTORY};
 `
 
 const HistoryBar = styled.div`
@@ -229,7 +229,7 @@ const HistoryBar = styled.div`
   flex-wrap: wrap;
   justify-content: center;
   padding: 0 0;
-  border: ${DEBUG_SOCIAL};
+  border: ${DEBUG_HISTORY};
 `
 const HistoryTimeline = styled.ul`
   padding: 20px;
@@ -287,6 +287,7 @@ const HistoryTimelineItemTitle = styled.div`
   font-weight: 300;
   display: inline;
   margin-right: 0.5em;
+  border: ${DEBUG_HISTORY};
 `
 
 const HistoryDetail = styled.div`
@@ -302,16 +303,27 @@ const HistoryDetailTitle = styled.div`
   font-size: 2em;
   font-weight: 700;
   line-height: 1.1;
+  @media (max-width: ${MAX_WIDTH_PX}) {
+    font-size: 1em;
+  }
+  border: ${DEBUG_HISTORY};
 `
 const HistoryDetailDesc = styled.div`
   margin-bottom: 20px;
   font-size: 0.7em;
+  @media (max-width: ${MAX_WIDTH_PX}) {
+    font-size: 0.5em;
+  }
+  border: ${DEBUG_HISTORY};
 `
 const HistoryDetailLink = styled.div`
   margin-bottom: 20px;
   font-size: 0.9em;
   font-weight: 700;
   text-transform: uppercase;
+  @media (max-width: ${MAX_WIDTH_PX}) {
+    font-size: 0.7em;
+  }
 `
 
 const History = (historyList, match) => {
