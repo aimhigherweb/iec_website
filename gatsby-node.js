@@ -47,12 +47,12 @@ exports.sourceNodes = ({ actions, getNodes, getNode }) => {
 
 async function createContentPages(graphql, actions, reporter) {
   const { createPage } = actions
-  const blogTemplate = path.resolve(`src/pages/blog/template.js`)
+  const blogTemplate = path.resolve(`src/pages/blog/template.tsx`)
   const patientResourcesTemplate = path.resolve(
-    `src/pages/patient-resources/template.js`
+    `src/pages/patient-resources/template.tsx`
   )
   const whatWeDoTemplate = path.resolve(`src/pages/what-we-do/template.tsx`)
-  const whoWeAreTemplate = path.resolve(`src/pages/who-we-are/template.js`)
+  const whoWeAreTemplate = path.resolve(`src/pages/who-we-are/template.tsx`)
 
   const result = await graphql(`
     {

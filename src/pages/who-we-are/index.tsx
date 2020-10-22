@@ -9,7 +9,7 @@ import { Footer } from "../../components/Layout/Footer"
 //----------------------------------------------------------
 //-- Section 1: Team
 //----------------------------------------------------------
-const DEBUG_TEAM = "0px solid blue"
+const DEBUG_TEAM = "1px solid blue"
 const MAX_WIDTH = 768
 const MAX_WIDTH_PX = `${MAX_WIDTH}px`
 
@@ -218,7 +218,7 @@ const Team = (teamList, match) => {
 //----------------------------------------------------------
 //-- Section 2: History
 //----------------------------------------------------------
-const DEBUG_SOCIAL = "0px solid blue"
+const DEBUG_HISTORY = "1px solid blue"
 const HistorySection = styled.div`
   padding: 40px 10%;
   border: ${DEBUG_HISTORY};
