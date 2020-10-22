@@ -528,10 +528,7 @@ const Social = () => {
         </div>
         {posts &&
           posts.map((post, i) => {
-            let imageSrc = post.imageUrl
-            if (i === 0) {
-              imageSrc = "images2/temp.png" //!!! temp
-            }
+            const imageSrc = post.imageUrl
             return (
               <SocialItem key={i}>
                 <a href="https://www.instagram.com/innovative.eye.care">

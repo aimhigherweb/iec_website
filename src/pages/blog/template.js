@@ -129,20 +129,27 @@ const RightNav = styled.div`
 `
 
 const Detail = (state, data) => {
-  if (!state) {
-    console.log(`*** BlogTemplate.Detail... NO STATE`)
-    return <div>NO STATE</div>
-  }
+  //   if (!state) {
+  //     console.log(`*** BlogTemplate.Detail... NO STATE`)
+  //     return <div>NO STATE</div>
+  //   }
 
   const { markdownRemark } = data
   const { preview_image, title, date } = markdownRemark.frontmatter
   const { author } = markdownRemark.fields
   const authorTitle = author.frontmatter.title
   const authorPhoto = author.frontmatter.photo
-  const { index, category, articles, articleIndex } = state
 
-  console.log(`*** BlogTemplate.Detail... articleIndex=${articleIndex}`)
-  console.log(`*** BlogTemplate.Detail... frontmatter=${JSON.stringify(data)}`)
+  let index = undefined
+  let category = undefined
+  let articles = undefined
+  let articleIndex = undefined
+  if (state) {
+    index = state.index
+    category = state.category
+    articles = state.articles
+    articleIndex = state.articleIndex
+  }
 
   const finalArticles = []
   let prevFinalArticle = null
