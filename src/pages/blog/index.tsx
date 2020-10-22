@@ -182,7 +182,7 @@ export const query = graphql`
   {
     blogArticles: allMarkdownRemark(
       filter: { fileAbsolutePath: { regex: "/blog/" } }
-      sort: { fields: frontmatter___title, order: ASC }
+      sort: { fields: frontmatter___date, order: DESC }
     ) {
       edges {
         node {
