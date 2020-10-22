@@ -24,7 +24,9 @@ const DetailSection = styled.div`
 
 const LeftNav = styled.div`
   flex: 1;
+  display: block;
   @media (max-width: ${MAX_WIDTH_PX}) {
+    display: none;
   }
   border: ${DEBUG_TEAM};
 `
@@ -41,7 +43,9 @@ const NavArrowImage = styled.img`
 `
 const LeftPart = styled.div`
   flex: 2;
+  display: block;
   @media (max-width: ${MAX_WIDTH_PX}) {
+    display: none;
   }
   border: ${DEBUG_TEAM};
   border-top: 1px solid black;
@@ -104,9 +108,10 @@ const ArticleButton = styled.button`
 
 const RightPart = styled.div`
   flex: 2;
+  display: block;
   @media (max-width: ${MAX_WIDTH_PX}) {
+    display: none;
   }
-
   border: ${DEBUG_TEAM};
   border-top: 1px solid black;
 `
@@ -126,7 +131,9 @@ const ItemTitleCurrent = styled(ItemTitle)`
 `
 const RightNav = styled.div`
   flex: 1;
+  display: block;
   @media (max-width: ${MAX_WIDTH_PX}) {
+    display: none;
   }
   border: ${DEBUG_TEAM};
 `
