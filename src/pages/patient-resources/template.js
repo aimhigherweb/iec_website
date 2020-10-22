@@ -1,5 +1,5 @@
 import React from "react"
-import { graphql, Link } from "gatsby"
+import { graphql, Link, navigate } from "gatsby"
 import styled from "styled-components"
 
 import { useMatchMedia } from "../../hooks/useMatchMedia"
@@ -84,6 +84,22 @@ const ArticleTitle = styled.h1`
   font-family: "Times New Roman";
   font-size: 1.6em;
   border: ${DEBUG_TEAM};
+`
+const ArticleButton = styled.button`
+  display: none;
+  margin-bottom: 16px;
+  padding: 4px 16px;
+  color: white;
+  font-family: "Times New Roman";
+  font-size: 1.1em;
+  font-weight: 600;
+  background-color: #5091cd;
+  border: none;
+  @media (max-width: ${MAX_WIDTH_PX}) {
+    display: block;
+    width: 100%;
+    padding: 8px 24px;
+  }
 `
 
 const RightPart = styled.div`
@@ -207,6 +223,14 @@ const Detail = (state, data) => {
       <ArticlePart>
         <ArticleTitle>{title}</ArticleTitle>
         <div dangerouslySetInnerHTML={{ __html: markdownRemark.html }} />
+        <ArticleButton onClick={() => navigate("/patient-resources")}>
+          Back to categories
+        </ArticleButton>
+        {nextFinalArticle && (
+          <Link to={nextFinalArticle.slug} state={nextFinalArticle.payload}>
+            <ArticleButton>Next article</ArticleButton>
+          </Link>
+        )}
       </ArticlePart>
       <RightPart>
         {finalArticles.map((finalArticle, i) => {
