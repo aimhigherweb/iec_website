@@ -3,6 +3,7 @@ title: World Diabetes Day 2020
 date: 2020-11-19T03:51:13.860Z
 author: Dylan Bentley
 author_url: https://www.innovativeeyecare.com.au/who-we-are/dylan-bentley
+preview_image: /uploads/sugar-diabetes.jpeg
 ---
 <div class="employee-heading">
 
