@@ -33,6 +33,8 @@ Diabetes can affect many aspects of your ocular health and vision.
 
 With these changes, other conditions can arise, including [cataracts](https://www.innovativeeyecare.com.au/what-we-do/cataract), [dry eye disease](https://www.innovativeeyecare.com.au/what-we-do/dry-eye-disease) and fluid build-up at the back of the eye (diabetic macular oedema, or DMO).<sup>5,6</sup>
 
+![](/uploads/diabetic-retinopathy.jpg)
+
 #### Diabetic Eye Exams at Innovative Eye Care
 
 At Innovative Eye Care, we routinely assess many diabetics to prevent or detect diabetes-related complications sooner rather than later.
