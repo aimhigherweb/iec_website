@@ -28,7 +28,7 @@ Diabetes can affect many aspects of your ocular health and vision.
 
 [Diabetic retinopathy (DR)](https://www.innovativeeyecare.com.au/what-we-do/diabetes-and-the-eye) is a condition where high blood sugar levels damage the small blood vessels (or capillaries) in the back of your eye, also known as the retina, which leads to reduced oxygen supply as the blood is no longer effectively delivered to this area. There are two major categories of diabetic retinopathy:
 
-1. Non-proliferative: Damage to vessels causes small haemorrhages, blood vessel wall changes and reduced blood circulation in the retina.<sup>5</sup>
+1. Non-proliferative: Damage to vessels causes small haemorrhages, fatty lipid deposits and reduced blood circulation in the retina.<sup>5</sup>
 2. Proliferative: Damage to vessels becomes so severe that the retina is significantly starved of oxygen, leading to the creation of new, leaky vessels to compensate which can cause extensive bleeding and vision loss.<sup>5</sup>
 
 With these changes, other conditions can arise, including [cataracts](https://www.innovativeeyecare.com.au/what-we-do/cataract), [dry eye disease](https://www.innovativeeyecare.com.au/what-we-do/dry-eye-disease) and fluid build-up at the back of the eye (diabetic macular oedema, or DMO).<sup>5,6</sup>
