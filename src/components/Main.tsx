@@ -3,6 +3,8 @@ import { navigate } from "gatsby"
 import styled from "styled-components"
 import { FaSearch } from "react-icons/fa"
 
+import { useMatchMedia } from "../hooks/useMatchMedia"
+
 //----------------------------------------------------------
 //-- Section 0: Main
 //----------------------------------------------------------
@@ -150,7 +152,7 @@ const MainVideoContent = styled.video`
   min-height: 100%;
 `
 
-const MainDiv = (showFull, videoToPlay) => {
+const MainDiv = (match, showFull, videoToPlay, imageToDisplay) => {
   return (
     <div>
       <MainHeader>
@@ -205,8 +207,11 @@ const MainDiv = (showFull, videoToPlay) => {
 //----------------------------------------------------------
 //-- Render
 //----------------------------------------------------------
-export const Main: React.FC = (showFull, videoToPlay) => {
-  console.log(`*** Main.RENDER`)
+export const Main: React.FC = (showFull, videoToPlay, imageToDisplay) => {
+  const match = useMatchMedia({
+    width: MAX_WIDTH,
+  })
+  console.log(`*** Main.RENDER... match=${match}`)
   //
-  return MainDiv(showFull, videoToPlay)
+  return MainDiv(match, showFull, videoToPlay, imageToDisplay)
 }
