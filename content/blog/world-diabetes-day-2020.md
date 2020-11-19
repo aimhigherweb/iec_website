@@ -35,7 +35,7 @@ With these changes, other conditions can arise, including [cataracts](https://ww
 
 ![](/uploads/diabetic-retinopathy.jpg)
 
-#### Diabetic Eye Exams at Innovative Eye Care
+#### Diabetic eye exams at Innovative Eye Care
 
 At Innovative Eye Care, we routinely assess many diabetics to prevent or detect diabetes-related complications sooner rather than later.
 
