@@ -52,8 +52,4 @@ We will discuss our findings with you and provide recommendations tailored to yo
 * Concession cards (including Department of Veteran Affairs card if applicable)
 * Private health insurance card (if applicable) 
 
-<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\[if IE]><iframe frameborder="0" type="text/html" src="https://2689-2347.captiv8online.com/animations/embed/one/eye-exam?player_width=100%&player_height=100%&site_company_language=34&autostart=false" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\[endif]--><!--\[if !IE]> <--><object data="https://2689-2347.captiv8online.com/animations/embed/one/eye-exam?player_width=100%&player_height=100%&site_company_language=34&autostart=false" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://2689-2347.captiv8online.com/animations/embed/one/eye-exam?player_width=100%&player_height=100%&site_company_language=34&autostart=false">Eye Exam</a></object><!--> <!\[endif]--></div>
-
-<br>
-
 This practice strives to provide the highest level of optometric health care and to ensure the best results for each patient. To find out more about how your eye examination is billed in the light of the 2014 Budget please click [here](/what-we-do/exam-billing).
