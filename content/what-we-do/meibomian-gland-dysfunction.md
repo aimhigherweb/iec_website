@@ -1,7 +1,7 @@
 ---
 title: Meibomian Gland Dysfunction
 category: dry-eye-clinic
-preview-image: mgd-expression.jpg
+preview-image: /uploads/mgd.png
 ---
 <div class="employee-heading">
 <p>Meibomian glands are the oil-producing glands located in both the upper and lower eyelids. This oil covers the aqueous layer of the tear film, preventing evaporation of the tears. When these become chronically blocked, an increase in symptoms of irritation and dryness occurs. This condition is called meibomian gland dysfunction (MGD)or posterior blepharitis, and it occurs in about 30% of the population. MGD is one of the most common conditions our optometrists in Adelaide and Woodville treat. If you are interested in knowing more about MGD, <a href="/what-we-do/eye-exam">book an appointment</a> or contact us.</p>
