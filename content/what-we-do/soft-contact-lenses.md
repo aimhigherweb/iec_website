@@ -1,7 +1,7 @@
 ---
 title: Soft Contact Lenses
 category: contact-lenses
-preview-image: soft-contact-2.jpg
+preview-image: /uploads/contact-lenses.png
 ---
 <div class="employee-heading">
 <p><p>Soft disposable contact lenses offer clear vision without wearing spectacles. They have high comfort levels and a low risk of infection, along with being easy to insert and remove. Soft disposables come in daily and fortnightly/monthly types. To learn more about whether soft contact lenses are right for you, take a look at our general information page on <a href="/what-we-do/contact-lenses">contact lenses</a> or book an <a href="/what-we-do/eye-exam">appointment</a> with us today.</p>
