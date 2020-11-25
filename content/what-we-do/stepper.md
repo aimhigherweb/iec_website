@@ -1,6 +1,7 @@
 ---
 title: Stepper
-category: 'eyewear-experts]'
+category: eyewear-experts]
+preview-image: /uploads/stepper-logo.jpg
 ---
 <div class="employee-heading">
 Stepper is the hallmark for quality eyewear across the globe, combining innovative manufacturing techniques with a detailed design process to ensure great comfort. Superior materials such as Titanium are used in a wide range of styles. See the Stepper designs <a href="https://www.steppereyewear.com.au/">here</a>.
