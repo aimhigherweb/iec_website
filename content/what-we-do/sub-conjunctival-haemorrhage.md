@@ -1,7 +1,7 @@
 ---
 title: Sub-Conjunctival Haemorrhage
 category: acute-red-eyes
-preview-image: sub-conjunctival-haemorrhage.jpg
+preview-image: /uploads/sub-conj-haem.jpg
 ---
 
 <div class="employee-heading">
