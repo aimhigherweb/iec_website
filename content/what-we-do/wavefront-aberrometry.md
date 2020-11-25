@@ -1,6 +1,7 @@
 ---
 title: Wavefront Aberrometry
 category: advanced-imaging-technology
+preview-image: /uploads/aberrations.jpg
 ---
 <div class="employee-heading">
 
