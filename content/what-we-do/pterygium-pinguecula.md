@@ -1,7 +1,7 @@
 ---
 title: Pterygium and Pinguecula
 category: eye-disease
-preview-image: pterygium.png
+preview-image: /uploads/pterygium.jpg
 ---
 <div class="employee-heading">
 <p>Pterygium and pingueculum are variants of the same condition in which the conjunctiva (a membrane that covers the white of the eye) is damaged and responds by continuing to grow. It occurs most commonly in people who spent a great deal of time outdoors.<sup>1,2</sup> In the case of a pterygium, the conjunctiva grows centrally onto the cornea, whereas in a pingueculum the conjunctiva only grows locally on the visible white of the eye. The primary complaints about both pterygia and pinguecula are poor cosmetic appearance but they may also cause significant irritation and pterygia can cause reversible vision loss.<sup>1</sup></p>
