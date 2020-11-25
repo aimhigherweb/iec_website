@@ -1,7 +1,7 @@
 ---
 title: Digital Retinal Photography
 category: advanced-imaging-technology
-preview-image: myelinated-nfl.jpg
+preview-image: /uploads/khsdf.jpg
 ---
 <div class="employee-heading">
 <p>At Innovative Eye Care, your optometrist will take retinal photographs of your eyes using one of two state-of-the-art retinal cameras depending on whether your appointment takes place at our Adelaide or Woodville branch. This process is important as part of your <a href="/what-we-do/eye-exam">comprehensive eye examination</a> and is used to monitor any changes to your eye health in the future.</p>
