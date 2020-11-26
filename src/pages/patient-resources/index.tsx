@@ -239,7 +239,7 @@ const PatientResources: React.FC = (props) => {
   console.log(`*** PatientResources.RENDER... match=${match}`)
   return (
     <Container>
-      {Main(false, null)}
+      {Main(true, null, "/images2/bg-section-patres.png")}
       {Patient(props.data)}
       {Footer()}
     </Container>

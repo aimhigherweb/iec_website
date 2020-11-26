@@ -151,6 +151,10 @@ const MainVideoContent = styled.video`
   min-width: 100%;
   min-height: 100%;
 `
+const MainImage = styled.div`
+  width: auto;
+  height: auto;
+`
 
 const MainDiv = (match, showFull, videoToPlay, imageToDisplay) => {
   return (
@@ -199,6 +203,11 @@ const MainDiv = (match, showFull, videoToPlay, imageToDisplay) => {
             <source src={videoToPlay} type="video/mp4" />
           </MainVideoContent>
         </MainVideo>
+      )}
+      {showFull && imageToDisplay && (
+        <MainImage>
+          <img src={imageToDisplay} />
+        </MainImage>
       )}
     </div>
   )

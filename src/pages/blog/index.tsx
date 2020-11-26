@@ -168,7 +168,7 @@ const Blog: React.FC = (props) => {
   console.log(`*** Blog.RENDER... match=${match}`)
   return (
     <Container>
-      {Main(true, null)}
+      {Main(true, null, "/images2/bg-section-blog.png")}
       {BlogList(props.data)}
       {Footer()}
     </Container>
