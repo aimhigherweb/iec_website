@@ -35,9 +35,7 @@ const Logo = styled.img.attrs({
   }
   border: ${DEBUG_MAIN};
 `
-const Menu = styled.img.attrs({
-  src: "/images2/icon-menu.png",
-})`
+const Menu = styled.div`
   position: fixed;
   top: 30px;
   right: 20px;
@@ -193,7 +191,9 @@ const MainDiv = (match, showFull, videoToPlay, imageToDisplay) => {
     <div>
       <MainHeader>
         <Logo onClick={() => navigate("/")} />
-        <Menu onClick={() => setShowMenu(!showMenu)} />
+        <Menu onClick={() => setShowMenu(!showMenu)}>
+          {!showMenu && <img src={"/images2/icon-menu.png"} />}
+        </Menu>
       </MainHeader>
       <MainMenu show={showMenu}>
         <MainMenuItem onClick={() => setShowMenu(!showMenu)}>
