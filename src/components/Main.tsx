@@ -1,7 +1,7 @@
-import React from "react"
+import React, { useState } from "react"
 import { navigate } from "gatsby"
 import styled from "styled-components"
-import { FaSearch } from "react-icons/fa"
+import { FaSearch, FaTimes } from "react-icons/fa"
 
 import { useMatchMedia } from "../hooks/useMatchMedia"
 
@@ -49,6 +49,26 @@ const Menu = styled.img.attrs({
 `
 const MainHeaderFiller = styled.div`
   height: 100px;
+`
+
+const MainMenu = styled.div`
+  position: fixed;
+  display: ${(props) => (props.show ? "true" : "none")};
+  align-items: right;
+  z-index: 9999;
+  right: 0;
+  top: 0;
+  width: 180px;
+  height: 100vh;
+  background-color: #000000d0;
+`
+const MainMenuItem = styled.div`
+  margin: 0 20px;
+  color: white;
+  font-family: "Times New Roman";
+  font-size: 0.9em;
+  font-weight: 600;
+  text-align: right;
 `
 
 const MainFooter = styled.div`
@@ -167,12 +187,34 @@ const MainImage = styled.div`
 `
 
 const MainDiv = (match, showFull, videoToPlay, imageToDisplay) => {
+  const [showMenu, setShowMenu] = useState(false)
+
   return (
     <div>
       <MainHeader>
         <Logo onClick={() => navigate("/")} />
-        <Menu />
+        <Menu onClick={() => setShowMenu(!showMenu)} />
       </MainHeader>
+      <MainMenu show={showMenu}>
+        <MainMenuItem onClick={() => setShowMenu(!showMenu)}>
+          <FaTimes
+            style={{
+              color: "#5091cd",
+              marginTop: "32px",
+              marginRight: "6px",
+              marginBottom: "12px",
+            }}
+          />
+        </MainMenuItem>
+
+        <MainMenuItem>Home</MainMenuItem>
+        <MainMenuItem>Who We Are</MainMenuItem>
+        <MainMenuItem>What We Do</MainMenuItem>
+        <MainMenuItem>Patient Resources</MainMenuItem>
+        <MainMenuItem>Contact</MainMenuItem>
+        <MainMenuItem>Blog</MainMenuItem>
+        <MainMenuItem>Shop</MainMenuItem>
+      </MainMenu>
       {!showFull && <MainHeaderFiller />}
       {showFull && (
         <MainFooter>
