@@ -8,7 +8,7 @@ import { useMatchMedia } from "../hooks/useMatchMedia"
 //----------------------------------------------------------
 //-- Section 0: Main
 //----------------------------------------------------------
-const DEBUG_MAIN = "1px solid blue"
+const DEBUG_MAIN = "0px solid blue"
 const MAX_WIDTH = 768
 const MAX_WIDTH_PX = `${MAX_WIDTH}px`
 
@@ -53,6 +53,8 @@ const MainHeaderFiller = styled.div`
 
 const MainFooter = styled.div`
   position: fixed;
+  display: flex;
+  align-items: center;
   z-index: 9999;
   left: 0;
   right: 0;
@@ -61,14 +63,9 @@ const MainFooter = styled.div`
   height: 70px;
   background-color: #00000066;
 `
-const HelloDiv = styled.div`
-  width: 100%;
-  background-color: yellow;
-`
 const MainSearch = styled.div`
-  position: fixed;
-  bottom: 20px;
-  left: 40px;
+  flex: 1;
+  margin: 0 0 0 40px;
   @media (max-width: ${MAX_WIDTH_PX}) {
     left: 40px;
     right: 40px;
@@ -76,20 +73,19 @@ const MainSearch = styled.div`
   }
   border: ${DEBUG_MAIN};
 `
-const MainSearchWrapper = styled.div`
-  position: relative;
+const MainSearchWrapper = styled.span`
+  padding: 12px 0;
   border: ${DEBUG_MAIN};
   border: 1px solid white;
 `
 const MainSearchInput = styled.input`
-  width: 250px;
-  padding: 6px 8px;
+  padding: 12px 8px;
   color: red;
   font-family: "Times New Roman";
   font-size: 1em;
   font-weight: 800;
   background-color: rgba(0, 0, 0, 0);
-  border: 1px solid black;
+  border: none;
   outline: none;
   ::placeholder {
     font-family: "Times New Roman";
@@ -104,19 +100,16 @@ const MainSearchInput = styled.input`
 const MainSearchIcon = styled.span``
 
 const MainBooking = styled.div`
-  position: fixed;
+  flex: 3;
   display: flex;
-  bottom: 20px;
-  right: 40px;
+  margin: 0;
   @media (max-width: ${MAX_WIDTH_PX}) {
-    /*position: static;
-    margin: 20px 20px;*/
     left: 20px;
     right: 20px;
   }
-  border: 1px solid red;
 `
 const MainBookingItem = styled.div`
+  margin: 0 40px;
   padding: 0px;
   flex: 1;
   @media (max-width: ${MAX_WIDTH_PX}) {
@@ -124,11 +117,12 @@ const MainBookingItem = styled.div`
   }
 `
 const MainBookingButton = styled.div`
-  padding: 4px 16px;
+  padding: 8px 24px;
   color: white;
   font-family: "Times New Roman";
   font-size: 1em;
   font-weight: 600;
+  text-align: center;
   background-color: #5091cd;
   border: none;
   @media (max-width: ${MAX_WIDTH_PX}) {
@@ -184,18 +178,21 @@ const MainDiv = (match, showFull, videoToPlay, imageToDisplay) => {
         <MainFooter>
           <MainSearch>
             <MainSearchWrapper>
-              <MainSearchInput placeholder="Search now." />
-              <MainSearchIcon>
-                <FaSearch
-                  style={{
-                    color: "white",
-                    paddingTop: "4px",
-                    marginRight: "6px",
-                  }}
-                />
-              </MainSearchIcon>
+              <span>
+                <MainSearchInput placeholder="Search now." size={15} />
+                <MainSearchIcon>
+                  <FaSearch
+                    style={{
+                      color: "white",
+                      paddingTop: "4px",
+                      marginRight: "6px",
+                    }}
+                  />
+                </MainSearchIcon>
+              </span>
             </MainSearchWrapper>
           </MainSearch>
+
           <MainBooking>
             <MainBookingItem>
               <MainBookingButton>
