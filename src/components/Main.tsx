@@ -8,7 +8,7 @@ import { useMatchMedia } from "../hooks/useMatchMedia"
 //----------------------------------------------------------
 //-- Section 0: Main
 //----------------------------------------------------------
-const DEBUG_MAIN = "0px solid blue"
+const DEBUG_MAIN = "1px solid blue"
 const MAX_WIDTH = 768
 const MAX_WIDTH_PX = `${MAX_WIDTH}px`
 
@@ -55,10 +55,15 @@ const MainFooter = styled.div`
   position: fixed;
   z-index: 9999;
   left: 0;
+  right: 0;
   bottom: 0;
   width: 100%;
   height: 70px;
   background-color: #00000066;
+`
+const HelloDiv = styled.div`
+  width: 100%;
+  background-color: yellow;
 `
 const MainSearch = styled.div`
   position: fixed;
@@ -67,6 +72,7 @@ const MainSearch = styled.div`
   @media (max-width: ${MAX_WIDTH_PX}) {
     left: 40px;
     right: 40px;
+    display: none;
   }
   border: ${DEBUG_MAIN};
 `
@@ -98,16 +104,26 @@ const MainSearchInput = styled.input`
 const MainSearchIcon = styled.span``
 
 const MainBooking = styled.div`
-  position: absolute;
+  position: fixed;
+  display: flex;
   bottom: 20px;
   right: 40px;
   @media (max-width: ${MAX_WIDTH_PX}) {
-    position: static;
-    margin: 20px 20px;
+    /*position: static;
+    margin: 20px 20px;*/
+    left: 20px;
+    right: 20px;
   }
-  border: ${DEBUG_MAIN};
+  border: 1px solid red;
 `
-const MainBookingButton = styled.button`
+const MainBookingItem = styled.div`
+  padding: 0px;
+  flex: 1;
+  @media (max-width: ${MAX_WIDTH_PX}) {
+    margin: 0 0px;
+  }
+`
+const MainBookingButton = styled.div`
   padding: 4px 16px;
   color: white;
   font-family: "Times New Roman";
@@ -116,8 +132,8 @@ const MainBookingButton = styled.button`
   background-color: #5091cd;
   border: none;
   @media (max-width: ${MAX_WIDTH_PX}) {
-    width: 100%;
     padding: 8px 24px;
+    margin: 0 8px;
   }
 `
 
@@ -181,9 +197,16 @@ const MainDiv = (match, showFull, videoToPlay, imageToDisplay) => {
             </MainSearchWrapper>
           </MainSearch>
           <MainBooking>
-            <MainBookingButton>Book Online Adelaide.</MainBookingButton>
-            &nbsp;&nbsp;&nbsp;
-            <MainBookingButton>Book Online Woodville.</MainBookingButton>
+            <MainBookingItem>
+              <MainBookingButton>
+                {match ? "Book Adelaide." : "Book Adelaide."}
+              </MainBookingButton>
+            </MainBookingItem>
+            <MainBookingItem>
+              <MainBookingButton>
+                {match ? "Book Woodville." : "Book Woodville."}
+              </MainBookingButton>
+            </MainBookingItem>
           </MainBooking>
         </MainFooter>
       )}
