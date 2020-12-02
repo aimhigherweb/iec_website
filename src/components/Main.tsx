@@ -189,10 +189,10 @@ const MainDiv = (match, showFull, videoToPlay, imageToDisplay) => {
   const [showMenu, setShowMenu] = useState(false)
 
   const navTo = (url) => {
+    setShowMenu(false)
     if (url.startsWith("http")) {
       window.open(url, "_blank")
     } else {
-      setShowMenu(false)
       navigate(url)
     }
   }
