@@ -67,6 +67,7 @@ const MainMenuItem = styled.div`
   font-size: 0.9em;
   font-weight: 600;
   text-align: right;
+  cursor: pointer;
 `
 
 const MainFooter = styled.div`
@@ -187,6 +188,15 @@ const MainImage = styled.div`
 const MainDiv = (match, showFull, videoToPlay, imageToDisplay) => {
   const [showMenu, setShowMenu] = useState(false)
 
+  const navTo = (url) => {
+    if (url.startsWith("http")) {
+      window.open(url, "_blank")
+    } else {
+      setShowMenu(false)
+      navigate(url)
+    }
+  }
+
   return (
     <div>
       <MainHeader>
@@ -207,13 +217,21 @@ const MainDiv = (match, showFull, videoToPlay, imageToDisplay) => {
           />
         </MainMenuItem>
 
-        <MainMenuItem>Home</MainMenuItem>
-        <MainMenuItem>Who We Are</MainMenuItem>
-        <MainMenuItem>What We Do</MainMenuItem>
-        <MainMenuItem>Patient Resources</MainMenuItem>
-        <MainMenuItem>Contact</MainMenuItem>
-        <MainMenuItem>Blog</MainMenuItem>
-        <MainMenuItem>Shop</MainMenuItem>
+        <MainMenuItem onClick={() => navTo("/")}>Home</MainMenuItem>
+        <MainMenuItem onClick={() => navTo("/who-we-are")}>
+          Who We Are
+        </MainMenuItem>
+        <MainMenuItem onClick={() => navTo("/what-we-do")}>
+          What We Do
+        </MainMenuItem>
+        <MainMenuItem onClick={() => navTo("/patient-resources")}>
+          Patient Resources
+        </MainMenuItem>
+        <MainMenuItem onClick={() => navTo("/contact")}>Contact</MainMenuItem>
+        <MainMenuItem onClick={() => navTo("/blog")}>Blog</MainMenuItem>
+        <MainMenuItem onClick={() => navTo("https://eyesolutions.com.au")}>
+          Shop
+        </MainMenuItem>
       </MainMenu>
       {!showFull && <MainHeaderFiller />}
       {showFull && (
