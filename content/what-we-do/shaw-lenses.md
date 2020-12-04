@@ -1,7 +1,7 @@
 ---
 title: Shaw Lenses
 category: eyewear-experts
-preview_image:
+preview-image: /uploads/kid-glasses.jpeg
 ---
 
 <div class="employee-heading">

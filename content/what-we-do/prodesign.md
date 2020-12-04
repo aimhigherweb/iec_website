@@ -1,6 +1,7 @@
 ---
 title: Prodesign
 category: eyewear-experts
+preview-image: /uploads/prodesign-logo.jpg
 ---
 
 <div class="employee-heading">

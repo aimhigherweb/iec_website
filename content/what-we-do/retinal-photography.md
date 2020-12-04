@@ -1,7 +1,7 @@
 ---
 title: Digital Retinal Photography
 category: advanced-imaging-technology
-preview_image: myelinated-nfl.jpg
+preview-image: /uploads/khsdf.jpg
 ---
 
 <div class="employee-heading">

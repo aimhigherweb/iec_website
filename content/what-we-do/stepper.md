@@ -1,6 +1,7 @@
 ---
 title: Stepper
 category: eyewear-experts
+preview-image: /uploads/stepper-logo.jpg
 ---
 
 <div class="employee-heading">

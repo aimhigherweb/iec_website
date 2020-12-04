@@ -1,7 +1,7 @@
 ---
 title: Scleral Contact Lenses
 category: contact-lenses
-preview_image: scleral.jpg
+preview-image: /uploads/scleral-oct-background_preview.jpg
 ---
 
 <div class="employee-heading">

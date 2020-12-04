@@ -1,7 +1,7 @@
 ---
 title: Orthokeratology for Hyperopia
 category: orthok
-preview_image: presbyopia1.jpg
+preview-image: /uploads/cassidy-kelley-p90szoobygk-unsplash.jpg
 ---
 
 <div class="employee-heading">

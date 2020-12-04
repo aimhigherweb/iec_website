@@ -1,7 +1,7 @@
 ---
 title: Vision Training
 category: paediatric-vision
-preview_image: ""
+preview-image: /uploads/childrens-vision.jpg
 ---
 
 <div class="employee-heading">

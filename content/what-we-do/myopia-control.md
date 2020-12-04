@@ -1,7 +1,7 @@
 ---
 title: Myopia Control
 category: paediatric-vision
-preview_image: myopia-control-1.jpg
+preview-image: /uploads/microsoftteams-image-1-.png
 ---
 
 <div class="employee-heading">

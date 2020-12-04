@@ -1,7 +1,7 @@
 ---
 title: Optical Coherence Tomography (OCT)
 category: advanced-imaging-technology
-preview_image: spectralis-untersuchung_600x399.jpg
+preview-image: /uploads/heidelberg-oct.jpg
 ---
 
 <div class="employee-heading">

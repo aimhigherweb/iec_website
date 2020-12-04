@@ -1,7 +1,7 @@
 ---
 title: Keratitis
 category: acute-red-eyes
-preview_image: keratitis.jpg
+preview-image: /uploads/dendrites-hsk.jpg
 ---
 
 <div class="employee-heading">

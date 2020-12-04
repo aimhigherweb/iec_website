@@ -1,7 +1,9 @@
 ---
 title: Wavefront Aberrometry
 category: advanced-imaging-technology
+preview-image: /uploads/aberrations.jpg
 ---
+
 <div class="employee-heading">
 
 Innovative Eye Care’s Hutt Street practice is the first Optometry practice in the world to own a Pentacam AXL Wave. One of the incredible uses of this piece of equipment is wavefront aberrometry. The Pentacam AXL Wave’s wavefront aberrometry revolutionises the management of <a href="https://www.innovativeeyecare.com.au/what-we-do/hyperopia">hyperopia</a>, <a href="https://www.innovativeeyecare.com.au/what-we-do/myopia">myopia</a>, <a href="https://www.innovativeeyecare.com.au/what-we-do/astigmatism">astigmatism</a>, <a href="https://www.innovativeeyecare.com.au/what-we-do/keratoconus">keratoconus</a>, and <a href="https://www.innovativeeyecare.com.au/what-we-do/contact-lenses"> contact lens design</a>.
