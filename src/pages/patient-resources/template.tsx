@@ -145,7 +145,7 @@ const Detail = (state, data) => {
   //}
 
   const { markdownRemark } = data
-  const { title } = markdownRemark.frontmatter
+  const { title } = markdownRemark?.frontmatter
 
   let index = undefined
   let category = undefined
@@ -175,13 +175,13 @@ const Detail = (state, data) => {
       },
     ]
 
-    const categoryId = markdownRemark.frontmatter.category
+    const categoryId = markdownRemark?.frontmatter?.category
     const currentCategory = patientResCategories.find(
       (cat) => cat.category === categoryId
     )
 
     index = 0
-    category = { title: currentCategory.title, image: currentCategory.image }
+    category = { title: currentCategory?.title, image: currentCategory?.image }
     articles = []
     articleIndex = 0
   }

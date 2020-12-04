@@ -169,8 +169,8 @@ const Detail = (state, data) => {
   const { markdownRemark } = data
   const { preview_image, title, date } = markdownRemark.frontmatter
   const { author } = markdownRemark.fields
-  const authorTitle = author.frontmatter.title
-  const authorPhoto = author.frontmatter.photo
+  const authorTitle = author?.frontmatter?.title
+  const authorPhoto = author?.frontmatter?.photo
 
   let index = undefined
   let category = undefined
@@ -292,7 +292,9 @@ const Container = styled.div`
 
 const BlogTemplate = (props) => {
   const match = useMatchMedia({ width: MAX_WIDTH })
-  console.log(`*** BlogTemplate.RENDER... match=${match}`)
+  console.log(
+    `*** BlogTemplate.RENDER... match=${match} path=${props.location.pathname}`
+  )
   return (
     <Container>
       {Main(false, null)}

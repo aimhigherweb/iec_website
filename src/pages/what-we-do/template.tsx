@@ -150,7 +150,7 @@ const Detail = (state, data) => {
 
   const { markdownRemark } = data
   let title = undefined
-  if (markdownRemark) {
+  if (markdownRemark?.frontmatter) {
     title = markdownRemark.frontmatter.title
   }
 
@@ -217,7 +217,7 @@ const Detail = (state, data) => {
         image: "/images2/service-eye-consultations.png",
       },
     ]
-    const categoryId = markdownRemark.frontmatter.category
+    const categoryId = markdownRemark?.frontmatter?.category
     const currentCategory = whatWeDoCategories.find(
       (cat) => cat.category === categoryId
     )
@@ -225,7 +225,7 @@ const Detail = (state, data) => {
     //const imageSrc = previewImage ? `/uploads/${previewImage}` : " "
 
     index = 0
-    category = { title: currentCategory.title, image: currentCategory.image }
+    category = { title: currentCategory?.title, image: currentCategory?.image }
     articles = []
     articleIndex = 0
   }
@@ -334,7 +334,9 @@ const Container = styled.div`
 
 const WhatWeDoTemplate = (props) => {
   const match = useMatchMedia({ width: MAX_WIDTH })
-  console.log(`*** WhatWeDoTemplate.RENDER... match=${match}`)
+  console.log(
+    `*** WhatWeDoTemplate.RENDER... match=${match} path=${props.location.pathname}`
+  )
   return (
     <Container>
       {Main(false, null)}
