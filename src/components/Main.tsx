@@ -227,8 +227,8 @@ const MainDiv = (match, showFull, videoToPlay, imageToDisplay) => {
         <MainMenuItem onClick={() => navTo("/patient-resources")}>
           Patient Resources
         </MainMenuItem>
-        <MainMenuItem onClick={() => navTo("/contact")}>Contact</MainMenuItem>
         <MainMenuItem onClick={() => navTo("/blog")}>Blog</MainMenuItem>
+        <MainMenuItem onClick={() => navTo("/contact")}>Contact</MainMenuItem>
         <MainMenuItem onClick={() => navTo("https://eyesolutions.com.au")}>
           Shop
         </MainMenuItem>
