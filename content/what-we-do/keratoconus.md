@@ -14,13 +14,13 @@ For the best outcomes, keratoconus requires early detection.<sup>2</sup> At our 
 
 <br>
 
-### How common is keratoconus?
+## How common is keratoconus?
 
 Globally, keratoconus affects 1.3 people in 1000, although in Western countries like Australia these rates double.<sup>3</sup> The reason why keratoconus develops varies from person to person, where genetic and environmental factors contribute to different degrees. Genetic factors include family history of the disease (especially first-degree relatives)<sup>4</sup>, Asian and Arabian ethnicity and congenital conditions like Down, Marfan and Ehlers-Danlos syndromes.<sup>2</sup> Environmental factors include eye rubbing, allergies and hayfever, eczema, asthma and floppy eyelid syndrome.<sup>2</sup> Often your optometrist will recommend certain anti-allergy eye drops to decrease symptoms of itchiness and reduce the urge to rub the eyes.<sup>5</sup>
 
 Keratoconus presents during teenage years and progresses through to your 40s, although the age at which it worsens is variable.<sup>6</sup> Most studies indicate that keratoconus affects men and women equally, and it is common for each eye to have a differing degree of severity.<sup>6,7</sup>
 
-### How is keratoconus diagnosed?
+## How is keratoconus diagnosed?
 
 Keratoconus is a multifactorial disease, so the onset and progression can vary significantly between different people, and even between different eyes of the same person. Typically, night vision is affected first (haloes and streaks around headlights), which then develops into blurry and distorted vision.
 
@@ -56,7 +56,7 @@ The [anterior OCT](https://www.innovativeeyecare.com.au/what-we-do/optical-coher
 
 ![](/uploads/scleral-keratoconus.jpg)
 
-### **How is keratoconus managed?**
+## **How is keratoconus managed?**
 
 Keratoconus is very unpredictable and can progress rapidly over a short period of time, before stabilising for months or years, then progressing again.<sup>10</sup> For this reason, regular [eye tests](https://innovativeeyecare.com.au/what-we-do/eye-exam/) are recommended.
 
@@ -80,13 +80,13 @@ Vision can be adequately improved in some keratoconics with [glasses](https://ww
 
 **Corneal graft:** In rare situations, someone with severe keratoconus can develop corneal hydrops, a condition where the back surface of the cornea ruptures due to extreme thinning, causing corneal swelling and pain. These patients often require a [corneal graft](https://www.innovativeeyecare.com.au/what-we-do/corneal-grafts) due to the residual scarring. The longer this can be delayed with contact lens wear and careful management the better – grafts have a risk of rejection, require long courses of steroid drops, and often require spectacles or contact lenses after the surgery.
 
-### **Keratoconus vs. Pellucid Marginal Corneal Degeneration**
+## **Keratoconus vs. Pellucid Marginal Corneal Degeneration**
 
 Pellucid Marginal Corneal Degeneration (PMCD) is an uncommon condition causing thinning in a different part of the cornea (the bottom-most area). This condition is often confused with keratoconus as it causes similar corneal changes and requires complex contact lens designs, typically in the form of [scleral lenses](https://www.innovativeeyecare.com.au/what-we-do/scleral-contact-lenses), to give the best quality of vision. Patients will often present with blurred vision due to the irregularity of their cornea. Often against-the-rule [astigmatism](https://www.innovativeeyecare.com.au/what-we-do/astigmatism) is present and contributes to the blur. In PMCD, the stroma (middle layer) of the cornea is abnormal and thin but the other parts of the cornea are unaffected. This degeneration can progress slowly over time, but will only very rarely progress to the point of perforating the cornea.
 
 PMCD is best managed with large diameter [scleral contact lenses](applewebdata://18F3B07C-ABAA-4FF3-9779-B761DA4D7199/what-we-do/scleral-contact-lenses) that will vault over the affected area of cornea and still provide a regular front surface for vision. In severe cases a [corneal graft](applewebdata://18F3B07C-ABAA-4FF3-9779-B761DA4D7199/what-we-do/corneal-grafts) may be needed to restore functional vision. Collagen cross-linking is a surgical procedure used in some progressive cases to prevent further worsening of the condition.
 
-### References
+#### References
 
 1. Lawless, M., Coster, D. J., Phillips, A. J., & Loane, M. 1989. Keratoconus: diagnosis and management. <i>Aust N Z J Ophthalmol</i>, 17, 33-60.
 2. Gomes, J. A., Rapuano, C. J., Belin, M. W. & Ambrosio, R., Jr. 2015. Global Consensus on Keratoconus Diagnosis. <i>Cornea</i>, 34, e-38-9.
