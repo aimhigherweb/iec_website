@@ -1,32 +1,34 @@
 ---
 title: Keratoconus
 category: eye-disease
-preview-image: keratoconus.jpg
+preview-image: /uploads/keratoconus.jpg
 ---
 <div class="employee-heading">
-<p>Keratoconus is a progressive eye disease that can cause distorted, blurry vision that often requires more <a href="/what-we-do/contact-lenses">complex contact lens solutions</a>. This condition involves progressive thinning of the cornea (the front surface of the eye), causing the surface to protrude forward in a cone shape, giving the disease its name ("<i>keras</i>" meaning cornea, and "<i>konos</i>" meaning cone). With increased severity, the amount of protrusion and irregularity of the cornea increases.<sup>1</sup>
+Keratoconus is an eye disease that can cause distorted and blurry vision, even with glasses. This condition involves the thinning of the cornea (the window at the front of the eye), causing the surface to protrude forward in a cone shape, giving the disease its name ("\*keras\*" meaning cornea, and "\*konos\*" meaning cone). The condition is progressive, meaning it worsens over time, and with increased severity the cornea becomes more and more irregular.<sup>1</sup> This can lead to <a href="https://www.innovativeeyecare.com.au/what-we-do/astigmatism">astigmatism</a>, scarring and severe vision loss.
 
-<p>Keratoconus management is often reliant on early detection.<sup>2</sup> At our Adelaide and Woodville practices, our optometrists have an interest in keratoconus, and one of our optometrists, Lachlan Hoy, has written the chapter on keratoconus in the globally distributed <i>Contact Lenses</i> textbook to be published in 2019. If you are interested in making an <a href="/what-we-do/eye-exam">appointment</a>, please <a href="/contact">contact us</a> for more information. 
+For the best outcomes, keratoconus requires early detection.<sup>2</sup> At our Adelaide and Woodville practices, all our optometrists have an interest in keratoconus, with one (Lachlan Hoy) having written the chapter on keratoconus in the globally distributed *Contact Lenses* textbook published in 2019.
 
 </div>
 
-<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\\\\[if IE]><iframe frameborder="0" type="text/html" src="https://2689-2347.captiv8online.com/animations/embed/one/t-to-o-u?player_width=100%&player_height=100%&site_company_language=34&autostart=false" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\\\\[endif]--><!--\\\\[if !IE]> <--><object data="https://2689-2347.captiv8online.com/animations/embed/one/t-to-o-u?player_width=100%&player_height=100%&site_company_language=34&autostart=false" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://2689-2347.captiv8online.com/animations/embed/one/t-to-o-u?player_width=100%&player_height=100%&site_company_language=34&autostart=false">Keratoconus: What is it?</a></object><!--> <!\\\\[endif]--></div>
+<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\\\\\\[if IE]><iframe frameborder="0" type="text/html" src="https://2689-2347.captiv8online.com/animations/embed/one/t-to-o-u?player_width=100%&player_height=100%&site_company_language=34&autostart=false" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\\\\\\[endif]--><!--\\\\\\[if !IE]> <--><object data="https://2689-2347.captiv8online.com/animations/embed/one/t-to-o-u?player_width=100%&player_height=100%&site_company_language=34&autostart=false" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://2689-2347.captiv8online.com/animations/embed/one/t-to-o-u?player_width=100%&player_height=100%&site_company_language=34&autostart=false">Keratoconus: What is it?</a></object><!--> <!\\\\\\[endif]--></div>
 
 <br>
 
 #### How common is keratoconus?
 
-Previously, the prevalence of keratoconus was estimated to be 0.05%<sup>3</sup>, however recent evidence cites the incidence to be as high as 0.26% in some populations.<sup>4</sup> In Australia, keratoconus affects approximately 1 in 2000 people. Keratoconus generally presents during teenage years and progresses through to your forties, although the age at which it worsens varies from person to person.<sup>5</sup> It is common for each eye to have a differing degree of severity.<sup>6</sup> 
+Globally, keratoconus affects 1.3 people in 1000, although in Western countries like Australia these rates double.<sup>3</sup> The reason why keratoconus develops varies from person to person, where genetic and environmental factors contribute to different degrees. Genetic factors include family history of the disease (especially first-degree relatives)<sup>4</sup>, Asian and Arabian ethnicity and congenital conditions like Down, Marfan and Ehlers-Danlos syndromes.<sup>2</sup> Environmental factors include eye rubbing, allergies and hayfever, eczema, asthma and floppy eyelid syndrome.<sup>2</sup> Often your optometrist will recommend certain anti-allergy eye drops to decrease symptoms of itchiness and reduce the urge to rub the eyes.<sup>5</sup>
 
-Family history is considered a risk factor, and according to one study the probability of being diagnosed with keratoconus if an immediate family member has the disease is 14%.<sup>7</sup> Most studies indicate that no gender is more predisposed to the condition, but it is more prominent among patients with a personal history of allergy or eye rubbing. Often your optometrist will recommend certain anti-allergy eye drops to decrease symptoms of itchiness which cause keratoconics to rub their eyes and worsen their condition.<sup>8</sup>
+Keratoconus presents during teenage years and progresses through to your 40s, although the age at which it worsens is variable.<sup>6</sup> Most studies indicate that keratoconus affects men and women equally, and it is common for each eye to have a differing degree of severity.<sup>6,7</sup>
 
 #### How is keratoconus diagnosed?
 
-Keratoconus is a multifactorial disease, hence the onset and progression can vary significantly between different people, and even between different eyes of the same person. Keratoconus is very unpredictable and can progress rapidly over a short period of time, before stabilising for months or years, then progressing again.<sup>9</sup> For this reason, regular [eye tests](https://innovativeeyecare.com.au/what-we-do/eye-exam/) are recommended. 
+Keratoconus is a multifactorial disease, hence the onset and progression can vary significantly between different people, and even between different eyes of the same person. Typically, night vision is affected first (haloes and streaks around headlights), which then develops into blurry and distorted vision.
+
+Your optometrist can detect signs of keratoconus by analysing structural changes in the cornea. According to *The Global Consensus on Keratoconus and Ectatic Diseases*, for a true diagnosis of keratoconus there must be thinning at the back of the cornea that is not due to another cause, and irregular corneal thickness where some areas are abnormally thinner than others.<sup>2</sup> The only way this can be detected reliably is with <a href="https://www.innovativeeyecare.com.au/what-we-do/corneal-tomography">corneal tomography</a>[](https://www.innovativeeyecare.com.au/what-we-do/corneal-tomography).
 
 ##### Slit lamp biomicroscopy
 
-Our optometrists can assess the corneal (front surface of the eye) shape and thickness through microscopy. The below image shows a keratoconic cornea. Note the forward protrusion of the cornea, with notable thinning just below the centre. As well as changes in corneal shape and thickness, there are a number of other findings visible under microscopy. These include the presence of prominent corneal nerves, Fleischer's iron ring and Vogt’s striae (corneal stress lines).<sup>10</sup>
+Our optometrists can assess the corneal (front surface of the eye) shape and thickness through microscopy. The below image shows a keratoconic cornea. Note the forward protrusion of the cornea, with notable thinning just below the centre. As well as changes in corneal shape and thickness, there are a number of other findings visible under microscopy. These include the presence of prominent corneal nerves, Fleischer's iron ring and Vogt’s striae (corneal stress lines).<sup>9</sup>
 
 ![](/uploads/normal-and-kcs-cornea-cross-section.jpg)
 
@@ -77,19 +79,24 @@ PMCD is best managed with large diameter [scleral contact lenses](/what-we-do/sc
 1. Lawless, M., Coster, D. J., Phillips, A. J., & Loane, M. 1989. Keratoconus: diagnosis and management. <i>Aust N Z J Ophthalmol</i>, 17, 33-60.
 2. Gomes, J. A., Rapuano, C. J., Belin, M. W. & Ambrosio, R., Jr. 2015. Global Consensus on Keratoconus Diagnosis. <i>Cornea</i>, 34, e-38-9.
 3. Kennedy, R. H., Bourne, W. M. & Dyer, J. A. 1986. Apical changes in scarring in keratoconus. <i>Am J Ophthalmol</i>, 101, 267-73.
-4. Godefrooij, D. A., De Wit, G. A., Uiterwaal, C. S., Imhof, S. M. & Wisse, R. P. 2017. Age-specific Incidence and Prevalence of Keratoconus: A Nationwide Registration Study. <i>Am J Ophthalmol</i>, 175, 169-172.
-5. Rabinowitz, Y. S. 1998. Keratoconus. <i>Survey of Ophthalmology</i>, 42, 297-319.
-6. Li, X., Rabinowitz, Y. S., Rasheed, K. & Yang, H. 2004. Longitudal study of normal eyes in unilateral keratoconus patients. <i>Ophthalmology</i>, 111, 440-6.
-7. Karimian, F., Aramesh, S., Rabei, H. M., Javadi, M. A. & Rafati, N. 2008. Topographic evaluation of relatives of patients with keratoconus. <i>Cornea</i>, 27, 874-8.
-8. Balasubramanian, S. A., Pye, D. C. & Willcox, M. D. 2013. Effects of eye rubbing on levels of protease, protease activity and cytokines in tears: relevance in keratoconus. <i>Clin Exp Optom</i>, 96, 214-8.
-9. Lawless, M., Coster, D. J., Phillips, A. J., & Loane, M. 1989. Keratoconus: diagnosis and management. <i>Aust N Z J Ophthalmol</i>, 17, 33-60. 
-10. Romero-Jimenez, M., Santodomingo-Rubido, J. & Wolffsohn, J. S. 2010. Keratoconus: a review. <i>Contact Lens and Anterior Eye</i>, 33, 157-166. 
-11. Gokul, A., Patel, D. V., Watters, G. A. & McGhee, C. N. J. 2017. The natural history of corneal topographic progression of keratoconus after age 30 years in non-contact lens wearer. <i>Br J Ophthalmol</i>, 101, 839-844.
-12. Romero-Jimenez, M., Santodomingo-Rubido, J. & Wolffsohn, J. S. 2010. Keratoconus: a review. <i>Contact Lens and Anterior Eye</i>, 33, 157-166. 
-13. Goodefrooij, D. A., Gans, R., Imhof, S. M. & Wisse, R. P. 2016. Nationwide reduction in the number of corneal transplantations for keratoconus following the implementation of cross-linking. <i>Acta Ophthalmol</i>, 94, 675-678.
-14. Galvis, V., Tello, A., Ortiz, A. I. & Escaf, L. C. 2017. Patient selection for corneal collagen cross-linking: an updated review. <i>Clin Ophthalmol</i>, 11, 657-668.
-15. Macsai, M. S., Varley, G. A. & Krachmer, J. H. 1990. Development of keratoconus after contact lens wear. Patient characteristics. <i>Arch Ophthalmol</i>, 108, 534-8.
-16. Korb, D. R., Finnemore, V. M. & Herman, J. P. 1982. Apical changes and scarring in keratoconus as related to contact lens fitting techniques. <i>J Am Optom Assoc</i>, 53, 199-205.
-17. Ortiz-Toquero, S., Perez, S., Rodriguez, G., De Juan, V., Mayo-Iscar, A. & Martin, R. 2016. The influence of the refractive correction on the vision-related quality of life in keratoconus patients. <i>Qual Life Res</i>, 25, 1043-51.
-18. Bergmanson, J. P., Walker, M. K. & Johnson, L. A. 2016. Assessing Scleral Contact Lens in Satisfaction in a Keratoconus Population. <i>Optom Vis Sci</i>, 93, 855-60.
-19. Rabinowitz, Y. S. 1998. Keratoconus. <i>Survey of Ophthalmology</i>, 42, 297-319.
+4. Karimian, F., Aramesh, S., Rabei, H. M., Javadi, M. A. & Rafati, N. 2008. Topographic evaluation of relatives of patients with keratoconus. <i>Cornea</i>, 27, 874-8.
+5. Balasubramanian, S. A., Pye, D. C. & Willcox, M. D. 2013. Effects of eye rubbing on levels of protease, protease activity and cytokines in tears: relevance in keratoconus. <i>Clin Exp Optom</i>, 96, 214-8.
+6. Rabinowitz, Y. S. 1998. Keratoconus. <i>Survey of Ophthalmology</i>, 42, 297-319.
+7. Li, X., Rabinowitz, Y. S., Rasheed, K. & Yang, H. 2004. Longitudal study of normal eyes in unilateral keratoconus patients. <i>Ophthalmology</i>, 111, 440-6.
+8. Lawless, M., Coster, D. J., Phillips, A. J., & Loane, M. 1989. Keratoconus: diagnosis and management. <i>Aust N Z J Ophthalmol</i>, 17, 33-60. 
+9. Romero-Jimenez, M., Santodomingo-Rubido, J. & Wolffsohn, J. S. 2010. Keratoconus: a review. <i>Contact Lens and Anterior Eye</i>, 33, 157-166. 
+10. Gokul, A., Patel, D. V., Watters, G. A. & McGhee, C. N. J. 2017. The natural history of corneal topographic progression of keratoconus after age 30 years in non-contact lens wearer. <i>Br J Ophthalmol</i>, 101, 839-844.
+11. Romero-Jimenez, M., Santodomingo-Rubido, J. & Wolffsohn, J. S. 2010. Keratoconus: a review. <i>Contact Lens and Anterior Eye</i>, 33, 157-166. 
+12. Goodefrooij, D. A., Gans, R., Imhof, S. M. & Wisse, R. P. 2016. Nationwide reduction in the number of corneal transplantations for keratoconus following the implementation of cross-linking. <i>Acta Ophthalmol</i>, 94, 675-678.
+13. Galvis, V., Tello, A., Ortiz, A. I. & Escaf, L. C. 2017. Patient selection for corneal collagen cross-linking: an updated review. <i>Clin Ophthalmol</i>, 11, 657-668.
+14. Macsai, M. S., Varley, G. A. & Krachmer, J. H. 1990. Development of keratoconus after contact lens wear. Patient characteristics. <i>Arch Ophthalmol</i>, 108, 534-8.
+15. Korb, D. R., Finnemore, V. M. & Herman, J. P. 1982. Apical changes and scarring in keratoconus as related to contact lens fitting techniques. <i>J Am Optom Assoc</i>, 53, 199-205.
+16. Ortiz-Toquero, S., Perez, S., Rodriguez, G., De Juan, V., Mayo-Iscar, A. & Martin, R. 2016. The influence of the refractive correction on the vision-related quality of life in keratoconus patients. <i>Qual Life Res</i>, 25, 1043-51.
+17. Bergmanson, J. P., Walker, M. K. & Johnson, L. A. 2016. Assessing Scleral Contact Lens in Satisfaction in a Keratoconus Population. <i>Optom Vis Sci</i>, 93, 855-60.
+18. Rabinowitz, Y. S. 1998. Keratoconus. <i>Survey of Ophthalmology</i>, 42, 297-319.
+
+
+
+
+
+1. :::::Godefrooij, D. A., De Wit, G. A., Uiterwaal, C. S., Imhof, S. M. & Wisse, R. P. 2017. Age-specific Incidence and Prevalence of Keratoconus: A Nationwide Registration Study. <i>Am J Ophthalmol</i>, 175, 169-172.
