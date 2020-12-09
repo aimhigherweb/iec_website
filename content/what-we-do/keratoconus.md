@@ -4,9 +4,9 @@ category: eye-disease
 preview-image: /uploads/keratoconus-slit-lamp.jpg
 ---
 <div class="employee-heading">
-Keratoconus is an eye disease that can cause distorted and blurry vision, even with glasses. This condition involves the thinning of the cornea (the window at the front of the eye), causing the surface to protrude forward in a cone shape, giving the disease its name ("\*keras\*" meaning cornea, and "\*konos\*" meaning cone). The condition is progressive, meaning it worsens over time, and with increased severity the cornea becomes more and more irregular.<sup>1</sup> This can lead to <a href="https://www.innovativeeyecare.com.au/what-we-do/astigmatism">astigmatism</a>, scarring and severe vision loss.
+Keratoconus is an eye disease that can cause distorted and blurry vision, even with glasses. This condition involves the thinning of the cornea (the window at the front of the eye), causing the surface to protrude forward in a cone shape, giving the disease its name ("*keras*" meaning cornea, and "*konos*" meaning cone). The condition is progressive, meaning it worsens over time, and with increased severity the cornea becomes more and more irregular.<sup>1</sup> This can lead to <a href="https://www.innovativeeyecare.com.au/what-we-do/astigmatism">astigmatism</a>, scarring and severe vision loss.
 
-For the best outcomes, keratoconus requires early detection.<sup>2</sup> At our Adelaide and Woodville practices, all our optometrists have an interest in keratoconus, with one (Lachlan Hoy) having written the chapter on keratoconus in the globally distributed *Contact Lenses* textbook published in 2019.
+For the best outcomes, keratoconus requires early detection.<sup>2</sup> At our Adelaide and Woodville practices, all our optometrists have an interest in keratoconus, with one (<a href="https://www.innovativeeyecare.com.au/who-we-are/lachlan-hoy">Lachlan Hoy</a>) having written the chapter on keratoconus in the globally distributed *Contact Lenses* textbook published in 2019.
 
 </div>
 
@@ -22,13 +22,13 @@ Keratoconus presents during teenage years and progresses through to your 40s, al
 
 ### How is keratoconus diagnosed?
 
-Keratoconus is a multifactorial disease, hence the onset and progression can vary significantly between different people, and even between different eyes of the same person. Typically, night vision is affected first (haloes and streaks around headlights), which then develops into blurry and distorted vision.
+Keratoconus is a multifactorial disease, so the onset and progression can vary significantly between different people, and even between different eyes of the same person. Typically, night vision is affected first (haloes and streaks around headlights), which then develops into blurry and distorted vision.
 
-Your optometrist can detect signs of keratoconus by analysing structural changes in the cornea. According to *The Global Consensus on Keratoconus and Ectatic Diseases*, for a true diagnosis of keratoconus there must be thinning at the back of the cornea that is not due to another cause, and irregular corneal thickness where some areas are abnormally thinner than others.<sup>2</sup> The only way this can be detected reliably is with <a href="https://www.innovativeeyecare.com.au/what-we-do/corneal-tomography">corneal tomography</a>[](https://www.innovativeeyecare.com.au/what-we-do/corneal-tomography).
+Your optometrist can detect signs of keratoconus by analysing structural changes in the cornea. According to *The Global Consensus on Keratoconus and Ectatic Diseases*, for a true diagnosis of keratoconus there must be thinning at the back of the cornea that is not due to another cause, and an irregular corneal profile where some areas are abnormally thin.<sup>2</sup> The only way this can be detected reliably is with <a href="https://www.innovativeeyecare.com.au/what-we-do/corneal-tomography">corneal tomography</a>[](https://www.innovativeeyecare.com.au/what-we-do/corneal-tomography).
 
 #### **Corneal tomography**
 
-[Corneal tomography](https://www.innovativeeyecare.com.au/what-we-do/corneal-tomography). is a non-invasive way to measure the contours and shape of the cornea. It is the 'gold standard' in diagnosing and assessing keratoconus.<sup>4</sup> Tomography refers to cross-sectional mapping, where the layers of the cornea are seen like layers of a cut cake. This gives a complete view of both the front and back surfaces of the cornea, both of which are needed to make a true diagnosis of keratoconus.<sup>2</sup> This is unlike [corneal topography](https://www.innovativeeyecare.com.au/what-we-do/corneal-topography), which only scans the front of the cornea, although it can still be useful in the management of keratoconus (for example, contact lens design).
+[Corneal tomography](https://www.innovativeeyecare.com.au/what-we-do/corneal-tomography) is a non-invasive way to measure the contours and shape of the cornea. It is the 'gold standard' in diagnosing and assessing keratoconus.<sup>4</sup> Tomography refers to cross-sectional mapping, where the layers of the cornea are seen like layers of a cut cake. This gives a complete view of both the front and back surfaces of the cornea, both of which are needed to make a true diagnosis of keratoconus.<sup>2</sup> This is unlike [corneal topography](https://www.innovativeeyecare.com.au/what-we-do/corneal-topography), which only scans the front of the cornea, although it can still be useful in the management of keratoconus (for example, [contact lens](https://www.innovativeeyecare.com.au/what-we-do/contact-lenses) design).
 
 ![](/uploads/kc-tomography.png)
 
@@ -36,7 +36,7 @@ Your optometrist can detect signs of keratoconus by analysing structural changes
 
 #### **Corneal topography**
 
-Another non-invasive technique to map the front surface of the cornea. The images below are the topographical results of a relatively normal cornea (top) and keratoconic cornea (bottom). Note the regular rings on the normal scan compared to the distorted and compressed rings in the keratoconic. Areas of yellow and red represent areas that are more curved on the eye, and indicate the presence of a 'cone' in the keratoconic cornea. This has a significant impact on vision quality as the distorted surface is within the pupil zone (the black circle).
+Another non-invasive technique to map the front surface of the cornea. The images below are the [topographical](https://www.innovativeeyecare.com.au/what-we-do/corneal-topography) results of a relatively normal cornea (top) and keratoconic cornea (bottom). Note the regular rings on the normal scan compared to the distorted and compressed rings in the keratoconic. Areas of yellow and red represent areas that are more curved on the eye, and indicate the presence of a 'cone' in the keratoconic cornea. This has a significant impact on vision quality, especially when the distorted surface is within the pupil zone (the black circle).
 
 ![](/uploads/kc-topo-comparison.png)
 
@@ -44,15 +44,15 @@ Another non-invasive technique to map the front surface of the cornea. The image
 
 #### **Slit lamp biomicroscopy**
 
-The structure of the cornea can also be assessed using a slit lamp, which takes images of the front of the eye rather than scans. The below image shows a normal cornea on the left and a keratoconic cornea on the right. Note the forward protrusion of the cornea, with notable thinning just below the centre. As well as changes in corneal shape and thickness, there are a number of other findings visible under microscopy. These include the presence of prominent corneal nerves, Fleischer's iron ring and Vogt’s striae (corneal stress lines).<sup>8</sup>
+The structure of the cornea can also be assessed using a [slit lamp](https://www.innovativeeyecare.com.au/what-we-do/anterior-imaging), which takes images of the front of the eye rather than scans. The below image shows a normal cornea on the left and a keratoconic cornea on the right. Note the forward protrusion of the cornea, with notable thinning just below the centre. As well as changes in corneal shape and thickness, there are a number of other findings visible under microscopy. These include the presence of prominent corneal nerves, Fleischer's iron ring and Vogt’s striae (corneal stress lines).<sup>8</sup>
 
-![](/uploads/normal-and-kcs-cornea-cross-section.jpg)
+![](/uploads/keratoconus-cross-section.jpg)
 
 *Figure 3: A normal cornea under slit lamp (left) compared to a cornea with keratoconus under slit lamp (right).*
 
 #### **Anterior optical coherence tomography**
 
-The anterior OCT is an invaluable tool that provides cross-sectional scans of the cornea, similarly to the corneal tomographer. The highly detailed scans allow visualisation of the different layers of the cornea and their configuration (as shown below), and can also image the white parts of the eye (sclera) close to the cornea. This is useful not only in diagnosing and monitoring keratoconus, but also for assessing the relationship between contact lenses and the eye. With this technology, we can achieve the most comfortable and safe contact lens fit to significantly improve vision.<sup>9</sup> The example below of a custom scleral lens on the eye shows adequate space between the contact lens and the cornea, and the area at the edge of the lens where it lands smoothly on the sclera.
+The [anterior OCT](https://www.innovativeeyecare.com.au/what-we-do/optical-coherance-tomography-angiography-oct-a) is an invaluable tool that provides cross-sectional scans of the cornea, similarly to the corneal tomographer. The scans allow visualisation of the different layers of the cornea (as shown below) and also image the white part of the eye (sclera) close to the cornea. This is useful not only in diagnosing and monitoring keratoconus, but also for assessing the relationship between contact lenses and the eye. With this technology, we can achieve the most comfortable and safe contact lens fit to significantly improve vision.<sup>9</sup> The example below of a custom scleral lens on the eye shows adequate space between the [contact lens](https://www.innovativeeyecare.com.au/what-we-do/contact-lenses) and the cornea, and the area at the edge of the lens where it lands smoothly on the sclera.
 
 ![](/uploads/scleral-keratoconus.jpg)
 
@@ -62,9 +62,9 @@ Keratoconus is very unpredictable and can progress rapidly over a short period o
 
 #### **Non-surgical management**
 
-Vision can be adequately improved in some keratoconics with glasses or soft contact lenses. However, with disease progression these become less and less effective. It's at this point that several options can be considered in consultation with your optometrist.
+Vision can be adequately improved in some keratoconics with [glasses](https://www.innovativeeyecare.com.au/what-we-do/glasses) or [soft contact lenses](https://www.innovativeeyecare.com.au/what-we-do/soft-contact-lenses). However, with disease progression these become less and less effective. At this point, several options can be considered in consultation with your optometrist.
 
-**Bespoke contact lenses:** This includes rigid gas permeable (RGP) and scleral lenses. All optometrists at Innovative Eye Care have a strong background in keratoconus management and research, using [Innovative Contacts](http://innovativecontacts.com.au/) to design and produce rigid lenses for our patients. It's important for keratoconic patients to be assessed and fitted by an experienced optometrist. Poorly fitting contact lenses have been shown to promote the progression of the disease in some individuals and can cause permanent vision loss through scarring.<sup>11,12</sup>
+**Bespoke contact lenses:** This includes [rigid gas permeable (RGP)](https://www.innovativeeyecare.com.au/what-we-do/gas-permeable-contact-lenses) and [scleral lenses](https://www.innovativeeyecare.com.au/what-we-do/scleral-contact-lenses). All optometrists at Innovative Eye Care have a strong background in keratoconus management and research, using [Innovative Contacts](http://innovativecontacts.com.au/) to design and produce rigid lenses for our patients. It's important for keratoconic patients to be assessed and fitted by an experienced optometrist. Poorly fitting contact lenses have been shown to promote the progression of the disease in some individuals and can cause permanent vision loss through scarring.<sup>11,12</sup>
 
 ![](/uploads/kc-before-after-scleral.png)
 
@@ -78,11 +78,11 @@ Vision can be adequately improved in some keratoconics with glasses or soft cont
 
 <br>
 
-**Corneal graft:** In rare situations, someone with severe keratoconus can develop corneal hydrops, a condition where the back surface of the cornea ruptures due to extreme thinning, causing corneal swelling and pain. These patients often require a corneal graft due to the residual scarring. The longer this can be delayed with contact lens wear and careful management the better – grafts have a risk of rejection, require long courses of steroid drops, and often require spectacles or contact lenses to be used after the surgery to see to the best level.
+**Corneal graft:** In rare situations, someone with severe keratoconus can develop corneal hydrops, a condition where the back surface of the cornea ruptures due to extreme thinning, causing corneal swelling and pain. These patients often require a [corneal graft](https://www.innovativeeyecare.com.au/what-we-do/corneal-grafts) due to the residual scarring. The longer this can be delayed with contact lens wear and careful management the better – grafts have a risk of rejection, require long courses of steroid drops, and often require spectacles or contact lenses after the surgery.
 
 ### **Keratoconus vs. Pellucid Marginal Corneal Degeneration**
 
-Pellucid Marginal Corneal Degeneration (PMCD) is an uncommon condition causing thinning in a different part of the cornea (the bottom-most area). This condition is often confused with keratoconus as it causes similar corneal changes and requires complex contact lens designs, typically in the form of scleral lenses, to give the best quality of vision. Patients will often present with blurred vision due to the irregularity of their cornea. Often against-the-rule astigmatism is present and contributes to the blur. In PMCD, the stroma (middle layer) of the cornea is abnormal and thin but the other parts of the cornea are unaffected. This degeneration can progress slowly over time, but will only very rarely progress to the point of perforating the cornea.
+Pellucid Marginal Corneal Degeneration (PMCD) is an uncommon condition causing thinning in a different part of the cornea (the bottom-most area). This condition is often confused with keratoconus as it causes similar corneal changes and requires complex contact lens designs, typically in the form of [scleral lenses](https://www.innovativeeyecare.com.au/what-we-do/scleral-contact-lenses), to give the best quality of vision. Patients will often present with blurred vision due to the irregularity of their cornea. Often against-the-rule [astigmatism](https://www.innovativeeyecare.com.au/what-we-do/astigmatism) is present and contributes to the blur. In PMCD, the stroma (middle layer) of the cornea is abnormal and thin but the other parts of the cornea are unaffected. This degeneration can progress slowly over time, but will only very rarely progress to the point of perforating the cornea.
 
 PMCD is best managed with large diameter [scleral contact lenses](applewebdata://18F3B07C-ABAA-4FF3-9779-B761DA4D7199/what-we-do/scleral-contact-lenses) that will vault over the affected area of cornea and still provide a regular front surface for vision. In severe cases a [corneal graft](applewebdata://18F3B07C-ABAA-4FF3-9779-B761DA4D7199/what-we-do/corneal-grafts) may be needed to restore functional vision. Collagen cross-linking is a surgical procedure used in some progressive cases to prevent further worsening of the condition.
 
