@@ -4,13 +4,13 @@ category: eye-disease
 preview-image: /uploads/keratoconus-slit-lamp.jpg
 ---
 <div class="employee-heading">
-Keratoconus is an eye disease that can cause distorted and blurry vision, even with glasses. This condition involves the thinning of the cornea (the window at the front of the eye), causing the surface to protrude forward in a cone shape, giving the disease its name ("\*keras\*" meaning cornea, and "\*konos\*" meaning cone). The condition is progressive, meaning it worsens over time, and with increased severity the cornea becomes more and more irregular.<sup>1</sup> This can lead to <a href="https://www.innovativeeyecare.com.au/what-we-do/astigmatism">astigmatism</a>, scarring and severe vision loss.
+Keratoconus is an eye disease that can cause distorted and blurry vision, even with glasses. This condition involves the thinning of the cornea (the window at the front of the eye), causing the surface to protrude forward in a cone shape, giving the disease its name ("\\*keras\\*" meaning cornea, and "\\*konos\\*" meaning cone). The condition is progressive, meaning it worsens over time, and with increased severity the cornea becomes more and more irregular.<sup>1</sup> This can lead to <a href="https://www.innovativeeyecare.com.au/what-we-do/astigmatism">astigmatism</a>, scarring and severe vision loss.
 
 For the best outcomes, keratoconus requires early detection.<sup>2</sup> At our Adelaide and Woodville practices, all our optometrists have an interest in keratoconus, with one (<a href="https://www.innovativeeyecare.com.au/who-we-are/lachlan-hoy">Lachlan Hoy</a>) having written the chapter on keratoconus in the globally distributed *Contact Lenses* textbook published in 2019.
 
 </div>
 
-<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\\\\\\\[if IE]><iframe frameborder="0" type="text/html" src="https://2689-2347.captiv8online.com/animations/embed/one/t-to-o-u?player_width=100%&player_height=100%&site_company_language=34&autostart=false" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\\\\\\\[endif]--><!--\\\\\\\[if !IE]> <--><object data="https://2689-2347.captiv8online.com/animations/embed/one/t-to-o-u?player_width=100%&player_height=100%&site_company_language=34&autostart=false" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://2689-2347.captiv8online.com/animations/embed/one/t-to-o-u?player_width=100%&player_height=100%&site_company_language=34&autostart=false">Keratoconus: What is it?</a></object><!--> <!\\\\\\\[endif]--></div>
+<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\\\\\\\\[if IE]><iframe frameborder="0" type="text/html" src="https://2689-2347.captiv8online.com/animations/embed/one/t-to-o-u?player_width=100%&player_height=100%&site_company_language=34&autostart=false" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\\\\\\\\[endif]--><!--\\\\\\\\[if !IE]> <--><object data="https://2689-2347.captiv8online.com/animations/embed/one/t-to-o-u?player_width=100%&player_height=100%&site_company_language=34&autostart=false" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://2689-2347.captiv8online.com/animations/embed/one/t-to-o-u?player_width=100%&player_height=100%&site_company_language=34&autostart=false">Keratoconus: What is it?</a></object><!--> <!\\\\\\\\[endif]--></div>
 
 <br>
 
@@ -80,7 +80,9 @@ Vision can be adequately improved in some keratoconics with [glasses](https://ww
 
 <br>
 
-**Corneal graft:** In rare situations, someone with severe keratoconus can develop corneal hydrops, a condition where the back surface of the cornea ruptures due to extreme thinning, causing corneal swelling and pain. These patients often require a [corneal graft](https://www.innovativeeyecare.com.au/what-we-do/corneal-grafts) due to the residual scarring. The longer this can be delayed with contact lens wear and careful management the better – grafts have a risk of rejection, require long courses of steroid drops, and often require spectacles or contact lenses after the surgery.
+**Corneal graft:** When keratoconus is no longer progressing, corneal grafts can be an option for those who still have poor vision with glasses or contact lenses. This can be due to corneal scarring as a direct result of keratoconus or because of corneal hydrops, a condition where the back surface of the cornea ruptures due to extreme thinning. A corneal graft may also be used when contact lenses are no longer tolerable to wear. However, grafts have a risk of rejection, require long courses of steroid drops, and often require spectacles or contact lenses after the surgery.
+
+**Intracorneal ring segments (ICRS):** In certain cases, plastic rings can be inserted into the cornea to both artificially thicken and flatten the cornea. This is only an option for those with mild short-sightedness (under –5D) for whom contact lenses and glasses are unsatisfactory, and even then will need a consultation with an ophthalmologist to determine if ICRS is suitable.
 
 #### **Keratoconus vs. Pellucid Marginal Corneal Degeneration**
 
