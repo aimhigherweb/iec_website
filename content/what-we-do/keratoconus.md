@@ -10,7 +10,7 @@ preview-image: /uploads/keratoconus-slit-lamp.jpg
 
 </div>
 
-<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\\\\\\\\\[if IE]><iframe frameborder="0" type="text/html" src="https://2689-2347.captiv8online.com/animations/embed/one/t-to-o-u?player_width=100%&player_height=100%&site_company_language=34&autostart=false" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\\\\\\\\\[endif]--><!--\\\\\\\\\[if !IE]> <--><object data="https://2689-2347.captiv8online.com/animations/embed/one/t-to-o-u?player_width=100%&player_height=100%&site_company_language=34&autostart=false" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://2689-2347.captiv8online.com/animations/embed/one/t-to-o-u?player_width=100%&player_height=100%&site_company_language=34&autostart=false">Keratoconus: What is it?</a></object><!--> <!\\\\\\\\\[endif]--></div>
+<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\\\\\\\\\\[if IE]><iframe frameborder="0" type="text/html" src="https://2689-2347.captiv8online.com/animations/embed/one/t-to-o-u?player_width=100%&player_height=100%&site_company_language=34&autostart=false" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\\\\\\\\\\[endif]--><!--\\\\\\\\\\[if !IE]> <--><object data="https://2689-2347.captiv8online.com/animations/embed/one/t-to-o-u?player_width=100%&player_height=100%&site_company_language=34&autostart=false" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://2689-2347.captiv8online.com/animations/embed/one/t-to-o-u?player_width=100%&player_height=100%&site_company_language=34&autostart=false">Keratoconus: What is it?</a></object><!--> <!\\\\\\\\\\[endif]--></div>
 
 <br>
 
@@ -76,13 +76,13 @@ Vision can be adequately improved in some keratoconics with [glasses](https://ww
 
 **Corneal cross-linking:** If keratoconus is diagnosed early enough, collagen cross-linking (CXL) is often recommended. For this procedure, riboflavin (Vitamin B2) is soaked into the cornea and activated by UV light. This promotes cross-linking of the collagen fibres in the cornea, leading to a strengthening of the tissue. Collagen cross-linking will not cure someone of keratoconus and it may not improve vision, but decreases the chance of further thinning and damage.<sup>13</sup> If your cornea has become too thin (~400um) then CXL is too unsafe to be carried out, so early referral is important.<sup>14</sup>
 
-<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe frameborder="0" type="text/html" src="https://2689-2347.captiv8online.com/animations/embed/one/corneal-cross-linking?player_width=100%&player_height=100%&site_company_language=34&autostart=false" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe></div>
-
-<br>
-
 **Corneal graft:** When keratoconus is no longer progressing, corneal grafts can be an option for those who still have poor vision with glasses or contact lenses. This can be due to corneal scarring as a direct result of keratoconus or because of corneal hydrops, a condition where the back surface of the cornea ruptures due to extreme thinning. A corneal graft may also be used when contact lenses are no longer tolerable to wear. However, grafts have a risk of rejection, require long courses of steroid drops, and often require spectacles or contact lenses after the surgery.
 
 **Intracorneal ring segments (ICRS):** In certain cases, plastic rings can be inserted into the cornea to both artificially thicken and flatten the cornea. This is only an option for those with mild short-sightedness (under –5D) for whom contact lenses and glasses are unsatisfactory, and even then will need a consultation with an ophthalmologist to determine suitability.
+
+<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe frameborder="0" type="text/html" src="https://2689-2347.captiv8online.com/animations/embed/one/corneal-cross-linking?player_width=100%&player_height=100%&site_company_language=34&autostart=false" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe></div>
+
+<br>
 
 #### **Keratoconus vs. Pellucid Marginal Corneal Degeneration**
 
