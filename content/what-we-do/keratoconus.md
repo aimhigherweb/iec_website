@@ -44,11 +44,11 @@ Another non-invasive technique to map the front surface of the cornea. The image
 
 ##### **Slit lamp biomicroscopy**
 
-The structure of the cornea can also be assessed using a [slit lamp](https://www.innovativeeyecare.com.au/what-we-do/anterior-imaging), which takes images of the front of the eye rather than scans. The below image shows a normal cornea on the left and a keratoconic cornea on the right. Note the forward protrusion of the cornea, with notable thinning just below the centre. As well as changes in corneal shape and thickness, there are a number of other findings visible under microscopy. These include the presence of prominent corneal nerves, Fleischer's iron ring and Vogt’s striae (corneal stress lines).<sup>8</sup>
+The structure of the cornea can also be assessed using a [slit lamp](https://www.innovativeeyecare.com.au/what-we-do/anterior-imaging), which takes images of the front of the eye rather than scans. As well as changes in corneal shape and thickness, there are a number of other findings visible under microscopy. These include the presence of prominent corneal nerves, Fleischer's iron ring and Vogt’s striae (corneal stress lines).<sup>8</sup>
 
-![](/uploads/keratoconus-cross-section.jpg)
+![](/uploads/side-profile-of-keratoconus.jpg)
 
-*Figure 3: A normal cornea under slit lamp (left) compared to a cornea with keratoconus under slit lamp (right).*
+*Figure 3: The side profile of a keratoconic eye. Note that the shape is not round, but has a 'cone' jutting out toward the bottom of the cornea.*
 
 ##### **Anterior optical coherence tomography**
 
@@ -66,7 +66,7 @@ Vision can be adequately improved in some keratoconics with [glasses](https://ww
 
 **Cease eye rubbing:** Rubbing your eyes is extremely detrimental to the keratoconic cornea and promotes progression, even in people with no other risk factors. [Lubricating eye drops](https://eyesolutions.com.au/collections/dry-eye-treatments/products/hylo-fresh) can help to stop this urge. Similarly, for patients with allergies and hayfever who are tempted to itch their eyes, anti-allergy eye drops including Cromo-Fresh can be used.
 
-**Bespoke contact lenses:** This includes [rigid gas permeable (RGP)](https://www.innovativeeyecare.com.au/what-we-do/gas-permeable-contact-lenses) and [scleral lenses](https://www.innovativeeyecare.com.au/what-we-do/scleral-contact-lenses). All optometrists at Innovative Eye Care have a strong background in keratoconus management and research, using [Innovative Contacts](http://innovativecontacts.com.au/) to design and produce rigid lenses for our patients. It's important for keratoconic patients to be assessed and fitted by an experienced optometrist. Poorly fitting contact lenses have been shown to promote the progression of the disease in some individuals and can cause permanent vision loss through scarring.<sup>11,12</sup>
+**Bespoke contact lenses:** This includes [rigid gas permeable (RGP)](https://www.innovativeeyecare.com.au/what-we-do/gas-permeable-contact-lenses) and [scleral lenses](https://www.innovativeeyecare.com.au/what-we-do/scleral-contact-lenses). All optometrists at Innovative Eye Care have a strong background in keratoconus management and research, using [EyeSpace](https://www.eyespacelenses.com/) to design rigid lenses for our patients. It's important for keratoconic patients to be assessed and fitted by an experienced optometrist. Poorly fitting contact lenses have been shown to promote the progression of the disease in some individuals and can cause permanent vision loss through scarring.<sup>11,12</sup>
 
 ![](/uploads/kc-before-after-scleral.png)
 
@@ -82,7 +82,7 @@ Vision can be adequately improved in some keratoconics with [glasses](https://ww
 
 **Corneal graft:** When keratoconus is no longer progressing, corneal grafts can be an option for those who still have poor vision with glasses or contact lenses. This can be due to corneal scarring as a direct result of keratoconus or because of corneal hydrops, a condition where the back surface of the cornea ruptures due to extreme thinning. A corneal graft may also be used when contact lenses are no longer tolerable to wear. However, grafts have a risk of rejection, require long courses of steroid drops, and often require spectacles or contact lenses after the surgery.
 
-**Intracorneal ring segments (ICRS):** In certain cases, plastic rings can be inserted into the cornea to both artificially thicken and flatten the cornea. This is only an option for those with mild short-sightedness (under –5D) for whom contact lenses and glasses are unsatisfactory, and even then will need a consultation with an ophthalmologist to determine if ICRS is suitable.
+**Intracorneal ring segments (ICRS):** In certain cases, plastic rings can be inserted into the cornea to both artificially thicken and flatten the cornea. This is only an option for those with mild short-sightedness (under –5D) for whom contact lenses and glasses are unsatisfactory, and even then will need a consultation with an ophthalmologist to determine suitability.
 
 #### **Keratoconus vs. Pellucid Marginal Corneal Degeneration**
 
