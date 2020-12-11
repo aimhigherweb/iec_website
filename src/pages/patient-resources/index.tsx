@@ -2,6 +2,7 @@ import React, { useState } from "react"
 import { graphql, Link } from "gatsby"
 import styled from "styled-components"
 
+import { useSession } from "../../state/SessionWrapper"
 import { useMatchMedia } from "../../hooks/useMatchMedia"
 import { Main } from "../../components/Main"
 import { Footer } from "../../components/Layout/Footer"
@@ -115,7 +116,7 @@ const ServiceDetailTextDesc = styled.div`
   border-bottom: 1px dotted #aaaaaa;
 `
 
-const Patient = (data) => {
+const Patient = (show, data) => {
   const patientResCategories = [
     {
       category: "Contact Lens Instructions",
@@ -150,7 +151,7 @@ const Patient = (data) => {
     }
   }
 
-  return (
+  return show ? (
     <PatientResSection>
       <PatientResTitle>Patient Resources</PatientResTitle>
       <PatientResDescription>
@@ -220,6 +221,8 @@ const Patient = (data) => {
           )
         })}
     </PatientResSection>
+  ) : (
+    <div></div>
   )
 }
 
@@ -236,12 +239,29 @@ const PatientResources: React.FC = (props) => {
   const match = useMatchMedia({
     width: MAX_WIDTH,
   })
+
+  const session = useSession()
+  const show = !session.current.showSearch
+  const searchToggle = (on) => {
+    console.log(`*** Home.searchToggle... showSearch=${on}`)
+    session.setCurrent({
+      ...session.current,
+      showSearch: on,
+    })
+  }
+
   console.log(`*** PatientResources.RENDER... match=${match}`)
   return (
     <Container>
-      {Main(true, null, "/images2/bg-section-patres.png")}
-      {Patient(props.data)}
-      {Footer()}
+      {Main(
+        true,
+        null,
+        "/images2/bg-section-patres.png",
+        session.current.showSearch,
+        searchToggle
+      )}
+      {Patient(show, props.data)}
+      {Footer(show)}
     </Container>
   )
 }

@@ -2,9 +2,9 @@ import React, { useState } from "react"
 import { graphql, Link, navigate } from "gatsby"
 import styled from "styled-components"
 
+import { useSession } from "../../state/SessionWrapper"
 import { useMatchMedia } from "../../hooks/useMatchMedia"
 import { Main } from "../../components/Main"
-import Layout from "../../components/Layout/Layout"
 import { Footer } from "../../components/Layout/Footer"
 
 //----------------------------------------------------------
@@ -127,7 +127,7 @@ const ServiceDetailTextDesc = styled.div`
   border-bottom: 1px dotted #aaaaaa;
 `
 
-const What = (data) => {
+const What = (show, data) => {
   const whatWeDoCategories = [
     { title: "Eyewear Experts", image: "/images2/service-eyewear-experts.png" },
     {
@@ -200,7 +200,7 @@ const What = (data) => {
     }
   }
 
-  return (
+  return show ? (
     <WhatSection>
       <WhatTitle>What We Do</WhatTitle>
       <WhatDescription>
@@ -260,6 +260,8 @@ const What = (data) => {
           )
         })}
     </WhatSection>
+  ) : (
+    <div></div>
   )
 }
 
@@ -276,12 +278,29 @@ const WhatWeDo: React.FC = (props) => {
   const match = useMatchMedia({
     width: MAX_WIDTH,
   })
+
+  const session = useSession()
+  const show = !session.current.showSearch
+  const searchToggle = (on) => {
+    console.log(`*** Home.searchToggle... showSearch=${on}`)
+    session.setCurrent({
+      ...session.current,
+      showSearch: on,
+    })
+  }
+
   console.log(`*** WhatWeDo.RENDER... match=${match}`)
   return (
     <Container>
-      {Main(true, "/videos/what-we-do.mp4")}
-      {What(props.data)}
-      {Footer()}
+      {Main(
+        true,
+        "/videos/what-we-do.mp4",
+        null,
+        session.current.showSearch,
+        searchToggle
+      )}
+      {What(show, props.data)}
+      {Footer(show)}
     </Container>
   )
 }

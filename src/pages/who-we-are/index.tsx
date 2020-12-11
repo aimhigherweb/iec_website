@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react"
 import { graphql } from "gatsby"
 import styled from "styled-components"
 
+import { useSession } from "../../state/SessionWrapper"
 import { useMatchMedia } from "../../hooks/useMatchMedia"
 import { Main } from "../../components/Main"
 import { Footer } from "../../components/Layout/Footer"
@@ -107,7 +108,7 @@ const TeamFooterImage = styled.img`
   border: ${DEBUG_TEAM};
 `
 
-const Team = (teamList, match) => {
+const Team = (show, teamList, match) => {
   const [chosen, setChosen] = useState({
     rowIndex: null,
     staffIndex: null,
@@ -149,7 +150,7 @@ const Team = (teamList, match) => {
   }
 
   //console.log(`*** whoWeAre.Team.RENDER`)
-  return (
+  return show ? (
     <TeamSection>
       <TeamTitle>Meet the team</TeamTitle>
       <TeamSubtitle>
@@ -212,6 +213,8 @@ const Team = (teamList, match) => {
         <TeamFooterImage src="/images2/icon-arrow-down.png" />
       </TeamFooter>
     </TeamSection>
+  ) : (
+    <div></div>
   )
 }
 
@@ -326,7 +329,7 @@ const HistoryDetailLink = styled.div`
   }
 `
 
-const History = (historyList, match) => {
+const History = (show, historyList, match) => {
   const [chosen, setChosen] = useState({
     historyIndex: null,
     historyItem: null,
@@ -345,7 +348,7 @@ const History = (historyList, match) => {
     setChosen({ historyIndex: index, historyItem: item })
   }
 
-  return (
+  return show ? (
     <HistorySection>
       <HistoryBar>
         <HistoryTimeline>
@@ -384,6 +387,8 @@ const History = (historyList, match) => {
         </HistoryDetail>
       </HistoryBar>
     </HistorySection>
+  ) : (
+    <div></div>
   )
 }
 
@@ -476,13 +481,29 @@ const WhoWeAre: React.FC = ({ data }) => {
   const match = useMatchMedia({ width: MAX_WIDTH })
   const { teamList } = data
 
+  const session = useSession()
+  const show = !session.current.showSearch
+  const searchToggle = (on) => {
+    console.log(`*** Home.searchToggle... showSearch=${on}`)
+    session.setCurrent({
+      ...session.current,
+      showSearch: on,
+    })
+  }
+
   console.log(`*** Home.RENDER... match=${match}`)
   return (
     <Container>
-      {Main(true, "/videos/who-we-are.mp4")}
-      {Team(teamList, match)}
-      {History(historyList, match)}
-      {Footer()}
+      {Main(
+        true,
+        "/videos/who-we-are.mp4",
+        null,
+        session.current.showSearch,
+        searchToggle
+      )}
+      {Team(show, teamList, match)}
+      {History(show, historyList, match)}
+      {Footer(show)}
     </Container>
   )
 }

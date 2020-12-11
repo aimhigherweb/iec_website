@@ -2,6 +2,7 @@ import React, { useState } from "react"
 import { graphql, navigate } from "gatsby"
 import styled from "styled-components"
 
+import { useSession } from "../../state/SessionWrapper"
 import { useMatchMedia } from "../../hooks/useMatchMedia"
 import { Main } from "../../components/Main"
 import { Footer } from "../../components/Layout/Footer"
@@ -91,7 +92,7 @@ const ArticleDetailTextDesc = styled.div`
   border: ${DEBUG_TEAM};
 `
 
-const BlogList = (data) => {
+const BlogList = (show, data) => {
   const { blogArticles } = data
   const [current] = useState({
     index: 0,
@@ -104,7 +105,7 @@ const BlogList = (data) => {
     })
   }
 
-  return (
+  return show ? (
     <BlogSection>
       <BlogTitle>Blog</BlogTitle>
       <BlogDescription>
@@ -149,6 +150,8 @@ const BlogList = (data) => {
           )
         })}
     </BlogSection>
+  ) : (
+    <div></div>
   )
 }
 
@@ -165,12 +168,29 @@ const Blog: React.FC = (props) => {
   const match = useMatchMedia({
     width: MAX_WIDTH,
   })
+
+  const session = useSession()
+  const show = !session.current.showSearch
+  const searchToggle = (on) => {
+    console.log(`*** Home.searchToggle... showSearch=${on}`)
+    session.setCurrent({
+      ...session.current,
+      showSearch: on,
+    })
+  }
+
   console.log(`*** Blog.RENDER... match=${match}`)
   return (
     <Container>
-      {Main(true, null, "/images2/bg-section-blog.png")}
-      {BlogList(props.data)}
-      {Footer()}
+      {Main(
+        true,
+        null,
+        "/images2/bg-section-blog.png",
+        session.current.showSearch,
+        searchToggle
+      )}
+      {BlogList(show, props.data)}
+      {Footer(show)}
     </Container>
   )
 }

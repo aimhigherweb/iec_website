@@ -7,6 +7,7 @@ import {
   faPhoneAlt,
 } from "@fortawesome/free-solid-svg-icons"
 
+import { useSession } from "../../state/SessionWrapper"
 import { useMatchMedia } from "../../hooks/useMatchMedia"
 import { Main } from "../../components/Main"
 import { Footer } from "../../components/Layout/Footer"
@@ -103,8 +104,8 @@ const FooterContactSpacer = styled.div`
   }
 `
 
-const PracticeLocations = () => {
-  return (
+const PracticeLocations = (show) => {
+  return show ? (
     <FooterSection>
       <FooterContent>
         <FooterContentItem>
@@ -193,6 +194,8 @@ const PracticeLocations = () => {
         </FooterContentItem>
       </FooterContent>
     </FooterSection>
+  ) : (
+    <div></div>
   )
 }
 
@@ -208,12 +211,28 @@ const Container = styled.div`
 const Contact: React.FC = () => {
   const match = useMatchMedia({ width: MAX_WIDTH })
 
+  const session = useSession()
+  const show = !session.current.showSearch
+  const searchToggle = (on) => {
+    console.log(`*** Home.searchToggle... showSearch=${on}`)
+    session.setCurrent({
+      ...session.current,
+      showSearch: on,
+    })
+  }
+
   console.log(`*** Contact.RENDER... match=${match}`)
   return (
     <Container>
-      {Main(true, "/videos/location-city.mp4")}
-      {PracticeLocations()}
-      {Footer()}
+      {Main(
+        true,
+        "/videos/location-city.mp4",
+        null,
+        session.current.showSearch,
+        searchToggle
+      )}
+      {PracticeLocations(show)}
+      {Footer(show)}
     </Container>
   )
 }
