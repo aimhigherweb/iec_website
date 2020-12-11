@@ -41,7 +41,7 @@ const ResultFound = styled(ResultRow)`
 
 const ResultTitle = styled((props) => <div {...props} />)`
   font-weight: 600;
-  color: #0db14b;
+  color: #5091cd;
   outline: none;
   cursor: pointer;
 `
@@ -97,6 +97,11 @@ export const SearchResults: React.FC = ({ resultCallback, closeCallback }) => {
     setMatches({ results: results, searchValue: value })
   }
 
+  let title = "Search"
+  if (searchText.length > 0) {
+    title = `${title}ing for '${searchText}'`
+  }
+
   let found = ""
   if (matches.results) {
     if (matches.results.length === 0) {
@@ -126,7 +131,7 @@ export const SearchResults: React.FC = ({ resultCallback, closeCallback }) => {
           tabIndex="0"
         />
         <div>
-          <ResultHeader>Search Website</ResultHeader>
+          <ResultHeader>{title}</ResultHeader>
           <ResultFound id="results-found">{found}</ResultFound>
           {matches.results &&
             matches.results.length > 0 &&
