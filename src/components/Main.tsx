@@ -194,44 +194,29 @@ const MainDiv = (
   imageToDisplay,
   showSearch,
   searchToggleCallback
-  /*searchUpdateCallback,*/
-  /*searchResultCallback*/
 ) => {
   const [showMenu, setShowMenu] = useState(false)
-  //const [searchText, setSearchText] = useState("")
-
-  // useEffect(() => {
-  //   console.log(`*** Main.useEffect... searchText=${searchText}`)
-  // }, [searchText])
 
   const session = useSession()
-  // const showSearch = session.current.showSearch
   const searchUpdate = (value) => {
     session.setCurrent({ ...session.current, searchText: value })
-  }
-
-  // const searchToggle = (value) => {
-  //   let newValue = !session.current.showSearch
-  //   if (value) {
-  //     newValue = value
-  //   }
-  //   console.log(`*** MainDiv.searchToggle... showSearch=${newValue}`)
-  //   session.setCurrent({
-  //     ...session.current,
-  //     showSearch: newValue,
-  //   })
-  // }
-
-  const searchClose = () => {
-    session.setCurrent({
-      ...session.current,
-      searchText: "",
-    })
-    searchToggleCallback(false)
   }
   const searchResult = (slug) => {
     navigate(slug)
   }
+  const searchClose = () => {
+    console.log(`*** Main.searchClose`)
+    session.setCurrent({
+      ...session.current,
+      searchText: "",
+    })
+  }
+  useEffect(() => {
+    const searchLen = session.current?.searchText?.length
+    console.log(`*** Main.useEffect... searchLen=${searchLen}`)
+    const searchActive = !(searchLen === 0)
+    searchToggleCallback(searchActive)
+  }, [session.current.searchText])
 
   const navTo = (url) => {
     setShowMenu(false)
