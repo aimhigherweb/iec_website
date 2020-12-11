@@ -6,6 +6,8 @@ export const SessionWrapper = ({ children }) => {
   const [current, setCurrent] = useState({
     index: 99,
     articles: ["aaa", "bbb", "ccc"],
+    showSearch: false,
+    searchText: "",
   })
 
   return (
