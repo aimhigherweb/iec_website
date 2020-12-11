@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react"
+import { navigate } from "gatsby"
 import styled from "styled-components"
 
+import { useSession } from "../state/SessionWrapper"
 import { useMatchMedia } from "../hooks/useMatchMedia"
 import { Main } from "../components/Main"
 import { Footer } from "../components/Layout/Footer"
@@ -115,92 +117,96 @@ const TeamFooterImage = styled.img`
 //        <Link to="/what-we-do/oct">
 //        <Link to="/what-we-do/orthokeratology-corneal-reshaping">
 
-const Team = (
-  <TeamSection>
-    <TeamTitle>We are a team of industry leaders</TeamTitle>
-    <TeamStaffBar>
-      <TeamStaff>
-        <TeamStaffImage src="/images2/staff-lachie.png" />
-      </TeamStaff>
-      <TeamStaff>
-        <TeamStaffImage src="/images2/staff-karl.png" />
-      </TeamStaff>
-      <TeamStaff>
-        <TeamStaffImage src="/images2/staff-dylan.png" />
-      </TeamStaff>
-      <TeamStaff>
-        <TeamStaffImage src="/images2/staff-pooja.png" />
-      </TeamStaff>
-    </TeamStaffBar>
-    <TeamDescription>
-      <p>
-        As practitioners, we firmly believe in comprehensive care. As
-        innovators, we provide this care with the most up-to-date technology,
-        knowledge, products and services available. As people, we value each one
-        of our patients and their individual needs.
-      </p>
-      <p>
-        Our practice is proudly independent and South Australian owned and
-        operated. Part of a long legacy of optometry in Adelaide and its
-        surrounds, we welcome generations of family members as they continue in
-        our care.
-      </p>
-    </TeamDescription>
-    <TeamService>
-      <TeamServiceItem>
-        <TeamServiceImage src="/images2/service-eyewear-experts.png" />
-        <TeamServiceTitle>
-          EYEWEAR
-          <br />
-          EXPERTS
-        </TeamServiceTitle>
-      </TeamServiceItem>
-      <TeamServiceItem>
-        <TeamServiceImage src="/images2/service-bespoke-contact-lenses.png" />
-        <TeamServiceTitle>
-          BESPOKE
-          <br />
-          CONTACT LENSES
-        </TeamServiceTitle>
-      </TeamServiceItem>
-      <TeamServiceItem>
-        <TeamServiceImage src="/images2/service-paediatric-vision.png" />
-        <TeamServiceTitle>
-          PAEDIATRIC
-          <br />
-          VISION
-        </TeamServiceTitle>
-      </TeamServiceItem>
-      <TeamServiceItem>
-        <TeamServiceImage src="/images2/service-dry-eye-clinic.png" />
-        <TeamServiceTitle>
-          DRY EYE
-          <br />
-          CLINIC
-        </TeamServiceTitle>
-      </TeamServiceItem>
-      <TeamServiceItem>
-        <TeamServiceImage src="/images2/service-adv-imaging.png" />
-        <TeamServiceTitle>
-          ADVANCED
-          <br />
-          IMAGING
-        </TeamServiceTitle>
-      </TeamServiceItem>
-      <TeamServiceItem>
-        <TeamServiceImage src="/images2/service-orthok-correction.png" />
-        <TeamServiceTitle>
-          ORTHO-K OVERNIGHT
-          <br />
-          CORRECTION
-        </TeamServiceTitle>
-      </TeamServiceItem>
-    </TeamService>
-    <TeamFooter>
-      <TeamFooterImage src="/images2/icon-arrow-down.png" />
-    </TeamFooter>
-  </TeamSection>
-)
+const Team = (show) => {
+  return show ? (
+    <TeamSection>
+      <TeamTitle>We are a team of industry leaders</TeamTitle>
+      <TeamStaffBar>
+        <TeamStaff>
+          <TeamStaffImage src="/images2/staff-lachie.png" />
+        </TeamStaff>
+        <TeamStaff>
+          <TeamStaffImage src="/images2/staff-karl.png" />
+        </TeamStaff>
+        <TeamStaff>
+          <TeamStaffImage src="/images2/staff-dylan.png" />
+        </TeamStaff>
+        <TeamStaff>
+          <TeamStaffImage src="/images2/staff-pooja.png" />
+        </TeamStaff>
+      </TeamStaffBar>
+      <TeamDescription>
+        <p>
+          As practitioners, we firmly believe in comprehensive care. As
+          innovators, we provide this care with the most up-to-date technology,
+          knowledge, products and services available. As people, we value each
+          one of our patients and their individual needs.
+        </p>
+        <p>
+          Our practice is proudly independent and South Australian owned and
+          operated. Part of a long legacy of optometry in Adelaide and its
+          surrounds, we welcome generations of family members as they continue
+          in our care.
+        </p>
+      </TeamDescription>
+      <TeamService>
+        <TeamServiceItem>
+          <TeamServiceImage src="/images2/service-eyewear-experts.png" />
+          <TeamServiceTitle>
+            EYEWEAR
+            <br />
+            EXPERTS
+          </TeamServiceTitle>
+        </TeamServiceItem>
+        <TeamServiceItem>
+          <TeamServiceImage src="/images2/service-bespoke-contact-lenses.png" />
+          <TeamServiceTitle>
+            BESPOKE
+            <br />
+            CONTACT LENSES
+          </TeamServiceTitle>
+        </TeamServiceItem>
+        <TeamServiceItem>
+          <TeamServiceImage src="/images2/service-paediatric-vision.png" />
+          <TeamServiceTitle>
+            PAEDIATRIC
+            <br />
+            VISION
+          </TeamServiceTitle>
+        </TeamServiceItem>
+        <TeamServiceItem>
+          <TeamServiceImage src="/images2/service-dry-eye-clinic.png" />
+          <TeamServiceTitle>
+            DRY EYE
+            <br />
+            CLINIC
+          </TeamServiceTitle>
+        </TeamServiceItem>
+        <TeamServiceItem>
+          <TeamServiceImage src="/images2/service-adv-imaging.png" />
+          <TeamServiceTitle>
+            ADVANCED
+            <br />
+            IMAGING
+          </TeamServiceTitle>
+        </TeamServiceItem>
+        <TeamServiceItem>
+          <TeamServiceImage src="/images2/service-orthok-correction.png" />
+          <TeamServiceTitle>
+            ORTHO-K OVERNIGHT
+            <br />
+            CORRECTION
+          </TeamServiceTitle>
+        </TeamServiceItem>
+      </TeamService>
+      <TeamFooter>
+        <TeamFooterImage src="/images2/icon-arrow-down.png" />
+      </TeamFooter>
+    </TeamSection>
+  ) : (
+    <div></div>
+  )
+}
 
 //----------------------------------------------------------
 //-- Section 2: Style
@@ -341,8 +347,8 @@ const StyleFooterPart = (
   </StyleFooter>
 )
 
-const Style = (match) => {
-  return (
+const Style = (show, match) => {
+  return show ? (
     <div>
       <StyleSection>
         <StyleTitle>
@@ -361,6 +367,8 @@ const Style = (match) => {
       </StyleSection>
       <div>{match && StyleFooterPart}</div>
     </div>
+  ) : (
+    <div></div>
   )
 }
 
@@ -480,7 +488,7 @@ const obtainInstaFeed = async () => {
   return result
 }
 
-const Social = () => {
+const Social = (show) => {
   console.log(`*** Home.Social`)
   const [posts, setPosts] = useState()
 
@@ -495,7 +503,7 @@ const Social = () => {
     latestPosts()
   }, [])
 
-  return (
+  return show ? (
     <SocialSection>
       <SocialHeader>
         <SocialHeaderLeftNav src="images2/icon-arrow-left-white.svg" />
@@ -542,6 +550,8 @@ const Social = () => {
         </div>
       </SocialItemBar>
     </SocialSection>
+  ) : (
+    <div></div>
   )
 }
 
@@ -554,15 +564,39 @@ const Container = styled.div`
 `
 const Home: React.FC = () => {
   const match = useMatchMedia({ width: MAX_WIDTH })
+  const session = useSession()
+  //const [showSearch, setShowSearch] = useState(false)
+  const searchToggle = (value) => {
+    console.log(`*** Home.searchToggle... showSearch=${value}`)
+    session.setCurrent({
+      ...session.current,
+      showSearch: value,
+    })
+  }
+  // const searchUpdate = (value) => {
+  //   session.setCurrent({ ...session.current, searchText: value })
+  // }
+  // const searchResult = (slug) => {
+  //   navigate(slug)
+  // }
 
   console.log(`*** Home.RENDER`)
+  const show = !session.current.showSearch
   return (
     <Container>
-      {Main(true, "/videos/video-main.mp4")}
-      {Team}
-      {Style(match)}
-      {Social()}
-      {Footer()}
+      {Main(
+        true,
+        "/videos/video-main.mp4",
+        null,
+        session.current.showSearch,
+        searchToggle
+        /*searchUpdate,*/
+        /*searchResult*/
+      )}
+      {Team(show)}
+      {Style(show, match)}
+      {Social(show)}
+      {Footer(show)}
     </Container>
   )
 }

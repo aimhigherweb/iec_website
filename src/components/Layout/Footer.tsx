@@ -140,153 +140,157 @@ const FooterGutterText = styled.div`
   }
 `
 
-const FooterDiv = (
-  <FooterSection>
-    <FooterLogo onClick={() => navigate("/")}>
-      <FooterLogoItem>
-        <FooterLogoImg src="/images2/icon-logo-white.png" />
-      </FooterLogoItem>
-    </FooterLogo>
-    <FooterContent>
-      <FooterContentItem>
-        <FooterContact>
-          <FooterContactSpacer />
-          <FooterContactIcon icon={faMapMarker} />
-          <FooterContactText>
-            <a href="https://g.page/iecadel?share">
-              60 Hutt Street
+const FooterDiv = (show) => {
+  return show ? (
+    <FooterSection>
+      <FooterLogo onClick={() => navigate("/")}>
+        <FooterLogoItem>
+          <FooterLogoImg src="/images2/icon-logo-white.png" />
+        </FooterLogoItem>
+      </FooterLogo>
+      <FooterContent>
+        <FooterContentItem>
+          <FooterContact>
+            <FooterContactSpacer />
+            <FooterContactIcon icon={faMapMarker} />
+            <FooterContactText>
+              <a href="https://g.page/iecadel?share">
+                60 Hutt Street
+                <br />
+                Adelaide SA 5000
+              </a>
+            </FooterContactText>
+            <FooterContactSpacer />
+          </FooterContact>
+          <FooterContact>
+            <FooterContactSpacer />
+            <FooterContactIcon icon={faPhoneAlt} />
+            <FooterContactText>
+              <a href="tel:61882319341">(08) 8231 9341</a>
+            </FooterContactText>
+            <FooterContactSpacer />
+          </FooterContact>
+          <FooterContact>
+            <FooterContactSpacer />
+            <FooterContactIcon icon={faClock} />
+            <FooterContactText>
+              Mon-Fri 8.30am - 5.30pm
               <br />
-              Adelaide SA 5000
-            </a>
-          </FooterContactText>
-          <FooterContactSpacer />
-        </FooterContact>
-        <FooterContact>
-          <FooterContactSpacer />
-          <FooterContactIcon icon={faPhoneAlt} />
-          <FooterContactText>
-            <a href="tel:61882319341">(08) 8231 9341</a>
-          </FooterContactText>
-          <FooterContactSpacer />
-        </FooterContact>
-        <FooterContact>
-          <FooterContactSpacer />
-          <FooterContactIcon icon={faClock} />
-          <FooterContactText>
-            Mon-Fri 8.30am - 5.30pm
-            <br />
-            Sat 8.30am - 12pm
-          </FooterContactText>
-          <FooterContactSpacer />
-        </FooterContact>
-      </FooterContentItem>
-      <FooterContentItem>
-        <FooterContact>
-          <FooterContactSpacer />
-          <FooterContactIcon icon={faMapMarker} />
-          <FooterContactText>
-            <a href="https://g.page/iecwoodville?share">
-              850 Port Road
+              Sat 8.30am - 12pm
+            </FooterContactText>
+            <FooterContactSpacer />
+          </FooterContact>
+        </FooterContentItem>
+        <FooterContentItem>
+          <FooterContact>
+            <FooterContactSpacer />
+            <FooterContactIcon icon={faMapMarker} />
+            <FooterContactText>
+              <a href="https://g.page/iecwoodville?share">
+                850 Port Road
+                <br />
+                Woodville SA 5011
+              </a>
+            </FooterContactText>
+            <FooterContactSpacer />
+          </FooterContact>
+          <FooterContact>
+            <FooterContactSpacer />
+            <FooterContactIcon icon={faPhoneAlt} />
+            <FooterContactText>
+              <a href="tel:61884459050">(08) 8445 9050</a>
+            </FooterContactText>
+            <FooterContactSpacer />
+          </FooterContact>
+          <FooterContact>
+            <FooterContactSpacer />
+            <FooterContactIcon icon={faClock} />
+            <FooterContactText>
+              Mon-Fri 8.30am - 5.30pm
               <br />
-              Woodville SA 5011
-            </a>
-          </FooterContactText>
-          <FooterContactSpacer />
-        </FooterContact>
-        <FooterContact>
-          <FooterContactSpacer />
-          <FooterContactIcon icon={faPhoneAlt} />
-          <FooterContactText>
-            <a href="tel:61884459050">(08) 8445 9050</a>
-          </FooterContactText>
-          <FooterContactSpacer />
-        </FooterContact>
-        <FooterContact>
-          <FooterContactSpacer />
-          <FooterContactIcon icon={faClock} />
-          <FooterContactText>
-            Mon-Fri 8.30am - 5.30pm
-            <br />
-            Sat CLOSED
-          </FooterContactText>
-          <FooterContactSpacer />
-        </FooterContact>
-      </FooterContentItem>
-      <FooterContentItem>
-        <FooterMenu>
-          <FooterMenuItem>
-            <Link to="/who-we-are">Who We Are</Link>
-          </FooterMenuItem>
-          <FooterMenuItem>
-            <Link to="/what-we-do">What We Do</Link>
-          </FooterMenuItem>
-          <FooterMenuItem>
-            <Link to="/patient-resources">Patient Resources</Link>
-          </FooterMenuItem>
-          <FooterMenuItem>
-            <Link to="/blog">Blog</Link>
-          </FooterMenuItem>
-          <FooterMenuItem>
-            <Link to="/contact">Contact</Link>
-          </FooterMenuItem>
-        </FooterMenu>
-      </FooterContentItem>
-      <FooterContentItem>
-        <FooterMenu>
-          <FooterMenuItem>
-            <Link to="/what-we-do/contact-lenses">Contact Lens Care</Link>
-          </FooterMenuItem>
-          <FooterMenuItem>
-            <Link to="/what-we-do/blepharitis">Blepharitis</Link>
-          </FooterMenuItem>
-          <FooterMenuItem>
-            <Link to="/what-we-do/dry-eye-disease">Dry Eye</Link>
-          </FooterMenuItem>
-          <FooterMenuItem>
-            <Link to="/patient-resources/nutrition-and-supplements-for-age-related-macular-degeneration">
-              Nutrition
-            </Link>
-          </FooterMenuItem>
-          <FooterMenuItem>
-            <Link to="/who-we-are">About Us</Link>
-          </FooterMenuItem>
-        </FooterMenu>
-      </FooterContentItem>
-      <FooterContentItem>
-        <div>
-          <FooterNewsletterTitle>Newsletter</FooterNewsletterTitle>
+              Sat CLOSED
+            </FooterContactText>
+            <FooterContactSpacer />
+          </FooterContact>
+        </FooterContentItem>
+        <FooterContentItem>
+          <FooterMenu>
+            <FooterMenuItem>
+              <Link to="/who-we-are">Who We Are</Link>
+            </FooterMenuItem>
+            <FooterMenuItem>
+              <Link to="/what-we-do">What We Do</Link>
+            </FooterMenuItem>
+            <FooterMenuItem>
+              <Link to="/patient-resources">Patient Resources</Link>
+            </FooterMenuItem>
+            <FooterMenuItem>
+              <Link to="/blog">Blog</Link>
+            </FooterMenuItem>
+            <FooterMenuItem>
+              <Link to="/contact">Contact</Link>
+            </FooterMenuItem>
+          </FooterMenu>
+        </FooterContentItem>
+        <FooterContentItem>
+          <FooterMenu>
+            <FooterMenuItem>
+              <Link to="/what-we-do/contact-lenses">Contact Lens Care</Link>
+            </FooterMenuItem>
+            <FooterMenuItem>
+              <Link to="/what-we-do/blepharitis">Blepharitis</Link>
+            </FooterMenuItem>
+            <FooterMenuItem>
+              <Link to="/what-we-do/dry-eye-disease">Dry Eye</Link>
+            </FooterMenuItem>
+            <FooterMenuItem>
+              <Link to="/patient-resources/nutrition-and-supplements-for-age-related-macular-degeneration">
+                Nutrition
+              </Link>
+            </FooterMenuItem>
+            <FooterMenuItem>
+              <Link to="/who-we-are">About Us</Link>
+            </FooterMenuItem>
+          </FooterMenu>
+        </FooterContentItem>
+        <FooterContentItem>
           <div>
-            <FooterNewsletterInput placeholder="Enter Your Email" />
+            <FooterNewsletterTitle>Newsletter</FooterNewsletterTitle>
+            <div>
+              <FooterNewsletterInput placeholder="Enter Your Email" />
+            </div>
+            <div>
+              <a href="https://www.facebook.com/innovativeeyecareadelaide">
+                <FooterNewsletterIcon
+                  icon={faFacebook}
+                  style={{ color: "#828282" }}
+                />
+              </a>
+              <a href="https://www.instagram.com/innovative.eye.care">
+                <FooterNewsletterIcon
+                  icon={faInstagram}
+                  style={{ color: "#828282" }}
+                />
+              </a>
+            </div>
           </div>
-          <div>
-            <a href="https://www.facebook.com/innovativeeyecareadelaide">
-              <FooterNewsletterIcon
-                icon={faFacebook}
-                style={{ color: "#828282" }}
-              />
-            </a>
-            <a href="https://www.instagram.com/innovative.eye.care">
-              <FooterNewsletterIcon
-                icon={faInstagram}
-                style={{ color: "#828282" }}
-              />
-            </a>
-          </div>
-        </div>
-      </FooterContentItem>
-    </FooterContent>
-    <FooterGutter>
-      <FooterGutterText>
-        Copyright (C) 2020 INNOVATIVE EYE CARE. Designed by The Benjamins
-      </FooterGutterText>
-    </FooterGutter>
-  </FooterSection>
-)
+        </FooterContentItem>
+      </FooterContent>
+      <FooterGutter>
+        <FooterGutterText>
+          Copyright (C) 2020 INNOVATIVE EYE CARE. Designed by The Benjamins
+        </FooterGutterText>
+      </FooterGutter>
+    </FooterSection>
+  ) : (
+    <div></div>
+  )
+}
 
 //----------------------------------------------------------
 //-- Render
 //----------------------------------------------------------
-export const Footer: React.FC = () => {
+export const Footer: React.FC = (show) => {
   console.log(`*** Footer.RENDER`)
-  return FooterDiv
+  return FooterDiv(show)
 }

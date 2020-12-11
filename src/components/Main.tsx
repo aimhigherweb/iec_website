@@ -1,9 +1,11 @@
-import React, { useState } from "react"
+import React, { useState, useEffect } from "react"
 import { navigate } from "gatsby"
 import styled from "styled-components"
 import { FaSearch, FaTimes } from "react-icons/fa"
 
+import { useSession } from "../state/SessionWrapper"
 import { useMatchMedia } from "../hooks/useMatchMedia"
+import { SearchResults } from "../components/Search/SearchResults"
 
 //----------------------------------------------------------
 //-- Section 0: Main
@@ -20,7 +22,7 @@ const MainHeader = styled.div`
   @media (max-width: ${MAX_WIDTH_PX}) {
     padding: 20px;
   }
-  background-color: #00000066;
+  background-color: ${(props) => (props.searchMode ? "#000000" : "#00000066")};
   border: ${DEBUG_MAIN};
 `
 const Logo = styled.img.attrs({
@@ -80,7 +82,7 @@ const MainFooter = styled.div`
   bottom: 0;
   width: 100%;
   height: 70px;
-  background-color: #00000066;
+  background-color: ${(props) => (props.searchMode ? "#000000" : "#00000066")};
 `
 const MainSearch = styled.div`
   flex: 1;
@@ -99,7 +101,7 @@ const MainSearchWrapper = styled.span`
 `
 const MainSearchInput = styled.input`
   padding: 12px 8px;
-  color: red;
+  color: white;
   font-family: "Times New Roman";
   font-size: 1em;
   font-weight: 800;
@@ -185,8 +187,51 @@ const MainImage = styled.div`
   height: auto;
 `
 
-const MainDiv = (match, showFull, videoToPlay, imageToDisplay) => {
+const MainDiv = (
+  match,
+  showFull,
+  videoToPlay,
+  imageToDisplay,
+  showSearch,
+  searchToggleCallback
+  /*searchUpdateCallback,*/
+  /*searchResultCallback*/
+) => {
   const [showMenu, setShowMenu] = useState(false)
+  //const [searchText, setSearchText] = useState("")
+
+  // useEffect(() => {
+  //   console.log(`*** Main.useEffect... searchText=${searchText}`)
+  // }, [searchText])
+
+  const session = useSession()
+  // const showSearch = session.current.showSearch
+  const searchUpdate = (value) => {
+    session.setCurrent({ ...session.current, searchText: value })
+  }
+
+  // const searchToggle = (value) => {
+  //   let newValue = !session.current.showSearch
+  //   if (value) {
+  //     newValue = value
+  //   }
+  //   console.log(`*** MainDiv.searchToggle... showSearch=${newValue}`)
+  //   session.setCurrent({
+  //     ...session.current,
+  //     showSearch: newValue,
+  //   })
+  // }
+
+  const searchClose = () => {
+    session.setCurrent({
+      ...session.current,
+      searchText: "",
+    })
+    searchToggleCallback(false)
+  }
+  const searchResult = (slug) => {
+    navigate(slug)
+  }
 
   const navTo = (url) => {
     setShowMenu(false)
@@ -199,7 +244,7 @@ const MainDiv = (match, showFull, videoToPlay, imageToDisplay) => {
 
   return (
     <div>
-      <MainHeader>
+      <MainHeader searchMode={showSearch}>
         <Logo onClick={() => navigate("/")} />
         <Menu onClick={() => setShowMenu(!showMenu)}>
           {!showMenu && <img src={"/images2/icon-menu.png"} />}
@@ -235,12 +280,20 @@ const MainDiv = (match, showFull, videoToPlay, imageToDisplay) => {
       </MainMenu>
       {!showFull && <MainHeaderFiller />}
       {showFull && (
-        <MainFooter>
+        <MainFooter searchMode={showSearch}>
           <MainSearch>
             <MainSearchWrapper>
               <span>
-                <MainSearchInput placeholder="Search now." size={15} />
-                <MainSearchIcon>
+                <MainSearchInput
+                  onClick={() => searchToggleCallback(true)}
+                  value={session.current.searchText}
+                  onChange={(e) => {
+                    searchUpdate(e.target.value)
+                  }}
+                  placeholder="Search now."
+                  size={15}
+                />
+                <MainSearchIcon onClick={() => searchToggleCallback(true)}>
                   <FaSearch
                     style={{
                       color: "white",
@@ -267,7 +320,15 @@ const MainDiv = (match, showFull, videoToPlay, imageToDisplay) => {
           </MainBooking>
         </MainFooter>
       )}
-      {showFull && videoToPlay && (
+      {showSearch && (
+        <div>
+          <SearchResults
+            resultCallback={searchResult}
+            closeCallback={searchClose}
+          />
+        </div>
+      )}
+      {!showSearch && showFull && videoToPlay && (
         <MainVideo>
           <MainVideoContent
             id="main-video"
@@ -284,7 +345,7 @@ const MainDiv = (match, showFull, videoToPlay, imageToDisplay) => {
           </MainVideoContent>
         </MainVideo>
       )}
-      {showFull && imageToDisplay && (
+      {!showSearch && showFull && imageToDisplay && (
         <MainImage>
           <img src={imageToDisplay} />
         </MainImage>
@@ -296,11 +357,28 @@ const MainDiv = (match, showFull, videoToPlay, imageToDisplay) => {
 //----------------------------------------------------------
 //-- Render
 //----------------------------------------------------------
-export const Main: React.FC = (showFull, videoToPlay, imageToDisplay) => {
+export const Main: React.FC = (
+  showFull,
+  videoToPlay,
+  imageToDisplay,
+  showSearch,
+  searchToggleCallback
+  /*searchUpdateCallback,*/
+  /*searchResultCallback*/
+) => {
   const match = useMatchMedia({
     width: MAX_WIDTH,
   })
+
   console.log(`*** Main.RENDER... match=${match}`)
-  //
-  return MainDiv(match, showFull, videoToPlay, imageToDisplay)
+  return MainDiv(
+    match,
+    showFull,
+    videoToPlay,
+    imageToDisplay,
+    showSearch,
+    searchToggleCallback
+    /*searchUpdateCallback,*/
+    /*searchResultCallback*/
+  )
 }
