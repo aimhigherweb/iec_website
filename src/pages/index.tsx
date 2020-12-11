@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react"
-import { navigate } from "gatsby"
 import styled from "styled-components"
 
 import { useSession } from "../state/SessionWrapper"
@@ -564,24 +563,18 @@ const Container = styled.div`
 `
 const Home: React.FC = () => {
   const match = useMatchMedia({ width: MAX_WIDTH })
+
   const session = useSession()
-  //const [showSearch, setShowSearch] = useState(false)
-  const searchToggle = (value) => {
-    console.log(`*** Home.searchToggle... showSearch=${value}`)
+  const show = !session.current.showSearch
+  const searchToggle = (on) => {
+    console.log(`*** Home.searchToggle... showSearch=${on}`)
     session.setCurrent({
       ...session.current,
-      showSearch: value,
+      showSearch: on,
     })
   }
-  // const searchUpdate = (value) => {
-  //   session.setCurrent({ ...session.current, searchText: value })
-  // }
-  // const searchResult = (slug) => {
-  //   navigate(slug)
-  // }
 
   console.log(`*** Home.RENDER`)
-  const show = !session.current.showSearch
   return (
     <Container>
       {Main(
@@ -590,8 +583,6 @@ const Home: React.FC = () => {
         null,
         session.current.showSearch,
         searchToggle
-        /*searchUpdate,*/
-        /*searchResult*/
       )}
       {Team(show)}
       {Style(show, match)}
