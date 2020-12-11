@@ -278,8 +278,8 @@ const Detail = (state, data) => {
         )}
       </LeftNav>
       <LeftPart>
-        <CategoryTitle>{category.title}</CategoryTitle>
-        <CategoryImage src={category.image} />
+        <CategoryTitle>{category?.title}</CategoryTitle>
+        <CategoryImage src={category?.image} />
       </LeftPart>
       <ArticlePart>
         <ArticleTitle>{title ? title : "No-Title"}</ArticleTitle>

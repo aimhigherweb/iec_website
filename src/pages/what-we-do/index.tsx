@@ -221,12 +221,12 @@ const What = (data) => {
       <WhatService>
         {whatWeDoCategories &&
           whatWeDoCategories.map((category, i) => {
-            const imageSrc = category.image
+            const imageSrc = category?.image
             return (
               <WhatServiceItem key={i} onClick={() => categoryClick(i)}>
                 <WhatServiceImage src={imageSrc} />
                 <WhatServiceTitle chosen={current.index === i}>
-                  {category.title}
+                  {category?.title}
                 </WhatServiceTitle>
               </WhatServiceItem>
             )

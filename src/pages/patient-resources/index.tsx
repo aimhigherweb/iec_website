@@ -187,7 +187,7 @@ const Patient = (data) => {
                 chosen={chosen}
               >
                 <PatientResServiceTitle chosen={chosen}>
-                  {category.title}
+                  {category?.title}
                 </PatientResServiceTitle>
               </PatientResServiceItem>
             )

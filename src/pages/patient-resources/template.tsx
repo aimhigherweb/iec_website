@@ -225,7 +225,7 @@ const Detail = (state, data) => {
         )}
       </LeftNav>
       <LeftPart>
-        <CategoryTitle>{category.title}</CategoryTitle>
+        <CategoryTitle>{category?.title}</CategoryTitle>
       </LeftPart>
       <ArticlePart>
         <ArticleTitle>{title}</ArticleTitle>
