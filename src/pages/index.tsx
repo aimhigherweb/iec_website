@@ -565,12 +565,19 @@ const Home: React.FC = () => {
   const match = useMatchMedia({ width: MAX_WIDTH })
 
   const session = useSession()
-  const show = !session.current.showSearch
+  const show = !session.current.showSearch && !session.current.showBooking
   const searchToggle = (on) => {
     console.log(`*** Home.searchToggle... showSearch=${on}`)
     session.setCurrent({
       ...session.current,
       showSearch: on,
+    })
+  }
+  const bookingToggle = (on) => {
+    console.log(`*** Home.bookingToggle... showBooking=${on}`)
+    session.setCurrent({
+      ...session.current,
+      showBooking: on,
     })
   }
 
@@ -582,7 +589,9 @@ const Home: React.FC = () => {
         "/videos/video-main.mp4",
         null,
         session.current.showSearch,
-        searchToggle
+        session.current.showBooking,
+        searchToggle,
+        bookingToggle
       )}
       {Team(show)}
       {Style(show, match)}

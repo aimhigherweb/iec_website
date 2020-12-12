@@ -8,6 +8,7 @@ export const SessionWrapper = ({ children }) => {
     articles: ["aaa", "bbb", "ccc"],
     showSearch: false,
     searchText: "",
+    showBooking: false,
   })
 
   return (

@@ -22,7 +22,8 @@ const MainHeader = styled.div`
   @media (max-width: ${MAX_WIDTH_PX}) {
     padding: 20px;
   }
-  background-color: ${(props) => (props.searchMode ? "#000000" : "#00000066")};
+  background-color: ${(props) =>
+    props.searchMode || props.bookingMode ? "#000000" : "#00000066"};
   border: ${DEBUG_MAIN};
 `
 const Logo = styled.img.attrs({
@@ -146,23 +147,24 @@ const MainBookingButton = styled.div`
   text-align: center;
   background-color: #5091cd;
   border: none;
+  cursor: pointer;
   @media (max-width: ${MAX_WIDTH_PX}) {
     padding: 8px 24px;
     margin: 0 8px;
   }
 `
 
-const MainSection = styled.div`
-  width: auto;
-  height: 100vh;
+// const MainSection = styled.div`
+//   width: auto;
+//   height: 100vh;
 
-  background-image: url("/images2/bg-section-main.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  @media (max-width: ${MAX_WIDTH_PX}) {
-    background-
-  }
-`
+//   background-image: url("/images2/bg-section-main.jpg");
+//   background-size: cover;
+//   background-repeat: no-repeat;
+//   @media (max-width: ${MAX_WIDTH_PX}) {
+//     background-
+//   }
+// `
 
 const MainVideo = styled.div`
   width: auto;
@@ -187,13 +189,28 @@ const MainImage = styled.div`
   height: auto;
 `
 
+const BookingIframe = styled.iframe`
+  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  height: 800px;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  frameborder="0"
+`
+
 const MainDiv = (
   match,
   showFull,
   videoToPlay,
   imageToDisplay,
   showSearch,
-  searchToggleCallback
+  showBooking,
+  searchToggleCallback,
+  bookingToggleCallback
 ) => {
   const [showMenu, setShowMenu] = useState(false)
 
@@ -227,9 +244,13 @@ const MainDiv = (
     }
   }
 
+  const bookingButtonClicked = () => {
+    setShowBooking(true)
+  }
+
   return (
     <div>
-      <MainHeader searchMode={showSearch}>
+      <MainHeader searchMode={showSearch} bookingMode={showBooking}>
         <Logo onClick={() => navigate("/")} />
         <Menu onClick={() => setShowMenu(!showMenu)}>
           {!showMenu && <img src={"/images2/icon-menu.png"} />}
@@ -263,6 +284,11 @@ const MainDiv = (
           Shop
         </MainMenuItem>
       </MainMenu>
+      {showBooking && (
+        <div style={{ paddingTop: "100px", height: "100%", width: "100%" }}>
+          <BookingIframe src="https://www.MyHealth1st.com.au/AppointmentWidget?practice_id=2797"></BookingIframe>
+        </div>
+      )}
       {!showFull && <MainHeaderFiller />}
       {showFull && (
         <MainFooter searchMode={showSearch}>
@@ -293,12 +319,12 @@ const MainDiv = (
 
           <MainBooking>
             <MainBookingItem>
-              <MainBookingButton>
+              <MainBookingButton onClick={() => bookingToggleCallback(true)}>
                 {match ? "Book Adelaide." : "Book Adelaide."}
               </MainBookingButton>
             </MainBookingItem>
             <MainBookingItem>
-              <MainBookingButton>
+              <MainBookingButton onClick={() => bookingToggleCallback(false)}>
                 {match ? "Book Woodville." : "Book Woodville."}
               </MainBookingButton>
             </MainBookingItem>
@@ -313,7 +339,7 @@ const MainDiv = (
           />
         </div>
       )}
-      {!showSearch && showFull && videoToPlay && (
+      {!showSearch && !showBooking && showFull && videoToPlay && (
         <MainVideo>
           <MainVideoContent
             id="main-video"
@@ -347,9 +373,9 @@ export const Main: React.FC = (
   videoToPlay,
   imageToDisplay,
   showSearch,
-  searchToggleCallback
-  /*searchUpdateCallback,*/
-  /*searchResultCallback*/
+  showBooking,
+  searchToggleCallback,
+  bookingToggleCallback
 ) => {
   const match = useMatchMedia({
     width: MAX_WIDTH,
@@ -362,8 +388,8 @@ export const Main: React.FC = (
     videoToPlay,
     imageToDisplay,
     showSearch,
-    searchToggleCallback
-    /*searchUpdateCallback,*/
-    /*searchResultCallback*/
+    showBooking,
+    searchToggleCallback,
+    bookingToggleCallback
   )
 }
