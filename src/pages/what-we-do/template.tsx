@@ -332,14 +332,14 @@ const Container = styled.div`
   margin-bottom: 80px;
 `
 
-const WhatWeDoTemplate = (props) => {
+const WhatWeDoTemplate: React.FC = (props) => {
   const match = useMatchMedia({ width: MAX_WIDTH })
   console.log(
     `*** WhatWeDoTemplate.RENDER... match=${match} path=${props.location.pathname}`
   )
   return (
     <Container>
-      {Main(false, null)}
+      {Main(false, null, null, null, () => null)}
       {Detail(props.location.state, props.data)}
       {Footer()}
     </Container>

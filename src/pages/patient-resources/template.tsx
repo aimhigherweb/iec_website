@@ -274,12 +274,12 @@ const Container = styled.div`
   margin-bottom: 80px;
 `
 
-const PatientResTemplate = (props) => {
+const PatientResTemplate: React.FC = (props) => {
   const match = useMatchMedia({ width: MAX_WIDTH })
   console.log(`*** PatientResTemplate.RENDER... match=${match}`)
   return (
     <Container>
-      {Main(false, null)}
+      {Main(false, null, null, null, () => null)}
       {Detail(props.location.state, props.data)}
       {Footer()}
     </Container>
