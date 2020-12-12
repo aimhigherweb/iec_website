@@ -1,14 +1,11 @@
 import React from "react"
 
 import Header from "../components/Header"
-import TopNav from "../components/TopNav"
-import Footer from "../components/Footer-old"
 
-export default function () {
+const Page404 = () => {
   return (
     <>
       <Header />
-      <TopNav />
 
       <div className="content-section">
         <div className="container">
@@ -30,8 +27,8 @@ export default function () {
           </div>
         </div>
       </div>
-
-      <Footer />
     </>
   )
 }
+
+export default Page404
