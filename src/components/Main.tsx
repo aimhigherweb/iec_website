@@ -121,6 +121,13 @@ const MainSearchInput = styled.input`
 `
 const MainSearchIcon = styled.span``
 
+const MainAppointment = styled.div`
+  padding: 40px;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+`
+
 const MainBooking = styled.div`
   flex: 3;
   display: flex;
@@ -244,50 +251,76 @@ const MainDiv = (
     }
   }
 
-  const bookingButtonClicked = () => {
-    setShowBooking(true)
+  const bookingUrl = () => {
+    const bookingId = session.current.bookingId
+    const result = `https://www.MyHealth1st.com.au/AppointmentWidget?practice_id=${bookingId}`
+    return result
   }
 
   return (
     <div>
-      <MainHeader searchMode={showSearch} bookingMode={showBooking}>
-        <Logo onClick={() => navigate("/")} />
-        <Menu onClick={() => setShowMenu(!showMenu)}>
-          {!showMenu && <img src={"/images2/icon-menu.png"} />}
-        </Menu>
-      </MainHeader>
-      <MainMenu show={showMenu}>
-        <MainMenuItem onClick={() => setShowMenu(!showMenu)}>
-          <FaTimes
-            style={{
-              color: "#5091cd",
-              marginTop: "32px",
-              marginRight: "6px",
-              marginBottom: "12px",
-            }}
-          />
-        </MainMenuItem>
+      {!showBooking && (
+        <>
+          <MainHeader searchMode={showSearch} bookingMode={showBooking}>
+            <Logo onClick={() => navigate("/")} />
+            <Menu onClick={() => setShowMenu(!showMenu)}>
+              {!showMenu && <img src={"/images2/icon-menu.png"} />}
+            </Menu>
+          </MainHeader>
 
-        <MainMenuItem onClick={() => navTo("/")}>Home</MainMenuItem>
-        <MainMenuItem onClick={() => navTo("/who-we-are")}>
-          Who We Are
-        </MainMenuItem>
-        <MainMenuItem onClick={() => navTo("/what-we-do")}>
-          What We Do
-        </MainMenuItem>
-        <MainMenuItem onClick={() => navTo("/patient-resources")}>
-          Patient Resources
-        </MainMenuItem>
-        <MainMenuItem onClick={() => navTo("/blog")}>Blog</MainMenuItem>
-        <MainMenuItem onClick={() => navTo("/contact")}>Contact</MainMenuItem>
-        <MainMenuItem onClick={() => navTo("https://eyesolutions.com.au")}>
-          Shop
-        </MainMenuItem>
-      </MainMenu>
+          <MainMenu show={showMenu}>
+            <MainMenuItem onClick={() => setShowMenu(!showMenu)}>
+              <FaTimes
+                style={{
+                  color: "#5091cd",
+                  marginTop: "32px",
+                  marginRight: "6px",
+                  marginBottom: "12px",
+                }}
+              />
+            </MainMenuItem>
+
+            <MainMenuItem onClick={() => navTo("/")}>Home</MainMenuItem>
+            <MainMenuItem onClick={() => navTo("/who-we-are")}>
+              Who We Are
+            </MainMenuItem>
+            <MainMenuItem onClick={() => navTo("/what-we-do")}>
+              What We Do
+            </MainMenuItem>
+            <MainMenuItem onClick={() => navTo("/patient-resources")}>
+              Patient Resources
+            </MainMenuItem>
+            <MainMenuItem onClick={() => navTo("/blog")}>Blog</MainMenuItem>
+            <MainMenuItem onClick={() => navTo("/contact")}>
+              Contact
+            </MainMenuItem>
+            <MainMenuItem onClick={() => navTo("https://eyesolutions.com.au")}>
+              Shop
+            </MainMenuItem>
+          </MainMenu>
+        </>
+      )}
       {showBooking && (
-        <div style={{ paddingTop: "100px", height: "100%", width: "100%" }}>
-          <BookingIframe src="https://www.MyHealth1st.com.au/AppointmentWidget?practice_id=2797"></BookingIframe>
-        </div>
+        <MainAppointment>
+          <div
+            style={{
+              position: "fixed",
+              top: "8px",
+              right: "54px",
+            }}
+            onClick={() => bookingToggleCallback(false, "")}
+          >
+            <FaTimes
+              style={{
+                fontSize: "20pt",
+                marginTop: "40px",
+                marginRight: "6px",
+                marginBottom: "12px",
+              }}
+            />
+          </div>
+          <BookingIframe src={bookingUrl()}></BookingIframe>
+        </MainAppointment>
       )}
       {!showFull && <MainHeaderFiller />}
       {showFull && (
@@ -319,12 +352,16 @@ const MainDiv = (
 
           <MainBooking>
             <MainBookingItem>
-              <MainBookingButton onClick={() => bookingToggleCallback(true)}>
+              <MainBookingButton
+                onClick={() => bookingToggleCallback(true, "2798")}
+              >
                 {match ? "Book Adelaide." : "Book Adelaide."}
               </MainBookingButton>
             </MainBookingItem>
             <MainBookingItem>
-              <MainBookingButton onClick={() => bookingToggleCallback(false)}>
+              <MainBookingButton
+                onClick={() => bookingToggleCallback(true, "2797")}
+              >
                 {match ? "Book Woodville." : "Book Woodville."}
               </MainBookingButton>
             </MainBookingItem>
