@@ -573,11 +573,12 @@ const Home: React.FC = () => {
       showSearch: on,
     })
   }
-  const bookingToggle = (on) => {
-    console.log(`*** Home.bookingToggle... showBooking=${on}`)
+  const bookingToggle = (on, bookingId) => {
+    console.log(`*** Home.bookingToggle... showBooking=${on} id=${bookingId}`)
     session.setCurrent({
       ...session.current,
       showBooking: on,
+      bookingId: bookingId,
     })
   }
 

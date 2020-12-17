@@ -9,6 +9,7 @@ export const SessionWrapper = ({ children }) => {
     showSearch: false,
     searchText: "",
     showBooking: false,
+    bookingId: "",
   })
 
   return (
