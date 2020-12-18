@@ -99,10 +99,10 @@ export const SearchResults: React.FC = ({ resultCallback, closeCallback }) => {
 
   let title = "Search"
   if (searchText.length > 0) {
-    title = `${title}ing for '${searchText}'`
+    title = `Searching for '${searchText}'`
   }
 
-  let found = ""
+  let found = "Results found:"
   if (matches.results) {
     if (matches.results.length === 0) {
       if (matches.searchValue.length > 0) {
