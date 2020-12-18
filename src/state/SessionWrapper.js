@@ -12,12 +12,42 @@ export const SessionWrapper = ({ children }) => {
     bookingId: "",
   })
 
+  const showAll = () => {
+    return !current.showSearch && !current.showBooking
+  }
+
+  const searchToggle = (on) => {
+    console.log(`### SessionWrapper.searchToggle... showSearch=${on}`)
+    setCurrent({
+      ...current,
+      showSearch: on,
+      showBooking: false,
+      bookingId: "",
+    })
+  }
+
+  const bookingToggle = (on, bookingId) => {
+    console.log(
+      `### SessionWrapper.bookingToggle... showBooking=${on} id=${bookingId}`
+    )
+    setCurrent({
+      ...current,
+      showBooking: on,
+      bookingId: bookingId,
+      showSearch: false,
+      searchText: "",
+    })
+  }
+
   return (
     <>
       <AppContext.Provider
         value={{
           current: current,
           setCurrent: setCurrent,
+          showAll: showAll,
+          searchToggle: searchToggle,
+          bookingToggle: bookingToggle,
         }}
       >
         {children}
