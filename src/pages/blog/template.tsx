@@ -297,7 +297,15 @@ const BlogTemplate: React.FC = (props) => {
   )
   return (
     <Container>
-      {Main(false, null, null, null, () => null)}
+      {Main(
+        false,
+        null,
+        null,
+        null,
+        null,
+        () => null,
+        () => null
+      )}
       {Detail(props.location.state, props.data)}
       {Footer()}
     </Container>

@@ -279,7 +279,15 @@ const PatientResTemplate: React.FC = (props) => {
   console.log(`*** PatientResTemplate.RENDER... match=${match}`)
   return (
     <Container>
-      {Main(false, null, null, null, () => null)}
+      {Main(
+        false,
+        null,
+        null,
+        null,
+        null,
+        () => null,
+        () => null
+      )}
       {Detail(props.location.state, props.data)}
       {Footer()}
     </Container>
