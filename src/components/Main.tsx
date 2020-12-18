@@ -230,10 +230,7 @@ const MainDiv = (
   }
   const searchClose = () => {
     console.log(`*** Main.searchClose`)
-    session.setCurrent({
-      ...session.current,
-      searchText: "",
-    })
+    searchToggleCallback(false)
   }
   useEffect(() => {
     const searchLen = session.current?.searchText?.length
