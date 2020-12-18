@@ -170,14 +170,7 @@ const Blog: React.FC = (props) => {
   })
 
   const session = useSession()
-  const show = !session.current.showSearch
-  const searchToggle = (on) => {
-    console.log(`*** Home.searchToggle... showSearch=${on}`)
-    session.setCurrent({
-      ...session.current,
-      showSearch: on,
-    })
-  }
+  const show = session.showAll()
 
   console.log(`*** Blog.RENDER... match=${match}`)
   return (
@@ -187,7 +180,9 @@ const Blog: React.FC = (props) => {
         null,
         "/images2/bg-section-blog.png",
         session.current.showSearch,
-        searchToggle
+        session.current.showBooking,
+        session.searchToggle,
+        session.bookingToggle
       )}
       {BlogList(show, props.data)}
       {Footer(show)}

@@ -482,14 +482,7 @@ const WhoWeAre: React.FC = ({ data }) => {
   const { teamList } = data
 
   const session = useSession()
-  const show = !session.current.showSearch
-  const searchToggle = (on) => {
-    console.log(`*** Home.searchToggle... showSearch=${on}`)
-    session.setCurrent({
-      ...session.current,
-      showSearch: on,
-    })
-  }
+  const show = session.showAll()
 
   console.log(`*** Home.RENDER... match=${match}`)
   return (
@@ -499,7 +492,9 @@ const WhoWeAre: React.FC = ({ data }) => {
         "/videos/who-we-are.mp4",
         null,
         session.current.showSearch,
-        searchToggle
+        session.current.showBooking,
+        session.searchToggle,
+        session.bookingToggle
       )}
       {Team(show, teamList, match)}
       {History(show, historyList, match)}

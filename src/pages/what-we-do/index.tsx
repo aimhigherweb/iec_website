@@ -280,14 +280,7 @@ const WhatWeDo: React.FC = (props) => {
   })
 
   const session = useSession()
-  const show = !session.current.showSearch
-  const searchToggle = (on) => {
-    console.log(`*** Home.searchToggle... showSearch=${on}`)
-    session.setCurrent({
-      ...session.current,
-      showSearch: on,
-    })
-  }
+  const show = session.showAll()
 
   console.log(`*** WhatWeDo.RENDER... match=${match}`)
   return (
@@ -297,7 +290,9 @@ const WhatWeDo: React.FC = (props) => {
         "/videos/what-we-do.mp4",
         null,
         session.current.showSearch,
-        searchToggle
+        session.current.showBooking,
+        session.searchToggle,
+        session.bookingToggle
       )}
       {What(show, props.data)}
       {Footer(show)}

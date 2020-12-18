@@ -565,22 +565,7 @@ const Home: React.FC = () => {
   const match = useMatchMedia({ width: MAX_WIDTH })
 
   const session = useSession()
-  const show = !session.current.showSearch && !session.current.showBooking
-  const searchToggle = (on) => {
-    console.log(`*** Home.searchToggle... showSearch=${on}`)
-    session.setCurrent({
-      ...session.current,
-      showSearch: on,
-    })
-  }
-  const bookingToggle = (on, bookingId) => {
-    console.log(`*** Home.bookingToggle... showBooking=${on} id=${bookingId}`)
-    session.setCurrent({
-      ...session.current,
-      showBooking: on,
-      bookingId: bookingId,
-    })
-  }
+  const show = session.showAll()
 
   console.log(`*** Home.RENDER`)
   return (
@@ -591,8 +576,8 @@ const Home: React.FC = () => {
         null,
         session.current.showSearch,
         session.current.showBooking,
-        searchToggle,
-        bookingToggle
+        session.searchToggle,
+        session.bookingToggle
       )}
       {Team(show)}
       {Style(show, match)}

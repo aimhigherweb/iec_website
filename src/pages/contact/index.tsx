@@ -212,14 +212,7 @@ const Contact: React.FC = () => {
   const match = useMatchMedia({ width: MAX_WIDTH })
 
   const session = useSession()
-  const show = !session.current.showSearch
-  const searchToggle = (on) => {
-    console.log(`*** Home.searchToggle... showSearch=${on}`)
-    session.setCurrent({
-      ...session.current,
-      showSearch: on,
-    })
-  }
+  const show = session.showAll()
 
   console.log(`*** Contact.RENDER... match=${match}`)
   return (
@@ -229,7 +222,9 @@ const Contact: React.FC = () => {
         "/videos/location-city.mp4",
         null,
         session.current.showSearch,
-        searchToggle
+        session.current.showBooking,
+        session.searchToggle,
+        session.bookingToggle
       )}
       {PracticeLocations(show)}
       {Footer(show)}

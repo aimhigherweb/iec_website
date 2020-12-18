@@ -241,14 +241,7 @@ const PatientResources: React.FC = (props) => {
   })
 
   const session = useSession()
-  const show = !session.current.showSearch
-  const searchToggle = (on) => {
-    console.log(`*** Home.searchToggle... showSearch=${on}`)
-    session.setCurrent({
-      ...session.current,
-      showSearch: on,
-    })
-  }
+  const show = session.showAll()
 
   console.log(`*** PatientResources.RENDER... match=${match}`)
   return (
@@ -258,7 +251,9 @@ const PatientResources: React.FC = (props) => {
         null,
         "/images2/bg-section-patres.png",
         session.current.showSearch,
-        searchToggle
+        session.current.showBooking,
+        session.searchToggle,
+        session.bookingToggle
       )}
       {Patient(show, props.data)}
       {Footer(show)}
