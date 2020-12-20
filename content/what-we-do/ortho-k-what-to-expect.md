@@ -1,6 +1,7 @@
 ---
-title: 'Ortho-K: What To Expect'
+title: "Ortho-K: What To Expect"
 category: orthok
+preview-image: /uploads/ok-mr-gent.jpg
 ---
 
 <div class="employee-heading">
