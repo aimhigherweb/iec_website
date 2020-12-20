@@ -1,7 +1,7 @@
 ---
 title: Orthokeratology for Myopia
 category: orthok
-preview-image: ok-flower.jpg
+preview-image: /uploads/photo-1516627145497-ae6968895b74-2-.jfif
 ---
 
 <div class="employee-heading">
