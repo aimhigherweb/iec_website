@@ -1,6 +1,5 @@
 ---
 title: Face A Face
-category: eyewear-experts
 ---
 
 <div class="employee-heading">

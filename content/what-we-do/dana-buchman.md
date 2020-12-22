@@ -1,6 +1,5 @@
 ---
 title: Dana Buchman
-category: eyewear-experts
 ---
 
 <div class="employee-heading">

@@ -1,6 +1,5 @@
 ---
 title: Nicola Finetti
-category: eyewear-experts
 ---
 
 <div class="employee-heading">

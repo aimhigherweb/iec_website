@@ -1,6 +1,5 @@
 ---
 title: Prodesign
-category: eyewear-experts
 preview-image: /uploads/prodesign-logo.jpg
 ---
 

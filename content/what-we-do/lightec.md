@@ -1,6 +1,5 @@
 ---
 title: Lightec
-category: eyewear-experts
 ---
 
 <div class="employee-heading">

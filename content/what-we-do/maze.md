@@ -1,6 +1,5 @@
 ---
 title: MAZE
-category: eyewear-experts
 ---
 
 <div class="employee-heading">

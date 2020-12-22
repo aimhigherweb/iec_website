@@ -1,6 +1,5 @@
 ---
 title: John Lennon
-category: eyewear-experts
 ---
 
 <div class="employee-heading">

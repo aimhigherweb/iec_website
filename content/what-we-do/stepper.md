@@ -1,6 +1,5 @@
 ---
 title: Stepper
-category: eyewear-experts
 preview-image: /uploads/stepper-logo.jpg
 ---
 
