@@ -319,7 +319,7 @@ const MainDiv = (
           <BookingIframe src={bookingUrl()}></BookingIframe>
         </MainAppointment>
       )}
-      {!showFull && <MainHeaderFiller />}
+      {(!showFull || match) && <MainHeaderFiller />}
       {showFull && (
         <MainFooter searchMode={showSearch}>
           <MainSearch>
