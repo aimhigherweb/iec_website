@@ -1,7 +1,7 @@
 ---
 title: Digital Retinal Photography
 category: advanced-imaging-technology
-preview-image: /uploads/khsdf.jpg
+preview_image: khsdf.jpg
 ---
 
 <div class="employee-heading">

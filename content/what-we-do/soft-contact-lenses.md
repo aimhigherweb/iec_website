@@ -1,7 +1,7 @@
 ---
 title: Soft Contact Lenses
 category: contact-lenses
-preview-image: /uploads/contact-lenses.png
+preview_image: contact-lens-2-.jfif
 ---
 
 <div class="employee-heading">

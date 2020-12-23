@@ -1,7 +1,7 @@
 ---
 title: Eyewear Collections
 category: eyewear-experts
-preview_image: prodesign-advertisement.jpg
+preview_image: eyewear-collection.png
 ---
 
 <div class="employee-heading">

@@ -1,7 +1,7 @@
 ---
 title: Meibomian Gland Dysfunction
 category: dry-eye-clinic
-preview-image: /uploads/mgd.png
+preview_image: mgd.png
 ---
 
 <div class="employee-heading">

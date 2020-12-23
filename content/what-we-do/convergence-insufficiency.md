@@ -1,7 +1,7 @@
 ---
 title: Convergence Insufficiency
 category: paediatric-vision
-preview_image: /uploads/convergence-insuffiicency.jpeg
+preview_image: convergence-insuffiicency.jpeg
 ---
 
 <div class="employee-heading">

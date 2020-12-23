@@ -1,7 +1,7 @@
 ---
 title: Optical and Ultrasound Biometry
 category: advanced-imaging-technology
-preview-image: /uploads/biometry.png
+preview_image: biometry.png
 ---
 
 <div class="employee-heading">

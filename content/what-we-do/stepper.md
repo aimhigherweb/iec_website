@@ -1,6 +1,6 @@
 ---
 title: Stepper
-preview-image: /uploads/stepper-logo.jpg
+preview_image: stepper-logo.jpg
 ---
 
 <div class="employee-heading">

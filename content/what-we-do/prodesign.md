@@ -1,6 +1,6 @@
 ---
 title: Prodesign
-preview-image: /uploads/prodesign-logo.jpg
+preview_image: prodesign-logo.jpg
 ---
 
 <div class="employee-heading">

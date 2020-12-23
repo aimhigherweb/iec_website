@@ -1,7 +1,7 @@
 ---
 title: Optical Coherence Tomography (OCT)
 category: advanced-imaging-technology
-preview-image: /uploads/heidelberg-oct.jpg
+preview_image: heidelberg-oct.jpg
 ---
 
 <div class="employee-heading">

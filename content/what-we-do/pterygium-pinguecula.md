@@ -1,7 +1,7 @@
 ---
 title: Pterygium and Pinguecula
 category: eye-disease
-preview-image: /uploads/pterygium.jpg
+preview_image: pterygium.jpg
 ---
 
 <div class="employee-heading">
