@@ -215,11 +215,12 @@ const Contact: React.FC = () => {
   const show = session.showAll()
 
   console.log(`*** Contact.RENDER... match=${match}`)
+  const video = match ? null : "/videos/location-city.mp4"
   return (
     <Container>
       {Main(
         true,
-        "/videos/location-city.mp4",
+        video,
         null,
         session.current.showSearch,
         session.current.showBooking,

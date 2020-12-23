@@ -568,11 +568,12 @@ const Home: React.FC = () => {
   const show = session.showAll()
 
   console.log(`*** Home.RENDER`)
+  const video = "/videos/video-main.mp4"
   return (
     <Container>
       {Main(
         true,
-        "/videos/video-main.mp4",
+        video,
         null,
         session.current.showSearch,
         session.current.showBooking,

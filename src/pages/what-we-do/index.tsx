@@ -283,11 +283,12 @@ const WhatWeDo: React.FC = (props) => {
   const show = session.showAll()
 
   console.log(`*** WhatWeDo.RENDER... match=${match}`)
+  const video = match ? null : "/videos/what-we-do.mp4"
   return (
     <Container>
       {Main(
         true,
-        "/videos/what-we-do.mp4",
+        video,
         null,
         session.current.showSearch,
         session.current.showBooking,

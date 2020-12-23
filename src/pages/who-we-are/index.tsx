@@ -485,11 +485,12 @@ const WhoWeAre: React.FC = ({ data }) => {
   const show = session.showAll()
 
   console.log(`*** Home.RENDER... match=${match}`)
+  const video = match ? null : "/videos/who-we-are.mp4"
   return (
     <Container>
       {Main(
         true,
-        "/videos/who-we-are.mp4",
+        video,
         null,
         session.current.showSearch,
         session.current.showBooking,

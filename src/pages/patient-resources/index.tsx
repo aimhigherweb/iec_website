@@ -244,12 +244,13 @@ const PatientResources: React.FC = (props) => {
   const show = session.showAll()
 
   console.log(`*** PatientResources.RENDER... match=${match}`)
+  const image = match ? null : "/images2/bg-section-patres.png"
   return (
     <Container>
       {Main(
         true,
         null,
-        "/images2/bg-section-patres.png",
+        image,
         session.current.showSearch,
         session.current.showBooking,
         session.searchToggle,

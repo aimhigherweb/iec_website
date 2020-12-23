@@ -173,12 +173,13 @@ const Blog: React.FC = (props) => {
   const show = session.showAll()
 
   console.log(`*** Blog.RENDER... match=${match}`)
+  const image = match ? null : "/images2/bg-section-blog.png"
   return (
     <Container>
       {Main(
         true,
         null,
-        "/images2/bg-section-blog.png",
+        image,
         session.current.showSearch,
         session.current.showBooking,
         session.searchToggle,
