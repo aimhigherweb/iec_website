@@ -1,8 +1,9 @@
 ---
 title: Scleral Contact Lenses
 category: contact-lenses
-preview-image: scleral.jpg
+preview_image: scleral-oct-background_preview.jpg
 ---
+
 <div class="employee-heading">
 <p>At our Adelaide and Woodville practices, optometrists have the ability to fit custom design large diameter scleral contact lenses with <a href="/what-we-do/oct">advanced technologies</a> and materials to treat a range of eye conditions, including <a href="/what-we-do/keratoconus">keratoconus</a>.<sup>1</sup> If you are interested in scleral lenses and would like to know more about whether they are right for you, please make an <a href="/what-we-do/eye-exam">appointment</a> or <a href="/contact">contact us</a>. For more information on the care and handling of scleral lenses visit our information page <a href="https://innovativeeyecare.com.au/what-we-do/scleral-contact-lenses/">here</a>.</p>
 </div>
@@ -23,6 +24,6 @@ Scleral lenses are complex and difficult to design and manufacture. Innovative E
 
 ##### References
 
-1. Harthan, J. et al. (2018). "Therapeutic uses of scleral contact lenses for ocular surface disease: patient selection and special considerations". Clin Optom (Auckl). 10: 65-74. 
-2. Koppen, C. et al. (2018). "Scleral lens reduce the need for corneal transplants in severe keratoconus". Am J Ophthalmol. 185: 43-47. 
+1. Harthan, J. et al. (2018). "Therapeutic uses of scleral contact lenses for ocular surface disease: patient selection and special considerations". Clin Optom (Auckl). 10: 65-74.
+2. Koppen, C. et al. (2018). "Scleral lens reduce the need for corneal transplants in severe keratoconus". Am J Ophthalmol. 185: 43-47.
 3. Shorter, E. et al. (2018). "Scleral lenses in the management of corneal irregularity and ocular surface disease". Eye Contact Lens. 44(6): 372-278.

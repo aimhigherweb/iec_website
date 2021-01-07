@@ -2,7 +2,6 @@
 title: Coopervision MyDay Toric launch
 date: 2017-09-25
 author: Karl Evans
-author_url: /who-we-are/karl-evans
 preview_image: /uploads/myday-toric-coopervision.jpg
 ---
 
@@ -14,6 +13,6 @@ While silicone does a great job of making a contact lens material breathe, it’
 
 [Coopervision](https://coopervision.net.au/contact-lenses/myday-family) has focused on ways to reduce the silicone content of their lenses while maintaining breathability. The MyDay lens uses [longer chain silicone](https://coopervision.net.au/product-technology/smart-silicone) which due to its more continuous, less segmented structure creates a boost in oxygen transmission over regular silicone and enables reduction of total silicone content to a very low 4.4% for the same breathability. This also allows a high water content of 54%.
 
-MyDay material lenses have been available in sphere powers for a while, but the range has expanded and it is now also available for 94% of astigmatism prescription. Speak with your optometrist today to see if you might be a good candidate for the MyDay soft contact lenses.  Book online [here](/contact) or call us on (08) 8231 9341.
+MyDay material lenses have been available in sphere powers for a while, but the range has expanded and it is now also available for 94% of astigmatism prescription. Speak with your optometrist today to see if you might be a good candidate for the MyDay soft contact lenses. Book online [here](/contact) or call us on (08) 8231 9341.
 
 To visit the Brien Holden Vision Institute, follow this [link](https://www.brienholdenvision.org/translational-research/track-record.html).

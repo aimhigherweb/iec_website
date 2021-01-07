@@ -1,7 +1,7 @@
 ---
 title: Hyperopia
 category: refractive-conditions
-preview-image: hyperopia-vision.jpg
+preview_image: hyperopia-vision.jpg
 ---
 
 <div class="employee-heading">
@@ -20,16 +20,14 @@ People with hyperopia often have reasonable vision in the distance, but may find
 A little hyperopia is not a problem because the eye lens usually compensates easily. However, if there is a significant amount of hyperopia, the effort of focusing (called accommodation) can cause problematic symptoms. A hyperopic person can have normal vision but the greater the hyperopia, the harder it is to focus. Vision may become blurry, especially for close objects. Hyperopic people may get tired eyes or headaches after a long period of visual work, even if their vision is clear. Reading is more difficult and school work can be affected.
 
 ![](/uploads/hyperopia-vision.jpg)
-
-CAPTION: A view typical of someone with hyperopia
+_A view typical of someone with hyperopia_
 
 #### What causes hyperopia?
 
 Hyperopia is often thought to be hereditary, but there is no consensus on a definite cause. The eyeball may be a little smaller than average, which causes light to be focused behind the retina.
 
 ![](/uploads/hyperopia-2.jpg)
-
-CAPTION: Light is focused behind the retina in a hyperopic person
+_Light is focused behind the retina in a hyperopic person_
 
 #### Does hyperopia change with age?
 

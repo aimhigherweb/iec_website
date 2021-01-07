@@ -1,10 +1,10 @@
 ---
 title: What's been happening in 2017
 date: 2017-12-31T00:00:00.000Z
-author: Georgia Turner
-author_url: /who-we-are/georgia-turner/
+author: Georgia Hoy
 preview_image: /uploads/barber_72dpi_600px-1.jpg
 ---
+
 As we kick off into 2018, we have been reflecting on the year that was. Here are a few highlights...
 
 The year started with some major [renovations](/blog/see-our-new-office-fit-out) to the Hutt Street Practice. Thank you to all those who endured the madness during this time! In March we also said farewell to much loved Optometrist Kevin Rooney as he ventured into Retirement.

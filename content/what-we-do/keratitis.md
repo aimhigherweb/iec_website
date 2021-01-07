@@ -1,7 +1,7 @@
 ---
 title: Keratitis
 category: acute-red-eyes
-preview-image: keratitis.jpg
+preview_image: dendrites-hsk.jpg
 ---
 
 <div class="employee-heading">
@@ -12,7 +12,7 @@ There many different types of keratitis. The main categories are infective kerat
 
 #### Infective keratitis
 
-Infection of the cornea by a micro-organism such as bacteria, a virus (including herpes simplex and herpes zoster viruses), fungi or protozoan can be potentially blinding and very painful.<sup>1-3</sup> If you think you may have infective keratitis you must see your optometrist as soon as possible, as certain bacteria can perforate the cornea within 24 hours unless treated. 
+Infection of the cornea by a micro-organism such as bacteria, a virus (including herpes simplex and herpes zoster viruses), fungi or protozoan can be potentially blinding and very painful.<sup>1-3</sup> If you think you may have infective keratitis you must see your optometrist as soon as possible, as certain bacteria can perforate the cornea within 24 hours unless treated.
 
 Patients will often present with pain, redness, light-sensitivity and sometimes discharge. The most common corneal infections are bacterial and viral. These present with characteristic appearances which help your optometrist to make the correct diagnosis. Infective keratitis requires frequent use of the appropriate topical anti-microbial medication and close monitoring as the condition improves.<sup>4</sup> In some cases of viral keratitis, the area affected may be debrided at diagnosis to decrease the quantity of virus at the infection site.<sup>5</sup> The optometrists at Innovative Eye Care are therapeutically qualified and trained to diagnose and treat these types of infections.
 

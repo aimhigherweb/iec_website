@@ -2,7 +2,6 @@
 title: "Vision training: there's more than meets the eye!"
 date: 2017-08-29
 author: Joanna Rohrlach
-author_url: /who-we-are/joanna-rohrlach
 preview_image: /uploads/visiontraining1.jpg
 ---
 

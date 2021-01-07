@@ -1,7 +1,7 @@
 ---
 title: Orthokeratology for Hyperopia
 category: orthok
-preview-image: presbyopia1.jpg
+preview_image: cassidy-kelley-p90szoobygk-unsplash.jpg
 ---
 
 <div class="employee-heading">
@@ -12,10 +12,9 @@ Hyperopia — also known as longsightedness or hypermetropia — refers to poor 
 
 Hyperopia is not as clearly associated with the onset of ocular disease, but if not corrected those with the condition often find they suffer from headaches, eye strain, and fatigue. Hyperopic ortho-K has generated far less interest from researchers, contact lens manufacturers and optometrists as myopic ortho-K. The first hyperopic ortho-K lenses involved steep-fitting rigid contact lenses to induce central corneal steepening, and was first described by Jessen in 1962. In more recent times, the use of high oxygen-permeable materials and newer designs have sparked a new interest in hyperopic ortho-K.
 
-While spectacles are an equally viable treatment for correcting hyperopia, many patients find them cumbersome or, particularly in those with higher degrees of longsightedness, unflattering. Soft disposable or RGP contact lenses worn throughout the day are also a popular option.  Patients who make use of the ortho-K program find that not being required to wear lenses during the day is preferable to both daily spectacle or daily contact lens wear.
+While spectacles are an equally viable treatment for correcting hyperopia, many patients find them cumbersome or, particularly in those with higher degrees of longsightedness, unflattering. Soft disposable or RGP contact lenses worn throughout the day are also a popular option. Patients who make use of the ortho-K program find that not being required to wear lenses during the day is preferable to both daily spectacle or daily contact lens wear.
 
 Today at Innovative Eye Care we fit just as many patients into hyperopic ortho-K lenses as myopic. For more information about contact lens options for hyperopes click [here](/what-we-do/hyperopia).
 
 ![](/uploads/hyperopic-ok.jpg)
-
-CAPTION: A well-fitting hyperopic ortho-K lens
+_A well-fitting hyperopic ortho-K lens_

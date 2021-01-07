@@ -1,11 +1,12 @@
 ---
 title: Corneal Grafts
 category: eye-disease
-preview-image: corneal-graft.jpg
+preview_image: corneal-graft.jpg
 ---
+
 <div class="employee-heading">
 <p>Corneal grafts are required for clear vision when the cornea is compromised due to scarring or dysfunction. After the cornea from a donor is implanted into the eye, careful monitoring is required by your optometrist to ensure its viability in the future. Often glasses or specialised contact lenses such as <a href="/what-we-do/gas-permeable-contact-lenses">RGPs</a> or <a href="/what-we-do/scleral-contact-lenses">sclerals</a> are required to give good vision in an eye with a graft, due to the frequently irregular front surface.</p>
-</div> 
+</div>
 
 At Innovative Eye Care we are often asked by ophthalmologists and other optometrists to help patients who have had corneal grafts achieve the best vision possible. Sometimes we can manage this with spectacles, but more often we have the best success with large diameter [scleral lenses](/what-we-do/scleral-contact-lenses), for a variety of reasons.
 

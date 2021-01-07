@@ -1,32 +1,32 @@
 ---
 title: Myopia
 category: refractive-conditions
-preview-image: myopia-vision-final.jpg
+preview_image: myopia-vision-final.jpg
 ---
+
 <div class="employee-heading">
 <p>Myopia, commonly called shortsightedness, is a condition in which light is focused in front of the retina, resulting in blurred vision. This is normally due to the eye being too long for the focusing power of the eye. Shortsighted people can often see reasonably clearly at short distances, but will not be able to see distant objects clearly.</p>
 <p>At our Adelaide and Woodville practices, our optometrists offer <a href="/what-we-do/myopia-control">myopia control</a> treatments to prevent the progression of myopia. If you are interested in knowing more, please contact our staff or <a href="/what-we-do/eye-exam">book an appointment</a>.</p>
 </div>
 
-There is currently no cure for myopia, but [spectacles](/what-we-do/glasses), [contact lenses](/what-we-do/contact-lenses), [orthokeratology](/what-we-do/orthokeratology-corneal-reshaping) and refractive surgery can all assist in treating the symptom of blurry distance vision for people with this condition. Due to the structural change to the eye, myopia significantly increases the risk of ocular disease such as [retinal detachment](/what-we-do//what-we-do/flashes-floaters-retinal-tear-detachment), [cataract](/what-we-do/cataract) and [glaucoma](/what-we-do/glaucoma) later in life.<sup>1,2,3</sup> 
+There is currently no cure for myopia, but [spectacles](/what-we-do/glasses), [contact lenses](/what-we-do/contact-lenses), [orthokeratology](/what-we-do/orthokeratology-corneal-reshaping) and refractive surgery can all assist in treating the symptom of blurry distance vision for people with this condition. Due to the structural change to the eye, myopia significantly increases the risk of ocular disease such as [retinal detachment](/what-we-do//what-we-do/flashes-floaters-retinal-tear-detachment), [cataract](/what-we-do/cataract) and [glaucoma](/what-we-do/glaucoma) later in life.<sup>1,2,3</sup>
 
 #### How can I tell if I am myopic?
 
 The most common symptom of myopia is blurry distance vision. Myopic people find it hard to read road signs or scoreboards, and recognising people in the distance may also be a problem. Often a person will not realise that they cannot see clearly until they have an eye examination.
 
 ![](/uploads/myopia-vision-final.jpg)
-
-CAPTION: A view typical of someone with myopia
+_A view typical of someone with myopia_
 
 #### How can I tell if my child is shortsighted?
 
 A comprehensive [eye test](https://innovativeeyecare.com.au/contact/) is the only sure way of determining whether your child's vision is normal. Some clues to myopia in a child include:
 
-* Screwing up eyes to see distant objects
-* Difficulty reading the whiteboard at school
-* Sitting close to the screen when watching television
-* Holding iPads and books close to the face
-* Lack of interest in playing outdoor games
+- Screwing up eyes to see distant objects
+- Difficulty reading the whiteboard at school
+- Sitting close to the screen when watching television
+- Holding iPads and books close to the face
+- Lack of interest in playing outdoor games
 
   ![](/uploads/0aded48b23e39439e9eff0706f97a488b601e42a_child-reading.jpg)
 
@@ -36,7 +36,7 @@ The exact causes and mechanisms of myopia are not known. Recent research has sho
 
 #### Can myopia be cured?
 
-Despite ongoing research, a cure for myopia has not yet been found. Properly prescribed spectacles or contact lenses, including [orthokeratology](/what-we-do/orthokeratology-corneal-reshaping) lenses, will enable a person with myopia to see clearly. [](/what-we-do/soft-contact-lenses)Laser surgery to permanently reshape the front surface of the eye can also help some people with myopia achieve clear distance vision. Your optometrist can advise you about the latest developments and whether they would be suitable for you. 
+Despite ongoing research, a cure for myopia has not yet been found. Properly prescribed spectacles or contact lenses, including [orthokeratology](/what-we-do/orthokeratology-corneal-reshaping) lenses, will enable a person with myopia to see clearly. [](/what-we-do/soft-contact-lenses)Laser surgery to permanently reshape the front surface of the eye can also help some people with myopia achieve clear distance vision. Your optometrist can advise you about the latest developments and whether they would be suitable for you.
 
 #### Can myopia be prevented?
 
@@ -48,9 +48,9 @@ It is a very common condition, and the incidence is rising rapidly, with the WHO
 
 ##### References
 
-1. Willhem, J. L., et al. (2016). "Association of Axial Length With Risk of Uncorrectable Visual Impairment for Europeans With Myopia." JAMA Ophthalmol. 134(12):1355-1363. 
+1. Willhem, J. L., et al. (2016). "Association of Axial Length With Risk of Uncorrectable Visual Impairment for Europeans With Myopia." JAMA Ophthalmol. 134(12):1355-1363.
 2. Flitcroft, D. I. (2012). "The complex interactions of retinal, optical and environmental factors in myopia aetiology." Progress in Retinal and Eye Research 31(6): 622-660.
-3. Haarman, A. E. G., et al. (2020). "The Complications of Myopia: A Review and Meta-Analysis". Invest Ophthalmol Vis Sci. 61(4): 49. 
-4. Cooper, J., Tkatchenko, A. V., (2018). "A Review of Current Concepts of the Etiology and Treatment of Myopia." Eye Contact Lens. 44(4). 231-247. 
+3. Haarman, A. E. G., et al. (2020). "The Complications of Myopia: A Review and Meta-Analysis". Invest Ophthalmol Vis Sci. 61(4): 49.
+4. Cooper, J., Tkatchenko, A. V., (2018). "A Review of Current Concepts of the Etiology and Treatment of Myopia." Eye Contact Lens. 44(4). 231-247.
 5. Institute, W. H. O.-B. H. V. (2016). "The Impact of Myopia and High Myopia." Report of the Joint World Health Organisation-Brien Holden Vision Institute Global Scientific Meeting on Myopia.
 6. Resnikoff, S., et al. (2019). "Myopia - A 21st Century Public Health Issue". Invest Ophthalmol Vis Sci. 60(3): 3.

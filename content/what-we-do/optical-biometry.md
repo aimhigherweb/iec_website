@@ -1,8 +1,9 @@
 ---
 title: Optical and Ultrasound Biometry
 category: advanced-imaging-technology
-preview-image: null
+preview_image: biometry.png
 ---
+
 <div class="employee-heading">
 <p>An ocular biometer measures the size and shape of the eye, specifically axial lengths (distance from the front to the back of the eye implicated in <a href="/what-we-do/auto-phoropter">refractive error</a>), anterior chamber depth (important for  <a href="/what-we-do/glaucoma">glaucoma</a>) and keratometry (curvature of the cornea, the clear structure at the front of the eye). Each of these measurements aids in the management of diseases like <a href="/what-we-do/cataract">cataract</a>, and the monitoring of progressive <a href="/what-we-do/myopia">myopia</a>. Both our Adelaide and Woodville branches are equipped with either optical or ultrasound biometers like the <i>IOL Master</i>, and most recently the <i>Pentacam AXL Wave</i>.</p>
 </div>
@@ -15,7 +16,7 @@ Optical biometry is crucial for our [myopia](/what-we-do/myopia) patients. Axial
 
 #### Cataract
 
-The main function of an optical biometer is to calculate the power of the intraocular lens (IOL) for patients who are undergoing [cataract](/what-we-do/cataract) surgery.  Cataract is the opacification of the crystalline lens in the eye, which causes blurry and cloudy vision. With the addition of the Pentacam AXL Wave, we can now also objectively quantify the opacification by densitometry. The opacified lens is replaced during surgery with an artificial IOL, the optical power of which is decided beforehand for clear vision at a chosen distance. Optical biometry also helps us to determine how dense the opacified lens is, which is highly useful for deciding on when to refer for cataract surgery.
+The main function of an optical biometer is to calculate the power of the intraocular lens (IOL) for patients who are undergoing [cataract](/what-we-do/cataract) surgery. Cataract is the opacification of the crystalline lens in the eye, which causes blurry and cloudy vision. With the addition of the Pentacam AXL Wave, we can now also objectively quantify the opacification by densitometry. The opacified lens is replaced during surgery with an artificial IOL, the optical power of which is decided beforehand for clear vision at a chosen distance. Optical biometry also helps us to determine how dense the opacified lens is, which is highly useful for deciding on when to refer for cataract surgery.
 
 #### Anterior chamber depth
 

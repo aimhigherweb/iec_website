@@ -1,8 +1,9 @@
 ---
 title: Astigmatism
 category: refractive-conditions
-preview-image: astigmatism-topo.jpg
+preview_image: astigmatism-topo.jpg
 ---
+
 <div class="employee-heading">
 <p>Astigmatism is a common refractive condition resulting in blurred or doubling vision at all distances. It's caused by irregularities in shape of the front surface of the eye (the cornea), where some areas are more steeply curved than others. A normal eye free of astigmatism is curved like a soccer ball. If the curvature of the cornea is not the same in all directions, like an Australian football, it will bend the light passing through it by different amounts, producing astigmatism.</p>
 </div>

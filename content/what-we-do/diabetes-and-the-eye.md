@@ -1,8 +1,9 @@
 ---
 title: Diabetes & The Eye
 category: eye-disease
-preview-image: diabetic_retinopathy.jpg
+preview_image: diabetic_retinopathy.jpg
 ---
+
 <div class="employee-heading">
 <p>After diabetes has been present for some years, changes may occur at the back of the eye in the retina, known as diabetic retinopathy. Your optometrist may use an instrument called an ophthalmoscope and <a href="what-we-do/retinal-photography">posterior imaging</a> that will clearly show these changes. There are two main types of this condition: non-proliferative (sometimes called background) retinopathy and proliferative retinopathy. The risk of developing retinopathy increases with the length of time you have had diabetes and is also increased when blood glucose levels are not well controlled over time. All diabetics should ensure they visit their optometrist at least every two years for a thorough <a href="/what-we-do/eye-exam">examination</a>.</p>
 </div>
@@ -47,12 +48,11 @@ Controlling blood glucose over time significantly reduces the risk of developing
 
 #### Diabetic care at Innovative Eye Care
 
-The role of optometry in diabetic management in retinal health is that of close monitoring and communication with other health professionals involved in your diabetic care. If we detect the development of diabetic retinopathy we can instigate changes to the diabetic control with the help of the patient's general practitioner or endocrinologist. If needed we can also refer to ophthalmology for a surgical opinion. 
+The role of optometry in diabetic management in retinal health is that of close monitoring and communication with other health professionals involved in your diabetic care. If we detect the development of diabetic retinopathy we can instigate changes to the diabetic control with the help of the patient's general practitioner or endocrinologist. If needed we can also refer to ophthalmology for a surgical opinion.
 
-At Innovative Eye Care we recommend a dilated eye exam to best assess the health of the retina. Dilating the pupils enables us to get a much clearer view of the back of the eye. Dilating drops last for 4-6 hours and may cause glare and blurry vision. Because of this we recommend not driving following a diabetic retinal examination. 
+At Innovative Eye Care we recommend a dilated eye exam to best assess the health of the retina. Dilating the pupils enables us to get a much clearer view of the back of the eye. Dilating drops last for 4-6 hours and may cause glare and blurry vision. Because of this we recommend not driving following a diabetic retinal examination.
 
 We use a range of equipment on the forefront of diagnostics during a [comprehensive diabetic health exam](/what-we-do/eye-exam). This includes [retinal photography](/what-we-do/retinal-photography) to record and monitor subtle signs in the retina, examination using bio-microscopy to stereoscopically assess both the central and peripheral retina, and [optical coherence tomography](/what-we-do/oct), a technology that can scan the retinal layers to look for swelling and other damage. Some of the additional tests necessary for a comprehensive diabetic retinal examination fall outside of what is covered by Medicare. Because of this there may be additional charges to cover the cost of the equipment and consumables. Find out more about exam billing [here](/what-we-do/exam-billing).
 
 ![](/uploads/diabetes-prp-treatment.png)
-
-CAPTION: An image captured by the Heidelberg OCT showing evidence of proliferative diabetic retinopathy (top) and the same retina after treatment with anti-vascular injections.
+_An image captured by the Heidelberg OCT showing evidence of proliferative diabetic retinopathy (top) and the same retina after treatment with anti-vascular injections._

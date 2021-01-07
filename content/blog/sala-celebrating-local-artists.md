@@ -2,7 +2,6 @@
 title: "SALA: celebrating local artists"
 date: 2018-08-09
 author: Millie Meegan
-author_url: /who-we-are/millie-meegan
 preview_image: /uploads/SALA-fullsizerender-1.jpg
 ---
 

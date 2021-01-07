@@ -1,158 +1,21 @@
-import React from "react"
-import { Link } from "gatsby"
+import React, { useState, useEffect } from "react"
 import styled from "styled-components"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import {
-  faMapMarker,
-  faClock,
-  faPhoneAlt,
-} from "@fortawesome/free-solid-svg-icons"
-import { faFacebook, faInstagram } from "@fortawesome/free-brands-svg-icons"
 
+import { useSession } from "../state/SessionWrapper"
 import { useMatchMedia } from "../hooks/useMatchMedia"
-
-//----------------------------------------------------------
-//-- Section 0: Main
-//----------------------------------------------------------
-const DEBUG_MAIN = "0px solid blue"
-
-const MainHeader = styled.div`
-  position: fixed;
-  z-index: 9999;
-  padding: 20px;
-  width: 100%;
-  height: auto;
-  @media (max-width: 768px) {
-    padding: 20px;
-  }
-  background-color: #424242;
-  border: ${DEBUG_MAIN};
-`
-const Logo = styled.img.attrs({
-  src: "/images2/icon-logo.png",
-})`
-  width: 270px;
-  height: auto;
-  background: clear;
-  @media (max-width: 768px) {
-    width: 160px;
-  }
-  border: ${DEBUG_MAIN};
-`
-const Menu = styled.img.attrs({
-  src: "/images2/icon-menu.png",
-})`
-  position: fixed;
-  top: 20px;
-  right: 20px;
-  width: 40px;
-  height: 31px;
-  background: clear;
-  border: ${DEBUG_MAIN};
-`
-
-const MainFooter = styled.div`
-  position: fixed;
-  z-index: 9999;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  height: 80px;
-  background-color: #424242;
-`
-const MainSearch = styled.div`
-  position: fixed;
-  bottom: 20px;
-  left: 40px;
-  background-color: #424242;
-  @media (max-width: 768px) {
-    left: 40px;
-    right: 40px;
-  }
-  border: ${DEBUG_MAIN};
-`
-const MainSearchInput = styled.input`
-  width: 250px;
-  padding: 8px 8px;
-  color: red;
-  font-family: "Times New Roman";
-  font-size: 1em;
-  font-weight: 800;
-  background-color: rgba(0, 0, 0, 0);
-  border: 1px solid white;
-  outline: none;
-  ::placeholder {
-    font-family: "Times New Roman";
-    font-weight: 800;
-    color: white;
-  }
-  @media (max-width: 768px) {
-    width: 100%;
-  }
-`
-const MainBooking = styled.div`
-  position: absolute;
-  bottom: 20px;
-  right: 40px;
-  @media (max-width: 768px) {
-    position: static;
-    margin: 20px 20px;
-  }
-  border: ${DEBUG_MAIN};
-`
-const MainBookingButton = styled.button`
-  padding: 4px 16px;
-  color: white;
-  font-family: "Times New Roman";
-  font-size: 1em;
-  font-weight: 600;
-  background-color: #5091cd;
-  border: none;
-  @media (max-width: 768px) {
-    width: 100%;
-    padding: 8px 24px;
-  }
-`
-
-const MainSection = styled.div`
-  width: auto;
-  height: 100vh;
-
-  background-image: url("/images2/bg-section-main.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  @media (max-width: 768px) {
-    background-
-  }
-`
-
-const Main = (
-  <div>
-    <MainHeader>
-      <Logo />
-      <Menu />
-    </MainHeader>
-    <MainFooter>
-      <MainSearch>
-        <MainSearchInput placeholder="Search now." />
-      </MainSearch>
-      <MainBooking>
-        <MainBookingButton>Book Online Adelaide.</MainBookingButton>
-        &nbsp;&nbsp;&nbsp;
-        <MainBookingButton>Book Online Woodville.</MainBookingButton>
-      </MainBooking>
-    </MainFooter>
-    <MainSection></MainSection>
-  </div>
-)
+import { Main } from "../components/Main"
+import { Footer } from "../components/Layout/Footer"
 
 //----------------------------------------------------------
 //-- Section 1: Team
 //----------------------------------------------------------
 const DEBUG_TEAM = "0px solid blue"
+const MAX_WIDTH = 768
+const MAX_WIDTH_PX = `${MAX_WIDTH}px`
+
 const TeamSection = styled.div`
   padding: 40px 10%;
-  @media (max-width: 768px) {
+  @media (max-width: ${MAX_WIDTH_PX}) {
     padding: 20px 0px;
   }
 `
@@ -173,7 +36,7 @@ const TeamStaffBar = styled.div`
 const TeamStaff = styled.div`
   flex: 1;
   margin: 0 4px;
-  @media (max-width: 768px) {
+  @media (max-width: ${MAX_WIDTH_PX}) {
     flex-basis: 40%;
   }
 `
@@ -187,7 +50,7 @@ const TeamDescription = styled.div`
   padding: 40px 40px;
   text-align: center;
   font-size: 0.8em;
-  @media (max-width: 768px) {
+  @media (max-width: ${MAX_WIDTH_PX}) {
     padding: 20px 40px;
     text-align: justify;
     font-size: 1em;
@@ -204,7 +67,7 @@ const TeamService = styled.div`
 `
 const TeamServiceItem = styled.div`
   flex: 1;
-  @media (max-width: 768px) {
+  @media (max-width: ${MAX_WIDTH_PX}) {
     flex-basis: 50%;
   }
   border: ${DEBUG_TEAM};
@@ -214,7 +77,7 @@ const TeamServiceImage = styled.img`
   width: auto;
   height: 24px;
   margin: 16px auto;
-  @media (max-width: 768px) {
+  @media (max-width: ${MAX_WIDTH_PX}) {
     height: 50px;
   }
   border: ${DEBUG_TEAM};
@@ -223,7 +86,7 @@ const TeamServiceTitle = styled.p`
   font-size: 0.5em;
   font-weight: 600;
   text-align: center;
-  @media (max-width: 768px) {
+  @media (max-width: ${MAX_WIDTH_PX}) {
     font-size: 0.7em;
   }
   border: ${DEBUG_TEAM};
@@ -238,110 +101,111 @@ const TeamFooterImage = styled.img`
   width: auto;
   height: 12px;
   margin: 0px auto;
-  @media (max-width: 768px) {
+  @media (max-width: ${MAX_WIDTH_PX}) {
     height: 24px;
   }
   border: ${DEBUG_TEAM};
 `
 
-const Team = (
-  <TeamSection>
-    <TeamTitle>We are a team of industry leaders</TeamTitle>
-    <TeamStaffBar>
-      <TeamStaff>
-        <TeamStaffImage src="/images2/staff-lachie.png" />
-      </TeamStaff>
-      <TeamStaff>
-        <TeamStaffImage src="/images2/staff-karl.png" />
-      </TeamStaff>
-      <TeamStaff>
-        <TeamStaffImage src="/images2/staff-dylan.png" />
-      </TeamStaff>
-      <TeamStaff>
-        <TeamStaffImage src="/images2/staff-pooja.png" />
-      </TeamStaff>
-    </TeamStaffBar>
-    <TeamDescription>
-      <p>
-        As practitioners, we firmly believe in comprehensive care. As
-        innovators, we provide this care with the most up-to-date technology,
-        knowledge, products and services available. As people, we value each one
-        of our patients and their individual needs.
-      </p>
-      <p>
-        Our practice is proudly independent and South Australian owned and
-        operated. Part of a long legacy of optometry in Adelaide and its
-        surrounds, we welcome generations of family members as they continue in
-        our care.
-      </p>
-    </TeamDescription>
-    <TeamService>
-      <TeamServiceItem>
-        <Link to="/what-we-do/eyewear-collections">
+//onClick={() => navigate("/who-we-are2")}
+
+//        <Link to="/what-we-do/eyewear-collections">
+//        <Link to="/what-we-do/contact-lenses">
+//        <Link to="/what-we-do/childrens-vision">
+//        <Link to="/what-we-do/dry-eye-disease">
+//        <Link to="/what-we-do/oct">
+//        <Link to="/what-we-do/orthokeratology-corneal-reshaping">
+
+const Team = (show) => {
+  return show ? (
+    <TeamSection>
+      <TeamTitle>We are a team of industry leaders</TeamTitle>
+      <TeamStaffBar>
+        <TeamStaff>
+          <TeamStaffImage src="/images2/staff-lachie.png" />
+        </TeamStaff>
+        <TeamStaff>
+          <TeamStaffImage src="/images2/staff-karl.png" />
+        </TeamStaff>
+        <TeamStaff>
+          <TeamStaffImage src="/images2/staff-dylan.png" />
+        </TeamStaff>
+        <TeamStaff>
+          <TeamStaffImage src="/images2/staff-pooja.png" />
+        </TeamStaff>
+      </TeamStaffBar>
+      <TeamDescription>
+        <p>
+          As practitioners, we firmly believe in comprehensive care. As
+          innovators, we provide this care with the most up-to-date technology,
+          knowledge, products and services available. As people, we value each
+          one of our patients and their individual needs.
+        </p>
+        <p>
+          Our practice is proudly independent and South Australian owned and
+          operated. Part of a long legacy of optometry in Adelaide and its
+          surrounds, we welcome generations of family members as they continue
+          in our care.
+        </p>
+      </TeamDescription>
+      <TeamService>
+        <TeamServiceItem>
           <TeamServiceImage src="/images2/service-eyewear-experts.png" />
           <TeamServiceTitle>
             EYEWEAR
             <br />
             EXPERTS
           </TeamServiceTitle>
-        </Link>
-      </TeamServiceItem>
-      <TeamServiceItem>
-        <Link to="/what-we-do/contact-lenses">
+        </TeamServiceItem>
+        <TeamServiceItem>
           <TeamServiceImage src="/images2/service-bespoke-contact-lenses.png" />
           <TeamServiceTitle>
             BESPOKE
             <br />
             CONTACT LENSES
           </TeamServiceTitle>
-        </Link>
-      </TeamServiceItem>
-      <TeamServiceItem>
-        <Link to="/what-we-do/childrens-vision">
+        </TeamServiceItem>
+        <TeamServiceItem>
           <TeamServiceImage src="/images2/service-paediatric-vision.png" />
           <TeamServiceTitle>
             PAEDIATRIC
             <br />
             VISION
           </TeamServiceTitle>
-        </Link>
-      </TeamServiceItem>
-      <TeamServiceItem>
-        <Link to="/what-we-do/dry-eye-disease">
+        </TeamServiceItem>
+        <TeamServiceItem>
           <TeamServiceImage src="/images2/service-dry-eye-clinic.png" />
           <TeamServiceTitle>
             DRY EYE
             <br />
             CLINIC
           </TeamServiceTitle>
-        </Link>
-      </TeamServiceItem>
-      <TeamServiceItem>
-        <Link to="/what-we-do/oct">
+        </TeamServiceItem>
+        <TeamServiceItem>
           <TeamServiceImage src="/images2/service-adv-imaging.png" />
           <TeamServiceTitle>
             ADVANCED
             <br />
             IMAGING
           </TeamServiceTitle>
-        </Link>
-      </TeamServiceItem>
-      <TeamServiceItem>
-        <Link to="/what-we-do/orthokeratology-corneal-reshaping">
+        </TeamServiceItem>
+        <TeamServiceItem>
           <TeamServiceImage src="/images2/service-orthok-correction.png" />
           <TeamServiceTitle>
             ORTHO-K OVERNIGHT
             <br />
             CORRECTION
           </TeamServiceTitle>
-        </Link>
-      </TeamServiceItem>
-    </TeamService>
-    <TeamFooter>
-      <TeamFooterImage src="/images2/icon-arrow-down.png" />
-    </TeamFooter>
-  </TeamSection>
-)
+        </TeamServiceItem>
+      </TeamService>
+      <TeamFooter>
+        <TeamFooterImage src="/images2/icon-arrow-down.png" />
+      </TeamFooter>
+    </TeamSection>
+  ) : (
+    <div></div>
+  )
+}
 
 //----------------------------------------------------------
 //-- Section 2: Style
@@ -363,7 +227,7 @@ const StyleTitle = styled.h1`
   font-family: "Times New Roman";
   font-size: 1.2em;
   color: white;
-  @media (max-width: 768px) {
+  @media (max-width: ${MAX_WIDTH_PX}) {
     padding: 40px 40px;
     font-size: 1.7em;
   }
@@ -374,7 +238,7 @@ const StyleDescription = styled.div`
   text-align: left;
   font-size: 0.8em;
   font-weight: 500;
-  @media (max-width: 768px) {
+  @media (max-width: ${MAX_WIDTH_PX}) {
     font-size: 1em;
     font-weight: 600;
   }
@@ -389,7 +253,7 @@ const StyleBookingButton = styled.button`
   font-weight: 600;
   background-color: #5091cd;
   border: none;
-  @media (max-width: 768px) {
+  @media (max-width: ${MAX_WIDTH_PX}) {
     width: 100%;
     padding 8px;
     font-size: 1.5em;
@@ -402,7 +266,7 @@ const StyleFooter = styled.div`
   left: 0px;
   width: 100%;
   background-color: #00000033; /*#bcb0a240 */
-  @media (max-width: 768px) {
+  @media (max-width: ${MAX_WIDTH_PX}) {
     position: static;
   }
   border: ${DEBUG_STYLE};
@@ -416,7 +280,7 @@ const StyleBrandBar = styled.div`
 const StyleBrandItem = styled.div`
   flex: 1;
   padding: 0 10px;
-  @media (max-width: 768px) {
+  @media (max-width: ${MAX_WIDTH_PX}) {
     flex-basis: 100%;
     background-color: #c0b4a8;
   }
@@ -427,7 +291,7 @@ const StyleBrandImage = styled.img`
   width: auto;
   height: 64px;
   margin: 0px auto;
-  @media (max-width: 768px) {
+  @media (max-width: ${MAX_WIDTH_PX}) {
     height: 90px;
     background-color: #c0b4a8;
   }
@@ -437,41 +301,53 @@ const StyleFooterPart = (
   <StyleFooter>
     <StyleBrandBar>
       <StyleBrandItem>
-        <Link to="/what-we-do/lindberg">
+        <a href="https://lindberg.com" target="_blank" rel="noreferrer">
           <StyleBrandImage src="/images2/icon-style-lindberg.png" />
-        </Link>
+        </a>
       </StyleBrandItem>
       <StyleBrandItem>
-        <Link to="/what-we-do/face-a-face">
+        <a
+          href="https://www.faceaface-paris.com"
+          target="_blank"
+          rel="noreferrer"
+        >
           <StyleBrandImage src="/images2/icon-style-face.png" />
-        </Link>
+        </a>
       </StyleBrandItem>
       <StyleBrandItem>
-        <Link to="/what-we-do/prodesign">
+        <a
+          href="https://www.prodesigndenmark.com"
+          target="_blank"
+          rel="noreferrer"
+        >
           <StyleBrandImage src="/images2/icon-style-prodesign.png" />
-        </Link>
+        </a>
       </StyleBrandItem>
       <StyleBrandItem>
-        <Link to="/what-we-do/prodesign">
+        <a
+          href="https://www.monkeyglasses.com"
+          target="_blank"
+          rel="noreferrer"
+        >
           <StyleBrandImage src="/images2/icon-style-monkey.png" />
-        </Link>
+        </a>
       </StyleBrandItem>
       <StyleBrandItem>
-        <Link to="/what-we-do/prodesign">
+        <a href="https://www.mauijim.com" target="_blank" rel="noreferrer">
           <StyleBrandImage src="/images2/icon-style-maui.png" />
-        </Link>
+        </a>
       </StyleBrandItem>
       <StyleBrandItem>
-        <Link to="/what-we-do/prodesign">
+        <a href="https://www.goodgryf.co.nz" target="_blank" rel="noreferrer">
           <StyleBrandImage src="/images2/icon-style-goodgryf.png" />
-        </Link>
+        </a>
       </StyleBrandItem>
     </StyleBrandBar>
   </StyleFooter>
 )
 
-const Style = (match) => {
-  return (
+const Style = (show, match) => {
+  return show ? (
     <div>
       <StyleSection>
         <StyleTitle>
@@ -490,6 +366,8 @@ const Style = (match) => {
       </StyleSection>
       <div>{match && StyleFooterPart}</div>
     </div>
+  ) : (
+    <div></div>
   )
 }
 
@@ -498,14 +376,54 @@ const Style = (match) => {
 //----------------------------------------------------------
 const DEBUG_SOCIAL = "0px solid blue"
 const SocialSection = styled.div`
-  padding: 40px 10%;
+  padding: 40px 5%;
+`
+
+const SocialHeader = styled.div`
+  position: relative;
+  margin-bottom: 40px;
+  background-color: yellow;
+  height: 200px;
+  border: ${DEBUG_SOCIAL};
+`
+const SocialHeaderImage = styled.img`
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border: ${DEBUG_SOCIAL};
+`
+const SocialHeaderCaption = styled.p`
+  position: absolute;
+  bottom: -8px;
+  left: 20px;
+  color: white;
+  font-size: 1em;
+  font-weight: 600;
+  font-family: "Times New Roman";
+  border: ${DEBUG_SOCIAL};
+`
+const SocialHeaderLeftNav = styled.img`
+  position: absolute;
+  width: 10px;
+  height: 20px;
+  left: 14px;
+  top: 95px;
+  border: ${DEBUG_SOCIAL};
+`
+const SocialHeaderRightNav = styled.img`
+  position: absolute;
+  width: 10px;
+  height: 20px;
+  right: 14px;
+  top: 95px;
+  border: ${DEBUG_SOCIAL};
 `
 
 const SocialTitle = styled.h1`
   text-align: center;
   font-family: "Times New Roman";
   font-size: 1.4em;
-  @media (max-width: 768px) {
+  @media (max-width: ${MAX_WIDTH_PX}) {
     font-size: 2em;
   }
 `
@@ -514,321 +432,127 @@ const SocialItemBar = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding: 0 40px;
   border: ${DEBUG_SOCIAL};
+`
+const SocialItemNavArrowImage = styled.img`
+  display: block;
+  width: auto;
+  height: 16px;
+  margin: 0px auto;
+  margin-top: 100px;
+  @media (max-width: ${MAX_WIDTH_PX}) {
+    height: 18px;
+  }
+  border: ${DEBUG_TEAM};
 `
 const SocialItem = styled.div`
   flex: 1;
-  margin: 0 4px;
-  @media (max-width: 768px) {
-    flex-basis: 40%;
+  margin: 20px;
+  @media (max-width: ${MAX_WIDTH_PX}) {
   }
+  border: ${DEBUG_SOCIAL};
 `
 const SocialItemImage = styled.img`
   width: 100%;
   height: auto;
-  filter: grayscale(100%);
+  object-fit: cover;
+  border: ${DEBUG_SOCIAL};
 `
 
-const Social = (
-  <SocialSection>
-    <SocialTitle>
-      Follow us on Instagram and Facebook to see what we&apos;ve been up to!
-    </SocialTitle>
-    <SocialItemBar>
-      <SocialItem>
-        <a href="https://www.instagram.com/innovative.eye.care">
-          <SocialItemImage src="/images2/social-insta1.jpg" />
-        </a>
-      </SocialItem>
-      <SocialItem>
-        <a href="https://www.instagram.com/innovative.eye.care">
-          <SocialItemImage src="/images2/social-insta2.jpg" />
-        </a>
-      </SocialItem>
-      <SocialItem>
-        <a href="https://www.instagram.com/innovative.eye.care">
-          <SocialItemImage src="/images2/social-insta1.jpg" />
-        </a>
-      </SocialItem>
-      <SocialItem>
-        <a href="https://www.instagram.com/innovative.eye.care">
-          <SocialItemImage src="/images2/social-insta2.jpg" />
-        </a>
-      </SocialItem>
-    </SocialItemBar>
-  </SocialSection>
-)
+const obtainInstaFeed = async () => {
+  console.log(`*** Home.obtainInstaFeed`)
 
-//----------------------------------------------------------
-//-- Section 4: Footer
-//----------------------------------------------------------
-const DEBUG_FOOTER = "0px solid blue"
-const FooterSection = styled.div`
-  padding: 20px 20px;
-  margin-bottom: 40px;
-  border: ${DEBUG_FOOTER};
-  @media (max-width: 768px) {
-    padding: 20px 40px;
-  }
-`
+  const url = `https://www.instagram.com/innovative.eye.care/?__a=1`
+  const response = await fetch(url)
+  const json = await response.json()
 
-const FooterLogo = styled.div`
-  display: flex;
-  margin-bottom: 10px;
-`
-const FooterLogoItem = styled.div`
-  flex: 0 1 20%;
-  @media (max-width: 768px) {
-    flex: 1;
-  }
-`
-const FooterLogoImg = styled.img`
-  margin-left: 10px;
-  width: 120px;
-  height: auto;
-  @media (max-width: 768px) {
-    margin: 0;
-    padding: 16px;
-    width: auto;
-  }
-  border: ${DEBUG_FOOTER};
-`
+  const result = []
+  const MAX_ITEMS = 4
 
-const FooterContent = styled.div`
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  padding: 0;
-  border: ${DEBUG_FOOTER};
-`
-const FooterContentItem = styled.div`
-  flex: 1;
-  margin: 0 4px;
-  @media (max-width: 768px) {
-    flex: 100%;
+  const { edge_owner_to_timeline_media } = json.graphql.user
+  if (edge_owner_to_timeline_media) {
+    const { edges } = edge_owner_to_timeline_media
+    if (edges?.length > 0) {
+      edges.forEach((edge) => {
+        const { display_url } = edge.node
+        if (display_url) {
+          if (result.length < MAX_ITEMS) {
+            result.push({ imageUrl: edge.node.display_url })
+          }
+        }
+      })
+    }
   }
-  border: ${DEBUG_FOOTER};
-`
-const FooterContact = styled.div`
-  display: flex;
-  margin-bottom: 10px;
-  @media (max-width: 768px) {
-    justify-content: center;
-  }
-  border: ${DEBUG_FOOTER};
-`
-const FooterContactIcon = styled(FontAwesomeIcon)`
-  flex: 0 1 40px;
-  font-size: 12px;
-  color: #d2d2d2;
-  border: ${DEBUG_FOOTER};
-`
-const FooterContactText = styled.div`
-  flex: 3;
-  font-size: 0.5em;
-  @media (max-width: 768px) {
-    flex: 1;
-  }
-  border: ${DEBUG_FOOTER};
-`
-const FooterContactSpacer = styled.div`
-  flex: 0;
-  @media (max-width: 768px) {
-    flex: 2;
-  }
-`
 
-const FooterMenu = styled.ul`
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-  border: ${DEBUG_FOOTER};
-`
-const FooterMenuItem = styled.li`
-  @media (max-width: 768px) {
-    text-align: center;
-  }
-  border: ${DEBUG_FOOTER};
-`
+  return result
+}
 
-const FooterNewsletterTitle = styled.div`
-  margin-bottom: 10px;
-  font-size: 0.9em;
-  font-weight: 600;
-  font-family: "Times New Roman";
-  border: ${DEBUG_FOOTER};
-`
-const FooterNewsletterInput = styled.input`
-  padding: 0 4px;
-  margin-bottom: 10px;
-  font-size: 0.9em;
-  background-color: #f2f2f2;
-  border: ${DEBUG_FOOTER};
-  border: 1px solid #c2c2c2;
-`
-const FooterNewsletterIcon = styled(FontAwesomeIcon)`
-  margin-right: 10px;
-  font-size: 24px;
-  color: #d2d2d2;
-  cursor: pointer;
-  border: ${DEBUG_FOOTER};
-`
-const FooterGutter = styled.div`
-  margin-top: 40px;
-  border-top: 1px solid #e2e2e2;
-`
-const FooterGutterText = styled.div`
-  margin: 20px 0 40px 0;
-  font-size: 0.6em;
-  color: black;
-  @media (max-width: 768px) {
-    font-size: 0.8em;
-  }
-`
+const Social = (show) => {
+  console.log(`*** Home.Social`)
+  const [posts, setPosts] = useState()
 
-const Footer = (
-  <FooterSection>
-    <FooterLogo>
-      <FooterLogoItem>
-        <FooterLogoImg src="images2/icon-logo-white.png" />
-      </FooterLogoItem>
-    </FooterLogo>
-    <FooterContent>
-      <FooterContentItem>
-        <FooterContact>
-          <FooterContactSpacer />
-          <FooterContactIcon icon={faMapMarker} />
-          <FooterContactText>
-            <a href="https://g.page/iecadel?share">
-              60 Hutt Street
-              <br />
-              Adelaide SA 5000
-            </a>
-          </FooterContactText>
-          <FooterContactSpacer />
-        </FooterContact>
-        <FooterContact>
-          <FooterContactSpacer />
-          <FooterContactIcon icon={faPhoneAlt} />
-          <FooterContactText>
-            <a href="tel:61882319341">(08) 8231 9341</a>
-          </FooterContactText>
-          <FooterContactSpacer />
-        </FooterContact>
-        <FooterContact>
-          <FooterContactSpacer />
-          <FooterContactIcon icon={faClock} />
-          <FooterContactText>
-            Mon-Fri 8.30am - 5.30pm
-            <br />
-            Sat 8.30am - 12pm
-          </FooterContactText>
-          <FooterContactSpacer />
-        </FooterContact>
-      </FooterContentItem>
-      <FooterContentItem>
-        <FooterContact>
-          <FooterContactSpacer />
-          <FooterContactIcon icon={faMapMarker} />
-          <FooterContactText>
-            <a href="https://g.page/iecwoodville?share">
-              850 Port Road
-              <br />
-              Woodville SA 5011
-            </a>
-          </FooterContactText>
-          <FooterContactSpacer />
-        </FooterContact>
-        <FooterContact>
-          <FooterContactSpacer />
-          <FooterContactIcon icon={faPhoneAlt} />
-          <FooterContactText>
-            <a href="tel:61884459050">(08) 8445 9050</a>
-          </FooterContactText>
-          <FooterContactSpacer />
-        </FooterContact>
-        <FooterContact>
-          <FooterContactSpacer />
-          <FooterContactIcon icon={faClock} />
-          <FooterContactText>
-            Mon-Fri 8.30am - 5.30pm
-            <br />
-            Sat CLOSED
-          </FooterContactText>
-          <FooterContactSpacer />
-        </FooterContact>
-      </FooterContentItem>
-      <FooterContentItem>
-        <FooterMenu>
-          <FooterMenuItem>
-            <Link to="/who-we-are">Who We Are</Link>
-          </FooterMenuItem>
-          <FooterMenuItem>
-            <Link to="/what-we-do">What We Do</Link>
-          </FooterMenuItem>
-          <FooterMenuItem>
-            <Link to="/patient-resources">Patient Resources</Link>
-          </FooterMenuItem>
-          <FooterMenuItem>
-            <Link to="/contact">Contact</Link>
-          </FooterMenuItem>
-          <FooterMenuItem>
-            <Link to="/blog">Blog</Link>
-          </FooterMenuItem>
-        </FooterMenu>
-      </FooterContentItem>
-      <FooterContentItem>
-        <FooterMenu>
-          <FooterMenuItem>
-            <Link to="/what-we-do/contact-lenses">Contact Lens Care</Link>
-          </FooterMenuItem>
-          <FooterMenuItem>
-            <Link to="/what-we-do/blepharitis">Blepharitis</Link>
-          </FooterMenuItem>
-          <FooterMenuItem>
-            <Link to="/what-we-do/dry-eye-disease">Dry Eye</Link>
-          </FooterMenuItem>
-          <FooterMenuItem>
-            <Link to="/patient-resources/nutrition-and-supplements-for-age-related-macular-degeneration">
-              Nutrition
-            </Link>
-          </FooterMenuItem>
-          <FooterMenuItem>
-            <Link to="/who-we-are">About Us</Link>
-          </FooterMenuItem>
-        </FooterMenu>
-      </FooterContentItem>
-      <FooterContentItem>
+  const latestPosts = () => {
+    obtainInstaFeed().then((latestPosts) => {
+      setPosts(latestPosts)
+    })
+  }
+
+  useEffect(() => {
+    console.log(`*** Home.Social.useEffect`)
+    latestPosts()
+  }, [])
+
+  return show ? (
+    <SocialSection>
+      <SocialHeader>
+        <SocialHeaderLeftNav src="images2/icon-arrow-left-white.svg" />
+        <SocialHeaderRightNav src="images2/icon-arrow-right-white.svg" />
+        <SocialHeaderImage src="images2/social-insta2.jpg" />
+        <SocialHeaderCaption>See better. See us.</SocialHeaderCaption>
+      </SocialHeader>
+      <SocialTitle>
+        Follow us on{" "}
+        <a
+          href="https://www.instagram.com/innovative.eye.care"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Instagram
+        </a>{" "}
+        and{" "}
+        <a
+          href="https://www.facebook.com/innovativeeyecareadelaide/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Facebook
+        </a>{" "}
+        to see what we&apos;ve been up to!
+      </SocialTitle>
+      <SocialItemBar>
         <div>
-          <FooterNewsletterTitle>Newsletter</FooterNewsletterTitle>
-          <div>
-            <FooterNewsletterInput placeholder="Enter Your Email" />
-          </div>
-          <div>
-            <a href="https://www.facebook.com/innovativeeyecareadelaide">
-              <FooterNewsletterIcon
-                icon={faFacebook}
-                style={{ color: "#828282" }}
-              />
-            </a>
-            <a href="https://www.instagram.com/innovative.eye.care">
-              <FooterNewsletterIcon
-                icon={faInstagram}
-                style={{ color: "#828282" }}
-              />
-            </a>
-          </div>
+          <SocialItemNavArrowImage src="images2/icon-arrow-left.png" />
         </div>
-      </FooterContentItem>
-    </FooterContent>
-    <FooterGutter>
-      <FooterGutterText>
-        Copyright (C) 2020 INNOVATIVE EYE CARE. Designed by The Benjamins
-      </FooterGutterText>
-    </FooterGutter>
-  </FooterSection>
-)
+        {posts &&
+          posts.map((post, i) => {
+            const imageSrc = post.imageUrl
+            return (
+              <SocialItem key={i}>
+                <a href="https://www.instagram.com/innovative.eye.care">
+                  <SocialItemImage src={imageSrc} />
+                </a>
+              </SocialItem>
+            )
+          })}
+        <div>
+          <SocialItemNavArrowImage src="images2/icon-arrow-right.png" />
+        </div>
+      </SocialItemBar>
+    </SocialSection>
+  ) : (
+    <div></div>
+  )
+}
 
 //----------------------------------------------------------
 //-- Render
@@ -838,16 +562,28 @@ const Container = styled.div`
   margin: 0;
 `
 const Home: React.FC = () => {
-  const match = useMatchMedia({ width: 768 })
+  const match = useMatchMedia({ width: MAX_WIDTH })
+
+  const session = useSession()
+  const show = session.showAll()
 
   console.log(`*** Home.RENDER`)
+  const video = "/videos/video-main.mp4"
   return (
     <Container>
-      {Main}
-      {Team}
-      {Style(match)}
-      {Social}
-      {Footer}
+      {Main(
+        true,
+        video,
+        null,
+        session.current.showSearch,
+        session.current.showBooking,
+        session.searchToggle,
+        session.bookingToggle
+      )}
+      {Team(show)}
+      {Style(show, match)}
+      {Social(show)}
+      {Footer(show)}
     </Container>
   )
 }

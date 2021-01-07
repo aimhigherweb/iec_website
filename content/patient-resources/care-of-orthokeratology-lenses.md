@@ -21,14 +21,13 @@ Always wash and rinse your hands thoroughly and dry them with a lint-free towel/
 
 To avoid confusion make a habit of inserting the same lens - generally the right lens - first. You will notice that the right lens is green and the left lens blue. Minimise the risk of lens loss by plugging the sink or using a paper towel over the drainage opening.
 
-<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\\\\[if IE]><iframe frameborder="0" type="text/html" src="https://www.youtube.com/embed/YgNS5aE9pAo" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\\\\[endif]--><!--\\\\[if !IE]> <--><object data="https://www.youtube.com/embed/YgNS5aE9pAo" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://www.youtube.com/embed/YgNS5aE9pAo">Scleral Lens Insertion & Removal By EyeSpace Lenses</a></object><!--> <!\\\\[endif]--></div>
+<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\\\\\\[if IE]><iframe frameborder="0" type="text/html" src="https://www.youtube.com/embed/YgNS5aE9pAo" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\\\\\\[endif]--><!--\\\\\\[if !IE]> <--><object data="https://www.youtube.com/embed/YgNS5aE9pAo" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://www.youtube.com/embed/YgNS5aE9pAo">Scleral Lens Insertion & Removal By EyeSpace Lenses</a></object><!--> <!\\\\\\[endif]--></div>
 
 <i><b>Step 1.</b></i> Remove your Ortho-K lenses from the cleaning solution case and rinse with saline. If you are using a hydrogen peroxide solution, you can only remove the lenses after a minimum soaking time of six hours.<sup>8</sup>
 
 <i><b>Step 2.</b></i> Place 1-2 drops of lubricating insertion eye drops into the back of the lens. Place the lens on your index finger and insert directly into the centre (coloured part) of your eye in a face down position. To save confusion, it’s a good idea to insert the right lens first.
 
-<i><b>Step 3.</b></i> If you happen to drop your Ortho-K lens, use saline solution to rinse the lens clean. To do this place the lens in the palm of your hand and thoroughly rinse for five seconds.<sup>9</sup> <br> <br> 	
-<i><b>Step 4.</b></i> Dry and wipe out your lens case with a tissue. Leave the case lid off to air dry while wearing your lenses.
+<i><b>Step 3.</b></i> If you happen to drop your Ortho-K lens, use saline solution to rinse the lens clean. To do this place the lens in the palm of your hand and thoroughly rinse for five seconds.<sup>9</sup> <br> <br> 	 <i><b>Step 4.</b></i> Dry and wipe out your lens case with a tissue. Leave the case lid off to air dry while wearing your lenses.
 
 <b>Normal occurrences on insertion</b>
 
@@ -53,30 +52,30 @@ If on insertion you experience stinging, burning or pain, remove the lens, rinse
 
 #### Cleaning
 
-Always clean your lenses after wear. An effective cleaning process is vital to ensure comfortable, hygienic and infection-free contact lens wear. With correct cleaning, contact lenses will feel better on your eyes, allow better eye health and vision, and dramatically reduce bacteria and other contaminants. There are several types of ortho-K lens cleaning solutions: Peroxide based systems like AO Sept and multipurpose lens solutions like Menicare and Boston Simplus. There are several steps involved in cleaning and storing Ortho-K lenses that vary depending on the system.
+An effective cleaning process is vital to ensure comfortable, hygienic and infection-free contact lens wear. With correct cleaning, contact lenses will feel better on your eyes, allow better eye health and vision, and dramatically reduce the risk of infection. Always clean your lenses after wear, and NEVER RINSE OR STORE YOUR LENSES IN TAP WATER.<sup>3</sup> The acanthamoeba microorganism is plentiful in tap water and can cause a severe, painful and sight-threatening infection.
 
-![](/uploads/ao-sept-hydraglyde-menicare.jpg)
+![](/uploads/contact-and-lenses-water-dont-mix.png)
 
 ##### Peroxide cleaner ([AO Sept with Hydraglyde](http://eyesolutions.com.au/collections/frontpage/products/aoseptwithhydraglyde))
 
-These solutions work by having your contact lenses immersed and sterilised in 3% hydrogen peroxide. Over the course of a 6 hour period the catalyst in the case converts the hydrogen peroxide into water and oxygen gas. This cleaning solution has the advantage that when your lenses are removed from the case they require no rinsing as they are covered only in sterile, non-preserved water. They also generally require no rubbing step, which decreases the risk of accidental breakage. The case can be left to air dry when not in use, and should be replaced with each new bottle of solution. AO Sept now had the addition of Hydraglyde, an ingredient which improves the wettability of your contact lenses, making them more useful for scleral patients with long day-wear times.
+* <i>To clean, disinfect and condition:</i> Fill the case up to the line, place your lenses in the correct cage-holder, then submerge the case and screw closed. Over the course of a 6 hour period the catalyst in the case converts the disinfecting hydrogen peroxide solution into water and oxygen gas. The solution also includes Hydraglyde, an ingredient which improves the wettability of your contact lenses.
 
-To clean your lenses fill the case up to the line, place your lenses in the correct cage-holder. Then submerge the case and screw closed. Take care when transporting the case as sometimes the small gas-release hole can leak solution.
-
-Care should be taken not to get the un-neutralised peroxide in your eyes as this will sting painfully. If this occurs rinse thoroughly with water and contact your optometrist if the pain persists or your vision is affected. Find AoSept at our shop [here](http://eyesolutions.com.au/collections/frontpage/products/aoseptwithhydraglyde).
+This cleaning solution requires no rubbing step, which decreases the risk of accidental breakage. The lenses do not need to be rinsed after the clean, as the solution neutralises to sterile water. The case can be left to air dry when not in use, and should be replaced with each new bottle of solution. Take care when transporting the case as sometimes the small gas-release hole can leak solution. Do not remove the lenses from the case before 6 hours, as the un-neutralised hydrogen peroxide in your eyes will sting painfully. If this occurs, rinse thoroughly with water and contact your optometrist if the pain persists or your vision is affected. Find AOSept at our shop [here](http://eyesolutions.com.au/collections/frontpage/products/aoseptwithhydraglyde).
 
 ![](/uploads/aosept-case.jpg)
 
 ##### Multipurpose solutions ([Menicare](http://eyesolutions.com.au/collections/frontpage/products/menicare-plus-contact-lens-solution) and Boston Simplus)
 
-1. <i>To clean:</i> Place a few drops of multipurpose contact lens solution on the palm and the lens, then rub with your finger-pad for at least 10 seconds on each side.<sup>10</sup> The back surface (concave) is best cleaned by moving your thumb across the surface. This step removes material that deposits on the lens during wear. Whilst Ortho-K lenses are strong, with incorrect technique or too much force they can break.
-2. <i>To disinfect and condition:</i> Place the lens in fresh solution in your lens case, ensuring the lens is completely submerged. This step kills microbes on your lenses and prepares the surface of your lens to stay wet throughout wear, increasing comfort. Store your lenses in this solution for at least 4 hours for the cleaning process to be complete. NEVER rinse or store your lenses in tap water, as micro-organisms are plentiful and can cause infections in your eyes.
+* <i>To clean:</i> Place a few drops of rigid contact lens solution on the palm and the lens, then rub with your finger-pad for at least 10 seconds on each side. The back surface (concave) is best cleaned by moving your thumb across the surface. This step removes material that deposits on the lens during wear.
+* <i>To disinfect and condition:</i> Place the lens in fresh solution in your lens case, ensuring the lens is completely submerged. This step kills microbes on your lenses and prepares the surface of your lens to stay wet throughout wear, increasing comfort. Store your lenses in this solution for at least 4 hours for the cleaning process to be complete. 
+
+Whilst Ortho-K lenses are strong, with incorrect technique or too much force they can break, so take care during the cleaning step. 
 
 ##### Regular protein removal ([Progent](http://eyesolutions.com.au/collections/frontpage/products/menicon-progent-contact-lens-solution))
 
-To clean and maintain the wettability of your lenses use intensive cleaner, such as Menicon Progent. Place the lenses into the contact lens case holders. Open vial A and B by twisting the cap and pour the contents into the contact lens case. Replace the lid and tighten. Leave the lenses in the solution for 30 minutes, then remove and rinse thoroughly with saline. Lenses can now be worn or soaked in your daily cleaner. (please note that this product may not be available in all countries, ask your practitioner).
+* <i>To use:</i> Place the lenses into the contact lens case holders. Open vial A and B by twisting the cap and pour the contents into the contact lens case. Replace the lid and tighten. Leave the lenses in the solution for 30 minutes, then remove and rinse thoroughly with saline. 
 
-![](/uploads/progent.png)
+An intensive cleaner like Menicon Progent cleans and maintain the wettability of your lenses. After rinsing the lenses, they can be worn following this protein clean or can be disinfected with the daily cleaner.
 
 #### First night of wear
 

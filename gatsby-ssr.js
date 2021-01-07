@@ -3,6 +3,3 @@
  *
  * See: https://www.gatsbyjs.org/docs/ssr-apis/
  */
-
-import { PageWrapper } from './src/state'
-export const wrapRootElement = PageWrapper

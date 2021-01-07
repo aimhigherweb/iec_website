@@ -1,7 +1,7 @@
 ---
 title: Safety Glasses
 category: eyewear-experts
-preview-image: safety-glasses.jpg
+preview_image: mier-chen-bebn0qrgefm-unsplash.jpg
 ---
 
 <div class="employee-heading">
@@ -17,5 +17,4 @@ Innovative Eye Care has access to one of the largest frame and lens ranges avail
 Innovative Eye Care uses Phoenix lens material for all Medium Impact safety eyewear. Phoenix is a unique proprietary lens material and is completely resistant to common chemicals, making it the perfect material for safety in the workplace when compared to other lens materials. Phoenix is also extremely light-weight, making it more comfortable to wear than other Medium Impact lens materials. Phoenix is also clearer to look through than other lens materials, such as the conventional polycarbonate available, meaning you get crisper, clearer vision in all light conditions without compromising quality of vision.
 
 ![](/uploads/bolle-safety.jpg)
-
-CAPTION: A selection of the modern safety frames available for your prescription eyewear needs.
+_A selection of the modern safety frames available for your prescription eyewear needs._

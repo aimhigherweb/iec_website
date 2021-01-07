@@ -1,11 +1,12 @@
 ---
 title: Rigid Gas Permeable Contact Lenses
 category: contact-lenses
-preview-image: rgp.jpg
+preview_image: rgp.jpg
 ---
+
 <div class="employee-heading">
 
-<p>Rigid gas permeable (RGP) contact lenses are a type of lens made with silicone polymers that allow oxygen to pass through to the cornea, giving them their name. 
+<p>Rigid gas permeable (RGP) contact lenses are a type of lens made with silicone polymers that allow oxygen to pass through to the cornea, giving them their name.
 
 <p>Our Adelaide and Woodville practices are equipped with exciting new <a href="/what-we-do/anterior-imaging">technology</a> that allows our optometrists to custom design RGP lenses for our patients that can improve vision for wearers with a range of eye conditions.</p>
 
@@ -13,9 +14,9 @@ preview-image: rgp.jpg
 
 </div>
 
-Conditions such as [myopia](/what-we-do/myopia), [astigmatism](/what-we-do/astigmatism)<sup>1</sup>, aphakia, [keratoconus](/what-we-do/keratoconus)<sup>2</sup>, and irregular corneas<sup>1</sup> benefit from RGP lenses. This is because they hold their shape and provide an even front optical surface for the eye. RGP lens wearers experience clear, high-quality vision with a higher safety profile than any other contact lens.<sup>3</sup> 
+Conditions such as [myopia](/what-we-do/myopia), [astigmatism](/what-we-do/astigmatism)<sup>1</sup>, aphakia, [keratoconus](/what-we-do/keratoconus)<sup>2</sup>, and irregular corneas<sup>1</sup> benefit from RGP lenses. This is because they hold their shape and provide an even front optical surface for the eye. RGP lens wearers experience clear, high-quality vision with a higher safety profile than any other contact lens.<sup>3</sup>
 
-RGPs are more durable and last longer (often at least a year) than soft contact lenses. They come in a variety of types to treat individual eye conditions. 
+RGPs are more durable and last longer (often at least a year) than soft contact lenses. They come in a variety of types to treat individual eye conditions.
 
 At Innovative Eye Care we use a customised lens design program called EyeSpace to accurately design the fit and power of your lens unique to your eye.
 
@@ -25,12 +26,10 @@ The main drawback to rigid lenses is that they may take a little longer to adapt
 
 Certain types of rigid lenses can be worn overnight, changing the shape of the cornea while you sleep and eliminating the need to wear spectacles or contact lenses during the day (see our [orthokeratology](/what-we-do/orthokeratology-corneal-reshaping) page).
 
+##### References
 
+1. Jupiter DG, Katz HR. (2000): "Management of irregular astigmatism with rigid gas permeable contact lenses". CLAO Journal; 26(1): 14-17.
 
-##### References 
+2. Chaudhary M, Kandel H, Adhikari P. (2017): "Visual outcome in Keratoconus with spherical rigid gas permeable contact lens". Journal of Institute of Medicine: 39(3).
 
-1. Jupiter DG, Katz HR. (2000): "Management of irregular astigmatism with rigid gas permeable contact lenses". CLAO Journal; 26(1): 14-17. 
-
-2. Chaudhary M, Kandel H, Adhikari P. (2017): "Visual outcome in Keratoconus with spherical rigid gas permeable contact lens". Journal of Institute of Medicine: 39(3).      
-
-3. Cheng KH, Leung SL et al. (1999): Incidence of contact-lens-associated microbial keratitis and its related morbidity. Lancet354: 181-185. 
+3. Cheng KH, Leung SL et al. (1999): Incidence of contact-lens-associated microbial keratitis and its related morbidity. Lancet354: 181-185.

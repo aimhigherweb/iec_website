@@ -1,6 +1,7 @@
 ---
-title: 'Ortho-K: What To Expect'
+title: "Ortho-K: What To Expect"
 category: orthok
+preview_image: ok-mr-gent.jpg
 ---
 
 <div class="employee-heading">
@@ -9,7 +10,7 @@ category: orthok
 
 #### Follow-up appointments
 
-While your vision is in the process of being corrected you may need to wear spectacles/disposable contact lenses as your eyes gradually change shape. Follow-up visits are scheduled regularly to monitor your treatment. It is extremely important to attend these and to diligently follow instructions provided by the optometrist to ensure your eyes remain healthy. 
+While your vision is in the process of being corrected you may need to wear spectacles/disposable contact lenses as your eyes gradually change shape. Follow-up visits are scheduled regularly to monitor your treatment. It is extremely important to attend these and to diligently follow instructions provided by the optometrist to ensure your eyes remain healthy.
 
 #### Night vision
 
@@ -17,8 +18,7 @@ Some patients, especially those with large pupils, notice halos and glare during
 
 #### Long-term wear
 
-You can wear your final pair of ortho-K lenses each night, to maintain your vision each day. These can last up to two years.  Some patients with low prescriptions can still see well with the occasional night off! Regular after-care visits three to six monthly are still necessary to ensure the health of your eyes remains uncompromised.
-
+You can wear your final pair of ortho-K lenses each night, to maintain your vision each day. These can last up to two years. Some patients with low prescriptions can still see well with the occasional night off! Regular after-care visits three to six monthly are still necessary to ensure the health of your eyes remains uncompromised.
 
 #### Frequently Asked Questions
 
@@ -60,7 +60,7 @@ We recommend replacing an ortho-K lens every 1-2 years depending on its conditio
 
 **● What if my driver’s license says I must wear glasses for driving?**
 
-Your driver’s licence may state that corrective lenses are required for driving. Your optometrist can write a letter explaining that you are treated with a vision therapy program that eliminates the need for corrective lenses while you are operating a motor vehicle. If driving you should ensure that you use your ortho-K lenses the night before. See Driving and Vision. 
+Your driver’s licence may state that corrective lenses are required for driving. Your optometrist can write a letter explaining that you are treated with a vision therapy program that eliminates the need for corrective lenses while you are operating a motor vehicle. If driving you should ensure that you use your ortho-K lenses the night before. See Driving and Vision.
 
 **● I live a long distance away and will struggle to make all required appointments. Can I still have ortho-K?**
 

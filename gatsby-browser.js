@@ -4,6 +4,4 @@
  * See: https://www.gatsbyjs.org/docs/browser-apis/
  */
 
-import './src/assets/scss/main.scss'
-import { PageWrapper } from './src/state'
-export const wrapRootElement = PageWrapper
+import "./src/assets/scss/main.scss"

@@ -1,8 +1,9 @@
 ---
 title: Conjunctivitis
 category: acute-red-eyes
-preview-image: conjunctivitis.jpg
+preview_image: conjunctivitis.jpg
 ---
+
 <div class="employee-heading">
 <p>Conjunctivitis (commonly called 'pink-eye') occurs through inflammation of the thin transparent layer that lines the inner eyelids and white parts of the eye. This commonly occurs in children but can affect adults. Most cases of conjunctivitis will heal without intervention, but treatment from your optometrist can speed up the recovery and decrease the chance of permanent damage in severe cases. There are three different types of conjunctivitis: infectious, allergic and toxic conjunctivitis.
 </p>
@@ -20,14 +21,14 @@ If you have some form of allergic or toxic conjunctivitis, it is important to co
 
 #### Allergic conjunctivitis
 
-To manage allergic conjunctivitis, you should focus on prevention or avoidance of the allergens that trigger your symptoms. 
+To manage allergic conjunctivitis, you should focus on prevention or avoidance of the allergens that trigger your symptoms.
 
 ##### Tips to reduce your exposure to allergens that cause allergic conjunctivitis:
 
-* Stay indoors when the wind is blowing pollen
-* Wear spectacles or sunglasses outdoors
-* Avoid rubbing your eyes
-* Reduce dust mite exposure in your home
-* Wash hands straight after patting animals
+- Stay indoors when the wind is blowing pollen
+- Wear spectacles or sunglasses outdoors
+- Avoid rubbing your eyes
+- Reduce dust mite exposure in your home
+- Wash hands straight after patting animals
 
 ![](/uploads/conjunctivitis.jpg)

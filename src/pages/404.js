@@ -1,14 +1,11 @@
-import React from 'react'
+import React from "react"
 
-import Header from '../components/Header'
-import TopNav from '../components/TopNav'
-import Footer from '../components/Footer'
+import Header from "../components/Header"
 
-export default function() {
+const Page404 = () => {
   return (
     <>
       <Header />
-      <TopNav />
 
       <div className="content-section">
         <div className="container">
@@ -18,7 +15,7 @@ export default function() {
             <br />
             <p>
               We&apos;ve recently upgraded this site, so the page you&apos;re
-              looking for might have moved. Browse the menu above to find it, or{' '}
+              looking for might have moved. Browse the menu above to find it, or{" "}
               <a href="/contact/">contact us</a>.
             </p>
             <p>
@@ -30,8 +27,8 @@ export default function() {
           </div>
         </div>
       </div>
-
-      <Footer />
     </>
   )
 }
+
+export default Page404

@@ -1,8 +1,9 @@
 ---
 title: Meibomian Gland Dysfunction
 category: dry-eye-clinic
-preview-image: mgd-expression.jpg
+preview_image: mgd.png
 ---
+
 <div class="employee-heading">
 <p>Meibomian glands are the oil-producing glands located in both the upper and lower eyelids. This oil covers the aqueous layer of the tear film, preventing evaporation of the tears. When these become chronically blocked, an increase in symptoms of irritation and dryness occurs. This condition is called meibomian gland dysfunction (MGD)or posterior blepharitis, and it occurs in about 30% of the population. MGD is one of the most common conditions our optometrists in Adelaide and Woodville treat. If you are interested in knowing more about MGD, <a href="/what-we-do/eye-exam">book an appointment</a> or contact us.</p>
 </div>
@@ -31,14 +32,14 @@ An exciting new treatment for MGD is now available at Innovative Eye Care. Inten
 
 There are several therapeutic options which are useful in MGD management:
 
-* **Systane Balance** eye drops have been formulated to provide relief for MGD patients. These drops have an oil component that helps to stabilise the lipid layer of the tear film and prevent evaporation. They can be used twice a day or when required, for up to 6 months after the bottle is opened.
+- **Systane Balance** eye drops have been formulated to provide relief for MGD patients. These drops have an oil component that helps to stabilise the lipid layer of the tear film and prevent evaporation. They can be used twice a day or when required, for up to 6 months after the bottle is opened.
 
 ![](/uploads/systane-balance.jpg)
 
-* **Optimel** is an ophthalmic ointment derived from antibacterial manuka honey. In MGD there is often an overgrowth of natural bacterial flora which affects meibomian gland secretions. Using this new product can decrease the overgrowth and restore normal meibomian gland function. Recommended dosage is a small 2mm amount placed under the bottom lid three times a day. Due to its nature, Optimel is preservative free. Be aware that it does sting a little on insertion! The eye drop form of optimel has a lower concentration of the active component, but it does sting a little less! Find [Optimel Antibacterial Manuka Eye Drops at our shop.](http://eyesolutions.com.au/collections/dry-eye-treatments/products/optimel-antibacterial-manuka-eye-drops)
+- **Optimel** is an ophthalmic ointment derived from antibacterial manuka honey. In MGD there is often an overgrowth of natural bacterial flora which affects meibomian gland secretions. Using this new product can decrease the overgrowth and restore normal meibomian gland function. Recommended dosage is a small 2mm amount placed under the bottom lid three times a day. Due to its nature, Optimel is preservative free. Be aware that it does sting a little on insertion! The eye drop form of optimel has a lower concentration of the active component, but it does sting a little less! Find [Optimel Antibacterial Manuka Eye Drops at our shop.](http://eyesolutions.com.au/collections/dry-eye-treatments/products/optimel-antibacterial-manuka-eye-drops)
 
 ![](/uploads/optimel.jpg)
 
-* **Oral antibiotics**, such as doxycycline, used at a low dosage (50mg a day) in conjunction with your GP have been show to have an anti-inflammatory effect which helps MGD patients improve their gland function. Oral antibiotics are generally only reserved for moderate to severe forms of the conditions that do not respond to other treatments. Ask your optometrist if you need oral antibiotics for your MGD before commencing treatment.
+- **Oral antibiotics**, such as doxycycline, used at a low dosage (50mg a day) in conjunction with your GP have been show to have an anti-inflammatory effect which helps MGD patients improve their gland function. Oral antibiotics are generally only reserved for moderate to severe forms of the conditions that do not respond to other treatments. Ask your optometrist if you need oral antibiotics for your MGD before commencing treatment.
 
 There are constant updates in the field of MGD research and treatments. Be sure to ask your optometrist if you have any questions about your recommended treatment.
