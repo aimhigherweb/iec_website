@@ -5,7 +5,7 @@ preview-image: /uploads/microsoftteams-image-1-.png
 ---
 <div class="employee-heading">
 
-<p>Myopia, or shortsightedness, is a common condition where the main symptom is blurred distance vision. This occurs because the focusing power of the eye is too strong or (more commonly) the length of the eye is too long. While blurry distance vision can be corrected with spectacles or contact lenses, the real issue is the structural changes at the back of the eye which increases the risk of irreversible eye disease. <sup>1,2</sup> The higher the level of myopia, the higher the risk. 
+<p>Myopia, or shortsightedness, is a common condition where the main symptom is blurred distance vision. This occurs because the focussing power of the eye is too strong or the length of the eye is too long. While blurry distance vision can be corrected with spectacles or contact lenses, the real issue is the structural changes at the back of the eye which increases the risk of irreversible eye disease.<sup>1,2</sup> The higher the level of myopia, the higher the risk. 
 
 <p>Our optometrists offer a wide range of treatment options to slow the progression of myopia. If you would like to find out more, <a href="/what-we-do/eye-exam">book an appointment</a> at our Adelaide or Woodville practices or speak to our friendly staff. 
 
@@ -14,9 +14,11 @@ preview-image: /uploads/microsoftteams-image-1-.png
 
 #### How does myopia affect the eye?
 
-In myopic eyes, light is focused in front of the retina rather than on it, causing blurry distance vision. This usually occurs because the eye is physically too long. Myopia is a progressive condition, meaning over time the eye continues to grow longer, increasing the level of myopia. As the eye grows, the tissues at the back of the eye become stretched. People with high levels of myopia are at an increased risk of irreversible eye disease (e.g. retinal detachments and glaucoma).<sup>1,2</sup> Myopia can develop at any age but the younger the onset the higher the risk of progression to high myopia. 
+In myopic eyes, light is focused in front of the retina rather than on it, causing blurry distance vision. Myopia is a progressive condition, meaning over time the eye continues to grow longer, increasing the level of myopia. As the eye grows, the tissues at the back of the eye become stretched. While any amount of myopia increases the risk of irreversible eye disease (e.g. retinal detachments and glaucoma), people with higher levels of myopia are particularly susceptible.<sup>1,2</sup>
 
-As kids grow so do their eyes. Normally our eyes keep growing until the age of 14, after which it stabilizes.<sup>3</sup> However, in myopic eyes this normal growth pattern is interrupted and the eye continues to grow exponentially resulting in progressive myopia.<sup>3</sup>
+![](/uploads/myopia2.png)
+
+As kids grow so do their eyes. Myopia can develop at any age but the younger the age of onset, the higher the risk of progression to high myopia. Normally our eyes keep growing until the age of 14, after which it stabilises.<sup>3</sup> However, in myopic eyes this normal growth pattern is interrupted and the eye continues to grow exponentially resulting in progressive myopia.<sup>3</sup>
 
 #### How prevalent is myopia?
 
@@ -26,7 +28,7 @@ There are two main risk factors for developing myopia; lifestyle and family hist
 
 ![](/uploads/pasted-image-0-1.png)
 
-<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\\\\\\\\\\\\\\\\[if IE]><iframe frameborder="0" type="text/html" src="https://2689-2347.captiv8online.com/animations/embed/one/o-t-t-d?player_width=100%&player_height=100%&site_company_language=34&autostart=false" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\\\\\\\\\\\\\\\\[endif]--><!--\\\\\\\\\\\\\\\\[if !IE]> <--><object data="https://2689-2347.captiv8online.com/animations/embed/one/o-t-t-d?player_width=100%&player_height=100%&site_company_language=34&autostart=false" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"> alt : <a href="https://2689-2347.captiv8online.com/animations/embed/one/o-t-t-d?player_width=100%&player_height=100%&site_company_language=34&autostart=false">Myopia</a></object><!--> <!\\\\\\\\\\\\\\\\[endif]--></div>
+<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\\\\\\\\\\\\\\\\\[if IE]><iframe frameborder="0" type="text/html" src="https://2689-2347.captiv8online.com/animations/embed/one/o-t-t-d?player_width=100%&player_height=100%&site_company_language=34&autostart=false" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\\\\\\\\\\\\\\\\\[endif]--><!--\\\\\\\\\\\\\\\\\[if !IE]> <--><object data="https://2689-2347.captiv8online.com/animations/embed/one/o-t-t-d?player_width=100%&player_height=100%&site_company_language=34&autostart=false" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"> alt : <a href="https://2689-2347.captiv8online.com/animations/embed/one/o-t-t-d?player_width=100%&player_height=100%&site_company_language=34&autostart=false">Myopia</a></object><!--> <!\\\\\\\\\\\\\\\\\[endif]--></div>
 <br>
 
 #### What are the associated risks of myopia?
