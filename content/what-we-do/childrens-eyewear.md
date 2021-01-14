@@ -1,6 +1,6 @@
 ---
 title: Eyewear for Children
-category: eyewear-experts
+category: "SE01"
 preview_image: nike-fw15-a4-landscape-kid-male-opt.jpg
 ---
 

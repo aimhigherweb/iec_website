@@ -1,5 +1,6 @@
 ---
 title: Stepper
+category: "SE00"
 preview_image: stepper-logo.jpg
 ---
 

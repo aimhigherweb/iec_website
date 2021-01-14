@@ -1,6 +1,6 @@
 ---
 title: Eye Test
-category: consultations
+category: "SE10"
 preview_image: iec-test.jpg
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Orthokeratology for Hyperopia
-category: orthok
+category: "SE06"
 preview_image: cassidy-kelley-p90szoobygk-unsplash.jpg
 ---
 

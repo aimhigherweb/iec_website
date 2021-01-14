@@ -1,10 +1,11 @@
 import React, { useState } from "react"
-import { graphql, Link, navigate } from "gatsby"
+import { graphql, Link } from "gatsby"
 import styled from "styled-components"
 
 import { useSession } from "../../state/SessionWrapper"
 import { useMatchMedia } from "../../hooks/useMatchMedia"
 import { Main } from "../../components/Main"
+import { SocialFeed } from "../../components/Social/SocialFeed"
 import { Footer } from "../../components/Layout/Footer"
 
 //----------------------------------------------------------
@@ -128,76 +129,27 @@ const ServiceDetailTextDesc = styled.div`
 `
 
 const What = (show, data) => {
-  const whatWeDoCategories = [
-    { title: "Eyewear Experts", image: "/images2/service-eyewear-experts.png" },
-    {
-      title: "Bespoke Contact Lenses",
-      image: "/images2/service-bespoke-contact-lenses.png",
-    },
-    {
-      title: "Paediatric Vision",
-      image: "/images2/service-paediatric-vision.png",
-    },
-    { title: "Dry Eye Clinic", image: "/images2/service-dry-eye-clinic.png" },
-    {
-      title: "Advanced Imaging",
-      image: "/images2/service-adv-imaging.png",
-    },
-    {
-      title: "Ortho-K Overnight Correction",
-      image: "/images2/service-orthok-correction.png",
-    },
-    { title: "Acute Red Eyes", image: "/images2/service-acute-red-eyes.png" },
-    {
-      title: "Refractive Conditions",
-      image: "/images2/service-refractive-conditions.png",
-    },
-    { title: "Eye Disease", image: "/images2/service-eye-disease.png" },
-    {
-      title: "Eye Consultations",
-      image: "/images2/service-eye-consultations.png",
-    },
-  ]
+  const { categoryList, whatWeDoList } = data
 
-  const {
-    acuteRedEyes,
-    advancedImagingTechnology,
-    consultations,
-    contactLenses,
-    dryEyeClinic,
-    eyeDisease,
-    eyewearExperts,
-    orthok,
-    paediatricVision,
-    refractiveConditions,
-  } = data
-  const [current, setCurrent] = useState({
-    index: 0,
-    articles: eyewearExperts.edges,
+  const whatWeDoCategories = []
+  categoryList.edges.map((category) => {
+    const { title, catno, image } = category.node.frontmatter
+    whatWeDoCategories.push({ title: title, catno: catno, image: image })
   })
 
-  const categoryClick = (index) => {
-    if (index === 0) {
-      setCurrent({ index: 0, articles: eyewearExperts.edges })
-    } else if (index === 1) {
-      setCurrent({ index: 1, articles: contactLenses.edges })
-    } else if (index === 2) {
-      setCurrent({ index: 2, articles: paediatricVision.edges })
-    } else if (index === 3) {
-      setCurrent({ index: 3, articles: dryEyeClinic.edges })
-    } else if (index === 4) {
-      setCurrent({ index: 4, articles: advancedImagingTechnology.edges })
-    } else if (index === 5) {
-      setCurrent({ index: 5, articles: orthok.edges })
-    } else if (index === 6) {
-      setCurrent({ index: 6, articles: acuteRedEyes.edges })
-    } else if (index === 7) {
-      setCurrent({ index: 7, articles: refractiveConditions.edges })
-    } else if (index === 8) {
-      setCurrent({ index: 8, articles: eyeDisease.edges })
-    } else if (index === 9) {
-      setCurrent({ index: 9, articles: consultations.edges })
-    }
+  const [current, setCurrent] = useState({
+    index: 0,
+    articles: whatWeDoList.edges.filter(
+      (item) => item.node.frontmatter.category === "SE01"
+    ),
+  })
+
+  const categoryClick = (index, catno) => {
+    console.log(`*** WhatWeDo.categoryClick... index=${index} catno=${catno}`)
+    const categoryArticles = whatWeDoList.edges.filter(
+      (item) => item.node.frontmatter.category === catno
+    )
+    setCurrent({ index: index, articles: categoryArticles })
   }
 
   return show ? (
@@ -223,7 +175,10 @@ const What = (show, data) => {
           whatWeDoCategories.map((category, i) => {
             const imageSrc = category?.image
             return (
-              <WhatServiceItem key={i} onClick={() => categoryClick(i)}>
+              <WhatServiceItem
+                key={i}
+                onClick={() => categoryClick(i, category.catno)}
+              >
                 <WhatServiceImage src={imageSrc} />
                 <WhatServiceTitle chosen={current.index === i}>
                   {category?.title}
@@ -296,6 +251,7 @@ const WhatWeDo: React.FC = (props) => {
         session.bookingToggle
       )}
       {What(show, props.data)}
+      {SocialFeed(show, match)}
       {Footer(show)}
     </Container>
   )
@@ -306,199 +262,27 @@ const WhatWeDo: React.FC = (props) => {
 //----------------------------------------------------------
 export const query = graphql`
   {
-    acuteRedEyes: allMarkdownRemark(
+    categoryList: allMarkdownRemark(
       filter: {
-        fileAbsolutePath: { regex: "/what-we-do/" }
-        frontmatter: { category: { eq: "acute-red-eyes" } }
+        fileAbsolutePath: { regex: "/(what-we-do-cat)/.*\\\\.md$/" }
+        frontmatter: { catno: { nin: "SE00" } }
       }
-      sort: { fields: frontmatter___title, order: ASC }
+      sort: { fields: [frontmatter___catno], order: ASC }
     ) {
       edges {
         node {
           frontmatter {
             title
-            category
-            preview_image
+            catno
+            image
           }
-          fields {
-            slug
-          }
-          excerpt(truncate: true, pruneLength: 250)
         }
       }
     }
-    advancedImagingTechnology: allMarkdownRemark(
+    whatWeDoList: allMarkdownRemark(
       filter: {
         fileAbsolutePath: { regex: "/what-we-do/" }
-        frontmatter: { category: { eq: "advanced-imaging-technology" } }
-      }
-      sort: { fields: frontmatter___title, order: ASC }
-    ) {
-      edges {
-        node {
-          frontmatter {
-            title
-            category
-            preview_image
-          }
-          fields {
-            slug
-          }
-          excerpt(truncate: true, pruneLength: 250)
-        }
-      }
-    }
-    consultations: allMarkdownRemark(
-      filter: {
-        fileAbsolutePath: { regex: "/what-we-do/" }
-        frontmatter: { category: { eq: "consultations" } }
-      }
-      sort: { fields: frontmatter___title, order: ASC }
-    ) {
-      edges {
-        node {
-          frontmatter {
-            title
-            category
-            preview_image
-          }
-          fields {
-            slug
-          }
-          excerpt(truncate: true, pruneLength: 250)
-        }
-      }
-    }
-    contactLenses: allMarkdownRemark(
-      filter: {
-        fileAbsolutePath: { regex: "/what-we-do/" }
-        frontmatter: { category: { eq: "contact-lenses" } }
-      }
-      sort: { fields: frontmatter___title, order: ASC }
-    ) {
-      edges {
-        node {
-          frontmatter {
-            title
-            category
-            preview_image
-          }
-          fields {
-            slug
-          }
-          excerpt(truncate: true, pruneLength: 250)
-        }
-      }
-    }
-    dryEyeClinic: allMarkdownRemark(
-      filter: {
-        fileAbsolutePath: { regex: "/what-we-do/" }
-        frontmatter: { category: { eq: "dry-eye-clinic" } }
-      }
-      sort: { fields: frontmatter___title, order: ASC }
-    ) {
-      edges {
-        node {
-          frontmatter {
-            title
-            category
-            preview_image
-          }
-          fields {
-            slug
-          }
-          excerpt(truncate: true, pruneLength: 250)
-        }
-      }
-    }
-    eyeDisease: allMarkdownRemark(
-      filter: {
-        fileAbsolutePath: { regex: "/what-we-do/" }
-        frontmatter: { category: { eq: "eye-disease" } }
-      }
-      sort: { fields: frontmatter___title, order: ASC }
-    ) {
-      edges {
-        node {
-          frontmatter {
-            title
-            category
-            preview_image
-          }
-          fields {
-            slug
-          }
-          excerpt(truncate: true, pruneLength: 250)
-        }
-      }
-    }
-    eyewearExperts: allMarkdownRemark(
-      filter: {
-        fileAbsolutePath: { regex: "/what-we-do/" }
-        frontmatter: { category: { eq: "eyewear-experts" } }
-      }
-      sort: { fields: frontmatter___title, order: ASC }
-    ) {
-      edges {
-        node {
-          frontmatter {
-            title
-            category
-            preview_image
-          }
-          fields {
-            slug
-          }
-          excerpt(truncate: true, pruneLength: 250)
-        }
-      }
-    }
-    orthok: allMarkdownRemark(
-      filter: {
-        fileAbsolutePath: { regex: "/what-we-do/" }
-        frontmatter: { category: { eq: "orthok" } }
-      }
-      sort: { fields: frontmatter___title, order: ASC }
-    ) {
-      edges {
-        node {
-          frontmatter {
-            title
-            category
-            preview_image
-          }
-          fields {
-            slug
-          }
-          excerpt(truncate: true, pruneLength: 250)
-        }
-      }
-    }
-    paediatricVision: allMarkdownRemark(
-      filter: {
-        fileAbsolutePath: { regex: "/what-we-do/" }
-        frontmatter: { category: { eq: "paediatric-vision" } }
-      }
-      sort: { fields: frontmatter___title, order: ASC }
-    ) {
-      edges {
-        node {
-          frontmatter {
-            title
-            category
-            preview_image
-          }
-          fields {
-            slug
-          }
-          excerpt(truncate: true, pruneLength: 250)
-        }
-      }
-    }
-    refractiveConditions: allMarkdownRemark(
-      filter: {
-        fileAbsolutePath: { regex: "/what-we-do/" }
-        frontmatter: { category: { eq: "refractive-conditions" } }
+        frontmatter: { category: { nin: "SE00" } }
       }
       sort: { fields: frontmatter___title, order: ASC }
     ) {

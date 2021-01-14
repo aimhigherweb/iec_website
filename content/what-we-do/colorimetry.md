@@ -1,6 +1,6 @@
 ---
 title: Colorimetry
-category: paediatric-vision
+category: "SE03"
 preview_image: pattern-glare-test-2.jpg
 ---
 

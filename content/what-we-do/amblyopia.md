@@ -1,6 +1,6 @@
 ---
 title: Amblyopia
-category: paediatric-vision
+category: "SE03"
 preview_image: brain-amblyopia.jpg
 ---
 

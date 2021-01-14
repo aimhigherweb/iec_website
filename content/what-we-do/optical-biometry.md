@@ -1,6 +1,6 @@
 ---
 title: Optical and Ultrasound Biometry
-category: advanced-imaging-technology
+category: "SE05"
 preview_image: biometry.png
 ---
 

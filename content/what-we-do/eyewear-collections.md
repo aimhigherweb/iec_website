@@ -1,6 +1,6 @@
 ---
 title: Eyewear Collections
-category: eyewear-experts
+category: "SE01"
 preview_image: eyewear-collection.png
 ---
 

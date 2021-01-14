@@ -1,6 +1,6 @@
 ---
 title: Punctal Plugs for Dry Eyes
-category: dry-eye-clinic
+category: "SE04"
 preview_image: 2075115-dry_eyes.jpg
 ---
 

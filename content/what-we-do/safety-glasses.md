@@ -1,6 +1,6 @@
 ---
 title: Safety Glasses
-category: eyewear-experts
+category: "SE01"
 preview_image: mier-chen-bebn0qrgefm-unsplash.jpg
 ---
 

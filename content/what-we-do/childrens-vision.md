@@ -1,6 +1,6 @@
 ---
 title: Children's Vision
-category: paediatric-vision
+category: "SE03"
 preview_image: child-reading-2.jpg
 ---
 

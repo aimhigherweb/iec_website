@@ -1,5 +1,6 @@
 ---
 title: LINDBERG
+category: "SE00"
 ---
 
 <div class="employee-heading">

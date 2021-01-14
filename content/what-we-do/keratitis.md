@@ -1,6 +1,6 @@
 ---
 title: Keratitis
-category: acute-red-eyes
+category: "SE07"
 preview_image: dendrites-hsk.jpg
 ---
 

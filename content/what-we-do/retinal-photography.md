@@ -1,6 +1,6 @@
 ---
 title: Digital Retinal Photography
-category: advanced-imaging-technology
+category: "SE05"
 preview_image: khsdf.jpg
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Visual Field Testing
-category: advanced-imaging-technology
+category: "SE05"
 preview_image: hep_500x428.jpg
 ---
 

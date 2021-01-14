@@ -1,6 +1,6 @@
 ---
 title: Digital Eye Strain
-category: refractive-conditions
+category: "SE08"
 preview_image: computer-vision-syndrome-1.jpg
 ---
 

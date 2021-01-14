@@ -248,6 +248,8 @@ const MainDiv = (
     }
   }
 
+  const BOOKING_ADL = "2798"
+  const BOOKING_WDV = "2797"
   const bookingUrl = () => {
     const bookingId = session.current.bookingId
     const result = `https://www.MyHealth1st.com.au/AppointmentWidget?practice_id=${bookingId}`
@@ -350,14 +352,14 @@ const MainDiv = (
           <MainBooking>
             <MainBookingItem>
               <MainBookingButton
-                onClick={() => bookingToggleCallback(true, "2798")}
+                onClick={() => bookingToggleCallback(true, BOOKING_ADL)}
               >
                 {match ? "Book Adelaide." : "Book Adelaide."}
               </MainBookingButton>
             </MainBookingItem>
             <MainBookingItem>
               <MainBookingButton
-                onClick={() => bookingToggleCallback(true, "2797")}
+                onClick={() => bookingToggleCallback(true, BOOKING_WDV)}
               >
                 {match ? "Book Woodville." : "Book Woodville."}
               </MainBookingButton>

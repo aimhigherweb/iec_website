@@ -1,6 +1,6 @@
 ---
 title: Diabetes & The Eye
-category: eye-disease
+category: "SE09"
 preview_image: diabetic_retinopathy.jpg
 ---
 

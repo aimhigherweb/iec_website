@@ -1,6 +1,6 @@
 ---
 title: "Ortho-K: Corneal Reshaping"
-category: orthok
+category: "SE06"
 preview_image: ml-1.jpg
 ---
 

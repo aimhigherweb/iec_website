@@ -248,9 +248,6 @@ const FooterDiv = (show) => {
                 Nutrition
               </Link>
             </FooterMenuItem>
-            <FooterMenuItem>
-              <Link to="/who-we-are">About Us</Link>
-            </FooterMenuItem>
           </FooterMenu>
         </FooterContentItem>
         <FooterContentItem>

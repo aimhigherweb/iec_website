@@ -1,6 +1,6 @@
 ---
 title: Vision Training
-category: paediatric-vision
+category: "SE03"
 preview_image: childrens-vision.jpg
 ---
 

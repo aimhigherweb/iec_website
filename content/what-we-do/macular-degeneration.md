@@ -1,6 +1,6 @@
 ---
 title: Macular Degeneration
-category: eye-disease
+category: "SE09"
 preview_image: age-related-macular-degeneration-geographic-atrophy.jpg
 ---
 

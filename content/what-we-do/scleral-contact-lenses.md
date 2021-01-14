@@ -1,6 +1,6 @@
 ---
 title: Scleral Contact Lenses
-category: contact-lenses
+category: "SE02"
 preview_image: scleral-oct-background_preview.jpg
 ---
 

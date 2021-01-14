@@ -1,6 +1,6 @@
 ---
 title: Glaucoma
-category: eye-disease
+category: "SE09"
 preview_image: glaucoma.jpg
 ---
 

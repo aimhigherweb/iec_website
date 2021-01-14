@@ -1,6 +1,6 @@
 ---
 title: Orthokeratology for Myopia
-category: orthok
+category: "SE06"
 preview_image: photo-1516627145497-ae6968895b74-2-.jfif
 ---
 

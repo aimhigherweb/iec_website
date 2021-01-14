@@ -1,6 +1,6 @@
 ---
 title: Myopia Control
-category: paediatric-vision
+category: "SE03"
 preview_image: microsoftteams-image-1-.png
 ---
 

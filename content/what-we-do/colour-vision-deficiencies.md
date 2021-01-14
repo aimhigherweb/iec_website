@@ -1,6 +1,6 @@
 ---
 title: Colour Vision Testing
-category: consultations
+category: "SE10"
 preview_image: colour-vision.jpeg
 ---
 

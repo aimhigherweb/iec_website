@@ -1,6 +1,6 @@
 ---
 title: Sunglasses
-category: eyewear-experts
+category: "SE01"
 preview_image: sunglasses.jpg
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Gift Cards
-category: consultations
+category: "SE10"
 preview_image: gift-card.jpg
 ---
 
