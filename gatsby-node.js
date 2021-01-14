@@ -114,6 +114,10 @@ async function createContentPages(graphql, actions, reporter) {
         template = whoWeAreTemplate
         pagePath = `${node.fields.slug}`
         break
+      case "promotion":
+        template = standardTemplate
+        pagePath = `${node.fields.slug}`
+        break
       case "what-we-do-cat":
         template = standardTemplate
         pagePath = `${node.fields.slug}`

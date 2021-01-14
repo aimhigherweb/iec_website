@@ -150,9 +150,9 @@ collections:
           required: false,
         }
       - { label: "Body", name: "body", widget: "markdown", required: false }
-  - name: "promo"
+  - name: "promotion"
     label: "Promotion"
-    folder: "content/promo"
+    folder: "content/promotion"
     create: true
     slug: "{{slug}}"
     fields:
