@@ -1,8 +1,14 @@
 backend:
   name: git-gateway
-  branch: staging
-media_folder: "static/uploads" # Media files will be stored in the repo under images/uploads
-public_folder: "/uploads" # Media files will be stored in the repo under images/uploads
+  branch: staging #temp until production (=master)
+
+# when using the default proxy server port
+local_backend: true
+
+site_url: https://www.innovativeeyecare.com.au
+media_folder: "static/uploads" # Media files stored in repo under images/uploads
+public_folder: "/uploads" # Media files stored in repo under images/uploads
+
 collections:
   - name: "blog"
     label: "Blog"
