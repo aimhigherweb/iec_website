@@ -92,10 +92,13 @@ const SocialItemImage = styled.img`
   border: ${DEBUG_SOCIAL};
 `
 
+const HREF_INSTA = "https://www.instagram.com/innovative.eye.care"
+const HREF_FB = "https://www.facebook.com/innovativeeyecareadelaide/"
+
 const obtainInstaFeed = async () => {
   console.log(`*** Home.obtainInstaFeed`)
 
-  const url = `https://www.instagram.com/innovative.eye.care/?__a=1`
+  const url = `${HREF_INSTA}/?__a=1`
   const response = await fetch(url)
   const json = await response.json()
 
@@ -145,19 +148,11 @@ const Social = (show) => {
       </SocialHeader>
       <SocialTitle>
         Follow us on{" "}
-        <a
-          href="https://www.instagram.com/innovative.eye.care"
-          target="_blank"
-          rel="noreferrer"
-        >
+        <a href={HREF_INSTA} target="_blank" rel="noreferrer">
           Instagram
         </a>{" "}
         and{" "}
-        <a
-          href="https://www.facebook.com/innovativeeyecareadelaide/"
-          target="_blank"
-          rel="noreferrer"
-        >
+        <a href={HREF_FB} target="_blank" rel="noreferrer">
           Facebook
         </a>{" "}
         to see what we&apos;ve been up to!
@@ -171,7 +166,7 @@ const Social = (show) => {
             const imageSrc = post.imageUrl
             return (
               <SocialItem key={i}>
-                <a href="https://www.instagram.com/innovative.eye.care">
+                <a href={HREF_INSTA}>
                   <SocialItemImage src={imageSrc} />
                 </a>
               </SocialItem>
