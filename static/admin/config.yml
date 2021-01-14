@@ -150,3 +150,23 @@ collections:
           required: false,
         }
       - { label: "Body", name: "body", widget: "markdown", required: false }
+  - name: "promo"
+    label: "Promotion"
+    folder: "content/promo"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string", required: true }
+      - { label: "Image", name: "image", widget: "image", required: true }
+      - {
+          label: "Publish Date",
+          name: "publish_date",
+          widget: "datetime",
+          required: true,
+        }
+      - {
+          label: "Expiry Date",
+          name: "expiry_date",
+          widget: "datetime",
+          required: true,
+        }
