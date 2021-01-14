@@ -42,11 +42,26 @@ exports.sourceNodes = ({ actions, getNodes, getNode }) => {
           )
         }
       }
+      if (node.frontmatter.category) {
+        const whatWeDoCategoryNode = getNodes().find(
+          (node2) =>
+            node2.internal.type === "MarkdownRemark" &&
+            node2.frontmatter.catno === node.frontmatter.category
+        )
+        if (whatWeDoCategoryNode) {
+          createNodeField({
+            node,
+            name: "categoryTitle",
+            value: whatWeDoCategoryNode.frontmatter.title,
+          })
+        }
+      }
     })
 }
 
 async function createContentPages(graphql, actions, reporter) {
   const { createPage } = actions
+  const standardTemplate = path.resolve(`src/components/template.tsx`)
   const blogTemplate = path.resolve(`src/pages/blog/template.tsx`)
   const patientResourcesTemplate = path.resolve(
     `src/pages/patient-resources/template.tsx`
@@ -97,6 +112,10 @@ async function createContentPages(graphql, actions, reporter) {
         break
       case "author":
         template = whoWeAreTemplate
+        pagePath = `${node.fields.slug}`
+        break
+      case "what-we-do-cat":
+        template = standardTemplate
         pagePath = `${node.fields.slug}`
         break
       case "what-we-do":

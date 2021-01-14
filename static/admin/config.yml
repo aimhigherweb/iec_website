@@ -106,6 +106,21 @@ collections:
           valueType: "int",
           required: false,
         }
+  - name: "what-we-do-cat"
+    label: "What We Do Category"
+    folder: "content/what-we-do-cat"
+    create: true
+    slug: "{{catno}}-{{slug}}"
+    summary: "{{catno}} - {{title}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - {
+          label: "Category No",
+          name: "catno",
+          widget: "string",
+          pattern: ["^([A-Z]{2})([0-9]{2})$", "eg. SE01, SE02,.. SE10"],
+        }
+      - { label: "Image", name: "image", widget: "image" }
   - name: "what-we-do"
     label: "What We Do"
     folder: "content/what-we-do"
@@ -116,8 +131,11 @@ collections:
       - {
           label: "Category",
           name: "category",
-          widget: "string",
-          required: false,
+          widget: "relation",
+          collection: "what-we-do-cat",
+          display_fields: ["catno", "title"],
+          searchFields: ["title"],
+          valueField: "catno",
         }
       - {
           label: "Preview Image",
