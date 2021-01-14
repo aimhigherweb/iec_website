@@ -5,6 +5,7 @@ import styled from "styled-components"
 import { useSession } from "../../state/SessionWrapper"
 import { useMatchMedia } from "../../hooks/useMatchMedia"
 import { Main } from "../../components/Main"
+import { SocialFeed } from "../../components/Social/SocialFeed"
 import { Footer } from "../../components/Layout/Footer"
 
 //----------------------------------------------------------
@@ -250,6 +251,7 @@ const WhatWeDo: React.FC = (props) => {
         session.bookingToggle
       )}
       {What(show, props.data)}
+      {SocialFeed(show, match)}
       {Footer(show)}
     </Container>
   )
