@@ -148,7 +148,7 @@ const Detail = (state, data) => {
   //     stateDiv = <div>NO STATE Index={JSON.stringify(session)}</div>
   //   }
 
-  const { markdownRemark } = data
+  const { markdownRemark, categoryList } = data
   let title = undefined
   if (markdownRemark?.frontmatter) {
     title = markdownRemark.frontmatter.title
@@ -164,62 +164,18 @@ const Detail = (state, data) => {
     articles = state.articles
     articleIndex = state.articleIndex
   } else {
-    //!!! cms table
-    const whatWeDoCategories = [
-      {
-        category: "eyewear-experts",
-        title: "Eyewear Experts",
-        image: "/images2/service-eyewear-experts.png",
-      },
-      {
-        category: "contact-lenses",
-        title: "Bespoke Contact Lenses",
-        image: "/images2/service-bespoke-contact-lenses.png",
-      },
-      {
-        category: "paediatric-vision",
-        title: "Paediatric Vision",
-        image: "/images2/service-paediatric-vision.png",
-      },
-      {
-        category: "dry-eye-clinic",
-        title: "Dry Eye Clinic",
-        image: "/images2/service-dry-eye-clinic.png",
-      },
-      {
-        category: "advanced-imaging-technology",
-        title: "Advanced Imaging",
-        image: "/images2/service-adv-imaging.png",
-      },
-      {
-        category: "orthok",
-        title: "Ortho-K Overnight Correction",
-        image: "/images2/service-orthok-correction.png",
-      },
-      {
-        category: "acute-red-eyes",
-        title: "Acute Red Eyes",
-        image: "/images2/service-acute-red-eyes.png",
-      },
-      {
-        category: "refractive-conditions",
-        title: "Refractive Conditions",
-        image: "/images2/service-refractive-conditions.png",
-      },
-      {
-        category: "eye-disease",
-        title: "Eye Disease",
-        image: "/images2/service-eye-disease.png",
-      },
-      {
-        category: "consultations",
-        title: "Eye Consultations",
-        image: "/images2/service-eye-consultations.png",
-      },
-    ]
+    const whatWeDoCategories = []
+    categoryList.edges.map((category) => {
+      const { title, catno, image } = category.node.frontmatter
+      whatWeDoCategories.push({ title: title, catno: catno, image: image })
+    })
+    console.log(
+      `*** WhatWeDoTemplate.Detail... whatWeDoCategories=${whatWeDoCategories.length}`
+    )
+
     const categoryId = markdownRemark?.frontmatter?.category
     const currentCategory = whatWeDoCategories.find(
-      (cat) => cat.category === categoryId
+      (cat) => cat.catno === categoryId
     )
     //const previewImage = markdownRemark.frontmatter.preview_image
     //const imageSrc = previewImage ? `/uploads/${previewImage}` : " "
@@ -229,8 +185,6 @@ const Detail = (state, data) => {
     articles = []
     articleIndex = 0
   }
-
-  console.log(`*** WhatWeDoTemplate.Detail... articleIndex=${articleIndex}`)
 
   const finalArticles = []
   let prevFinalArticle = undefined
@@ -365,6 +319,23 @@ export const WhatWeDoSingleQuery = graphql`
       }
       id
       html
+    }
+    categoryList: allMarkdownRemark(
+      filter: {
+        fileAbsolutePath: { regex: "/(what-we-do-cat)/.*\\\\.md$/" }
+        frontmatter: { catno: { nin: "SE00" } }
+      }
+      sort: { fields: [frontmatter___catno], order: ASC }
+    ) {
+      edges {
+        node {
+          frontmatter {
+            title
+            catno
+            image
+          }
+        }
+      }
     }
   }
 `
