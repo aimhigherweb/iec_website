@@ -1,6 +1,6 @@
 ---
 title: Contact Lenses
-category: contact-lenses
+category: "SE02"
 preview_image: contact-lens-info-woman.jpg
 ---
 

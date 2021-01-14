@@ -1,6 +1,6 @@
 ---
 title: Inserting Eye Drops Correctly
-category: dry-eye-clinic
+category: "SE04"
 preview_image: eye-drops.jpg
 ---
 

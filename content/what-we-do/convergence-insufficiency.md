@@ -1,6 +1,6 @@
 ---
 title: Convergence Insufficiency
-category: paediatric-vision
+category: "SE03"
 preview_image: convergence-insuffiicency.jpeg
 ---
 

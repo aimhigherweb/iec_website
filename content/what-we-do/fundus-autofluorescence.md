@@ -1,6 +1,6 @@
 ---
 title: Fundus Autofluorescence
-category: advanced-imaging-technology
+category: "SE05"
 preview_image: baf-oct.jpg
 ---
 

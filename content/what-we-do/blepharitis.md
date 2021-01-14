@@ -1,6 +1,6 @@
 ---
 title: Blepharitis
-category: dry-eye-clinic
+category: "SE04"
 preview_image: anterior-blepharitis.jpg
 ---
 

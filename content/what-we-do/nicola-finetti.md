@@ -1,5 +1,6 @@
 ---
 title: Nicola Finetti
+category: "SE00"
 ---
 
 <div class="employee-heading">

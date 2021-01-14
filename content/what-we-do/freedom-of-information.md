@@ -1,6 +1,6 @@
 ---
 title: Freedom of Information
-category: consultations
+category: "SE10"
 preview_image: foi.jpeg
 ---
 

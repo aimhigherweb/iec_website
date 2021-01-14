@@ -1,6 +1,6 @@
 ---
 title: BlephEx
-category: dry-eye-clinic
+category: "SE04"
 preview_image: blephex.gif
 ---
 

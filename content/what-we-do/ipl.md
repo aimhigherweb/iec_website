@@ -1,6 +1,6 @@
 ---
 title: IPL (Intense Pulse Light)
-category: dry-eye-clinic
+category: "SE04"
 preview_image: ipl-machine.jpg
 ---
 

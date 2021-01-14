@@ -1,5 +1,6 @@
 ---
 title: Prodesign
+category: "SE00"
 preview_image: prodesign-logo.jpg
 ---
 

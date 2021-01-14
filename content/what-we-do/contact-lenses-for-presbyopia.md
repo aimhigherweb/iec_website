@@ -1,6 +1,6 @@
 ---
 title: Contact Lenses For Presbyopia
-category: contact-lenses
+category: "SE02"
 preview_image: color-eye.jpg
 ---
 

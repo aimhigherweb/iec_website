@@ -1,6 +1,6 @@
 ---
 title: Episcleritis & Scleritis
-category: acute-red-eyes
+category: "SE07"
 preview_image: scleritis3.jpg
 ---
 

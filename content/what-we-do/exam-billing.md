@@ -1,6 +1,6 @@
 ---
 title: Exam Billing
-category: consultations
+category: "SE10"
 preview_image: innovative-eye-care-medicare-eye.jpg
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Soft Contact Lenses
-category: contact-lenses
+category: "SE02"
 preview_image: contact-lens-2-.jfif
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: John Lennon
+category: "SE00"
 ---
 
 <div class="employee-heading">

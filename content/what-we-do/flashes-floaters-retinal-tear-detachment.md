@@ -1,6 +1,6 @@
 ---
 title: "Flashes, Floaters, Retinal Tear & Detachment"
-category: acute-red-eyes
+category: "SE07"
 preview_image: flashes-and-floaters.jpg
 ---
 

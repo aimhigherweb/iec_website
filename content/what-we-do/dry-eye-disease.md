@@ -1,6 +1,6 @@
 ---
 title: Dry Eye Disease
-category: dry-eye-clinic
+category: "SE04"
 preview_image: dry-eye.jpg
 ---
 

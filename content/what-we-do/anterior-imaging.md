@@ -1,6 +1,6 @@
 ---
 title: Anterior Ocular Imaging
-category: advanced-imaging-technology
+category: "SE05"
 preview_image: anterior-photography-collage.png
 ---
 

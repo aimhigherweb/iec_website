@@ -1,6 +1,6 @@
 ---
 title: Foreign Body Removal
-category: acute-red-eyes
+category: "SE07"
 preview_image: foreign-body-in-eye.jpg
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Wavefront Aberrometry
-category: advanced-imaging-technology
+category: "SE05"
 preview_image: aberrations.jpg
 ---
 

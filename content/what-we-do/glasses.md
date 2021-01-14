@@ -1,6 +1,6 @@
 ---
 title: Spectacle Lenses
-category: eyewear-experts
+category: "SE01"
 preview_image: spec_lenses.jpg
 ---
 

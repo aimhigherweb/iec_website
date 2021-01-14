@@ -1,6 +1,6 @@
 ---
 title: Iritis & Anterior Uveitis
-category: acute-red-eyes
+category: "SE07"
 preview_image: iritis-uveitis.jpg
 ---
 

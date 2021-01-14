@@ -1,6 +1,6 @@
 ---
 title: Keratoconus
-category: eye-disease
+category: "SE09"
 preview_image: keratoconus.jpg
 ---
 

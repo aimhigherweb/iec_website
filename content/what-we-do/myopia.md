@@ -1,6 +1,6 @@
 ---
 title: Myopia
-category: refractive-conditions
+category: "SE08"
 preview_image: myopia-vision-final.jpg
 ---
 

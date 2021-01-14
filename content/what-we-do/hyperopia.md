@@ -1,6 +1,6 @@
 ---
 title: Hyperopia
-category: refractive-conditions
+category: "SE08"
 preview_image: hyperopia-vision.jpg
 ---
 

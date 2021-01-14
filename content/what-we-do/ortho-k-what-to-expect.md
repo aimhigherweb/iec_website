@@ -1,6 +1,6 @@
 ---
 title: "Ortho-K: What To Expect"
-category: orthok
+category: "SE06"
 preview_image: ok-mr-gent.jpg
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Meibomian Gland Dysfunction
-category: dry-eye-clinic
+category: "SE04"
 preview_image: mgd.png
 ---
 

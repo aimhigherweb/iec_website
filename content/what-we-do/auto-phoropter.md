@@ -1,6 +1,6 @@
 ---
 title: Automated Refraction
-category: advanced-imaging-technology
+category: "SE05"
 preview_image: ee4e43c2e44fa8335334d76acda595c42011f491.jpg
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Conjunctivitis
-category: acute-red-eyes
+category: "SE07"
 preview_image: conjunctivitis.jpg
 ---
 

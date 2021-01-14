@@ -1,6 +1,6 @@
 ---
 title: Cataract
-category: eye-disease
+category: "SE09"
 preview_image: cataract.jpg
 ---
 

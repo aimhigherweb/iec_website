@@ -1,6 +1,6 @@
 ---
 title: Shaw Lenses
-category: eyewear-experts
+category: "SE01"
 preview_image: kid-glasses.jpeg
 ---
 
