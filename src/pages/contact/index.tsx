@@ -105,7 +105,10 @@ const FooterContactSpacer = styled.div`
   }
 `
 
-const PracticeLocations = (show) => {
+const PracticeLocations = (show, bookingToggleCallback) => {
+  const BOOKING_ADL = "2798"
+  const BOOKING_WDV = "2797"
+
   return show ? (
     <FooterSection>
       <FooterContent>
@@ -147,7 +150,11 @@ const PracticeLocations = (show) => {
             <FooterContactSpacer />
           </FooterContact>
           <FooterContact>
-            <MainBookingButton>Book Online</MainBookingButton>
+            <MainBookingButton
+              onClick={() => bookingToggleCallback(true, BOOKING_ADL)}
+            >
+              Book Online
+            </MainBookingButton>
           </FooterContact>
         </FooterContentItem>
       </FooterContent>
@@ -190,7 +197,11 @@ const PracticeLocations = (show) => {
             <FooterContactSpacer />
           </FooterContact>
           <FooterContact>
-            <MainBookingButton>Book Online</MainBookingButton>
+            <MainBookingButton
+              onClick={() => bookingToggleCallback(true, BOOKING_WDV)}
+            >
+              Book Online
+            </MainBookingButton>
           </FooterContact>
         </FooterContentItem>
       </FooterContent>
@@ -228,7 +239,7 @@ const Contact: React.FC = () => {
         session.searchToggle,
         session.bookingToggle
       )}
-      {PracticeLocations(show)}
+      {PracticeLocations(show, session.bookingToggle)}
       {SocialFeed(show, match)}
       {Footer(show)}
     </Container>
