@@ -22,8 +22,8 @@ In myopic eyes, light is focused in front of the retina rather than on it, causi
 
 Historically, myopia was considered a normal variation of the eye. Now there is a clear distinction between the two types of myopia:
 
-* **Low myopia** where the power of the eye is lower than –6D (also known as *physiological myopia* where length of the eye is under 26.5mm)<sup>2</sup>
-* **High myopia** where the power of the eye is greater than –6D (also known as *pathological myopia* length of the eye is over 26.5mm)<sup>2</sup>
+* **Low myopia** where the power of the eye is lower than –6D
+* **High myopia** where the power of the eye is greater than –6D
 
 Because myopia is progressive, over time the eye continues to grow longer, and the tissues at the back of the eye become stretched. Therefore, all levels of myopia increase the chance of myopic eye disease such as retinal detachment, cataracts, glaucoma and other retinal degenerations.<sup>2</sup> This escalates as the level of myopia increases and the tissue is stretched further, especially once the length of the eye exceeds 26.5mm (‘pathological myopia’).<sup>5</sup> 1 in 4 people with eyes longer than 26mm are at risk of permanent vision loss, compared to 1 in 25 with eyes smaller than 26mm.<sup>3</sup> Even if the eye is under 26.5mm long, the risk of glaucoma with myopia is similar to the risk of stroke when smoking over 20 cigarettes a day, and retinal detachments are a frequent occurrence.<sup>1,4</sup> Reducing the amount of myopia your child develops keeps the risk as low as possible. It also reduces the thickness of glasses your child will require, as well as their reliance on them.
 
@@ -72,8 +72,6 @@ The most important of these metrics is ocular biometry measuring axial length.It
 Rather than rely on subjective refraction alone, these methods combined give us the complete picture; we know exactly what components of the eye are contributing to myopia. We can then better tailor myopia control strategies for your child and closely monitor for any progression throughout.
 
 **References**
-
-
 
 1. Brien Holden Vision Institute & World Health Organisation. (2016). “The Impact of Myopia and High Myopia.” Report of the Joint World Health Organisation: Brien Holden Institute Global Scientific Meeting on Myopia.
 2. Flitcroft, D. I. (2012). "The complex interactions of retinal, optical and environmental factors in myopiaaetiology."Progress in Retinal and Eye Research31(6): 622-660.
