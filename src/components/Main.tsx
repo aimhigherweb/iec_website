@@ -76,6 +76,7 @@ const MainMenuItem = styled.div`
 const MainFooter = styled.div`
   position: fixed;
   display: flex;
+  flex-direction: row;
   align-items: center;
   z-index: 9999;
   left: 0;
@@ -83,20 +84,28 @@ const MainFooter = styled.div`
   bottom: 0;
   width: 100%;
   height: 70px;
+  @media (max-width: ${MAX_WIDTH_PX}) {
+    flex-direction: column;
+    height: auto;
+  }
   background-color: ${(props) => (props.searchMode ? "#000000" : "#00000066")};
 `
 const MainSearch = styled.div`
   flex: 1;
   margin: 0 0 0 40px;
   @media (max-width: ${MAX_WIDTH_PX}) {
-    left: 40px;
-    right: 40px;
-    display: none;
+    display: block;
+    margin: 20px 20px 4px 20px;
+    width: 100%;
   }
   border: ${DEBUG_MAIN};
 `
 const MainSearchWrapper = styled.span`
   padding: 12px 0;
+  @media (max-width: ${MAX_WIDTH_PX}) {
+    width: 100%;
+    margin: 8px 20px;
+  }
   border: ${DEBUG_MAIN};
   border: 1px solid white;
 `
@@ -115,11 +124,14 @@ const MainSearchInput = styled.input`
     color: white;
   }
   @media (max-width: ${MAX_WIDTH_PX}) {
-    width: 100%;
+    width: 80%;
   }
   border: ${DEBUG_MAIN};
 `
-const MainSearchIcon = styled.span``
+const MainSearchIcon = styled.span`
+  @media (max-width: ${MAX_WIDTH_PX}) {
+  }
+`
 
 const MainAppointment = styled.div`
   padding: 40px;
@@ -133,8 +145,9 @@ const MainBooking = styled.div`
   display: flex;
   margin: 0;
   @media (max-width: ${MAX_WIDTH_PX}) {
-    left: 20px;
-    right: 20px;
+    display: block;
+    padding: 8px 20px;
+    width: 100%;
   }
 `
 const MainBookingItem = styled.div`
@@ -142,7 +155,8 @@ const MainBookingItem = styled.div`
   padding: 0px;
   flex: 1;
   @media (max-width: ${MAX_WIDTH_PX}) {
-    margin: 0 0px;
+    margin: 8px 0px;
+    width: auto;
   }
 `
 const MainBookingButton = styled.div`
@@ -156,8 +170,8 @@ const MainBookingButton = styled.div`
   border: none;
   cursor: pointer;
   @media (max-width: ${MAX_WIDTH_PX}) {
+    margin: 0;
     padding: 8px 24px;
-    margin: 0 8px;
   }
 `
 
