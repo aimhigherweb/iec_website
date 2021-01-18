@@ -45,10 +45,16 @@ const ArticleDetail = styled.div`
   justify-content: space-around;
   padding: 10px 140px;
   cursor: pointer;
+  @media (max-width: ${MAX_WIDTH_PX}) {
+    padding: 10px 20px;
+  }
   border: ${DEBUG_TEAM};
 `
 const ArticleDetailLeft = styled.div`
   flex: 3;
+  @media (max-width: ${MAX_WIDTH_PX}) {
+    flex-basis: 50%;
+  }
   border: ${DEBUG_TEAM};
 `
 const ArticleDetailImage = styled.img`

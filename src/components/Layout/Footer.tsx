@@ -106,19 +106,29 @@ const FooterMenuItem = styled.li`
 `
 
 const FooterNewsletterTitle = styled.div`
-  margin-bottom: 10px;
-  font-size: 0.9em;
+  margin-bottom: 4px;
+  font-size: 1em;
   font-weight: 600;
   font-family: "Times New Roman";
   border: ${DEBUG_FOOTER};
 `
 const FooterNewsletterInput = styled.input`
   padding: 0 4px;
-  margin-bottom: 10px;
+  margin-bottom: 2px;
   font-size: 0.9em;
   background-color: #f2f2f2;
   border: ${DEBUG_FOOTER};
   border: 1px solid #c2c2c2;
+`
+const FooterNewsletterButton = styled.button`
+  margin: 8px 0;
+  padding: 2px 16px;
+  color: white;
+  font-family: "Times New Roman";
+  font-size: 0.9em;
+  font-weight: 600;
+  background-color: #5091cd;
+  border: none;
 `
 const FooterNewsletterIcon = styled(FontAwesomeIcon)`
   margin-right: 10px;
@@ -254,8 +264,30 @@ const FooterDiv = (show) => {
           <div>
             <FooterNewsletterTitle>Newsletter</FooterNewsletterTitle>
             <div>
-              <FooterNewsletterInput placeholder="Enter Your Email" />
+              <form
+                className="js-cm-form"
+                id="subForm"
+                action="https://www.createsend.com/t/subscribeerror?description="
+                method="post"
+                data-id="2BE4EF332AA2E32596E38B640E9056196DB3772EEE48EF3F00C3958645D3C32A008E865C37906DBBA442EEA6595569F4A3CBB225148230D6F0CE427A90171CEE"
+              >
+                <FooterNewsletterInput
+                  className="js-cm-email-input qa-input-email"
+                  id="fieldEmail"
+                  name="cm-yuuilky-yuuilky"
+                  type="email"
+                  placeholder="Enter Your Email"
+                />
+                <FooterNewsletterButton type="submit">
+                  Subscribe
+                </FooterNewsletterButton>
+              </form>
+              <script
+                type="text/javascript"
+                src="https://js.createsend1.com/javascript/copypastesubscribeformlogic.js"
+              ></script>
             </div>
+
             <div>
               <a href="https://www.facebook.com/innovativeeyecareadelaide">
                 <FooterNewsletterIcon

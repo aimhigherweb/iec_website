@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react"
+import { useStaticQuery, graphql } from "gatsby"
 import styled from "styled-components"
 
 //----------------------------------------------------------
@@ -92,10 +93,13 @@ const SocialItemImage = styled.img`
   border: ${DEBUG_SOCIAL};
 `
 
+const HREF_INSTA = "https://www.instagram.com/innovative.eye.care"
+const HREF_FB = "https://www.facebook.com/innovativeeyecareadelaide/"
+
 const obtainInstaFeed = async () => {
   console.log(`*** Home.obtainInstaFeed`)
 
-  const url = `https://www.instagram.com/innovative.eye.care/?__a=1`
+  const url = `${HREF_INSTA}/?__a=1`
   const response = await fetch(url)
   const json = await response.json()
 
@@ -120,10 +124,16 @@ const obtainInstaFeed = async () => {
   return result
 }
 
-const Social = (show) => {
+const Social = (show, data) => {
   console.log(`*** SocialFeed.Social`)
-  const [posts, setPosts] = useState()
+  const { promotions } = data
+  const [current, setCurrent] = useState({
+    index: 0,
+    items: promotions.edges,
+    visible: {},
+  })
 
+  const [posts, setPosts] = useState()
   const latestPosts = () => {
     obtainInstaFeed().then((latestPosts) => {
       setPosts(latestPosts)
@@ -131,33 +141,73 @@ const Social = (show) => {
   }
 
   useEffect(() => {
-    console.log(`*** Home.Social.useEffect`)
+    console.log(`*** Home.Social.useEffect.latestPosts`)
+    updatePromotion(0)
     latestPosts()
   }, [])
 
+  const updatePromotion = (newIndex) => {
+    console.log(`*** Home.Social.updatePromotion... newIndex=${newIndex}`)
+    if (current && current.items) {
+      if (newIndex >= 0 && newIndex < current.items.length) {
+        const promotion = current.items[newIndex]
+        const { title, image } = promotion.node.frontmatter
+        const showLeft = newIndex > 0
+        const showRight = newIndex < current.items.length - 1
+        setCurrent({
+          ...current,
+          index: newIndex,
+          visible: {
+            title: title,
+            image: image,
+            left: showLeft,
+            right: showRight,
+          },
+        })
+      }
+    }
+  }
+
+  const promotionMoveLeft = () => {
+    console.log(`*** Home.Social.promotionMoveLeft`)
+    updatePromotion(current.index - 1)
+  }
+  const promotionMoveRight = () => {
+    console.log(`*** Home.Social.promotionMoveRight`)
+    updatePromotion(current.index + 1)
+  }
+
   return show ? (
     <SocialSection>
-      <SocialHeader>
-        <SocialHeaderLeftNav src="images2/icon-arrow-left-white.svg" />
-        <SocialHeaderRightNav src="images2/icon-arrow-right-white.svg" />
-        <SocialHeaderImage src="images2/social-insta2.jpg" />
-        <SocialHeaderCaption>See better. See us.</SocialHeaderCaption>
-      </SocialHeader>
+      {current.visible && (
+        <SocialHeader>
+          {current.visible.left && (
+            <SocialHeaderLeftNav
+              src="images2/icon-arrow-left-white.svg"
+              onClick={() => {
+                promotionMoveLeft()
+              }}
+            />
+          )}
+          {current.visible.right && (
+            <SocialHeaderRightNav
+              src="images2/icon-arrow-right-white.svg"
+              onClick={() => {
+                promotionMoveRight()
+              }}
+            />
+          )}
+          <SocialHeaderImage src={current.visible.image} />
+          <SocialHeaderCaption>{current.visible.title}</SocialHeaderCaption>
+        </SocialHeader>
+      )}
       <SocialTitle>
         Follow us on{" "}
-        <a
-          href="https://www.instagram.com/innovative.eye.care"
-          target="_blank"
-          rel="noreferrer"
-        >
+        <a href={HREF_INSTA} target="_blank" rel="noreferrer">
           Instagram
         </a>{" "}
         and{" "}
-        <a
-          href="https://www.facebook.com/innovativeeyecareadelaide/"
-          target="_blank"
-          rel="noreferrer"
-        >
+        <a href={HREF_FB} target="_blank" rel="noreferrer">
           Facebook
         </a>{" "}
         to see what we&apos;ve been up to!
@@ -171,7 +221,7 @@ const Social = (show) => {
             const imageSrc = post.imageUrl
             return (
               <SocialItem key={i}>
-                <a href="https://www.instagram.com/innovative.eye.care">
+                <a href={HREF_INSTA}>
                   <SocialItemImage src={imageSrc} />
                 </a>
               </SocialItem>
@@ -192,5 +242,27 @@ const Social = (show) => {
 //----------------------------------------------------------
 export const SocialFeed: React.FC = (show, match) => {
   console.log(`*** SocialFeed.RENDER`)
-  return Social(show)
+
+  const data = useStaticQuery(graphql`
+    {
+      promotions: allMarkdownRemark(
+        filter: { fileAbsolutePath: { regex: "/promotion/" } }
+        sort: { fields: frontmatter___publish_date, order: DESC }
+      ) {
+        edges {
+          node {
+            frontmatter {
+              title
+              image
+            }
+            fields {
+              slug
+            }
+          }
+        }
+      }
+    }
+  `)
+
+  return Social(show, data)
 }
