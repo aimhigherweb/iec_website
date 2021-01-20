@@ -1,5 +1,5 @@
 ---
-title: Managing your child's short-sightedness with a brand new strategy
+title: What are DIMS lenses? A new myopia control strategy
 date: 2021-01-20T04:08:56.443Z
 author: Pooja Bhindi and Millie Meegan
 author_url: https://www.innovativeeyecare.com.au/who-we-are/pooja-bhindi
@@ -7,7 +7,7 @@ preview_image: /uploads/dims.png
 ---
 <div class="employee-heading">
 
-<p>[Myopia](https://www.innovativeeyecare.com.au/what-we-do/myopia), or short-sightedness, causes blurry vision either because the eye has grown too long or because its focusing power is too great. The former of these is more worrying, since out-of-control growth stretches and damages the tissues at the back of the eye, which can lead to blindness.<sup>1</sup></p>
+<p><a href="https://www.innovativeeyecare.com.au/what-we-do/myopia">Myopia</a>, or short-sightedness, causes blurry vision either because the eye has grown too long or because its focusing power is too great. The former of these is more worrying, since out-of-control growth stretches and damages the tissues at the back of the eye, which can lead to blindness.<sup>1</sup></p>
 
 </div>
 
