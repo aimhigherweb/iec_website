@@ -5,6 +5,9 @@ author: Pooja Bhindi and Millie Meegan
 author_url: https://www.innovativeeyecare.com.au/who-we-are/pooja-bhindi
 preview_image: /uploads/dims.png
 ---
+<meta property="og:title" content="Managing_myopia_with_a_new_strategy">
+<meta property="og:image" content="https://d33wubrfki0l68.cloudfront.net/a531be8e09b375022723e3c81e19b9ad4efe74a1/99acf/uploads/photo-1568585219057-9206080e6c74.jpeg">
+
 <div class="employee-heading">
 
 <p><a href="https://www.innovativeeyecare.com.au/what-we-do/myopia">Myopia</a>, or short-sightedness, causes blurry vision either because the eye has grown too long or because its focusing power is too great. The former of these is more worrying, since out-of-control growth stretches and damages the tissues at the back of the eye, which can lead to blindness.<sup>1</sup></p>
