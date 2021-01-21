@@ -150,6 +150,13 @@ const FooterGutterText = styled.div`
 `
 
 const FooterDiv = (show) => {
+  const newsletterActionUrl =
+    "https://www.createsend.com/t/subscribeerror?description="
+  const newsletterDataId =
+    "A61C50BEC994754B1D79C5819EC1255C7D348002252D67BB9C7B04445BB90BA17C2809236CB3A67DFA608B82E166FDE32C3DEBBD394C2ABE4B2AF5671E2DB75B"
+  const newsletterJs =
+    "https://js.createsend1.com/javascript/copypastesubscribeformlogic.js"
+
   return show ? (
     <FooterSection>
       <FooterLogo onClick={() => navigate("/")}>
@@ -266,9 +273,9 @@ const FooterDiv = (show) => {
               <form
                 className="js-cm-form"
                 id="subForm"
-                action="https://www.createsend.com/t/subscribeerror?description="
+                action={newsletterActionUrl}
                 method="post"
-                data-id="2BE4EF332AA2E32596E38B640E9056196DB3772EEE48EF3F00C3958645D3C32A008E865C37906DBBA442EEA6595569F4A3CBB225148230D6F0CE427A90171CEE"
+                data-id={newsletterDataId}
               >
                 <div>
                   <FooterNewsletterInput
@@ -287,10 +294,7 @@ const FooterDiv = (show) => {
                   Subscribe
                 </FooterNewsletterButton>
               </form>
-              <script
-                type="text/javascript"
-                src="https://js.createsend1.com/javascript/copypastesubscribeformlogic.js"
-              ></script>
+              <script type="text/javascript" src={newsletterJs}></script>
             </div>
 
             <div>
