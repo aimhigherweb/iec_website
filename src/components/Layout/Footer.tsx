@@ -106,7 +106,6 @@ const FooterMenuItem = styled.li`
 `
 
 const FooterNewsletterTitle = styled.div`
-  margin-bottom: 4px;
   font-size: 1em;
   font-weight: 600;
   font-family: "Times New Roman";
@@ -121,7 +120,7 @@ const FooterNewsletterInput = styled.input`
   border: 1px solid #c2c2c2;
 `
 const FooterNewsletterButton = styled.button`
-  margin: 8px 0;
+  margin: 4px 0 12px 0;
   padding: 2px 16px;
   color: white;
   font-family: "Times New Roman";
@@ -271,13 +270,19 @@ const FooterDiv = (show) => {
                 method="post"
                 data-id="2BE4EF332AA2E32596E38B640E9056196DB3772EEE48EF3F00C3958645D3C32A008E865C37906DBBA442EEA6595569F4A3CBB225148230D6F0CE427A90171CEE"
               >
-                <FooterNewsletterInput
-                  className="js-cm-email-input qa-input-email"
-                  id="fieldEmail"
-                  name="cm-yuuilky-yuuilky"
-                  type="email"
-                  placeholder="Enter Your Email"
-                />
+                <div>
+                  <FooterNewsletterInput
+                    id="fieldName"
+                    name="cm-name"
+                    placeholder="Name"
+                  />
+                  <FooterNewsletterInput
+                    className="js-cm-email-input qa-input-email"
+                    id="fieldEmail"
+                    name="cm-yuuilky-yuuilky"
+                    placeholder="Email"
+                  />
+                </div>
                 <FooterNewsletterButton type="submit">
                   Subscribe
                 </FooterNewsletterButton>
