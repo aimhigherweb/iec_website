@@ -3,8 +3,6 @@ title: "Ortho-K: Corneal Reshaping"
 category: orthok
 preview-image: /uploads/myopic-ok-lens.jpg
 ---
-
-
 <div class="employee-heading">
 <p><p>Orthokeratology lenses fitted by our optometrists in Adelaide or Woodville are worn while you sleep, leaving you with clear vision during the day without the need for contact lenses or glasses.</p>
 <p><b>For more information on orthokeratology, please see the links below:</b></p>
@@ -34,7 +32,7 @@ Ortho-K uses the tears underneath the lens to change the corneal shape, either f
 * **No daytime wear:** Because the reshaping takes place while the lens is worn overnight, no optical aid is needed the next day to see. This is especially helpful for people who play sport, work in dusty or dry environments or those who have dry eyes and allergies. It's also useful for those who are prone to misplacing or breaking optical aids like glasses and contact lenses.
 * **Safe and effective:** Ortho-K is completely reversible, unlike surgical procedures like LASIK, and the cornea will return to its normal shape within one to two weeks. Research has also found that ortho-K lenses have low levels of red eye events like infections, comparable to other kinds of overnight wear soft contact lenses.<sup>3,4</sup>
 
-### We're always finding new solutions!
+#### We're always finding new solutions!
 
 We custom-design our ortho-K lenses with cutting-edge software program [EyeSpace](http://www.eyespace.com.au/) by Innovatus Technology. This gives us the highest levels of accuracy for the greatest chance of success when fitting your lenses. Our bespoke designs can correct high astigmatism, presbyopia and post-LASIK (refractive surgery) with residual myopia or irregular treatment areas.
 
