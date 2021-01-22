@@ -1,7 +1,7 @@
 ---
 title: "Ortho-K: Corneal Reshaping"
 category: orthok
-preview-image: ""
+preview-image: /uploads/ok-mr-gent.jpg
 ---
 
 
