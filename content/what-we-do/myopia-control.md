@@ -22,7 +22,7 @@ In myopic eyes, light is focused in front of the retina rather than on it, causi
 
 Historically, myopia was considered a normal variation of the eye. Now there is a clear distinction between the two types of myopia:
 
-* **Low myopia** where the power of the eye is lower than –6D
+* **Myopia** where the power of the eye is lower than –6D
 * **High myopia** where the power of the eye is greater than –6D
 
 Because myopia is progressive, over time the eye continues to grow longer, and the tissues at the back of the eye become stretched. Therefore, all levels of myopia increase the chance of myopic eye disease such as retinal detachment, cataracts, glaucoma and other retinal degenerations.<sup>2</sup> This escalates as the level of myopia increases and the tissue is stretched further, especially once the length of the eye exceeds 26.5mm (‘pathological myopia’).<sup>5</sup> 1 in 4 people with eyes longer than 26mm are at risk of permanent vision loss, compared to 1 in 25 with eyes smaller than 26mm.<sup>3</sup> Even if the eye is under 26.5mm long, the risk of glaucoma with myopia is similar to the risk of stroke when smoking over 20 cigarettes a day, and retinal detachments are a frequent occurrence.<sup>1,4</sup> Reducing the amount of myopia your child develops keeps the risk as low as possible. It also reduces the thickness of glasses your child will require, as well as their reliance on them.
