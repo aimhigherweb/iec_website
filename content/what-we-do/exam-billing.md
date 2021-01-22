@@ -30,17 +30,23 @@ Consultation fees will now be standardised, rather than varying in line with the
   </tr>
   <tr>
     <td class="tg-fdbh">Full Consultation</td>
-    <td class="tg-fdbh">$80
-    <td class="tg-fdbh">$28.90 - $57.70 (eligibility dependent)</td>
+    <td class="tg-fdbh">$90
+    <td class="tg-fdbh">$29.35 - $58.55 (eligibility dependent)</td>
   </tr>
   <tr>
     <td class="tg-fdbh">Short Consultation</td>
     <td class="tg-fdbh">$50
-    <td class="tg-fdbh">$28.90</td>
+    <td class="tg-fdbh">$29.35</td>
   </tr>
   <tr>
     <td class="tg-fdbh">Diagnostic Imaging</td>
-    <td class="tg-fdbh">$80 per adult<br>$40 per child <br>and concession</td>
+    <td class="tg-fdbh">$90 per adult<br>$45 per child <br>and concession</td>
+    <td class="tg-fdbh">Not eligible for rebate</td>
+  </tr>
+
+  <tr>
+    <td class="tg-fdbh">Subsequent Diagnostic<br> Imaging</td>
+    <td class="tg-fdbh">$45 per adult<br>$22.50 per child<br>and concession</td>
     <td class="tg-fdbh">Not eligible for rebate</td>
   </tr>
 </table>
@@ -53,7 +59,7 @@ We continue to use the Easyclaim system to claim your Medicare rebate for you on
 
 The costs of the additional equipment such as [retinal photography](/what-we-do/retinal-photography) and [anterior imaging](/what-we-do/anterior-imaging), [corneal topography](/what-we-do/corneal-topography) and [OCT scans](/what-we-do/oct) has never been covered by Medicare and unfortunately this has not changed. Because we believe this technology is important in providing quality eye care, we continue to offer this technology at 50% off for health card and pension card holders as well as children to enable access.
 
-We love it when patients that have had a great experience at Innovative Eye Care mention this to their friends, family and colleagues. As a reward we will send you a [$50 voucher](/what-we-do/gift-cards) if you refer someone you know to our practice! This can be used on full-price sunglasses or spectacles frames within 3 months.
+We love it when patients that have had a great experience at Innovative Eye Care mention this to their friends, family and colleagues. We will send you a [$50 voucher](/what-we-do/gift-cards) if you refer someone you know to our practice! This can be used on full-price sunglasses or spectacles frames within 3 months.
 
 #### Changes to the Medicare system
 
