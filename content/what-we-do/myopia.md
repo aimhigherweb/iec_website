@@ -1,7 +1,7 @@
 ---
 title: Myopia
 category: refractive-conditions
-preview-image: /uploads/myopia-vision.jpeg
+preview-image: /uploads/myopia2-copy.png
 ---
 <div class="employee-heading">
 <p>Myopia, commonly called short-sightedness, is a condition in which light is focused in front of the retina, resulting in blurred vision. This is the result of the eye being too long, or the focussing power of the eye being too strong. Short-sighted people can often see reasonably clearly at short distances, but will not objects far away.</p>
