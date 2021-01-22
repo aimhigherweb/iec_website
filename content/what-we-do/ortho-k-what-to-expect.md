@@ -31,7 +31,7 @@ After the one week appointment, a follow-up is required for a month’s time, th
 
 #### Frequently Asked Questions
 
-**How new is ortho-K vision correction?**
+**How new is ortho-K vision correction?** 
 
 The idea of corneal moulding to correct myopia may have originated millenia ago when the Chinese placed bags of sand over their eyelids to improve vision. Ortho-K as we know it today has been around since the 1940s and has been continuously refined over the decades to a point where it is now produces reliably safe and predictable correction.<sup>1</sup>
 
@@ -88,6 +88,8 @@ There should be a myopia control effect as long as your use your ortho-K lenses.
 A full eye exam at Innovative Eye Care is necessary prior to starting ortho-K, even if you have had a recent eye examination at another optometrist. Several aspects of your eyes including health, vision and corneal shape will have to be assessed to establish if your eyes are suitable. If in the last 12 months you have had a full eye exam with us, you may just need a corneal topography and a quick discussion with your optometrist to see if ortho-K is right for you.
 
 **For instructions on the handling and care of ortho-K lenses, see our [care of orthokeratology lenses](/patient-resources/care-of-orthokeratology-lenses) page.**
+
+**<br>**
 
 #### References
 
