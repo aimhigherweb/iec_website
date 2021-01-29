@@ -1,3 +1,5 @@
+import myData from "../../fixtures/kbCategories.json"
+
 describe("Test Pages", () => {
     it("Visits Home. Checks the booking button, phone number and address", () => {
         cy.visit("")
