@@ -180,6 +180,9 @@ const Team = (show, teamList, match) => {
                       <TeamStaffJob>{node.frontmatter.jobtitle}</TeamStaffJob>
                     </>
                   )}
+                  {!highlighted && (
+                    <p style={{ display: "none" }}>{node.frontmatter.title}</p>
+                  )}
                 </TeamStaff>
                 {i === chosen.lastInRowIndex && chosen.staffNode && (
                   <StaffInfo key="staffInfoRow">
