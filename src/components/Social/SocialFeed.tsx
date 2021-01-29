@@ -108,14 +108,16 @@ const obtainInstaFeed = async () => {
   const result = []
   const MAX_ITEMS = 4
 
-  json.data.forEach((item) => {
-    const { caption, media_url } = item
-    if (media_url) {
-      if (result.length < MAX_ITEMS) {
-        result.push({ caption: caption, imageUrl: media_url })
+  if (json.data) {
+    json.data.forEach((item) => {
+      const { caption, media_url } = item
+      if (media_url) {
+        if (result.length < MAX_ITEMS) {
+          result.push({ caption: caption, imageUrl: media_url })
+        }
       }
-    }
-  })
+    })
+  }
 
   return result
 }
