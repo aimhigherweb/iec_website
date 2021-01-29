@@ -3,24 +3,21 @@ import myData from "../../fixtures/kbCategories.json"
 describe("Test Pages", () => {
     it("Visits Home. Checks the booking button, phone number and address", () => {
         cy.visit("")
+
         //checking the navigation bar working
-        cy.get('div.Main__Menu-iAIUni.sWDSB').click()
-        cy.get('div.Main__MainMenu-cuGdCN.gDwcFm').click(140,82)
+        cy.get('#gatsby-focus-wrapper').find('img').should('have.attr', 'src','/images2/icon-logo.png').eq(1).click("")
+        cy.contains("Home").click("")
+        
+        // cy.get('div.MainHeader.Menu').click(140,82)
 
         cy.contains("We are a team of industry leaders")
         cy.contains("We prioritise your eye health")
-
-        //checking if the navigation bar options are getting selected
-        //now at who we are page
-        cy.get('div.Main__Menu-iAIUni.sWDSB').click()
-        cy.get('div.Main__MainMenu-cuGdCN.gDwcFm').click(140,110)
-        cy.contains("Meet the team")
 
         cy.contains("60 Hutt Street")
         cy.contains("(08) 8231 9341")
         cy.contains("850 Port Road")
         cy.contains("(08) 8445 9050")
-        
+    
         //checking the working of subscribe button
         cy.get('#fieldName').type("abc")
         cy.get('#fieldEmail').type("abc.gmail.com")
@@ -29,7 +26,7 @@ describe("Test Pages", () => {
         cy.contains("Follow us on Instagram and Facebook")
        
         //checking the working of the search button by typing input text
-        cy.get('input.Main__MainSearchInput-ejuOsK.kkiArt').click().type("aa")
+        cy.get('[placeholder="Search now."]').click().type("aa")
         .invoke('show')
        
         cy.contains("Book Adelaide").click()
@@ -47,17 +44,17 @@ describe("Test Pages", () => {
         cy.contains("Meet the team")
         cy.contains("Our Optometrists are industry leaders")
 
-        //checking if the navigation bar options are getting selected
         //now at who we are page
-        cy.get('div.Main__Menu-iAIUni.sWDSB').click()
-        cy.get('div.Main__MainMenu-cuGdCN.gDwcFm').click(140,110)
+        //checking the navigation bar working
+        cy.get('#gatsby-focus-wrapper').find('img').should('have.attr', 'src','/images2/icon-logo.png').eq(1).click("")
+        cy.contains("Who We Are").click("")
         cy.contains("Meet the team")
 
         //check image in the staff bar
-        cy.get('div.who-we-are__TeamStaffBar-eucGBo.ipKRVy').find('img').should('have.attr', 'src','/uploads/staff-lachie.png')
+        cy.get('#gatsby-focus-wrapper').find('img').should('have.attr', 'src','/images2/icon-logo.png').eq(2).click("")
 
         //click on lachie's eimage and test whether the description of staff is showing after clicking
-        cy.get('div.who-we-are__TeamStaffBar-eucGBo.ipKRVy').click(14,110)
+        //cy.get('div.who-we-are__TeamStaffBar-eucGBo.ipKRVy').click(14,110)
         cy.contains("Lachlan Hoy is a second generation Optometrist who graduated from the Queensland University of Technology with Honours in 2007.")
 
         //checking the working of subscribe button
@@ -66,7 +63,8 @@ describe("Test Pages", () => {
         cy.contains("Subscribe")
 
         //checking the working of the search button by typing input text
-        cy.get('input.Main__MainSearchInput-ejuOsK.kkiArt').click().type("aa")
+        cy.get('[placeholder="Search now."]').click().type("aa")
+        .invoke('show')
         cy.contains("Book Adelaide").click()
         cy.contains("Book Woodville.").click()
     })
@@ -74,10 +72,10 @@ describe("Test Pages", () => {
     it("What We Do", () => {
         cy.visit("what-we-do")
 
-        //checking if the navigation bar options are getting selected
-        //now at who we are page
-        cy.get('div.Main__Menu-iAIUni.sWDSB').click()
-        cy.get('div.Main__MainMenu-cuGdCN.gDwcFm').click(140,10)
+       //now at who we are page
+        //checking the navigation bar working
+        cy.get('#gatsby-focus-wrapper').find('img').should('have.attr', 'src','/images2/icon-logo.png').eq(1).click("")
+        cy.contains("What We Do").click("")
         
 
         cy.contains("60 Hutt Street")
@@ -93,8 +91,10 @@ describe("Test Pages", () => {
         cy.get('#fieldEmail').type("abc.gmail.com")
         cy.contains("Subscribe")
 
-
-        cy.get('input.Main__MainSearchInput-ejuOsK.kkiArt').click().type("//").invoke('show')
+        //checking the working of the search button by typing input text
+        cy.get('[placeholder="Search now."]').click().type("aa")
+        .invoke('show')
+        
 
         cy.contains("Book Adelaide").click()
         cy.contains("Book Woodville.").click()
@@ -107,11 +107,10 @@ describe("Test Pages", () => {
         cy.contains("(08) 8231 9341")
         cy.contains("850 Port Road")
         cy.contains("(08) 8445 9050")
-
-        //checking if the navigation bar options are getting selected
-        //now at who we are page
-        cy.get('div.Main__Menu-iAIUni.sWDSB').click()
-        cy.get('div.Main__MainMenu-cuGdCN.gDwcFm').click(140,10)
+        
+        //checking the navigation bar working
+        cy.get('#gatsby-focus-wrapper').find('img').should('have.attr', 'src','/images2/icon-logo.png').eq(1).click("")
+        cy.contains("Patient Resources").click("")
         
 
         cy.contains("Your eye care routine will often involve at-home care ")
@@ -122,7 +121,8 @@ describe("Test Pages", () => {
         cy.contains("Subscribe")
 
         //checking the working of the search button by typing input text
-        cy.get('input.Main__MainSearchInput-ejuOsK.kkiArt').click().type("11").invoke('show')
+        cy.get('[placeholder="Search now."]').click().type("aa")
+        .invoke('show')
 
         cy.contains("Book Adelaide").click()
         cy.contains("Book Woodville.").click()
@@ -133,20 +133,21 @@ describe("Test Pages", () => {
 
         cy.contains("60 Hutt Street")
         cy.contains("(08) 8231 9341")
-        cy.contains("The optometrists of Innovative Eye Care have a wide scope of expertise")
-
-        //checking if the navigation bar options are getting selected
-        //now at who we are page
-        cy.get('div.Main__Menu-iAIUni.sWDSB').click()
-        cy.get('div.Main__MainMenu-cuGdCN.gDwcFm').click(140,10)
         
 
+        //checking if the navigation bar options are getting selected
+        cy.get('#gatsby-focus-wrapper').find('img').should('have.attr', 'src','/images2/icon-logo.png').eq(1).click("")
+        cy.contains("Blog").click("")
+        cy.contains("The optometrists of Innovative Eye Care have a wide scope of expertise")
+        
         //checking the working of subscribe button
         cy.get('#fieldName').type("abc")
         cy.get('#fieldEmail').type("abc.gmail.com")
         cy.contains("Subscribe")
 
-        cy.get('input.Main__MainSearchInput-ejuOsK.kkiArt').click().type("//").invoke('show')
+        //checking the working of the search button by typing input text
+        cy.get('[placeholder="Search now."]').click().type("aa")
+        .invoke('show')
 
         cy.contains("Book Adelaide").click()
         cy.contains("Book Woodville.").click()
@@ -184,8 +185,8 @@ describe("Test Pages", () => {
 
         //checking if the navigation bar options are getting selected
         //now at who we are page
-        cy.get('div.Main__Menu-iAIUni.sWDSB').click()
-        cy.get('div.Main__MainMenu-cuGdCN.gDwcFm').click(140,10)
+        cy.get('#gatsby-focus-wrapper').find('img').should('have.attr', 'src','/images2/icon-logo.png').eq(1).click("")
+        cy.contains("Contact").click("")
 
         //checking the working of subscribe button
         cy.get('#fieldName').type("abc")
@@ -193,7 +194,9 @@ describe("Test Pages", () => {
         cy.contains("Subscribe")
 
 
-        cy.get('input.Main__MainSearchInput-ejuOsK.kkiArt').click().type("11").invoke('show')
+        //checking the working of the search button by typing input text
+        cy.get('[placeholder="Search now."]').click().type("aa")
+        .invoke('show')
         
         cy.contains("Book Adelaide").click()
         cy.contains("Book Woodville.").click()
