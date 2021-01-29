@@ -52,9 +52,6 @@ describe("Test Pages", () => {
 
         //check image in the staff bar
         cy.get('#gatsby-focus-wrapper').find('img').should('have.attr', 'src','/images2/icon-logo.png').eq(2).click("")
-
-        //click on lachie's eimage and test whether the description of staff is showing after clicking
-        //cy.get('div.who-we-are__TeamStaffBar-eucGBo.ipKRVy').click(14,110)
         cy.contains("Lachlan Hoy is a second generation Optometrist who graduated from the Queensland University of Technology with Honours in 2007.")
 
         //checking the working of subscribe button
@@ -114,6 +111,14 @@ describe("Test Pages", () => {
         
 
         cy.contains("Your eye care routine will often involve at-home care ")
+              
+        //cheking categories and articles within it
+        cy.contains("Vision Training").click("")
+        cy.contains("Vision Training Push-Up Exercises")
+        cy.contains("Everyday Eye Care").click("")
+        cy.contains("Dry Eye Information")
+        cy.contains("Contact Lens Instructions").click("")
+        cy.contains("Care of Orthokeratology Lenses")
 
         //checking the working of subscribe button
         cy.get('#fieldName').type("abc")
