@@ -6,10 +6,12 @@ author_url: https://www.innovativeeyecare.com.au/who-we-are/pooja-bhindi
 preview_image: /uploads/dims.png
 ---
 ```html
-<meta property="og:url" content="https://www.innovativeeyecare.com.au/blog/managing-your-childs-short-sightedness-with-a-brand-new-strategy" />
-<meta property="og:type"               content="article" />
-<meta property="og:title"              content="What are DIMS lenses? A new myopia control strategy" />
-<meta property="og:image"              content="https://d33wubrfki0l68.cloudfront.net/a531be8e09b375022723e3c81e19b9ad4efe74a1/99acf/uploads/photo-1568585219057-9206080e6c74.jpeg" />
+<head>
+  <meta property="og:url" content="https://www.innovativeeyecare.com.au/blog/managing-your-childs-short-sightedness-with-a-brand-new-strategy" />
+  <meta property="og:type"               content="article" />
+  <meta property="og:title"              content="What are DIMS lenses? A new myopia control strategy" />
+  <meta property="og:image"              content="https://d33wubrfki0l68.cloudfront.net/a531be8e09b375022723e3c81e19b9ad4efe74a1/99acf/uploads/photo-1568585219057-9206080e6c74.jpeg" />
+</head>
 ```
 
 <div class="employee-heading">
