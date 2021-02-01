@@ -131,6 +131,7 @@ const WhoWeAreTemplate: React.FC = (props) => {
         null,
         null,
         null,
+        null,
         () => null,
         () => null
       )}
