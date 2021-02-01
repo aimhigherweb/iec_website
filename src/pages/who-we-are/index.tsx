@@ -7,6 +7,7 @@ import { useMatchMedia } from "../../hooks/useMatchMedia"
 import { Main } from "../../components/Main"
 import { SocialFeed } from "../../components/Social/SocialFeed"
 import { Footer } from "../../components/Layout/Footer"
+import historyList from "./past.json"
 
 //----------------------------------------------------------
 //-- Section 1: Team
@@ -317,7 +318,7 @@ const HistoryDetailTitle = styled.div`
 `
 const HistoryDetailDesc = styled.div`
   margin-bottom: 20px;
-  font-size: 0.7em;
+  font-size: 1em;
   @media (max-width: ${MAX_WIDTH_PX}) {
     font-size: 0.5em;
   }
@@ -404,82 +405,6 @@ const Container = styled.div`
   margin: 0;
   margin-bottom: 80px;
 `
-
-//--- TEMP
-const historyList = [
-  {
-    article: "2016 | The Merger",
-    title: "North Terrace Optometrists merges with Innovative Eye Care",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    linkTitle: "Article Link >>",
-    linkRef:
-      "https://www.innovativeeyecare.com.au/blog/the-latest-addition-at-innovative-eye-care",
-  },
-  {
-    article: "2012 | Ron Fieldhouse retires",
-    title: "Retirement",
-    description:
-      "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.",
-    linkTitle: "Article Link >>",
-    linkRef:
-      "https://www.innovativeeyecare.com.au/blog/the-latest-addition-at-innovative-eye-care",
-  },
-  {
-    article: "2010 | The Purchase",
-    title: "Purchase",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    linkTitle: "Article Link >>",
-    linkRef:
-      "https://www.innovativeeyecare.com.au/blog/the-latest-addition-at-innovative-eye-care",
-  },
-  {
-    article: "2007 | Lachlan - R Fieldhouse & Associates",
-    title: "Lachlan - R Fieldhouse",
-    description:
-      "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.",
-    linkTitle: "Article Link >>",
-    linkRef:
-      "https://www.innovativeeyecare.com.au/blog/the-latest-addition-at-innovative-eye-care",
-  },
-  {
-    article: "2007 | Don Noack Award",
-    title: "Don Noack Award",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    linkTitle: "Article Link >>",
-    linkRef:
-      "https://www.innovativeeyecare.com.au/blog/the-latest-addition-at-innovative-eye-care",
-  },
-  {
-    article: "1996 | North Tce Optometrists",
-    title: "North Tce Optometrists",
-    description:
-      "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.",
-    linkTitle: "Article Link >>",
-    linkRef:
-      "https://www.innovativeeyecare.com.au/blog/the-latest-addition-at-innovative-eye-care",
-  },
-  {
-    article: "1984 | North Tce Practice",
-    title: "North Tce Practice",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    linkTitle: "Article Link >>",
-    linkRef:
-      "https://www.innovativeeyecare.com.au/blog/the-latest-addition-at-innovative-eye-care",
-  },
-  {
-    article: "1959 | R Fieldhouse & Associates",
-    title: "R Fieldhouse",
-    description:
-      "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.",
-    linkTitle: "Article Link >>",
-    linkRef:
-      "https://www.innovativeeyecare.com.au/blog/the-latest-addition-at-innovative-eye-care",
-  },
-]
 
 const WhoWeAre: React.FC = ({ data }) => {
   const match = useMatchMedia({ width: MAX_WIDTH })

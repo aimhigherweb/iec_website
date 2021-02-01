@@ -254,6 +254,7 @@ const StyleBookingButton = styled.button`
   font-weight: 600;
   background-color: #5091cd;
   border: none;
+  cursor: pointer;
   @media (max-width: ${MAX_WIDTH_PX}) {
     width: 100%;
     padding 8px;
@@ -347,7 +348,8 @@ const StyleFooterPart = (
   </StyleFooter>
 )
 
-const Style = (show, match) => {
+const Style = (show, match, bookingToggleCallback) => {
+  const BOOKING_ADL = "2798"
   return show ? (
     <div>
       <StyleSection>
@@ -361,7 +363,11 @@ const Style = (show, match) => {
           <br />
           with our online booking system.
           <br />
-          <StyleBookingButton>Book online today.</StyleBookingButton>
+          <StyleBookingButton
+            onClick={() => bookingToggleCallback(true, BOOKING_ADL)}
+          >
+            Book online today.
+          </StyleBookingButton>
         </StyleDescription>
         <div>{!match && StyleFooterPart}</div>
       </StyleSection>
@@ -399,7 +405,7 @@ const Home: React.FC = () => {
         session.bookingToggle
       )}
       {Team(show)}
-      {Style(show, match)}
+      {Style(show, match, session.bookingToggle)}
       {SocialFeed(show, match)}
       {Footer(show)}
     </Container>

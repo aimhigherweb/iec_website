@@ -34,27 +34,27 @@ Oversized
 Thick rimmed, hipster, clubmaster browline
 
 Clear and White
-![](lindberg-n.o.w.jpg)
+![](/uploads/lindberg-n.o.w.jpg)
 
 Clear and White
-![](lindberg_6505l_rgb.jpg)
+![](/uploads/lindberg_6505l_rgb.jpg)
 
 Clear and White
-![](lindberg_6523c_rgb.jpg)
+![](/uploads/lindberg_6523c_rgb.jpg)
 
 Clear and White
-![](lindberg9710a-e1441276708652-464x750.jpg)
+![](/uploads/lindberg9710a-e1441276708652-464x750.jpg)
 
 Gold Rimmed
-![](lindberg_loub-393x600.jpg)
+![](/uploads/lindberg_loub-393x600.jpg)
 
 Red, Pink & Purple
-![](lindberg-eyewear-countries-around-the-world.jpg)
+![](/uploads/lindberg-eyewear-countries-around-the-world.jpg)
 
 Red, Pink & Purple
-![](261ee449bb56868dff26d2b6623bf4e7.jpg)
+![](/uploads/261ee449bb56868dff26d2b6623bf4e7.jpg)
 
 Neutral & Nude
-![](eebd775dfc9ff4c7116e991645f3aec0.jpg)
+![](/uploads/eebd775dfc9ff4c7116e991645f3aec0.jpg)
 
-![](signature.png)
+![](/uploads/signature.png)

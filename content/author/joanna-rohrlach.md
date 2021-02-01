@@ -2,17 +2,19 @@
 title: Joanna Rohrlach
 jobtitle: Optometrist
 photo: /uploads/staff-joanna.png
-skill1: PAEDIATRIC VISION
+skill1: BINOCULAR VISION
 rating1: 100
-skill2: MYOPIA CONTROL
+skill2: THERAPEUTIC EYE CARE
 rating2: 100
-skill3: THERAPEUTIC EYE CARE
+skill3: CONTACT LENSES
 rating3: 100
+skill4: COLLABORATIVE CARE
+rating4: 100
 order: 5
 ---
 
-Joanna grew up in country Victoria and moved to Melbourne to study Optometry. Upon graduating from The University of Melbourne, she moved to Adelaide and has been working in private practice as well as travelling to outback South Australia and Papua New Guinea for volunteer eye care trips.
+Joanna is a therapeutically endorsed optometrist who completed her optometry degree at The University of Melbourne in 2012. She has also completed further training in paediatric vision care and public health. Joanna enjoys all aspects of comprehensive optometry consulting and strives to help her patients better understand their own eye health.
 
-Joanna joined the team at Innovative Eye Care in April 2017 and is passionate about providing her patients with the best possible eye care. She enjoys practicing all aspects of optometry and has also completed further training in behavioural optometry and vision therapy under The Optometric Extension Program Foundation.
+Joanna has been involved in volunteer eye care trips in remote South Australia and Papua New Guinea. She is also a committee member for the Early Career Optometrists Victoria/South Australia.
 
-Joanna is a member of Optometry South Australia, the Cornea and Contact Lens Society and Early Career Optometrists - South Australia. Outside of work, Joanna enjoys keeping active with surfing, yoga and exploring new hiking trails. She is also a big fan of the wonderful local produce, restaurants and wineries that South Australia has to offer.
+Outside of work, Joanna enjoys keeping active with running, yoga and exploring new hiking trails. She is also a big fan of the wonderful local produce, restaurants and wineries that South Australia has to offer.

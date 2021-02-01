@@ -9,7 +9,7 @@ Nearly all new contact lenses now use silicone as a vital component of the lens 
 
 While silicone does a great job of making a contact lens material breathe, it’s feel is rubbery which makes it less soft, less flexible, less smooth and less able to drape over the eye. This means less comfortable than the soft lens materials it was designed to supersede. The result was adverse mechanical events - inflammation under the top eyelid from rubbing with blinks and curved abrasions at the top of the eye from lens edge inflexibility.
 
-![](1000x265_myday.jpg)
+![](/uploads/myday-toric-coopervision.jpg)
 
 [Coopervision](https://coopervision.net.au/contact-lenses/myday-family) has focused on ways to reduce the silicone content of their lenses while maintaining breathability. The MyDay lens uses [longer chain silicone](https://coopervision.net.au/product-technology/smart-silicone) which due to its more continuous, less segmented structure creates a boost in oxygen transmission over regular silicone and enables reduction of total silicone content to a very low 4.4% for the same breathability. This also allows a high water content of 54%.
 

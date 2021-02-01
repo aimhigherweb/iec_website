@@ -7,7 +7,7 @@ preview_image: /uploads/headache-you-might-have-preview.jpg
 
 A range of different forms of headaches occur with either pain around the eyes or with changes to vision and these headaches can be tricky to diagnose because both eye and vision symptoms may be caused by either an eye disease, a head disease or a systemic disease. Also, the prognosis is spread across harmless, vision threatening or life threatening.
 
-![](headache-you-might-have...jpg)
+![](/uploads/headache-you-might-have.jpg)
 
 Generally, headaches associated with the eyes can be from a purely eye problem, orbital disease, cranial disease or systemic disease.
 

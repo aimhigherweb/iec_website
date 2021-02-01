@@ -5,7 +5,7 @@ author: Karl Evans
 preview_image: /uploads/dry-eye-and-dews-ii.jpg
 ---
 
-![](2075115-dry_eyes.jpg)
+![](/uploads/2075115-dry_eyes.jpg)
 
 [Dry eye disease](/what-we-do/dry-eye-disease) is a common condition that coincides with a variety of signs, symptoms and environmental conditions that all mean it has high potential for being overlooked. It’s prevalence is high with studies ranging from 5-35% but despite this, and despite its potential for significant quality of life impacts, we currently don’t have a clear path to effective management.
 
@@ -31,7 +31,7 @@ If you are having trouble with dry eyes or eye discomfort that has not been diag
 
 Appendix 1: OSDI Dry Eye Questionnaire
 
-![](osdi.jpg)
+![](/uploads/osdi.jpg)
 From: Schiffman, R.M., Christianson, M.D., Jacobsen, G., Hirsch, J.D., and Reis, B.L. Reliability and validity of the ocular surface disease index. Arch Ophthalmol. 2000; 118: 615–621
 
 Moss SE, Klein R, Klein BE. Prevalence of and risk factors for dry eye syndrome. Arch Ophthalmol. 2000;118(9):1264–1268.

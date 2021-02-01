@@ -1,6 +1,7 @@
 ---
 title: "Optical Coherance Tomography Angiography (OCT-A) "
 category: "SE05"
+preview_image: heidelberg-oct.jpg
 ---
 
 <div class="employee-heading">

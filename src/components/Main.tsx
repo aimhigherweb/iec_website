@@ -95,8 +95,9 @@ const MainSearch = styled.div`
   margin: 0 0 0 40px;
   @media (max-width: ${MAX_WIDTH_PX}) {
     display: block;
-    margin: 20px 20px 4px 20px;
+    margin: 20px 0px 4px 10px;
     width: 100%;
+    font-size: 0.8em;
   }
   border: ${DEBUG_MAIN};
 `
@@ -104,7 +105,7 @@ const MainSearchWrapper = styled.span`
   padding: 12px 0;
   @media (max-width: ${MAX_WIDTH_PX}) {
     width: 100%;
-    margin: 8px 20px;
+    margin: 0px 20px;
   }
   border: ${DEBUG_MAIN};
   border: 1px solid white;
@@ -146,7 +147,7 @@ const MainBooking = styled.div`
   margin: 0;
   @media (max-width: ${MAX_WIDTH_PX}) {
     display: block;
-    padding: 8px 20px;
+    padding: 0px 20px;
     width: 100%;
   }
 `

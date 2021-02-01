@@ -4,7 +4,6 @@ date: 2019-03-25T05:33:58.839Z
 author: Pooja Bhindi
 preview_image: /uploads/55769976_2345343202363394_3360060405807316992_n.jpg
 ---
-
 My name is Pooja and I am currently in my fifth year of Optometry at Flinders University. I have been lucky enough to have had the opportunity to spend the past six weeks with the amazing and talented team at Innovative Eye Care at Hutt Street.
 
 During my placement I have been able to work with some of the highest quality equipment and talented optometrists that has allowed me to be exposed to some of the highest quality eye care in Australia. I have been able to gain knowledge and experience in areas that are not usually seen in other optometric practices, a few of which include; binocular vision training, myopia control, orthokeratology and scleral contact lenses. What I have learnt most during my placement at IEC is just how incredible the scope of optometric practice can be, and that there is no limit to always pushing the boundaries of current technology and practice to provide the best optometric care for every patient.

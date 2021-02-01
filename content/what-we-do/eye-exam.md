@@ -8,8 +8,6 @@ preview_image: iec-test.jpg
 
 <p>Supported by <a href="/what-we-do/oct">cutting edge technology</a>, our Adelaide and Woodville teams work with you to provide quality eye care and vision solutions. Your initial eye test with our optometrists will take approximately 45 minutes and will include an in-depth evaluation to determine your prescription and check for any eye conditions. Please ensure you bring along any glasses or contact lenses you currently use and recent referral letters.
 
-<a href="http://innovativeeyecare.com.au/contact">Click here to book an appointment</a>.
-
 </div>
 
 Our caring team will guide you through each step to ensure that you understand every aspect of the eye exam here at Innovative Eye Care. Our comprehensive consultation involves:
@@ -52,9 +50,5 @@ We will discuss our findings with you and provide recommendations tailored to yo
 - Medicare card
 - Concession cards (including Department of Veteran Affairs card if applicable)
 - Private health insurance card (if applicable)
-
-<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\[if IE]><iframe frameborder="0" type="text/html" src="https://2689-2347.captiv8online.com/animations/embed/one/eye-exam?player_width=100%&player_height=100%&site_company_language=34&autostart=false" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\[endif]--><!--\[if !IE]> <--><object data="https://2689-2347.captiv8online.com/animations/embed/one/eye-exam?player_width=100%&player_height=100%&site_company_language=34&autostart=false" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://2689-2347.captiv8online.com/animations/embed/one/eye-exam?player_width=100%&player_height=100%&site_company_language=34&autostart=false">Eye Exam</a></object><!--> <!\[endif]--></div>
-
-<br>
 
 This practice strives to provide the highest level of optometric health care and to ensure the best results for each patient. To find out more about how your eye examination is billed in the light of the 2014 Budget please click [here](/what-we-do/exam-billing).

@@ -2,7 +2,7 @@
 title: Sclerals changing the journey for keratoconus
 date: 2017-11-03
 author: Karl Evans
-preview_image:
+preview_image: /uploads/scleral-5.jpg
 ---
 
 It used to be that the vision journey for people with progressing keratoconus was that they would wear glasses until their vision wasn’t good enough in them and then wear rigid gas permeable (RGP) contact lenses until they became too uncomfortable. Once RGPs could no longer be tolerated then the final option was a corneal graft to reduce the steepness so that an RGP lens could again be worn over the graft. Now we have two new treatments - corneal crosslinking to attempt to halt the progression of keratoconus and also scleral contact lenses which are able to fit much more extremely steep corneas comfortably and with good vision.

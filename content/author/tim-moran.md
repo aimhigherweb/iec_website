@@ -1,12 +1,11 @@
 ---
 title: Tim Moran
+jobtitle: Optical Technician
+photo: /uploads/staff-tim.png
 skill1: DISPENSING
 skill2: DEDICATION
 skill3: SMILEY
 skill4: STORY TELLING
-date: 2018-11-05T00:00:00.000Z
-jobtitle: Optical Technician
-photo: /uploads/staff-tim.png
 rating1: 100
 rating2: 90
 rating3: 100

@@ -13,12 +13,12 @@ DED is often the natural sequelae of decades of chronic blepharitis. In 1946, Ph
 
 Belonging to the arachnoid species, Demodex mites live in the base of the eyelash follicles and meibomian glands. Lacking an anus, Demodex mites store their faeces internally in a crystallised form until they decompose, releasing their internal contents onto the host eyelid margin (4). The combination of the biofilm bacterial virulence factors, and large numbers of dying Demodex mites creates a domino effect, first follicular inflammation, then [meibomian gland dysfunction](/what-we-do/meibomian-gland-dysfunction), lid wiper epitheliopathy, aqueous insufficiency through inflammatory damage to the accessory lacrimal glands of Wolfring and Krause, destruction of the eyelid anatomy, and ultimately ocular surface disease.
 
-![](demodex.jpg)
+![](/uploads/demodex.jpg)
 _Fig 1. Demodex folliculorum on an epilated eyelash_
 
 Antonie van Leeuwenhoek made the first known microscopic observation of a biofilm in 1684; oral bacteria within the scurf of a man’s teeth (5). Over 100 years ago, no one brushed their teeth or practiced any form of regular oral hygiene, chronic gingivitis preceded eventual tooth loss and dentures were the norm. Dentistry has effectively educated the world on regular and routine oral hygiene and we visit their practices for regular cleaning with the dental hygienist to remove biofilms from our teeth and gums. With nearly 337 million people suffering from dry eye syndrome worldwide (6), to quote Benjamin Franklin, “an ounce of prevention is better than a pound of cure”. The pound of cure is expected to generate US\$4.5 billion by 2020. Can and should the eye care industry prevent dry eye through effectively treating blepharitis and eventual meibomian gland loss before our patients are symptomatic? Is dry eye and blepharitis one entity, that is dry eye blepharitis syndrome or DEBS, reflecting, in fact, a single disease process rather than two distinct processes? As primary eye care practitioners, optometrists have the opportunity to play a key role in the prevention, not just the treatment of dry eye disease, by supporting the increasingly strong argument that blepharitis and dry eye should be treated and prevented by early and routine biofilm removal with [microblepharoexfoliation](/what-we-do/blephex) and regular and routine eyelid hygiene.
 
-![](blephex.jpg)
+![](/uploads/blephex.jpg)
 _Fig 2. An Eyelid before and after in-office treatment with [microblepharoexfoliation](/what-we-do/blephex)_
 
 **References**

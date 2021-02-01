@@ -123,7 +123,11 @@ const PracticeLocations = (show, bookingToggleCallback) => {
             <FooterContactSpacer />
             <FooterContactIcon icon={faMapMarker} />
             <FooterContactText>
-              <a href="https://g.page/iecadel?share">
+              <a
+                href="https://g.page/iecadel?share"
+                target="_blank"
+                rel="noreferrer"
+              >
                 60 Hutt Street
                 <br />
                 Adelaide SA 5000
@@ -170,7 +174,11 @@ const PracticeLocations = (show, bookingToggleCallback) => {
             <FooterContactSpacer />
             <FooterContactIcon icon={faMapMarker} />
             <FooterContactText>
-              <a href="https://g.page/iecwoodville?share">
+              <a
+                href="https://g.page/iecwoodville?share"
+                target="_blank"
+                rel="noreferrer"
+              >
                 850 Port Road
                 <br />
                 Woodville SA 5011

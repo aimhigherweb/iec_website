@@ -1,12 +1,10 @@
 import React from "react"
 
-import Header from "../components/Header"
+//import Header from "../components/Header"
 
 const Page404 = () => {
   return (
     <>
-      <Header />
-
       <div className="content-section">
         <div className="container">
           <div className="content-section__haeding">

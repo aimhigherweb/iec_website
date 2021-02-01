@@ -17,4 +17,4 @@ I was also given the opportunity to assist a school vision screening at Pedare J
 
 Overall, I am very fortunate to complete my placement at Innovative Eye Care and have learnt many things which I will carry throughout the rest of my studies and career. Working with such incredible people and having the opportunity to continue to expand my clinical skills outside of the university-based clinics has been very rewarding and motivating.
 
-![](resized_20180601_173147_6618.jpg)
+![](/uploads/resized_20180601_173147_6618.jpg)

@@ -5,7 +5,7 @@ author: Millie Meegan
 preview_image: /uploads/melina-placement.jpg
 ---
 
-![](melina.jpg)
+![](/uploads/melina.jpg)
 
 My name is Melina and I am an optometry student in my fourth year of study at Flinders University. I have recently begun the placement phase of the degree, and was lucky enough spend six weeks at Innovative Eye Care at Woodville. It is fantastic to have such a specialised practice as a placement partner with Flinders, allowing students to learn and experience through hands on work with patients.
 

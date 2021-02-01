@@ -5,7 +5,7 @@ author: Karl Evans
 preview_image: /uploads/seurat.jpg
 ---
 
-![](visual_snow.gif)
+![](/uploads/visual_snow.gif)
 
 Visual Snow is a symptom which is often described as if television static, or the image of a de-tuned analogue TV, is seen on top of otherwise normal vision. It is a chronic, mainly visual condition but may also involve migraine, tinnitus, tremor or balance problems. It is typically either present for as long as memorable or may also occur suddenly in the mid 20s. It has been an elusive condition to understand as it presents with no observable disease of the eyes or brain.
 

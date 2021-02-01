@@ -4,7 +4,6 @@ date: 2020-05-07T04:48:18.112Z
 author: Dylan Bentley
 preview_image: /uploads/photo-1563986768609-322da13575f3.jpeg
 ---
-
 <div><p>Visual hygiene is a phrase that is often used in optometry, but it's a concept that can be confusing. It essentially involves allowing the visual system to operate in the most comfortable conditions possible. From <a href="https://www.innovativeeyecare.com.au/what-we-do/childrens-vision">children learning to read</a> for the first time, to  <a href="https://www.innovativeeyecare.com.au/what-we-do/presbyopia">mum and dad working from home</a>, to <a href="https://www.innovativeeyecare.com.au/what-we-do/presbyopia">grandma and grandpa</a> sitting down and reading the newspaper in the morning – nearly everybody can benefit by improving their visual hygiene.
 
 Recently, computer vision syndrome has emerged as a term that describes a group of eye and vision related problems resulting from poor visual hygiene when using a computer. It affects <b>50-90% of computer users</b>, with common symptoms including eye strain, blurred vision, double vision, headaches and dry eyes.<sup>1</sup>

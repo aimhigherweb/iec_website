@@ -7,7 +7,7 @@ preview_image: /uploads/cvd.png
 
 Colour is not always as simple as it looks. Like many aspects of our perception and even memory, colours are shoehorned by our visual system to fit the context in which we see them. That shoehorning process changes how colours look. The blue/yellow dress debate is a classic example. Colours will look different depending on the colour that surrounds them, the light that falls on them, or colours that you have looked at immediately before or with your memory of what an object should be coloured.
 
-![](colour-vision-wired.png)
+![](/uploads/colour-vision-wired.png)
 photo credit : [link](http://wired.com)
 
 So colour is rarely fixed but some people’s eyes are structurally different in the way they discern colour and can have an impact on everyday life, like choosing clothes or picking ripe fruit.
@@ -16,12 +16,12 @@ The vast majority of the time this is down to a genetic abnormality that alters 
 
 To the right is a colour confusion diagram. This demonstrates the extreme cases but allows easier understanding of abnormal colour vision - colours along each line will look the same:
 
-![](colour-vision-3.jpg)
+![](/uploads/colour-vision-3.jpg)
 Development of and differences in color vision. (2015). In A. Elliot, M. Fairchild, & A. Franklin (Eds.), Handbook of Color Psychology (Cambridge Handbooks in Psychology, pp. 131-146). Cambridge: Cambridge University Press.
 
 The red-green colour gene is on the X chromosome so affects mostly males (8%) and females only in rare cases (0.4%). An affected male will pass on the gene so that all daughters are carriers but no sons are affected. Then 50% of the carrier’s sons will be affected and 50% of the carrier’s daughters will also be carriers.
 
-![](colour-vision-2.jpg)
+![](/uploads/colour-vision-2.jpg)
 photo credit : [link](http://colourblindnesss.weebly.com)
 
 There is no cure for congenital colour vision deficiencies but they also often don’t cause significant problems in day to day life. Congenital colour vision deficiencies can span the spectrum of very mild to profound with 25% of people with colour vision deficiencies not aware of their condition.

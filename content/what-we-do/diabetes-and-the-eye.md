@@ -1,58 +1,50 @@
 ---
 title: Diabetes & The Eye
 category: "SE09"
-preview_image: diabetic_retinopathy.jpg
+preview_image: elderly-px.jpg
 ---
-
 <div class="employee-heading">
-<p>After diabetes has been present for some years, changes may occur at the back of the eye in the retina, known as diabetic retinopathy. Your optometrist may use an instrument called an ophthalmoscope and <a href="what-we-do/retinal-photography">posterior imaging</a> that will clearly show these changes. There are two main types of this condition: non-proliferative (sometimes called background) retinopathy and proliferative retinopathy. The risk of developing retinopathy increases with the length of time you have had diabetes and is also increased when blood glucose levels are not well controlled over time. All diabetics should ensure they visit their optometrist at least every two years for a thorough <a href="/what-we-do/eye-exam">examination</a>.</p>
+<p>Diabetes is a condition which can affect many systems in the body. It occurs when the level of sugar (glucose) in our blood is higher than normal. There are two main types of diabetes: type 1 and type 2. Type 1 diabetes is autoimmune, meaning the immune system of your body attacks its own cells in the pancreas that control levels of blood glucose.<sup>1</sup> Type 2 diabetes is a progressive condition where the body becomes resistant to the effects of and/or slowly produces less of the glucose-controlling hormone, insulin.<sup>1</sup> Both type 1 and type 2 diabetes can cause changes to the tissues and blood vessels at the front and back of the eye after a period of time.<sup>1</sup> All diabetics should ensure they visit their optometrist at least annually for a thorough <a href="/what-we-do/eye-exam">examination</a>.</p>
 </div>
 
-<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\\\\\[if IE]><iframe frameborder="0" type="text/html" src="https://2689-2347.captiv8online.com/animations/embed/one/d-t-t-op-t?player_width=100%&player_height=100%&site_company_language=34&autostart=false" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\\\\\[endif]--><!--\\\\\[if !IE]> <--><object data="https://2689-2347.captiv8online.com/animations/embed/one/d-t-t-op-t?player_width=100%&player_height=100%&site_company_language=34&autostart=false" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://2689-2347.captiv8online.com/animations/embed/one/d-t-t-op-t?player_width=100%&player_height=100%&site_company_language=34&autostart=false">Diabetes: Overview</a></object><!--> <!\\\\\[endif]--></div>
+<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\\\\\\\[if IE]><iframe frameborder="0" type="text/html" src="https://2689-2347.captiv8online.com/animations/embed/one/d-t-t-op-t?player_width=100%&player_height=100%&site_company_language=34&autostart=false" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\\\\\\\[endif]--><!--\\\\\\\[if !IE]> <--><object data="https://2689-2347.captiv8online.com/animations/embed/one/d-t-t-op-t?player_width=100%&player_height=100%&site_company_language=34&autostart=false" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://2689-2347.captiv8online.com/animations/embed/one/d-t-t-op-t?player_width=100%&player_height=100%&site_company_language=34&autostart=false">Diabetes: Overview</a></object><!--> <!\\\\\\\[endif]--></div>
 
 <br>
 
 #### Diabetic retinopathy
 
-##### Non-proliferative retinopathy
+Diabetic retinopathy (DR) is a condition where high blood sugar levels damage the small blood vessels (or capillaries) in the back of your eye, also known as the retina. The risk of developing these changes increases the longer you have had diabetes and the less controlled it is. There are two major categories of diabetic retinopathy:
 
-Increased glucose concentration in the blood affects the circulatory system in diabetics. Initially this causes the small vessels in the retina to become weak, which can lead to small bulges in the vessels called microaneurysms, or the vessels can leak causing haemorrhages and exudates (collections of lipid residues). This is termed non-proliferative retinopathy. These leaks can cause swelling of the retina, and if this occurs in the macula (responsible for perceiving sharp detail), it can affect the quality of your vision. Occasionally a swelling of the retina may cause hazy vision or straight lines to appear bent. Your optometrist may instruct you in a simple procedure to carry out at home so that you can test your eyes for this condition. Improvements in diabetic control and co-morbidities such as blood pressure and cholesterol can help resolve these changes. Sometimes a focal laser treatment is needed to close off very leaky vessels.
+1. Non-proliferative: The capillaries in the retina become weak, leading to small bulges in the vessel wall (microaneurysms) and other vessel wall changes, causing reduced blood circulation in the retina.<sup>3</sup> 
+2. Proliferative: Damage to vessels becomes so severe that the retina is significantly starved of oxygen, leading to the creation of new, leaky vessels to compensate which can cause extensive bleeding and sudden vision loss.<sup>3</sup>
 
-##### Proliferative retinopathy
+![](/uploads/diabetic-retinopathy.jpg)
 
-Proliferative changes occur if areas of the retina become starved of oxygen. This leads to fragile new blood vessels growing to resupply the starved tissue. Unfortunately these vessels leak easily and can bleed, causing sudden vision loss. If these new vessels scar and constrict they can pull on the retina and lead to a retinal detachment. Patients may need a procedure where laser burns are used to kill off some of the less-important peripheral retina if the vessels are very leaky. This decreases the oxygen demand of the central retina and helps prevents further changes.
+#### Other complications of diabetes
 
-#### Common signs & symptoms of diabetic change in the eye
-
-##### Changeable focusing ability
-
-Diabetes sometimes causes the focusing ability of the eye to weaken or fluctuate from day to day due to swelling of the crystalline lens inside the eye. This characteristic has often led to optometrists diagnosing diabetes in their patients. The problem eases when blood glucose levels are well controlled.
-
-##### Double vision
-
-This is a distressing but rare complication of diabetes. The condition is usually temporary but it may last for a few months. An optometrist can help to treat it while it has effect. Diabetes is not the only cause of double vision so it is best to have this checked by your optometrist if it occurs.
-
-##### Dry eye
-
-Diabetics experience higher rates of ocular surface disease such as dry eye. Research shows that most cases of dry eye associated with diabetes are caused by insufficient production of tears due to "autonomic neuropathy" affecting the nerves that control the lacrimal gland. That is, the same process leading to diabetic peripheral neuropathy that causes symptoms like tingling or burning in the hands and feet, can also affect the nerves that normally sense dryness and produce moisture to keep the eyes well lubricated. See our dry eye page for more information [here](/what-we-do/dry-eye-disease).
-
-![](/uploads/diabetes.jpeg)
-
-#### Managing diabetic retinopathy
-
-Controlling blood glucose over time significantly reduces the risk of developing retinopathy, but does not eliminate it. The best management is to have regular [eye examinations](/what-we-do/eye-exam) so that changes can be detected and treated early. It is advisable for all people with diabetes to have annual eye examinations. People who have been diagnosed as having retinopathy should have eye examinations more frequently than once a year. In addition, regular visits to your general practitioner or endocrinologist may help to control blood glucose levels.
-
-<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\\\\\[if IE]><iframe frameborder="0" type="text/html" src="https://2689-2347.captiv8online.com/animations/embed/one/diab-treat?player_width=100%&player_height=100%&site_company_language=34&autostart=false" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\\\\\[endif]--><!--\\\\\[if !IE]> <--><object data="https://2689-2347.captiv8online.com/animations/embed/one/diab-treat?player_width=100%&player_height=100%&site_company_language=34&autostart=false" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://2689-2347.captiv8online.com/animations/embed/one/diab-treat?player_width=100%&player_height=100%&site_company_language=34&autostart=false">Diabetes: Treatments</a></object><!--> <!\\\\\[endif]--></div>
-
-<br>
+* **Cataract:** The lens at the front of the eye becomes clouded with reduced oxygen delivery.<sup>4</sup>
+* **Changing focussing ability:** Focus may weaken or fluctuate from day to day due to swelling of the lens.<sup>4</sup> This has often led to the diagnosis of diabetes in many cases. The problem eases when blood glucose levels are well controlled.
+* **Blurred or 'greyed-out' vision:** Fluid build-up in the back of the eye with leakage of blood vessels near the very centre of vision, known as diabetic macular oedema, prevents light from being effectively transmitted.<sup>3</sup>
+* **Double vision:** This is a distressing but rare complication of diabetes.<sup>4</sup> The condition is usually temporary but it may last for a few months. An optometrist can help to treat it while it has effect. Diabetes is not the only cause of double vision so it is best to have this checked by your optometrist if it occurs.
+* **Dry eyes:** Most cases of diabetic dry eye arise when the nerves that supply the tear gland (lacrimal gland) become damaged.<sup>4</sup> This is the same process that causes symptoms like tingling or burning in the hands and feet, can also affect the nerves that normally sense dryness of the eye and signal for more tear production. See our dry eye page for more information [here](/what-we-do/dry-eye-disease).
 
 #### Diabetic care at Innovative Eye Care
 
-The role of optometry in diabetic management in retinal health is that of close monitoring and communication with other health professionals involved in your diabetic care. If we detect the development of diabetic retinopathy we can instigate changes to the diabetic control with the help of the patient's general practitioner or endocrinologist. If needed we can also refer to ophthalmology for a surgical opinion.
+Controlling blood glucose over time significantly reduces the risk of developing retinopathy, but does not eliminate it. Routine [eye examinations](/what-we-do/eye-exam) are the best management to prevent or detect diabetes-related complications sooner rather than later.
 
-At Innovative Eye Care we recommend a dilated eye exam to best assess the health of the retina. Dilating the pupils enables us to get a much clearer view of the back of the eye. Dilating drops last for 4-6 hours and may cause glare and blurry vision. Because of this we recommend not driving following a diabetic retinal examination.
+Our optometrists will often use eye drops to increase your pupil size (dilating drops), allowing for a better view into the back of the eye. A good analogy is like looking through a keyhole compared to opening up the door. A full dilated retinal examination is recommended at least once a year to monitor for retinal signs of diabetes, which are often stealthy and change without your knowledge. Dilating drops last for 4-6 hours and can cause glare and blurry vision, so we recommend waiting for a short period before driving.
 
-We use a range of equipment on the forefront of diagnostics during a [comprehensive diabetic health exam](/what-we-do/eye-exam). This includes [retinal photography](/what-we-do/retinal-photography) to record and monitor subtle signs in the retina, examination using bio-microscopy to stereoscopically assess both the central and peripheral retina, and [optical coherence tomography](/what-we-do/oct), a technology that can scan the retinal layers to look for swelling and other damage. Some of the additional tests necessary for a comprehensive diabetic retinal examination fall outside of what is covered by Medicare. Because of this there may be additional charges to cover the cost of the equipment and consumables. Find out more about exam billing [here](/what-we-do/exam-billing).
+With the aid of our Heidelberg OCT, we are able to detect signs of diabetic retinopathy and diabetic macular oedema in all stages of the conditions. With the addition of OCT-A imaging, we can perform non-invasive 3D scans of the blood vessel network in the eye. Monitoring the movement of individual blood cells allows for greater analysis of diabetic eye health. We also have specialised equipment to help detect and manage cataracts and dry eye disease, including corneal tomography and topography, slit lamp biomicroscopy and anterior eye imaging.
 
-![](/uploads/diabetes-prp-treatment.png)
-_An image captured by the Heidelberg OCT showing evidence of proliferative diabetic retinopathy (top) and the same retina after treatment with anti-vascular injections._
+The role of optometry in diabetic management is that of close monitoring and communication with other health professionals involved in your diabetic care. If we detect the development of diabetic retinopathy we can alter diabetic control and management with the help of your GP, endocrinologist and ophthalmologist.
+
+![](/uploads/diabetes-prp-treatment.png) *An image captured by the Heidelberg OCT showing evidence of proliferative diabetic retinopathy (top) and the same retina after treatment with anti-vascular injections.*
+
+<br>
+
+##### References
+
+1. Sapra A, Bhandari P. Diabetes Mellitus. In:StatPearls \[Internet]. Treasure Island (FL):StatPearlsPublishing; 2020 \[cited 2020 Nov 19]. Available from: http://www.ncbi.nlm.nih.gov/books/NBK551501/
+2. Diabetes Australia. Diabetes in Australia \[Internet]. n.d. \[cited 2020 Nov 19]. Available from: https://www.diabetesaustralia.com.au/about-diabetes/diabetes-in-australia/
+3. Fraser CE, D’Amico DJ. Diabetic retinopathy: Prevention and treatment \[Internet]. 2014 \[cited 2016 Oct 14]. Available from: https://www.uptodate.com/contents/diabetic-retinopathy-prevention-and-treatment?source=see_link
+4. Sayin N, Kara N, Pekel G. Ocular complications of diabetes mellitus. World J Diabetes. 2015 Feb 15;6(1):92–108.

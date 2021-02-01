@@ -3,7 +3,6 @@ title: Colour Vision Testing
 category: "SE10"
 preview_image: colour-vision.jpeg
 ---
-
 <div class="employee-heading">
 
 <p>Colour vision deficiencies are the inability for an individual to distinguish various shades of colour. They can come in multiple types but red-green colour vision defects are the most common. Our optometrists at the Adelaide and Woodville branches of Innovative Eye Care use innovative equipment to detect various types of colour vision deficiencies.
@@ -14,7 +13,7 @@ Visible light is the part of the electromagnetic spectrum that human eyes are ab
 
 ![](/uploads/visible-spectrum.png)
 
-**_Why do objects appear as different colours?_**
+***Why do objects appear as different colours?***
 
 Objects can either absorb or reflect specific wavelengths of light. The colour of an object depends on which wavelengths of light are reflected by the object and enter our eyes. Let’s use a red apple as an example. When white light (which is composed of all wavelengths of visible light) shines onto an apple, the molecules within the apple absorb blue and violet wavelengths of light and reflect red wavelengths of light. This results in the apple having a red colour. If we were to shine only blue light onto the apple, all the blue light would be absorbed meaning that the apple would appear black (as seen in the picture).
 
@@ -54,18 +53,17 @@ Within those broad categories exist further classification which classifies base
 
 Therefore the possible colour vision deficiencies are as follows:
 
-- Rod monochromacy
-- Red-green colour vision deficiencies
+* Rod monochromacy
+* Red-green colour vision deficiencies
 
-  - Protanope
-  - Deuteranope
-  - Protanomalous trichromat
-  - Deuteranomalous trichromat
+  * Protanope
+  * Deuteranope
+  * Protanomalous trichromat
+  * Deuteranomalous trichromat
+* Blue-yellow colour vision deficiencies
 
-- Blue-yellow colour vision deficiencies
-
-  - Tritanope
-  - Tritanomalous trichromat
+  * Tritanope
+  * Tritanomalous trichromat
 
 For example, if someone has a missing red cone but normal green and blue cones, they would be described as a protanope. If someone has a green cone which detected a different colour than normal but functional red and blue cones, they would be described as a deuteranomalous trichromat.
 
@@ -83,19 +81,19 @@ The gene responsible for blue-yellow deficiencies is located on chromosome 7 mea
 
 At Innovative Eye Care, we have a range of tool which are use to test an individual's colour vision.
 
-**_Ishihara Pseudoisochromatic Plates_**
+***Ishihara Pseudoisochromatic Plates***
 
 This is the most commonly performed colour vision test and involves the identification of various numbers embedded in dots of colour. Individuals with colour vision deficiencies will have difficulties distinguishing any numbers. This test is a very efficient screening tool for red-green deficiencies but is unable to detect blue-yellow colour problems. It is a required entrance test for several professions including the armed forces, aviation and jobs in the railway industry.
 
 ![](https://lh6.googleusercontent.com/M0ykdwv2O4BhipFBPWmVQf8mOW8fb5xRpZ3CJ3SD741MoWW5delZHD4dZhV7rW71fjlIraDSMoURa9-RnUKMWGoxN9vJmGjpXLS5V8QYITk22VKwinFnbYztH78VSvK3j-i-E0wU)
 
-**_Farnsworth D15_**
+***Farnsworth D15***
 
 This test consists of 16 coloured caps each containing a piece of paper of different colour. The patient is asked to place one of the caps that is closest in colour to the reference cap in the box next to it. This is continued until all caps are placed in the box. This test, unlike the Ishihara test, is able to detect red-green and blue-yellow defects.
 
 ![](/uploads/d15.png)
 
-**_Medmont C100 Colour Vision Test_**
+***Medmont C100 Colour Vision Test***
 
 This test requires the patient to look into a small electronic box and adjust a knob located at the top of the box to a point where the yellow light flicker disappears or is at a minimum. This test is able to distinguish protan and deutan but interestingly, it can also diagnose women who may have normal colour vision but are carriers of the abnormal gene for protan or deutan colour defect.<sup>4-6</sup>
 
@@ -107,24 +105,24 @@ Currently, there is no cure for any types of colour blindness however most peopl
 
 Importantly, some colour vision deficiencies can be acquired later in life due to various ocular conditions and therefore colour vision testing in these individuals can aid in the diagnoses of specific diseases.<sup>7-8</sup>
 
-**_Occupational and Daily Living Counselling_**
+***Occupational and Daily Living Counselling***
 
 An important aspect of the management of colour vision deficiencies include occupational counselling. Normal colour vision is required (with some exceptions) for the following professions:
 
-- Commercial aircraft pilots
-- Commercial marine license
-- Metropolitan fire services
-- Police forces
-- Electrician
-- Train driver
+* Commercial aircraft pilots
+* Commercial marine license
+* Metropolitan fire services
+* Police forces
+* Electrician
+* Train driver
 
 Colour vision defects can also affect other professions including those centered around art, textiles and painting, horticulture, cartography, histopathology and pharmacy. Other counselling revolves around adaptations in daily living tasks such as cooking (determining if meat is cooked), clothing choices, driving (identification of traffic lights) and general wellbeing (identification of rashes and sunburns).
 
-**_Colour Blind Glasses - Do they work?_**
+***Colour Blind Glasses - Do they work?***
 
 You may have seen viral and emotional videos on the internet of people with colour vision deficiencies trying on colour blind glasses for the first time. The way these glasses work is by absorbing and filtering out wavelengths of light between green and red that normally lead to colour confusion in the brain’s of people with colour vision defects. This ultimately enhances the contrast between red and green colours however the results for most people can vary greatly. As stated above, there is no cure for colour vision abnormalities and in no way, do these spectacles modify a person’s cones, optic nerve or brain in order to fix a colour vision anomaly. It is important to understand that these glasses reduce the total amount of light entering the eye and therefore it is not recommended to wear these spectacles at night time. Furthermore, they can be quite costly and are usually not covered by private health insurance.
 
-**_Future Research_**
+***Future Research***
 
 There is current research looking into gene therapy for colour vision deficiencies. Researchers were able to restore colour vision in two adult monkeys which had red-green colour deficiencies however it is important to understand that more research is required in this field before human testing is even considered.<sup>9-10</sup>
 

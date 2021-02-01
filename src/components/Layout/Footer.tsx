@@ -170,7 +170,11 @@ const FooterDiv = (show) => {
             <FooterContactSpacer />
             <FooterContactIcon icon={faMapMarker} />
             <FooterContactText>
-              <a href="https://g.page/iecadel?share">
+              <a
+                href="https://g.page/iecadel?share"
+                target="_blank"
+                rel="noreferrer"
+              >
                 60 Hutt Street
                 <br />
                 Adelaide SA 5000
@@ -202,7 +206,11 @@ const FooterDiv = (show) => {
             <FooterContactSpacer />
             <FooterContactIcon icon={faMapMarker} />
             <FooterContactText>
-              <a href="https://g.page/iecwoodville?share">
+              <a
+                href="https://g.page/iecwoodville?share"
+                target="_blank"
+                rel="noreferrer"
+              >
                 850 Port Road
                 <br />
                 Woodville SA 5011
@@ -298,13 +306,21 @@ const FooterDiv = (show) => {
             </div>
 
             <div>
-              <a href="https://www.facebook.com/innovativeeyecareadelaide">
+              <a
+                href="https://www.facebook.com/innovativeeyecareadelaide"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <FooterNewsletterIcon
                   icon={faFacebook}
                   style={{ color: "#828282" }}
                 />
               </a>
-              <a href="https://www.instagram.com/innovative.eye.care">
+              <a
+                href="https://www.instagram.com/innovative.eye.care"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <FooterNewsletterIcon
                   icon={faInstagram}
                   style={{ color: "#828282" }}

@@ -1,7 +1,7 @@
 ---
 title: Conjunctivitis
 category: "SE07"
-preview_image: conjunctivitis.jpg
+preview_image: conjunctivitis-preview.jpg
 ---
 
 <div class="employee-heading">
@@ -21,14 +21,14 @@ If you have some form of allergic or toxic conjunctivitis, it is important to co
 
 #### Allergic conjunctivitis
 
-To manage allergic conjunctivitis, you should focus on prevention or avoidance of the allergens that trigger your symptoms.
+To manage allergic conjunctivitis, you should focus on prevention or avoidance of the allergens that trigger your symptoms. 
 
 ##### Tips to reduce your exposure to allergens that cause allergic conjunctivitis:
 
-- Stay indoors when the wind is blowing pollen
-- Wear spectacles or sunglasses outdoors
-- Avoid rubbing your eyes
-- Reduce dust mite exposure in your home
-- Wash hands straight after patting animals
+* Stay indoors when the wind is blowing pollen
+* Wear spectacles or sunglasses outdoors
+* Avoid rubbing your eyes
+* Reduce dust mite exposure in your home
+* Wash hands straight after patting animals
 
 ![](/uploads/conjunctivitis.jpg)
