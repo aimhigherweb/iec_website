@@ -5,8 +5,6 @@ import React from "react"
 const Page404 = () => {
   return (
     <>
-      <Header />
-
       <div className="content-section">
         <div className="container">
           <div className="content-section__haeding">
