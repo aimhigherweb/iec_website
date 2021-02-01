@@ -100,9 +100,9 @@ It is very rare for a lens to break in your eye unless something hits your eye o
 
 #### In case of breakage
 
-We understand that when you are learning how to use your lenses you may be inadvertently forceful during insertion, removal or cleaning. Because of this we offer a 1 month manufacturer’s replacement warranty on accidental breakages. Outside of this period, your lens is not covered by a warranty and the lens will need to be replaced at your cost if damaged or lost. If you break a lens within 18 months of its original purchase/fit then we are happy to offer 50% off the price. Outside of this 18 month period the lens will be full-price.
+We understand that when you are learning how to use your lenses you may be inadvertently forceful during insertion, removal or cleaning. Because of this we offer a 1 month manufacturer’s replacement warranty on accidental breakages. Outside of this period, your lens is not covered by a warranty and the lens will need to be replaced at your cost if damaged or lost.
 
-Normally a lens will take less than one week to arrive from the lab when ordered. If you are very dependent on the lens, we will of course ask our lens company to manufacture it as soon as possible. Because of the inevitable waiting time, we encourage all scleral lens wearers to have a spare set of lenses available for a situation where a lens is lost or broken. We also offer 50% off the full price for a spare lens if purchased within 12 months of the original. 
+Normally a lens will take less than one week to arrive from the lab when ordered. If you are very dependent on the lens, we will of course ask our lens company to manufacture it as soon as possible. Because of the inevitable waiting time, we encourage all scleral lens wearers to have a spare set of lenses available for a situation where a lens is lost or broken. 
 
 If you do lose or damage a lens, please don’t fret, just give our friendly team a call and we will arrange a replacement as quickly as we can.
 
