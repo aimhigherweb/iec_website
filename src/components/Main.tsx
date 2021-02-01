@@ -49,7 +49,7 @@ const Menu = styled.div`
   border: ${DEBUG_MAIN};
 `
 const MainHeaderFiller = styled.div`
-  height: 100px;
+  height: 88px;
 `
 
 const MainMenu = styled.div`
@@ -71,6 +71,10 @@ const MainMenuItem = styled.div`
   font-weight: 600;
   text-align: right;
   cursor: pointer;
+  @media (max-width: ${MAX_WIDTH_PX}) {
+    font-size: 1.1em;
+    margin: 12px 20px;
+  }
 `
 
 const MainFooter = styled.div`

@@ -17,7 +17,6 @@ const MAX_WIDTH_PX = `${MAX_WIDTH}px`
 
 const BlogSection = styled.div`
   padding: 40px 10%;
-  padding-top: 110px;
   @media (max-width: ${MAX_WIDTH_PX}) {
     padding: 20px 0px;
   }
