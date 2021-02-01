@@ -11,4 +11,4 @@ jobs:
       - name: Install Dependencies 
         run: npm install
       - name: Prettier 
-        run: prettier --check .
+        run: npm run format:check
