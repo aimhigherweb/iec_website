@@ -421,6 +421,7 @@ const WhoWeAre: React.FC = ({ data }) => {
         true,
         video,
         null,
+        null,
         session.current.showSearch,
         session.current.showBooking,
         session.searchToggle,

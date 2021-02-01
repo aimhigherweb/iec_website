@@ -242,6 +242,7 @@ const Contact: React.FC = () => {
         true,
         video,
         null,
+        null,
         session.current.showSearch,
         session.current.showBooking,
         session.searchToggle,

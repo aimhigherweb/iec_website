@@ -305,6 +305,7 @@ const BlogTemplate: React.FC = (props) => {
         null,
         null,
         null,
+        null,
         () => null,
         () => null
       )}

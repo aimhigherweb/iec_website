@@ -285,6 +285,7 @@ const PatientResTemplate: React.FC = (props) => {
         null,
         null,
         null,
+        null,
         () => null,
         () => null
       )}

@@ -25,6 +25,11 @@ const TeamTitle = styled.h1`
   text-align: center;
   font-family: "Times New Roman";
   font-size: 2em;
+  @media (max-width: ${MAX_WIDTH_PX}) {
+    font-size 1.5em;
+    padding: 0 10px;
+  }
+  border: ${DEBUG_TEAM};
 `
 
 const TeamStaffBar = styled.div`
@@ -404,13 +409,22 @@ const Home: React.FC = () => {
 
   console.log(`*** Home.RENDER`)
   const video = match ? null : "/videos/video-main.mp4"
-  const image = match ? "videos/main1.png" : null
+  const carousel = match
+    ? [
+        "videos/main0.png",
+        "videos/main1.png",
+        "videos/main2.png",
+        "videos/main3.png",
+        "videos/main4.png",
+      ]
+    : null
   return (
     <Container>
       {Main(
         true,
         video,
-        image,
+        null,
+        carousel,
         session.current.showSearch,
         session.current.showBooking,
         session.searchToggle,

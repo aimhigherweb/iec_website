@@ -186,6 +186,7 @@ const Blog: React.FC = (props) => {
         true,
         null,
         image,
+        null,
         session.current.showSearch,
         session.current.showBooking,
         session.searchToggle,
