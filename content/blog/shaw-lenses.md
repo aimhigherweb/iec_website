@@ -5,7 +5,7 @@ author: Karl Evans
 preview_image: /uploads/shaw-lenses.jpg
 ---
 
-Have you got an eye that’s just been lying about and not getting used much?
+Have you got an eye that’s just been lying about and not getting used much? 
 
 Having two eyes has many advantages. We can afford to lose one and still see. It allows us to compare the differences each eye sees and perceive a sense of 3D, depth, stereopsis. Also, the two eyes combine to be able to see in finer detail than each eye on its own. For all of these reasons we should want our eyes to be able to combine their information.
 
@@ -24,6 +24,6 @@ The thickness of the lens varies depending on the curvature combination and the 
 ![](refractive-index-and-lens-thickness.jpg)
 From: http://drrajivdesaimd.com/2015/03/26/refractive-error/
 
-Typically these factors are computed to give minimum lens thickness without a regard for image size or prism effect for a thinner, lighter, nicer looking pair of glasses. But if there is a prescription strength discrepancy between the eyes, they can be recalculated with a priority placed on balancing the image size. This is the extra processing that occurs when a Shaw lens is prescribed and will nearly always result in a thicker, heavier lens but a lens that allows the two eyes to work together better.
+Typically these factors are computed to give minimum lens thickness without a regard for image size or prism effect for a thinner, lighter, nicer looking pair of glasses. But if there is a prescription strength discrepancy between the eyes, they can be recalculated with a priority placed on balancing the image size. This is the extra processing that occurs when a Shaw lens is prescribed and will nearly always result in a thicker, heavier lens but a lens that allows the two eyes to work together better. 
 
 As a side note: if you only have good vision in one eye, please consider wearing glasses even if they don’t help you to see as they act as an important protective equipment for your only good eye. It’s unlikely to happen but if if you were to get injured, could you live with just the vision from your bad eye?
