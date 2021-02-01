@@ -49,7 +49,7 @@ const Menu = styled.div`
   border: ${DEBUG_MAIN};
 `
 const MainHeaderFiller = styled.div`
-  height: 100px;
+  height: 88px;
 `
 
 const MainMenu = styled.div`

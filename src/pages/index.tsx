@@ -403,13 +403,14 @@ const Home: React.FC = () => {
   const show = session.showAll()
 
   console.log(`*** Home.RENDER`)
-  const video = "/videos/video-main.mp4"
+  const video = match ? null : "/videos/video-main.mp4"
+  const image = match ? "videos/main1.png" : null
   return (
     <Container>
       {Main(
         true,
         video,
-        null,
+        image,
         session.current.showSearch,
         session.current.showBooking,
         session.searchToggle,
