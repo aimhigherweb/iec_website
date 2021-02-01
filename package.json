@@ -79,7 +79,7 @@
     "cy:run": "cypress run",
     "ci": "start-server-and-test serve http://localhost:8000 'cypress run --record --parallel'",
     "lint": "eslint . --ignore-path .gitignore --ext .ts,.tsx,.js",
-    "format": "prettier --write \"**/*.{js,jsx,json,md}\""
+    "format": "prettier --write ."
   },
   "repository": {
     "type": "git",
