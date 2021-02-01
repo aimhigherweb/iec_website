@@ -16,7 +16,6 @@ const SocialSection = styled.div`
 const SocialHeader = styled.div`
   position: relative;
   margin-bottom: 40px;
-  background-color: yellow;
   height: 200px;
   border: ${DEBUG_SOCIAL};
 `
