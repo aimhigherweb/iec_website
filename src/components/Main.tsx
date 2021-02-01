@@ -109,10 +109,11 @@ const MainSearch = styled.div`
   flex: 1;
   margin: 0 0 0 40px;
   @media (max-width: ${MAX_WIDTH_PX}) {
-    display: block;
+    /*display: block;
     margin: 20px 0px 4px 10px;
     width: 100%;
-    font-size: 0.8em;
+    font-size: 0.8em;*/
+    display: none;
   }
   border: ${DEBUG_MAIN};
 `
@@ -161,9 +162,9 @@ const MainBooking = styled.div`
   display: flex;
   margin: 0;
   @media (max-width: ${MAX_WIDTH_PX}) {
-    display: block;
+    /*display: block;
     padding: 0px 20px;
-    width: 100%;
+    width: 100%;*/
   }
 `
 const MainBookingItem = styled.div`
@@ -171,8 +172,7 @@ const MainBookingItem = styled.div`
   padding: 0px;
   flex: 1;
   @media (max-width: ${MAX_WIDTH_PX}) {
-    margin: 8px 0px;
-    width: auto;
+    margin: 10px 8px 12px 10px;
   }
 `
 const MainBookingButton = styled.div`
@@ -187,7 +187,8 @@ const MainBookingButton = styled.div`
   cursor: pointer;
   @media (max-width: ${MAX_WIDTH_PX}) {
     margin: 0;
-    padding: 8px 24px;
+    padding: 8px 50px;
+    font-size: 0.8em;
   }
 `
 
