@@ -26,7 +26,7 @@ const FooterSection = styled.div`
   border: ${DEBUG_CONTACT};
   border-top: 1px solid #e2e2e2;
   @media (max-width: ${MAX_WIDTH_PX}) {
-    padding: 20px 40px;
+    padding: 0px 0px;
   }
 `
 

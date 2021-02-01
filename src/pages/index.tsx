@@ -220,6 +220,9 @@ const StyleSection = styled.div`
   background-image: url("/images2/bg-section-style.png");
   background-size: cover;
   background-repeat: no-repeat;
+  @media (max-width: ${MAX_WIDTH_PX}) {
+    background-image: url("/images2/bg-section-style-mob.png");
+  }
 `
 
 const StyleTitle = styled.h1`
@@ -244,6 +247,12 @@ const StyleDescription = styled.div`
     font-weight: 600;
   }
   border: ${DEBUG_STYLE};
+`
+const StyleDescriptionExtra = styled.div`
+  display: block;
+  @media (max-width: ${MAX_WIDTH_PX}) {
+    display: none;
+  }
 `
 const StyleBookingButton = styled.button`
   margin-top: 8px;
@@ -361,7 +370,9 @@ const Style = (show, match, bookingToggleCallback) => {
         <StyleDescription>
           We&apos;ve made it easy to schedule your next appointment
           <br />
-          with our online booking system.
+          <StyleDescriptionExtra>
+            with our online booking system.
+          </StyleDescriptionExtra>
           <br />
           <StyleBookingButton
             onClick={() => bookingToggleCallback(true, BOOKING_ADL)}

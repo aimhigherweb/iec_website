@@ -18,7 +18,7 @@ const MAX_WIDTH_PX = `${MAX_WIDTH}px`
 
 const FooterSection = styled.div`
   padding: 20px 20px;
-  margin-bottom: 40px;
+  margin-bottom: 150px;
   border: ${DEBUG_FOOTER};
   border-top: 1px solid #e2e2e2;
   @media (max-width: ${MAX_WIDTH_PX}) {
@@ -81,7 +81,8 @@ const FooterContactText = styled.div`
   flex: 3;
   font-size: 0.5em;
   @media (max-width: ${MAX_WIDTH_PX}) {
-    flex: 1;
+    flex: 4;
+    font-size: 0.8em;
   }
   border: ${DEBUG_FOOTER};
 `
