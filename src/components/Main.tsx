@@ -3,6 +3,15 @@ import { navigate } from "gatsby"
 import styled from "styled-components"
 import { FaSearch, FaTimes } from "react-icons/fa"
 
+import Carousel from "react-multi-carousel"
+import "react-multi-carousel/lib/styles.css"
+const responsive = {
+  mobile: {
+    breakpoint: { max: 464, min: 0 },
+    items: 1,
+  },
+}
+
 import { useSession } from "../state/SessionWrapper"
 import { useMatchMedia } from "../hooks/useMatchMedia"
 import { SearchResults } from "../components/Search/SearchResults"
@@ -23,7 +32,9 @@ const MainHeader = styled.div`
     padding: 20px;
   }
   background-color: ${(props) =>
-    props.searchMode || props.bookingMode ? "#000000" : "#00000066"};
+    props.searchMode || props.bookingMode || props.carouselMode
+      ? "#000000"
+      : "#00000066"};
   border: ${DEBUG_MAIN};
 `
 const Logo = styled.img.attrs({
@@ -233,6 +244,7 @@ const MainDiv = (
   showFull,
   videoToPlay,
   imageToDisplay,
+  carouselToDisplay,
   showSearch,
   showBooking,
   searchToggleCallback,
@@ -279,7 +291,11 @@ const MainDiv = (
     <div>
       {!showBooking && (
         <>
-          <MainHeader searchMode={showSearch} bookingMode={showBooking}>
+          <MainHeader
+            searchMode={showSearch}
+            bookingMode={showBooking}
+            carouselMode={carouselToDisplay}
+          >
             <Logo onClick={() => navigate("/")} />
             <Menu onClick={() => setShowMenu(!showMenu)}>
               {!showMenu && <img src={"/images2/icon-menu.png"} />}
@@ -414,6 +430,21 @@ const MainDiv = (
       {!showSearch && showFull && imageToDisplay && (
         <MainImage>
           <img src={imageToDisplay} />
+        </MainImage>
+      )}
+      {!showSearch && showFull && carouselToDisplay && (
+        <MainImage>
+          <Carousel
+            responsive={responsive}
+            autoPlay={true}
+            infinite={true}
+            removeArrowOnDeviceType={["mobile"]}
+            ssr={true}
+          >
+            {carouselToDisplay.map((imageSrc) => {
+              return <img key={imageSrc} src={imageSrc} />
+            })}
+          </Carousel>
         </MainImage>
       )}
     </div>
