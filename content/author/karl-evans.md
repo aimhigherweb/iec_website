@@ -1,12 +1,11 @@
 ---
 title: Karl Evans
+jobtitle: Therapeutic Optometrist
+photo: /uploads/staff-karl.png
 skill1: DRY EYE & BLEPHARITIS
 skill2: DIABETES
 skill3: GLAUCOMA
 skill4: COLOUR VISION
-date: 2018-11-11T00:00:00.000Z
-jobtitle: Therapeutic Optometrist
-photo: /uploads/staff-karl.png
 rating1: 100
 rating2: 95
 rating3: 90
