@@ -1,7 +1,9 @@
 ---
 title: Corneal Tomography
 category: "SE05"
+preview_image: astig-.jpg
 ---
+
 <div class="employee-heading">
 
 <p>The Pentacam AXL Wave is the latest addition to Innovative Eye Care’s arsenal of advanced imaging technology at our Hutt Street branch. Its main functionality is as a tomographer. Tomography refers to the cross-sectional mapping of body tissues using non-invasive techniques. In relation to the cornea, tomography gives a complete view of both the front and back surfaces of the cornea.</p>
@@ -12,7 +14,7 @@ This machine uses Scheimpflug imaging to map the front and back surfaces of the 
 
 ![](/uploads/scheimpflug-db.jpg)
 
-*Figure 1: Scan of the front and back of the cornea, anterior chamber, front surface of the iris and lens, and eyelids.*
+_Figure 1: Scan of the front and back of the cornea, anterior chamber, front surface of the iris and lens, and eyelids._
 
 It also serves as a topographer (maps the eye’s front surface), an imager (captures the anterior eye’s structure), autorefractor (approximates refractive error extremely accurately), wavefront aberrometer (quantifies the eye’s lower-order and higher-order aberrations affecting vision) and ocular biometer (measures the physical parameters of the eye).
 
@@ -20,4 +22,4 @@ Due to its extensive abilities, the Pentacam AXL Wave has applications for all p
 
 ![](/uploads/pentacam-topography.jpg)
 
-*Figure 2: Various tomographic maps of a keratoconic eye as taken by the Pentacam AXL Wave.*
+_Figure 2: Various tomographic maps of a keratoconic eye as taken by the Pentacam AXL Wave._
