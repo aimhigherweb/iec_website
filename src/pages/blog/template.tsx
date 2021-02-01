@@ -5,6 +5,7 @@ import styled from "styled-components"
 import { useMatchMedia } from "../../hooks/useMatchMedia"
 import { Main } from "../../components/Main"
 import { Footer } from "../../components/Layout/Footer"
+import SEO from "../../layouts/partials/seo"
 
 //----------------------------------------------------------
 //-- Section 1: Detail
@@ -168,7 +169,7 @@ const Detail = (state, data) => {
 
   const { markdownRemark } = data
   const { preview_image, title, date } = markdownRemark.frontmatter
-  const { author } = markdownRemark.fields
+  const { author, slug } = markdownRemark.fields
   const authorTitle = author?.frontmatter?.title
   const authorPhoto = author?.frontmatter?.photo
 
@@ -214,6 +215,7 @@ const Detail = (state, data) => {
 
   return (
     <div>
+      <SEO title={title} image={preview_image} pathname={slug} />
       <TopHeader>
         <TopHeaderImage src={preview_image}></TopHeaderImage>
       </TopHeader>

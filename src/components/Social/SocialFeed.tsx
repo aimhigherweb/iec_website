@@ -99,26 +99,24 @@ const HREF_FB = "https://www.facebook.com/innovativeeyecareadelaide/"
 const obtainInstaFeed = async () => {
   console.log(`*** Home.obtainInstaFeed`)
 
-  const url = `${HREF_INSTA}/?__a=1`
+  const token =
+    "IGQVJVd0NKbmQ3T3FfUl9KbHZAiMFZAPeGFfckJnb3JqYjg1NGFfd3pQTEVqMjV6aWxMWjdnRGNCNnJLcEZAXMHFZAbWVvUGFSVXVqbVRvMm1wZAFlaMXZA2dEktUWRiWWVpMDZADN3V6a3RGaU5qRGZAYNy1lb1dfUm5GRFVxS1lZA"
+  const url = `https://graph.instagram.com/me/media?fields=id,caption,media_url&access_token=${token}`
   const response = await fetch(url)
   const json = await response.json()
 
   const result = []
   const MAX_ITEMS = 4
 
-  const { edge_owner_to_timeline_media } = json.graphql.user
-  if (edge_owner_to_timeline_media) {
-    const { edges } = edge_owner_to_timeline_media
-    if (edges?.length > 0) {
-      edges.forEach((edge) => {
-        const { display_url } = edge.node
-        if (display_url) {
-          if (result.length < MAX_ITEMS) {
-            result.push({ imageUrl: edge.node.display_url })
-          }
+  if (json.data) {
+    json.data.forEach((item) => {
+      const { caption, media_url } = item
+      if (media_url) {
+        if (result.length < MAX_ITEMS) {
+          result.push({ caption: caption, imageUrl: media_url })
         }
-      })
-    }
+      }
+    })
   }
 
   return result
