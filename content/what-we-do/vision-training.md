@@ -3,7 +3,6 @@ title: Vision Training
 category: "SE03"
 preview_image: childrens-vision.jpg
 ---
-
 <div class="employee-heading">
 
 <p>If your optometrist finds a binocular vision problem during your eye examination, it could be improved with with the use of vision training. These problems are often found in children but can be present in adults. At Innovative Eye Care, both our Adelaide and Woodville practices are equipped to prescribe vision training for a variety of paediatric vision issues.
@@ -14,13 +13,13 @@ Vision training involves a series of activities which are individually prescribe
 
 Symptoms commonly described by patients relating to dysfunction of these skills include:
 
-- Blurred vision (particularly after prolonged near work)
-- Difficulty reading
-- Poor concentration
-- Headaches or eye strain
-- Double vision
-- Words moving a page
-- Sensitivity to light
+* Blurred vision (particularly after prolonged near work)
+* Difficulty reading
+* Poor concentration
+* Headaches or eye strain
+* Double vision
+* Words moving a page
+* Sensitivity to light
 
 These important visual skills include accommodation (eye focusing), vergence (eye alignment) and eye movement
 
@@ -66,13 +65,13 @@ Forms of vision therapy require specialised equipment in order to train and deve
 
 Instructions for these vision training exercises can be found here:
 
-- [VT with Focusing Flippers](https://innovativeeyecare.com.au/patient-resources/vision-training-with-focusing-flippers/)
-- [VT with Loose Prisms](https://innovativeeyecare.com.au/patient-resources/vision-training-with-loose-prisms/)
-- [VT with Hart Charts](https://innovativeeyecare.com.au/patient-resources/vision-training-with-hart-charts/)
-- [VT with Pen-Push Ups](https://innovativeeyecare.com.au/patient-resources/vision-training-push-up-exercises/)
-- [VT with Saccade Pyramids](https://innovativeeyecare.com.au/patient-resources/vision-training-with-saccade-pyramids/)
-- [VT with Saccade Pens](https://innovativeeyecare.com.au/patient-resources/vision-training-with-saccade-pens/)
-- [VT with Binocular String](https://innovativeeyecare.com.au/patient-resources/vision-training-with-binocular-string/)
+* [VT with Focusing Flippers](https://innovativeeyecare.com.au/patient-resources/vision-training-with-focusing-flippers/) 
+* [VT with Loose Prisms](https://innovativeeyecare.com.au/patient-resources/vision-training-with-loose-prisms/) 
+* [VT with Hart Charts](https://innovativeeyecare.com.au/patient-resources/vision-training-with-hart-charts/) 
+* [VT with Pen-Push Ups](https://innovativeeyecare.com.au/patient-resources/vision-training-push-up-exercises/) 
+* [VT with Saccade Pyramids](https://innovativeeyecare.com.au/patient-resources/vision-training-with-saccade-pyramids/) 
+* [VT with Saccade Pens](https://innovativeeyecare.com.au/patient-resources/vision-training-with-saccade-pens/) 
+* [VT with Binocular String](https://innovativeeyecare.com.au/patient-resources/vision-training-with-binocular-string/)
 
 [Contact us](https://www.innovativeeyecare.com.au/contact) to see one of our friendly optometrists regarding vision therapy.
 

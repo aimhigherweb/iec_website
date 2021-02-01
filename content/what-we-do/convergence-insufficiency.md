@@ -1,9 +1,8 @@
 ---
 title: Convergence Insufficiency
 category: "SE03"
-preview_image: convergence-insuffiicency.jpeg
+preview_image: convergence-insufficiency.png
 ---
-
 <div class="employee-heading">
 <p>Binocular vision disorders are conditions affecting how the eyes work together. Convergence insufficiency is one of the most common disorders of binocular vision.<sup>1</sup> In convergence insufficiency, the eyes struggle to converge, or look inward. It can affect people of all ages, and becomes noticeable when the strain of trying to look inward causes headaches and sore eyes (known as asthenopia) or double vision.</p>
 </div>
@@ -18,12 +17,12 @@ People with convergence insufficiency have difficulty converging, or looking in,
 
 ##### What are the symptoms?
 
-- Sensation of tension in and around the eyes
-- Blurry vision, especially with near work
-- Moving words on the page or screen
-- Double vision
-- Inability to focus for long periods of time
-- Improvement with one eye closed
+* Sensation of tension in and around the eyes
+* Blurry vision, especially with near work
+* Moving words on the page or screen
+* Double vision
+* Inability to focus for long periods of time
+* Improvement with one eye closed
 
 ![](/uploads/convergence-insuffiicency.jpeg)
 

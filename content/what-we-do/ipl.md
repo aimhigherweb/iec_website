@@ -3,7 +3,6 @@ title: IPL (Intense Pulse Light)
 category: "SE04"
 preview_image: ipl-machine.jpg
 ---
-
 <div class="employee-heading">
 <p>Intense Pulsed Light (IPL) is an exciting new treatment available at the Adelaide branch of Innovative Eye Care used to treat dry eye disease caused by <a href="/what-we-do/meibomian-gland-dysfunction">Meibomian Gland Dysfunction</a> (MGD, or posterior blepharitis), a condition that is notoriously difficult to manage. It generates an intense pulsed light by producing perfectly calibrated, homogeneously sequenced light pulses directed at the skin around the lower eyelid. The energy, spectrum and time period are precisely set to stimulate the meibomian glands for them to return their normal function. Innovative Eye Care are the first optometry clinic to have access to an IPL for MGD treatment in South Australia.</p>
 </div>
@@ -12,9 +11,11 @@ preview_image: ipl-machine.jpg
 
 An [initial consultation](/what-we-do/eye-exam) is required before IPL treatment to confirm the diagnosis of Meibomian Gland Dysfunction, to check for other ocular disease, and to gather baseline data about how your eyes are functioning. Some patients may be unsuitable for IPL treatment due to general health conditions or medications.
 
-Four IPL treatments are recommended to best manage your MGD. These are performed at intervals of day 1, day 15, day 45 and day 75.
+Four IPL treatments are recommended to best manage your MGD. These are performed at intervals of day 1, day 15, day 45 and day 75. 
 
 Each session takes about 15 minutes. Your optometrist will apply protective goggles over your eyes and hydrogel on the skin below the eye. A series of flashes are applied under the lower eyelid. The IPL device generates a painless polychromatic pulsed light, so no needles or injections are required. Following this, another set of goggles will be placed over your eyes for a Blephasteam treatment. Your optometrist will afterwards see you to review your progress and attend to any questions or concerns you might have.
+
+
 
 #### What can I expect?
 
@@ -22,7 +23,7 @@ The IPL stimulation prompts the meibomian glands to return to normal function wi
 
 #### How does IPL treatment work?
 
-While the mechanism for how IPL treats MGD is not yet fully understood, it is thought to be related to a decreased release of inflammatory mediators from nearby blood-vessels, and decreased overgrowth of bacteria around the lid area. The first prospective placebo controlled study into IPL for MGD was recently conducted, with results showing improvements in tear film stability and eye comfort following the treatment (Jennifer Craig, Department of Ophthalmology, University of Auckland.)
+While the mechanism for how IPL treats MGD is not yet fully understood, it is thought to be related to a decreased release of inflammatory mediators from nearby blood-vessels, and decreased overgrowth of bacteria around the lid area. The first prospective placebo controlled study into IPL for MGD was recently conducted, with results showing improvements in tear film stability and eye comfort following the treatment (Jennifer Craig, Department of Ophthalmology, University of Auckland.) 
 
 This study showed significant improvement in the average time it takes for tears to dry out − non-invasive break-up time (NIBUT) − following the second and then third treatments.
 

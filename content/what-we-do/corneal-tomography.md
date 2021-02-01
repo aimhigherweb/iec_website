@@ -2,7 +2,6 @@
 title: Corneal Tomography
 category: "SE05"
 ---
-
 <div class="employee-heading">
 
 <p>The Pentacam AXL Wave is the latest addition to Innovative Eye Care’s arsenal of advanced imaging technology at our Hutt Street branch. Its main functionality is as a tomographer. Tomography refers to the cross-sectional mapping of body tissues using non-invasive techniques. In relation to the cornea, tomography gives a complete view of both the front and back surfaces of the cornea.</p>
@@ -11,9 +10,9 @@ category: "SE05"
 
 This machine uses Scheimpflug imaging to map the front and back surfaces of the cornea as well as its thickness and volume, the anterior chamber conformation and volume, and the anterior lens topography and density. This is a step beyond what most reflection-based [topographers](https://www.innovativeeyecare.com.au/what-we-do/corneal-topography) use, which map only the front corneal surface. Its accuracy as a non-contact alternative independent of tear film quality has been proven in countless clinical trials. For this reason, it’s much better for mapping eyes with [dry eye disease](https://www.innovativeeyecare.com.au/what-we-do/dry-eye-disease).
 
-![](/uploads/corneal-tomography.jpg)
+![](/uploads/scheimpflug-db.jpg)
 
-_Figure 1: Scan of the front and back of the cornea, anterior chamber, front surface of the iris and lens, and eyelids._
+*Figure 1: Scan of the front and back of the cornea, anterior chamber, front surface of the iris and lens, and eyelids.*
 
 It also serves as a topographer (maps the eye’s front surface), an imager (captures the anterior eye’s structure), autorefractor (approximates refractive error extremely accurately), wavefront aberrometer (quantifies the eye’s lower-order and higher-order aberrations affecting vision) and ocular biometer (measures the physical parameters of the eye).
 
@@ -21,4 +20,4 @@ Due to its extensive abilities, the Pentacam AXL Wave has applications for all p
 
 ![](/uploads/pentacam-topography.jpg)
 
-_Figure 2: Various tomographic maps of a keratoconic eye as taken by the Pentacam AXL Wave._
+*Figure 2: Various tomographic maps of a keratoconic eye as taken by the Pentacam AXL Wave.*

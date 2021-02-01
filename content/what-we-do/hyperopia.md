@@ -1,7 +1,7 @@
 ---
 title: Hyperopia
 category: "SE08"
-preview_image: hyperopia-vision.jpg
+preview_image: hyperopia-book.jpeg
 ---
 
 <div class="employee-heading">

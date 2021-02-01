@@ -3,7 +3,6 @@ title: Glaucoma
 category: "SE09"
 preview_image: glaucoma.jpg
 ---
-
 <div class="employee-heading">
 <p>Glaucoma is a debilitating eye disease that causes progressive optic nerve damage, resulting in permanent peripheral vision loss and eventually central vision loss. Glaucoma is called 'the silent thief of sight' as 50% of a patient's retinal nerves can be damaged irreparably before any vision loss is noticed. Glaucoma is one of the main conditions an optometrist checks for at your <a href="/what-we-do/eye-exam">eye examination</a>. Early detection is key as this allows appropriate treatment before too much vision is lost. This condition highlights why it is so important to have a routine eye test at least every two years.</p>
 </div>
@@ -14,7 +13,7 @@ preview_image: glaucoma.jpg
 
 <br>
 
-The glaucomas are a range of eye diseases that cause optic nerve damage and can result in permanent vision loss. The optic nerve transmits images from the retina to be processed in the brain so that we can see. In glaucoma, the pressure of the fluid in the eye damages the optic nerve over time, leading to loss of function. Glaucoma is most commonly due to high intra-ocular pressure but it can occur with normal eye pressure in eyes that are more susceptible to damage. This is called normal tension glaucoma.
+The glaucomas are a range of eye diseases that cause optic nerve damage and can result in permanent vision loss. The optic nerve transmits images from the retina to be processed in the brain so that we can see. In glaucoma, the pressure of the fluid in the eye damages the optic nerve over time, leading to loss of function. Glaucoma is most commonly due to high intra-ocular pressure but it can occur with normal eye pressure in eyes that are more susceptible to damage. This is called normal tension glaucoma. 
 
 Glaucoma typically progresses slowly over time and patients are not aware of high pressure in their eyes. However, some patients may have a sudden increase of pressure if the area of the eye that drains fluid, called the anterior chamber angle, closes suddenly. This will cause aching in the eye, blurry or hazy vision around lights, and sometimes nausea and vomiting. Emergency care is needed to lower the pressure and prevent permanent vision loss. Individuals at risk of this acute angle-closure glaucoma will often be referred for a prophylactic laser treatment to create a 'safety valve' in the iris tissue to prevent this pressure rise occurring.
 

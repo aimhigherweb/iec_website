@@ -1,16 +1,15 @@
 ---
 title: Digital Eye Strain
 category: "SE08"
-preview_image: computer-vision-syndrome-1.jpg
+preview_image: digital.jpeg
 ---
-
 <div class="employee-heading">
 <p>Love it or loathe it − the world we live in has become increasingly digital. More and more hours are spent gazing at digital screens including computers, tablets and smart phones. These devices can potentially cause a host of eye and vision problems, with long-term effects on eye health. Digital eye strain (also known as computer vision syndrome) is a group of eye issues created or worsened by the use of digital screens. This ranges from eye strain due to focusing issues, dry eye from lower blink rates, and potential ocular disease.</p>
 </div>
 
 #### Eye strain and computer use
 
-Given the amount of time we all spend using digital devices, it is no surprise that eye strain is experienced frequently amongst users. Our eyes can mostly focus well on near devices, though conditions such as [hyperopia](/what-we-do/hyperopia), [astigmatism](/what-we-do/astigmatism) and [presbyopia](/what-we-do/presbyopia) can lead to significant blur and strain with screen use - [glasses](/what-we-do/glasses) or [contact lenses](/what-we-do/contact-lenses) can help in this situation.
+Given the amount of time we all spend using digital devices, it is no surprise that eye strain is experienced frequently amongst users. Our eyes can mostly focus well on near devices, though conditions such as [hyperopia](/what-we-do/hyperopia), [astigmatism](/what-we-do/astigmatism) and [presbyopia](/what-we-do/presbyopia) can lead to significant blur and strain with screen use - [glasses](/what-we-do/glasses) or [contact lenses](/what-we-do/contact-lenses) can help in this situation. 
 
 Even if your eyes focus well on digital screens, the eye muscles will fatigue over time, giving the classic symptoms of digital eye strain: ache around the eyes, blurred vision and tiredness. There's actually a name for this, known as [computer vision syndrome](https://www.innovativeeyecare.com.au/blog/looking-after-your-eyes-while-working-from-home). Taking breaks from your screen every 20 minutes and looking in the distance for 20 seconds can help delay the onset of these symptoms. If you use computers for long periods, special anti-fatigue spectacle lenses may help you. These have a small reading prescription incorporated which does some of the focusing for you, taking the edge off your symptoms.
 
@@ -20,7 +19,7 @@ Because a computer often sits further away from your normal reading distance, pe
 
 #### Short-sightedness and computer use
 
-A disturbing trend has emerged with our ever-increasing use of digital screens. A greater proportion of the underage population is becoming short-sighted, or [myopic](/what-we-do/myopia), a condition causing blurred vision in the distance, at a rate that genetics alone cannot explain. Urbanisation, lack of time spent outdoors and screen use is implicated in what is being called a myopia epidemic. For more information about what can be done to prevent myopia, visit our myopia control page [here](https://innovativeeyecare.com.au/what-we-do/myopia-control). The main strategy research has found protective against short-sightedness is two hours spent outside each day. Send your kids out to play when you can to help their eyesight!
+A disturbing trend has emerged with our ever-increasing use of digital screens. A greater proportion of the underage population is becoming short-sighted, or [myopic](/what-we-do/myopia), a condition causing blurred vision in the distance, at a rate that genetics alone cannot explain. Urbanisation, lack of time spent outdoors and screen use is implicated in what is being called a myopia epidemic. For more information about what can be done to prevent myopia, visit our myopia control page [here](https://innovativeeyecare.com.au/what-we-do/myopia-control). The main strategy research has found protective against short-sightedness is two hours spent outside each day. Send your kids out to play when you can to help their eyesight! 
 
 #### Blue light toxicity
 
@@ -36,8 +35,8 @@ Just as sunscreen works most effectively before going out in the sun, using a [l
 
 #### Computer use and children's vision
 
-We are often asked at Innovative Eye Care − are computers harmful to children's eyes? We live in a digital age, where screens form a key part of how we learn and interact with each other. Like everything in life, moderation is key. Have your kids regularly take a break from playing on the computer or tablet and encourage them to play outside or read a book in the sun, with UV protection from a hat and sunglasses, of course!
+We are often asked at Innovative Eye Care − are computers harmful to children's eyes? We live in a digital age, where screens form a key part of how we learn and interact with each other. Like everything in life, moderation is key. Have your kids regularly take a break from playing on the computer or tablet and encourage them to play outside or read a book in the sun, with UV protection from a hat and sunglasses, of course! 
 
-A balanced approach to computer use has even broader effects. A recent study published in the _Pediatrics_ journal shows that playing computer games for less than an hour per day contributed to a child’s overall social and mental well-being. Children with no exposure to computers and children who played for more than three hours per day were not as well adjusted _[(Przybylski, AK, Electronic Gaming and Psychosocial Adjustment, Pediatrics, 2014 Sept)](http://pediatrics.aappublications.org/content/early/2014/07/29/peds.2013-4021)_.
+A balanced approach to computer use has even broader effects. A recent study published in the *Pediatrics* journal shows that playing computer games for less than an hour per day contributed to a child’s overall social and mental well-being. Children with no exposure to computers and children who played for more than three hours per day were not as well adjusted *[(Przybylski, AK, Electronic Gaming and Psychosocial Adjustment, Pediatrics, 2014 Sept)](http://pediatrics.aappublications.org/content/early/2014/07/29/peds.2013-4021)*.
 
 The optometrists at Innovative Eye Care can advise you on things to think about when using screens in this digital age. We are happy to recommend products and behaviour modifications to help combat digital eye strain and other computer related eye issues.

@@ -19,13 +19,13 @@ preview_image: contact-lens-2-.jfif
 
 Soft contact lenses provide clear vision and lens wetability, and they are generally comfortable enough to wear all day. Most of these lenses are disposable, designed to be replaced after a prescribed time, generally daily or monthly. Unfortunately, due to their nature, soft contact lenses tend to tear more easily and can pose a risk of infection to the eyes if they are not handled correctly. If looked after properly, this risk is very low. Soft contact lenses can correct a range of prescriptions including [myopia](/what-we-do/myopia), [hyperopia](/what-we-do/hyperopia), [astigmatism](/what-we-do/astigmatism) and [presbyopia](/what-we-do/presbyopia).
 
-They are made from a polymer-plastic material combined with water. The water content varies with different lenses. Newer generation soft lenses are made out variants of a material called silcone-hydrogel, this material allows more oxygen to pass through it better, allowing the cornea to 'breathe' and preventing some of the ocular health issues that older lens materials would cause.
+They are made from a polymer-plastic material combined with water. The water content varies with different lenses. Newer generation soft lenses are made out variants of a material called silcone-hydrogel, this material allows more oxygen to pass through it better, allowing the cornea to 'breathe' and preventing some of the ocular health issues that older lens materials would cause. 
 
 See [this page](https://innovativeeyecare.com.au/patient-resources/tips-for-long-term-success-with-your-soft-disposable-contact-lenses) for instruction on soft contact lens success.
 
 #### What types of soft contact lenses are there?
 
-Silicone-hydrogels are available in daily and monthly modalities. Daily lenses are generally your optometrist's first choice for your eyes as they are a fresh, clean lens in your eyes every time and there is less risk of microbial build up. They are also very convenient for travel and sports due to the lack of cleaning required. Monthly lenses are slightly more affordable than dailies on a per-day basis but do require careful cleaning each night to ensure your eyes remain healthy.
+Silicone-hydrogels are available in daily and monthly modalities. Daily lenses are generally your optometrist's first choice for your eyes as they are a fresh, clean lens in your eyes every time and there is less risk of microbial build up. They are also very convenient for travel and sports due to the lack of cleaning required. Monthly lenses are slightly more affordable than dailies on a per-day basis but do require careful cleaning each night to ensure your eyes remain healthy. 
 
 ##### Daily replacement lenses (lenses that are new with each use and discarded after wear)
 
@@ -59,7 +59,7 @@ Silicone-hydrogels are available in daily and monthly modalities. Daily lenses a
     <td class="tg-fdbh">Cost-efficient for part-time wearers – easy if you only use your lenses occasionally, and if a lens is lost or damaged the cost is negligible – just pop a new lens into your eye!</td>
     <td class="tg-fdbh"><br></td>
   </tr>
-</table>
+</table> 
 
 <br>
 
@@ -99,7 +99,7 @@ Silicone-hydrogels are available in daily and monthly modalities. Daily lenses a
     <td class="tg-fdbh">Cost-efficient – the cost per year for lenses and solutions may be slightly cheaper than daily lenses if you wear them most days</td>
     <td class="tg-fdbh"><br></td>
   </tr>
-</table>
+</table> 
 
 <br>
 
