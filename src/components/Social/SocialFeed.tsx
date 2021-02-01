@@ -88,8 +88,10 @@ const SocialItem = styled.div`
 `
 const SocialItemImage = styled.img`
   width: 100%;
-  height: auto;
-  object-fit: cover;
+  height: 240px;
+  object-fit: contain;
+  @media (max-width: ${MAX_WIDTH_PX}) {
+  }
   border: ${DEBUG_SOCIAL};
 `
 
@@ -100,23 +102,25 @@ const obtainInstaFeed = async () => {
   console.log(`*** Home.obtainInstaFeed`)
 
   const token =
-    "IGQVJVd0NKbmQ3T3FfUl9KbHZAiMFZAPeGFfckJnb3JqYjg1NGFfd3pQTEVqMjV6aWxMWjdnRGNCNnJLcEZAXMHFZAbWVvUGFSVXVqbVRvMm1wZAFlaMXZA2dEktUWRiWWVpMDZADN3V6a3RGaU5qRGZAYNy1lb1dfUm5GRFVxS1lZA"
+    "IGQVJYc1dndVRSb0lGN19pZAl94UEgzWmt2SzhhZAVJSNVM2dHFvUGo1SjFZAWjBXZAjg4d2xBb0ZAkdFhiTTltUHhqREVrSElaZAkxwMUF4cC16ZAHc1MmhCMENxSzRIdWI4LVp0ZADdxd253"
   const url = `https://graph.instagram.com/me/media?fields=id,caption,media_url&access_token=${token}`
-  const response = await fetch(url)
-  const json = await response.json()
 
   const result = []
-  const MAX_ITEMS = 4
+  const response = await fetch(url)
+  if (response) {
+    const json = await response.json()
+    const MAX_ITEMS = 4
 
-  if (json.data) {
-    json.data.forEach((item) => {
-      const { caption, media_url } = item
-      if (media_url) {
-        if (result.length < MAX_ITEMS) {
-          result.push({ caption: caption, imageUrl: media_url })
+    if (json.data) {
+      json.data.forEach((item) => {
+        const { caption, media_url } = item
+        if (media_url) {
+          if (result.length < MAX_ITEMS) {
+            result.push({ caption: caption, imageUrl: media_url })
+          }
         }
-      }
-    })
+      })
+    }
   }
 
   return result
@@ -131,19 +135,25 @@ const Social = (show, data) => {
     visible: {},
   })
 
-  const [posts, setPosts] = useState()
-  const latestPosts = () => {
-    obtainInstaFeed().then((latestPosts) => {
-      setPosts(latestPosts)
-    })
-  }
+  const [posts, setPosts] = useState([])
+  const [instagram, setInstagram] = useState({
+    index: 0,
+    items: posts,
+    visible: {},
+  })
 
   useEffect(() => {
-    console.log(`*** Home.Social.useEffect.latestPosts`)
+    console.log(`*** Home.Social.useEffect.main`)
     updatePromotion(0)
     latestPosts()
   }, [])
 
+  useEffect(() => {
+    console.log(`*** Home.Social.useEffect.posts`)
+    updateInstagram(0)
+  }, [posts])
+
+  //-- promotions
   const updatePromotion = (newIndex) => {
     console.log(`*** Home.Social.updatePromotion... newIndex=${newIndex}`)
     if (current && current.items) {
@@ -175,6 +185,41 @@ const Social = (show, data) => {
     updatePromotion(current.index + 1)
   }
 
+  //-- instagram
+  const latestPosts = () => {
+    obtainInstaFeed().then((latestPosts) => {
+      setPosts(latestPosts)
+    })
+  }
+
+  const updateInstagram = (newIndex) => {
+    console.log(`*** Home.Social.updateInstagram... newIndex=${newIndex}`)
+    if (instagram && instagram.items) {
+      if (newIndex >= 0 && newIndex < instagram.items.length) {
+        const showLeft = newIndex > 0
+        const showRight = newIndex + 3 < instagram.items.length - 1
+        setInstagram({
+          ...instagram,
+          index: newIndex,
+          visible: {
+            left: showLeft,
+            right: showRight,
+          },
+        })
+      }
+    }
+  }
+
+  const instagramMoveLeft = () => {
+    console.log(`*** Home.Social.instagramMoveLeft`)
+    updateInstagram(current.index - 1)
+  }
+  const instagramMoveRight = () => {
+    console.log(`*** Home.Social.instagramMoveRight`)
+    updateInstagram(current.index + 1)
+  }
+
+  //--- main
   return show ? (
     <SocialSection>
       {current.visible && (
@@ -211,9 +256,15 @@ const Social = (show, data) => {
         to see what we&apos;ve been up to!
       </SocialTitle>
       <SocialItemBar>
-        <div>
-          <SocialItemNavArrowImage src="images2/icon-arrow-left.png" />
-        </div>
+        {instagram.visible.left && (
+          <div
+            onClick={() => {
+              instagramMoveLeft()
+            }}
+          >
+            <SocialItemNavArrowImage src="images2/icon-arrow-left.png" />
+          </div>
+        )}
         {posts &&
           posts.map((post, i) => {
             const imageSrc = post.imageUrl
@@ -225,9 +276,15 @@ const Social = (show, data) => {
               </SocialItem>
             )
           })}
-        <div>
-          <SocialItemNavArrowImage src="images2/icon-arrow-right.png" />
-        </div>
+        {instagram.visible.right && (
+          <div
+            onClick={() => {
+              instagramMoveRight()
+            }}
+          >
+            <SocialItemNavArrowImage src="images2/icon-arrow-right.png" />
+          </div>
+        )}
       </SocialItemBar>
     </SocialSection>
   ) : (
