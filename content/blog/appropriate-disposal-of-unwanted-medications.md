@@ -7,7 +7,7 @@ preview_image: /uploads/disposing-medications.jpg
 
 In this age of increasing antibiotic resistance, one easy way that everyone can help to tackle resistance, and also protect our environment, is to minimise the amount of drugs that get put into landfill or that enter the waterways. The best way to dispose of unwanted medicines is to return them to any local pharmacy for collection under the free Return Unwanted Medicines program. http://www.returnmed.com.au/
 
-![](logo.png)
+![](/uploads/logo.png)
 
 Medicines disposed off in landfill or down the drain or toilet in the home have been shown to affect animal and plant life and even been detected in the drinking water supply.<sup>1</sup>
 
