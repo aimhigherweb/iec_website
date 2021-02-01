@@ -8,6 +8,13 @@ module.exports = {
   plugins: [
     `gatsby-plugin-layout`,
     {
+      resolve: "@sentry/gatsby",
+      options: {
+        dsn:
+          "https://4c1a454d26da427b88743f511014e57e@o447628.ingest.sentry.io/5462810",
+      },
+    },
+    {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
         trackingId: "UA-129433065-1",
