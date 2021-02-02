@@ -497,9 +497,11 @@ const MainDiv = (
             removeArrowOnDeviceType={["mobile"]}
             ssr={true}
           >
-            {carouselToDisplay.map((imageSrc) => {
-              return <img key={imageSrc} src={imageSrc} />
-            })}
+            <img src="/videos/main0.png" />
+            <img src="/videos/main1.png" />
+            <img src="/videos/main2.png" />
+            <img src="/videos/main3.png" />
+            <img src="/videos/main4.png" />
           </Carousel>
         </MainCarousel>
       )}
