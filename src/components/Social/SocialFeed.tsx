@@ -159,18 +159,20 @@ const Social = (show, data) => {
       if (newIndex >= 0 && newIndex < current.items.length) {
         const promotion = current.items[newIndex]
         const { title, image } = promotion.node.frontmatter
-        const showLeft = newIndex > 0
-        const showRight = newIndex < current.items.length - 1
-        setCurrent({
-          ...current,
-          index: newIndex,
-          visible: {
-            title: title,
-            image: image,
-            left: showLeft,
-            right: showRight,
-          },
-        })
+        if (title && image) {
+          const showLeft = newIndex > 0
+          const showRight = newIndex < current.items.length - 1
+          setCurrent({
+            ...current,
+            index: newIndex,
+            visible: {
+              title: title,
+              image: image,
+              left: showLeft,
+              right: showRight,
+            },
+          })
+        }
       }
     }
   }
@@ -221,7 +223,7 @@ const Social = (show, data) => {
   //--- main
   return show ? (
     <SocialSection>
-      {current.visible && (
+      {current.visible && current.visible.image && (
         <SocialHeader>
           {current.visible.left && (
             <SocialHeaderLeftNav
