@@ -145,7 +145,13 @@ export const SearchResults: React.FC = ({ resultCallback, closeCallback }) => {
         found = "No matching documents"
       }
     } else {
-      found = `Results found: ${matches.results.length}`
+      let total = 0
+      matches.results.map((result) => {
+        if (result.item.excerpt.length > 0) {
+          total = total + 1
+        }
+      })
+      found = `Results found: ${total}`
     }
   }
 
@@ -172,22 +178,25 @@ export const SearchResults: React.FC = ({ resultCallback, closeCallback }) => {
           {matches.results &&
             matches.results.length > 0 &&
             matches.results.map((result, i) => {
-              const finalTitle =
-                result.item && result.item.frontmatter.title.replace(/^0+/, "")
-              return (
-                <ResultRow key={i}>
-                  <ResultTitle
-                    onClick={() => {
-                      resultCallback(result.item.fields.slug)
-                    }}
-                    role="button"
-                    tabIndex="0"
-                  >
-                    {finalTitle}
-                  </ResultTitle>
-                  <ResultDetail>{result.item.excerpt}</ResultDetail>
-                </ResultRow>
-              )
+              if (result.item.excerpt.length > 0) {
+                const finalTitle =
+                  result.item &&
+                  result.item.frontmatter.title.replace(/^0+/, "")
+                return (
+                  <ResultRow key={i}>
+                    <ResultTitle
+                      onClick={() => {
+                        resultCallback(result.item.fields.slug)
+                      }}
+                      role="button"
+                      tabIndex="0"
+                    >
+                      {finalTitle}
+                    </ResultTitle>
+                    <ResultDetail>{result.item.excerpt}</ResultDetail>
+                  </ResultRow>
+                )
+              }
             })}
         </div>
       </ResultList>
