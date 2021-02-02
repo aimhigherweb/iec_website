@@ -1,0 +1,19 @@
+name: Sentry
+on:
+  push:
+jobs:
+  sentry:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@master
+      - name: Install Dependencies
+        run: npm install
+      - name: Build web
+        run: npm run build
+        env:
+          CI: false
+      - name: Publish source maps to sentry
+        run: npx sentry-cli releases files ${GITHUB_SHA} upload-sourcemaps ./public --rewrite
+        env:
+          SENTRY_AUTH_TOKEN: ${{ secrets.SENTRY_AUTH_TOKEN }}
