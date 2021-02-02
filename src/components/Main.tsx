@@ -488,6 +488,23 @@ const MainDiv = (
           <img src={imageToDisplay} />
         </MainImage>
       )}
+      {!showSearch && showFull && carouselToDisplay && (
+        <MainCarousel>
+          <Carousel
+            responsive={responsive}
+            autoPlay={true}
+            infinite={true}
+            removeArrowOnDeviceType={["mobile"]}
+            ssr={true}
+          >
+            <img src="/videos/main0.png" />
+            <img src="/videos/main1.png" />
+            <img src="/videos/main2.png" />
+            <img src="/videos/main3.png" />
+            <img src="/videos/main4.png" />
+          </Carousel>
+        </MainCarousel>
+      )}
     </div>
   )
 }
