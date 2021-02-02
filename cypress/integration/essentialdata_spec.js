@@ -162,12 +162,12 @@ describe("Test Pages", function(){
             cy.get('#gatsby-focus-wrapper').contains(category).click({ position: 'bottom' },{force: true})
             cy.contains(option1).click({ force: true })
             cy.contains(data1)
-            cy.get('#gatsby-focus-wrapper').find('img').should('have.attr', 'src','/images2/icon-logo.png').eq(1).click("")
+            cy.get('#gatsby-focus-wrapper').find('img').should('have.attr', 'src','/images2/icon-logo.png').eq(1).click({force: true})
             cy.contains("Patient Resources").click({force: true})
             cy.contains(category).click({ position: 'bottom' }, {force: true})
             cy.contains(option2).click({ force: true })
             cy.contains(data2)
-            cy.get('#gatsby-focus-wrapper').find('img').should('have.attr', 'src','/images2/icon-logo.png').eq(1).click("")
+            cy.get('#gatsby-focus-wrapper').find('img').should('have.attr', 'src','/images2/icon-logo.png').eq(1).click({force: true})
             cy.contains("Patient Resources").click({force: true})
             });
         }) 
@@ -218,14 +218,14 @@ describe("Test Pages", function(){
                 cy.contains(data)
 
                 //checking the navigation bar working for each blog post
-                cy.get('#gatsby-focus-wrapper').find('img').should('have.attr', 'src','/images2/icon-logo.png').eq(1).click("")
+                cy.get('#gatsby-focus-wrapper').find('img').should('have.attr', 'src','/images2/icon-logo.png').eq(1).click({force: true})
                 cy.contains("Who We Are")
                 cy.contains("Shop")
                 cy.contains("Home")
                 cy.contains("What We Do")
                 cy.contains("Patient Resources")
                 cy.contains("Contact")
-                cy.contains("Blog").click()
+                cy.contains("Blog").click({force: true})
 
             });
         })
