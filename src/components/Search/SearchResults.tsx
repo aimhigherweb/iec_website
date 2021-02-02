@@ -160,8 +160,13 @@ export const SearchResults: React.FC = ({ resultCallback, closeCallback }) => {
     handleSearch(searchText)
   }, [searchText])
 
+  const Header = styled.div`
+    height: 88px;
+  `
+
   return (
     <ResultPanel>
+      <Header />
       <ResultList>
         <CloseIcon
           icon={faTimes}
