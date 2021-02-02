@@ -1,7 +1,7 @@
 ---
 title: Diabetes & The Eye
-category: eye-disease
-preview-image: /uploads/elderly-px.jpg
+category: "SE09"
+preview_image: elderly-px.jpg
 ---
 <div class="employee-heading">
 <p>Diabetes is a condition which can affect many systems in the body. It occurs when the level of sugar (glucose) in our blood is higher than normal. There are two main types of diabetes: type 1 and type 2. Type 1 diabetes is autoimmune, meaning the immune system of your body attacks its own cells in the pancreas that control levels of blood glucose.<sup>1</sup> Type 2 diabetes is a progressive condition where the body becomes resistant to the effects of and/or slowly produces less of the glucose-controlling hormone, insulin.<sup>1</sup> Both type 1 and type 2 diabetes can cause changes to the tissues and blood vessels at the front and back of the eye after a period of time.<sup>1</sup> All diabetics should ensure they visit their optometrist at least annually for a thorough <a href="/what-we-do/eye-exam">examination</a>.</p>

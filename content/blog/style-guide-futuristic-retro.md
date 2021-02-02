@@ -2,7 +2,6 @@
 title: 'Style Guide: Futuristic Retro'
 date: 2019-03-06T00:58:09.502Z
 author: Millie Meegan
-author_url: /who-we-are/millie-meegan
 preview_image: /uploads/gucci-70s-preview.png
 ---
 Recently, everywhere we look there's the resurgence of an aesthetic that belongs to a very unique decade - the Psychedelic 70’s. We see the return of iconic styles from a different time over and over again in styling, labelled ‘retro’ or ‘vintage’ looks, and this particular decade is no different. The style staples of this era (including tie-dye, co-ordinating tracksuits and graphic tees popularised by bands like Led Zepplin) have suddenly sprung from fashion faux-pas to in-vogue, thanks to the push from designer brands to bring them back.

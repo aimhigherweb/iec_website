@@ -1,7 +1,7 @@
 ---
 title: "Ortho-K: Corneal Reshaping"
-category: orthok
-preview-image: /uploads/myopic-ok-lens.jpg
+category: "SE06"
+preview_image: myopic-ok-lens.jpg
 ---
 <div class="employee-heading">
 <p><p>Orthokeratology lenses fitted by our optometrists in Adelaide or Woodville are worn while you sleep, leaving you with clear vision during the day without the need for contact lenses or glasses.</p>

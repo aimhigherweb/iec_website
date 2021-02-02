@@ -1,7 +1,7 @@
 ---
 title: IPL (Intense Pulse Light)
-category: dry-eye-clinic
-preview-image: ipl-machine.jpg
+category: "SE04"
+preview_image: ipl-machine.jpg
 ---
 <div class="employee-heading">
 <p>Intense Pulsed Light (IPL) is an exciting new treatment available at the Adelaide branch of Innovative Eye Care used to treat dry eye disease caused by <a href="/what-we-do/meibomian-gland-dysfunction">Meibomian Gland Dysfunction</a> (MGD, or posterior blepharitis), a condition that is notoriously difficult to manage. It generates an intense pulsed light by producing perfectly calibrated, homogeneously sequenced light pulses directed at the skin around the lower eyelid. The energy, spectrum and time period are precisely set to stimulate the meibomian glands for them to return their normal function. Innovative Eye Care are the first optometry clinic to have access to an IPL for MGD treatment in South Australia.</p>

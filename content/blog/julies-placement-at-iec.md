@@ -1,6 +1,7 @@
 ---
 title: Julie's placement at IEC
 date: 2019-09-05T04:40:00.000Z
+author: Millie Meegan
 preview_image: /uploads/20190829_135717.jpg
 ---
 My name is Julie and I’m currently in the final year of my optometry degree at Flinders University. For the last 6 weeks, I have been fortunate to have the opportunity to complete my placement at Innovative Eye Care Woodville, an industry-leading practice with state of the art technology and highly experienced practitioners. Prior to this placement, I have had limited exposure to certain specialised areas including orthokeratology, scleral lenses, dry eye, binocular vision and paediatrics; but now I feel much more confident in seeing these patients.

@@ -1,6 +1,6 @@
 ---
 title: LINDBERG
-category: eyewear-experts
+category: "SE00"
 ---
 <div class="employee-heading">
 See the world in a new level of luxury with LINDBERG eyewear. With impeccable craftsmanship, every frame embodies the Danish design tradition of discreet, classic elegance and carefully considered simplicity. 

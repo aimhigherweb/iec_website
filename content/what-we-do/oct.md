@@ -1,7 +1,7 @@
 ---
 title: Optical Coherence Tomography (OCT)
-category: advanced-imaging-technology
-preview-image: /uploads/heidelberg-oct.jpg
+category: "SE05"
+preview_image: heidelberg-oct.jpg
 ---
 <div class="employee-heading">
 <p><p>Optical coherence tomography (OCT) is a non-contact, non-invasive technique that scans the structure of your eye and creates a 3D image of every detail, including aspects that cannot be investigated by other methods. In most cases it is able to detect structural damage before patients notice problems themselves so that subsequent treatment may arrest any loss of vision. OCT is also a fantastic way to monitor corneal pathology and the fitting of <a href="/what-we-do/soft-contact-lenses">soft</a> and <a href="/what-we-do/gas-permeable-contact-lenses">rigid contact lenses</a>, from the most simple to the most complicated. Innovative Eye Care has two spectral-domain OCTs available for use at both our Adelaide and Woodville practices, and we consider them the ultimate tools for diagnosis and early detection of eye disease and retinal conditions. </p>

@@ -1,7 +1,7 @@
 ---
 title: Glaucoma
-category: eye-disease
-preview-image: glaucoma.jpg
+category: "SE09"
+preview_image: glaucoma.jpg
 ---
 <div class="employee-heading">
 <p>Glaucoma is a debilitating eye disease that causes progressive optic nerve damage, resulting in permanent peripheral vision loss and eventually central vision loss. Glaucoma is called 'the silent thief of sight' as 50% of a patient's retinal nerves can be damaged irreparably before any vision loss is noticed. Glaucoma is one of the main conditions an optometrist checks for at your <a href="/what-we-do/eye-exam">eye examination</a>. Early detection is key as this allows appropriate treatment before too much vision is lost. This condition highlights why it is so important to have a routine eye test at least every two years.</p>

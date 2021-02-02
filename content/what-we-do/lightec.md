@@ -1,6 +1,6 @@
 ---
 title: Lightec
-category: 'eyewear-experts]'
+category: "SE00"
 ---
 <div class="employee-heading">
 A combination of lightness and technology for immediate comfort, Lightec optical frames are made entirely from stainless steel, with designs that are astonishing and comfortable. See the Lightec designs <a href="https://morel-france.com/morel-lightec/">here</a>.

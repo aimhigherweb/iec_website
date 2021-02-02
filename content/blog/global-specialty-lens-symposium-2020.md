@@ -2,7 +2,6 @@
 title: Global Specialty Lens Symposium 2020
 date: 2020-03-26T02:54:03.143Z
 author: Pooja Bhindi
-author_url: /who-we-are/pooja-bhindi
 preview_image: /uploads/2020_gsls_hori_rgb.png
 ---
 The annual Global Specialty Lens Symposium (GSLS) was held in Las Vegas in January this year. The GSLS is the leading international contact lens conference, bringing together optometrists, ophthalmologists and researchers alike from over 35 countries. I was lucky enough to get the opportunity to attend this year’s conference, together with Lachlan Hoy.

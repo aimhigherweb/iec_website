@@ -1,7 +1,7 @@
 ---
-title: Flashes, Floaters, Retinal Tear & Detachment
-category: acute-red-eyes
-preview-image: /uploads/floaters.jpg
+title: "Flashes, Floaters, Retinal Tear & Detachment"
+category: "SE07"
+preview_image: floaters.jpg
 ---
 <div class="employee-heading">
 <p>The appearance of floaters and flashes of light in your vision may be alarming, especially if they develop very suddenly. As we grow older, it is more common to experience floaters and flashes as the vitreous (the clear gelatinous fluid that fills the inside of your eye) becomes more liquefied. As it loses its structure, it gradually pulls away from the inside surface of the eye. When this occurs acutely it is called a posterior vitreous detachment. You should see your optometrist for an urgent <a href="/what-we-do/eye-exam">examination</a> if you notice flashes or floaters, as not all cases of these symptoms are caused by innocuous age-related changes.</p>

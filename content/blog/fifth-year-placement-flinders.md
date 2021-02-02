@@ -1,8 +1,7 @@
 ---
 title: "Katie's student placement at IEC"
 date: 2018-03-17
-author: Katie Schneider
-author_url: 
+author: Millie Meegan
 preview_image: /uploads/katie-preview.jpg
 ---
 
@@ -16,4 +15,4 @@ I have also thoroughly enjoyed being able to participate in and learn more about
 
 I have also gained a better understanding of [ocular imaging](/panel/pages/what-we-do/retinal-photography) and its importance as well as improved my knowledge of ocular therapeutics and [dry eye](/panel/pages/what-we-do/dry-eye-disease) treatments. I am incredibly grateful to the team at Innovative Eye Care Woodville for taking me in over the last six weeks and sharing their amazing knowledge on all things optometry with me. I have learnt so much from this experience and am excited to use the knowledge I have gained in my future optometry career.
 
-![](katie.jpg)
+![](/uploads/katie.jpg)

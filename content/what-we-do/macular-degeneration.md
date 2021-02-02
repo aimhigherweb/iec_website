@@ -1,7 +1,7 @@
 ---
 title: Macular Degeneration
-category: eye-disease
-preview-image: /uploads/armd.jpg
+category: "SE09"
+preview_image: armd.jpg
 ---
 
 <div class="employee-heading">

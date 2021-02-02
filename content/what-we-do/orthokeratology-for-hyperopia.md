@@ -1,7 +1,7 @@
 ---
 title: Orthokeratology for Hyperopia
-category: orthok
-preview-image: /uploads/cassidy-kelley-p90szoobygk-unsplash.jpg
+category: "SE06"
+preview_image: cassidy-kelley-p90szoobygk-unsplash.jpg
 ---
 <div class="employee-heading">
 <p>Orthokeratology can work just as well for hyperopic patients as it does for myopic patients! People love being able to do away with their reading glasses, or not having to worry about the day-time dryness during soft contact lens wear that can affect older patients.</p>

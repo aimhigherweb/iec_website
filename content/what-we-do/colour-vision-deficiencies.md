@@ -1,7 +1,7 @@
 ---
 title: Colour Vision Testing
-category: consultations
-preview-image: /uploads/colour-vision.jpeg
+category: "SE10"
+preview_image: colour-vision.jpeg
 ---
 <div class="employee-heading">
 

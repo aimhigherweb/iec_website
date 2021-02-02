@@ -2,7 +2,6 @@
 title: 'Style Guide: Defining the Undefined'
 date: 2019-03-19T23:52:47.832Z
 author: Millie Meegan
-author_url: /who-we-are/millie-meegan
 preview_image: /uploads/preview-image.jpg
 ---
 

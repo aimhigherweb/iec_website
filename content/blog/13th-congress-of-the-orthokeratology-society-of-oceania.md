@@ -2,7 +2,6 @@
 title: 13th Congress of the Orthokeratology Society of Oceania
 date: 2018-12-12T00:11:12.168Z
 author: Joanna Rohrlach
-author_url: /who-we-are/joanna-rohrlach
 preview_image: /uploads/3aae7ccb749347fa945ffff0f48da057.png
 ---
 

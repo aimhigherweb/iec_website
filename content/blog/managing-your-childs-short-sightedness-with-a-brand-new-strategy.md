@@ -1,24 +1,11 @@
 ---
 title: What are DIMS lenses? A new myopia control strategy
 date: 2021-01-20T04:08:56.443Z
-author: Pooja Bhindi and Millie Meegan
-author_url: https://www.innovativeeyecare.com.au/who-we-are/pooja-bhindi
+author: Pooja Bhindi
 preview_image: /uploads/dims.png
 ---
-```html
-<head>
-  <meta property="og:url" content="https://www.innovativeeyecare.com.au/blog/managing-your-childs-short-sightedness-with-a-brand-new-strategy" />
-  <meta property="og:type"               content="article" />
-  <meta property="og:title"              content="What are DIMS lenses? A new myopia control strategy" />
-  <meta property="og:image"              content="https://d33wubrfki0l68.cloudfront.net/a531be8e09b375022723e3c81e19b9ad4efe74a1/99acf/uploads/photo-1568585219057-9206080e6c74.jpeg" />
-</head>
-```
 
-<div class="employee-heading">
-
-<p><a href="https://www.innovativeeyecare.com.au/what-we-do/myopia">Myopia</a>, or short-sightedness, causes blurry vision either because the eye has grown too long or because its focusing power is too great. The former of these is more worrying, since out-of-control growth stretches and damages the tissues at the back of the eye, which can lead to blindness.<sup>1</sup></p>
-
-</div>
+<a href="https://www.innovativeeyecare.com.au/what-we-do/myopia">Myopia</a>, or short-sightedness, causes blurry vision either because the eye has grown too long or because its focusing power is too great. The former of these is more worrying, since out-of-control growth stretches and damages the tissues at the back of the eye, which can lead to blindness.<sup>1</sup>
 
 Myopia is predicted to affect half of the world’s population by 2050.<sup>2</sup> The surge in numbers is due to a combination of genetic and environmental factors, including parental myopia, spending more time on activities up close (like on electronic devices) and spending less time outdoors.<sup>3</sup>
 

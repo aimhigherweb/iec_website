@@ -1,7 +1,7 @@
 ---
 title: Sunglasses
-category: eyewear-experts
-preview-image: /uploads/sunglasses.png
+category: "SE01"
+preview_image: sunglasses.jpg
 ---
 <div class="employee-heading">
 <p><p>Living in Australia means quality sunglasses are a <i>must</i>. Innovative Eyecare sunglass partner, Maui Jim, is a sophisticated sunglass brand that protects your eyes from harmful ultraviolet light, while offering exceptional performance and style. Protection from UV light is critical, these rays can cause [](http://innovativeeyecare.com.au/what-we-do/cataract) <a href="http://innovativeeyecare.com.au/what-we-do/cataract">cataract</a>, <a href="http://innovativeeyecare.com.au/what-we-do/macular-degeneration">macular degeneration</a>, pterygium and cancer. Our entire sunglasses range meets the <a href="https://www.arpansa.gov.au/understanding-radiation/radiation-sources/more-radiation-sources/sun-protection-sunglasses#australian-standards-for-sunglasses">Australian Sunglasses Standard for UV Protection</a>.</p>

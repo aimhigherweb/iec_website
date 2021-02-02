@@ -1,6 +1,6 @@
 ---
 title: Alcon Soft Contact Lenses
-category: /what-we-do/
+category: "SE00"
 ---
 <div>Innovative Eye Care has reconfigured how we do soft contact lenses. We're always conscious of how best to fit our patients with the correct lens script and modality for them. After careful consideration of all the available soft lenses, we've taken a liking to Alcon's products.</div>
 

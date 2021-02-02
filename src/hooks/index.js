@@ -1,2 +1,2 @@
-export * from "./useToggle";
-export * from "./useScrollFreeze";
+export * from "./useToggle"
+export * from "./useScrollFreeze"

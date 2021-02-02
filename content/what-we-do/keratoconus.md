@@ -1,7 +1,7 @@
 ---
 title: Keratoconus
-category: eye-disease
-preview-image: /uploads/keratoconus-slit-lamp.jpg
+category: "SE09"
+preview_image: keratoconus-slit-lamp.jpg
 ---
 <div class="employee-heading">
 <p>Keratoconus is an eye disease that can cause distorted and blurry vision, even with glasses. This condition involves the thinning of the cornea (the window at the front of the eye), causing the surface to protrude forward in a cone shape, giving the disease its name ("<i>keras</i>" meaning cornea, and "<i>konos</i>" meaning cone). The condition is progressive, meaning it worsens over time, and with increased severity the cornea becomes more and more irregular.<sup>1</sup> This can lead to <a href="https://www.innovativeeyecare.com.au/what-we-do/astigmatism">astigmatism</a>, scarring and severe vision loss.</p>

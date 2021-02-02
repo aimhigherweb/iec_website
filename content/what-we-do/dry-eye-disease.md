@@ -1,7 +1,7 @@
 ---
 title: Dry Eye Disease
-category: dry-eye-clinic
-preview-image: /uploads/dry-eye-disease.png
+category: "SE04"
+preview_image: dry-eye-disease.png
 ---
 <div class="employee-heading"> <p>
 

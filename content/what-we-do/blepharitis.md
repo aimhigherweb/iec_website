@@ -1,8 +1,9 @@
 ---
 title: Blepharitis
-category: dry-eye-clinic
-preview-image: anterior-blepharitis.jpg
+category: "SE04"
+preview_image: anterior-blepharitis.jpg
 ---
+
 <div class="employee-heading">
 <p>Anterior blepharitis is a chronic condition characterised by inflammation of the eyelid margin. Symptoms include irritated, red, itchy or stinging eyes or eyelids, as well as fluctuating or blurred vision, and can fluctuate in severity over the day. As there are a number of different causes of anterior blepharitis, it is important to treat the underlying problem which can usually be determined over the course of a single <a href="/what-we-do/eye-exam">consultation</a>. Our optometrists at the Adelaide and Woodville branches of Innovative Eye Care use innovative equipment to determine the best course of action for treating blepharitis.</p>
 </div>

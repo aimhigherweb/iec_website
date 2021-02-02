@@ -1,7 +1,7 @@
 ---
 title: Signs of a Vision Problem in Children
-category: paediatric-vision
-preview-image: /uploads/photo-1551966775-a4ddc8df052b-2-.jfif
+category: "SE03"
+preview_image: 0aded48b23e39439e9eff0706f97a488b601e42a_child-reading.jpg
 ---
 #### Things to look out for when reading
 

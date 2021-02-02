@@ -1,11 +1,8 @@
 ---
 title: Foreign Body Removal
-category: acute-red-eyes
-preview-image: foreign-body-in-eye.jpg
+category: "SE07"
+preview_image: foreign-body-in-eye.jpg
 ---
-
-
-
 
 <div class="employee-heading">
 <p>Foreign material can become lodged on the cornea or conjunctiva of the eye. This can occur through working with grinding tools, gardening or simply chance when out and about. Generally this will lead to grittiness and irritation, tearing, redness, and light sensitivity if severe. Make sure you use safety glasses (available at Innovative Eye Care) in any situation where your eyes may be at risk of particles flying into the eye.</p>

@@ -1,7 +1,7 @@
 ---
 title: Contact Lenses
-category: contact-lenses
-preview-image: /uploads/contact-lenses-2.jpg
+category: "SE02"
+preview_image: contact-lenses-2.jpg
 ---
 <div class="employee-heading">
 <p><p>Contact lenses are an alternative option to spectacles for correcting vision and can offer clear vision for an array of eye conditions. At our Adelaide and Woodville branches, an optometrist can advise you on whether contact lenses are right for you. The following information will answer some of the questions you may have about contact lenses before your <a href="/what-we-do/eye-exam">appointment</a>.</p>

@@ -2,7 +2,6 @@
 title: "Vision training: there's more than meets the eye!"
 date: 2017-08-29
 author: Joanna Rohrlach
-author_url: /who-we-are/joanna-rohrlach
 preview_image: /uploads/visiontraining1.jpg
 ---
 
@@ -14,6 +13,6 @@ Optometrists are here to help you see better! There are a number of ways in whic
 
 Patients young and old can benefit from vision therapy. Vision training is often recommended to school-aged children to assist with their learning in the classroom, however it can be helpful for many other people including athletes and avid readers. Your optometrist will discuss with you at your eye examination if vision training may be beneficial to improve your visual performance and comfort.
 
-![](training.jpg)
+![](/uploads/training.jpg)
 
 To make an appointment to assess your visual problems, [click here](/contact) and select your preferred location.

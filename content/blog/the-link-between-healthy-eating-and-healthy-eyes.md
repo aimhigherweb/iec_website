@@ -2,7 +2,6 @@
 title: The link between healthy eating and healthy eyes
 date: 2018-04-07
 author: Millie Meegan
-author_url: /who-we-are/millie-meegan
 preview_image: /uploads/healthy-eating.jpg
 ---
 

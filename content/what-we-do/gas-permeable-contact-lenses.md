@@ -1,7 +1,7 @@
 ---
 title: Rigid Gas Permeable Contact Lenses
-category: contact-lenses
-preview-image: rgp.jpg
+category: "SE02"
+preview_image: rgp.jpg
 ---
 <div class="employee-heading">
 

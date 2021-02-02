@@ -1,7 +1,7 @@
 ---
 title: Hyperopia
-category: refractive-conditions
-preview-image: /uploads/hyperopia-book.jpeg
+category: "SE08"
+preview_image: hyperopia-book.jpeg
 ---
 
 <div class="employee-heading">

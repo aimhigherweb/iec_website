@@ -1,7 +1,7 @@
 ---
 title: Inserting Eye Drops Correctly
-category: dry-eye-clinic
-preview-image: eye-drops.jpg
+category: "SE04"
+preview_image: eye-drops.jpg
 ---
 
 <div class="employee-heading">
@@ -18,10 +18,14 @@ preview-image: eye-drops.jpg
   2. Tilt your head backwards (some patients prefer to instead instill their drops lying down). Using one hand pull the lower lid down to form a pouch between the lid and your eye for the drop to fall into.
   3. With the other hand hold your bottle directly above your eye, a few centimetres away. Some patients find they can position the bottle best when they look right up at the tip (Figure 2).
   4. Some patients find it hard to balance like this, and will do better when they rest the body of the bottle across the nose. (Figure 1). 
+4. Some patients find it hard to balance like this, and will do better when they rest the body of the bottle across the nose. (Figure 1).
+  4. Some patients find it hard to balance like this, and will do better when they rest the body of the bottle across the nose. (Figure 1). 
   5. Squeeze gently to release a drop into the eye. It can help to keep your eye drops in the fridge so that you feel the cool drop in your eye and know that it has gone in correctly.
   6. Release your lower lid gently and close your eye. Try not to squeeze too tightly as this may squeeze the drop out of your eye.
   7. Put a drop in the other eye if required.
   8. With the eyes closed, gently press on the inside corner of the eye for 2 minutes. This blocks the tear drainage ducts which keeps the drop in the eye and minimises the chance of any possible systemic side-effects from occurring.
+  9. If you need to put a different drop into the eyes, allow 5 minutes between them so they do not wash each other out and reduce their effect. 
+9. If you need to put a different drop into the eyes, allow 5 minutes between them so they do not wash each other out and reduce their effect.
   9. If you need to put a different drop into the eyes, allow 5 minutes between them so they do not wash each other out and reduce their effect. 
 
 ![](/uploads/eye-drops.jpg)

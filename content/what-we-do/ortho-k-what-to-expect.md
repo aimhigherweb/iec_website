@@ -1,7 +1,7 @@
 ---
 title: "Ortho-K: What To Expect"
-category: orthok
-preview-image: /uploads/ok-mr-gent.jpg
+category: "SE06"
+preview_image: ok-mr-gent.jpg
 ---
 <div class="employee-heading">
 <p>Still curious about ortho-K? We've made a list of common experiences on the ortho-K program and frequently asked questions on this page that may answer some of your questions. If you would like to know more or you have a specific query, feel free to <a href="/what-we-do/eye-exam">contact us</a> and a member of our staff can give you more information.</p>

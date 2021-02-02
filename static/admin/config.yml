@@ -1,56 +1,172 @@
 backend:
   name: git-gateway
-  branch: master
-media_folder: "static/uploads" # Media files will be stored in the repo under images/uploads
-public_folder: "/uploads" # Media files will be stored in the repo under images/uploads
+  branch: staging #temp until production (=master)
+
+# when using the default proxy server port
+local_backend: true
+
+site_url: https://www.innovativeeyecare.com.au
+media_folder: "static/uploads" # Media files stored in repo under images/uploads
+public_folder: "/uploads" # Media files stored in repo under images/uploads
+
 collections:
-- name: "blog" # Used in routes, e.g., /admin/collections/blog
-  label: "Blog" # Used in the UI
-  folder: "content/blog" # The path to the folder where the documents are stored
-  create: true # Allow users to create new documents in this collection
-  slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
-  fields: # The fields for each document, usually in front matter
-    - {label: "Title", name: "title", widget: "string", required: false}
-    - {label: "Publish Date", name: "date", widget: "datetime", required: false}
-    - {label: "Author", name: "author", widget: "string", required: false}
-    - {label: "Author URL", name: "author_url", widget: "string", required: false}
-    - {label: "Preview Image", name: "preview_image", widget: "image", required: false}
-    - {label: "Body", name: "body", widget: "markdown", required: false}
-- name: "patient-resources" # Used in routes, e.g., /admin/collections/blog
-  label: "Patient Resources" # Used in the UI
-  folder: "content/patient-resources" # The path to the folder where the documents are stored
-  create: true # Allow users to create new documents in this collection
-  slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
-  fields: # The fields for each document, usually in front matter
-    - {label: "Title", name: "title", widget: "string", required: false}
-    - {label: "Category", name: "category", widget: "string", required: false}
-    - {label: "Preview Image", name: "preview_image", widget: "image", required: false}
-    - {label: "Body", name: "body", widget: "markdown", required: false}
-- name: "who-we-are" # Used in routes, e.g., /admin/collections/blog
-  label: "Who We Are" # Used in the UI
-  folder: "content/who-we-are" # The path to the folder where the documents are stored
-  create: true # Allow users to create new documents in this collection
-  slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
-  fields: # The fields for each document, usually in front matter
-    - {label: "Title", name: "title", widget: "string", required: false}
-    - {label: "Job Title", name: "jobtitle", widget: "string", required: false}
-    - {label: "Photo", name: "photo", widget: "image", required: false}
-    - {label: "Body", name: "body", widget: "markdown", required: false}
-    - {label: "Skill 1", name: "skill1", widget: "string", required: false}
-    - {label: "Rating 1", name: "rating1", widget: "number", valueType: "int", required: false}
-    - {label: "Skill 2", name: "skill2", widget: "string", required: false}
-    - {label: "Rating 2", name: "rating2", widget: "number", valueType: "int", required: false}
-    - {label: "Skill 3", name: "skill3", widget: "string", required: false}
-    - {label: "Rating 3", name: "rating3", widget: "number", valueType: "int", required: false}
-    - {label: "Skill 4", name: "skill4", widget: "string", required: false}
-    - {label: "Rating 4", name: "rating4", widget: "number", valueType: "int", required: false}
-- name: "what-we-do" # Used in routes, e.g., /admin/collections/blog
-  label: "What We Do" # Used in the UI
-  folder: "content/what-we-do" # The path to the folder where the documents are stored
-  create: true # Allow users to create new documents in this collection
-  slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
-  fields: # The fields for each document, usually in front matter
-    - {label: "Title", name: "title", widget: "string", required: false}
-    - {label: "Category", name: "category", widget: "string", required: false}
-    - {label: "Preview Image", name: "preview-image", widget: "image", required: false}
-    - {label: "Body", name: "body", widget: "markdown", required: false}
+  - name: "blog"
+    label: "Blog"
+    folder: "content/blog"
+    create: true #
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string", required: false }
+      - {
+          label: "Publish Date",
+          name: "date",
+          widget: "datetime",
+          required: false,
+        }
+      - {
+          label: "Author",
+          name: "author",
+          widget: "relation",
+          collection: "author",
+          searchFields: ["title"],
+          valueField: "title",
+        }
+      - {
+          label: "Preview Image",
+          name: "preview_image",
+          widget: "image",
+          required: false,
+        }
+      - { label: "Body", name: "body", widget: "markdown", required: false }
+  - name: "patient-resources"
+    label: "Patient Resources"
+    folder: "content/patient-resources"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string", required: false }
+      - {
+          label: "Category",
+          name: "category",
+          widget: "string",
+          required: false,
+        }
+      - {
+          label: "Preview Image",
+          name: "preview_image",
+          widget: "image",
+          required: false,
+        }
+      - { label: "Body", name: "body", widget: "markdown", required: false }
+  - name: "author"
+    label: "Who We Are"
+    folder: "content/author"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string", required: false }
+      - {
+          label: "Job Title",
+          name: "jobtitle",
+          widget: "string",
+          required: false,
+        }
+      - { label: "Photo", name: "photo", widget: "image", required: false }
+      - { label: "Body", name: "body", widget: "markdown", required: false }
+      - { label: "Skill 1", name: "skill1", widget: "string", required: false }
+      - {
+          label: "Rating 1",
+          name: "rating1",
+          widget: "number",
+          valueType: "int",
+          required: false,
+        }
+      - { label: "Skill 2", name: "skill2", widget: "string", required: false }
+      - {
+          label: "Rating 2",
+          name: "rating2",
+          widget: "number",
+          valueType: "int",
+          required: false,
+        }
+      - { label: "Skill 3", name: "skill3", widget: "string", required: false }
+      - {
+          label: "Rating 3",
+          name: "rating3",
+          widget: "number",
+          valueType: "int",
+          required: false,
+        }
+      - { label: "Skill 4", name: "skill4", widget: "string", required: false }
+      - {
+          label: "Rating 4",
+          name: "rating4",
+          widget: "number",
+          valueType: "int",
+          required: false,
+        }
+      - {
+          label: "Order",
+          name: "order",
+          widget: "number",
+          valueType: "int",
+          required: false,
+        }
+  - name: "what-we-do-cat"
+    label: "What We Do Category"
+    folder: "content/what-we-do-cat"
+    create: true
+    slug: "{{catno}}-{{slug}}"
+    summary: "{{catno}} - {{title}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - {
+          label: "Category No",
+          name: "catno",
+          widget: "string",
+          pattern: ["^([A-Z]{2})([0-9]{2})$", "eg. SE01, SE02,.. SE10"],
+        }
+      - { label: "Image", name: "image", widget: "image" }
+  - name: "what-we-do"
+    label: "What We Do"
+    folder: "content/what-we-do"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string", required: false }
+      - {
+          label: "Category",
+          name: "category",
+          widget: "relation",
+          collection: "what-we-do-cat",
+          display_fields: ["catno", "title"],
+          searchFields: ["title"],
+          valueField: "catno",
+        }
+      - {
+          label: "Preview Image",
+          name: "preview_image",
+          widget: "image",
+          required: false,
+        }
+      - { label: "Body", name: "body", widget: "markdown", required: false }
+  - name: "promotion"
+    label: "Promotion"
+    folder: "content/promotion"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string", required: true }
+      - { label: "Image", name: "image", widget: "image", required: true }
+      - {
+          label: "Publish Date",
+          name: "publish_date",
+          widget: "datetime",
+          required: true,
+        }
+      - {
+          label: "Expiry Date",
+          name: "expiry_date",
+          widget: "datetime",
+          required: true,
+        }

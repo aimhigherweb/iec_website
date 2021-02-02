@@ -1,7 +1,7 @@
 ---
 title: Presbyopia
-category: refractive-conditions
-preview-image: /uploads/presbyopia_header-2-.jpg
+category: "SE08"
+preview_image: book-presbyopia.jpg
 ---
 
 <div class="employee-heading">

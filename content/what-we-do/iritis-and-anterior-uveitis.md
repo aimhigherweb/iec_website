@@ -1,7 +1,7 @@
 ---
 title: Iritis & Anterior Uveitis
-category: acute-red-eyes
-preview-image: iritis-uveitis.jpg
+category: "SE07"
+preview_image: iritis-uveitis.jpg
 ---
 <div class="employee-heading">
 <p>Iritis is a condition which involves inflammation of the iris within the eye. This is the most common type of anterior uveitis – a term covering inflammation of the deep pigmented tissues at the front of the eye. Iritis may occur in one or both eyes; however, it is more common for just one eye to be affected at a time. The eye is often red, painful and light-sensitive with this condition. Iritis is potentially sight-threatening and needs prompt treatment from your therapeutically trained optometrist.</p>

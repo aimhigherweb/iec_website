@@ -1,8 +1,7 @@
 ---
 title: The latest addition at Innovative Eye Care
 date: 2020-08-12T03:35:52.577Z
-author: Dylan Bentley & Millie Meegan
-author_url: https://www.innovativeeyecare.com.au/who-we-are/dylan-bentley
+author: Dylan Bentley
 preview_image: /uploads/blog-cover.png
 ---
 <div class="employee-heading">

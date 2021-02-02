@@ -1,7 +1,7 @@
 ---
 title: Gift Cards
-category: consultations
-preview-image: gift-card.jpg
+category: "SE10"
+preview_image: gift-card.jpg
 ---
 <div class="employee-heading">
 To thank you for your support we will provide a $50 Gift Card in the following situations:

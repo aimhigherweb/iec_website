@@ -1,7 +1,7 @@
 ---
 title: Anterior Ocular Imaging
-category: advanced-imaging-technology
-preview-image: /uploads/anterior-ocular-imaging.jpg
+category: "SE05"
+preview_image: anterior-ocular-imaging.jpg
 ---
 <div class="employee-heading">
 <p>Anterior imaging (imaging of the front of the eye) is vital for detecting and recording important information about your eye health, as well as for providing information about the shape of your eye in <a href="/what-we-do/contact-lenses">contact lens</a> fittings. At Innovative Eye Care, we use the highest quality equipment using a variety of imaging methods across our Adelaide and Woodville practices, including the <i>Pentacam AXL Wave</i>, the <i>Heidelberg Spectralis</i> and standard <i>slit lamp biomicroscopes with HD Canon photography</i>.</p>

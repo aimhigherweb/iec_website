@@ -2,7 +2,6 @@
 title: "Dry or watery eyes? The solution may be a plumbing job"
 date: 2017-08-14
 author: Karl Evans
-author_url: /who-we-are/karl-evans
 preview_image: /uploads/vibe.jpg
 ---
 
@@ -14,7 +13,7 @@ Firstly, if your tear gland is not working 100% - that is, to use our analogy, t
 
 Secondly, if you have unwanted tears running down your cheek it can often be a blocked punctum - a clog in the drain when the shower is on. A blockage may be caused by the buildup of dust and/or mucous and this can be treated by pushing some water through - a simple and painless procedure akin to applying a plunger to your bathroom drain. Sometimes the blockage is more substantial and a referral for a surgical opinion is warranted.
 
-![](drainage.png)
+![](/uploads/drainage.png)
 
 photo credit : [link](http://curiosoperoinutil.com/2007/01/22/consultorio-cpi-lagrimas/)
 

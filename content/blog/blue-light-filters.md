@@ -2,20 +2,19 @@
 title: Helpful or hype? Blue light filters
 date: 2018-08-07T00:00:00.000Z
 author: Millie Meegan
-author_url: /who-we-are/millie-meegan
 preview_image: /uploads/blue-light-power-button.jpg
 ---
 
 In recent years the conversation surrounding the effects of blue light has been steadily growing. What began as investigations into the sleep cycle of photosynthetic marine plankton in the 1950s has rapidly progressed to today's detailed research of the human response to different wavelengths and the impact it has on the many facets of our complicated physiology.<sup>1</sup> The findings of this research seems to suggest that the wavelength of visible light that is most harmful to humans is at around 435 nm – blue-violet light on the visible spectrum.<sup>2</sup> As the global population is increasingly exposed to blue-violet light due to everyday technology like smartphones, laptops and flourescent lighting, the discussion of blue light hazards has found its way into the spotlight. Several tech companies like Apple, Microsoft and Samsung offer blue light filters for almost all of their digital products and blue light filter coatings for spectacle lenses are becoming more and more common. But how does blue light filtering stack up against the hype?
 
-![](light-spectrum.jpg)
+![](/uploads/light-spectrum.jpg)
 _The spectrum of light from infrared to ultraviolet._
 
 We've probably all heard of the dangers of UV light before and the multitude of ocular pathologies that can arise from exposure to the sun's rays. Luckily, medium-wave ultraviolet B and short-wave ultraviolet C light is effectively filtered by the ozone layer and the lens of the eye.<sup>3</sup> It's the long-wave ultraviolet A light that can pass through both these media along with visible light to penetrate the macular pigment. Blue-violet light is similar to UVA light in that they are both comparably high energy wavelengths. This means that they can have powerful effects on the retina, and such effects are not always beneficial. Both have been linked to macular degeneration, although the relationship between MD and blue light exposure is more tenuous.<sup>4</sup>
 
 You may be asking yourself why we don't simply block all blue light like we do UV light if there's accumulating evidence that blue light is detrimental. While UVA light can and should be effectively filtered with quality sunglasses, it is not always effective or practical to do the same for blue light. Unlike UVA, we need wavelengths of blue light to be able to see in scotopic and mesopic conditions – that is, low-light environments.<sup>3</sup> Blue light is also necessary for the regulation of circadian rhythm. Retinal ganglion cells containing melanopsin pigment are stimulated by blue light to indirectly suppress melatonin release into the blood, which has the effect of reducing sleepiness.<sup>2</sup> Its absence at night would normally, under the natural circumstances that humans have evolved under, trigger melatonin release and allow for the onset of sleep.
 
-![](blue-light-sleep-cycle.jpg)
+![](/uploads/blue-light-sleep-cycle.jpg)
 
 However, now that more and more of us are using digital devices before bed (as many as 70% of Australian adolescents)<sup>5</sup> this sleep cycle is being interrupted. It follows then that blue light filtering is mostly necessary after dark when we would like to be able to sleep. As previously mentioned, there are settings on almost all digital devices to lessen blue light emission at certain times of the day. There are also options available in the form of spectacle lens add-ons that help to block blue light. The first of these is an anti-reflection coating, which gives the light reflected off the glasses a bluish hue, but most AR coatings generally only block about 10% of blue light that is emitted from digital devices.<sup>3</sup> The lenses themselves can also be tinted an amber colour which can block much more blue light depending on the density, but these must be manufactured in accordance with legal requirements for night driving.<sup>3</sup> Finally, different lens materials can block up to 100% of blue-violet wavelengths, but these often have a heavy yellowish-amber hue.
 

@@ -1,7 +1,7 @@
 ---
 title: Novelty and Coloured Contact Lenses
-category: contact-lenses
-preview-image: coloured-cl.jpg
+category: "SE02"
+preview_image: coloured-cl.jpg
 ---
 
 <div class="employee-heading">

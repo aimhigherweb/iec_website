@@ -1,7 +1,7 @@
 ---
 title: Vision and Driving Safety
-category: consultations
-preview-image: /uploads/photo-1521136095380-08fbd7be93c8-2-.jfif
+category: "SE10"
+preview_image: photo-1521136095380-08fbd7be93c8-2-.jfif
 ---
 <div class="employee-heading">
 

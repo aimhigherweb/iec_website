@@ -1,7 +1,7 @@
 ---
 title: BlephEx
-category: dry-eye-clinic
-preview-image: blephex.gif
+category: "SE04"
+preview_image: blephex.gif
 ---
 
 <div class="employee-heading">

@@ -2,7 +2,6 @@
 title: 'Style Guide: Gettin'' Hygge With It'
 date: 2019-04-23T06:43:12.511Z
 author: Millie Meegan
-author_url: who-we-are/millie-meegan
 preview_image: /uploads/photo-1517487881594-2787fef5ebf7.jpeg
 ---
 <i>Tidying Up with Marie Kondo</i> is a sign of the times. We’re all about conserving space, which most of the time is a good thing. But when it dips into minimalism, it can become an attitude that prevents us from feeling comfortable in our own space. Minimalism would rather an area be pleasing to the eye than functional. With colder weather comes a need to be snug and warm, and a big part of that can be having a packed room to make the space seem smaller. So don’t be surprised that now we’re heading into autumn, you might be feeling a yearning to pull some of your old stuff out of the cupboard.

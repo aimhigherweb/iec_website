@@ -1,13 +1,13 @@
-import { useLayoutEffect } from "react";
+import { useLayoutEffect } from "react"
 
 export const useScrollFreeze = () => {
   useLayoutEffect(() => {
-    const original = window.getComputedStyle(document.body).overflow;
-    document.body.style.overflow = "hidden";
+    const original = window.getComputedStyle(document.body).overflow
+    document.body.style.overflow = "hidden"
 
     return () => {
-      console.log("original", original);
-      document.body.style.overflow = original;
-    };
-  }, []);
-};
+      console.log("original", original)
+      document.body.style.overflow = original
+    }
+  }, [])
+}

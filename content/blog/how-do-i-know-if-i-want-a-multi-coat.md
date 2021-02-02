@@ -1,8 +1,7 @@
 ---
 title: How do I know if I want a multicoat?
 date: 2020-04-30T05:02:10.965Z
-author: 'Karl Evans '
-author_url: /who-we-are/karl-evans
+author: Karl Evans
 preview_image: /uploads/k8-r87zx1rwecq-unsplash.jpg
 ---
 One of the most common dispensing questions that gets asked is should I get a multicoat on my lenses. It is not a trivial cost but it’s also not the major cost of glasses. So what are the benefits:
