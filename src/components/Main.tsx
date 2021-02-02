@@ -34,7 +34,7 @@ const MainHeader = styled.div`
   background-color: ${(props) =>
     props.searchMode || props.bookingMode || props.carouselMode
       ? "#000000"
-      : "#00000066"};
+      : "#000000AA"};
   border: ${DEBUG_MAIN};
 `
 const Logo = styled.img.attrs({
