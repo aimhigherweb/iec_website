@@ -117,6 +117,9 @@ const Container = styled.div`
   margin: 0px;
   margin-bottom: 80px;
 `
+const Header = styled.div`
+  height: 88px;
+`
 
 const WhoWeAreTemplate: React.FC = (props) => {
   const match = useMatchMedia({ width: MAX_WIDTH })
@@ -135,7 +138,7 @@ const WhoWeAreTemplate: React.FC = (props) => {
         () => null,
         () => null
       )}
-
+      <Header />
       {Detail(props.location.state, props.data)}
       {Footer(true)}
     </Container>

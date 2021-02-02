@@ -285,6 +285,9 @@ const Container = styled.div`
   margin: 0px;
   margin-bottom: 80px;
 `
+const Header = styled.div`
+  height: 88px;
+`
 
 const WhatWeDoTemplate: React.FC = (props) => {
   const match = useMatchMedia({ width: MAX_WIDTH })
@@ -303,7 +306,7 @@ const WhatWeDoTemplate: React.FC = (props) => {
         () => null,
         () => null
       )}
-
+      <Header />
       {Detail(props.location.state, props.data)}
       {Footer()}
     </Container>

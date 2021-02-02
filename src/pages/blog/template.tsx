@@ -291,12 +291,13 @@ const Container = styled.div`
   margin: 0px;
   margin-bottom: 80px;
 `
+const Header = styled.div`
+  height: 88px;
+`
 
 const BlogTemplate: React.FC = (props) => {
   const match = useMatchMedia({ width: MAX_WIDTH })
-  console.log(
-    `*** BlogTemplate.RENDER... match=${match} path=${props.location.pathname}`
-  )
+  console.log(`*** BlogTemplate.RENDER... match=${match}`)
   return (
     <Container>
       {Main(
@@ -309,6 +310,7 @@ const BlogTemplate: React.FC = (props) => {
         () => null,
         () => null
       )}
+      <Header />
       {Detail(props.location.state, props.data)}
       {Footer()}
     </Container>

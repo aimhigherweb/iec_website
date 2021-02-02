@@ -227,6 +227,9 @@ const Container = styled.div`
   margin: 0;
   margin-bottom: 80px;
 `
+const Header = styled.div`
+  height: 88px;
+`
 
 const Contact: React.FC = () => {
   const match = useMatchMedia({ width: MAX_WIDTH })
@@ -248,6 +251,7 @@ const Contact: React.FC = () => {
         session.searchToggle,
         session.bookingToggle
       )}
+      <Header />
       {PracticeLocations(show, session.bookingToggle)}
       {SocialFeed(show, match)}
       {Footer(show)}

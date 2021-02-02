@@ -235,6 +235,9 @@ const Container = styled.div`
   margin: 0;
   margin-bottom: 80px;
 `
+const Header = styled.div`
+  height: 88px;
+`
 
 const PatientResources: React.FC = (props) => {
   const match = useMatchMedia({
@@ -258,6 +261,7 @@ const PatientResources: React.FC = (props) => {
         session.searchToggle,
         session.bookingToggle
       )}
+      <Header />
       {Patient(show, props.data)}
       {SocialFeed(show, match)}
       {Footer(show)}
