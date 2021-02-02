@@ -216,7 +216,7 @@ const MainBookingButton = styled.div`
   @media (max-width: ${MAX_WIDTH_PX}) {
     margin: 0;
     padding: 8px 50px;
-    font-size: 0.8em;
+    font-size: 0.9em;
   }
 `
 
