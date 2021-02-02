@@ -409,43 +409,6 @@ const MainDiv = (
         </MainAppointment>
       )}
       {(!showFull || match === true) && <MainHeaderFiller />}
-      {!showSearch && !showBooking && showFull && videoToPlay && (
-        <MainVideo>
-          <MainVideoContent
-            id="main-video"
-            className="video-js vjs-fill"
-            controls={false}
-            preload="auto"
-            autoPlay={true}
-            muted={true}
-            loop={true}
-            data-setup='{"fill":true}'
-          >
-            <track kind="captions" />
-            <source src={videoToPlay} type="video/mp4" />
-          </MainVideoContent>
-        </MainVideo>
-      )}
-      {!showSearch && showFull && imageToDisplay && (
-        <MainImage>
-          <img src={imageToDisplay} />
-        </MainImage>
-      )}
-      {!showSearch && showFull && carouselToDisplay && (
-        <MainImage>
-          <Carousel
-            responsive={responsive}
-            autoPlay={true}
-            infinite={true}
-            removeArrowOnDeviceType={["mobile"]}
-            ssr={true}
-          >
-            {carouselToDisplay.map((imageSrc) => {
-              return <img key={imageSrc} src={imageSrc} />
-            })}
-          </Carousel>
-        </MainImage>
-      )}
       {showFull && (
         <MainFooter searchMode={showSearch}>
           <MainSearch>
@@ -498,6 +461,43 @@ const MainDiv = (
             closeCallback={searchClose}
           />
         </div>
+      )}
+      {!showSearch && !showBooking && showFull && videoToPlay && (
+        <MainVideo>
+          <MainVideoContent
+            id="main-video"
+            className="video-js vjs-fill"
+            controls={false}
+            preload="auto"
+            autoPlay={true}
+            muted={true}
+            loop={true}
+            data-setup='{"fill":true}'
+          >
+            <track kind="captions" />
+            <source src={videoToPlay} type="video/mp4" />
+          </MainVideoContent>
+        </MainVideo>
+      )}
+      {!showSearch && showFull && imageToDisplay && (
+        <MainImage>
+          <img src={imageToDisplay} />
+        </MainImage>
+      )}
+      {!showSearch && showFull && carouselToDisplay && (
+        <MainImage>
+          <Carousel
+            responsive={responsive}
+            autoPlay={true}
+            infinite={true}
+            removeArrowOnDeviceType={["mobile"]}
+            ssr={true}
+          >
+            {carouselToDisplay.map((imageSrc) => {
+              return <img key={imageSrc} src={imageSrc} />
+            })}
+          </Carousel>
+        </MainImage>
       )}
     </div>
   )
