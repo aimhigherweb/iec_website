@@ -216,17 +216,6 @@ describe("Test Pages", function(){
                 cy.get('#gatsby-focus-wrapper').contains(title).click({ force: true })
                 cy.contains(author)
                 cy.contains(data)
-
-                //checking the navigation bar working for each blog post
-                cy.get('#gatsby-focus-wrapper').find('img').should('have.attr', 'src','/images2/icon-logo.png').eq(1).click({force: true})
-                cy.contains("Who We Are")
-                cy.contains("Shop")
-                cy.contains("Home")
-                cy.contains("What We Do")
-                cy.contains("Patient Resources")
-                cy.contains("Contact")
-                cy.contains("Blog").click({force: true})
-
             });
         })
 
