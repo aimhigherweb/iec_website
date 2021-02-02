@@ -1,0 +1,23 @@
+[
+    {
+        "category": "Contact Lens Instructions",
+        "option1": "Care of Orthokeratology Lenses",
+        "data1": "Orthokeratology, is a safe, reversible and effective vision correction solution.",
+        "option2": "Care of Rigid Gas Permeable Lenses",
+        "data2": "Rigid Gas Permeable (RGP) contact lenses are a recognised safe form of vision correction."
+    },
+    {
+        "category": "Vision Training",
+        "option1": "Vision Training Push-Up Exercises",
+        "data1": "Push-up exercises help to train convergence.",
+        "option2": "Vision Training With Loose Prisms",
+        "data2": "Loose prisms help to train our vergence system (the ability of our eyes to turn in and out)."
+    },
+    {
+        "category": "Everyday Eye Care",
+        "option1": "Dry Eye Information",
+        "data1": "Dry eye disease covers a spectrum of conditions.",
+        "option2": "Low Vision Advice",
+        "data2": "Low vision doesn’t have to be debilitating."
+    }
+]
