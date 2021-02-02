@@ -254,6 +254,10 @@ const MainImage = styled.div`
   width: auto;
   height: auto;
 `
+const MainCarousel = styled.div`
+  width: auto;
+  height: auto;
+`
 
 const BookingIframe = styled.iframe`
   overflow: hidden;
@@ -485,7 +489,7 @@ const MainDiv = (
         </MainImage>
       )}
       {!showSearch && showFull && carouselToDisplay && (
-        <MainImage>
+        <MainCarousel>
           <Carousel
             responsive={responsive}
             autoPlay={true}
@@ -497,7 +501,7 @@ const MainDiv = (
               return <img key={imageSrc} src={imageSrc} />
             })}
           </Carousel>
-        </MainImage>
+        </MainCarousel>
       )}
     </div>
   )
