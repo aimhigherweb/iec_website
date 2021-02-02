@@ -46,6 +46,21 @@ const Logo = styled.img.attrs({
   cursor: pointer;
   @media (max-width: ${MAX_WIDTH_PX}) {
     width: 160px;
+    visibility: ${(props) => (props.hide ? "hidden" : "visible")};
+  }
+  border: ${DEBUG_MAIN};
+`
+const SearchMob = styled.div`
+  position: fixed;
+  top: 32px;
+  right: 80px;
+  width: 20px;
+  height: 31px;
+  background: clear;
+  cursor: pointer;
+  visibility: hidden;
+  @media only screen and (hover: none) and (pointer: coarse) {
+    visibility: visible;
   }
   border: ${DEBUG_MAIN};
 `
@@ -117,11 +132,24 @@ const MainSearch = styled.div`
   }
   border: ${DEBUG_MAIN};
 `
+const MainSearchMob = styled.div`
+  position: fixed;
+  top: 20px;
+  left: 0;
+  margin: 0;
+  width: 100%;
+  font-size: 0.8em;
+  visibility: hidden;
+  @media only screen and (hover: none) and (pointer: coarse) {
+    visibility: visible;
+  }
+  border: ${DEBUG_MAIN};
+`
 const MainSearchWrapper = styled.span`
   padding: 12px 0;
   @media (max-width: ${MAX_WIDTH_PX}) {
     width: 100%;
-    margin: 0px 20px;
+    margin: 0px 8px;
   }
   border: ${DEBUG_MAIN};
   border: 1px solid white;
@@ -297,7 +325,30 @@ const MainDiv = (
             bookingMode={showBooking}
             carouselMode={carouselToDisplay}
           >
-            <Logo onClick={() => navigate("/")} />
+            <Logo onClick={() => navigate("/")} hide={showSearch} />
+            {showSearch && (
+              <MainSearchMob>
+                <MainSearchWrapper>
+                  <MainSearchInput
+                    onClick={() => searchToggleCallback(true)}
+                    value={session.current.searchText}
+                    onChange={(e) => {
+                      searchUpdate(e.target.value)
+                    }}
+                    placeholder="Search now."
+                    size={15}
+                  />
+                </MainSearchWrapper>
+              </MainSearchMob>
+            )}
+            <SearchMob>
+              <FaSearch
+                onClick={() => searchToggleCallback(true)}
+                style={{
+                  color: "white",
+                }}
+              />
+            </SearchMob>
             <Menu onClick={() => setShowMenu(!showMenu)}>
               {!showMenu && <img src={"/images2/icon-menu.png"} />}
             </Menu>

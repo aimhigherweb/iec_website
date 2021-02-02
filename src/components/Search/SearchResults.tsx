@@ -7,14 +7,26 @@ import Fuse from "fuse.js"
 
 import { useSession } from "../../state/SessionWrapper"
 
+const DEBUG_SEARCH = "0px solid blue"
+const MAX_WIDTH = 768
+const MAX_WIDTH_PX = `${MAX_WIDTH}px`
+
 const ResultPanel = styled.div`
   width: 100%;
   height: 100%;
   padding: 20px;
+  @media only screen and (hover: none) and (pointer: coarse) {
+    padding: 0 10px;
+  }
+  border: ${DEBUG_SEARCH};
 `
 const ResultList = styled.div`
   margin-top: 100px;
   margin-bottom: 100px;
+  @media only screen and (hover: none) and (pointer: coarse) {
+    margin: 0px;
+  }
+  border: ${DEBUG_SEARCH};
 `
 
 const CloseIcon = styled(FontAwesomeIcon)`
@@ -24,19 +36,35 @@ const CloseIcon = styled(FontAwesomeIcon)`
   top: 120px;
   right: 24px;
   cursor: pointer;
+  @media only screen and (hover: none) and (pointer: coarse) {
+    top: 92px;
+    left: 8px;
+    font-size: 18px;
+  }
 `
 
 const ResultRow = styled.div`
   margin: 0 20px 20px 10px;
+  @media only screen and (hover: none) and (pointer: coarse) {
+    margin: 0;
+  }
 `
 const ResultHeader = styled(ResultRow)`
   margin-bottom: 0;
   font-size: 1.2em;
+  @media only screen and (hover: none) and (pointer: coarse) {
+    display: none;
+  }
 `
 const ResultFound = styled(ResultRow)`
   margin-bottom: 8px;
   font-size: 0.9em;
   color: grey;
+  @media only screen and (hover: none) and (pointer: coarse) {
+    margin-top: 24px;
+    margin-bottom: 0;
+    font-size: 0.6em;
+  }
 `
 
 const ResultTitle = styled((props) => <div {...props} />)`
@@ -44,10 +72,18 @@ const ResultTitle = styled((props) => <div {...props} />)`
   color: #5091cd;
   outline: none;
   cursor: pointer;
+  @media only screen and (hover: none) and (pointer: coarse) {
+    font-size: 0.6em;
+  }
+  border: ${DEBUG_SEARCH};
 `
 const ResultDetail = styled.div`
   font-size: 0.9em;
   line-height: 1.4em;
+  @media only screen and (hover: none) and (pointer: coarse) {
+    font-size: 0.6em;
+  }
+  border: ${DEBUG_SEARCH};
 `
 
 export const SearchResults: React.FC = ({ resultCallback, closeCallback }) => {
