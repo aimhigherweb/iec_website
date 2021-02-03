@@ -10,7 +10,7 @@ import { useMatchMedia } from "../../hooks/useMatchMedia"
 
 const DEBUG_SEARCH = "0px solid blue"
 const MAX_WIDTH = 768
-const MAX_WIDTH_PX = `${MAX_WIDTH}px`
+//const MAX_WIDTH_PX = `${MAX_WIDTH}px`
 
 const ResultPanel = styled.div`
   width: 100%;
@@ -28,6 +28,9 @@ const ResultList = styled.div`
     margin: 0px;
   }
   border: ${DEBUG_SEARCH};
+`
+const Header = styled.div`
+  height: 88px;
 `
 
 const CloseIcon = styled(FontAwesomeIcon)`
@@ -165,10 +168,6 @@ export const SearchResults: React.FC = ({ resultCallback, closeCallback }) => {
     console.log(`*** SearchResults.useEffect... searchText=${searchText}`)
     handleSearch(searchText)
   }, [searchText])
-
-  const Header = styled.div`
-    height: 88px;
-  `
 
   return (
     <ResultPanel>

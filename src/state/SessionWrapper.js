@@ -21,6 +21,7 @@ export const SessionWrapper = ({ children }) => {
     setCurrent({
       ...current,
       showSearch: on,
+      searchText: on ? current.searchText : "",
       showBooking: false,
       bookingId: "",
     })
