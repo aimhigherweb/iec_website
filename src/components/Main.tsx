@@ -489,6 +489,7 @@ const MainDiv = (
       )}
       {!showSearch && showFull && carouselToDisplay && (
         <MainCarousel>
+          <MainHeaderFiller />
           <Carousel
             responsive={responsive}
             autoPlay={true}
