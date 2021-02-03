@@ -45,6 +45,9 @@ const WhatService = styled.div`
   justify-content: space-around;
   margin-bottom: 20px;
   padding: 40px 40px;
+  @media (max-width: ${MAX_WIDTH_PX}) {
+    padding 0 20px;
+  }
   border: ${DEBUG_TEAM};
   border-bottom: 1px solid #212121;
 `
@@ -52,7 +55,7 @@ const WhatServiceItem = styled.div`
   flex: 1;
   flex-basis: 20%;
   @media (max-width: ${MAX_WIDTH_PX}) {
-    flex-basis: 50%;
+    flex-basis: 20%;
   }
   border: ${DEBUG_TEAM};
 `
@@ -62,7 +65,7 @@ const WhatServiceImage = styled.img`
   height: 24px;
   margin: 16px auto;
   @media (max-width: ${MAX_WIDTH_PX}) {
-    height: 50px;
+    height: 24px;
   }
   border: ${DEBUG_TEAM};
 `
@@ -72,7 +75,8 @@ const WhatServiceTitle = styled.p`
   text-align: center;
   text-transform: uppercase;
   @media (max-width: ${MAX_WIDTH_PX}) {
-    font-size: 0.7em;
+    font-size: 0.4em;
+    padding: 4px;
   }
   color: ${(props) => (props.chosen ? "#5091cd" : "black")};
   &:hover {
