@@ -32,7 +32,7 @@ const WhatDescription = styled.div`
   padding: 0px 40px 0 40px;
   font-size: 0.8em;
   @media (max-width: ${MAX_WIDTH_PX}) {
-    padding: 20px 40px;
+    padding: 0px 20px;
     text-align: justify;
     font-size: 1em;
   }
@@ -46,7 +46,7 @@ const WhatService = styled.div`
   margin-bottom: 20px;
   padding: 40px 40px;
   @media (max-width: ${MAX_WIDTH_PX}) {
-    padding 0 20px;
+    padding 0 10px;
   }
   border: ${DEBUG_TEAM};
   border-bottom: 1px solid #212121;
@@ -75,8 +75,9 @@ const WhatServiceTitle = styled.p`
   text-align: center;
   text-transform: uppercase;
   @media (max-width: ${MAX_WIDTH_PX}) {
-    font-size: 0.4em;
-    padding: 4px;
+    font-size: 0.5em;
+    text-transform: lowercase;
+    padding: 5px;
   }
   color: ${(props) => (props.chosen ? "#5091cd" : "black")};
   &:hover {
