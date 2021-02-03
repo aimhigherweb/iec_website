@@ -6,6 +6,7 @@ import { faTimes } from "@fortawesome/free-solid-svg-icons"
 import Fuse from "fuse.js"
 
 import { useSession } from "../../state/SessionWrapper"
+import { useMatchMedia } from "../../hooks/useMatchMedia"
 
 const DEBUG_SEARCH = "0px solid blue"
 const MAX_WIDTH = 768
@@ -110,6 +111,11 @@ export const SearchResults: React.FC = ({ resultCallback, closeCallback }) => {
       }
     }
   `)
+
+  const match = useMatchMedia({
+    width: MAX_WIDTH,
+  })
+
   const list = data.allMarkdownRemark.nodes
   const [matches, setMatches] = useState([])
 
@@ -166,7 +172,7 @@ export const SearchResults: React.FC = ({ resultCallback, closeCallback }) => {
 
   return (
     <ResultPanel>
-      <Header />
+      {match && <Header />}
       <ResultList>
         <CloseIcon
           icon={faTimes}

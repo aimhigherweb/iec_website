@@ -261,7 +261,7 @@ const PatientResources: React.FC = (props) => {
         session.searchToggle,
         session.bookingToggle
       )}
-      <Header />
+      {match && <Header />}
       {Patient(show, props.data)}
       {SocialFeed(show, match)}
       {Footer(show)}

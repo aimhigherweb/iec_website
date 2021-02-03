@@ -430,7 +430,7 @@ const WhoWeAre: React.FC = ({ data }) => {
         session.searchToggle,
         session.bookingToggle
       )}
-      <Header />
+      {match && <Header />}
       {Team(show, teamList, match)}
       {History(show, historyList, match)}
       {SocialFeed(show, match)}

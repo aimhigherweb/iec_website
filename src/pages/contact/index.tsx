@@ -251,7 +251,7 @@ const Contact: React.FC = () => {
         session.searchToggle,
         session.bookingToggle
       )}
-      <Header />
+      {match && <Header />}
       {PracticeLocations(show, session.bookingToggle)}
       {SocialFeed(show, match)}
       {Footer(show)}

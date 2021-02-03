@@ -232,7 +232,6 @@ const Header = styled.div`
   height: 88px;
 `
 
-
 const WhatWeDo: React.FC = (props) => {
   const match = useMatchMedia({
     width: MAX_WIDTH,
@@ -255,7 +254,7 @@ const WhatWeDo: React.FC = (props) => {
         session.searchToggle,
         session.bookingToggle
       )}
-      <Header />
+      {match && <Header />}
       {What(show, props.data)}
       {SocialFeed(show, match)}
       {Footer(show)}

@@ -195,7 +195,7 @@ const Blog: React.FC = (props) => {
         session.searchToggle,
         session.bookingToggle
       )}
-      <Header />
+      {match && <Header />}
       {BlogList(show, props.data)}
       {SocialFeed(show, match)}
       {Footer(show)}
