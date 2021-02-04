@@ -44,18 +44,17 @@ describe("Test Pages", function(){
         cy.contains("Subscribe")
         cy.contains("Follow us on Instagram and Facebook")
 
-        //checking the working of the search button by typing input text
-        cy.get('[placeholder="Search now."]').click().type("aa")
-        .invoke('show')
-
+        // //checking the working of the search button by typing input text
+        cy.get('[placeholder="Search now."]').click()
+        
         //checking the booking buttons
         cy.contains(this.data.BookA)
-        cy.contains(this.data.BookW).click()
+        cy.contains(this.data.BookW)
 
     })
  
     it("Who We Are Page", function(){
-        const data;
+        var data;
         cy.visit("who-we-are")
 
         //checking the images of staff and the desciption of staff
@@ -64,7 +63,7 @@ describe("Test Pages", function(){
             staffdata.forEach(sdata => {
                 x<17;
                 data = sdata.data;
-                cy.get('#gatsby-focus-wrapper').find('img').should('have.attr', 'src','/images2/icon-logo.png').eq(x).trigger('mouseclick').click('bottom')
+                cy.get('#gatsby-focus-wrapper').find('img').should('have.attr', 'src','/images2/icon-logo.png').eq(x).click({force:true})
                 cy.get('#gatsby-focus-wrapper').contains(data)
                 x++;
             });
@@ -94,23 +93,23 @@ describe("Test Pages", function(){
         cy.contains("Follow us on Instagram and Facebook")
 
         cy.get('[placeholder="Search now."]').click().type("aa")
-        .invoke('show')
+        //.invoke('show')
 
         cy.contains(this.data.BookA)
-        cy.contains(this.data.BookW).click()
+        cy.contains(this.data.BookW)
 
     })
   
     it("What We Do", function() {
         cy.visit("what-we-do")
-
+        var servicedata
         //cheking the service categories and the subheadings
         cy.fixture('servicedata').then(servicedata => {
             servicedata.forEach(serdata => {
                 service = serdata.service;
                 subhead = serdata.data;
                 subhead2 = serdata.data1;
-                cy.get('#gatsby-focus-wrapper').contains(service).click()
+                cy.get('#gatsby-focus-wrapper').contains(service).click({force:true})
                 cy.contains(subhead)
                 cy.contains(subhead2)
             });
@@ -145,32 +144,32 @@ describe("Test Pages", function(){
         .invoke('show')
 
         cy.contains(this.data.BookA)
-        cy.contains(this.data.BookW).click()
+        cy.contains(this.data.BookW)
     })
   
     it("Patient Resources", function(){
         cy.visit("/patient-resources")
-
+        var patientresources
        //cheking the service categories and the options inside it, and then the article data
-       cy.fixture('patientresources').then(patientresources => {
-        patientresources.forEach(pdata => {
-            category = pdata.category;
-            option1 = pdata.option1;
-            data1 = pdata.data1;
-            option2 = pdata.option2;
-            data2 = pdata.data2;
-            cy.get('#gatsby-focus-wrapper').contains(category).click({ position: 'bottom' },{force: true})
-            cy.contains(option1).click({ force: true })
-            cy.contains(data1)
-            cy.get('#gatsby-focus-wrapper').find('img').should('have.attr', 'src','/images2/icon-logo.png').eq(1).click({force: true})
-            cy.contains("Patient Resources").click({force: true})
-            cy.contains(category).click({ position: 'bottom' }, {force: true})
-            cy.contains(option2).click({ force: true })
-            cy.contains(data2)
-            cy.get('#gatsby-focus-wrapper').find('img').should('have.attr', 'src','/images2/icon-logo.png').eq(1).click({force: true})
-            cy.contains("Patient Resources").click({force: true})
-            });
-        }) 
+        cy.fixture('patientresources').then(patientresources => {
+            patientresources.forEach(pdata => {
+                category = pdata.category;
+                option1 = pdata.option1;
+                data1 = pdata.data1;
+                option2 = pdata.option2;
+                data2 = pdata.data2;
+                cy.get('#gatsby-focus-wrapper').contains(category).click({force: true})
+                cy.contains(option1).click({ force: true })
+                cy.contains(data1)
+                cy.get('#gatsby-focus-wrapper').find('img').should('have.attr', 'src','/images2/icon-logo.png').eq(1).click({force: true})
+                cy.contains("Patient Resources").click({force: true})
+                cy.contains(category).click({ position: 'bottom' }, {force: true})
+                cy.contains(option2).click({ force: true })
+                cy.contains(data2)
+                cy.get('#gatsby-focus-wrapper').find('img').should('have.attr', 'src','/images2/icon-logo.png').eq(1).click({force: true})
+                cy.contains("Patient Resources").click({force: true})
+                });
+            }) 
 
         //checking the navigation bar working
         cy.get('#gatsby-focus-wrapper').find('img').should('have.attr', 'src','/images2/icon-logo.png').eq(1).click("")
@@ -201,7 +200,7 @@ describe("Test Pages", function(){
         .invoke('show')
 
         cy.contains(this.data.BookA)
-        cy.contains(this.data.BookW).click()
+        cy.contains(this.data.BookW)
     })
   
     it("Blog", function() {
