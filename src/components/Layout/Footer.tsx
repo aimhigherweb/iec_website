@@ -3,7 +3,7 @@ import { Link, navigate } from "gatsby"
 import styled from "styled-components"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import {
-  faMapMarker,
+  faMapMarkerAlt,
   faClock,
   faPhoneAlt,
 } from "@fortawesome/free-solid-svg-icons"
@@ -171,7 +171,7 @@ const FooterDiv = (show) => {
         <FooterContentItem>
           <FooterContact>
             <FooterContactSpacer />
-            <FooterContactIcon icon={faMapMarker} />
+            <FooterContactIcon icon={faMapMarkerAlt} />
             <FooterContactText>
               <a
                 href="https://g.page/iecadel?share"
@@ -207,7 +207,7 @@ const FooterDiv = (show) => {
         <FooterContentItem>
           <FooterContact>
             <FooterContactSpacer />
-            <FooterContactIcon icon={faMapMarker} />
+            <FooterContactIcon icon={faMapMarkerAlt} />
             <FooterContactText>
               <a
                 href="https://g.page/iecwoodville?share"

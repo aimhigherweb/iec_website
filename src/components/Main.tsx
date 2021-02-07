@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react"
 import { navigate } from "gatsby"
 import styled from "styled-components"
-import { FaSearch, FaTimes } from "react-icons/fa"
+import { FaSearch, FaTimes, FaMapMarkerAlt, FaPhoneAlt } from "react-icons/fa"
 
 import Carousel from "react-multi-carousel"
 import "react-multi-carousel/lib/styles.css"
@@ -95,15 +95,43 @@ const MainMenuItem = styled.div`
   font-family: "recoleta";
   font-size: 1.1em;
   font-weight: 600;
+  line-height: 1.8;
   text-align: right;
   cursor: pointer;
   &:hover {
     color: #5091cd;
   }
   @media (max-width: ${MAX_WIDTH_PX}) {
-    font-size: 1.2em;
+    font-size: 1.1em;
+    line-height: 1.6;
     margin: 12px 20px;
   }
+`
+const MainMenuItemContact = styled.div`
+  margin: 0 20px;
+  color: white;
+  font-family: "open sans";
+  font-size: 0.7em;
+  font-weight: 400;
+  text-align: right;
+  cursor: pointer;
+  &:hover {
+    color: #5091cd;
+  }
+  @media (max-width: ${MAX_WIDTH_PX}) {
+    font-size: 0.8em;
+    margin: 12px 20px;
+  }
+`
+const MainMenuItemDivider = styled.div`
+  position: relative;
+  margin-top: 20px;
+`
+const MainMenuItemLine = styled.div`
+  position: absolute;
+  border-top: 1px solid #d2d2d2;
+  left: 40%;
+  right: 20px;
 `
 
 const MainFooter = styled.div`
@@ -308,7 +336,7 @@ const MainDiv = (
 
   const navTo = (url) => {
     setShowMenu(false)
-    if (url.startsWith("http")) {
+    if (url.startsWith("http") || url.startsWith("tel")) {
       window.open(url, "_blank")
     } else {
       navigate(url)
@@ -390,6 +418,51 @@ const MainDiv = (
             <MainMenuItem onClick={() => navTo("https://eyesolutions.com.au")}>
               Shop
             </MainMenuItem>
+            <MainMenuItemContact
+              style={{ marginTop: "30px" }}
+              onClick={() => navTo("https://g.page/iecadel?share")}
+            >
+              Adelaide.&nbsp;&nbsp;
+              <FaMapMarkerAlt
+                style={{
+                  fontSize: "0.7em",
+                  color: "white",
+                }}
+              />
+            </MainMenuItemContact>
+            <MainMenuItemContact onClick={() => navTo("tel:61882319341")}>
+              (08) 8231 9341 &nbsp;&nbsp;
+              <FaPhoneAlt
+                style={{
+                  fontSize: "0.7em",
+                  color: "white",
+                }}
+              />
+            </MainMenuItemContact>
+            <MainMenuItemDivider>
+              <MainMenuItemLine />
+            </MainMenuItemDivider>
+            <MainMenuItemContact
+              style={{ marginTop: "40px" }}
+              onClick={() => navTo("https://g.page/iecwoodville?share")}
+            >
+              Woodville.&nbsp;&nbsp;
+              <FaMapMarkerAlt
+                style={{
+                  fontSize: "0.7em",
+                  color: "white",
+                }}
+              />
+            </MainMenuItemContact>
+            <MainMenuItemContact onClick={() => navTo("tel:61884459050")}>
+              (08) 8445 9050 &nbsp;&nbsp;
+              <FaPhoneAlt
+                style={{
+                  fontSize: "0.7em",
+                  color: "white",
+                }}
+              />
+            </MainMenuItemContact>
           </MainMenu>
         </>
       )}
