@@ -24,7 +24,8 @@ const BlogSection = styled.div`
 
 const BlogTitle = styled.h1`
   text-align: center;
-  font-family: "Times New Roman";
+  font-family: "recoleta";
+  font-weight: 500;
   font-size: 2em;
   border: ${DEBUG_TEAM};
 `
@@ -32,7 +33,8 @@ const BlogTitle = styled.h1`
 const BlogDescription = styled.div`
   padding: 8px 40px;
   margin-bottom: 10px;
-  font-size: 0.8em;
+  font-family: "open sans";
+  font-size: 1em;
   @media (max-width: ${MAX_WIDTH_PX}) {
   }
   border: ${DEBUG_TEAM};
@@ -77,6 +79,8 @@ const ArticleDetailText = styled.div`
   border: ${DEBUG_TEAM};
 `
 const ArticleDetailTextDate = styled.p`
+  font-family: "open sans";
+  font-weight: 600;
   font-size: 0.6em;
   color: #424242;
   @media (max-width: ${MAX_WIDTH_PX}) {
@@ -85,7 +89,8 @@ const ArticleDetailTextDate = styled.p`
   border: ${DEBUG_TEAM};
 `
 const ArticleDetailTextTitle = styled.p`
-  font-size: 0.7em;
+  font-family: recoleta-semibold;
+  font-size: 0.9em;
   font-weight: 600;
   @media (max-width: ${MAX_WIDTH_PX}) {
     font-size: 0.6em;
@@ -93,7 +98,9 @@ const ArticleDetailTextTitle = styled.p`
   border: ${DEBUG_TEAM};
 `
 const ArticleDetailTextDesc = styled.div`
+  font-family: "open sans";
   font-size: 0.7em;
+  line-height: 1.8;
   color: #525252;
   border: ${DEBUG_TEAM};
 `

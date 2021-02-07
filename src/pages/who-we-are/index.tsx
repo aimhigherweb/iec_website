@@ -25,11 +25,13 @@ const TeamSection = styled.div`
 
 const TeamTitle = styled.h1`
   text-align: center;
-  font-family: "Times New Roman";
+  font-family: "recoleta";
+  font-weight: 500;
   font-size: 2em;
 `
 const TeamSubtitle = styled.h4`
   text-align: center;
+  font-family: "open sans";
   font-size: 1em;
   font-weight: 500;
 `
@@ -63,11 +65,13 @@ const TeamStaffImage = styled.img`
 `
 const TeamStaffTitle = styled.div`
   color: #5091cd;
+  font-family: "recoleta";
   font-size: 0.9em;
   font-weight: 700;
   text-align: center;
 `
 const TeamStaffJob = styled.div`
+  font-family: "open sans";
   font-size: 0.6em;
   margin-bottom: 8px;
   text-align: center;
@@ -86,6 +90,7 @@ const StaffInfoHtml = styled.div`
 const TeamDescription = styled.div`
   padding: 40px 40px;
   text-align: center;
+  font-family: "open sans";
   font-size: 0.8em;
   @media (max-width: ${MAX_WIDTH_PX}) {
     padding: 20px 40px;
@@ -291,8 +296,9 @@ const HistoryTimelineItem = styled.li`
   }
 `
 const HistoryTimelineItemTitle = styled.div`
+  font-family: "recoleta";
   font-size: 1.2857em; /* 18/16 -> 18px */
-  font-weight: 300;
+  font-weight: 400;
   display: inline;
   margin-right: 0.5em;
   border: ${DEBUG_HISTORY};
@@ -308,8 +314,9 @@ const HistoryDetail = styled.div`
 const HistoryDetailTitle = styled.div`
   margin-bottom: 20px;
   padding: 0;
-  font-size: 2em;
-  font-weight: 700;
+  font-family: "recoleta";
+  font-size: 1.8em;
+  font-weight: 600;
   line-height: 1.1;
   @media (max-width: ${MAX_WIDTH_PX}) {
     font-size: 1em;
@@ -318,6 +325,7 @@ const HistoryDetailTitle = styled.div`
 `
 const HistoryDetailDesc = styled.div`
   margin-bottom: 20px;
+  font-family: "open sans";
   font-size: 1em;
   @media (max-width: ${MAX_WIDTH_PX}) {
     font-size: 0.5em;

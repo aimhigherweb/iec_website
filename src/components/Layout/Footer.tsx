@@ -109,12 +109,14 @@ const FooterMenuItem = styled.li`
 const FooterNewsletterTitle = styled.div`
   font-size: 1em;
   font-weight: 600;
-  font-family: "Times New Roman";
+  font-family: "recoleta";
+  font-weight: 500;
   border: ${DEBUG_FOOTER};
 `
 const FooterNewsletterInput = styled.input`
   padding: 0 4px;
   margin-bottom: 2px;
+  font-family: "open sans";
   font-size: 0.9em;
   background-color: #f2f2f2;
   border: ${DEBUG_FOOTER};
@@ -124,9 +126,9 @@ const FooterNewsletterButton = styled.button`
   margin: 4px 0 12px 0;
   padding: 2px 16px;
   color: white;
-  font-family: "Times New Roman";
+  font-family: "recoleta";
   font-size: 0.9em;
-  font-weight: 600;
+  font-weight: 500;
   background-color: #5091cd;
   border: none;
 `

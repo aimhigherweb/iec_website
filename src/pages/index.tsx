@@ -23,7 +23,8 @@ const TeamSection = styled.div`
 
 const TeamTitle = styled.h1`
   text-align: center;
-  font-family: "Times New Roman";
+  font-family: "recoleta";
+  font-weight: 500;
   font-size: 2em;
   @media (max-width: ${MAX_WIDTH_PX}) {
     font-size 1.5em;
@@ -55,6 +56,7 @@ const TeamStaffImage = styled.img`
 const TeamDescription = styled.div`
   padding: 40px 40px;
   text-align: center;
+  font-family: "open sans";
   font-size: 0.8em;
   @media (max-width: ${MAX_WIDTH_PX}) {
     padding: 20px 40px;
@@ -89,6 +91,7 @@ const TeamServiceImage = styled.img`
   border: ${DEBUG_TEAM};
 `
 const TeamServiceTitle = styled.p`
+  font-family: "open sans";
   font-size: 0.5em;
   font-weight: 600;
   text-align: center;
@@ -233,7 +236,8 @@ const StyleSection = styled.div`
 const StyleTitle = styled.h1`
   padding-top: 80px;
   text-align: center;
-  font-family: "Times New Roman";
+  font-family: "recoleta";
+  font-weight: 500;
   font-size: 1.2em;
   color: white;
   @media (max-width: ${MAX_WIDTH_PX}) {
@@ -245,6 +249,7 @@ const StyleTitle = styled.h1`
 const StyleDescription = styled.div`
   padding: 40px 80px;
   text-align: left;
+  font-family: "open sans";
   font-size: 0.8em;
   font-weight: 500;
   @media (max-width: ${MAX_WIDTH_PX}) {
@@ -263,7 +268,7 @@ const StyleBookingButton = styled.button`
   margin-top: 8px;
   padding: 4px 16px;
   color: white;
-  font-family: "Times New Roman";
+  font-family: "recoleta";
   font-size: 1em;
   font-weight: 600;
   background-color: #5091cd;

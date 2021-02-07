@@ -49,7 +49,7 @@ const FooterContentItem = styled.div`
 const MainBookingButton = styled.button`
   padding: 4px 16px;
   color: white;
-  font-family: "Times New Roman";
+  font-family: "recoleta";
   font-size: 1em;
   font-weight: 600;
   background-color: #5091cd;
@@ -76,6 +76,7 @@ const FooterContact = styled.div`
 `
 const FooterContactTitle = styled.div`
   flex: 3;
+  font-family: "open sans";
   font-size: 1.2em;
   font-weight: 600;
   @media (max-width: ${MAX_WIDTH_PX}) {
@@ -94,6 +95,7 @@ const FooterContactIcon = styled(FontAwesomeIcon)`
 `
 const FooterContactText = styled.div`
   flex: 3;
+  font-family: "open sans";
   font-size: 1em;
   @media (max-width: ${MAX_WIDTH_PX}) {
   }

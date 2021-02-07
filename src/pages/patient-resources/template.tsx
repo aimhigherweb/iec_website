@@ -52,28 +52,13 @@ const LeftPart = styled.div`
 `
 const CategoryTitle = styled.div`
   margin-top: 20px;
+  font-family: "open sans";
   font-size: 0.8em;
   font-weight: 600;
   @media (max-width: ${MAX_WIDTH_PX}) {
     font-size: 1.2em;
   }
   border: ${DEBUG_TEAM};
-`
-const CategoryImage = styled.img`
-  margin-top: 10px;
-  display: block;
-  width: 64px;
-  height: 64px;
-  margin-right: 20px;
-  border-radius: 50%;
-  padding: 8px;
-  object-fit: cover;
-  @media (max-width: ${MAX_WIDTH_PX}) {
-    width: 96px;
-    height: 96px;
-  }
-  border: ${DEBUG_TEAM};
-  border: 1px solid #424242;
 `
 
 const ArticlePart = styled.div`
@@ -85,7 +70,8 @@ const ArticlePart = styled.div`
 `
 const ArticleTitle = styled.h1`
   text-align: center;
-  font-family: "Times New Roman";
+  font-family: "recoleta";
+  font-weight: 500;
   font-size: 1.6em;
   border: ${DEBUG_TEAM};
 `
@@ -94,7 +80,7 @@ const ArticleButton = styled.button`
   margin-bottom: 16px;
   padding: 4px 16px;
   color: white;
-  font-family: "Times New Roman";
+  font-family: "recoleta";
   font-size: 1.1em;
   font-weight: 600;
   background-color: #5091cd;
@@ -117,6 +103,7 @@ const RightPart = styled.div`
 `
 const ItemTitle = styled.div`
   margin-top: 20px;
+  font-family: "open sans";
   font-size: 0.6em;
   font-weight: 600;
   text-transform: uppercase;

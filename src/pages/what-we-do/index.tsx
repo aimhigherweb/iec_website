@@ -24,12 +24,14 @@ const WhatSection = styled.div`
 
 const WhatTitle = styled.h1`
   text-align: center;
-  font-family: "Times New Roman";
+  font-family: "recoleta";
+  font-weight: 500;
   font-size: 2em;
 `
 
 const WhatDescription = styled.div`
   padding: 0px 40px 0 40px;
+  font-family: "open sans";
   font-size: 0.8em;
   @media (max-width: ${MAX_WIDTH_PX}) {
     padding: 0px 20px;
@@ -70,6 +72,7 @@ const WhatServiceImage = styled.img`
   border: ${DEBUG_TEAM};
 `
 const WhatServiceTitle = styled.p`
+  font-family: "open sans";
   font-size: 0.5em;
   font-weight: 600;
   text-align: center;
@@ -118,16 +121,18 @@ const ServiceDetailText = styled.div`
   border: ${DEBUG_TEAM};
 `
 const ServiceDetailTextTitle = styled.p`
-  font-size: 0.8em;
-  font-weight: 600;
+  font-family: "recoleta";
+  font-size: 0.9em;
+  font-weight: 500;
   text-transform: uppercase;
   @media (max-width: ${MAX_WIDTH_PX}) {
-    font-size: 0.6em;
+    font-size: 0.7em;
   }
   border: ${DEBUG_TEAM};
 `
 const ServiceDetailTextDesc = styled.div`
   padding-bottom: 20px;
+  font-family: "open sans";
   font-size: 0.8em;
   border: ${DEBUG_TEAM};
   border-bottom: 1px dotted #aaaaaa;

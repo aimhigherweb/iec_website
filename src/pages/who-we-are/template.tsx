@@ -60,7 +60,8 @@ const ArticlePart = styled.div`
   border: ${DEBUG_TEAM};
 `
 const ArticleTitle = styled.h1`
-  font-family: "Times New Roman";
+  font-family: "recoleta";
+  font-weight: 500;
   font-size: 1.5em;
   @media (max-width: ${MAX_WIDTH_PX}) {
   }

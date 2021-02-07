@@ -65,6 +65,7 @@ const LeftPart = styled.div`
 `
 const CategoryTitle = styled.div`
   margin-top: 20px;
+  font-family: "open sans";
   font-size: 0.7em;
   font-weight: 600;
   @media (max-width: ${MAX_WIDTH_PX}) {
@@ -98,7 +99,8 @@ const ArticlePart = styled.div`
   border: ${DEBUG_TEAM};
 `
 const ArticleTitle = styled.h1`
-  font-family: "Times New Roman";
+  font-family: "recoleta";
+  font-weight: 500;
   font-size: 1.5em;
   @media (max-width: ${MAX_WIDTH_PX}) {
   }
@@ -117,7 +119,7 @@ const ArticleButton = styled.button`
   margin-bottom: 16px;
   padding: 4px 16px;
   color: white;
-  font-family: "Times New Roman";
+  font-family: "recoleta";
   font-size: 1.1em;
   font-weight: 600;
   background-color: #5091cd;
@@ -140,6 +142,7 @@ const RightPart = styled.div`
 `
 const ItemTitle = styled.div`
   margin-top: 20px;
+  font-family: "open sans";
   font-size: 0.6em;
   font-weight: 600;
   text-transform: uppercase;

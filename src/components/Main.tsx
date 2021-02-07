@@ -85,20 +85,23 @@ const MainMenu = styled.div`
   z-index: 9999;
   right: 0;
   top: 0;
-  width: 180px;
+  width: 220px;
   height: 100vh;
   background-color: #000000d0;
 `
 const MainMenuItem = styled.div`
   margin: 0 20px;
   color: white;
-  font-family: "Times New Roman";
-  font-size: 0.9em;
+  font-family: "recoleta";
+  font-size: 1.1em;
   font-weight: 600;
   text-align: right;
   cursor: pointer;
+  &:hover {
+    color: #5091cd;
+  }
   @media (max-width: ${MAX_WIDTH_PX}) {
-    font-size: 1.1em;
+    font-size: 1.2em;
     margin: 12px 20px;
   }
 `
@@ -157,14 +160,14 @@ const MainSearchWrapper = styled.span`
 const MainSearchInput = styled.input`
   padding: 12px 8px;
   color: white;
-  font-family: "Times New Roman";
+  font-family: "recoleta";
   font-size: 1em;
   font-weight: 800;
   background-color: rgba(0, 0, 0, 0);
   border: none;
   outline: none;
   ::placeholder {
-    font-family: "Times New Roman";
+    font-family: "recoleta";
     font-weight: 800;
     color: white;
   }
@@ -206,7 +209,7 @@ const MainBookingItem = styled.div`
 const MainBookingButton = styled.div`
   padding: 8px 24px;
   color: white;
-  font-family: "Times New Roman";
+  font-family: "recoleta";
   font-size: 1em;
   font-weight: 600;
   text-align: center;
