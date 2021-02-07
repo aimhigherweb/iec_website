@@ -81,6 +81,7 @@ const TeamService = styled.div`
 `
 const TeamServiceItem = styled.div`
   flex: 1;
+  cursor: pointer;
   @media (max-width: ${MAX_WIDTH_PX}) {
     flex-basis: 50%;
   }
@@ -91,6 +92,10 @@ const TeamServiceImage = styled.img`
   width: auto;
   height: 24px;
   margin: 16px auto;
+  filter: grayscale(100);
+  &:hover {
+    filter: none;
+  }
   @media (max-width: ${MAX_WIDTH_PX}) {
     height: 50px;
   }
@@ -101,6 +106,9 @@ const TeamServiceTitle = styled.p`
   font-size: 0.5em;
   font-weight: 600;
   text-align: center;
+  &:hover {
+    color: #5091cd;
+  }
   @media (max-width: ${MAX_WIDTH_PX}) {
     font-size: 0.7em;
   }
@@ -131,7 +139,12 @@ const TeamFooterImage = styled.img`
 //        <Link to="/what-we-do/oct">
 //        <Link to="/what-we-do/orthokeratology-corneal-reshaping">
 
-const Team = (show) => {
+const Team = (show, whatWeDoCatToggle) => {
+  const whatWeDoCatSelect = (catId) => {
+    whatWeDoCatToggle(catId)
+    navigate("/what-we-do#topservice")
+  }
+
   return show ? (
     <TeamSection>
       <TeamTitle>We are a team of industry leaders</TeamTitle>
@@ -164,48 +177,48 @@ const Team = (show) => {
         </p>
       </TeamDescription>
       <TeamService>
-        <TeamServiceItem>
-          <TeamServiceImage src="/images2/service-eyewear-experts.png" />
+        <TeamServiceItem onClick={() => whatWeDoCatSelect("SE01")}>
+          <TeamServiceImage src="/images2/service-eyewear-experts-sel.png" />
           <TeamServiceTitle>
             EYEWEAR
             <br />
             EXPERTS
           </TeamServiceTitle>
         </TeamServiceItem>
-        <TeamServiceItem>
-          <TeamServiceImage src="/images2/service-bespoke-contact-lenses.png" />
+        <TeamServiceItem onClick={() => whatWeDoCatSelect("SE02")}>
+          <TeamServiceImage src="/images2/service-bespoke-contact-lenses-sel.png" />
           <TeamServiceTitle>
             BESPOKE
             <br />
             CONTACT LENSES
           </TeamServiceTitle>
         </TeamServiceItem>
-        <TeamServiceItem>
-          <TeamServiceImage src="/images2/service-paediatric-vision.png" />
+        <TeamServiceItem onClick={() => whatWeDoCatSelect("SE03")}>
+          <TeamServiceImage src="/images2/service-paediatric-vision-sel.png" />
           <TeamServiceTitle>
             PAEDIATRIC
             <br />
             VISION
           </TeamServiceTitle>
         </TeamServiceItem>
-        <TeamServiceItem>
-          <TeamServiceImage src="/images2/service-dry-eye-clinic.png" />
+        <TeamServiceItem onClick={() => whatWeDoCatSelect("SE04")}>
+          <TeamServiceImage src="/images2/service-dry-eye-clinic-sel.png" />
           <TeamServiceTitle>
             DRY EYE
             <br />
             CLINIC
           </TeamServiceTitle>
         </TeamServiceItem>
-        <TeamServiceItem>
-          <TeamServiceImage src="/images2/service-adv-imaging.png" />
+        <TeamServiceItem onClick={() => whatWeDoCatSelect("SE05")}>
+          <TeamServiceImage src="/images2/service-adv-imaging-sel.png" />
           <TeamServiceTitle>
             ADVANCED
             <br />
             IMAGING
           </TeamServiceTitle>
         </TeamServiceItem>
-        <TeamServiceItem>
-          <TeamServiceImage src="/images2/service-orthok-correction.png" />
+        <TeamServiceItem onClick={() => whatWeDoCatSelect("SE06")}>
+          <TeamServiceImage src="/images2/service-orthok-correction-sel.png" />
           <TeamServiceTitle>
             ORTHO-K OVERNIGHT
             <br />
@@ -441,7 +454,7 @@ const Home: React.FC = () => {
         session.searchToggle,
         session.bookingToggle
       )}
-      {Team(show)}
+      {Team(show, session.whatWeDoCatToggle)}
       {Style(show, match, session.bookingToggle)}
       {SocialFeed(show, match)}
       {Footer(show)}

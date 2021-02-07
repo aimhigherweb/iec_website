@@ -138,7 +138,7 @@ const ServiceDetailTextDesc = styled.div`
   border-bottom: 1px dotted #aaaaaa;
 `
 
-const What = (show, data) => {
+const What = (show, data, whatWeDoCatId) => {
   const { categoryList, whatWeDoList } = data
 
   const whatWeDoCategories = []
@@ -147,15 +147,25 @@ const What = (show, data) => {
     whatWeDoCategories.push({ title: title, catno: catno, image: image })
   })
 
+  let defaultIndex = 0
+  let defaultCat = "SE01"
+  if (whatWeDoCatId && whatWeDoCatId.length > 0) {
+    whatWeDoCategories.map((category, i) => {
+      if (category.catno === whatWeDoCatId) {
+        defaultIndex = i
+        defaultCat = whatWeDoCatId
+      }
+    })
+  }
+
   const [current, setCurrent] = useState({
-    index: 0,
+    index: defaultIndex,
     articles: whatWeDoList.edges.filter(
-      (item) => item.node.frontmatter.category === "SE01"
+      (item) => item.node.frontmatter.category === defaultCat
     ),
   })
 
   const categoryClick = (index, catno) => {
-    console.log(`*** WhatWeDo.categoryClick... index=${index} catno=${catno}`)
     const categoryArticles = whatWeDoList.edges.filter(
       (item) => item.node.frontmatter.category === catno
     )
@@ -163,7 +173,7 @@ const What = (show, data) => {
   }
 
   return show ? (
-    <WhatSection>
+    <WhatSection id="topservice">
       <WhatTitle>What We Do</WhatTitle>
       <WhatDescription>
         <p>&lsquo;Your eyes are our focus, all day, every day.&rsquo;</p>
@@ -265,7 +275,7 @@ const WhatWeDo: React.FC = (props) => {
         session.bookingToggle
       )}
       {match && <Header />}
-      {What(show, props.data)}
+      {What(show, props.data, session.current.whatWeDoCatId)}
       {SocialFeed(show, match)}
       {Footer(show)}
     </Container>
