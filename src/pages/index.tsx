@@ -231,11 +231,11 @@ const StyleSection = styled.div`
   width: auto;
   height: 100vh;
 
-  background-image: url("/images2/bg-section-style.png");
+  background-image: url("/images2/bg-section-style.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   @media (max-width: ${MAX_WIDTH_PX}) {
-    background-image: url("/images2/bg-section-style-mob.png");
+    background-image: url("/images2/bg-section-style-mob.jpg");
   }
 `
 
@@ -292,7 +292,7 @@ const StyleFooter = styled.div`
   bottom: 0px;
   left: 0px;
   width: 100%;
-  background-color: #00000033; /*#bcb0a240 */
+  background-color: #00000033;
   @media (max-width: ${MAX_WIDTH_PX}) {
     position: static;
   }
