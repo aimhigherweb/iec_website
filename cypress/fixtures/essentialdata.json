@@ -1,10 +1,10 @@
 {
-    "AddressAdelaide": "60 Hutt Street",
-    "AddressWoodville": "850 Port Road",
-    "TelephoneAdelaide": "(08) 8231 9341",
-    "TelephoneWoodville": "(08) 8445 9050",
-    "BookA": "Book Adelaide.",
-    "BookW": "Book Woodville.",
-    "SubscribeUser": "Abc Def",
-    "SubscribeEmail": "abc@gmail.com"
+  "AddressAdelaide": "60 Hutt Street",
+  "AddressWoodville": "850 Port Road",
+  "TelephoneAdelaide": "(08) 8231 9341",
+  "TelephoneWoodville": "(08) 8445 9050",
+  "BookA": "Book Adelaide.",
+  "BookW": "Book Woodville.",
+  "SubscribeUser": "Abc Def",
+  "SubscribeEmail": "abc@gmail.com"
 }
