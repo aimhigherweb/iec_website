@@ -500,11 +500,11 @@ const MainDiv = (
             removeArrowOnDeviceType={["mobile"]}
             ssr={true}
           >
-            <img src="/videos/main0.png" />
-            <img src="/videos/main1.png" />
-            <img src="/videos/main2.png" />
-            <img src="/videos/main3.png" />
-            <img src="/videos/main4.png" />
+            <img src="/videos/main0.jpg" />
+            <img src="/videos/main1.jpg" />
+            <img src="/videos/main2.jpg" />
+            <img src="/videos/main3.jpg" />
+            <img src="/videos/main4.jpg" />
           </Carousel>
         </MainCarousel>
       )}
