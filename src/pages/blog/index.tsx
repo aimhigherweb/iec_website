@@ -93,7 +93,7 @@ const ArticleDetailTextTitle = styled.p`
   font-size: 0.9em;
   font-weight: 600;
   @media (max-width: ${MAX_WIDTH_PX}) {
-    font-size: 0.6em;
+    font-size: 0.8em;
   }
   border: ${DEBUG_TEAM};
 `
@@ -102,6 +102,9 @@ const ArticleDetailTextDesc = styled.div`
   font-size: 0.7em;
   line-height: 1.8;
   color: #525252;
+  @media (max-width: ${MAX_WIDTH_PX}) {
+    font-size: 0.8em;
+  }
   border: ${DEBUG_TEAM};
 `
 

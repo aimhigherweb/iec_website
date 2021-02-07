@@ -126,7 +126,7 @@ const ServiceDetailTextTitle = styled.p`
   font-weight: 500;
   text-transform: uppercase;
   @media (max-width: ${MAX_WIDTH_PX}) {
-    font-size: 0.7em;
+    font-size: 1em;
   }
   border: ${DEBUG_TEAM};
 `
@@ -193,14 +193,19 @@ const What = (show, data, whatWeDoCatId) => {
       <WhatService>
         {whatWeDoCategories &&
           whatWeDoCategories.map((category, i) => {
-            const imageSrc = category?.image
+            const chosen = current.index === i
+            let imageSrc = category?.image
+            if (chosen) {
+              imageSrc =
+                imageSrc.substr(0, imageSrc.lastIndexOf(".")) + "-sel.png"
+            }
             return (
               <WhatServiceItem
                 key={i}
                 onClick={() => categoryClick(i, category.catno)}
               >
                 <WhatServiceImage src={imageSrc} />
-                <WhatServiceTitle chosen={current.index === i}>
+                <WhatServiceTitle chosen={chosen}>
                   {category?.title}
                 </WhatServiceTitle>
               </WhatServiceItem>
