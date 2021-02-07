@@ -110,7 +110,7 @@ const ServiceDetailTextTitle = styled.p`
   font-weight: 600;
   text-transform: uppercase;
   @media (max-width: ${MAX_WIDTH_PX}) {
-    font-size: 0.8em;
+    font-size: 1em;
   }
   border: ${DEBUG_TEAM};
 `
