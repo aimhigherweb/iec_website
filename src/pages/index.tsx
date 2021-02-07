@@ -1,4 +1,5 @@
 import React from "react"
+import { navigate } from "gatsby"
 import styled from "styled-components"
 
 import { useSession } from "../state/SessionWrapper"
@@ -23,7 +24,8 @@ const TeamSection = styled.div`
 
 const TeamTitle = styled.h1`
   text-align: center;
-  font-family: "Times New Roman";
+  font-family: "recoleta";
+  font-weight: 500;
   font-size: 2em;
   @media (max-width: ${MAX_WIDTH_PX}) {
     font-size 1.5em;
@@ -42,6 +44,7 @@ const TeamStaffBar = styled.div`
 const TeamStaff = styled.div`
   flex: 1;
   margin: 0 4px;
+  cursor: pointer;
   @media (max-width: ${MAX_WIDTH_PX}) {
     flex-basis: 40%;
   }
@@ -49,12 +52,17 @@ const TeamStaff = styled.div`
 const TeamStaffImage = styled.img`
   width: 100%;
   height: auto;
-  filter: grayscale(100%);
+  background: linear-gradient(to bottom, white 50%, lightgrey 50%);
+  filter: grayscale(1);
+  &:hover {
+    filter: none;
+  }
 `
 
 const TeamDescription = styled.div`
   padding: 40px 40px;
   text-align: center;
+  font-family: "open sans";
   font-size: 0.8em;
   @media (max-width: ${MAX_WIDTH_PX}) {
     padding: 20px 40px;
@@ -73,6 +81,7 @@ const TeamService = styled.div`
 `
 const TeamServiceItem = styled.div`
   flex: 1;
+  cursor: pointer;
   @media (max-width: ${MAX_WIDTH_PX}) {
     flex-basis: 50%;
   }
@@ -83,15 +92,23 @@ const TeamServiceImage = styled.img`
   width: auto;
   height: 24px;
   margin: 16px auto;
+  filter: grayscale(100);
+  &:hover {
+    filter: none;
+  }
   @media (max-width: ${MAX_WIDTH_PX}) {
     height: 50px;
   }
   border: ${DEBUG_TEAM};
 `
 const TeamServiceTitle = styled.p`
+  font-family: "open sans";
   font-size: 0.5em;
   font-weight: 600;
   text-align: center;
+  &:hover {
+    color: #5091cd;
+  }
   @media (max-width: ${MAX_WIDTH_PX}) {
     font-size: 0.7em;
   }
@@ -122,21 +139,26 @@ const TeamFooterImage = styled.img`
 //        <Link to="/what-we-do/oct">
 //        <Link to="/what-we-do/orthokeratology-corneal-reshaping">
 
-const Team = (show) => {
+const Team = (show, whatWeDoCatToggle) => {
+  const whatWeDoCatSelect = (catId) => {
+    whatWeDoCatToggle(catId)
+    navigate("/what-we-do#topservice")
+  }
+
   return show ? (
     <TeamSection>
       <TeamTitle>We are a team of industry leaders</TeamTitle>
       <TeamStaffBar>
-        <TeamStaff>
+        <TeamStaff onClick={() => navigate("/who-we-are#topteam")}>
           <TeamStaffImage src="/images2/staff-lachie.png" />
         </TeamStaff>
-        <TeamStaff>
+        <TeamStaff onClick={() => navigate("/who-we-are#topteam")}>
           <TeamStaffImage src="/images2/staff-karl.png" />
         </TeamStaff>
-        <TeamStaff>
+        <TeamStaff onClick={() => navigate("/who-we-are#topteam")}>
           <TeamStaffImage src="/images2/staff-dylan.png" />
         </TeamStaff>
-        <TeamStaff>
+        <TeamStaff onClick={() => navigate("/who-we-are#topteam")}>
           <TeamStaffImage src="/images2/staff-pooja.png" />
         </TeamStaff>
       </TeamStaffBar>
@@ -155,48 +177,48 @@ const Team = (show) => {
         </p>
       </TeamDescription>
       <TeamService>
-        <TeamServiceItem>
-          <TeamServiceImage src="/images2/service-eyewear-experts.png" />
+        <TeamServiceItem onClick={() => whatWeDoCatSelect("SE01")}>
+          <TeamServiceImage src="/images2/service-eyewear-experts-sel.png" />
           <TeamServiceTitle>
             EYEWEAR
             <br />
             EXPERTS
           </TeamServiceTitle>
         </TeamServiceItem>
-        <TeamServiceItem>
-          <TeamServiceImage src="/images2/service-bespoke-contact-lenses.png" />
+        <TeamServiceItem onClick={() => whatWeDoCatSelect("SE02")}>
+          <TeamServiceImage src="/images2/service-bespoke-contact-lenses-sel.png" />
           <TeamServiceTitle>
             BESPOKE
             <br />
             CONTACT LENSES
           </TeamServiceTitle>
         </TeamServiceItem>
-        <TeamServiceItem>
-          <TeamServiceImage src="/images2/service-paediatric-vision.png" />
+        <TeamServiceItem onClick={() => whatWeDoCatSelect("SE03")}>
+          <TeamServiceImage src="/images2/service-paediatric-vision-sel.png" />
           <TeamServiceTitle>
             PAEDIATRIC
             <br />
             VISION
           </TeamServiceTitle>
         </TeamServiceItem>
-        <TeamServiceItem>
-          <TeamServiceImage src="/images2/service-dry-eye-clinic.png" />
+        <TeamServiceItem onClick={() => whatWeDoCatSelect("SE04")}>
+          <TeamServiceImage src="/images2/service-dry-eye-clinic-sel.png" />
           <TeamServiceTitle>
             DRY EYE
             <br />
             CLINIC
           </TeamServiceTitle>
         </TeamServiceItem>
-        <TeamServiceItem>
-          <TeamServiceImage src="/images2/service-adv-imaging.png" />
+        <TeamServiceItem onClick={() => whatWeDoCatSelect("SE05")}>
+          <TeamServiceImage src="/images2/service-adv-imaging-sel.png" />
           <TeamServiceTitle>
             ADVANCED
             <br />
             IMAGING
           </TeamServiceTitle>
         </TeamServiceItem>
-        <TeamServiceItem>
-          <TeamServiceImage src="/images2/service-orthok-correction.png" />
+        <TeamServiceItem onClick={() => whatWeDoCatSelect("SE06")}>
+          <TeamServiceImage src="/images2/service-orthok-correction-sel.png" />
           <TeamServiceTitle>
             ORTHO-K OVERNIGHT
             <br />
@@ -222,18 +244,19 @@ const StyleSection = styled.div`
   width: auto;
   height: 100vh;
 
-  background-image: url("/images2/bg-section-style.png");
+  background-image: url("/images2/bg-section-style.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   @media (max-width: ${MAX_WIDTH_PX}) {
-    background-image: url("/images2/bg-section-style-mob.png");
+    background-image: url("/images2/bg-section-style-mob.jpg");
   }
 `
 
 const StyleTitle = styled.h1`
   padding-top: 80px;
   text-align: center;
-  font-family: "Times New Roman";
+  font-family: "recoleta";
+  font-weight: 500;
   font-size: 1.2em;
   color: white;
   @media (max-width: ${MAX_WIDTH_PX}) {
@@ -245,6 +268,7 @@ const StyleTitle = styled.h1`
 const StyleDescription = styled.div`
   padding: 40px 80px;
   text-align: left;
+  font-family: "open sans";
   font-size: 0.8em;
   font-weight: 500;
   @media (max-width: ${MAX_WIDTH_PX}) {
@@ -263,7 +287,7 @@ const StyleBookingButton = styled.button`
   margin-top: 8px;
   padding: 4px 16px;
   color: white;
-  font-family: "Times New Roman";
+  font-family: "recoleta";
   font-size: 1em;
   font-weight: 600;
   background-color: #5091cd;
@@ -281,7 +305,7 @@ const StyleFooter = styled.div`
   bottom: 0px;
   left: 0px;
   width: 100%;
-  background-color: #00000033; /*#bcb0a240 */
+  background-color: #00000033;
   @media (max-width: ${MAX_WIDTH_PX}) {
     position: static;
   }
@@ -430,7 +454,7 @@ const Home: React.FC = () => {
         session.searchToggle,
         session.bookingToggle
       )}
-      {Team(show)}
+      {Team(show, session.whatWeDoCatToggle)}
       {Style(show, match, session.bookingToggle)}
       {SocialFeed(show, match)}
       {Footer(show)}

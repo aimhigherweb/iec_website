@@ -24,12 +24,14 @@ const PatientResSection = styled.div`
 
 const PatientResTitle = styled.h1`
   text-align: center;
-  font-family: "Times New Roman";
+  font-family: "recoleta";
+  font-weight: 500;
   font-size: 2em;
 `
 
 const PatientResDescription = styled.div`
   padding: 0px 40px 0 40px;
+  font-family: "open sans";
   font-size: 0.8em;
   @media (max-width: ${MAX_WIDTH_PX}) {
     padding: 20px 40px;
@@ -59,6 +61,7 @@ const PatientResServiceItem = styled.div`
 `
 const PatientResServiceTitle = styled.p`
   margin: 8px;
+  font-family: "open sans";
   font-size: 0.7em;
   font-weight: 600;
   text-align: center;
@@ -102,11 +105,12 @@ const ServiceDetailText = styled.div`
   border: ${DEBUG_TEAM};
 `
 const ServiceDetailTextTitle = styled.p`
-  font-size: 0.8em;
+  font-family: "recoleta";
+  font-size: 0.9em;
   font-weight: 600;
   text-transform: uppercase;
   @media (max-width: ${MAX_WIDTH_PX}) {
-    font-size: 0.6em;
+    font-size: 0.8em;
   }
   border: ${DEBUG_TEAM};
 `

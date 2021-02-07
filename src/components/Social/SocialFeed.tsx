@@ -32,7 +32,7 @@ const SocialHeaderCaption = styled.p`
   color: white;
   font-size: 1em;
   font-weight: 600;
-  font-family: "Times New Roman";
+  font-family: "open sans";
   border: ${DEBUG_SOCIAL};
 `
 const SocialHeaderLeftNav = styled.img`
@@ -54,7 +54,8 @@ const SocialHeaderRightNav = styled.img`
 
 const SocialTitle = styled.h1`
   text-align: center;
-  font-family: "Times New Roman";
+  font-family: "recoleta";
+  font-weight: 500;
   font-size: 1.4em;
   @media (max-width: ${MAX_WIDTH_PX}) {
     font-size: 2em;

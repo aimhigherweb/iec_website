@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react"
 import { navigate } from "gatsby"
 import styled from "styled-components"
-import { FaSearch, FaTimes } from "react-icons/fa"
+import { FaSearch, FaTimes, FaMapMarkerAlt, FaPhoneAlt } from "react-icons/fa"
 
 import Carousel from "react-multi-carousel"
 import "react-multi-carousel/lib/styles.css"
@@ -85,22 +85,53 @@ const MainMenu = styled.div`
   z-index: 9999;
   right: 0;
   top: 0;
-  width: 180px;
+  width: 220px;
   height: 100vh;
   background-color: #000000d0;
 `
 const MainMenuItem = styled.div`
   margin: 0 20px;
   color: white;
-  font-family: "Times New Roman";
-  font-size: 0.9em;
+  font-family: "recoleta";
+  font-size: 1.1em;
   font-weight: 600;
+  line-height: 1.8;
   text-align: right;
   cursor: pointer;
+  &:hover {
+    color: #5091cd;
+  }
   @media (max-width: ${MAX_WIDTH_PX}) {
     font-size: 1.1em;
+    line-height: 1.6;
     margin: 12px 20px;
   }
+`
+const MainMenuItemContact = styled.div`
+  margin: 0 20px;
+  color: white;
+  font-family: "open sans";
+  font-size: 0.7em;
+  font-weight: 400;
+  text-align: right;
+  cursor: pointer;
+  &:hover {
+    color: #5091cd;
+  }
+  @media (max-width: ${MAX_WIDTH_PX}) {
+    font-size: 0.8em;
+    margin: 12px 20px;
+  }
+`
+const MainMenuItemDivider = styled.div`
+  position: relative;
+  margin-top: 20px;
+`
+const MainMenuItemLine = styled.div`
+  position: absolute;
+  border-top: 1px solid #d2d2d2;
+  left: 40%;
+  right: 20px;
 `
 
 const MainFooter = styled.div`
@@ -157,14 +188,14 @@ const MainSearchWrapper = styled.span`
 const MainSearchInput = styled.input`
   padding: 12px 8px;
   color: white;
-  font-family: "Times New Roman";
+  font-family: "recoleta";
   font-size: 1em;
   font-weight: 800;
   background-color: rgba(0, 0, 0, 0);
   border: none;
   outline: none;
   ::placeholder {
-    font-family: "Times New Roman";
+    font-family: "recoleta";
     font-weight: 800;
     color: white;
   }
@@ -206,7 +237,7 @@ const MainBookingItem = styled.div`
 const MainBookingButton = styled.div`
   padding: 8px 24px;
   color: white;
-  font-family: "Times New Roman";
+  font-family: "recoleta";
   font-size: 1em;
   font-weight: 600;
   text-align: center;
@@ -305,7 +336,7 @@ const MainDiv = (
 
   const navTo = (url) => {
     setShowMenu(false)
-    if (url.startsWith("http")) {
+    if (url.startsWith("http") || url.startsWith("tel")) {
       window.open(url, "_blank")
     } else {
       navigate(url)
@@ -387,6 +418,51 @@ const MainDiv = (
             <MainMenuItem onClick={() => navTo("https://eyesolutions.com.au")}>
               Shop
             </MainMenuItem>
+            <MainMenuItemContact
+              style={{ marginTop: "30px" }}
+              onClick={() => navTo("https://g.page/iecadel?share")}
+            >
+              Adelaide.&nbsp;&nbsp;
+              <FaMapMarkerAlt
+                style={{
+                  fontSize: "0.7em",
+                  color: "white",
+                }}
+              />
+            </MainMenuItemContact>
+            <MainMenuItemContact onClick={() => navTo("tel:61882319341")}>
+              (08) 8231 9341 &nbsp;&nbsp;
+              <FaPhoneAlt
+                style={{
+                  fontSize: "0.7em",
+                  color: "white",
+                }}
+              />
+            </MainMenuItemContact>
+            <MainMenuItemDivider>
+              <MainMenuItemLine />
+            </MainMenuItemDivider>
+            <MainMenuItemContact
+              style={{ marginTop: "40px" }}
+              onClick={() => navTo("https://g.page/iecwoodville?share")}
+            >
+              Woodville.&nbsp;&nbsp;
+              <FaMapMarkerAlt
+                style={{
+                  fontSize: "0.7em",
+                  color: "white",
+                }}
+              />
+            </MainMenuItemContact>
+            <MainMenuItemContact onClick={() => navTo("tel:61884459050")}>
+              (08) 8445 9050 &nbsp;&nbsp;
+              <FaPhoneAlt
+                style={{
+                  fontSize: "0.7em",
+                  color: "white",
+                }}
+              />
+            </MainMenuItemContact>
           </MainMenu>
         </>
       )}
@@ -497,11 +573,11 @@ const MainDiv = (
             removeArrowOnDeviceType={["mobile"]}
             ssr={true}
           >
-            <img src="/videos/main0.png" />
-            <img src="/videos/main1.png" />
-            <img src="/videos/main2.png" />
-            <img src="/videos/main3.png" />
-            <img src="/videos/main4.png" />
+            <img src="/videos/main0.jpg" />
+            <img src="/videos/main1.jpg" />
+            <img src="/videos/main2.jpg" />
+            <img src="/videos/main3.jpg" />
+            <img src="/videos/main4.jpg" />
           </Carousel>
         </MainCarousel>
       )}

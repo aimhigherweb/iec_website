@@ -10,6 +10,7 @@ export const SessionWrapper = ({ children }) => {
     searchText: "",
     showBooking: false,
     bookingId: "",
+    whatWeDoCatId: "",
   })
 
   const showAll = () => {
@@ -40,6 +41,14 @@ export const SessionWrapper = ({ children }) => {
     })
   }
 
+  const whatWeDoCatToggle = (catId) => {
+    console.log(`### SessionWrapper.whatWeDoCatToggle... catId=${catId}`)
+    setCurrent({
+      ...current,
+      whatWeDoCatId: catId,
+    })
+  }
+
   return (
     <>
       <AppContext.Provider
@@ -49,6 +58,7 @@ export const SessionWrapper = ({ children }) => {
           showAll: showAll,
           searchToggle: searchToggle,
           bookingToggle: bookingToggle,
+          whatWeDoCatToggle: whatWeDoCatToggle,
         }}
       >
         {children}
