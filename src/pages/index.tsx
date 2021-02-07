@@ -1,4 +1,5 @@
 import React from "react"
+import { navigate } from "gatsby"
 import styled from "styled-components"
 
 import { useSession } from "../state/SessionWrapper"
@@ -43,6 +44,7 @@ const TeamStaffBar = styled.div`
 const TeamStaff = styled.div`
   flex: 1;
   margin: 0 4px;
+  cursor: pointer;
   @media (max-width: ${MAX_WIDTH_PX}) {
     flex-basis: 40%;
   }
@@ -50,7 +52,11 @@ const TeamStaff = styled.div`
 const TeamStaffImage = styled.img`
   width: 100%;
   height: auto;
-  filter: grayscale(100%);
+  background: linear-gradient(to bottom, white 50%, lightgrey 50%);
+  filter: grayscale(1);
+  &:hover {
+    filter: none;
+  }
 `
 
 const TeamDescription = styled.div`
@@ -130,16 +136,16 @@ const Team = (show) => {
     <TeamSection>
       <TeamTitle>We are a team of industry leaders</TeamTitle>
       <TeamStaffBar>
-        <TeamStaff>
+        <TeamStaff onClick={() => navigate("/who-we-are#topteam")}>
           <TeamStaffImage src="/images2/staff-lachie.png" />
         </TeamStaff>
-        <TeamStaff>
+        <TeamStaff onClick={() => navigate("/who-we-are#topteam")}>
           <TeamStaffImage src="/images2/staff-karl.png" />
         </TeamStaff>
-        <TeamStaff>
+        <TeamStaff onClick={() => navigate("/who-we-are#topteam")}>
           <TeamStaffImage src="/images2/staff-dylan.png" />
         </TeamStaff>
-        <TeamStaff>
+        <TeamStaff onClick={() => navigate("/who-we-are#topteam")}>
           <TeamStaffImage src="/images2/staff-pooja.png" />
         </TeamStaff>
       </TeamStaffBar>
