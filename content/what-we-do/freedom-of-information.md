@@ -7,7 +7,7 @@ preview_image: foi.jpeg
 
 #### How do I request access to my medical records?
 
-Download the South Australian Request for Access to Documents application <a href="https://www.agd.sa.gov.au/sites/g/files/net2876/f/application_for_access_to_documents_2017-18.pdf?v=1530756580f">here</a>.
+Download the South Australian Request for Access to Documents application <a href="https://archives.sa.gov.au/sites/default/files/public/documents/Request%20for%20Access%20Application%20Form.doc">here</a>.
 
 Print and fill out the form. Send the form to us through fax (8232 1600), email (help@innovativeeyecare.com.au) or post (60 Hutt Street, Adelaide SA 5000).
 
