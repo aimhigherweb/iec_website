@@ -3,11 +3,15 @@ title: Face A Face
 category: "SE00"
 ---
 <div class="employee-heading">
-Designed in France, Face A Face began in 1995 and is hand-crafted using Mazzucchelli acetate, a painstaking process that ensures the highest quality and designs unique to each frame. Inspired by architecture and paired with the latest fashion trends, Face A Face is designed to amplify each individual personality through these masterpieces. View their collections <a href="http://www.faceaface-paris.com/?lang=en">here</a>.
+<p>Fabulous and French, need we say more? 
+
+<p>Experience the dream with a brand of new form fused with artistic beauty and intricate designs. Far from standardized fashion and conformist trends, each frame asserts its artistic temperament, drawing inspiration from the sources of Modern Art, architecture and contemporary design.
+
+<p>Face A Face frames are designed to amplify your personality through masterpieces resembling small subtle pieces of architecture, playing with volumes, shapes, materials and textures.
+<p>
+ <p>Enter the world of Face A Face <a href="http://www.faceaface-paris.com/?lang=en" target="_">here</a>.
+
+ ![](/uploads/face-a-face-detail.jpg)
+
 </div>
 
-##### Why we love Face A Face
-
-* French design with Italian materials
-* Wearable art
-* Exquisite styles that convey opulence

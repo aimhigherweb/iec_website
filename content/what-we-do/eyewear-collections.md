@@ -19,14 +19,14 @@ preview_image: eyewear-collection.png
 <th colspan = 4><a href="/what-we-do/prodesign"><img src="/uploads/prodesign-logo.jpg" border=3 height=500 width=500></img></a></th>
 </tr>
 <tr>
-<th colspan = 4><a href="/what-we-do/john-lennon"><img src="/uploads/johnlennon_logo_blk.png" border=3 height=500 width=500></img></a></th>
+<th colspan = 4><a href="/what-we-do/tom-ford"><img src="/uploads/tom-ford.jpg" border=3 height=500 width=500></img></a></th>
 <th colspan = 4><a href="/what-we-do/dana-buchman"><img src="/uploads/danabuchman_brandlogo.png" border=3 height=500 width=500></img></a></th>
-<th colspan = 4><a href="/what-we-do/nicola-finetti"><img src="/uploads/nicola-finetti.png" border=3 height=500 width=500></img></a></th>
+<th colspan = 4><a href="/what-we-do/good-gryf"><img src="/uploads/good-gryf.jpg" border=3 height=500 width=500></img></a></th>
 </tr>
 <tr>
-<th colspan = 4><a href="/what-we-do/lightec"><img src="/uploads/lightec.png" border=3 height=500 width=500></img></a></th>
+<th colspan = 4><a href="/what-we-do/john-lennon"><img src="/uploads/johnlennon_logo_blk.png" border=3 height=500 width=500></img></a></th>
 <th colspan = 4><a href="/what-we-do/maze"><img src="/uploads/maze-logo.png" border=3 height=500 width=500></img></a></th>
-<th colspan = 4><a href="/what-we-do/stepper"><img src="/uploads/stepper-logo-8bab0caf14-seeklogo.com.png" border=3 height=500 width=500></img></a></th>
+<th colspan = 4><a href="/what-we-do/nicola-finetti"><img src="/uploads/nicola-finetti.png" border=3 height=500 width=500></img></a></th>
 </tr>
 </table>
 
