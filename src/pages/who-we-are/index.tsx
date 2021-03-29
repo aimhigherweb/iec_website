@@ -66,13 +66,13 @@ const TeamStaffImage = styled.img`
 const TeamStaffTitle = styled.div`
   color: #5091cd;
   font-family: "recoleta";
-  font-size: 0.9em;
+  font-size: 1.2em;
   font-weight: 700;
   text-align: center;
 `
 const TeamStaffJob = styled.div`
   font-family: "open sans";
-  font-size: 0.6em;
+  font-size: 0.8em;
   margin-bottom: 8px;
   text-align: center;
 `
