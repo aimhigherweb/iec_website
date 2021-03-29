@@ -64,21 +64,21 @@ const WhatServiceItem = styled.div`
 const WhatServiceImage = styled.img`
   display: block;
   width: auto;
-  height: 24px;
+  height: 32px;
   margin: 16px auto;
   @media (max-width: ${MAX_WIDTH_PX}) {
-    height: 24px;
+    height: 32px;
   }
   border: ${DEBUG_TEAM};
 `
 const WhatServiceTitle = styled.p`
   font-family: "open sans";
-  font-size: 0.5em;
+  font-size: 0.7em;
   font-weight: 600;
   text-align: center;
   text-transform: uppercase;
   @media (max-width: ${MAX_WIDTH_PX}) {
-    font-size: 0.5em;
+    font-size: 0.7em;
     text-transform: lowercase;
     padding: 5px;
   }
