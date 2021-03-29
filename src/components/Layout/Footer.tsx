@@ -73,16 +73,16 @@ const FooterContact = styled.div`
 `
 const FooterContactIcon = styled(FontAwesomeIcon)`
   flex: 0 1 40px;
-  font-size: 12px;
+  font-size: 1em;
   color: #d2d2d2;
   border: ${DEBUG_FOOTER};
 `
 const FooterContactText = styled.div`
   flex: 3;
-  font-size: 0.5em;
+  font-size: 1em;
   @media (max-width: ${MAX_WIDTH_PX}) {
     flex: 4;
-    font-size: 0.8em;
+    font-size: 1em;
   }
   border: ${DEBUG_FOOTER};
 `
@@ -117,7 +117,7 @@ const FooterNewsletterInput = styled.input`
   padding: 0 4px;
   margin-bottom: 2px;
   font-family: "open sans";
-  font-size: 0.9em;
+  font-size: 1em;
   background-color: #f2f2f2;
   border: ${DEBUG_FOOTER};
   border: 1px solid #c2c2c2;
