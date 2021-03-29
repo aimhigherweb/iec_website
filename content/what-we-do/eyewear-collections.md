@@ -5,10 +5,10 @@ preview_image: eyewear-collection.png
 ---
 
 <div class="employee-heading">
-<p><p><strong>Your frame says a lot about you.</strong> That's why we curate our collection for a range of needs and aesthetics. Sourcing global brands for craftsmanship, quality and style,  we hand-pick each frame with you in mind. Choosing the right frame is important.<strong> We want you to smile when you put it on. </strong> For more information on our eyewear expertise, please see the links below</b></p>
-<h4>• <a href="/what-we-do/glasses">Spectacle lenses</a></h4>
-<h4>• <a href="/what-we-do/sunglasses">Sunglasses</a></h4>
-<h4>• <a href="/what-we-do/childrens-eyewear">Children's eyewear</a></h4></p>
+<p><strong>Your frame says a lot about you.</strong> That's why we curate our collection for a range of needs and aesthetics. Sourcing global brands for craftsmanship, quality and style,  we hand-pick each frame with you in mind. Choosing the right frame is important.<strong> We want you to smile when you put it on. </strong> For more information on our eyewear expertise, please see the links below</b></p>
+<div>• <a href="/what-we-do/glasses" style="color:black">Spectacle lenses</a></div>
+<div>• <a href="/what-we-do/sunglasses" style="color:black">Sunglasses</a></div>
+<div>• <a href="/what-we-do/childrens-eyewear" style="color:black">Children's eyewear</a></div></p>
 </div>
 
 <table>
