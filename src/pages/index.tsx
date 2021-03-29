@@ -90,7 +90,7 @@ const TeamServiceItem = styled.div`
 const TeamServiceImage = styled.img`
   display: block;
   width: auto;
-  height: 24px;
+  height: 32px;
   margin: 16px auto;
   filter: grayscale(100);
   &:hover {
@@ -103,7 +103,7 @@ const TeamServiceImage = styled.img`
 `
 const TeamServiceTitle = styled.p`
   font-family: "open sans";
-  font-size: 0.5em;
+  font-size: 0.7em;
   font-weight: 600;
   text-align: center;
   &:hover {
@@ -130,15 +130,6 @@ const TeamFooterImage = styled.img`
   border: ${DEBUG_TEAM};
 `
 
-//onClick={() => navigate("/who-we-are2")}
-
-//        <Link to="/what-we-do/eyewear-collections">
-//        <Link to="/what-we-do/contact-lenses">
-//        <Link to="/what-we-do/childrens-vision">
-//        <Link to="/what-we-do/dry-eye-disease">
-//        <Link to="/what-we-do/oct">
-//        <Link to="/what-we-do/orthokeratology-corneal-reshaping">
-
 const Team = (show, whatWeDoCatToggle) => {
   const whatWeDoCatSelect = (catId) => {
     whatWeDoCatToggle(catId)
@@ -160,6 +151,9 @@ const Team = (show, whatWeDoCatToggle) => {
         </TeamStaff>
         <TeamStaff onClick={() => navigate("/who-we-are#topteam")}>
           <TeamStaffImage src="/images2/staff-pooja.png" />
+        </TeamStaff>
+        <TeamStaff onClick={() => navigate("/who-we-are#topteam")}>
+          <TeamStaffImage src="/images2/staff-joanna.png" />
         </TeamStaff>
       </TeamStaffBar>
       <TeamDescription>
@@ -257,7 +251,7 @@ const StyleTitle = styled.h1`
   text-align: center;
   font-family: "recoleta";
   font-weight: 500;
-  font-size: 1.2em;
+  font-size: 1.7em;
   color: white;
   @media (max-width: ${MAX_WIDTH_PX}) {
     padding: 40px 40px;
@@ -269,7 +263,7 @@ const StyleDescription = styled.div`
   padding: 40px 80px;
   text-align: left;
   font-family: "open sans";
-  font-size: 0.8em;
+  font-size: 1.2em;
   font-weight: 500;
   @media (max-width: ${MAX_WIDTH_PX}) {
     font-size: 1em;
@@ -382,6 +376,15 @@ const StyleFooterPart = (
           <StyleBrandImage src="/images2/icon-style-goodgryf.png" />
         </a>
       </StyleBrandItem>
+      <StyleBrandItem>
+        <a
+          href="https://www.tomford.com/eyewear/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <StyleBrandImage src="" />
+        </a>
+      </StyleBrandItem>
     </StyleBrandBar>
   </StyleFooter>
 )
@@ -397,8 +400,10 @@ const Style = (show, match, bookingToggleCallback) => {
           compromising your style
         </StyleTitle>
         <StyleDescription>
-          We&apos;ve made it easy to schedule your next appointment
-          <br />
+          <StyleDescriptionExtra>
+            We&apos;ve made it easy to schedule
+          </StyleDescriptionExtra>
+          <StyleDescriptionExtra>your next appointment</StyleDescriptionExtra>
           <StyleDescriptionExtra>
             with our online booking system.
           </StyleDescriptionExtra>
