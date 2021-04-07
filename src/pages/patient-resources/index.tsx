@@ -167,20 +167,6 @@ const Patient = (show, data) => {
           lenses, insert your eye drops or complete your vision training
           exercises.
         </p>
-        <p>
-          Your eye care routine will often involve at-home care which our
-          informative team will instruct you in at your appointment. Here you
-          will find useful follow-up resources on how to care for your contact
-          lenses, insert your eye drops or complete your vision training
-          exercises.
-        </p>
-        <p>
-          Your eye care routine will often involve at-home care which our
-          informative team will instruct you in at your appointment. Here you
-          will find useful follow-up resources on how to care for your contact
-          lenses, insert your eye drops or complete your vision training
-          exercises.
-        </p>
       </PatientResDescription>
       <PatientResService>
         {patientResCategories &&
