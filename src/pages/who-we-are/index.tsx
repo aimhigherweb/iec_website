@@ -69,6 +69,7 @@ const TeamStaffTitle = styled.div`
   font-size: 1.2em;
   font-weight: 700;
   text-align: center;
+  cursor: pointer;
 `
 const TeamStaffJob = styled.div`
   font-family: "open sans";
@@ -182,7 +183,11 @@ const Team = (show, teamList, match) => {
                   />
                   {highlighted && (
                     <>
-                      <TeamStaffTitle>{node.frontmatter.title}</TeamStaffTitle>
+                      <TeamStaffTitle
+                        onClick={() => selectStaffMemberInfo(i, true)}
+                      >
+                        {node.frontmatter.title}
+                      </TeamStaffTitle>
                       <TeamStaffJob>{node.frontmatter.jobtitle}</TeamStaffJob>
                     </>
                   )}
