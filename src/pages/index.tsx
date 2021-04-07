@@ -382,7 +382,7 @@ const StyleFooterPart = (
           target="_blank"
           rel="noreferrer"
         >
-          <StyleBrandImage src="" />
+          <StyleBrandImage src="/images2/icon-style-tomford.png" />
         </a>
       </StyleBrandItem>
     </StyleBrandBar>

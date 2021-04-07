@@ -162,11 +162,6 @@ const FooterDiv = (show) => {
 
   return show ? (
     <FooterSection>
-      <FooterLogo onClick={() => navigate("/")}>
-        <FooterLogoItem>
-          <FooterLogoImg src="/images2/icon-logo-white.png" />
-        </FooterLogoItem>
-      </FooterLogo>
       <FooterContent>
         <FooterContentItem>
           <FooterContact>
