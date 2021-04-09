@@ -1,6 +1,6 @@
 ---
 title: Eyewear Collections
-category: SE01
+category: SE00
 preview_image: /uploads/eyewear-collection.png
 ---
 <div class="employee-heading">
