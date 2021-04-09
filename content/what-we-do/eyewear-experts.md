@@ -1,5 +1,5 @@
 ---
-title: Eyewear Experts
+title: Eyewear Collections
 category: SE01
 preview_image: /uploads/eyewear-collection.png
 ---
