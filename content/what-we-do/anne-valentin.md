@@ -1,6 +1,6 @@
 ---
 title: Anne & Valentin
-category: SE01
+category: SE00
 ---
 Anne & Valentin are a French brand that loves graphic and original frames. They decided to create what they couldn’t find across other framewear brands today. In the Anne & Valentin creation studio, they're constantly redesigning and rethinking the relationship between reliefs and face. The frames are the concrete manifestations of these ideas.
 
