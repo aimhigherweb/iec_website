@@ -1,6 +1,6 @@
 ---
 title: Eyewear Collections
-category: SE00
+category: SE01
 preview_image: /uploads/lindberg-eyewear-countries-around-the-world.jpg
 ---
 <div class="employee-heading">
