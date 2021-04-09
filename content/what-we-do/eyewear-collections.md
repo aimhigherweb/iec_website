@@ -1,11 +1,10 @@
 ---
 title: Eyewear Collections
-category: "SE01"
+category: SE01
 preview_image: eyewear-collection.png
 ---
-
 <div class="employee-heading">
-<p><strong>Your frame says a lot about you.</strong> That's why we curate our collection for a range of needs and aesthetics. Sourcing global brands for craftsmanship, quality and style,  we hand-pick each frame with you in mind. Choosing the right frame is important.<strong> We want you to smile when you put it on. </strong> For more information on our eyewear expertise, please see the links below</b></p>
+<p>Your frame says a lot about you. That's why we curate our collection for a range of needs and aesthetics. Sourcing global brands for craftsmanship, quality and style,  we hand-pick each frame with you in mind. Choosing the right frame is important.<b> We want you to smile when you put it on. </b> For more information on our eyewear expertise, please see the links below:</br></p>
 <div>• <a href="/what-we-do/glasses" style="color:black">Spectacle lenses</a></div>
 <div>• <a href="/what-we-do/sunglasses" style="color:black">Sunglasses</a></div>
 <div>• <a href="/what-we-do/childrens-eyewear" style="color:black">Children's eyewear</a></div></p>
