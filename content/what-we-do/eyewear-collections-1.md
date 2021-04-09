@@ -1,7 +1,7 @@
 ---
 title: Eyewear Collections
 category: SE01
-preview_image: /uploads/lindberg-eyewear-countries-around-the-world.jpg
+preview_image: /uploads/eyewear-collection.png
 ---
 <div class="employee-heading">
 <p>Your frame says a lot about you. That's why we curate our collection for a range of needs and aesthetics. Sourcing global brands for craftsmanship, quality and style,  we hand-pick each frame with you in mind. Choosing the right frame is important.<b> We want you to smile when you put it on. </b> For more information on our eyewear expertise, please see the links below:</br></p>
