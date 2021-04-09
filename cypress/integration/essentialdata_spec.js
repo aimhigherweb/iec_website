@@ -235,7 +235,6 @@ describe("Test Pages", function () {
         author = blogdata.author
         data = blogdata.data
         cy.get("#gatsby-focus-wrapper").contains(title).click({ force: true })
-        cy.contains(author)
         cy.contains(data)
       })
     })
