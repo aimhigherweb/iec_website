@@ -130,7 +130,7 @@ const TeamFooterImage = styled.img`
   border: ${DEBUG_TEAM};
 `
 
-const Team = (show, whatWeDoCatToggle) => {
+const Team = (show, match, whatWeDoCatToggle) => {
   const whatWeDoCatSelect = (catId) => {
     whatWeDoCatToggle(catId)
     navigate("/what-we-do#topservice")
@@ -155,6 +155,7 @@ const Team = (show, whatWeDoCatToggle) => {
         <TeamStaff onClick={() => navigate("/who-we-are#topteam")}>
           <TeamStaffImage src="/images2/staff-joanna.png" />
         </TeamStaff>
+        {match && <TeamStaff></TeamStaff>}
       </TeamStaffBar>
       <TeamDescription>
         <p>
@@ -459,7 +460,7 @@ const Home: React.FC = () => {
         session.searchToggle,
         session.bookingToggle
       )}
-      {Team(show, session.whatWeDoCatToggle)}
+      {Team(show, match, session.whatWeDoCatToggle)}
       {Style(show, match, session.bookingToggle)}
       {SocialFeed(show, match)}
       {Footer(show)}
