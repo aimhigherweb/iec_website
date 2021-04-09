@@ -29,6 +29,8 @@ preview_image: eyewear-collection.png
 </tr>
 </table>
 
+![](/uploads/anne-valentin-logo.jpg)
+
 <br>
 
 <div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe frameborder="0" type="text/html" src="https://2689-2347.captiv8online.com/animations/embed/one/m-o-t-p?player_width=100%&player_height=100%&site_company_language=34&autostart=false" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe></div>
