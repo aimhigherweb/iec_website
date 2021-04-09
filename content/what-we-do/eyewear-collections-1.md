@@ -18,7 +18,7 @@ preview_image: /uploads/lindberg-eyewear-countries-around-the-world.jpg
 <th colspan = 4><a href="/what-we-do/prodesign"><img src="/uploads/prodesign-logo.jpg" border=3 height=500 width=500></img></a></th>
 </tr>
 <tr>
-<th colspan = 4><a href="/what-we-do/tom-ford"><img src="/uploads/tom-ford.jpg" border=3 height=500 width=500></img></a></th>
+<th colspan = 4><a href="/what-we-do/tom-ford"><img src="/uploads/tom-logo.png" border=3 height=500 width=500></img></a></th>
 <th colspan = 4><a href="/what-we-do/dana-buchman"><img src="/uploads/danabuchman_brandlogo.png" border=3 height=500 width=500></img></a></th>
 <th colspan = 4><a href="/what-we-do/good-gryf"><img src="/uploads/good-gryf.jpg" border=3 height=500 width=500></img></a></th>
 </tr>
@@ -28,5 +28,7 @@ preview_image: /uploads/lindberg-eyewear-countries-around-the-world.jpg
 <th colspan = 4><a href="/what-we-do/nicola-finetti"><img src="/uploads/nicola-finetti.png" border=3 height=500 width=500></img></a></th>
 </tr>
 </table>
+
+![](/uploads/tom-logo.png)
 
 <br>
