@@ -23,7 +23,7 @@ preview_image: /uploads/lindberg-eyewear-countries-around-the-world.jpg
 <th colspan = 4><a href="/what-we-do/good-gryf"><img src="/uploads/good-gryf.jpg" border=3 height=500 width=500></img></a></th>
 </tr>
 <tr>
-<th colspan = 4><a href="/what-we-do/john-lennon"><img src="/uploads/anne-valentin-logo.jpg" border=3 height=500 width=500></img></a></th>
+<th colspan = 4><a href="/what-we-do/anne-valentin"><img src="/uploads/anne-valentin-logo.jpg" border=3 height=500 width=500></img></a></th>
 <th colspan = 4><a href="/what-we-do/maze"><img src="/uploads/maze-logo.png" border=3 height=500 width=500></img></a></th>
 <th colspan = 4><a href="/what-we-do/nicola-finetti"><img src="/uploads/nicola-finetti.png" border=3 height=500 width=500></img></a></th>
 </tr>
