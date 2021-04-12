@@ -15,6 +15,7 @@ const responsive = {
 import { useSession } from "../state/SessionWrapper"
 import { useMatchMedia } from "../hooks/useMatchMedia"
 import { SearchResults } from "../components/Search/SearchResults"
+import SEO from "../layouts/partials/seo.js"
 
 //----------------------------------------------------------
 //-- Section 0: Main
@@ -356,6 +357,7 @@ const MainDiv = (
 
   return (
     <div>
+      <SEO />
       {!showBooking && (
         <>
           <MainHeader
