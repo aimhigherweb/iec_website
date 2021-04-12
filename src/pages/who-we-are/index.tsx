@@ -394,9 +394,12 @@ const Container = styled.div`
   margin: 0;
   margin-bottom: 80px;
 `
-const Header = styled.div`
+const HeaderSection = styled.div`
   height: 88px;
 `
+const Header = (show) => {
+  return show ? <HeaderSection /> : <></>
+}
 
 const WhoWeAre: React.FC = ({ data }) => {
   const match = useMatchMedia({ width: MAX_WIDTH })
@@ -419,7 +422,7 @@ const WhoWeAre: React.FC = ({ data }) => {
         session.searchToggle,
         session.bookingToggle
       )}
-      {match && <Header />}
+      {Header(show)}
       {Team(show, teamList, match)}
       {History(show, historyList, match)}
       {SocialFeed(show, match)}
