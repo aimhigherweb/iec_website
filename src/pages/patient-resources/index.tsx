@@ -242,6 +242,7 @@ const PatientResources: React.FC = (props) => {
   return (
     <Container>
       {Main(
+        "",
         true,
         null,
         image,

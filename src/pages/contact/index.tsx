@@ -244,6 +244,7 @@ const Contact: React.FC = () => {
   return (
     <Container>
       {Main(
+        "Contact Us",
         true,
         video,
         null,

@@ -270,6 +270,7 @@ const WhatWeDo: React.FC = (props) => {
   return (
     <Container>
       {Main(
+        "What We Do",
         true,
         video,
         null,

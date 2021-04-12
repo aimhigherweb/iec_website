@@ -439,6 +439,7 @@ const WhoWeAre: React.FC = ({ data }) => {
   return (
     <Container>
       {Main(
+        "Who We Are",
         true,
         video,
         null,
