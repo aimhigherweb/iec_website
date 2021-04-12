@@ -85,7 +85,10 @@ const MainMenu = styled.div`
   z-index: 9999;
   right: 0;
   top: 0;
-  width: 220px;
+  width: 400px;
+  @media (max-width: ${MAX_WIDTH_PX}) {
+    width: 220px;
+  }
   height: 100vh;
   background-color: #000000d0;
 `
@@ -93,7 +96,7 @@ const MainMenuItem = styled.div`
   margin: 0 20px;
   color: white;
   font-family: "recoleta";
-  font-size: 1.1em;
+  font-size: 1.6em;
   font-weight: 600;
   line-height: 1.8;
   text-align: right;
@@ -111,7 +114,7 @@ const MainMenuItemContact = styled.div`
   margin: 0 20px;
   color: white;
   font-family: "open sans";
-  font-size: 0.7em;
+  font-size: 1em;
   font-weight: 400;
   text-align: right;
   cursor: pointer;
