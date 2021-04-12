@@ -105,6 +105,18 @@ const FooterMenuItem = styled.li`
   }
   border: ${DEBUG_FOOTER};
 `
+const StyledLink = styled((props) => <Link {...props} />)`
+  color: black;
+  &:hover {
+    color: #5091cd;
+  }
+`
+const StyledRef = styled.a`
+  color: black;
+  &:hover {
+    color: #5091cd;
+  }
+`
 
 const FooterNewsletterTitle = styled.div`
   font-size: 1em;
@@ -168,7 +180,7 @@ const FooterDiv = (show) => {
             <FooterContactSpacer />
             <FooterContactIcon icon={faMapMarkerAlt} />
             <FooterContactText>
-              <a
+              <StyledRef
                 href="https://g.page/iecadel?share"
                 target="_blank"
                 rel="noreferrer"
@@ -176,7 +188,7 @@ const FooterDiv = (show) => {
                 60 Hutt Street
                 <br />
                 Adelaide SA 5000
-              </a>
+              </StyledRef>
             </FooterContactText>
             <FooterContactSpacer />
           </FooterContact>
@@ -184,7 +196,7 @@ const FooterDiv = (show) => {
             <FooterContactSpacer />
             <FooterContactIcon icon={faPhoneAlt} />
             <FooterContactText>
-              <a href="tel:61882319341">(08) 8231 9341</a>
+              <StyledRef href="tel:61882319341">(08) 8231 9341</StyledRef>
             </FooterContactText>
             <FooterContactSpacer />
           </FooterContact>
@@ -204,7 +216,7 @@ const FooterDiv = (show) => {
             <FooterContactSpacer />
             <FooterContactIcon icon={faMapMarkerAlt} />
             <FooterContactText>
-              <a
+              <StyledRef
                 href="https://g.page/iecwoodville?share"
                 target="_blank"
                 rel="noreferrer"
@@ -212,7 +224,7 @@ const FooterDiv = (show) => {
                 850 Port Road
                 <br />
                 Woodville SA 5011
-              </a>
+              </StyledRef>
             </FooterContactText>
             <FooterContactSpacer />
           </FooterContact>
@@ -220,7 +232,7 @@ const FooterDiv = (show) => {
             <FooterContactSpacer />
             <FooterContactIcon icon={faPhoneAlt} />
             <FooterContactText>
-              <a href="tel:61884459050">(08) 8445 9050</a>
+              <StyledRef href="tel:61884459050">(08) 8445 9050</StyledRef>
             </FooterContactText>
             <FooterContactSpacer />
           </FooterContact>
@@ -238,37 +250,39 @@ const FooterDiv = (show) => {
         <FooterContentItem>
           <FooterMenu>
             <FooterMenuItem>
-              <Link to="/who-we-are">Who We Are</Link>
+              <StyledLink to="/who-we-are">Who We Are</StyledLink>
             </FooterMenuItem>
             <FooterMenuItem>
-              <Link to="/what-we-do">What We Do</Link>
+              <StyledLink to="/what-we-do">What We Do</StyledLink>
             </FooterMenuItem>
             <FooterMenuItem>
-              <Link to="/patient-resources">Patient Resources</Link>
+              <StyledLink to="/patient-resources">Patient Resources</StyledLink>
             </FooterMenuItem>
             <FooterMenuItem>
-              <Link to="/blog">Blog</Link>
+              <StyledLink to="/blog">Blog</StyledLink>
             </FooterMenuItem>
             <FooterMenuItem>
-              <Link to="/contact">Contact</Link>
+              <StyledLink to="/contact">Contact</StyledLink>
             </FooterMenuItem>
           </FooterMenu>
         </FooterContentItem>
         <FooterContentItem>
           <FooterMenu>
             <FooterMenuItem>
-              <Link to="/what-we-do/contact-lenses">Contact Lens Care</Link>
+              <StyledLink to="/what-we-do/contact-lenses">
+                Contact Lens Care
+              </StyledLink>
             </FooterMenuItem>
             <FooterMenuItem>
-              <Link to="/what-we-do/blepharitis">Blepharitis</Link>
+              <StyledLink to="/what-we-do/blepharitis">Blepharitis</StyledLink>
             </FooterMenuItem>
             <FooterMenuItem>
-              <Link to="/what-we-do/dry-eye-disease">Dry Eye</Link>
+              <StyledLink to="/what-we-do/dry-eye-disease">Dry Eye</StyledLink>
             </FooterMenuItem>
             <FooterMenuItem>
-              <Link to="/patient-resources/nutrition-and-supplements-for-age-related-macular-degeneration">
+              <StyledLink to="/patient-resources/nutrition-and-supplements-for-age-related-macular-degeneration">
                 Nutrition
-              </Link>
+              </StyledLink>
             </FooterMenuItem>
           </FooterMenu>
         </FooterContentItem>
