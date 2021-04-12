@@ -34,7 +34,7 @@ const MainHeader = styled.div`
     if (props.searchMode || props.bookingMode || props.carouselMode) {
       return "#000000"
     } else if (props.scrolledDown) {
-      return "#00000099"
+      return "#424242"
     } else {
       return "#00000000"
     }
@@ -187,7 +187,7 @@ const MainFooter = styled.div`
     if (props.searchMode) {
       return "#000000"
     } else if (props.scrolledDown) {
-      return "#00000099"
+      return "#424242"
     } else {
       return "#00000000"
     }
