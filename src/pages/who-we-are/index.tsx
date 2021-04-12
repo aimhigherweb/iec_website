@@ -168,12 +168,13 @@ const Team = (show, teamList, match) => {
       <TeamStaffContainer>
         <TeamStaffBar>
           {teamList.edges.map(({ node }, i) => {
+            const key = `staff${i}`
             const highlighted = i === chosen.staffIndex
             const filter = highlighted
               ? { filter: "grayscale(0)" }
               : { filter: "grayscale(1)" }
             return (
-              <React.Fragment key={i}>
+              <React.Fragment key={key}>
                 <TeamStaff match={match}>
                   <TeamStaffImage
                     src={node.frontmatter.photo}
@@ -373,8 +374,9 @@ const History = (show, historyList, match) => {
           {historyList &&
             historyList.map((history, i) => {
               const highlight = i === chosen.historyIndex
+              const key = `history${i}`
               return (
-                <HistoryTimelineItem key={i} highlight={highlight}>
+                <HistoryTimelineItem key={key} highlight={highlight}>
                   <HistoryTimelineItemTitle
                     onClick={() => selectHistoryItem(i, true)}
                     onMouseEnter={() => selectHistoryItem(i, true)}
