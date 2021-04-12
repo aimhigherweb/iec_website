@@ -274,6 +274,32 @@ const HistoryTimelineItem = styled.li`
   position: relative;
   margin-bottom: 0;
   padding-bottom: 2.5em;
+
+  &:after {
+    /* bullets */
+    content: ${(props) =>
+      props.highlight
+        ? "url('/images2/icon-bullet-blue.png')"
+        : "url('/images2/icon-bullet-white.png')"};
+    position: absolute;
+    left: 0px; /*adjust manually*/
+    top: 4px;
+  }
+  &:before {
+    /* lines */
+    content: "";
+    position: absolute;
+    left: 4px;
+    border-left: 1px solid white;
+    height: 100%;
+    width: 1px;
+  }
+  &:first-child:before {
+    top: 8px;
+  }
+  &:last-child:before {
+    height: 8px;
+  }
 `
 const HistoryTimelineItemTitle = styled.div`
   font-family: "recoleta";
