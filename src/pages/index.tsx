@@ -221,9 +221,7 @@ const Team = (show, match, whatWeDoCatToggle) => {
           </TeamServiceTitle>
         </TeamServiceItem>
       </TeamService>
-      <TeamFooter>
-        <TeamFooterImage src="/images2/icon-arrow-down.png" />
-      </TeamFooter>
+      <TeamFooter></TeamFooter>
     </TeamSection>
   ) : (
     <div></div>
