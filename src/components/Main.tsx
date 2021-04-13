@@ -33,7 +33,7 @@ const MainHeader = styled.div`
   background-color: ${(props) => {
     if (props.searchMode || props.bookingMode || props.carouselMode) {
       return "#000000"
-    } else if (props.scrolledDown) {
+    } else if (!props.showFull || props.scrolledDown) {
       return "#424242"
     } else {
       return "#00000000"
@@ -394,6 +394,7 @@ const MainDiv = (
             bookingMode={showBooking}
             carouselMode={carouselToDisplay}
             scrolledDown={scrolledDown}
+            showFull={showFull}
           >
             <Logo onClick={() => navigate("/")} hide={showSearch} />
             <HeaderTitle scrolledDown={scrolledDown}>{title}</HeaderTitle>
