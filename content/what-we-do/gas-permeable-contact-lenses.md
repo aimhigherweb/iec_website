@@ -17,7 +17,7 @@ Conditions such as [myopia](/what-we-do/myopia), [astigmatism](/what-we-do/astig
 
 At Innovative Eye Care we use a customised lens design program called EyeSpace to accurately design the fit and power of your lens unique to your eye. Our Adelaide and Woodville practices are equipped with a multitude of state-of-the-art equipment including [corneal topography](https://www.innovativeeyecare.com.au/what-we-do/corneal-topography), [corneal tomography](https://www.innovativeeyecare.com.au/what-we-do/corneal-tomography) and [wavefront aberrometry](https://www.innovativeeyecare.com.au/what-we-do/wavefront-aberrometry). This allows our optometrists to custom design RGP lenses for our patients that can improve vision for wearers with a range of eye conditions.
 
-Rigid lenses may take a little longer to adapt to before they are as comfortable as soft contact lenses. For advice on rigid contact lenses and solutions, please consult our <a href="/what-we-do/eye-exam">team</a>. For insertion, removal, cleaning and maintenance regimes, see our page on [care of gas permeable contact lenses](/patient-resources/U3l2xwEAADQADBFJ/care-of-gas-permeable-lenses).
+Rigid lenses may take a little longer to adapt to before they are as comfortable as soft contact lenses. For advice on rigid contact lenses and solutions, please consult our <a href="/what-we-do/eye-exam">team</a>.
 
 Certain types of rigid lenses can be worn overnight, changing the shape of the cornea while you sleep and eliminating the need to wear spectacles or contact lenses during the day (see our [orthokeratology](/what-we-do/orthokeratology-corneal-reshaping) page).
 
