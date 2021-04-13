@@ -3,11 +3,7 @@ title: Eyewear Collections
 category: SE01
 preview_image: eyewear-collection.png
 ---
-Your frame says a lot about you. That's why we curate our collection for a range of needs and aesthetics. Sourcing global brands for craftsmanship, quality and style,  we hand-pick each frame with you in mind. Choosing the right frame is important. We want you to smile when you put it on. For more information on our eyewear expertise, please see the links below:
-
-<div>• <a href="/what-we-do/glasses">Spectacle lenses</a></div>
-<div>• <a href="/what-we-do/sunglasses">Sunglasses</a></div>
-<div>• <a href="/what-we-do/childrens-eyewear">Children's eyewear</a></div>
+Your frame says a lot about you. That's why we curate our collection for a range of needs and aesthetics. Sourcing global brands for craftsmanship, quality and style,  we hand-pick each frame with you in mind. Choosing the right frame is important. We want you to smile when you put it on. See what makes the brands we stock so special below.
 
 <br>
 
