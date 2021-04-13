@@ -10,7 +10,7 @@ Your frame says a lot about you. That's why we curate our collection for a range
 <table>
 <table border = 5 bordercolor = black align = center>
 <tr>
-<th colspan = 4><a href="/what-we-do/lindberg"><img src="/uploads/lindberg.png" border=3 height=500 width=500></img></a></th>
+<th colspan = 4><a href="/what-we-do/lindberg"><img src="/uploads/lindberg-logo.png" border=3 height=500 width=500></img></a></th>
 <th colspan = 4><a href="/what-we-do/face-a-face"><img src="/uploads/faceafacelogo.png" border=3 height=500 width=500></img></a></th>
 <th colspan = 4><a href="/what-we-do/oroton"><img src="/uploads/oroton-logo.png" border=3 height=500 width=500></img></a></th>
 </tr>
@@ -25,5 +25,7 @@ Your frame says a lot about you. That's why we curate our collection for a range
 <th colspan = 4><a href="/what-we-do/maui-jim"><img src="/uploads/mauijimlogo.png" border=3 height=500 width=500></img></a></th>
 </tr>
 </table>
+
+![](/uploads/lindberg-logo.png)
 
 <br>
