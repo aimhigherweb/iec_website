@@ -25,11 +25,11 @@ Your frame says a lot about you. That's why we curate our collection for a range
 </tr>
 <tr>
 <th colspan = 4><a href="/what-we-do/anne-valentin"><img src="/uploads/anne-valentin-logo.jpg" border=3 height=500 width=500></img></a></th>
-<th colspan = 4><a href="/what-we-do/prodesign"><img src="/uploads/prodesign-logo.jpg" border=3 height=500 width=500></img></a></th>
+<th colspan = 4><a href="/what-we-do/prodesign"><img src="/uploads/prodesign-logo.png" border=3 height=500 width=500></img></a></th>
 <th colspan = 4><a href="/what-we-do/maui-jim"><img src="/uploads/mauijimlogo.png" border=3 height=500 width=500></img></a></th>
 </tr>
 </table>
 
-![](/uploads/mauijimlogo.png)
+![](/uploads/prodesign-logo.png)
 
 <br>
