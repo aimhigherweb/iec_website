@@ -1,9 +1,8 @@
 ---
 title: Soft Contact Lenses
-category: "SE02"
+category: SE02
 preview_image: contact-lens-2-.jfif
 ---
-
 <div class="employee-heading">
 <p><p>Soft disposable contact lenses offer clear vision without wearing spectacles. They have high comfort levels and a low risk of infection, along with being easy to insert and remove. Soft disposables come in daily and fortnightly/monthly types. To learn more about whether soft contact lenses are right for you, take a look at our general information page on <a href="/what-we-do/contact-lenses">contact lenses</a> or book an <a href="/what-we-do/eye-exam">appointment</a> with us today.</p>
 
@@ -11,99 +10,24 @@ preview_image: contact-lens-2-.jfif
 
 </p>
 </div>
-<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\\\\\\\[if IE]><iframe frameborder="0" type="text/html" src="https://2689-2347.captiv8online.com/animations/embed/one/cl-comp?player_width=100%&player_height=100%&site_company_language=34&autostart=false" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\\\\\\\[endif]--><!--\\\\\\\[if !IE]> <--><object data="https://2689-2347.captiv8online.com/animations/embed/one/cl-comp?player_width=100%&player_height=100%&site_company_language=34&autostart=false" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://2689-2347.captiv8online.com/animations/embed/one/cl-comp?player_width=100%&player_height=100%&site_company_language=34&autostart=false">Compliance</a></object><!--> <!\\\\\\\[endif]--></div>
+<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\\\\\\\\[if IE]><iframe frameborder="0" type="text/html" src="https://2689-2347.captiv8online.com/animations/embed/one/cl-comp?player_width=100%&player_height=100%&site_company_language=34&autostart=false" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\\\\\\\\[endif]--><!--\\\\\\\\[if !IE]> <--><object data="https://2689-2347.captiv8online.com/animations/embed/one/cl-comp?player_width=100%&player_height=100%&site_company_language=34&autostart=false" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://2689-2347.captiv8online.com/animations/embed/one/cl-comp?player_width=100%&player_height=100%&site_company_language=34&autostart=false">Compliance</a></object><!--> <!\\\\\\\\[endif]--></div>
 
 <br>
 
 #### What are soft contact lenses?
 
-Soft contact lenses provide clear vision and lens wetability, and they are generally comfortable enough to wear all day. Most of these lenses are disposable, designed to be replaced after a prescribed time, generally daily or monthly. Unfortunately, due to their nature, soft contact lenses tend to tear more easily and can pose a risk of infection to the eyes if they are not handled correctly. If looked after properly, this risk is very low. Soft contact lenses can correct a range of prescriptions including [myopia](/what-we-do/myopia), [hyperopia](/what-we-do/hyperopia), [astigmatism](/what-we-do/astigmatism) and [presbyopia](/what-we-do/presbyopia).
+Soft contact lenses provide clear vision and lens wetability, and they are generally comfortable enough to wear all day. They are made from a polymer-plastic material combined with water. The water content varies with different lenses. Newer generation soft lenses are made out variants of a material called silicone hydrogel, which allows more oxygen to reach the eye and prevents some of the ocular health issues that older lens materials would cause.<sup>1,2</sup> Soft contact lenses can correct a range of prescriptions including [myopia](/what-we-do/myopia), [hyperopia](/what-we-do/hyperopia), [astigmatism](/what-we-do/astigmatism) and [presbyopia](/what-we-do/presbyopia).
 
-They are made from a polymer-plastic material combined with water. The water content varies with different lenses. Newer generation soft lenses are made out variants of a material called silcone-hydrogel, this material allows more oxygen to pass through it better, allowing the cornea to 'breathe' and preventing some of the ocular health issues that older lens materials would cause. 
+See [this page](https://innovativeeyecare.com.au/patient-resources/tips-for-long-term-success-with-your-soft-disposable-contact-lenses) for tips on soft contact lens care.
 
-See [this page](https://innovativeeyecare.com.au/patient-resources/tips-for-long-term-success-with-your-soft-disposable-contact-lenses) for instruction on soft contact lens success.
+![](/uploads/soft-lens-finger.jpg)
 
 #### What types of soft contact lenses are there?
 
-Silicone-hydrogels are available in daily and monthly modalities. Daily lenses are generally your optometrist's first choice for your eyes as they are a fresh, clean lens in your eyes every time and there is less risk of microbial build up. They are also very convenient for travel and sports due to the lack of cleaning required. Monthly lenses are slightly more affordable than dailies on a per-day basis but do require careful cleaning each night to ensure your eyes remain healthy. 
+* **Daily lenses:** Daily lenses are discarded after each use. These soft lenses are perfect for users who don’t wear contact lenses every day – they are more cost-effective to replace and don’t require cleaning or storage solutions. There’s also a reduced risk of infection and inflammation in daily lenses because there’s no opportunity for proteins or pathogens to build up on the lens with such frequent replacement, and the silicone hydrogel material allows the eye to remain healthy.<sup>1,2</sup> Check with your optometrist whether daily soft contact lenses are right for you, as they come in a limited range of prescriptions.
+* **Monthly lenses:** Monthly or fortnightly lenses are replaced monthly or fortnightly, as the name suggests. That means they require [disinfection and storage with solutions](https://eyesolutions.com.au/) after each wear. For this same reason there is a slightly higher risk of infection or inflammatory events due to debris build-up.<sup>1,2</sup> However, these soft contact lenses are available in a wider array of prescriptions and they can often be just as cost-effective as daily lenses for full-time wearers, even when factoring in the price of solutions. The oxygen supply is also similar to daily lenses with silicone hydrogel materials.
 
-##### Daily replacement lenses (lenses that are new with each use and discarded after wear)
-
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;border-color:#ccc;}
-.tg td{font-family:Arial, sans-serif;font-size:16px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#fff;}
-.tg th{font-family:Arial, sans-serif;font-size:16px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#f0f0f0;}
-.tg .tg-7op0{font-weight:bold;font-family:Arial, Helvetica, sans-serif !important;;border-color:#000000;vertical-align:top}
-.tg .tg-6vm2{font-weight:bold;font-family:Arial, Helvetica, sans-serif !important;;background-color:#efefef;color:#000000;border-color:#000000;vertical-align:top}
-.tg .tg-fdbh{font-family:Arial, Helvetica, sans-serif !important;;border-color:#000000;vertical-align:top}
-</style>
-
-<table class="tg" align="center">
-  <tr>
-    <th class="tg-fdbh">Pros</th>
-    <th class="tg-fdbh">Cons</th>
-  </tr>
-  <tr>
-    <td class="tg-fdbh">Lesser risk of infection – disposables have fewer deposit and inflammatory problems than monthly and fortnightly lenses</td>
-    <td class="tg-fdbh">Limited range – currently, there is a restricted number of prescriptions that can be corrected with dailies<br></td>
-  </tr>
-  <tr>
-    <td class="tg-fdbh">Convenience – dailies do not require cleaning or storage with solutions and you can take spare lenses with you wherever you go, making them ideal for travel</td>
-    <td class="tg-fdbh">Higher cost for full-time wearers – those who wear dailies every day may pay more for frequent replenishment of lens supply, although often patients find the increased convenience easily justifies the difference<br></td>
-  </tr>
-  <tr>
-    <td class="tg-fdbh">Greater oxygen-supply – the newest daily lenses are made from silicone-hydrogel materials which increase oxygen flow to the eye and prevent dryness (these are slightly more expensive than standard dailies)</td>
-    <td class="tg-fdbh"><br></td>
-  </tr>
-  <tr>
-    <td class="tg-fdbh">Cost-efficient for part-time wearers – easy if you only use your lenses occasionally, and if a lens is lost or damaged the cost is negligible – just pop a new lens into your eye!</td>
-    <td class="tg-fdbh"><br></td>
-  </tr>
-</table> 
-
-<br>
-
-##### Monthly/fortnightly lenses (lenses that are worn daily but replaced monthly/fortnightly)
-
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;border-color:#fff;}
-.tg td{font-family:Arial, sans-serif;font-size:16px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#fff;color:#333;background-color:#fff;}
-.tg th{font-family:Arial, sans-serif;font-size:16px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#fff;color:#333;background-color:#f0f0f0;}
-.tg .tg-7op0{font-weight:bold;font-family:Arial, Helvetica, sans-serif !important;;border-color:#000000;vertical-align:top}
-.tg .tg-6vm2{font-weight:bold;font-family:Arial, Helvetica, sans-serif !important;;background-color:#efefef;color:#000000;border-color:#000000;vertical-align:top}
-.tg .tg-fdbh{font-family:Arial, Helvetica, sans-serif !important;;border-color:#000000;vertical-align:top}
-</style>
-
-<table class="tg" align="center">
-  <tr>
-    <th class="tg-fdbh">Pros</th>
-    <th class="tg-fdbh">Cons</th>
-  </tr>
-  <tr>
-    <td class="tg-fdbh">Wider range – these lenses are able to correct a greater array of prescriptions and patients with presbyopia have the option of multifocal lenses</td>
-    <td class="tg-fdbh">Risk of infection – longer-use lenses are more prone to deposits and pose a slightly higher chance of microbial infection and inflammatory reactions than daily disposable or rigid gas permeable lenses<br></td>
-  </tr>
-  <tr>
-    <td class="tg-fdbh">Greater oxygen-supply – most are made from new-generation silicone-hydrogel materials which allow increased oxygen flow to the eye and decreased dryness with wear</td>
-    <td class="tg-fdbh">Care and storage – cleaning of the lenses and storage in disinfection solution is required after each day of wear, and you will need to take the solution with you should you travel<br></td>
-  </tr>
-  <tr>
-    <td class="tg-fdbh">Convenience – suitable for intermittent wear with days away from your contact lenses if required (after consultation with your optometrist)</td>
-    <td class="tg-fdbh"><br></td>
-  </tr>
-  <tr>
-    <td class="tg-fdbh">Overnight wear – certain patients who would benefit from sleeping in their contact lenses without significantly compromising the health of their eyes have the option of lenses for overnight wear (after discussing this with their optometrist)</td>
-    <td class="tg-fdbh"><br></td>
-  </tr>
-  <tr>
-    <td class="tg-fdbh">Cost-efficient – the cost per year for lenses and solutions may be slightly cheaper than daily lenses if you wear them most days</td>
-    <td class="tg-fdbh"><br></td>
-  </tr>
-</table> 
-
-<br>
-
-![](/uploads/soft-lenses.jpeg)
+![](/uploads/contact-lens.jpg)
 
 #### How do I know if soft contact lenses are right for me?
 
@@ -112,3 +36,10 @@ An <a href="/what-we-do/eye-exam">appointment</a> with your optometrist is requi
 #### What are the alternatives to soft lenses?
 
 At Innovative Eye Care, we offer alternatives to soft lenses. Each individual person has a unique set of requirements for clear vision and comfort, and soft lenses may not always be suitable. Other possibilities include [rigid lenses](/what-we-do/rigid-gas-permeable-contact-lenses), [scleral lenses](/what-we-do/scleral-contact-lenses) and [orthokeratology](/what-we-do/orthokeratology-corneal-reshaping). There are also a range of treatments for specific conditions such as [myopia control](/what-we-do/myopia-control).
+
+<br>
+
+##### References
+
+1. Weibel, K. et al, 2013. Microbial Keratitis and Contact Lens Wear. *Contact Lens Spectrum*, 28(6), pp.24-40.
+2. Peterson, R.C., Fonn, D., Woods, C.A., Jones, L., 2010. Impact of a rub and rinse on solution-induced corneal staining. *Optom Vis Sci.* 87(12), pp.1030-1036.
