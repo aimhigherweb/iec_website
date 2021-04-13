@@ -7,6 +7,8 @@ preview_image: rgp.jpg
 
 <p>Rigid gas permeable (RGP) contact lenses are made with stiff silicone polymers that allow oxygen to pass through to the cornea, giving them their name. If you would like to know if you are a candidate for rigid lenses, make an <a href="/what-we-do/eye-exam">appointment</a> with one of our practitioners.</p>
 
+**[See this page for more information on RGP lens care.](https://www.innovativeeyecare.com.au/patient-resources/care-of-gas-permeable-lenses/)**
+
 </div>
 
 Conditions such as [myopia](/what-we-do/myopia), [astigmatism](/what-we-do/astigmatism), aphakia, [keratoconus](/what-we-do/keratoconus), and irregular corneas benefit from RGP lenses.<sup>1,2</sup> This is because they hold their shape and provide an even front optical surface for the eye, unlike soft contact lenses. RGP lens wearers experience clear, high-quality vision with a higher safety profile than any other contact lens.<sup>3</sup> RGPs are more durable and last longer than soft contact lenses, often being worn for over a year before they require replacement.
