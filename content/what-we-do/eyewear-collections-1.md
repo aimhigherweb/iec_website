@@ -30,6 +30,4 @@ Your frame says a lot about you. That's why we curate our collection for a range
 </tr>
 </table>
 
-![](/uploads/prodesign-logo.png)
-
 <br>
