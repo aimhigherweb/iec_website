@@ -173,7 +173,7 @@ const Team = (show, match, whatWeDoCatToggle) => {
       </TeamDescription>
       <TeamService>
         <TeamServiceItem onClick={() => whatWeDoCatSelect("SE01")}>
-          <TeamServiceImage src="/images2/service-eyewear-experts-sel.png" />
+          <TeamServiceImage src="/images2/service-eyewear-experts.png" />
           <TeamServiceTitle>
             EYEWEAR
             <br />
@@ -181,7 +181,7 @@ const Team = (show, match, whatWeDoCatToggle) => {
           </TeamServiceTitle>
         </TeamServiceItem>
         <TeamServiceItem onClick={() => whatWeDoCatSelect("SE02")}>
-          <TeamServiceImage src="/images2/service-bespoke-contact-lenses-sel.png" />
+          <TeamServiceImage src="/images2/service-bespoke-contact-lenses.png" />
           <TeamServiceTitle>
             BESPOKE
             <br />
@@ -189,7 +189,7 @@ const Team = (show, match, whatWeDoCatToggle) => {
           </TeamServiceTitle>
         </TeamServiceItem>
         <TeamServiceItem onClick={() => whatWeDoCatSelect("SE03")}>
-          <TeamServiceImage src="/images2/service-paediatric-vision-sel.png" />
+          <TeamServiceImage src="/images2/service-paediatric-vision.png" />
           <TeamServiceTitle>
             PAEDIATRIC
             <br />
@@ -197,7 +197,7 @@ const Team = (show, match, whatWeDoCatToggle) => {
           </TeamServiceTitle>
         </TeamServiceItem>
         <TeamServiceItem onClick={() => whatWeDoCatSelect("SE04")}>
-          <TeamServiceImage src="/images2/service-dry-eye-clinic-sel.png" />
+          <TeamServiceImage src="/images2/service-dry-eye-clinic.png" />
           <TeamServiceTitle>
             DRY EYE
             <br />
@@ -205,7 +205,7 @@ const Team = (show, match, whatWeDoCatToggle) => {
           </TeamServiceTitle>
         </TeamServiceItem>
         <TeamServiceItem onClick={() => whatWeDoCatSelect("SE05")}>
-          <TeamServiceImage src="/images2/service-adv-imaging-sel.png" />
+          <TeamServiceImage src="/images2/service-adv-imaging.png" />
           <TeamServiceTitle>
             ADVANCED
             <br />
@@ -213,7 +213,7 @@ const Team = (show, match, whatWeDoCatToggle) => {
           </TeamServiceTitle>
         </TeamServiceItem>
         <TeamServiceItem onClick={() => whatWeDoCatSelect("SE06")}>
-          <TeamServiceImage src="/images2/service-orthok-correction-sel.png" />
+          <TeamServiceImage src="/images2/service-orthok-correction.png" />
           <TeamServiceTitle>
             ORTHO-K OVERNIGHT
             <br />

@@ -60,6 +60,8 @@ const WhatServiceItem = styled.div`
     flex-basis: 20%;
   }
   border: ${DEBUG_TEAM};
+  cursor: pointer;
+  background-color: ${(props) => (props.chosen ? "#5091cd" : "none")};
 `
 const WhatServiceImage = styled.img`
   display: block;
@@ -82,9 +84,9 @@ const WhatServiceTitle = styled.p`
     text-transform: lowercase;
     padding: 5px;
   }
-  color: ${(props) => (props.chosen ? "#5091cd" : "black")};
+  color: ${(props) => (props.chosen ? "white" : "black")};
   &:hover {
-    color: ${(props) => (props.chosen ? "#5091cd" : "#5091cd")};
+    color: ${(props) => (props.chosen ? "white" : "#5091cd")};
   }
   border: ${DEBUG_TEAM};
 `
@@ -197,12 +199,13 @@ const What = (show, data, whatWeDoCatId) => {
             let imageSrc = category?.image
             if (chosen) {
               imageSrc =
-                imageSrc.substr(0, imageSrc.lastIndexOf(".")) + "-sel.png"
+                imageSrc.substr(0, imageSrc.lastIndexOf(".")) + "-selw.png"
             }
             return (
               <WhatServiceItem
                 key={i}
                 onClick={() => categoryClick(i, category.catno)}
+                chosen={chosen}
               >
                 <WhatServiceImage src={imageSrc} />
                 <WhatServiceTitle chosen={chosen}>
