@@ -39,7 +39,7 @@ An <a href="/what-we-do/eye-exam">appointment</a> with your optometrist is requi
 
 #### What are the alternatives to soft lenses?
 
-At Innovative Eye Care, we offer alternatives to soft lenses. Each individual person has a unique set of requirements for clear vision and comfort, and soft lenses may not always be suitable. Other possibilities include [rigid lenses](/what-we-do/rigid-gas-permeable-contact-lenses), [scleral lenses](/what-we-do/scleral-contact-lenses) and [orthokeratology](/what-we-do/orthokeratology-corneal-reshaping). There are also a range of treatments for specific conditions such as [myopia control](/what-we-do/myopia-control).
+At Innovative Eye Care, we offer alternatives to soft lenses. Each individual person has a unique set of requirements for clear vision and comfort, and soft lenses may not always be suitable. Other possibilities include [rigid lenses](/what-we-do/rigid-gas-permeable-contact-lenses), [scleral lenses](/what-we-do/scleral-contact-lenses) and [orthokeratology](/what-we-do/orthokeratology-corneal-reshaping).
 
 <br>
 
