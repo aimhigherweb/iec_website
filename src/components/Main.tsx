@@ -63,8 +63,8 @@ const HeaderTitle = styled.div`
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  font-family: "open sans";
-  font-size: 1.3em;
+  font-family: "recoleta";
+  font-size: 1.6em;
   font-weight: 700;
   color: white;
   color: ${(props) => {
