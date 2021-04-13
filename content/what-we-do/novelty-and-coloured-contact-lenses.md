@@ -1,6 +1,6 @@
 ---
 title: Novelty and Coloured Contact Lenses
-category: "SE02"
+category: SE00
 preview_image: coloured-cl.jpg
 ---
 

@@ -14,10 +14,9 @@ preview_image: contact-lenses-2.jpg
 
 ##### Soft disposable lenses
 
-There are several different types of soft disposable lenses. They can vary not only in optical power but also in size, shape, material and modality (wear-time before replacement). Innovative Eye Care recommends Alcon soft contact lenses, which can be purchased through our practice, because of their superior clarity and wearability.<sup>1</sup>
+There are several different types of soft disposable lenses. Typically spherical and spherico-cylindrical soft lenses are available to correct basic prescriptions like [hyperopia](https://www.innovativeeyecare.com.au/what-we-do/hyperopia/), [myopia](https://www.innovativeeyecare.com.au/what-we-do/myopia/) and [astigmatism](https://www.innovativeeyecare.com.au/what-we-do/astigmatism/), while more optically-complex multifocal soft lenses are available for prescriptions like [presbyopia](https://www.innovativeeyecare.com.au/what-we-do/presbyopia/), as well as for [myopia control](https://www.innovativeeyecare.com.au/what-we-do/myopia-control/). Soft contact lenses come in daily and monthly modalities, where the former requires replacement after every wear and the latter is discarded after a month of wear but requires [cleaning and maintenance](https://eyesolutions.com.au/) after each wear. There are also variations in size, shape and material between soft contact lens brands. Innovative Eye Care recommends Alcon soft contact lenses, which can be purchased through our practice, because of their superior clarity and wearability.<sup>1</sup>
 
-* **Daily replacement lenses:** Daily lenses are discarded after each use. These soft lenses are perfect for users who don't wear contact lenses every day – they are more cost-effective to replace and don't require cleaning or storage solutions. There's also a reduced risk of infection and inflammation in daily lenses because there's no opportunity for proteins or pathogens to build up on the lens, and the material most soft contact lenses are made from (silicone hydrogel) allows more oxygen to reach the eye.<sup>2,3</sup> Check with your optometrist whether daily soft contact lenses are right for you, as they come in a limited range of prescriptions.
-* **Monthly/fortnightly lenses:** Monthly or fortnightly lenses are replaced monthly or fortnightly, as the name suggests. That means they require disinfection and storage with solutions after each wear. For this same reason there is a slightly higher risk of infection or inflammatory events due to debris build-up.<sup>2</sup> However, these soft contact lenses are available in a wider array of prescriptions for [myopes](https://www.innovativeeyecare.com.au/what-we-do/myopia), [hyperopes](https://www.innovativeeyecare.com.au/what-we-do/hyperopia) and [presbyopes](https://www.innovativeeyecare.com.au/what-we-do/presbyopia), and they can often be just as cost-effective as daily lenses for full-time wearers, even when factoring in the price of solutions. Similarly to daily lenses, the oxygen supply is also higher in silicone hydrogel lenses, which reduces the sensation of dryness.<sup>3</sup>
+**Click here to find out more about [soft contact lenses](https://www.innovativeeyecare.com.au/what-we-do/soft-contact-lenses/).**
 
 ![](/uploads/contact-lenses-2.jpg)
 
@@ -27,19 +26,29 @@ RGP lenses are made from a stiffer material. Because of this, careful fitting is
 
 Innovative Eye Care practitioners have had a keen interest in rigid lens fitting for a number of years and use a pioneering lens design software called [EyeSpace](https://www.eyespacelenses.com/) to custom-design every hard lens used in the practice. Often during the fitting process, the lenses may feel slightly uncomfortable but this subsides with regular wear. Learn about proper care of RGP lenses [here](/patient-resources/care-of-gas-permeable-lenses) to prevent the risk of infection, although this risk is lowest across the entire range of contact lenses, particularly with EyeSpace's manufacturing process.<sup>2, 5</sup>
 
+**Click here to find out more about [RGP lenses](https://www.innovativeeyecare.com.au/what-we-do/gas-permeable-contact-lenses/).**
+
 ![](/uploads/rgp-lenses.jpg)
 
 ##### Orthokeratology lenses
 
-[Orthokeratology](/what-we-do/orthokeratology-corneal-reshaping) (ortho-K for short) is an exciting new treatment in vision correction. Ortho-K works while you sleep by gently reshaping the centre of the cornea (the transparent optical surface at the front of the eye) with custom-designed contact lenses, using the hydrostatic forces of your own tears underneath the lens to redistribute the most superficial cells. When the lenses are removed in the morning, the change in the cornea's optical structure gives clear vision without the need for any spectacles or contact lenses.
+Orthokeratology (ortho-K for short) is an exciting new treatment in vision correction. Ortho-K works while you sleep by gently reshaping the centre of the cornea (the transparent optical surface at the front of the eye) with custom-designed contact lenses, using the hydrostatic forces of your own tears underneath the lens to redistribute the most superficial cells. When the lenses are removed in the morning, the change in the cornea's optical structure gives clear vision without the need for any spectacles or contact lenses.
 
-Ortho-K can treat mild to moderate [myopia](/what-we-do/myopia) (short-sightedness), mild [hyperopia](/what-we-do/hyperopia) (long-sightedness), mild [astigmatism](/what-we-do/astigmatism) and even [presbyopia](/what-we-do/presbyopia). Best of all, the ortho-K vision correction process is completely reversible, unlike laser eye surgery. It has recently been shown to reduce the [progression of short-sightedness](https://www.innovativeeyecare.com.au/what-we-do/myopia-control) in younger patients, which is extremely important in preventing complications with age including [retinal detachment](https://www.innovativeeyecare.com.au/what-we-do/flashes-floaters-retinal-tear-detachment) and [glaucoma](https://www.innovativeeyecare.com.au/what-we-do/glaucoma).<sup>6</sup> When cared for correctly, the risk of infection with ortho-K lenses is similarly low as in overnight wear soft lenses.<sup>7</sup> Learn about proper care of ortho-K lenses [here](/patient-resources/care-of-orthokeratology-lenses). 
+Ortho-K can treat mild to moderate [myopia](/what-we-do/myopia) (short-sightedness), mild [hyperopia](/what-we-do/hyperopia) (long-sightedness), mild [astigmatism](/what-we-do/astigmatism) and even [presbyopia](/what-we-do/presbyopia). Best of all, the ortho-K vision correction process is completely reversible, unlike laser eye surgery. It has recently been shown to reduce the [progression of short-sightedness](https://www.innovativeeyecare.com.au/what-we-do/myopia-control) in younger patients, which is extremely important in preventing complications with age including [retinal detachment](https://www.innovativeeyecare.com.au/what-we-do/flashes-floaters-retinal-tear-detachment) and [glaucoma](https://www.innovativeeyecare.com.au/what-we-do/glaucoma).<sup>6</sup> When cared for correctly, the risk of infection with ortho-K lenses is similarly low as in overnight wear soft lenses.<sup>7</sup>
+
+**Click here to find out more about [orthokeratology lenses](https://www.innovativeeyecare.com.au/what-we-do/orthokeratology-corneal-reshaping/).**
+
+<center>
 
 ![](/uploads/ortho-k-toric.jpg)
 
+</center>
+
 ##### Scleral lenses
 
-Scleral lenses are larger diameter RGP lenses commonly used in extreme corneal irregularity and dry eye disease.<sup>8</sup> Their larger size means they rest on the white of the eye (sclera) rather than on the clear, sensitive part of the eye (cornea), unlike conventional RGPs. This makes them very stable on eye, and as the tear film under the lens fills in the irregular gaps of the corneal surface, it provides extremely clear vision. It also makes them incredibly comfortable because the lens vaults over the sensitive part of the eye and bathes it in fluid, reducing the sensation of dryness that can be common with contact lens wear. For care instructions when looking after scleral lenses, click [here](/patient-resources/care-of-scleral-lenses). 
+Scleral lenses are larger diameter RGP lenses commonly used in extreme corneal irregularity and dry eye disease.<sup>8</sup> Their larger size means they rest on the white of the eye (sclera) rather than on the clear, sensitive part of the eye (cornea), unlike conventional RGPs. This makes them very stable on eye, and as the tear film under the lens fills in the irregular gaps of the corneal surface, it provides extremely clear vision. It also makes them incredibly comfortable because the lens vaults over the sensitive part of the eye and bathes it in fluid, reducing the sensation of dryness that can be common with contact lens wear.
+
+**Click here to find out more about [scleral lenses](https://www.innovativeeyecare.com.au/what-we-do/scleral-contact-lenses/).**
 
 ![](/uploads/scleral-insertion.jpg)
 
