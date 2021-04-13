@@ -179,9 +179,12 @@ const Container = styled.div`
   margin: 0;
   margin-bottom: 80px;
 `
-const Header = styled.div`
+const HeaderSection = styled.div`
   height: 88px;
 `
+const Header = (match) => {
+  return match ? <HeaderSection /> : <></>
+}
 
 const Blog: React.FC = (props) => {
   const match = useMatchMedia({
@@ -206,7 +209,7 @@ const Blog: React.FC = (props) => {
         session.searchToggle,
         session.bookingToggle
       )}
-      {match && <Header />}
+      {Header(match)}
       {BlogList(show, props.data)}
       {SocialFeed(show, match)}
       {Footer(show)}

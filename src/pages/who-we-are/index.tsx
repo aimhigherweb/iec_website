@@ -423,8 +423,8 @@ const Container = styled.div`
 const HeaderSection = styled.div`
   height: 88px;
 `
-const Header = (show) => {
-  return show ? <HeaderSection /> : <></>
+const Header = (match) => {
+  return match ? <HeaderSection /> : <></>
 }
 
 const WhoWeAre: React.FC = ({ data }) => {
@@ -449,7 +449,7 @@ const WhoWeAre: React.FC = ({ data }) => {
         session.searchToggle,
         session.bookingToggle
       )}
-      {Header(show)}
+      {Header(match)}
       {Team(show, teamList, match)}
       {History(show, historyList, match)}
       {SocialFeed(show, match)}

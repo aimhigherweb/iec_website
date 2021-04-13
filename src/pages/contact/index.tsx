@@ -229,9 +229,12 @@ const Container = styled.div`
   margin: 0;
   margin-bottom: 80px;
 `
-const Header = styled.div`
+const HeaderSection = styled.div`
   height: 88px;
 `
+const Header = (match) => {
+  return match ? <HeaderSection /> : <></>
+}
 
 const Contact: React.FC = () => {
   const match = useMatchMedia({ width: MAX_WIDTH })
@@ -254,7 +257,7 @@ const Contact: React.FC = () => {
         session.searchToggle,
         session.bookingToggle
       )}
-      {match && <Header />}
+      {Header(match)}
       {PracticeLocations(show, session.bookingToggle)}
       {SocialFeed(show, match)}
       {Footer(show)}

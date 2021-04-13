@@ -253,9 +253,12 @@ const Container = styled.div`
   margin: 0;
   margin-bottom: 80px;
 `
-const Header = styled.div`
+const HeaderSection = styled.div`
   height: 88px;
 `
+const Header = (match) => {
+  return match ? <HeaderSection /> : <></>
+}
 
 const WhatWeDo: React.FC = (props) => {
   const match = useMatchMedia({
@@ -280,7 +283,7 @@ const WhatWeDo: React.FC = (props) => {
         session.searchToggle,
         session.bookingToggle
       )}
-      {match && <Header />}
+      {Header(match)}
       {What(show, props.data, session.current.whatWeDoCatId)}
       {SocialFeed(show, match)}
       {Footer(show)}
