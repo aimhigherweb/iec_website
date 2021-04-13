@@ -426,7 +426,7 @@ const MainDiv = (
             </Menu>
           </MainHeader>
 
-          <MainMenu show={showMenu}>
+          <MainMenu show={showMenu} data-cy="main-menu">
             <MainMenuItem onClick={() => setShowMenu(!showMenu)}>
               <FaTimes
                 style={{
