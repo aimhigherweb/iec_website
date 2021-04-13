@@ -16,7 +16,7 @@ preview_image: contact-lenses-2.jpg
 
 There are several different types of soft disposable lenses. Typically spherical and spherico-cylindrical soft lenses are available to correct basic prescriptions like [hyperopia](https://www.innovativeeyecare.com.au/what-we-do/hyperopia/), [myopia](https://www.innovativeeyecare.com.au/what-we-do/myopia/) and [astigmatism](https://www.innovativeeyecare.com.au/what-we-do/astigmatism/), while more optically-complex multifocal soft lenses are available for prescriptions like [presbyopia](https://www.innovativeeyecare.com.au/what-we-do/presbyopia/), as well as for [myopia control](https://www.innovativeeyecare.com.au/what-we-do/myopia-control/). Soft contact lenses come in daily and monthly modalities, where the former requires replacement after every wear and the latter is discarded after a month of wear but requires [cleaning and maintenance](https://eyesolutions.com.au/) after each wear. There are also variations in size, shape and material between soft contact lens brands. Innovative Eye Care recommends Alcon soft contact lenses, which can be purchased through our practice, because of their superior clarity and wearability.<sup>1</sup>
 
-Click here to find out more about [soft contact lenses](https://www.innovativeeyecare.com.au/what-we-do/soft-contact-lenses/).
+**Click here to find out more about [soft contact lenses](https://www.innovativeeyecare.com.au/what-we-do/soft-contact-lenses/).**
 
 ![](/uploads/contact-lenses-2.jpg)
 
@@ -26,7 +26,7 @@ RGP lenses are made from a stiffer material. Because of this, careful fitting is
 
 Innovative Eye Care practitioners have had a keen interest in rigid lens fitting for a number of years and use a pioneering lens design software called [EyeSpace](https://www.eyespacelenses.com/) to custom-design every hard lens used in the practice. Often during the fitting process, the lenses may feel slightly uncomfortable but this subsides with regular wear. Learn about proper care of RGP lenses [here](/patient-resources/care-of-gas-permeable-lenses) to prevent the risk of infection, although this risk is lowest across the entire range of contact lenses, particularly with EyeSpace's manufacturing process.<sup>2, 5</sup>
 
-Click here to find out more about [RGP lenses](https://www.innovativeeyecare.com.au/what-we-do/gas-permeable-contact-lenses/).
+**Click here to find out more about [RGP lenses](https://www.innovativeeyecare.com.au/what-we-do/gas-permeable-contact-lenses/).**
 
 ![](/uploads/rgp-lenses.jpg)
 
@@ -36,7 +36,7 @@ Orthokeratology (ortho-K for short) is an exciting new treatment in vision corre
 
 Ortho-K can treat mild to moderate [myopia](/what-we-do/myopia) (short-sightedness), mild [hyperopia](/what-we-do/hyperopia) (long-sightedness), mild [astigmatism](/what-we-do/astigmatism) and even [presbyopia](/what-we-do/presbyopia). Best of all, the ortho-K vision correction process is completely reversible, unlike laser eye surgery. It has recently been shown to reduce the [progression of short-sightedness](https://www.innovativeeyecare.com.au/what-we-do/myopia-control) in younger patients, which is extremely important in preventing complications with age including [retinal detachment](https://www.innovativeeyecare.com.au/what-we-do/flashes-floaters-retinal-tear-detachment) and [glaucoma](https://www.innovativeeyecare.com.au/what-we-do/glaucoma).<sup>6</sup> When cared for correctly, the risk of infection with ortho-K lenses is similarly low as in overnight wear soft lenses.<sup>7</sup>
 
-Click here to find out more about [orthokeratology lenses](https://www.innovativeeyecare.com.au/what-we-do/orthokeratology-corneal-reshaping/).
+**Click here to find out more about [orthokeratology lenses](https://www.innovativeeyecare.com.au/what-we-do/orthokeratology-corneal-reshaping/).**
 
 ![](/uploads/ortho-k-toric.jpg)
 
