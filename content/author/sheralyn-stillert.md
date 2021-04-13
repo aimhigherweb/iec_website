@@ -1,14 +1,14 @@
 ---
 title: Sheralyn Stillert
-jobtitle: Customer Service
+jobtitle: Administration Officer
 photo: /uploads/staff-sheralyn.png
 skill1: EASYGOING
-skill2: WARM
-skill3: FUN
-skill4: PRACTICAL JOKER
 rating1: 100
+skill2: WARM
 rating2: 100
+skill3: FUN
 rating3: 95
+skill4: PRACTICAL JOKER
 rating4: 90
 order: 14
 ---
