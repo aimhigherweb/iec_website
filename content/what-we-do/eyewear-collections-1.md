@@ -16,7 +16,7 @@ Your frame says a lot about you. That's why we curate our collection for a range
 <tr>
 <th colspan = 4><a href="/what-we-do/lindberg"><img src="/uploads/lindberg.png" border=3 height=500 width=500></img></a></th>
 <th colspan = 4><a href="/what-we-do/face-a-face"><img src="/uploads/faceafacelogo.png" border=3 height=500 width=500></img></a></th>
-<th colspan = 4><a href="/what-we-do/prodesign"><img src="/uploads/prodesign-logo.jpg" border=3 height=500 width=500></img></a></th>
+<th colspan = 4><a href="/what-we-do/oroton"><img src="/uploads/oroton-logo.png" border=3 height=500 width=500></img></a></th>
 </tr>
 <tr>
 <th colspan = 4><a href="/what-we-do/tom-ford"><img src="/uploads/tom-logo.png" border=3 height=500 width=500></img></a></th>
@@ -25,11 +25,11 @@ Your frame says a lot about you. That's why we curate our collection for a range
 </tr>
 <tr>
 <th colspan = 4><a href="/what-we-do/anne-valentin"><img src="/uploads/anne-valentin-logo.jpg" border=3 height=500 width=500></img></a></th>
-<th colspan = 4><a href="/what-we-do/maze"><img src="/uploads/maze-logo.png" border=3 height=500 width=500></img></a></th>
+<th colspan = 4><a href="/what-we-do/prodesign"><img src="/uploads/prodesign-logo.jpg" border=3 height=500 width=500></img></a></th>
 <th colspan = 4><a href="/what-we-do/nicola-finetti"><img src="/uploads/nicola-finetti.png" border=3 height=500 width=500></img></a></th>
 </tr>
 </table>
 
-![](/uploads/masunaga.png)
+![](/uploads/oroton-logo.png)
 
 <br>
