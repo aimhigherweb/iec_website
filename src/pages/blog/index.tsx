@@ -7,6 +7,7 @@ import { useMatchMedia } from "../../hooks/useMatchMedia"
 import { Main } from "../../components/Main"
 import { SocialFeed } from "../../components/Social/SocialFeed"
 import { Footer } from "../../components/Layout/Footer"
+import SEO from "../../layouts/partials/seo"
 
 //----------------------------------------------------------
 //-- Section 1: Blog
@@ -198,6 +199,7 @@ const Blog: React.FC = (props) => {
   const image = match ? null : "/images2/bg-section-blog.png"
   return (
     <Container>
+      <SEO title="Blog" />
       {Main(
         "",
         true,

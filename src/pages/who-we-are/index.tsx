@@ -8,6 +8,7 @@ import { Main } from "../../components/Main"
 import { SocialFeed } from "../../components/Social/SocialFeed"
 import { Footer } from "../../components/Layout/Footer"
 import historyList from "./past.json"
+import SEO from "../../layouts/partials/seo"
 
 //----------------------------------------------------------
 //-- Section 1: Team
@@ -438,6 +439,7 @@ const WhoWeAre: React.FC = ({ data }) => {
   const video = match ? null : "/videos/who-we-are.mp4"
   return (
     <Container>
+      <SEO title="Who We Are" />
       {Main(
         "Who We Are",
         true,

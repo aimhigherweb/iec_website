@@ -12,6 +12,7 @@ import { useMatchMedia } from "../../hooks/useMatchMedia"
 import { Main } from "../../components/Main"
 import { SocialFeed } from "../../components/Social/SocialFeed"
 import { Footer } from "../../components/Layout/Footer"
+import SEO from "../../layouts/partials/seo"
 
 //----------------------------------------------------------
 //-- Section 1: Team
@@ -246,6 +247,7 @@ const Contact: React.FC = () => {
   const video = match ? null : "/videos/location-city.mp4"
   return (
     <Container>
+      <SEO title="Contact Us" />
       {Main(
         "Contact Us",
         true,

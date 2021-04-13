@@ -7,6 +7,7 @@ import { useMatchMedia } from "../../hooks/useMatchMedia"
 import { Main } from "../../components/Main"
 import { SocialFeed } from "../../components/Social/SocialFeed"
 import { Footer } from "../../components/Layout/Footer"
+import SEO from "../../layouts/partials/seo"
 
 //----------------------------------------------------------
 //-- Section 1: What
@@ -275,6 +276,7 @@ const WhatWeDo: React.FC = (props) => {
   const video = match ? null : "/videos/what-we-do.mp4"
   return (
     <Container>
+      <SEO title="What We Do" />
       {Main(
         "What We Do",
         true,

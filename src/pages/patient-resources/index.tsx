@@ -7,6 +7,7 @@ import { useMatchMedia } from "../../hooks/useMatchMedia"
 import { Main } from "../../components/Main"
 import { SocialFeed } from "../../components/Social/SocialFeed"
 import { Footer } from "../../components/Layout/Footer"
+import SEO from "../../layouts/partials/seo"
 
 //----------------------------------------------------------
 //-- Section 1: Patient Resources
@@ -244,6 +245,7 @@ const PatientResources: React.FC = (props) => {
   const image = match ? null : "/images2/bg-section-patres.png"
   return (
     <Container>
+      <SEO title="Patient Resources" />
       {Main(
         "",
         true,
