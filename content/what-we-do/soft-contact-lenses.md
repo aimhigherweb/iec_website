@@ -31,7 +31,11 @@ Soft contact lenses come in many *modalities,* meaning they differ by the period
 
 Soft lenses also vary by optics. Most people only require a basic spherical or spherico-cylindrical power in their lenses, which is suitable for prescriptions like [myopia](https://www.innovativeeyecare.com.au/what-we-do/myopia/), [hyperopia](https://www.innovativeeyecare.com.au/what-we-do/hyperopia/) and [astigmatism](https://www.innovativeeyecare.com.au/what-we-do/astigmatism/). However, there are also multifocal lenses that can be used for prescriptions like [presbyopia](https://www.innovativeeyecare.com.au/what-we-do/presbyopia/), as well as in the management of progressive myopia during a process known as [myopia control](https://www.innovativeeyecare.com.au/what-we-do/myopia-control/).<sup>3</sup>
 
+<center>
+
 ![](/uploads/contact-lens.jpg)
+
+</center>
 
 #### How do I know if soft contact lenses are right for me?
 
