@@ -70,8 +70,6 @@ const HeaderTitle = styled.div`
   color: ${(props) => {
     if (props.searchMode || props.bookingMode || props.carouselMode) {
       return "#00000000"
-    } else if (props.scrolledDown) {
-      return "#00000000"
     } else {
       return "#ffffff"
     }
