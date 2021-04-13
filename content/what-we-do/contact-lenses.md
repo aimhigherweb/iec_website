@@ -30,9 +30,11 @@ There are several different types of soft disposable lenses. They can vary not o
 
 ##### Rigid gas permeable (RGP) lenses
 
-RGP lenses are made from a stiffer material and do not drape on the eyes like soft lenses do. Because of this, careful fitting is required. Rigid lenses are generally reserved for very high prescriptions or precision fits, including for irregular corneal surfaces (like [keratoconus](https://www.innovativeeyecare.com.au/what-we-do/keratoconus)) or following injury and surgery.<sup>4</sup> They provide a clarity of vision for these patients that isn't possible in conventional soft lenses, which makes them perfect for things like sport. Depending on how well they're looked after, they can last up to 2 years before needing to be replaced, although they have some potential for loss even when on-eye due to their small size. 
+RGP lenses are made from a stiffer material. Because of this, careful fitting is required. Rigid lenses are generally reserved for very high prescriptions or precision fits, including for irregular corneal surfaces (like [keratoconus](https://www.innovativeeyecare.com.au/what-we-do/keratoconus)) or following injury and surgery.<sup>4</sup> They provide a clarity of vision in these cases that isn't possible in conventional soft lenses, which makes them perfect for things like sport. Depending on how well they're looked after, they can last up to 2 years before needing to be replaced, although they have some potential for loss even when on-eye due to their small size. 
 
 Innovative Eye Care practitioners have had a keen interest in rigid lens fitting for a number of years and use a pioneering lens design software called [EyeSpace](https://www.eyespacelenses.com/) to custom-design every hard lens used in the practice. Often during the fitting process, the lenses may feel slightly uncomfortable but this subsides with regular wear. Learn about proper care of RGP lenses [here](/patient-resources/care-of-gas-permeable-lenses) to prevent the risk of infection, although this risk is lowest across the entire range of contact lenses, particularly with EyeSpace's manufacturing process.<sup>2, 5</sup>
+
+![](/uploads/rgp-lenses.jpg)
 
 ##### Orthokeratology lenses
 
@@ -40,9 +42,13 @@ Innovative Eye Care practitioners have had a keen interest in rigid lens fitting
 
 Ortho-K can treat mild to moderate [myopia](/what-we-do/myopia) (short-sightedness), mild [hyperopia](/what-we-do/hyperopia) (long-sightedness), mild [astigmatism](/what-we-do/astigmatism) and even [presbyopia](/what-we-do/presbyopia). Best of all, the ortho-K vision correction process is completely reversible, unlike laser eye surgery. It has recently been shown to reduce the [progression of short-sightedness](https://www.innovativeeyecare.com.au/what-we-do/myopia-control) in younger patients, which is extremely important in preventing complications with age including [retinal detachment](https://www.innovativeeyecare.com.au/what-we-do/flashes-floaters-retinal-tear-detachment) and [glaucoma](https://www.innovativeeyecare.com.au/what-we-do/glaucoma).<sup>7</sup> Learn about proper care of ortho-K lenses [here](/patient-resources/care-of-orthokeratology-lenses). 
 
+![](/uploads/ortho-k-toric.jpg)
+
 ##### Scleral lenses
 
 Scleral lenses are larger diameter RGP lenses commonly used in extreme corneal irregularity and dry eye disease.<sup>8</sup> Their larger size means they rest on the white of the eye (sclera) rather than on the clear, sensitive part of the eye (cornea) as in conventional RGPs. This makes them very stable on eye for extremely clear vision, as the tear film under the lens fills in the irregular gaps of the corneal surface. It also makes them incredibly comfortable because the lens vaults over the sensitive part of the eye and bathes it in fluid, reducing the sensation of dryness that can be common with contact lens wear. For care instructions when looking after scleral lenses, click [here](/patient-resources/care-of-scleral-lenses). 
+
+![](/uploads/scleral-insertion.jpg)
 
 #### How do I know if contact lenses are right for me?
 
