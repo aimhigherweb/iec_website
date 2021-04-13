@@ -8,6 +8,10 @@ preview_image: color-eye.jpg
 <p>Contact lenses are perfect for when you want to be able to do the things you enjoy in life without the hassle of having to wear a frame on your face. There are two primary options for presbyopic contact lens wear: multifocal contact lenses and monovision (or blended) contact lenses. <a href="/what-we-do/soft-contact-lenses">Soft disposable contact lenses</a> or <a href="/what-we-do/gas-permeable-contact-lenses">rigid gas permeable lenses</a> are both available in these options. During your <a href="/what-we-do/eye-exam">consultation</a>, your optometrist will advise which is best for you.</p>
 </div>
 
+<br>
+
+![](/uploads/presbyopia.png)
+
 #### Multifocal contact lenses
 
 With these lenses, your eyes are focused for both distance and near vision at the same time. Your brain figures out which image it needs to concentrate on and ignores the other. The clarity of your vision will never be as sharp as with your spectacles due to slight ‘ghosting’ of images, but the majority of patients find these lenses allow them to perform most visual tasks in their life with about the same visual quality. Patients tend to prefer these lenses over monovision lenses because they offer better ‘real-world’ vision, despite the loss of clarity.<sup>1</sup>
