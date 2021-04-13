@@ -38,7 +38,11 @@ Ortho-K can treat mild to moderate [myopia](/what-we-do/myopia) (short-sightedne
 
 **Click here to find out more about [orthokeratology lenses](https://www.innovativeeyecare.com.au/what-we-do/orthokeratology-corneal-reshaping/).**
 
+<center>
+
 ![](/uploads/ortho-k-toric.jpg)
+
+</center>
 
 ##### Scleral lenses
 
