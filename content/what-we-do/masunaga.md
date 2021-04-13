@@ -1,6 +1,6 @@
 ---
 title: Masunaga
-category: SE01
+category: SE00
 preview_image: /uploads/masunaga.jpg
 ---
 Founded in 1905, Masunaga is one of the worlds oldest eyewear brand and manufactures. Designed and crafted in Japan with the highest quality acetate and titanium. Masunaga has mastered the craft of comfortable minimalist frames with effortless style. 
