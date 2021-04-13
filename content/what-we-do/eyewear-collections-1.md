@@ -17,7 +17,7 @@ Your frame says a lot about you. That's why we curate our collection for a range
 <tr>
 <th colspan = 4><a href="/what-we-do/tom-ford"><img src="/uploads/tom-logo.png" border=3 height=500 width=500></img></a></th>
 <th colspan = 4><a href="/what-we-do/masunaga"><img src="/uploads/masunaga.png" border=3 height=500 width=500></img></a></th>
-<th colspan = 4><a href="/what-we-do/good-gryf"><img src="/uploads/good-gryf.jpg" border=3 height=500 width=500></img></a></th>
+<th colspan = 4><a href="/what-we-do/good-gryf"><img src="/uploads/goodgryflogo.png" border=3 height=500 width=500></img></a></th>
 </tr>
 <tr>
 <th colspan = 4><a href="/what-we-do/anne-valentin"><img src="/uploads/anne-valentin-logo.jpg" border=3 height=500 width=500></img></a></th>
@@ -26,6 +26,6 @@ Your frame says a lot about you. That's why we curate our collection for a range
 </tr>
 </table>
 
-
+![](/uploads/goodgryflogo.png)
 
 <br>
