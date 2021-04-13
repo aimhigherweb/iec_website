@@ -16,7 +16,7 @@ preview_image: contact-lens-2-.jfif
 
 #### What are soft contact lenses?
 
-Soft contact lenses provide clear vision and lens wetability, and they are generally comfortable enough to wear all day. They are made from a polymer-plastic material combined with water. The water content varies with different lenses. Newer generation soft lenses are made out variants of a material called silicone hydrogel, which allows more oxygen to reach the eye and prevents some of the ocular health issues that older lens materials would cause.<sup>1,2</sup> Soft contact lenses can correct a range of prescriptions including [myopia](/what-we-do/myopia), [hyperopia](/what-we-do/hyperopia), [astigmatism](/what-we-do/astigmatism) and [presbyopia](/what-we-do/presbyopia).
+Soft contact lenses provide clear vision and lens wetability, and they are generally comfortable enough to wear all day. They are made from a polymer-plastic material combined with water. The water content varies with different lenses. Newer generation soft lenses are made out variants of a material called silicone hydrogel, which allows more oxygen to reach the eye and prevents some of the ocular health issues that older lens materials would cause.<sup>1,2</sup>
 
 See [this page](https://innovativeeyecare.com.au/patient-resources/tips-for-long-term-success-with-your-soft-disposable-contact-lenses) for tips on soft contact lens care.
 
@@ -24,8 +24,12 @@ See [this page](https://innovativeeyecare.com.au/patient-resources/tips-for-long
 
 #### What types of soft contact lenses are there?
 
+Soft contact lenses come in many *modalities,* meaning they differ by the period of time they can be worn before needing to be replaced. There are two standard modalities that are used most – daily replacement and monthly replacement lenses.
+
 * **Daily lenses:** Daily lenses are discarded after each use. These soft lenses are perfect for users who don’t wear contact lenses every day – they are more cost-effective to replace and don’t require cleaning or storage solutions. There’s also a reduced risk of infection and inflammation in daily lenses because there’s no opportunity for proteins or pathogens to build up on the lens with such frequent replacement, and the silicone hydrogel material allows the eye to remain healthy.<sup>1,2</sup> Check with your optometrist whether daily soft contact lenses are right for you, as they come in a limited range of prescriptions.
 * **Monthly lenses:** Monthly or fortnightly lenses are replaced monthly or fortnightly, as the name suggests. That means they require [disinfection and storage with solutions](https://eyesolutions.com.au/) after each wear. For this same reason there is a slightly higher risk of infection or inflammatory events due to debris build-up.<sup>1,2</sup> However, these soft contact lenses are available in a wider array of prescriptions and they can often be just as cost-effective as daily lenses for full-time wearers, even when factoring in the price of solutions. The oxygen supply is also similar to daily lenses with silicone hydrogel materials.
+
+Soft lenses also vary by optics. Most people only require a basic spherical or spherico-cylindrical power in their lenses, which is suitable for prescriptions like [myopia](https://www.innovativeeyecare.com.au/what-we-do/myopia/), [hyperopia](https://www.innovativeeyecare.com.au/what-we-do/hyperopia/) and [astigmatism](https://www.innovativeeyecare.com.au/what-we-do/astigmatism/). However, there are also multifocal lenses that can be used for prescriptions like [presbyopia](https://www.innovativeeyecare.com.au/what-we-do/presbyopia/), as well as in the management of progressive myopia during a process known as [myopia control](https://www.innovativeeyecare.com.au/what-we-do/myopia-control/).
 
 ![](/uploads/contact-lens.jpg)
 
