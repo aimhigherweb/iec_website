@@ -304,6 +304,7 @@ const BlogTemplate: React.FC = (props) => {
   return (
     <Container>
       {Main(
+        "",
         false,
         null,
         null,
