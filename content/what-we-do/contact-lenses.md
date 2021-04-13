@@ -46,7 +46,9 @@ Ortho-K can treat mild to moderate [myopia](/what-we-do/myopia) (short-sightedne
 
 ##### Scleral lenses
 
-Scleral lenses are larger diameter RGP lenses commonly used in extreme corneal irregularity and dry eye disease.<sup>8</sup> Their larger size means they rest on the white of the eye (sclera) rather than on the clear, sensitive part of the eye (cornea), unlike conventional RGPs. This makes them very stable on eye, and as the tear film under the lens fills in the irregular gaps of the corneal surface, it provides extremely clear vision. It also makes them incredibly comfortable because the lens vaults over the sensitive part of the eye and bathes it in fluid, reducing the sensation of dryness that can be common with contact lens wear. For care instructions when looking after scleral lenses, click [here](/patient-resources/care-of-scleral-lenses). 
+Scleral lenses are larger diameter RGP lenses commonly used in extreme corneal irregularity and dry eye disease.<sup>8</sup> Their larger size means they rest on the white of the eye (sclera) rather than on the clear, sensitive part of the eye (cornea), unlike conventional RGPs. This makes them very stable on eye, and as the tear film under the lens fills in the irregular gaps of the corneal surface, it provides extremely clear vision. It also makes them incredibly comfortable because the lens vaults over the sensitive part of the eye and bathes it in fluid, reducing the sensation of dryness that can be common with contact lens wear.
+
+**Click here to find out more about [scleral lenses](https://www.innovativeeyecare.com.au/what-we-do/scleral-contact-lenses/).**
 
 ![](/uploads/scleral-insertion.jpg)
 
