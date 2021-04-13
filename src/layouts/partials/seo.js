@@ -26,7 +26,10 @@ const SEO = (post) => {
     return null
   }
 
-  const title = post.title || defaults.title
+  let title = defaults.title
+  if (post.title) {
+    title = `${post.title} - ${title}`
+  }
   const description = post.description || defaults.description
   const url = new URL(post.path || "", defaults.siteUrl)
   const image = post.image ? new URL(post.image, defaults.siteUrl) : false
