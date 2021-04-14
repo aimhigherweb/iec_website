@@ -33,7 +33,7 @@ const WhatTitle = styled.h1`
 const WhatDescription = styled.div`
   padding: 0px 40px 0 40px;
   font-family: "open sans";
-  font-size: 0.8em;
+  font-size: 0.9em;
   @media (max-width: ${MAX_WIDTH_PX}) {
     padding: 0px 20px;
     text-align: justify;
@@ -67,7 +67,7 @@ const WhatServiceItem = styled.div`
 const WhatServiceImage = styled.img`
   display: block;
   width: auto;
-  height: 32px;
+  height: 30px;
   margin: 16px auto;
   @media (max-width: ${MAX_WIDTH_PX}) {
     height: 32px;
@@ -76,7 +76,7 @@ const WhatServiceImage = styled.img`
 `
 const WhatServiceTitle = styled.p`
   font-family: "open sans";
-  font-size: 0.7em;
+  font-size: 0.9em;
   font-weight: 600;
   text-align: center;
   text-transform: uppercase;
@@ -101,11 +101,12 @@ const ServiceDetail = styled.div`
 `
 const ServiceDetailImage = styled.img`
   display: block;
-  width: 32px;
-  height: 32px;
+  width: 60px;
+  height: 60px;
   margin-right: 20px;
   border-radius: 50%;
   object-fit: cover;
+
   filter: ${(props) => (props.chosen ? "none" : "grayscale(1)")};
   &:hover {
     filter: ${(props) => (props.chosen ? "none" : "none")};
@@ -118,6 +119,7 @@ const ServiceDetailImage = styled.img`
 `
 const ServiceDetailText = styled.div`
   flex: 1;
+
   @media (max-width: ${MAX_WIDTH_PX}) {
     flex-basis: 50%;
   }
@@ -125,8 +127,8 @@ const ServiceDetailText = styled.div`
 `
 const ServiceDetailTextTitle = styled.p`
   font-family: "recoleta";
-  font-size: 0.9em;
-  font-weight: 500;
+  font-size: 1em;
+  font-weight: 600;
   text-transform: uppercase;
   @media (max-width: ${MAX_WIDTH_PX}) {
     font-size: 1em;
@@ -134,9 +136,9 @@ const ServiceDetailTextTitle = styled.p`
   border: ${DEBUG_TEAM};
 `
 const ServiceDetailTextDesc = styled.div`
-  padding-bottom: 20px;
+  padding-bottom: 10px;
   font-family: "open sans";
-  font-size: 0.8em;
+  font-size: 0.9em;
   border: ${DEBUG_TEAM};
   border-bottom: 1px dotted #aaaaaa;
 `
