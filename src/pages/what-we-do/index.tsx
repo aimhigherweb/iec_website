@@ -103,7 +103,7 @@ const ServiceDetailImage = styled.img`
   margin-right: 20px;
   border-radius: 50%;
   object-fit: cover;
-  
+
   filter: ${(props) => (props.chosen ? "none" : "grayscale(1)")};
   &:hover {
     filter: ${(props) => (props.chosen ? "none" : "none")};
@@ -116,7 +116,7 @@ const ServiceDetailImage = styled.img`
 `
 const ServiceDetailText = styled.div`
   flex: 1;
-  
+
   @media (max-width: ${MAX_WIDTH_PX}) {
     flex-basis: 50%;
   }
