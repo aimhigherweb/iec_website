@@ -73,7 +73,7 @@ const TeamStaffTitle = styled.div`
 `
 const TeamStaffJob = styled.div`
   font-family: "open sans";
-  font-size: 0.8em;
+  font-size: 0.9em;
   margin-bottom: 8px;
   text-align: center;
 `
@@ -92,7 +92,7 @@ const TeamDescription = styled.div`
   padding: 40px 40px;
   text-align: center;
   font-family: "open sans";
-  font-size: 0.8em;
+  font-size: 0.9em;
   @media (max-width: ${MAX_WIDTH_PX}) {
     padding: 20px 40px;
     text-align: justify;

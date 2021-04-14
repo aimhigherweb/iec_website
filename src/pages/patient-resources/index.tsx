@@ -32,7 +32,7 @@ const PatientResTitle = styled.h1`
 const PatientResDescription = styled.div`
   padding: 0px 40px 0 40px;
   font-family: "open sans";
-  font-size: 0.8em;
+  font-size: 0.9em;
   @media (max-width: ${MAX_WIDTH_PX}) {
     padding: 20px 40px;
     text-align: justify;
@@ -82,8 +82,8 @@ const ServiceDetail = styled.div`
 `
 const ServiceDetailImage = styled.img`
   display: block;
-  width: 32px;
-  height: 32px;
+  width: 60px;
+  height: 60px;
   margin-right: 20px;
   border-radius: 50%;
   object-fit: cover;
