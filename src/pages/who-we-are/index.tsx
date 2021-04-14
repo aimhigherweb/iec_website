@@ -437,6 +437,13 @@ const WhoWeAre: React.FC = ({ data }) => {
 
   console.log(`*** Home.RENDER... match=${match}`)
   const video = match ? null : "/videos/who-we-are.mp4"
+
+  const HeaderResult = (props) => Header(match)
+  const TeamResult = (props) => Team(show, teamList, match)
+  const HistoryResult = (props) => History(show, historyList, match)
+  const SocialResult = (props) => SocialFeed(show, match)
+  const FooterResult = (props) => Footer(show)
+
   return (
     <Container>
       <SEO title="Who We Are" />
@@ -451,11 +458,11 @@ const WhoWeAre: React.FC = ({ data }) => {
         session.searchToggle,
         session.bookingToggle
       )}
-      {Header(match)}
-      {Team(show, teamList, match)}
-      {History(show, historyList, match)}
-      {SocialFeed(show, match)}
-      {Footer(show)}
+      <HeaderResult />
+      <TeamResult />
+      <HistoryResult />
+      <SocialResult />
+      <FooterResult />
     </Container>
   )
 }
