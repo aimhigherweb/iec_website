@@ -14,6 +14,6 @@ jobs:
         env:
           CI: false
       - name: Publish source maps to sentry
-        run: npx sentry-cli releases files ${GITHUB_SHA} upload-sourcemaps ./public --rewrite
+        run: npx @sentry-cli releases files ${GITHUB_SHA} upload-sourcemaps ./public --rewrite
         env:
           SENTRY_AUTH_TOKEN: ${{ secrets.SENTRY_AUTH_TOKEN }}
