@@ -99,9 +99,8 @@ const TeamServiceImage = styled.div`
   margin: 16px auto;
   @media (max-width: ${MAX_WIDTH_PX}) {
     height: 50px;
-    color: #5091cd;
   }
-  background: url(${(props) => (props.chosen ? props.iconSel : props.icon)});
+  background: url(${(props) => (props.hover ? props.iconSel : props.icon)});
   background-size: contain;
   background-repeat: no-repeat;
   border: 0;
@@ -111,7 +110,7 @@ const TeamServiceTitle = styled.p`
   font-size: 0.7em;
   font-weight: 600;
   text-align: center;
-  color: url(${(props) => (props.chosen ? "#5091cd" : "black")});
+  color: url(${(props) => (props.hover ? "#5091cd" : "black")});
   @media (max-width: ${MAX_WIDTH_PX}) {
     font-size: 0.7em;
   }
@@ -189,7 +188,7 @@ const Team = (show, match, whatWeDoCatToggle) => {
       iconSel: "/images2/service-orthok-correction-sel.png",
     },
   ]
-  const [chosen, setChosen] = useState("")
+  const [hover, setHover] = useState("")
 
   return show ? (
     <TeamSection>
@@ -233,19 +232,19 @@ const Team = (show, match, whatWeDoCatToggle) => {
               <TeamServiceItem
                 onClick={() => whatWeDoCatSelect(item.cat)}
                 onMouseOver={() => {
-                  setChosen(item.tag)
+                  setHover(item.tag)
                 }}
                 onMouseLeave={() => {
-                  setChosen("")
+                  setHover("")
                 }}
               >
                 <TeamServiceImage
                   tag={item.tag}
                   icon={item.icon}
                   iconSel={item.iconSel}
-                  chosen={item.tag === chosen}
+                  hover={item.tag === hover}
                 />
-                <TeamServiceTitle chosen={item.tag === chosen}>
+                <TeamServiceTitle hover={item.tag === hover}>
                   {item.title0} <br />
                   {item.title1}
                 </TeamServiceTitle>

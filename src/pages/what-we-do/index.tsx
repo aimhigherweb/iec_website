@@ -63,16 +63,23 @@ const WhatServiceItem = styled.div`
   border: ${DEBUG_TEAM};
   cursor: pointer;
   background-color: ${(props) => (props.chosen ? "#5091cd" : "none")};
+  color: black;
+  &:hover {
+    color: #5091cd;
+  }
 `
-const WhatServiceImage = styled.img`
+const WhatServiceImage = styled.div`
   display: block;
-  width: auto;
-  height: 30px;
+  width: 32px;
+  height: 32px;
   margin: 16px auto;
   @media (max-width: ${MAX_WIDTH_PX}) {
     height: 32px;
   }
-  border: ${DEBUG_TEAM};
+  background: url(${(props) => (props.hover ? props.iconSel : props.icon)});
+  background-size: contain;
+  background-repeat: no-repeat;
+  border: 0;
 `
 const WhatServiceTitle = styled.p`
   font-family: "open sans";
@@ -85,11 +92,15 @@ const WhatServiceTitle = styled.p`
     text-transform: lowercase;
     padding: 5px;
   }
-  color: ${(props) => (props.chosen ? "white" : "black")};
-  &:hover {
-    color: ${(props) => (props.chosen ? "white" : "#5091cd")};
-  }
+  color: ${(props) => {
+    if (props.chosen) {
+      return "white"
+    }
+    return props.hover ? "#5091cd" : "black"
+  }};
   border: ${DEBUG_TEAM};
+  padding-left: 4px;
+  padding-right: 4px;
 `
 
 const ServiceDetail = styled.div`
@@ -176,6 +187,7 @@ const What = (show, data, whatWeDoCatId) => {
     )
     setCurrent({ index: index, articles: categoryArticles })
   }
+  const [hover, setHover] = useState()
 
   return show ? (
     <WhatSection id="topservice">
@@ -200,18 +212,31 @@ const What = (show, data, whatWeDoCatId) => {
           whatWeDoCategories.map((category, i) => {
             const chosen = current.index === i
             let imageSrc = category?.image
+            let imageSel =
+              imageSrc.substr(0, imageSrc.lastIndexOf(".")) + "-sel.png"
             if (chosen) {
               imageSrc =
                 imageSrc.substr(0, imageSrc.lastIndexOf(".")) + "-selw.png"
+              imageSel = imageSrc
             }
             return (
               <WhatServiceItem
                 key={i}
                 onClick={() => categoryClick(i, category.catno)}
+                onMouseOver={() => {
+                  setHover(i)
+                }}
+                onMouseLeave={() => {
+                  setHover()
+                }}
                 chosen={chosen}
               >
-                <WhatServiceImage src={imageSrc} />
-                <WhatServiceTitle chosen={chosen}>
+                <WhatServiceImage
+                  icon={imageSrc}
+                  iconSel={imageSel}
+                  hover={i === hover}
+                />
+                <WhatServiceTitle chosen={chosen} hover={i === hover}>
                   {category?.title}
                 </WhatServiceTitle>
               </WhatServiceItem>
