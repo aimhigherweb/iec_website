@@ -125,7 +125,7 @@ const ServiceDetailTextDesc = styled.div`
   border-bottom: 1px dotted #aaaaaa;
 `
 
-const Patient = (show, data) => {
+const Patient = (show, data, currentIndex, updateIndex) => {
   const patientResCategories = [
     {
       category: "Contact Lens Instructions",
@@ -146,18 +146,11 @@ const Patient = (show, data) => {
 
   const { contactLensInstructions, visionTraining, everydayEyeCare } = data
   const [current, setCurrent] = useState({
-    index: 0,
+    index: currentIndex,
     articles: contactLensInstructions.edges,
   })
-
   const categoryClick = (index) => {
-    if (index === 0) {
-      setCurrent({ index: 0, articles: contactLensInstructions.edges })
-    } else if (index === 1) {
-      setCurrent({ index: 1, articles: visionTraining.edges })
-    } else if (index === 2) {
-      setCurrent({ index: 2, articles: everydayEyeCare.edges })
-    }
+    updateIndex(index)
   }
 
   return show ? (
@@ -243,7 +236,10 @@ const PatientResources: React.FC = (mainprops) => {
   const match = useMatchMedia({
     width: MAX_WIDTH,
   })
-
+  const [currentIndex, setCurrentIndex] = useState(0)
+  const updateIndex = (newIndex) => {
+    setCurrentIndex(newIndex)
+  }
   const session = useSession()
   const show = session.showAll()
 
@@ -251,7 +247,8 @@ const PatientResources: React.FC = (mainprops) => {
   const image = match ? null : "/images2/bg-section-patres.png"
 
   const HeaderResult = (props) => Header(match)
-  const PatientResult = (props) => Patient(show, mainprops.data)
+  const PatientResult = (props) =>
+    Patient(show, mainprops.data, currentIndex, updateIndex)
   const SocialResult = (props) => SocialFeed(show, match)
   const FooterResult = (props) => Footer(show)
   return (

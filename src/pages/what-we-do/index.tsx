@@ -120,7 +120,8 @@ const ServiceDetailImage = styled.img`
   margin-right: 20px;
   border-radius: 50%;
   object-fit: cover;
-
+  cursor: pointer;
+  transition: filter 2s;
   filter: ${(props) => (props.chosen ? "none" : "grayscale(1)")};
   &:hover {
     filter: ${(props) => (props.chosen ? "none" : "none")};
@@ -157,7 +158,7 @@ const ServiceDetailTextDesc = styled.div`
   border-bottom: 1px dotted #aaaaaa;
 `
 
-const What = (show, data, whatWeDoCatId) => {
+const What = (show, data, whatWeDoCatId, currentIndex, updateIndex) => {
   const { categoryList, whatWeDoList } = data
 
   const whatWeDoCategories = []
@@ -175,6 +176,9 @@ const What = (show, data, whatWeDoCatId) => {
         defaultCat = whatWeDoCatId
       }
     })
+  } else {
+    defaultIndex = currentIndex
+    defaultCat = whatWeDoCategories[currentIndex].catno
   }
 
   const [current, setCurrent] = useState({
@@ -189,6 +193,7 @@ const What = (show, data, whatWeDoCatId) => {
       (item) => item.node.frontmatter.category === catno
     )
     setCurrent({ index: index, articles: categoryArticles })
+    updateIndex(index)
   }
   const [hover, setHover] = useState()
 
@@ -258,7 +263,9 @@ const What = (show, data, whatWeDoCatId) => {
 
           return (
             <ServiceDetail key={i}>
-              <ServiceDetailImage src={imageSrc} />
+              <Link to={item.node.fields.slug} state={payload}>
+                <ServiceDetailImage src={imageSrc} />
+              </Link>
               <ServiceDetailText>
                 <Link to={item.node.fields.slug} state={payload}>
                   <ServiceDetailTextTitle>
@@ -299,6 +306,10 @@ const WhatWeDo: React.FC = (mainprops) => {
   const match = useMatchMedia({
     width: MAX_WIDTH,
   })
+  const [currentIndex, setCurrentIndex] = useState(0)
+  const updateIndex = (newIndex) => {
+    setCurrentIndex(newIndex)
+  }
 
   const session = useSession()
   const show = session.showAll()
@@ -308,7 +319,13 @@ const WhatWeDo: React.FC = (mainprops) => {
 
   const HeaderResult = (props) => Header(match)
   const WhatResult = (props) =>
-    What(show, mainprops.data, session.current.whatWeDoCatId)
+    What(
+      show,
+      mainprops.data,
+      session.current.whatWeDoCatId,
+      currentIndex,
+      updateIndex
+    )
   const SocialResult = (props) => SocialFeed(show, match)
   const FooterResult = (props) => Footer(show)
   return (

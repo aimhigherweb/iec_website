@@ -117,13 +117,7 @@ const TeamFooterImage = styled.img`
   border: ${DEBUG_TEAM};
 `
 
-const Team = (show, teamList, match) => {
-  const [chosen, setChosen] = useState({
-    rowIndex: null,
-    staffIndex: null,
-    staffNode: null,
-  })
-
+const Team = (show, teamList, match, chosen, updateChosen) => {
   const columns = match ? 2 : 4
   const finalTeamList = teamList.edges
   if (finalTeamList) {
@@ -139,13 +133,13 @@ const Team = (show, teamList, match) => {
     )
     if (show) {
       const rowIndex = Math.floor(index / columns)
-      setChosen({
+      updateChosen({
         rowIndex: rowIndex,
         staffIndex: index,
         lastInRowIndex: (rowIndex + 1) * columns - 1,
       })
     } else {
-      setChosen({ rowIndex: null, staffIndex: null, lastInRowIndex: null })
+      updateChosen({ rowIndex: null, staffIndex: null, lastInRowIndex: null })
     }
   }
   const selectStaffMemberInfo = (index, show) => {
@@ -155,7 +149,7 @@ const Team = (show, teamList, match) => {
       finalShow = false
     }
     const val = finalShow ? teamList.edges[index].node : null
-    setChosen({ ...chosen, staffNode: val })
+    updateChosen({ ...chosen, staffNode: val })
   }
 
   //console.log(`*** whoWeAre.Team.RENDER`)
@@ -433,6 +427,14 @@ const WhoWeAre: React.FC = ({ data }) => {
   const match = useMatchMedia({ width: MAX_WIDTH })
   const { teamList } = data
 
+  const [chosen, setChosen] = useState({
+    rowIndex: null,
+    staffIndex: null,
+    staffNode: null,
+  })
+  const updateChosen = (newChosen) => {
+    setChosen(newChosen)
+  }
   const session = useSession()
   const show = session.showAll()
 
@@ -440,7 +442,8 @@ const WhoWeAre: React.FC = ({ data }) => {
   const video = match ? null : "/videos/who-we-are.mp4"
 
   const HeaderResult = (props) => Header(match)
-  const TeamResult = (props) => Team(show, teamList, match)
+  const TeamResult = (props) =>
+    Team(show, teamList, match, chosen, updateChosen)
   const HistoryResult = (props) => History(show, historyList, match)
   const SocialResult = (props) => SocialFeed(show, match)
   const FooterResult = (props) => Footer(show)
