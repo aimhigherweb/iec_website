@@ -187,7 +187,7 @@ const Header = (match) => {
   return match ? <HeaderSection /> : <></>
 }
 
-const Blog: React.FC = (props) => {
+const Blog: React.FC = (mainprops) => {
   const match = useMatchMedia({
     width: MAX_WIDTH,
   })
@@ -197,6 +197,11 @@ const Blog: React.FC = (props) => {
 
   console.log(`*** Blog.RENDER... match=${match}`)
   const image = match ? null : "/images2/bg-section-blog.png"
+
+  const HeaderResult = (props) => Header(match)
+  const BlogResult = (props) => BlogList(show, mainprops.data)
+  const SocialResult = (props) => SocialFeed(show, match)
+  const FooterResult = (props) => Footer(show)
   return (
     <Container>
       <SEO title="Blog" />
@@ -211,10 +216,10 @@ const Blog: React.FC = (props) => {
         session.searchToggle,
         session.bookingToggle
       )}
-      {Header(match)}
-      {BlogList(show, props.data)}
-      {SocialFeed(show, match)}
-      {Footer(show)}
+      <HeaderResult />
+      <BlogResult />
+      <SocialResult />
+      <FooterResult />
     </Container>
   )
 }

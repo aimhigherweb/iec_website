@@ -443,7 +443,6 @@ const WhoWeAre: React.FC = ({ data }) => {
   const HistoryResult = (props) => History(show, historyList, match)
   const SocialResult = (props) => SocialFeed(show, match)
   const FooterResult = (props) => Footer(show)
-
   return (
     <Container>
       <SEO title="Who We Are" />

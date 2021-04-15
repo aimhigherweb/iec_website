@@ -233,7 +233,7 @@ const Header = (match) => {
   return match ? <HeaderSection /> : <></>
 }
 
-const PatientResources: React.FC = (props) => {
+const PatientResources: React.FC = (mainprops) => {
   const match = useMatchMedia({
     width: MAX_WIDTH,
   })
@@ -243,6 +243,11 @@ const PatientResources: React.FC = (props) => {
 
   console.log(`*** PatientResources.RENDER... match=${match}`)
   const image = match ? null : "/images2/bg-section-patres.png"
+
+  const HeaderResult = (props) => Header(match)
+  const PatientResult = (props) => Patient(show, mainprops.data)
+  const SocialResult = (props) => SocialFeed(show, match)
+  const FooterResult = (props) => Footer(show)
   return (
     <Container>
       <SEO title="Patient Resources" />
@@ -257,10 +262,10 @@ const PatientResources: React.FC = (props) => {
         session.searchToggle,
         session.bookingToggle
       )}
-      {Header(match)}
-      {Patient(show, props.data)}
-      {SocialFeed(show, match)}
-      {Footer(show)}
+      <HeaderResult />
+      <PatientResult />
+      <SocialResult />
+      <FooterResult />
     </Container>
   )
 }

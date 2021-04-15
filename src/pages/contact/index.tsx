@@ -116,7 +116,7 @@ const PracticeLocations = (show, bookingToggleCallback) => {
     <FooterSection>
       <FooterContent>
         <FooterContentItem>
-          <FooterPracticeImg src="images2/contact-adelaide.png" />
+          <FooterPracticeImg src="/images2/contact-adelaide.png" />
         </FooterContentItem>
         <FooterContentItem>
           <FooterContact>
@@ -167,7 +167,7 @@ const PracticeLocations = (show, bookingToggleCallback) => {
       </FooterContent>
       <FooterContent>
         <FooterContentItem>
-          <FooterPracticeImg src="images2/contact-woodville.png" />
+          <FooterPracticeImg src="/images2/contact-woodville.png" />
         </FooterContentItem>
         <FooterContentItem>
           <FooterContact>
@@ -245,6 +245,12 @@ const Contact: React.FC = () => {
 
   console.log(`*** Contact.RENDER... match=${match}`)
   const video = match ? null : "/videos/location-city.mp4"
+
+  const HeaderResult = (props) => Header(match)
+  const LocationsResult = (props) =>
+    PracticeLocations(show, session.bookingToggle)
+  const SocialResult = (props) => SocialFeed(show, match)
+  const FooterResult = (props) => Footer(show)
   return (
     <Container>
       <SEO title="Contact Us" />
@@ -259,10 +265,10 @@ const Contact: React.FC = () => {
         session.searchToggle,
         session.bookingToggle
       )}
-      {Header(match)}
-      {PracticeLocations(show, session.bookingToggle)}
-      {SocialFeed(show, match)}
-      {Footer(show)}
+      <HeaderResult />
+      <LocationsResult />
+      <SocialResult />
+      <FooterResult />
     </Container>
   )
 }

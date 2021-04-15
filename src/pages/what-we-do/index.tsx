@@ -266,7 +266,7 @@ const Header = (match) => {
   return match ? <HeaderSection /> : <></>
 }
 
-const WhatWeDo: React.FC = (props) => {
+const WhatWeDo: React.FC = (mainprops) => {
   const match = useMatchMedia({
     width: MAX_WIDTH,
   })
@@ -276,6 +276,12 @@ const WhatWeDo: React.FC = (props) => {
 
   console.log(`*** WhatWeDo.RENDER... match=${match}`)
   const video = match ? null : "/videos/what-we-do.mp4"
+
+  const HeaderResult = (props) => Header(match)
+  const WhatResult = (props) =>
+    What(show, mainprops.data, session.current.whatWeDoCatId)
+  const SocialResult = (props) => SocialFeed(show, match)
+  const FooterResult = (props) => Footer(show)
   return (
     <Container>
       <SEO title="What We Do" />
@@ -290,10 +296,10 @@ const WhatWeDo: React.FC = (props) => {
         session.searchToggle,
         session.bookingToggle
       )}
-      {Header(match)}
-      {What(show, props.data, session.current.whatWeDoCatId)}
-      {SocialFeed(show, match)}
-      {Footer(show)}
+      <HeaderResult />
+      <WhatResult />
+      <SocialResult />
+      <FooterResult />
     </Container>
   )
 }
