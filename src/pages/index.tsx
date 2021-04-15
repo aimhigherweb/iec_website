@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useState } from "react"
 import { navigate } from "gatsby"
 import styled from "styled-components"
 
@@ -80,36 +80,38 @@ const TeamService = styled.div`
   padding: 0 40px;
   border: ${DEBUG_TEAM};
 `
-const TeamServiceItem = styled.div`
+const TeamServiceItem = styled.a`
   flex: 1;
   cursor: pointer;
   @media (max-width: ${MAX_WIDTH_PX}) {
     flex-basis: 50%;
   }
+  color: black;
+  &:hover {
+    color: #5091cd;
+  }
   border: ${DEBUG_TEAM};
 `
-const TeamServiceImage = styled.img`
+const TeamServiceImage = styled.div`
   display: block;
-  width: auto;
+  width: 32px;
   height: 32px;
   margin: 16px auto;
-  filter: grayscale(100);
-  &:hover {
-    filter: none;
-  }
   @media (max-width: ${MAX_WIDTH_PX}) {
     height: 50px;
+    color: #5091cd;
   }
-  border: ${DEBUG_TEAM};
+  background: url(${(props) => (props.chosen ? props.iconSel : props.icon)});
+  background-size: contain;
+  background-repeat: no-repeat;
+  border: 0;
 `
 const TeamServiceTitle = styled.p`
   font-family: "open sans";
   font-size: 0.7em;
   font-weight: 600;
   text-align: center;
-  &:hover {
-    color: #5091cd;
-  }
+  color: url(${(props) => (props.chosen ? "#5091cd" : "black")});
   @media (max-width: ${MAX_WIDTH_PX}) {
     font-size: 0.7em;
   }
@@ -136,6 +138,58 @@ const Team = (show, match, whatWeDoCatToggle) => {
     whatWeDoCatToggle(catId)
     navigate("/what-we-do#topservice")
   }
+
+  const teamServiceItems = [
+    {
+      cat: "SE01",
+      tag: "1",
+      title0: "EYEWEAR",
+      title1: "EXPERTS",
+      icon: "/images2/service-eyewear-experts.png",
+      iconSel: "/images2/service-eyewear-experts-sel.png",
+    },
+    {
+      cat: "SE02",
+      tag: "2",
+      title0: "BESPOKE",
+      title1: "LENSES",
+      icon: "/images2/service-bespoke-contact-lenses.png",
+      iconSel: "/images2/service-bespoke-contact-lenses-sel.png",
+    },
+    {
+      cat: "SE03",
+      tag: "3",
+      title0: "PAEDIATRIC",
+      title1: "VISION",
+      icon: "/images2/service-paediatric-vision.png",
+      iconSel: "/images2/service-paediatric-vision-sel.png",
+    },
+    {
+      cat: "SE04",
+      tag: "4",
+      title0: "DRY EYE",
+      title1: "CLINIC",
+      icon: "/images2/service-dry-eye-clinic.png",
+      iconSel: "/images2/service-dry-eye-clinic-sel.png",
+    },
+    {
+      cat: "SE05",
+      tag: "5",
+      title0: "ADVANCED",
+      title1: "IMAGING",
+      icon: "/images2/service-adv-imaging.png",
+      iconSel: "/images2/service-adv-imaging-sel.png",
+    },
+    {
+      cat: "SE06",
+      tag: "6",
+      title0: "ORTHO-K",
+      title1: "CORRECTION",
+      icon: "/images2/service-orthok-correction.png",
+      iconSel: "/images2/service-orthok-correction-sel.png",
+    },
+  ]
+  const [chosen, setChosen] = useState("")
 
   return show ? (
     <TeamSection>
@@ -173,54 +227,31 @@ const Team = (show, match, whatWeDoCatToggle) => {
         </p>
       </TeamDescription>
       <TeamService>
-        <TeamServiceItem onClick={() => whatWeDoCatSelect("SE01")}>
-          <TeamServiceImage src="/images2/service-eyewear-experts.png" />
-          <TeamServiceTitle>
-            EYEWEAR
-            <br />
-            EXPERTS
-          </TeamServiceTitle>
-        </TeamServiceItem>
-        <TeamServiceItem onClick={() => whatWeDoCatSelect("SE02")}>
-          <TeamServiceImage src="/images2/service-bespoke-contact-lenses.png" />
-          <TeamServiceTitle>
-            BESPOKE
-            <br />
-            CONTACT LENSES
-          </TeamServiceTitle>
-        </TeamServiceItem>
-        <TeamServiceItem onClick={() => whatWeDoCatSelect("SE03")}>
-          <TeamServiceImage src="/images2/service-paediatric-vision.png" />
-          <TeamServiceTitle>
-            PAEDIATRIC
-            <br />
-            VISION
-          </TeamServiceTitle>
-        </TeamServiceItem>
-        <TeamServiceItem onClick={() => whatWeDoCatSelect("SE04")}>
-          <TeamServiceImage src="/images2/service-dry-eye-clinic.png" />
-          <TeamServiceTitle>
-            DRY EYE
-            <br />
-            CLINIC
-          </TeamServiceTitle>
-        </TeamServiceItem>
-        <TeamServiceItem onClick={() => whatWeDoCatSelect("SE05")}>
-          <TeamServiceImage src="/images2/service-adv-imaging.png" />
-          <TeamServiceTitle>
-            ADVANCED
-            <br />
-            IMAGING
-          </TeamServiceTitle>
-        </TeamServiceItem>
-        <TeamServiceItem onClick={() => whatWeDoCatSelect("SE06")}>
-          <TeamServiceImage src="/images2/service-orthok-correction.png" />
-          <TeamServiceTitle>
-            ORTHO-K OVERNIGHT
-            <br />
-            CORRECTION
-          </TeamServiceTitle>
-        </TeamServiceItem>
+        {teamServiceItems &&
+          teamServiceItems.map((item, i) => {
+            return (
+              <TeamServiceItem
+                onClick={() => whatWeDoCatSelect(item.cat)}
+                onMouseOver={() => {
+                  setChosen(item.tag)
+                }}
+                onMouseLeave={() => {
+                  setChosen("")
+                }}
+              >
+                <TeamServiceImage
+                  tag={item.tag}
+                  icon={item.icon}
+                  iconSel={item.iconSel}
+                  chosen={item.tag === chosen}
+                />
+                <TeamServiceTitle chosen={item.tag === chosen}>
+                  {item.title0} <br />
+                  {item.title1}
+                </TeamServiceTitle>
+              </TeamServiceItem>
+            )
+          })}
       </TeamService>
       <TeamFooter></TeamFooter>
     </TeamSection>
