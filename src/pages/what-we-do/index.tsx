@@ -64,6 +64,7 @@ const WhatServiceItem = styled.div`
   cursor: pointer;
   background-color: ${(props) => (props.chosen ? "#5091cd" : "none")};
   color: black;
+  transition: color 1s;
   &:hover {
     color: #5091cd;
   }
@@ -79,6 +80,7 @@ const WhatServiceImage = styled.div`
   background: url(${(props) => (props.hover ? props.iconSel : props.icon)});
   background-size: contain;
   background-repeat: no-repeat;
+  transition: background 1000ms ease-in-out;
   border: 0;
 `
 const WhatServiceTitle = styled.p`
@@ -92,6 +94,7 @@ const WhatServiceTitle = styled.p`
     text-transform: lowercase;
     padding: 5px;
   }
+  transition: color 1s;
   color: ${(props) => {
     if (props.chosen) {
       return "white"

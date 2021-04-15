@@ -55,6 +55,7 @@ const TeamStaffImage = styled.img`
   height: auto;
   background: linear-gradient(to bottom, white 50%, lightgrey 50%);
   filter: grayscale(1);
+  transition: filter 2s;
   &:hover {
     filter: none;
   }
@@ -87,6 +88,7 @@ const TeamServiceItem = styled.a`
     flex-basis: 50%;
   }
   color: black;
+  transition: color 1s;
   &:hover {
     color: #5091cd;
   }
@@ -103,6 +105,7 @@ const TeamServiceImage = styled.div`
   background: url(${(props) => (props.hover ? props.iconSel : props.icon)});
   background-size: contain;
   background-repeat: no-repeat;
+  transition: background 1000ms ease-in-out;
   border: 0;
 `
 const TeamServiceTitle = styled.p`

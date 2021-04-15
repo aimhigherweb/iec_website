@@ -57,7 +57,8 @@ const PatientResServiceItem = styled.div`
   @media (max-width: ${MAX_WIDTH_PX}) {
     flex-basis: 50%;
   }
-  background-color: ${(props) => (props.chosen ? "black" : "white")};
+  cursor: pointer;
+  background-color: ${(props) => (props.chosen ? "#5091cd" : "white")};
   border: 1px solid black;
 `
 const PatientResServiceTitle = styled.p`
@@ -88,6 +89,8 @@ const ServiceDetailImage = styled.img`
   margin-right: 20px;
   border-radius: 50%;
   object-fit: cover;
+  cursor: pointer;
+  transition: filter 2s;
   filter: ${(props) => (props.chosen ? "none" : "grayscale(1)")};
   &:hover {
     filter: ${(props) => (props.chosen ? "none" : "none")};
@@ -197,7 +200,9 @@ const Patient = (show, data) => {
 
           return (
             <ServiceDetail key={i}>
-              <ServiceDetailImage src={imageSrc} />
+              <Link to={item.node.fields.slug} state={payload}>
+                <ServiceDetailImage src={imageSrc} />
+              </Link>
               <ServiceDetailText>
                 <Link to={item.node.fields.slug} state={payload}>
                   <ServiceDetailTextTitle>

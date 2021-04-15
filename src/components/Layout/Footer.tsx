@@ -107,12 +107,14 @@ const FooterMenuItem = styled.li`
 `
 const StyledLink = styled((props) => <Link {...props} />)`
   color: black;
+  transition: color 2s;
   &:hover {
     color: #5091cd;
   }
 `
 const StyledRef = styled.a`
   color: black;
+  transition: color 2s;
   &:hover {
     color: #5091cd;
   }
