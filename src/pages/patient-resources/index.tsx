@@ -159,6 +159,7 @@ const Patient = (show, data) => {
 
   return show ? (
     <PatientResSection>
+      <SEO title="Patient Resources" />
       <PatientResTitle>Patient Resources</PatientResTitle>
       <PatientResDescription>
         <p>
@@ -250,7 +251,6 @@ const PatientResources: React.FC = (mainprops) => {
   const FooterResult = (props) => Footer(show)
   return (
     <Container>
-      <SEO title="Patient Resources" />
       {Main(
         "",
         true,

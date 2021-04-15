@@ -191,6 +191,7 @@ const What = (show, data, whatWeDoCatId) => {
 
   return show ? (
     <WhatSection id="topservice">
+      <SEO title="What We Do" />
       <WhatTitle>What We Do</WhatTitle>
       <WhatDescription>
         <p>&lsquo;Your eyes are our focus, all day, every day.&rsquo;</p>
@@ -309,7 +310,6 @@ const WhatWeDo: React.FC = (mainprops) => {
   const FooterResult = (props) => Footer(show)
   return (
     <Container>
-      <SEO title="What We Do" />
       {Main(
         "What We Do",
         true,

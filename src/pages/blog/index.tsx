@@ -124,6 +124,7 @@ const BlogList = (show, data) => {
 
   return show ? (
     <BlogSection>
+      <SEO title="Blog" />
       <BlogTitle>Blog</BlogTitle>
       <BlogDescription>
         The optometrists of Innovative Eye Care have a wide scope of expertise.
@@ -204,7 +205,6 @@ const Blog: React.FC = (mainprops) => {
   const FooterResult = (props) => Footer(show)
   return (
     <Container>
-      <SEO title="Blog" />
       {Main(
         "",
         true,

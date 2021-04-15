@@ -114,6 +114,7 @@ const PracticeLocations = (show, bookingToggleCallback) => {
 
   return show ? (
     <FooterSection>
+      <SEO title="Contact Us" />
       <FooterContent>
         <FooterContentItem>
           <FooterPracticeImg src="/images2/contact-adelaide.png" />
@@ -253,7 +254,6 @@ const Contact: React.FC = () => {
   const FooterResult = (props) => Footer(show)
   return (
     <Container>
-      <SEO title="Contact Us" />
       {Main(
         "Contact Us",
         true,

@@ -161,6 +161,7 @@ const Team = (show, teamList, match) => {
   //console.log(`*** whoWeAre.Team.RENDER`)
   return show ? (
     <TeamSection id="topteam">
+      <SEO title="Who We Are" />
       <TeamTitle>Meet the team</TeamTitle>
       <TeamSubtitle>
         Our Optometrists are industry leaders. Our special interests include
@@ -445,7 +446,6 @@ const WhoWeAre: React.FC = ({ data }) => {
   const FooterResult = (props) => Footer(show)
   return (
     <Container>
-      <SEO title="Who We Are" />
       {Main(
         "Who We Are",
         true,
