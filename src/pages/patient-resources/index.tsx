@@ -145,12 +145,21 @@ const Patient = (show, data, currentIndex, updateIndex) => {
   ]
 
   const { contactLensInstructions, visionTraining, everydayEyeCare } = data
+  let currentArticles = null
+  if (currentIndex === 0) {
+    currentArticles = contactLensInstructions.edges
+  } else if (currentIndex === 1) {
+    currentArticles = visionTraining.edges
+  } else {
+    currentArticles = everydayEyeCare.edges
+  }
   const [current, setCurrent] = useState({
     index: currentIndex,
-    articles: contactLensInstructions.edges,
+    articles: currentArticles,
   })
-  const categoryClick = (index) => {
-    updateIndex(index)
+
+  const categoryClick = (newIndex) => {
+    updateIndex(newIndex)
   }
 
   return show ? (
