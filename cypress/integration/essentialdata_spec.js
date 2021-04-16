@@ -269,6 +269,9 @@ describe("Test Pages", function () {
     cy.contains(this.data.TelephoneWoodville)
 
     //checking the working of subscribe button
+    cy.get("#fieldName").should("be.visible")
+    cy.wait(0)
+    cy.get("#fieldName").click({ force: true })
     cy.get("#fieldName").type(this.data.SubscribeUser)
     cy.get("#fieldEmail").type(this.data.SubscribeEmail)
     cy.contains("Subscribe")
