@@ -17,6 +17,12 @@ Previously, these conditions were only able to be treated with patching or visio
 
 To find out more, [contact us](https://www.innovativeeyecare.com.au/contact).
 
+<iframe width="700" height="395"
+src="https://www.youtube.com/embed/5Sr42ZdInfE">
+</iframe>
+
+<br>
+
 **References**
 
 1. Backus, B. Dornbos, B. Tran, T. Blaha, J. Gupta, M. (2018). Use of virtual reality to assess and treat weakness in human stereoscopic vision". Society for Imaging Science and Technology. 
