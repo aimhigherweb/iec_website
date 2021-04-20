@@ -1,9 +1,11 @@
 ---
 title: Signs of a Vision Problem in Children
-category: "SE03"
+category: SE03
 preview_image: 0aded48b23e39439e9eff0706f97a488b601e42a_child-reading.jpg
 ---
-#### Things to look out for when reading
+<div "employee-
+
+##### Things to look out for when reading
 
 * Skipping or re-reading lines
 * Omitting or confusing words when reading
@@ -11,7 +13,7 @@ preview_image: 0aded48b23e39439e9eff0706f97a488b601e42a_child-reading.jpg
 * Covering or closing one eye to read
 * Holding a book very close to read
 
-#### Other signs
+##### Other signs
 
 * Homework taking much longer than it should
 * Short attention span with reading and school work
@@ -22,7 +24,7 @@ preview_image: 0aded48b23e39439e9eff0706f97a488b601e42a_child-reading.jpg
 * Complaints of headaches
 * Complaints of blurred or double vision
 
-#### Signs that may indicate your child may have a learning difficulty
+##### Signs that may indicate your child may have a learning difficulty
 
 * Avoids or doesn’t like learning tasks 
 * Seems restless or easily distracted
