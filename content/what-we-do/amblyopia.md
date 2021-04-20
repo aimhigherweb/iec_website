@@ -62,5 +62,6 @@ src="https://www.youtube.com/embed/5Sr42ZdInfE">
 
 **References**
 
-1. Pai, A. S.-I., et al. (2012). *Amblyopia Prevalence and Risk Factors in Australian Preschool Children. Ophthalmology, 119(1), 138–144.* doi:10.1016/j.ophtha.2011.06.024
-2. Chen, A. M., & Cotter, S. A. (2016). The Amblyopia Treatment Studies. Advances in Ophthalmology and Optometry, 1(1), 287–305. doi:10.1016/j.yaoo.2016.03.007
+1. Pai, A. S.-I., et al. (2012). Amblyopia Prevalence and Risk Factors in Australian Preschool Children*. Ophthalmology, 119(1), 138–144.* doi:10.1016/j.ophtha.2011.06.024
+2. Chen, A. M., & Cotter, S. A. (2016). The Amblyopia Treatment Studies. *Advances in Ophthalmology and Optometry*, 1(1), 287–305. doi:10.1016/j.yaoo.2016.03.007
+3. Žiak, P., Holm, A., Halička, J., Mojžiš, P., & Piñero, D. P. (2017). Amblyopia treatment of adults with dichoptic training using the virtual reality oculus rift head mounted display: preliminary results. *BMC Ophthalmology*, 17(1). doi:10.1186/s12886-017-0501-8
