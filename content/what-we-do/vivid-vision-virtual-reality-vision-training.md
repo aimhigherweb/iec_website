@@ -1,9 +1,11 @@
 ---
-title: "Vivid Vision - virtual reality vision training "
+title: Vivid Vision
 category: SE03
 preview_image: /uploads/img_2626.jpg
 ---
-Innovative Eye Care is the first practice in South Australia to exclusively offer the Vivid Vision virtual reality vision training program. Vivid Vision uses cutting edge technology to help your eyes work together and improve your 3D vision. At our Adelaide practice, our optometrists can help you see more clearly and comfortably, with an individually tailored program, that is also a bit of fun!
+<div=
+
+Innovative Eye Care is the first practice in South Australia to exclusively offer the Vivid Vision virtual reality vision training program. Vivid Vision uses cutting-edge technology to help your eyes work together and improve your 3D vision. At our Adelaide practice, our optometrists can help you see more clearly and comfortably, with an individually tailored program, that is also a bit of fun!
 
 This treatment is revolutionary for patients with: <sup>1, 2</sup> 
 
