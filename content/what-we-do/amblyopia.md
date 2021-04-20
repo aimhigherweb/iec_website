@@ -1,40 +1,66 @@
 ---
 title: Amblyopia
-category: "SE03"
+category: SE03
 preview_image: patching1.jpg
 ---
 <div class="employee-heading">
-<p>Amblyopia (sometimes called a 'lazy' eye) is a developmental reduction of vision in one or both eyes. Amblyopia occurs as a child and is most commonly caused when one eye points in the wrong direction or is badly defocused compared to the fellow eye. As only a sub-standard image is capable of being detected by the brain from that eye, the visual processing pathways cannot fully form.</p>
-<p> Our practices in Adelaide and Woodville are equipped with new technology and determined optometrists who are able to improve vision for younger patients with amblyopia. Without treatment the eye will continue to see poorly for the remainder of the patient's life, even when accurately corrected with glasses or contact lenses.</p>
+<p>Amblyopia (sometimes called a 'lazy' eye), named after the Greek word <i>amblus</i> meaning blunt and <i>op</i> meaning eye or vision, is a developmental reduction (or 'blunting') of vision in one or both eyes. Amblyopia occurs as a child while the brain is maturing, often because one eye points in the wrong direction or vision is badly defocused due to refractive error.<sup>1</sup> In these cases, vision in one or both eyes is sub-standard. As a result, during visual development the connections made from the eye to the visual cortex in the brain are not fully formed.<sup>1</sup> If untreated, this developmental barrier becomes lifelong and will affect vision permanently despite optical correction.</p>
+<p>Our practices in Adelaide and Woodville are equipped with <a href="https://www.innovativeeyecare.com.au/what-we-do/auto-phoropter/">new technology</a> and <a href="https://www.innovativeeyecare.com.au/who-we-are">determined optometrists</a> who are able to improve vision and often resolve amblyopia in younger patients, preventing an otherwise lifelong issue.</p>
 </div>
 
-Amblyopia can arise due to several different reasons, the common factor being that one eye does not receive the same clear image focused at the correct part of the retina as the other eye. As a result, during visual development the connections made from the eye to the visual cortex in the brain are unable to form fully. If untreated this developmental barrier becomes permanent and will affect vision permanently despite optical correction. There are three main types of amblyopia.
+![](/uploads/strabismus.jpg)
+
+#### What causes amblyopia?
 
 ##### Refractive amblyopia
-This is where a high presciption in the eye such as astigmatism or hyperopia results in a blurry image being formed on the retina of the worse eye.
 
-##### Form-deprivation amblyopia 
-This is apparent in much younger patients who are born with a congenital cataract or a droopy lid (ptosis) that stops the eye from seeing clearly through the obstruction.
+Refraction refers to a person's glasses or contact lens prescription. Those with refractive error, including myopia, hyperopia and astigmatism, have blurry vision that needs to be corrected with optical aids. In amblyopia, the child's refractive error is so high that the image sent to the brain is severely blurred. When this happens in one eye only (anisometropia), the brain preferentially choses to look through the eye with less refractive error because the image is clearer. At the same time, it ignores the signals being sent from the blurred eye, and as a result the pathway between this eye and the brain are weakened. This can also happen when both eyes have high refractive error, wherein the brain does not receive strong signals from either eye due to poor image quality.
+
+##### Form-deprivation amblyopia
+
+This is apparent in much younger patients who are born with a specific pathology that prevents a clear image being formed. Common causes include congenital cataract or a droopy eyelid (ptosis) that obstructs the light from reaching the back of the eye (retina).
 
 ##### Strabismic amblyopia
-This is where one eye is misaligned compared to the normal eye (called a strabismus, or commonly a 'squint', or 'turned' eye) and as a result the clear image is focused on the wrong part of the retina.
+
+When one eye is misdirected compared to the normal eye (often called a strabismus, 'squint', or 'turned eye'), the brain receives two different images that do not align because the images are being projected on different parts of the retina. In order to prevent confusion and double vision, the eye essentially 'shuts down' one eye and as a result its pathway to the visual cortex is weakened.
 
 <div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe frameborder="0" type="text/html" src="https://2689-2347.captiv8online.com/animations/embed/one/u-t?player_width=100%&player_height=100%&site_company_language=34&autostart=false" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe></div>
 
 <br>
 
-#### Treating ambylopia
-There is a 'critical period' that occurs before the age of 8-9 years where the visual cortex is still 'plastic' and can be modified. During this time treatment can be initiated to try and improve the vision. The earlier this treatment starts the better the chance of improvement. Treatment for amblyopia initially consists of removing the causative factor, for example prescribing glasses or contact lenses or surgically straightening the eye. If amblyopia persists with these modifications then amblyopia therapy can be instigated, and can involve the following:
+#### Can amblyopia be treated?
+
+There is a 'critical period' that occurs before the age of 8-9 years where the visual cortex is much more 'plastic' and easier to modify.<sup>2</sup> During this time treatment should be initiated, as the earlier treatment starts, the better the chance of improvement. However, this does not mean that therapy cannot be tried after this window. Older children have still been shown to benefit from amblyopia therapy, even if the overall improvement is less significant – any amount of amblyopia resolution is improving the child's vision for the rest of their lives.<sup>2</sup> 
+
+In some eyes, even with treatment the amblyopic eye may not recover the same vision as the good eye. In these instances, care should be taken to protect the good eye with safety glasses in the future during physical activities like sport.
+
+##### Optical correction
+
+Treatment for amblyopia initially consists of removing the causative factor (for example, prescribing glasses or contact lenses to eliminate blur or to relax the muscles in the eye responsible for misdirection with an eye turn).<sup>2</sup> Typically there will be an improvement in vision when these optical aids are worn full-time for up to 4 months. If amblyopia persists after this time, then further amblyopia therapy can be instigated.
 
 ##### Atropine therapy
-1% Atropine eyedrops cause blurry vision and pupil dilation. These are instilled in the good eye to make the bad eye do most of the visual work. These drops are only using in low-moderate levels of amblyopia.
+
+Atropine 1% eye drops cause blurry vision and pupil dilation. These are instilled in the good eye to make the bad eye do most of the visual work. We now know that putting in these eye drops in only weekends has the same benefit as putting them in every day, meaning the drops only need to be instilled twice a week. These drops are only using in low-moderate levels of amblyopia.
 
 ##### Occlusion therapy
-This involves the child using an occlusive patch over the <i>good</i> eye to force the bad eye to carry out visual tasks and make the correct connections with the brain. Typically patching is only required for a few hours a day and is best combined with visually stimulating tasks such as video games, reading or television programmes. **Visit our [patching](/patient-resources/patching-therapy-for-amblyopia) page for more information about this therapy.**
+
+This therapy works in exactly the same way as atropine therapy. The good eye is occluded with a patch, which forces the bad eye to take up vision and strengthen connections with the brain. Usually patching is only required for a few hours a day and is best combined with visually stimulating tasks such as video games, reading or television programmes. **Visit our [patching](/patient-resources/patching-therapy-for-amblyopia) page for more information about this therapy.**
 
 ![](/uploads/amblyopia-patching.jpg)
-_Patches worn for amblyopia therapy are often fun and brightly coloured to encourage wear._
 
-In some eyes even with treatment the amblyopic eye may not recover the same vision as the good eye. Enabling the amblyopic eye to see at a level that can meet a driving standard is often deemed a success. This is so that the patient can still function in society should something happen to affect the good eye. In these instances care should be taken to protect the good eye with safety glasses in the future during physical activities like sport.
+<center>\*Patches worn for amblyopia therapy come in many different varieties.\*</center>
 
-Exciting new research is showing that older children and adults may be able to improve their amblyopia to some extent with the use of computer assisted therapy.
+##### Vivid Vision
+
+Innovative Eye Care now offers an exciting and engaging new amblyopia treatment using virtual reality (VR). Unlike patching and to some extent atropine, which are not binocular therapies (training both eyes), Vivid Vision uses games in which the two eyes must work together. Initially, the projection from the headset is less balanced, with a weak signal sent to the 'good' eye and a strong signal sent to the 'lazy' eye, forcing the amblyopic eye to do more visual work and form cortical connections. Over time, these signals between eyes are balanced until the eyes learn to seamlessly work together with equal brain input.
+
+<iframe width="700" height="395"
+src="https://www.youtube.com/embed/5Sr42ZdInfE">
+</iframe>
+
+<br>
+
+**References**
+
+1. Pai, A. S.-I., et al. (2012). *Amblyopia Prevalence and Risk Factors in Australian Preschool Children. Ophthalmology, 119(1), 138–144.* doi:10.1016/j.ophtha.2011.06.024
+2. Chen, A. M., & Cotter, S. A. (2016). The Amblyopia Treatment Studies. Advances in Ophthalmology and Optometry, 1(1), 287–305. doi:10.1016/j.yaoo.2016.03.007
