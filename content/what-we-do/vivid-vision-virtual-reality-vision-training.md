@@ -1,7 +1,7 @@
 ---
 title: Vivid Vision
 category: SE03
-preview_image: /uploads/img_2626.jpg
+preview_image: /uploads/vividvision.png
 ---
 <div class="employee-heading"><p>
 
