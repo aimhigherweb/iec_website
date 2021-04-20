@@ -24,9 +24,9 @@ A comprehensive eye examination at Innovative Eye Care will assess not only visu
 * Ocular prescription
 * Eye health using [advanced imaging technology](https://www.innovativeeyecare.com.au/what-we-do/oct)
 
-With this full scope of assessment, we are able to detect and treat common visual problems in children. This includes amblyopia, strabismus, binocular vision problems and increasingly short-sightedness (also known as myopia). To find out more about amblyopia therapies, follow [this link](https://www.innovativeeyecare.com.au/what-we-do/amblyopia/). To find out more about myopia control, follow [this link](https://www.innovativeeyecare.com.au/what-we-do/myopia-control/).
+With this full scope of assessment, we are able to detect and treat common visual problems in children. This includes [amblyopia](https://www.innovativeeyecare.com.au/what-we-do/amblyopia/), strabismus, [binocular vision problems](https://www.innovativeeyecare.com.au/what-we-do/convergence-insufficiency/) and increasingly short-sightedness (also known as [myopia](https://www.innovativeeyecare.com.au/what-we-do/myopia/)). **To find out more about amblyopia therapies, follow [this link](https://www.innovativeeyecare.com.au/what-we-do/amblyopia/). To find out more about myopia control, follow [this link](https://www.innovativeeyecare.com.au/what-we-do/myopia-control/).**
 
-[Contact us](https://www.innovativeeyecare.com.au/contact) to see one of our friendly optometrists regarding a comprehensive children's vision assessment
+[Contact us](https://www.innovativeeyecare.com.au/contact) to see one of our friendly optometrists regarding a comprehensive children's vision assessment.
 
 #### References
 
