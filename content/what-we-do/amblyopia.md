@@ -36,7 +36,7 @@ In some eyes, even with treatment the amblyopic eye may not recover the same vis
 
 ##### Optical correction
 
-Treatment for amblyopia initially consists of removing the causative factor (for example, prescribing glasses or contact lenses to eliminate blur or to relax the muscles in the eye responsible for misdirection with an eye turn).<sup>3</sup> Typically there will be an improvement in vision when these optical aids are worn full-time for up to 4 months. If amblyopia persists after this time, then further amblyopia therapy can be instigated.
+Treatment for amblyopia initially consists of removing the causative factor (for example, prescribing glasses or contact lenses to eliminate blur or to relax the muscles in the eye responsible for misdirection with an eye turn).<sup>3</sup> Typically, there will be an improvement in vision when these optical aids are worn full-time for up to 4 months. If amblyopia persists after this time, then other therapies can be explored. It's common for one therapy to 'max out' visual improvement after some time, at which point swapping therapies can spur another round of amblyopia resolution.<sup>3</sup>
 
 ##### Atropine therapy
 
@@ -44,7 +44,7 @@ Atropine 1% eye drops cause blurry vision and pupil dilation. These are instille
 
 ##### Occlusion therapy
 
-This therapy works in exactly the same way as atropine therapy. The good eye is occluded with a patch, which forces the bad eye to take up vision and strengthen connections with the brain. Usually patching is only required for a few hours a day and is best combined with visually stimulating tasks such as video games, reading or television programmes.<sup>2</sup> **Visit our [patching](/patient-resources/patching-therapy-for-amblyopia) page for more information about this therapy.**
+This therapy works in exactly the same way as atropine therapy, except it can be used for any level of amblyopia. The good eye is occluded with a patch, which forces the bad eye to take up vision and strengthen connections with the brain. Usually patching is only required for a few hours a day and is best combined with visually stimulating tasks such as video games, reading or television programmes.<sup>2</sup> **Visit our [patching](/patient-resources/patching-therapy-for-amblyopia) page for more information about this therapy.**
 
 ![](/uploads/amblyopia-patching.jpg)
 
