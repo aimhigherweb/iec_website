@@ -52,7 +52,7 @@ This therapy works in exactly the same way as atropine therapy, except it can be
 
 ##### Vivid Vision
 
-Innovative Eye Care now offers an exciting and engaging new amblyopia treatment using virtual reality (VR). Unlike patching and to some extent atropine, which are not entirely binocular therapies (training both eyes at once), Vivid Vision uses games where the two eyes must work together and has been found to significantly improve amblyopia.<sup>4</sup> Initially, the projection from the headset is unbalanced, with a weak signal sent to the 'good' eye and a strong signal sent to the 'lazy' eye, forcing the amblyopic eye to do more visual work and form cortical connections. Over time, these signals between eyes are balanced until the eyes learn to seamlessly work together with equal brain input.
+Innovative Eye Care now offers an exciting and engaging new amblyopia treatment using virtual reality (VR). Unlike patching and to some extent atropine, which are not entirely binocular therapies (training both eyes at once), Vivid Vision uses games where the two eyes must work together and has been found to significantly improve amblyopia.<sup>4</sup> Initially, the projection from the headset is unbalanced, with a weak signal sent to the 'good' eye and a strong signal sent to the 'lazy' eye, forcing the amblyopic eye to do more visual work and form cortical connections. Over time, the signals projected by the VR headset are balanced until the eyes learn to seamlessly work together with equal brain input.
 
 <iframe width="700" height="395"
 src="https://www.youtube.com/embed/5Sr42ZdInfE">
