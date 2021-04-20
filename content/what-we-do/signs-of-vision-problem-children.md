@@ -3,7 +3,7 @@ title: Signs of a Vision Problem in Children
 category: SE03
 preview_image: 0aded48b23e39439e9eff0706f97a488b601e42a_child-reading.jpg
 ---
-<div "employee-
+<div class="employee-heading"><p>If any of these signs apply to your child and you are concerned about their visual health, feel free to <a href="https://www.innovativeeyecare.com.au/contact">contact us or book online</a> for an evaluation.
 
 ##### Things to look out for when reading
 
@@ -24,7 +24,7 @@ preview_image: 0aded48b23e39439e9eff0706f97a488b601e42a_child-reading.jpg
 * Complaints of headaches
 * Complaints of blurred or double vision
 
-##### Signs that may indicate your child may have a learning difficulty
+##### Indicators of a learning difficulty
 
 * Avoids or doesn’t like learning tasks 
 * Seems restless or easily distracted
