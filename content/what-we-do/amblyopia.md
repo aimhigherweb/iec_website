@@ -48,7 +48,7 @@ This therapy works in exactly the same way as atropine therapy. The good eye is 
 
 ![](/uploads/amblyopia-patching.jpg)
 
-<center>\\*Patches worn for amblyopia therapy come in many different varieties.\\*</center>
+<center><i>Patches worn for amblyopia therapy come in many different varieties.</i></center>
 
 ##### Vivid Vision
 
