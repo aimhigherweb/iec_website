@@ -1,6 +1,7 @@
 ---
 title: Dry Eye Exercises
 category: Everyday Eye Care
+preview_image: /uploads/dry-eye-exercises.jpeg
 ---
 ##### Lid hygiene
 
