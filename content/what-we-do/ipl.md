@@ -1,6 +1,6 @@
 ---
 title: IPL (Intense Pulse Light)
-category: "SE04"
+category: SE04
 preview_image: ipl-machine.jpg
 ---
 <div class="employee-heading">
@@ -13,9 +13,7 @@ An [initial consultation](/what-we-do/eye-exam) is required before IPL treatment
 
 Four IPL treatments are recommended to best manage your MGD. These are performed at intervals of day 1, day 15, day 45 and day 75. 
 
-Each session takes about 15 minutes. Your optometrist will apply protective goggles over your eyes and hydrogel on the skin below the eye. A series of flashes are applied under the lower eyelid. The IPL device generates a painless polychromatic pulsed light, so no needles or injections are required. Following this, another set of goggles will be placed over your eyes for a Blephasteam treatment. Your optometrist will afterwards see you to review your progress and attend to any questions or concerns you might have.
-
-
+IPL ​single ​sessions amount to ​$200 ​(or a concession ​discount of $25 ​per ​single ​session). Each session takes about 15 minutes. Your optometrist will apply protective goggles over your eyes and hydrogel on the skin below the eye. A series of flashes are applied under the lower eyelid. The IPL device generates a painless polychromatic pulsed light, so no needles or injections are required. Following this, another set of goggles will be placed over your eyes for a Blephasteam treatment. Your optometrist will afterwards see you to review your progress and attend to any questions or concerns you might have.
 
 #### What can I expect?
 
