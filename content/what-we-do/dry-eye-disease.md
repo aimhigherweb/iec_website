@@ -9,37 +9,23 @@ Dry eye disease describes a spectrum of conditions that feature ineffective lubr
 
 The underlying causes of dry eyes are complex and numerous and need a thorough[examination](https://www.innovativeeyecare.com.au/what-we-do/eye-exam)for your optometrist to determine the cause and most appropriate treatment. At our Adelaide and Woodville practices our therapeutic optometrists are equipped with the technology to appropriately diagnose and treat dry eye disease.
 
-**For more information on our dry eye clinic, please see the links below:**
-
-#### •[Blepharitis](https://www.innovativeeyecare.com.au/what-we-do/blepharitis)
-
-#### •[Meibomian Gland Dysfunction](https://www.innovativeeyecare.com.au/what-we-do/meibomian-gland-dysfunction)
-
-#### •[Blephex](https://www.innovativeeyecare.com.au/what-we-do/blephex)
-
-#### •[IPL (Intense Pulse Light)](https://www.innovativeeyecare.com.au/what-we-do/ipl)
-
-#### •[Punctal Plugs](https://www.innovativeeyecare.com.au/what-we-do/punctal-plugs)
-
-#### •[Eye Drops](https://www.innovativeeyecare.com.au/what-we-do/eye-drops)
-
 </p></div>
 
 #### What causes dry eye disease?
 
 The tear film is made up of three elements: the mucin (mucous) layer, the watery aqueous layer and the oily lipid layer.<sup>1</sup> Specialised cells (such as **goblet cells**) embedded throughout the surface of the eye create the **mucin component**. The **lacrimal gland** under the bony aspect of the eyebrow secretes the watery **aqueous component**. The **meibomian glands** in the upper and lower eyelids secrete oil to make up the **lipid component**.
 
-<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\\\\\\\\\\\\\\\\\\[if IE]><iframe frameborder="0" type="text/html" src="https://2689-2347.captiv8online.com/animations/embed/one/dry-eye-cause-symptoms?player_width=100%&player_height=100%&site_company_language=34&autostart=false" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\\\\\\\\\\\\\\\\\\[endif]--><!--\\\\\\\\\\\\\\\\\\[if !IE]> <--><object data="https://2689-2347.captiv8online.com/animations/embed/one/dry-eye-cause-symptoms?player_width=100%&player_height=100%&site_company_language=34&autostart=false" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://2689-2347.captiv8online.com/animations/embed/one/dry-eye-cause-symptoms?player_width=100%&player_height=100%&site_company_language=34&autostart=false">Dry Eye: Cause & Symptoms</a></object><!--> <!\\\\\\\\\\\\\\\\\\[endif]--></div>
+<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\\\\\\\\\\\\\\\\\\\[if IE]><iframe frameborder="0" type="text/html" src="https://2689-2347.captiv8online.com/animations/embed/one/dry-eye-cause-symptoms?player_width=100%&player_height=100%&site_company_language=34&autostart=false" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\\\\\\\\\\\\\\\\\\\[endif]--><!--\\\\\\\\\\\\\\\\\\\[if !IE]> <--><object data="https://2689-2347.captiv8online.com/animations/embed/one/dry-eye-cause-symptoms?player_width=100%&player_height=100%&site_company_language=34&autostart=false" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://2689-2347.captiv8online.com/animations/embed/one/dry-eye-cause-symptoms?player_width=100%&player_height=100%&site_company_language=34&autostart=false">Dry Eye: Cause & Symptoms</a></object><!--> <!\\\\\\\\\\\\\\\\\\\[endif]--></div>
 
 In most dry eye cases, the watery aqueous component is produced at normal quantities but evaporates too quickly. This is called **evaporative dry eye**. There are three main causes: **blepharitis, meibomian gland dysfunction** and **environmental factors**.<sup>1</sup>
 
-![](/uploads/dry-eye-causes.jpg)
+![](/uploads/dry-eye-causes.png)
 
 Severe cases of dry eye are due to low production of aqueous tears, referred to as aqueous deficient dry eye. This is less common than evaporative dry eye, and may be due to autoimmune disease, dehydration, poor sleep, medication or prior eye surgery.<sup>1</sup>
 
 #### Treatments and Care
 
-**Dry eye disease *can* be treated**. Lubricating eye drops are helpful but are ineffective on their own for the most cases. Dry eye disease is best treated with a **comprehensive**, **step wise**, **management system**<sup>2</sup> which involves restoring proper function to meibomian glands, maintaining good eyelid hygiene, protecting the eyes, *and* using lubricants.
+Dry eye disease *can* be treated. Lubricating eye drops are helpful but are ineffective on their own for the most cases. Dry eye disease is best treated with a comprehensive, step wise, management system<sup>2</sup> which involves restoring proper function to meibomian glands, maintaining good eyelid hygiene, protecting the eyes, *and* using lubricants.
 
 ### STEP 1
 
@@ -49,9 +35,9 @@ Severe cases of dry eye are due to low production of aqueous tears, referred to 
 
 **Omega 3 supplements.** These are only beneficial for individuals that don’t get enough omega 3 in their dietwhich typically means less than 2 serves of fish a week. In these cases ~1200mg/day of high quality fish oil can improve the quality of oil produced by the meibomian glands.<sup>4</sup>
 
-**Warm compresses.** A warm compress helps to clear blocked meibomian glands by liquefying the thickened oil inside.The glands need to be heated to only 40-50 degrees but for a full 10 mins<sup>5</sup>, followed by 1 minute of blink training. Performed regularly, this process helps to maintain regular function of the glands for an adequate protective lipid layer.
+**Warm compresses.** A warm compress helps to clear blocked meibomian glands by liquefying the thickened oil inside.The glands need to be heated to only 40-50 degrees but for a full 10 mins<sup>5</sup>, followed by 1 minute of blink training. Performed regularly, this process helps to maintain regular function of the glands for an adequate protective lipid layer. [Find out more about warm compresses here.](https://www.innovativeeyecare.com.au/patient-resources/dry-eye-exercises/)
 
-**Blink training.** When we blink, the closing of our eyelids pushes oil needed for a stable tear film out of the meibomian glands. It's easier than it sounds to blink improperly, which results in less oil release into the tears. Blink training both promotes more complete blinks and also maximises the effect of warm compresses. Find out more about blink training here.
+**Blink training.** When we blink, the closing of our eyelids pushes oil needed for a stable tear film out of the meibomian glands. It's easier than it sounds to blink improperly, which results in less oil release into the tears. Blink training both promotes more complete blinks and also maximises the effect of warm compresses. [Find out more about blink training here](https://www.innovativeeyecare.com.au/patient-resources/dry-eye-exercises/).
 
 **Optimel manuka honey.** Medical grade manuka honey is antibacterial, reduces swelling and promotes healing and these qualities make it useful in treating meibomian gland disease.<sup>6</sup> It is easy to use but honey is mildly acidic which may cause temporary stinging on application – it doesn’t cause harm to the eyes on application.
 
@@ -59,7 +45,7 @@ Severe cases of dry eye are due to low production of aqueous tears, referred to 
 
 ### STEP 2
 
-**Lid hygiene.** The eyelids are a difficult part of the body to adequately clean since soaps cause stinging if they get into the eyes.But good eyelid hygiene is an important element of managing dry eye disease.<sup>2</sup> Antibacterial lid foams or washes cleanse the eyelids and lashes while conditioning the skin around the eyes without any stinging or irritation.
+**Lid hygiene.** The eyelids are a difficult part of the body to adequately clean since soaps cause stinging if they get into the eyes.But good eyelid hygiene is an important element of managing dry eye disease.<sup>2</sup> Antibacterial lid foams or washes cleanse the eyelids and lashes while conditioning the skin around the eyes without any stinging or irritation. [Find out more about lid hygiene here.](https://www.innovativeeyecare.com.au/patient-resources/dry-eye-exercises/)
 
 **Blephasteam.** The blephasteam is an electronic eyelid warming device that guarantees optimal heating temperature of the eyelids for the correct length of time.Combined with in-office manual expression with your optometrist, it can be a useful addition or replacement to at-home lid warming and massage.<sup>2</sup>
 
