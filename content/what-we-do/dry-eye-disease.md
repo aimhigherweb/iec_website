@@ -15,7 +15,7 @@ The underlying causes of dry eyes are complex and numerous and need a thorough[e
 
 The tear film is made up of three elements: the mucin (mucous) layer, the watery aqueous layer and the oily lipid layer.<sup>1</sup> Specialised cells (such as **goblet cells**) embedded throughout the surface of the eye create the **mucin component**. The **lacrimal gland** under the bony aspect of the eyebrow secretes the watery **aqueous component**. The **meibomian glands** in the upper and lower eyelids secrete oil to make up the **lipid component**.
 
-<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\\\\\\\\\\\\\\\\\\\\\[if IE]><iframe frameborder="0" type="text/html" src="https://2689-2347.captiv8online.com/animations/embed/one/dry-eye-cause-symptoms?player_width=100%&player_height=100%&site_company_language=34&autostart=false" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\\\\\\\\\\\\\\\\\\\\\[endif]--><!--\\\\\\\\\\\\\\\\\\\\\[if !IE]> <--><object data="https://2689-2347.captiv8online.com/animations/embed/one/dry-eye-cause-symptoms?player_width=100%&player_height=100%&site_company_language=34&autostart=false" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://2689-2347.captiv8online.com/animations/embed/one/dry-eye-cause-symptoms?player_width=100%&player_height=100%&site_company_language=34&autostart=false">Dry Eye: Cause & Symptoms</a></object><!--> <!\\\\\\\\\\\\\\\\\\\\\[endif]--></div>
+<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\\\\\\\\\\\\\\\\\\\\\\[if IE]><iframe frameborder="0" type="text/html" src="https://2689-2347.captiv8online.com/animations/embed/one/dry-eye-cause-symptoms?player_width=100%&player_height=100%&site_company_language=34&autostart=false" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\\\\\\\\\\\\\\\\\\\\\\[endif]--><!--\\\\\\\\\\\\\\\\\\\\\\[if !IE]> <--><object data="https://2689-2347.captiv8online.com/animations/embed/one/dry-eye-cause-symptoms?player_width=100%&player_height=100%&site_company_language=34&autostart=false" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://2689-2347.captiv8online.com/animations/embed/one/dry-eye-cause-symptoms?player_width=100%&player_height=100%&site_company_language=34&autostart=false">Dry Eye: Cause & Symptoms</a></object><!--> <!\\\\\\\\\\\\\\\\\\\\\\[endif]--></div>
 
 <br>
 
@@ -24,6 +24,10 @@ In most dry eye cases, the watery aqueous component is produced at normal quanti
 ![](/uploads/dry-eye-causes.png)
 
 Severe cases of dry eye are due to low production of aqueous tears, referred to as **aqueous deficient dry eye**. This is less common than evaporative dry eye, and may be due to autoimmune disease, dehydration, poor sleep, medication or prior eye surgery.<sup>1</sup>
+
+#### How can dry eye disease be treated?
+
+Dry eye disease treatment is tailored depending on the cause (blepharitis, MGD, environmental or aqueous deficient). It is also tiered, in that mild treatments are used first followed by more intense methods if other therapies fail. **[See our complete list of dry eye treatments here.](https://www.innovativeeyecare.com.au/what-we-do/treating-dry-eye-disease-step-by-step/)** Most of these treatments for mild dry eye disease can be completed at home, but we also has a host of more intense therapies that can be complete in-office. **[See the list of treatments our optometrists can perform at Innovative Eye Care here.](https://www.innovativeeyecare.com.au/what-we-do/in-office-treatments-for-dry-eye/)**
 
 #### References
 
