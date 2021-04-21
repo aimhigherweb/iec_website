@@ -25,7 +25,11 @@ Innovative Eye Care was the first optometry clinic in South Australia to have ac
 
 This treatment is typically used in conjunction with IPL, but can also be used in isolation for relief from dry eye symptoms. Following IPL, another set of goggles is used and is warmed, producing steam that provides moisture to the eyes. This treatment is particularly convenient in that the goggles are transparent, much like swimming goggles, meaning you can still use your phone or read other material while using it.
 
+<center>
+
 ![](/uploads/blephasteam.jpg)
+
+</center>
 
 ##### Punctal plugs
 
