@@ -36,7 +36,7 @@ Dry eye disease *can* be treated. Lubricating eye drops are helpful but are in
 
 **Punctal plugs.** Tears should continually wash across the eye to keep it clean and comfortable and to drain away into a duct through the lower eyelid into the nose. It’s why your nose runs when you cry. When tear production is low, dissolvable or permanent (but removable if needed) plugs can be placed into the duct opening to improve dry eye symptoms and reduced reliance on lubricant drops.<sup>2</sup>
 
-**Anti-inflammatory eye drops.** Inflammation and dry eyes are related in a complex way. Anti-inflammatory drops like FML, Minims Prednisolone, cyclosporine, Cromofresh and Lomide are used short term to break the cycle between inflammation and dryness, or allow other therapies to work. In some cases, over-the-counter mast-cell stabilizers can counteract inflammation as a result of friction that a normal tear layer would prevent.<sup>7</sup>
+**Anti-inflammatory eye drops.** Inflammation and dry eyes are related in a complex way. Anti-inflammatory drops like FML, Minims Prednisolone, cyclosporine, Cromofresh and Lomide are used short term to break the cycle between inflammation and dryness, or allow other therapies to work. In some cases, over-the-counter mast-cell stabilizers can counteract inflammation as a result of friction that a normal tear layer would prevent.<sup>7,8</sup>
 
 **Overnight lubricating gels and ointment.** Particularly useful for symptoms of dry eyes that are worse on waking in the morning, thick, long-lasting lubricants like Genteal and VitPos protect the eyes throughout the night.<sup>1</sup>
 
