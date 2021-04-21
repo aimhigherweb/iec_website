@@ -4,7 +4,7 @@ category: Everyday Eye Care
 ---
 ##### Lid hygiene
 
-
+This can be performed with a clean wet flannel soaked in warm water but in more severe cases may require specific lid wipes or scrubs. The eyelids should be massaged gently close to the lashes in a side-to-side motion for 30 seconds, cleaning the top eyelid for 15 seconds and the bottom eyelid for 15 seconds.
 
 ##### Warm compress
 
