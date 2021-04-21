@@ -1,6 +1,6 @@
 ---
 title: Dry Eye Disease
-category: "SE04"
+category: SE04
 preview_image: dry-eye-disease.png
 ---
 <div class="employee-heading"> <p>
@@ -29,9 +29,7 @@ The underlying causes of dry eyes are complex and numerous and need a thorough[e
 
 The tear film is made up of three elements: the mucin (mucous) layer, the watery aqueous layer and the oily lipid layer.<sup>1</sup> Specialised cells (such as **goblet cells**) embedded throughout the surface of the eye create the **mucin component**. The **lacrimal gland** under the bony aspect of the eyebrow secretes the watery **aqueous component**. The **meibomian glands** in the upper and lower eyelids secrete oil to make up the **lipid component**.
 
-<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\\\\\\\\\\\\\\\\\[if IE]><iframe frameborder="0" type="text/html" src="https://2689-2347.captiv8online.com/animations/embed/one/dry-eye-cause-symptoms?player_width=100%&player_height=100%&site_company_language=34&autostart=false" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\\\\\\\\\\\\\\\\\[endif]--><!--\\\\\\\\\\\\\\\\\[if !IE]> <--><object data="https://2689-2347.captiv8online.com/animations/embed/one/dry-eye-cause-symptoms?player_width=100%&player_height=100%&site_company_language=34&autostart=false" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://2689-2347.captiv8online.com/animations/embed/one/dry-eye-cause-symptoms?player_width=100%&player_height=100%&site_company_language=34&autostart=false">Dry Eye: Cause & Symptoms</a></object><!--> <!\\\\\\\\\\\\\\\\\[endif]--></div>
-
-
+<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\\\\\\\\\\\\\\\\\\[if IE]><iframe frameborder="0" type="text/html" src="https://2689-2347.captiv8online.com/animations/embed/one/dry-eye-cause-symptoms?player_width=100%&player_height=100%&site_company_language=34&autostart=false" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\\\\\\\\\\\\\\\\\\[endif]--><!--\\\\\\\\\\\\\\\\\\[if !IE]> <--><object data="https://2689-2347.captiv8online.com/animations/embed/one/dry-eye-cause-symptoms?player_width=100%&player_height=100%&site_company_language=34&autostart=false" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://2689-2347.captiv8online.com/animations/embed/one/dry-eye-cause-symptoms?player_width=100%&player_height=100%&site_company_language=34&autostart=false">Dry Eye: Cause & Symptoms</a></object><!--> <!\\\\\\\\\\\\\\\\\\[endif]--></div>
 
 In most dry eye cases, the watery aqueous component is produced at normal quantities but evaporates too quickly. This is called **evaporative dry eye**. There are three main causes: **blepharitis, meibomian gland dysfunction** and **environmental factors**.<sup>1</sup>
 
@@ -53,7 +51,7 @@ Severe cases of dry eye are due to low production of aqueous tears, referred to 
 
 **Warm compresses.** A warm compress helps to clear blocked meibomian glands by liquefying the thickened oil inside.The glands need to be heated to only 40-50 degrees but for a full 10 mins<sup>5</sup>, followed by 1 minute of blink training. Performed regularly, this process helps to maintain regular function of the glands for an adequate protective lipid layer.
 
-**Blink training.** Proper blinking keeps your tears healthy by spreading tears and releasing oil from eyelid glands into the tears.Blink training, described on the last page, both promotes more complete blinks and also maximises the effect of warm compresses.
+**Blink training.** When we blink, the closing of our eyelids pushes oil needed for a stable tear film out of the meibomian glands. It's easier than it sounds to blink improperly, which results in less oil release into the tears. Blink training both promotes more complete blinks and also maximises the effect of warm compresses. Find out more about blink training here.
 
 **Optimel manuka honey.** Medical grade manuka honey is antibacterial, reduces swelling and promotes healing and these qualities make it useful in treating meibomian gland disease.<sup>6</sup> It is easy to use but honey is mildly acidic which may cause temporary stinging on application – it doesn’t cause harm to the eyes on application.
 
