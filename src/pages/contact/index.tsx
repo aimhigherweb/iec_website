@@ -12,6 +12,7 @@ import { useMatchMedia } from "../../hooks/useMatchMedia"
 import { Main } from "../../components/Main"
 import { SocialFeed } from "../../components/Social/SocialFeed"
 import { Footer } from "../../components/Layout/Footer"
+import SEO from "../../layouts/partials/seo"
 
 //----------------------------------------------------------
 //-- Section 1: Team
@@ -113,9 +114,10 @@ const PracticeLocations = (show, bookingToggleCallback) => {
 
   return show ? (
     <FooterSection>
+      <SEO title="Contact Us" />
       <FooterContent>
         <FooterContentItem>
-          <FooterPracticeImg src="images2/contact-adelaide.png" />
+          <FooterPracticeImg src="/images2/contact-adelaide.png" />
         </FooterContentItem>
         <FooterContentItem>
           <FooterContact>
@@ -166,7 +168,7 @@ const PracticeLocations = (show, bookingToggleCallback) => {
       </FooterContent>
       <FooterContent>
         <FooterContentItem>
-          <FooterPracticeImg src="images2/contact-woodville.png" />
+          <FooterPracticeImg src="/images2/contact-woodville.png" />
         </FooterContentItem>
         <FooterContentItem>
           <FooterContact>
@@ -229,9 +231,12 @@ const Container = styled.div`
   margin: 0;
   margin-bottom: 80px;
 `
-const Header = styled.div`
+const HeaderSection = styled.div`
   height: 88px;
 `
+const Header = (match) => {
+  return match ? <HeaderSection /> : <></>
+}
 
 const Contact: React.FC = () => {
   const match = useMatchMedia({ width: MAX_WIDTH })
@@ -241,9 +246,16 @@ const Contact: React.FC = () => {
 
   console.log(`*** Contact.RENDER... match=${match}`)
   const video = match ? null : "/videos/location-city.mp4"
+
+  const HeaderResult = (props) => Header(match)
+  const LocationsResult = (props) =>
+    PracticeLocations(show, session.bookingToggle)
+  const SocialResult = (props) => SocialFeed(show, match)
+  const FooterResult = (props) => Footer(show)
   return (
     <Container>
       {Main(
+        "Contact Us",
         true,
         video,
         null,
@@ -253,10 +265,10 @@ const Contact: React.FC = () => {
         session.searchToggle,
         session.bookingToggle
       )}
-      {match && <Header />}
-      {PracticeLocations(show, session.bookingToggle)}
-      {SocialFeed(show, match)}
-      {Footer(show)}
+      <HeaderResult />
+      <LocationsResult />
+      <SocialResult />
+      <FooterResult />
     </Container>
   )
 }

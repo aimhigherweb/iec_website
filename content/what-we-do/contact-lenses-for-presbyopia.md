@@ -1,34 +1,36 @@
 ---
 title: Contact Lenses For Presbyopia
-category: "SE02"
+category: SE02
 preview_image: color-eye.jpg
 ---
-
 <div class="employee-heading">
 <p>Spectacles aren't the only option for both distance and near vision! If you're over 45 years of age and typically wear reading glasses, progressive or bifocal spectacles, that doesn't mean you can't wear a pair of contact lenses to provide the same level of vision.</p>
 <p>Contact lenses are perfect for when you want to be able to do the things you enjoy in life without the hassle of having to wear a frame on your face. There are two primary options for presbyopic contact lens wear: multifocal contact lenses and monovision (or blended) contact lenses. <a href="/what-we-do/soft-contact-lenses">Soft disposable contact lenses</a> or <a href="/what-we-do/gas-permeable-contact-lenses">rigid gas permeable lenses</a> are both available in these options. During your <a href="/what-we-do/eye-exam">consultation</a>, your optometrist will advise which is best for you.</p>
 </div>
 
-#### Contact Lens Options for Presbyopia
+<br>
 
-##### Multifocal contact lenses (simultaneous vision)
+![](/uploads/presbyopia.png)
 
-<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\\\[if IE]><iframe frameborder="0" type="text/html" src="https://2689-2347.captiv8online.com/animations/embed/one/mult-o-l-o-t-t?player_width=100%&player_height=100%&site_company_language=34&autostart=false" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\\\[endif]--><!--\\\[if !IE]> <--><object data="https://2689-2347.captiv8online.com/animations/embed/one/mult-o-l-o-t-t?player_width=100%&player_height=100%&site_company_language=34&autostart=false" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://2689-2347.captiv8online.com/animations/embed/one/mult-o-l-o-t-t?player_width=100%&player_height=100%&site_company_language=34&autostart=false">Multifocal Contacts</a></object><!--> <!\\\[endif]--></div>
+#### Multifocal contact lenses
+
+With these lenses, your eyes are focused for both distance and near vision at the same time. Your brain figures out which image it needs to concentrate on and ignores the other. The clarity of your vision will never be as sharp as with your spectacles due to slight ‘ghosting’ of images, but the majority of patients find these lenses allow them to perform most visual tasks in their life with about the same visual quality. Patients tend to prefer these lenses over monovision lenses because they offer better ‘real-world’ vision, despite the loss of clarity.<sup>1</sup>
+
+#### Monovision contact lenses
+
+With monovision, one of your eyes is corrected for distance and the other is corrected for near vision. This means your eyes won't work together as naturally; however, the quality and clarity of the vision at specific distances (e.g. at 6 metres in the distance and at reading distance) tends to be superior compared to multifocals.<sup>2</sup> Monovision also allows significant astigmatism to be corrected better than multifocals. In patients with good distance vision, you may just need a lens in one eye to improve your vision for near or distance tasks.
+
+![](/uploads/soft-lens-finger.jpg)
+
+#### Deciding on the right lens type
+
+Most often, multifocal and monovision contact lenses are soft contact lenses. Multifocals are typically only available in a monthly modality, but do exist in a daily modality for occasional use. Since monovision lenses are essentially just two differently-powered standard spherical lenses, they are available across more modalities, and for this same reason tend to be cheaper than multifocal contact lenses. See <a href="/what-we-do/contact-lenses">this article</a> for more information on the features of soft lenses.
+
+As well as soft contact lenses, [orthokeratology](/what-we-do/orthokeratology-corneal-reshaping) or 'ortho-k' lenses (overnight corneal reshaping lenses) can also be designed to give distance and near vision in a manner similar to monovision. Due to the nature of how ortho-k lenses reshape the cornea, they have more of a multi-focal effect than standard soft lenses. Like monovision, if you normally see well in the distance you may just need a single ortho-k lens worn overnight in one eye to give you better vision for near tasks throughout the day.
 
 <br>
 
-With these lenses, your eyes are focused for both distance and near vision at the same time. Your brain figures out which image it needs to concentrate on and it ignores the other. The clarity of your vision will never be as sharp as with your spectacles due to slight ‘ghosting’ of images, but the majority of patients find these lenses allow them to do \~90% of the visual tasks in their life with \~90% of the visual quality. In various studies these lenses have been shown to offer patients better ‘real-world’ vision compared to monovision contact lenses. Multifocals are typically only available in a monthly modality, but do exist in a daily modality for occasional use. See <a href="/what-we-do/contact-lenses">this article</a> for more information on the features of daily and monthly soft lenses.
+##### References
 
-##### Monovision contact lenses (blended vision)
-
-<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\\\[if IE]><iframe frameborder="0" type="text/html" src="https://2689-2347.captiv8online.com/animations/embed/one/monovision-treatment?player_width=100%&player_height=100%&site_company_language=34&autostart=false" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\\\[endif]--><!--\\\[if !IE]> <--><object data="https://2689-2347.captiv8online.com/animations/embed/one/monovision-treatment?player_width=100%&player_height=100%&site_company_language=34&autostart=false" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://2689-2347.captiv8online.com/animations/embed/one/monovision-treatment?player_width=100%&player_height=100%&site_company_language=34&autostart=false">Monovision Treatment</a></object><!--> <!\\\[endif]--></div>
-
-<br>
-
-With monovision, one of your eyes is corrected for distance and the other is corrected for near vision. This means your eyes won't work together as naturally; however, the visual quality of the eyes tends to be superior compared to multifocals. Monovision also allows significant astigmatism to be corrected better than multifocals. Because monovision contact lenses are no different to standard lenses, just with the powers adjusted, your habitual lenses can be used without a refit being required. Daily lenses can also be used for convenience. In patients with good distance vision, you may just need a lens in one eye to improve your vision for near tasks.
-
-##### Orthokeratology for presbyopia
-
-[Orthokeratology](/what-we-do/orthokeratology-corneal-reshaping) or 'ortho-k' lenses (overnight corneal reshaping lenses) can be designed to give distance and near vision in a manner similar to monovision. Due to the nature of how ortho-k lenses reshape the cornea, they have more of a multi-focal effect than standard soft lenses. Like monovision, if you normally see well in the distance you may just need a single ortho-k lens worn overnight in one eye to give you better vision for near tasks throughout the day.
-
-![](/uploads/orthokeratology-lens.jpg)
+1. Richdale, K., Mitchell, G. L., & Zadnik, K. (2006). Comparison of Multifocal and Monovision Soft Contact Lens Corrections in Patients With Low-Astigmatic Presbyopia. Optometry and Vision Science, 83(5), 266–273.
+2. Woods, J., Woods, C., & Fonn, D. (2015). Visual Performance of a Multifocal Contact Lens versus Monovision in Established Presbyopes. Optometry and Vision Science, 92(2), 175–182.

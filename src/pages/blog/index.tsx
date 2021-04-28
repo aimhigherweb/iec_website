@@ -7,6 +7,7 @@ import { useMatchMedia } from "../../hooks/useMatchMedia"
 import { Main } from "../../components/Main"
 import { SocialFeed } from "../../components/Social/SocialFeed"
 import { Footer } from "../../components/Layout/Footer"
+import SEO from "../../layouts/partials/seo"
 
 //----------------------------------------------------------
 //-- Section 1: Blog
@@ -123,6 +124,7 @@ const BlogList = (show, data) => {
 
   return show ? (
     <BlogSection>
+      <SEO title="Blog" />
       <BlogTitle>Blog</BlogTitle>
       <BlogDescription>
         The optometrists of Innovative Eye Care have a wide scope of expertise.
@@ -179,11 +181,14 @@ const Container = styled.div`
   margin: 0;
   margin-bottom: 80px;
 `
-const Header = styled.div`
+const HeaderSection = styled.div`
   height: 88px;
 `
+const Header = (match) => {
+  return match ? <HeaderSection /> : <></>
+}
 
-const Blog: React.FC = (props) => {
+const Blog: React.FC = (mainprops) => {
   const match = useMatchMedia({
     width: MAX_WIDTH,
   })
@@ -193,9 +198,15 @@ const Blog: React.FC = (props) => {
 
   console.log(`*** Blog.RENDER... match=${match}`)
   const image = match ? null : "/images2/bg-section-blog.png"
+
+  const HeaderResult = (props) => Header(match)
+  const BlogResult = (props) => BlogList(show, mainprops.data)
+  const SocialResult = (props) => SocialFeed(show, match)
+  const FooterResult = (props) => Footer(show)
   return (
     <Container>
       {Main(
+        "",
         true,
         null,
         image,
@@ -205,10 +216,10 @@ const Blog: React.FC = (props) => {
         session.searchToggle,
         session.bookingToggle
       )}
-      {match && <Header />}
-      {BlogList(show, props.data)}
-      {SocialFeed(show, match)}
-      {Footer(show)}
+      <HeaderResult />
+      <BlogResult />
+      <SocialResult />
+      <FooterResult />
     </Container>
   )
 }

@@ -7,6 +7,7 @@ import { useMatchMedia } from "../../hooks/useMatchMedia"
 import { Main } from "../../components/Main"
 import { SocialFeed } from "../../components/Social/SocialFeed"
 import { Footer } from "../../components/Layout/Footer"
+import SEO from "../../layouts/partials/seo"
 
 //----------------------------------------------------------
 //-- Section 1: What
@@ -60,16 +61,27 @@ const WhatServiceItem = styled.div`
     flex-basis: 20%;
   }
   border: ${DEBUG_TEAM};
+  cursor: pointer;
+  background-color: ${(props) => (props.chosen ? "#5091cd" : "none")};
+  color: black;
+  transition: color 1s;
+  &:hover {
+    color: #5091cd;
+  }
 `
-const WhatServiceImage = styled.img`
+const WhatServiceImage = styled.div`
   display: block;
-  width: auto;
-  height: 30px;
+  width: 32px;
+  height: 32px;
   margin: 16px auto;
   @media (max-width: ${MAX_WIDTH_PX}) {
     height: 32px;
   }
-  border: ${DEBUG_TEAM};
+  background: url(${(props) => (props.hover ? props.iconSel : props.icon)});
+  background-size: contain;
+  background-repeat: no-repeat;
+  transition: background 1000ms ease-in-out;
+  border: 0;
 `
 const WhatServiceTitle = styled.p`
   font-family: "open sans";
@@ -82,11 +94,16 @@ const WhatServiceTitle = styled.p`
     text-transform: lowercase;
     padding: 5px;
   }
-  color: ${(props) => (props.chosen ? "#5091cd" : "black")};
-  &:hover {
-    color: ${(props) => (props.chosen ? "#5091cd" : "#5091cd")};
-  }
+  transition: color 1s;
+  color: ${(props) => {
+    if (props.chosen) {
+      return "white"
+    }
+    return props.hover ? "#5091cd" : "black"
+  }};
   border: ${DEBUG_TEAM};
+  padding-left: 4px;
+  padding-right: 4px;
 `
 
 const ServiceDetail = styled.div`
@@ -103,7 +120,8 @@ const ServiceDetailImage = styled.img`
   margin-right: 20px;
   border-radius: 50%;
   object-fit: cover;
-  
+  cursor: pointer;
+  transition: filter 2s;
   filter: ${(props) => (props.chosen ? "none" : "grayscale(1)")};
   &:hover {
     filter: ${(props) => (props.chosen ? "none" : "none")};
@@ -116,7 +134,7 @@ const ServiceDetailImage = styled.img`
 `
 const ServiceDetailText = styled.div`
   flex: 1;
-  
+
   @media (max-width: ${MAX_WIDTH_PX}) {
     flex-basis: 50%;
   }
@@ -140,7 +158,7 @@ const ServiceDetailTextDesc = styled.div`
   border-bottom: 1px dotted #aaaaaa;
 `
 
-const What = (show, data, whatWeDoCatId) => {
+const What = (show, data, whatWeDoCatId, currentIndex, updateIndex) => {
   const { categoryList, whatWeDoList } = data
 
   const whatWeDoCategories = []
@@ -158,6 +176,9 @@ const What = (show, data, whatWeDoCatId) => {
         defaultCat = whatWeDoCatId
       }
     })
+  } else {
+    defaultIndex = currentIndex
+    defaultCat = whatWeDoCategories[currentIndex].catno
   }
 
   const [current, setCurrent] = useState({
@@ -172,10 +193,13 @@ const What = (show, data, whatWeDoCatId) => {
       (item) => item.node.frontmatter.category === catno
     )
     setCurrent({ index: index, articles: categoryArticles })
+    updateIndex(index)
   }
+  const [hover, setHover] = useState()
 
   return show ? (
     <WhatSection id="topservice">
+      <SEO title="What We Do" />
       <WhatTitle>What We Do</WhatTitle>
       <WhatDescription>
         <p>&lsquo;Your eyes are our focus, all day, every day.&rsquo;</p>
@@ -197,17 +221,31 @@ const What = (show, data, whatWeDoCatId) => {
           whatWeDoCategories.map((category, i) => {
             const chosen = current.index === i
             let imageSrc = category?.image
+            let imageSel =
+              imageSrc.substr(0, imageSrc.lastIndexOf(".")) + "-sel.png"
             if (chosen) {
               imageSrc =
-                imageSrc.substr(0, imageSrc.lastIndexOf(".")) + "-sel.png"
+                imageSrc.substr(0, imageSrc.lastIndexOf(".")) + "-selw.png"
+              imageSel = imageSrc
             }
             return (
               <WhatServiceItem
                 key={i}
                 onClick={() => categoryClick(i, category.catno)}
+                onMouseOver={() => {
+                  setHover(i)
+                }}
+                onMouseLeave={() => {
+                  setHover()
+                }}
+                chosen={chosen}
               >
-                <WhatServiceImage src={imageSrc} />
-                <WhatServiceTitle chosen={chosen}>
+                <WhatServiceImage
+                  icon={imageSrc}
+                  iconSel={imageSel}
+                  hover={i === hover}
+                />
+                <WhatServiceTitle chosen={chosen} hover={i === hover}>
                   {category?.title}
                 </WhatServiceTitle>
               </WhatServiceItem>
@@ -225,7 +263,9 @@ const What = (show, data, whatWeDoCatId) => {
 
           return (
             <ServiceDetail key={i}>
-              <ServiceDetailImage src={imageSrc} />
+              <Link to={item.node.fields.slug} state={payload}>
+                <ServiceDetailImage src={imageSrc} />
+              </Link>
               <ServiceDetailText>
                 <Link to={item.node.fields.slug} state={payload}>
                   <ServiceDetailTextTitle>
@@ -255,23 +295,43 @@ const Container = styled.div`
   margin: 0;
   margin-bottom: 80px;
 `
-const Header = styled.div`
+const HeaderSection = styled.div`
   height: 88px;
 `
+const Header = (match) => {
+  return match ? <HeaderSection /> : <></>
+}
 
-const WhatWeDo: React.FC = (props) => {
+const WhatWeDo: React.FC = (mainprops) => {
   const match = useMatchMedia({
     width: MAX_WIDTH,
   })
+  const [currentIndex, setCurrentIndex] = useState(0)
+  const updateIndex = (newIndex) => {
+    setCurrentIndex(newIndex)
+  }
 
   const session = useSession()
   const show = session.showAll()
 
   console.log(`*** WhatWeDo.RENDER... match=${match}`)
   const video = match ? null : "/videos/what-we-do.mp4"
+
+  const HeaderResult = (props) => Header(match)
+  const WhatResult = (props) =>
+    What(
+      show,
+      mainprops.data,
+      session.current.whatWeDoCatId,
+      currentIndex,
+      updateIndex
+    )
+  const SocialResult = (props) => SocialFeed(show, match)
+  const FooterResult = (props) => Footer(show)
   return (
     <Container>
       {Main(
+        "What We Do",
         true,
         video,
         null,
@@ -281,10 +341,10 @@ const WhatWeDo: React.FC = (props) => {
         session.searchToggle,
         session.bookingToggle
       )}
-      {match && <Header />}
-      {What(show, props.data, session.current.whatWeDoCatId)}
-      {SocialFeed(show, match)}
-      {Footer(show)}
+      <HeaderResult />
+      <WhatResult />
+      <SocialResult />
+      <FooterResult />
     </Container>
   )
 }

@@ -218,7 +218,7 @@ const Detail = (state, data) => {
 
   return (
     <div>
-      <SEO title={title} image={preview_image} pathname={slug} />
+      <SEO title={title} image={preview_image} />
       <TopHeader>
         <TopHeaderImage src={preview_image}></TopHeaderImage>
       </TopHeader>
@@ -304,6 +304,7 @@ const BlogTemplate: React.FC = (props) => {
   return (
     <Container>
       {Main(
+        "",
         false,
         null,
         null,

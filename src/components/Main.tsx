@@ -15,6 +15,7 @@ const responsive = {
 import { useSession } from "../state/SessionWrapper"
 import { useMatchMedia } from "../hooks/useMatchMedia"
 import { SearchResults } from "../components/Search/SearchResults"
+import { useMatchScroll } from "../hooks/useMatchScroll"
 
 //----------------------------------------------------------
 //-- Section 0: Main
@@ -28,13 +29,19 @@ const MainHeader = styled.div`
   z-index: 9999;
   padding: 16px 10px 10px 20px;
   width: 100%;
+  background-color: ${(props) => {
+    if (props.searchMode || props.bookingMode || props.carouselMode) {
+      return "#000000"
+    } else if (!props.showFull || props.scrolledDown) {
+      return "#424242"
+    } else {
+      return "#00000000"
+    }
+  }};
   @media (max-width: ${MAX_WIDTH_PX}) {
     padding: 20px;
+    background-color: #00000099;
   }
-  background-color: ${(props) =>
-    props.searchMode || props.bookingMode || props.carouselMode
-      ? "#000000"
-      : "#000000AA"};
   border: ${DEBUG_MAIN};
 `
 const Logo = styled.img.attrs({
@@ -47,6 +54,27 @@ const Logo = styled.img.attrs({
   @media (max-width: ${MAX_WIDTH_PX}) {
     width: 160px;
     visibility: ${(props) => (props.hide ? "hidden" : "visible")};
+  }
+  border: ${DEBUG_MAIN};
+`
+const HeaderTitle = styled.div`
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "recoleta";
+  font-size: 1.6em;
+  font-weight: 700;
+  color: white;
+  color: ${(props) => {
+    if (props.searchMode || props.bookingMode || props.carouselMode) {
+      return "#00000000"
+    } else {
+      return "#ffffff"
+    }
+  }};
+  @media (max-width: ${MAX_WIDTH_PX}) {
+    display: none;
   }
   border: ${DEBUG_MAIN};
 `
@@ -85,7 +113,10 @@ const MainMenu = styled.div`
   z-index: 9999;
   right: 0;
   top: 0;
-  width: 220px;
+  width: 400px;
+  @media (max-width: ${MAX_WIDTH_PX}) {
+    width: 220px;
+  }
   height: 100vh;
   background-color: #000000d0;
 `
@@ -93,7 +124,7 @@ const MainMenuItem = styled.div`
   margin: 0 20px;
   color: white;
   font-family: "recoleta";
-  font-size: 1.1em;
+  font-size: 1.6em;
   font-weight: 600;
   line-height: 1.8;
   text-align: right;
@@ -111,7 +142,7 @@ const MainMenuItemContact = styled.div`
   margin: 0 20px;
   color: white;
   font-family: "open sans";
-  font-size: 0.7em;
+  font-size: 1em;
   font-weight: 400;
   text-align: right;
   cursor: pointer;
@@ -149,7 +180,15 @@ const MainFooter = styled.div`
     flex-direction: column;
     height: auto;
   }
-  background-color: ${(props) => (props.searchMode ? "#000000" : "#00000066")};
+  background-color: ${(props) => {
+    if (props.searchMode) {
+      return "#000000"
+    } else if (props.scrolledDown) {
+      return "#424242"
+    } else {
+      return "#00000000"
+    }
+  }};
 `
 const MainSearch = styled.div`
   flex: 1;
@@ -251,18 +290,6 @@ const MainBookingButton = styled.div`
   }
 `
 
-// const MainSection = styled.div`
-//   width: auto;
-//   height: 100vh;
-
-//   background-image: url("/images2/bg-section-main.jpg");
-//   background-size: cover;
-//   background-repeat: no-repeat;
-//   @media (max-width: ${MAX_WIDTH_PX}) {
-//     background-
-//   }
-// `
-
 const MainVideo = styled.div`
   width: auto;
   height: 100vh;
@@ -274,12 +301,13 @@ const MainVideo = styled.div`
     bottom: 0;
     left: 0;
     content: "";
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.5);
   }
 `
 const MainVideoContent = styled.video`
   min-width: 100%;
   min-height: 100%;
+  object-fit: cover;
 `
 const MainImage = styled.div`
   width: auto;
@@ -304,7 +332,9 @@ const BookingIframe = styled.iframe`
 `
 
 const MainDiv = (
+  title,
   match,
+  scrolledDown,
   showFull,
   videoToPlay,
   imageToDisplay,
@@ -359,8 +389,11 @@ const MainDiv = (
             searchMode={showSearch}
             bookingMode={showBooking}
             carouselMode={carouselToDisplay}
+            scrolledDown={scrolledDown}
+            showFull={showFull}
           >
             <Logo onClick={() => navigate("/")} hide={showSearch} />
+            <HeaderTitle scrolledDown={scrolledDown}>{title}</HeaderTitle>
             {showSearch && (
               <MainSearchMob>
                 <MainSearchWrapper>
@@ -389,7 +422,7 @@ const MainDiv = (
             </Menu>
           </MainHeader>
 
-          <MainMenu show={showMenu}>
+          <MainMenu show={showMenu} data-cy="main-menu">
             <MainMenuItem onClick={() => setShowMenu(!showMenu)}>
               <FaTimes
                 style={{
@@ -489,7 +522,7 @@ const MainDiv = (
         </MainAppointment>
       )}
       {showFull && (
-        <MainFooter searchMode={showSearch}>
+        <MainFooter searchMode={showSearch} scrolledDown={scrolledDown}>
           <MainSearch>
             <MainSearchWrapper>
               <span>
@@ -589,6 +622,7 @@ const MainDiv = (
 //-- Render
 //----------------------------------------------------------
 export const Main: React.FC = (
+  title,
   showFull,
   videoToPlay,
   imageToDisplay,
@@ -601,10 +635,13 @@ export const Main: React.FC = (
   const match = useMatchMedia({
     width: MAX_WIDTH,
   })
+  const scroll = useMatchScroll()
+  const scrolledDown = scroll > 1
 
-  console.log(`*** Main.RENDER... match=${match}`)
   return MainDiv(
+    title,
     match,
+    scrolledDown,
     showFull,
     videoToPlay,
     imageToDisplay,

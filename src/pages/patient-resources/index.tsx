@@ -7,6 +7,7 @@ import { useMatchMedia } from "../../hooks/useMatchMedia"
 import { Main } from "../../components/Main"
 import { SocialFeed } from "../../components/Social/SocialFeed"
 import { Footer } from "../../components/Layout/Footer"
+import SEO from "../../layouts/partials/seo"
 
 //----------------------------------------------------------
 //-- Section 1: Patient Resources
@@ -56,7 +57,8 @@ const PatientResServiceItem = styled.div`
   @media (max-width: ${MAX_WIDTH_PX}) {
     flex-basis: 50%;
   }
-  background-color: ${(props) => (props.chosen ? "black" : "white")};
+  cursor: pointer;
+  background-color: ${(props) => (props.chosen ? "#5091cd" : "white")};
   border: 1px solid black;
 `
 const PatientResServiceTitle = styled.p`
@@ -87,6 +89,8 @@ const ServiceDetailImage = styled.img`
   margin-right: 20px;
   border-radius: 50%;
   object-fit: cover;
+  cursor: pointer;
+  transition: filter 2s;
   filter: ${(props) => (props.chosen ? "none" : "grayscale(1)")};
   &:hover {
     filter: ${(props) => (props.chosen ? "none" : "none")};
@@ -121,7 +125,7 @@ const ServiceDetailTextDesc = styled.div`
   border-bottom: 1px dotted #aaaaaa;
 `
 
-const Patient = (show, data) => {
+const Patient = (show, data, currentIndex, updateIndex) => {
   const patientResCategories = [
     {
       category: "Contact Lens Instructions",
@@ -141,23 +145,26 @@ const Patient = (show, data) => {
   ]
 
   const { contactLensInstructions, visionTraining, everydayEyeCare } = data
+  let currentArticles = null
+  if (currentIndex === 0) {
+    currentArticles = contactLensInstructions.edges
+  } else if (currentIndex === 1) {
+    currentArticles = visionTraining.edges
+  } else {
+    currentArticles = everydayEyeCare.edges
+  }
   const [current, setCurrent] = useState({
-    index: 0,
-    articles: contactLensInstructions.edges,
+    index: currentIndex,
+    articles: currentArticles,
   })
 
-  const categoryClick = (index) => {
-    if (index === 0) {
-      setCurrent({ index: 0, articles: contactLensInstructions.edges })
-    } else if (index === 1) {
-      setCurrent({ index: 1, articles: visionTraining.edges })
-    } else if (index === 2) {
-      setCurrent({ index: 2, articles: everydayEyeCare.edges })
-    }
+  const categoryClick = (newIndex) => {
+    updateIndex(newIndex)
   }
 
   return show ? (
     <PatientResSection>
+      <SEO title="Patient Resources" />
       <PatientResTitle>Patient Resources</PatientResTitle>
       <PatientResDescription>
         <p>
@@ -195,7 +202,9 @@ const Patient = (show, data) => {
 
           return (
             <ServiceDetail key={i}>
-              <ServiceDetailImage src={imageSrc} />
+              <Link to={item.node.fields.slug} state={payload}>
+                <ServiceDetailImage src={imageSrc} />
+              </Link>
               <ServiceDetailText>
                 <Link to={item.node.fields.slug} state={payload}>
                   <ServiceDetailTextTitle>
@@ -225,23 +234,36 @@ const Container = styled.div`
   margin: 0;
   margin-bottom: 80px;
 `
-const Header = styled.div`
+const HeaderSection = styled.div`
   height: 88px;
 `
+const Header = (match) => {
+  return match ? <HeaderSection /> : <></>
+}
 
-const PatientResources: React.FC = (props) => {
+const PatientResources: React.FC = (mainprops) => {
   const match = useMatchMedia({
     width: MAX_WIDTH,
   })
-
+  const [currentIndex, setCurrentIndex] = useState(0)
+  const updateIndex = (newIndex) => {
+    setCurrentIndex(newIndex)
+  }
   const session = useSession()
   const show = session.showAll()
 
   console.log(`*** PatientResources.RENDER... match=${match}`)
   const image = match ? null : "/images2/bg-section-patres.png"
+
+  const HeaderResult = (props) => Header(match)
+  const PatientResult = (props) =>
+    Patient(show, mainprops.data, currentIndex, updateIndex)
+  const SocialResult = (props) => SocialFeed(show, match)
+  const FooterResult = (props) => Footer(show)
   return (
     <Container>
       {Main(
+        "",
         true,
         null,
         image,
@@ -251,10 +273,10 @@ const PatientResources: React.FC = (props) => {
         session.searchToggle,
         session.bookingToggle
       )}
-      {match && <Header />}
-      {Patient(show, props.data)}
-      {SocialFeed(show, match)}
-      {Footer(show)}
+      <HeaderResult />
+      <PatientResult />
+      <SocialResult />
+      <FooterResult />
     </Container>
   )
 }

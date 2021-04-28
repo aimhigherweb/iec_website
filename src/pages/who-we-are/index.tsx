@@ -8,6 +8,7 @@ import { Main } from "../../components/Main"
 import { SocialFeed } from "../../components/Social/SocialFeed"
 import { Footer } from "../../components/Layout/Footer"
 import historyList from "./past.json"
+import SEO from "../../layouts/partials/seo"
 
 //----------------------------------------------------------
 //-- Section 1: Team
@@ -116,13 +117,7 @@ const TeamFooterImage = styled.img`
   border: ${DEBUG_TEAM};
 `
 
-const Team = (show, teamList, match) => {
-  const [chosen, setChosen] = useState({
-    rowIndex: null,
-    staffIndex: null,
-    staffNode: null,
-  })
-
+const Team = (show, teamList, match, chosen, updateChosen) => {
   const columns = match ? 2 : 4
   const finalTeamList = teamList.edges
   if (finalTeamList) {
@@ -138,13 +133,13 @@ const Team = (show, teamList, match) => {
     )
     if (show) {
       const rowIndex = Math.floor(index / columns)
-      setChosen({
+      updateChosen({
         rowIndex: rowIndex,
         staffIndex: index,
         lastInRowIndex: (rowIndex + 1) * columns - 1,
       })
     } else {
-      setChosen({ rowIndex: null, staffIndex: null, lastInRowIndex: null })
+      updateChosen({ rowIndex: null, staffIndex: null, lastInRowIndex: null })
     }
   }
   const selectStaffMemberInfo = (index, show) => {
@@ -154,12 +149,13 @@ const Team = (show, teamList, match) => {
       finalShow = false
     }
     const val = finalShow ? teamList.edges[index].node : null
-    setChosen({ ...chosen, staffNode: val })
+    updateChosen({ ...chosen, staffNode: val })
   }
 
   //console.log(`*** whoWeAre.Team.RENDER`)
   return show ? (
     <TeamSection id="topteam">
+      <SEO title="Who We Are" />
       <TeamTitle>Meet the team</TeamTitle>
       <TeamSubtitle>
         Our Optometrists are industry leaders. Our special interests include
@@ -168,12 +164,13 @@ const Team = (show, teamList, match) => {
       <TeamStaffContainer>
         <TeamStaffBar>
           {teamList.edges.map(({ node }, i) => {
+            const key = `staff${i}`
             const highlighted = i === chosen.staffIndex
             const filter = highlighted
               ? { filter: "grayscale(0)" }
               : { filter: "grayscale(1)" }
             return (
-              <React.Fragment key={i}>
+              <React.Fragment key={key}>
                 <TeamStaff match={match}>
                   <TeamStaffImage
                     src={node.frontmatter.photo}
@@ -294,10 +291,10 @@ const HistoryTimelineItem = styled.li`
     width: 1px;
   }
   &:first-child:before {
-    top: 7px;
+    top: 8px;
   }
   &:last-child:before {
-    height: 7px;
+    height: 8px;
   }
 `
 const HistoryTimelineItemTitle = styled.div`
@@ -373,8 +370,9 @@ const History = (show, historyList, match) => {
           {historyList &&
             historyList.map((history, i) => {
               const highlight = i === chosen.historyIndex
+              const key = `history${i}`
               return (
-                <HistoryTimelineItem key={i} highlight={highlight}>
+                <HistoryTimelineItem key={key} highlight={highlight}>
                   <HistoryTimelineItemTitle
                     onClick={() => selectHistoryItem(i, true)}
                     onMouseEnter={() => selectHistoryItem(i, true)}
@@ -418,22 +416,41 @@ const Container = styled.div`
   margin: 0;
   margin-bottom: 80px;
 `
-const Header = styled.div`
+const HeaderSection = styled.div`
   height: 88px;
 `
+const Header = (match) => {
+  return match ? <HeaderSection /> : <></>
+}
 
 const WhoWeAre: React.FC = ({ data }) => {
   const match = useMatchMedia({ width: MAX_WIDTH })
   const { teamList } = data
 
+  const [chosen, setChosen] = useState({
+    rowIndex: null,
+    staffIndex: null,
+    staffNode: null,
+  })
+  const updateChosen = (newChosen) => {
+    setChosen(newChosen)
+  }
   const session = useSession()
   const show = session.showAll()
 
   console.log(`*** Home.RENDER... match=${match}`)
   const video = match ? null : "/videos/who-we-are.mp4"
+
+  const HeaderResult = (props) => Header(match)
+  const TeamResult = (props) =>
+    Team(show, teamList, match, chosen, updateChosen)
+  const HistoryResult = (props) => History(show, historyList, match)
+  const SocialResult = (props) => SocialFeed(show, match)
+  const FooterResult = (props) => Footer(show)
   return (
     <Container>
       {Main(
+        "Who We Are",
         true,
         video,
         null,
@@ -443,11 +460,11 @@ const WhoWeAre: React.FC = ({ data }) => {
         session.searchToggle,
         session.bookingToggle
       )}
-      {match && <Header />}
-      {Team(show, teamList, match)}
-      {History(show, historyList, match)}
-      {SocialFeed(show, match)}
-      {Footer(show)}
+      <HeaderResult />
+      <TeamResult />
+      <HistoryResult />
+      <SocialResult />
+      <FooterResult />
     </Container>
   )
 }

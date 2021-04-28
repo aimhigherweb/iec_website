@@ -1,34 +1,19 @@
 ---
 title: Children's Vision
-category: "SE03"
+category: SE03
 preview_image: kid-reading.jpeg
 ---
-Innovative Eye Care has optometrists at both our Adelaide and Woodville practices which are passionate about improving children’s vision and providing high quality paediatric eye care.
+<div class="employee-heading"><p>
 
-During the early stages of life, the visual system undergoes rapid changes and is the dominant sense which leads to development of perceptual, cognitive and social skills.<sup>1</sup> Many vision problems encountered by children are asymptomatic or difficult to recognise.<sup>2</sup> A study in 2002 showed that around 25% of primary school-aged children have some form of ocular condition.<sup>1</sup> Presently, this number may actually be higher due environmental and lifestyle changes.<sup>3</sup> For example with increased urbanisation, less time spent outdoors, increased use of screen-based technology (such as phones and tablets) and increased near vision tasks in younger children has lead to a rising number of shortsightedness in children.<sup>4-6</sup> Importantly, un-diagnosed visual problems in children can cause development, social and academic challenges.<sup>7</sup> 
+During the early stages of life, the visual system undergoes rapid changes and is the dominant sense which leads to development of perceptual, cognitive and social skills.<sup>1</sup> Many vision problems encountered by children are asymptomatic or difficult to recognise.<sup>2</sup> A study in 2002 showed that around 25% of primary school-aged children have some form of ocular condition.<sup>1</sup> Presently, this number may actually be higher due environmental and lifestyle changes like increased screen time and decreased time outdoors compared with children of previous generations.<sup>3-6</sup> Undiagnosed visual problems in children can cause developmental, social and academic challenges.<sup>7</sup> Innovative Eye Care has optometrists at both our Adelaide and Woodville practices who are passionate about improving children’s vision and providing high quality paediatric eye care.
+
+<b>[See this page for signs that may indicate that your child has a visual problem.](https://www.innovativeeyecare.com.au/what-we-do/signs-of-vision-problem-children/)</b>
+
+</p></div>
 
 ![](/uploads/childrens-vision.jpg)
 
-Signs that may indicate that your child has a visual problem include:
-
-* Complaining of blurred vision at distance or when reading up close
-* Seeing double
-* Words moving on a page
-* Frequent headaches, especially around the eyes or front of head
-* Moving close to page when reading or writing
-* Avoidance of near work tasks
-* Missing or omitting words or lines when reading
-* Reduced attention and distractibility
-* Eyes turning in or out (especially when reading)
-* Excessive eye rubbing
-
-Most schools in Australia offer a form of vision screening which are great tools to detect visual problems. However, most school screenings perform a limited assessment of a child’s visual system such as visual acuity.
-
-The goals of paediatric optometry at Innovative Eye Care are to:
-
-* Assess the functional status of both eyes and visual system in relation to the specific level of development of the child
-* Evaluate the child’s ocular health and any other related health conditions
-* Educate and counsel parents/caregivers regarding their child's visual health and formulate recommendations regarding treatment, management or prevention.
+Most schools in Australia offer a form of vision screening which are great tools to detect visual problems. However, most school screenings perform a limited assessment of a child’s visual system. The goals of comprehensive paediatric optometry at Innovative Eye Care are to perform an in-depth assessment of the child's visual system and its functional status specific to developmental stage, evaluate the child's ocular health and counsel caregivers about the prevention or management of any visual health concerns that might be present.
 
 A comprehensive eye examination at Innovative Eye Care will assess not only visual acuity but a wide range of components of the visual system including assessment of:
 
@@ -39,16 +24,9 @@ A comprehensive eye examination at Innovative Eye Care will assess not only visu
 * Ocular prescription
 * Eye health using [advanced imaging technology](https://www.innovativeeyecare.com.au/what-we-do/oct)
 
-Furthermore, we have tools available to detect and treat common visual problems such as:
+With this full scope of assessment, we are able to detect and treat common visual problems in children. This includes [amblyopia](https://www.innovativeeyecare.com.au/what-we-do/amblyopia/), strabismus, [binocular vision problems](https://www.innovativeeyecare.com.au/what-we-do/convergence-insufficiency/) and increasingly short-sightedness (also known as [myopia](https://www.innovativeeyecare.com.au/what-we-do/myopia/)). **To find out more about amblyopia therapies, follow [this link](https://www.innovativeeyecare.com.au/what-we-do/amblyopia/). To find out more about myopia control, follow [this link](https://www.innovativeeyecare.com.au/what-we-do/myopia-control/).**
 
-* Shortsightedness or myopia
-* [Amblyopia](https://www.innovativeeyecare.com.au/what-we-do/amblyopia)
-* Binocular vision problems including eye focusing, turning and tracking and treat with [vision therapy](https://www.innovativeeyecare.com.au/what-we-do/vision-training)
-* Strabismus
-
-[Contact us](https://www.innovativeeyecare.com.au/contact) to see one of our friendly optometrists regarding a comprehensive children's vision assessment
-
-
+[Contact us](https://www.innovativeeyecare.com.au/contact) to see one of our friendly optometrists regarding a comprehensive children's vision assessment.
 
 #### References
 

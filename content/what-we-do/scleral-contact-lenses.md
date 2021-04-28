@@ -1,13 +1,14 @@
 ---
 title: Scleral Contact Lenses
-category: "SE02"
+category: SE02
 preview_image: scleral-oct-background_preview.jpg
 ---
 <div class="employee-heading">
-<p>At our Adelaide and Woodville practices, optometrists have the ability to fit custom design large diameter scleral contact lenses with <a href="/what-we-do/oct">advanced technologies</a> and materials to treat a range of eye conditions, including <a href="/what-we-do/keratoconus">keratoconus</a>.<sup>1</sup> If you are interested in scleral lenses and would like to know more about whether they are right for you, please make an <a href="/what-we-do/eye-exam">appointment</a> or <a href="/contact">contact us</a>. For more information on the care and handling of scleral lenses visit our information page <a href="https://innovativeeyecare.com.au/what-we-do/scleral-contact-lenses/">here</a>.</p>
-</div>
+<p>At our Adelaide and Woodville practices, optometrists have the ability to fit custom design large diameter scleral contact lenses with <a href="/what-we-do/oct">advanced technologies</a> and materials to treat a range of eye conditions, including <a href="/what-we-do/keratoconus">keratoconus</a>.<sup>1</sup> If you are interested in scleral lenses and would like to know more about whether they are right for you, please make an <a href="/what-we-do/eye-exam">appointment</a> or <a href="/contact">contact us</a>.
 
-<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\\\\\\[if IE]><iframe frameborder="0" type="text/html" src="https://2689-2347.captiv8online.com/animations/embed/one/scleral-lenses?player_width=100%&player_height=100%&site_company_language=34&autostart=false" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\\\\\\[endif]--><!--\\\\\\[if !IE]> <--><object data="https://2689-2347.captiv8online.com/animations/embed/one/scleral-lenses?player_width=100%&player_height=100%&site_company_language=34&autostart=false" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://2689-2347.captiv8online.com/animations/embed/one/scleral-lenses?player_width=100%&player_height=100%&site_company_language=34&autostart=false">Scleral Lenses</a></object><!--> <!\\\\\\[endif]--></div>
+**[See this page for more information on scleral lens care.](https://www.innovativeeyecare.com.au/patient-resources/care-of-scleral-lenses/)**
+
+<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\\\\\\\[if IE]><iframe frameborder="0" type="text/html" src="https://2689-2347.captiv8online.com/animations/embed/one/scleral-lenses?player_width=100%&player_height=100%&site_company_language=34&autostart=false" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\\\\\\\[endif]--><!--\\\\\\\[if !IE]> <--><object data="https://2689-2347.captiv8online.com/animations/embed/one/scleral-lenses?player_width=100%&player_height=100%&site_company_language=34&autostart=false" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://2689-2347.captiv8online.com/animations/embed/one/scleral-lenses?player_width=100%&player_height=100%&site_company_language=34&autostart=false">Scleral Lenses</a></object><!--> <!\\\\\\\[endif]--></div>
 
 <br>
 
@@ -17,9 +18,11 @@ Sclerals are a larger type of [RGP lens](/what-we-do/gas-permeable-contact-lense
 
 Sclerals are commonly used for conditions such as [keratoconus](/what-we-do/keratoconus) and [corneal grafts](/what-we-do/corneal-grafts).<sup>1,2,3</sup> In these cases the cornea is often irregular and compromised, so scleral lenses are better for vision and the health of the eye as they vault right over the cornea to limit contact. This principle can also be used to effectively correct high prescriptions such as [hyperopia](/what-we-do/hyperopia), [myopia](/what-we-do/myopia) and [astigmatism](/what-we-do/astigmatism).<sup>1,3</sup> Patients with [dry eye](/what-we-do/dry-eye-disease) also benefit from using scleral lenses as the fluid contained between the lens and the eye bathes the cornea during wear, easing symptoms and helping to rehabilitate the ocular surface.<sup>1,3</sup>
 
+![](/uploads/scleral-5.jpg)
+
 Scleral lenses are complex and difficult to design and manufacture. Innovative Eye Care uses a range of technologies including [anterior OCT](https://www.innovativeeyecare.com.au/what-we-do/oct), [corneal topography](/what-we-do/corneal-topography), [corneal tomography](https://www.innovativeeyecare.com.au/what-we-do/corneal-tomography) and [wavefront aberrometry](https://www.innovativeeyecare.com.au/what-we-do/wavefront-aberrometry) to custom design these lenses as accurately as possible to improve comfort, eye physiology and vision.
 
-![](/uploads/scleral-5.jpg)
+![](/uploads/esp.jpg)
 
 ##### References
 

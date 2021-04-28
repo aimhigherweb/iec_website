@@ -1,6 +1,6 @@
 ---
 title: Millie Meegan
-jobtitle: Administration & Patient Care
+jobtitle: Administration & Patient Care Officer
 photo: /uploads/staff-millie.png
 order: 14
 ---

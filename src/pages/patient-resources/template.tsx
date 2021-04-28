@@ -5,6 +5,7 @@ import styled from "styled-components"
 import { useMatchMedia } from "../../hooks/useMatchMedia"
 import { Main } from "../../components/Main"
 import { Footer } from "../../components/Layout/Footer"
+import SEO from "../../layouts/partials/seo"
 
 //----------------------------------------------------------
 //-- Section 1: Detail
@@ -204,6 +205,7 @@ const Detail = (state, data) => {
 
   return (
     <DetailSection>
+      <SEO title={title} />
       <LeftNav>
         {prevFinalArticle && (
           <Link to={prevFinalArticle.slug} state={prevFinalArticle.payload}>
@@ -270,6 +272,7 @@ const PatientResTemplate: React.FC = (props) => {
   return (
     <Container>
       {Main(
+        "",
         false,
         null,
         null,

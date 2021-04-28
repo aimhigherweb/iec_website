@@ -1,6 +1,6 @@
 ---
 title: Peter Gallagher
-jobtitle: Administration Officer Woodville
+jobtitle: Administration Officer
 photo: /uploads/staff-pete.png
 order: 18
 ---

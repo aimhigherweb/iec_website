@@ -1,6 +1,6 @@
 ---
 title: Myopia Control
-category: "SE03"
+category: SE03
 preview_image: microsoftteams-image-1-.png
 ---
 <div class="employee-heading">
@@ -53,7 +53,7 @@ Multifocal soft contact lenses are typically used by people over 45 to improve t
 
 ##### Spectacle lenses
 
-The latest research in myopia control has found that a new spectacle lens design known as DIMS (defocus incorporated multiple segments) is also effective in slowing the growth of the eyeball using similar optics as custom contact lenses.<sup>12</sup> DIMS lenses, also known as Hoya MiyoSmart, slow progression by a promising 60% on average, offering children a non-invasive myopia control option.<sup><12/sup> Progressive spectacle lenses may also be used to control myopia depending on your child's binocular vision status, which is tested during the eye examination.<sup>13</sup>
+The latest research in myopia control has found that a new spectacle lens design known as DIMS (defocus incorporated multiple segments) is also effective in slowing the growth of the eyeball using similar optics as custom contact lenses.<sup>12</sup> DIMS lenses, also known as Hoya MiyoSmart, slow progression by a promising 60% on average, offering children a non-invasive myopia control option.<sup>12</sup> Progressive spectacle lenses may also be used to control myopia depending on your child's binocular vision status, which is tested during the eye examination.<sup>13</sup>
 
 #### **How do we know it's working?**
 

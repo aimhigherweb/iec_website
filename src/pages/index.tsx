@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useState } from "react"
 import { navigate } from "gatsby"
 import styled from "styled-components"
 
@@ -7,6 +7,7 @@ import { useMatchMedia } from "../hooks/useMatchMedia"
 import { Main } from "../components/Main"
 import { SocialFeed } from "../components/Social/SocialFeed"
 import { Footer } from "../components/Layout/Footer"
+import SEO from "../layouts/partials/seo"
 
 //----------------------------------------------------------
 //-- Section 1: Team
@@ -54,6 +55,7 @@ const TeamStaffImage = styled.img`
   height: auto;
   background: linear-gradient(to bottom, white 50%, lightgrey 50%);
   filter: grayscale(1);
+  transition: filter 2s;
   &:hover {
     filter: none;
   }
@@ -79,36 +81,39 @@ const TeamService = styled.div`
   padding: 0 40px;
   border: ${DEBUG_TEAM};
 `
-const TeamServiceItem = styled.div`
+const TeamServiceItem = styled.a`
   flex: 1;
   cursor: pointer;
   @media (max-width: ${MAX_WIDTH_PX}) {
     flex-basis: 50%;
   }
+  color: black;
+  transition: color 1s;
+  &:hover {
+    color: #5091cd;
+  }
   border: ${DEBUG_TEAM};
 `
-const TeamServiceImage = styled.img`
+const TeamServiceImage = styled.div`
   display: block;
-  width: auto;
+  width: 32px;
   height: 32px;
   margin: 16px auto;
-  filter: grayscale(100);
-  &:hover {
-    filter: none;
-  }
   @media (max-width: ${MAX_WIDTH_PX}) {
     height: 50px;
   }
-  border: ${DEBUG_TEAM};
+  background: url(${(props) => (props.hover ? props.iconSel : props.icon)});
+  background-size: contain;
+  background-repeat: no-repeat;
+  transition: background 1000ms ease-in-out;
+  border: 0;
 `
 const TeamServiceTitle = styled.p`
   font-family: "open sans";
   font-size: 0.7em;
   font-weight: 600;
   text-align: center;
-  &:hover {
-    color: #5091cd;
-  }
+  color: url(${(props) => (props.hover ? "#5091cd" : "black")});
   @media (max-width: ${MAX_WIDTH_PX}) {
     font-size: 0.7em;
   }
@@ -130,11 +135,63 @@ const TeamFooterImage = styled.img`
   border: ${DEBUG_TEAM};
 `
 
-const Team = (show, whatWeDoCatToggle) => {
+const Team = (show, match, whatWeDoCatToggle) => {
   const whatWeDoCatSelect = (catId) => {
     whatWeDoCatToggle(catId)
     navigate("/what-we-do#topservice")
   }
+
+  const teamServiceItems = [
+    {
+      cat: "SE01",
+      tag: "1",
+      title0: "EYEWEAR",
+      title1: "EXPERTS",
+      icon: "/images2/service-eyewear-experts.png",
+      iconSel: "/images2/service-eyewear-experts-sel.png",
+    },
+    {
+      cat: "SE02",
+      tag: "2",
+      title0: "BESPOKE",
+      title1: "LENSES",
+      icon: "/images2/service-bespoke-contact-lenses.png",
+      iconSel: "/images2/service-bespoke-contact-lenses-sel.png",
+    },
+    {
+      cat: "SE03",
+      tag: "3",
+      title0: "PAEDIATRIC",
+      title1: "VISION",
+      icon: "/images2/service-paediatric-vision.png",
+      iconSel: "/images2/service-paediatric-vision-sel.png",
+    },
+    {
+      cat: "SE04",
+      tag: "4",
+      title0: "DRY EYE",
+      title1: "CLINIC",
+      icon: "/images2/service-dry-eye-clinic.png",
+      iconSel: "/images2/service-dry-eye-clinic-sel.png",
+    },
+    {
+      cat: "SE05",
+      tag: "5",
+      title0: "ADVANCED",
+      title1: "IMAGING",
+      icon: "/images2/service-adv-imaging.png",
+      iconSel: "/images2/service-adv-imaging-sel.png",
+    },
+    {
+      cat: "SE06",
+      tag: "6",
+      title0: "ORTHO-K",
+      title1: "CORRECTION",
+      icon: "/images2/service-orthok-correction.png",
+      iconSel: "/images2/service-orthok-correction-sel.png",
+    },
+  ]
+  const [hover, setHover] = useState("")
 
   return show ? (
     <TeamSection>
@@ -155,6 +212,7 @@ const Team = (show, whatWeDoCatToggle) => {
         <TeamStaff onClick={() => navigate("/who-we-are#topteam")}>
           <TeamStaffImage src="/images2/staff-joanna.png" />
         </TeamStaff>
+        {match && <TeamStaff></TeamStaff>}
       </TeamStaffBar>
       <TeamDescription>
         <p>
@@ -171,58 +229,33 @@ const Team = (show, whatWeDoCatToggle) => {
         </p>
       </TeamDescription>
       <TeamService>
-        <TeamServiceItem onClick={() => whatWeDoCatSelect("SE01")}>
-          <TeamServiceImage src="/images2/service-eyewear-experts-sel.png" />
-          <TeamServiceTitle>
-            EYEWEAR
-            <br />
-            EXPERTS
-          </TeamServiceTitle>
-        </TeamServiceItem>
-        <TeamServiceItem onClick={() => whatWeDoCatSelect("SE02")}>
-          <TeamServiceImage src="/images2/service-bespoke-contact-lenses-sel.png" />
-          <TeamServiceTitle>
-            BESPOKE
-            <br />
-            CONTACT LENSES
-          </TeamServiceTitle>
-        </TeamServiceItem>
-        <TeamServiceItem onClick={() => whatWeDoCatSelect("SE03")}>
-          <TeamServiceImage src="/images2/service-paediatric-vision-sel.png" />
-          <TeamServiceTitle>
-            PAEDIATRIC
-            <br />
-            VISION
-          </TeamServiceTitle>
-        </TeamServiceItem>
-        <TeamServiceItem onClick={() => whatWeDoCatSelect("SE04")}>
-          <TeamServiceImage src="/images2/service-dry-eye-clinic-sel.png" />
-          <TeamServiceTitle>
-            DRY EYE
-            <br />
-            CLINIC
-          </TeamServiceTitle>
-        </TeamServiceItem>
-        <TeamServiceItem onClick={() => whatWeDoCatSelect("SE05")}>
-          <TeamServiceImage src="/images2/service-adv-imaging-sel.png" />
-          <TeamServiceTitle>
-            ADVANCED
-            <br />
-            IMAGING
-          </TeamServiceTitle>
-        </TeamServiceItem>
-        <TeamServiceItem onClick={() => whatWeDoCatSelect("SE06")}>
-          <TeamServiceImage src="/images2/service-orthok-correction-sel.png" />
-          <TeamServiceTitle>
-            ORTHO-K OVERNIGHT
-            <br />
-            CORRECTION
-          </TeamServiceTitle>
-        </TeamServiceItem>
+        {teamServiceItems &&
+          teamServiceItems.map((item, i) => {
+            return (
+              <TeamServiceItem
+                onClick={() => whatWeDoCatSelect(item.cat)}
+                onMouseOver={() => {
+                  setHover(item.tag)
+                }}
+                onMouseLeave={() => {
+                  setHover("")
+                }}
+              >
+                <TeamServiceImage
+                  tag={item.tag}
+                  icon={item.icon}
+                  iconSel={item.iconSel}
+                  hover={item.tag === hover}
+                />
+                <TeamServiceTitle hover={item.tag === hover}>
+                  {item.title0} <br />
+                  {item.title1}
+                </TeamServiceTitle>
+              </TeamServiceItem>
+            )
+          })}
       </TeamService>
-      <TeamFooter>
-        <TeamFooterImage src="/images2/icon-arrow-down.png" />
-      </TeamFooter>
+      <TeamFooter></TeamFooter>
     </TeamSection>
   ) : (
     <div></div>
@@ -450,7 +483,9 @@ const Home: React.FC = () => {
     : null
   return (
     <Container>
+      <SEO title="Home" />
       {Main(
+        "",
         true,
         video,
         null,
@@ -460,7 +495,7 @@ const Home: React.FC = () => {
         session.searchToggle,
         session.bookingToggle
       )}
-      {Team(show, session.whatWeDoCatToggle)}
+      {Team(show, match, session.whatWeDoCatToggle)}
       {Style(show, match, session.bookingToggle)}
       {SocialFeed(show, match)}
       {Footer(show)}

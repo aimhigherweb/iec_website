@@ -84,7 +84,7 @@ describe("Test Pages", function () {
     cy.contains("Contact")
     cy.contains("Shop")
     cy.contains("Home")
-    cy.contains("Who We Are").click()
+    cy.get('[data-cy="main-menu"]').contains("Who We Are").click()
 
     cy.contains("Meet the team")
     cy.contains("Our Optometrists are industry leaders")
@@ -133,7 +133,7 @@ describe("Test Pages", function () {
     cy.contains("Contact")
     cy.contains("Shop")
     cy.contains("Home")
-    cy.contains("What We Do").click()
+    cy.get('[data-cy="main-menu"]').contains("What We Do").click()
 
     //essential data in between pages
     cy.contains("We do things a little differently here")
@@ -144,6 +144,9 @@ describe("Test Pages", function () {
     cy.contains(this.data.TelephoneWoodville)
 
     //checking the working of subscribe button
+    cy.get("#fieldName").should("be.visible")
+    cy.wait(0)
+    cy.get("#fieldName").click({ force: true })
     cy.get("#fieldName").type(this.data.SubscribeUser)
     cy.get("#fieldEmail").type(this.data.SubscribeEmail)
     cy.contains("Subscribe")
@@ -202,7 +205,7 @@ describe("Test Pages", function () {
     cy.contains("Shop")
     cy.contains("Home")
     cy.contains("What We Do")
-    cy.contains("Patient Resources").click()
+    cy.get('[data-cy="main-menu"]').contains("Patient Resources").click()
 
     //essential data in between pages
     cy.contains("Your eye care routine will often involve at-home care ")
@@ -235,7 +238,6 @@ describe("Test Pages", function () {
         author = blogdata.author
         data = blogdata.data
         cy.get("#gatsby-focus-wrapper").contains(title).click({ force: true })
-        cy.contains(author)
         cy.contains(data)
       })
     })
@@ -252,7 +254,7 @@ describe("Test Pages", function () {
     cy.contains("Home")
     cy.contains("What We Do")
     cy.contains("Patient Resources")
-    cy.contains("Blog").click()
+    cy.get('[data-cy="main-menu"]').contains("Blog").click()
 
     //essential data in between pages
     cy.contains(
@@ -267,6 +269,9 @@ describe("Test Pages", function () {
     cy.contains(this.data.TelephoneWoodville)
 
     //checking the working of subscribe button
+    cy.get("#fieldName").should("be.visible")
+    cy.wait(0)
+    cy.get("#fieldName").click({ force: true })
     cy.get("#fieldName").type(this.data.SubscribeUser)
     cy.get("#fieldEmail").type(this.data.SubscribeEmail)
     cy.contains("Subscribe")
@@ -294,7 +299,7 @@ describe("Test Pages", function () {
     cy.contains("Home")
     cy.contains("What We Do")
     cy.contains("Patient Resources")
-    cy.contains("Contact").click()
+    cy.get('[data-cy="main-menu"]').contains("Contact").click()
 
     cy.contains(this.data.AddressAdelaide)
     cy.contains(this.data.TelephoneAdelaide)
