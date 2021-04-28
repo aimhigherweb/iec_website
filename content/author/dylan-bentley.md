@@ -2,10 +2,6 @@
 title: Dylan Bentley
 jobtitle: Optometrist
 photo: /uploads/staff-dylan.png
-skill1: Contact Lenses
-skill2: Paediatric Vision
-skill3: Diabetic Eye Care
-skill4: Glaucoma
 order: 3
 ---
 

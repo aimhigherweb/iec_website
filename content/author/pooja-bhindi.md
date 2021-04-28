@@ -2,10 +2,6 @@
 title: Pooja Bhindi
 jobtitle: Optometrist
 photo: /uploads/staff-pooja.png
-skill1: MYOPIA CONTROL
-skill2: CONTACT LENSES
-skill3: BINOCULAR VISION
-skill4: THERAPEUTIC EYE CARE
 order: 4
 ---
 

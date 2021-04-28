@@ -2,14 +2,6 @@
 title: Joanna Rohrlach
 jobtitle: Optometrist
 photo: /uploads/staff-joanna.png
-skill1: BINOCULAR VISION
-rating1: 100
-skill2: THERAPEUTIC EYE CARE
-rating2: 100
-skill3: CONTACT LENSES
-rating3: 100
-skill4: COLLABORATIVE CARE
-rating4: 100
 order: 5
 ---
 

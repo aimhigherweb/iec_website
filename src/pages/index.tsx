@@ -239,7 +239,8 @@ const StyleSection = styled.div`
   height: 100vh;
 
   background-image: url("/images2/bg-section-style.jpg");
-  background-size: cover;
+  background-size: cover
+  
   background-repeat: no-repeat;
   @media (max-width: ${MAX_WIDTH_PX}) {
     background-image: url("/images2/bg-section-style-mob.jpg");
