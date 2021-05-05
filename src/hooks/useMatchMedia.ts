@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react"
 import { window } from "browser-monads"
 
-export const useMatchMedia: boolean = ({ width }) => {
+export const useMatchMedia = ({ width }) => {
   const [isMatched, setMatched] = useState(
     window.matchMedia(`(max-width: ${width}px)`).matches
   )
@@ -18,6 +18,6 @@ export const useMatchMedia: boolean = ({ width }) => {
   return isMatched
 }
 
-export const matchMediaNow: boolean = ({ width }) => {
+export const matchMediaNow = ({ width }) => {
   return window.matchMedia(`(max-width: ${width}px)`).matches
 }

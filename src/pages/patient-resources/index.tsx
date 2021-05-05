@@ -2,12 +2,16 @@ import React, { useState } from "react"
 import { graphql, Link } from "gatsby"
 import styled from "styled-components"
 
-import { useSession } from "../../state/SessionWrapper"
-import { useMatchMedia } from "../../hooks/useMatchMedia"
+// import { useSession  } from "../../state/SessionWrapper"
+const useSession: any = require("../../state/SessionWrapper")
+const useMatchMedia: any = require("../../hooks/useMatchMedia")
+
+// import { useMatchMedia } from "../../hooks/useMatchMedia"
 import { Main } from "../../components/Main"
 import { SocialFeed } from "../../components/Social/SocialFeed"
 import { Footer } from "../../components/Layout/Footer"
-import SEO from "../../layouts/partials/seo"
+// import SEO from "../../layouts/partials/seo"
+const SEO: any = require("../../layouts/partials/seo")
 
 //----------------------------------------------------------
 //-- Section 1: Patient Resources
@@ -125,7 +129,7 @@ const ServiceDetailTextDesc = styled.div`
   border-bottom: 1px dotted #aaaaaa;
 `
 
-const Patient = (show, data, currentIndex, updateIndex) => {
+const Patient = (show: any, data: any, currentIndex: any, updateIndex: any) => {
   const patientResCategories = [
     {
       category: "Contact Lens Instructions",
@@ -194,7 +198,7 @@ const Patient = (show, data, currentIndex, updateIndex) => {
       </PatientResService>
       {current &&
         current.articles &&
-        current.articles.map((item, i) => {
+        (current.articles as any).map((item, i) => {
           const imageSrc = item.node.frontmatter.preview_image
           const payload = { ...current }
           payload["category"] = patientResCategories[current.index]
@@ -237,11 +241,11 @@ const Container = styled.div`
 const HeaderSection = styled.div`
   height: 88px;
 `
-const Header = (match) => {
+const Header = (match: any) => {
   return match ? <HeaderSection /> : <></>
 }
 
-const PatientResources: React.FC = (mainprops) => {
+const PatientResources: React.FC = (mainprops: any) => {
   const match = useMatchMedia({
     width: MAX_WIDTH,
   })

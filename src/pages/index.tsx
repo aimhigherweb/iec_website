@@ -2,6 +2,7 @@ import React, { useState } from "react"
 import { navigate } from "gatsby"
 import styled from "styled-components"
 
+// import { useSession } from "../state/SessionWrapper"
 import { useSession } from "../state/SessionWrapper"
 import { useMatchMedia } from "../hooks/useMatchMedia"
 import { Main } from "../components/Main"
@@ -268,11 +269,11 @@ const Team = (show, match, whatWeDoCatToggle) => {
 const DEBUG_STYLE = "0px solid blue"
 const StyleSection = styled.div`
   position: relative;
-  width: auto;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
 
-  background-image: url("/images2/bg-section-style.jpg");
-  background-size: cover
+  background-image: url("/images2/bg-section-style-cropped.jpg");
+  background-size: cover; background-position: center center
   
   background-repeat: no-repeat;
   @media (max-width: ${MAX_WIDTH_PX}) {
