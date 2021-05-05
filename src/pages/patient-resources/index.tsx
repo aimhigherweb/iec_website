@@ -2,16 +2,16 @@ import React, { useState } from "react"
 import { graphql, Link } from "gatsby"
 import styled from "styled-components"
 
-// import { useSession  } from "../../state/SessionWrapper"
-const useSession: any = require("../../state/SessionWrapper")
-const useMatchMedia: any = require("../../hooks/useMatchMedia")
+import { useSession } from "../../state/SessionWrapper"
+// const useSession:any = require("../../state/SessionWrapper")
+// const useMatchMedia:any =require("../../hooks/useMatchMedia")
 
-// import { useMatchMedia } from "../../hooks/useMatchMedia"
+import { useMatchMedia } from "../../hooks/useMatchMedia"
 import { Main } from "../../components/Main"
 import { SocialFeed } from "../../components/Social/SocialFeed"
 import { Footer } from "../../components/Layout/Footer"
-// import SEO from "../../layouts/partials/seo"
-const SEO: any = require("../../layouts/partials/seo")
+import SEO from "../../layouts/partials/seo"
+// const SEO:any=require("../../layouts/partials/seo")
 
 //----------------------------------------------------------
 //-- Section 1: Patient Resources
