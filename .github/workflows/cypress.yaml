@@ -1,9 +1,7 @@
-name: Run Cypress e2e Tests
 on:
   push:
 jobs:
-  test:
-    name: Run Cypress e2e tests
+  cypress:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
