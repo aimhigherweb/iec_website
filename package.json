@@ -81,7 +81,7 @@
     "serve": "gatsby serve -p 8000",
     "clean": "gatsby clean",
     "cy:run": "cypress run",
-    "ci": "start-server-and-test serve http://localhost:8000 'cypress run --record --parallel'",
+    "ci": "start-server-and-test serve http://localhost:8000 'cypress run --parallel'",
     "lint": "eslint . --ignore-path .gitignore --ext .ts,.tsx,.js",
     "format:check": "prettier --check .",
     "format:write": "prettier --write ."
