@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react"
 import { window } from "browser-monads"
 
-export const useMatchScroll: number = () => {
+export const useMatchScroll = () => {
   const [offset, setOffset] = useState(window.pageYOffset)
 
   useEffect(() => {

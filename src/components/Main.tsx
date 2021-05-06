@@ -29,7 +29,13 @@ const MainHeader = styled.div`
   z-index: 9999;
   padding: 16px 10px 10px 20px;
   width: 100%;
-  background-color: ${(props) => {
+  background-color: ${(props: {
+    searchMode: any
+    bookingMode: any
+    carouselMode: any
+    showFull: any
+    scrolledDown: any
+  }) => {
     if (props.searchMode || props.bookingMode || props.carouselMode) {
       return "#000000"
     } else if (!props.showFull || props.scrolledDown) {
@@ -53,7 +59,8 @@ const Logo = styled.img.attrs({
   cursor: pointer;
   @media (max-width: ${MAX_WIDTH_PX}) {
     width: 160px;
-    visibility: ${(props) => (props.hide ? "hidden" : "visible")};
+    visibility: ${(props: { hide: any }) =>
+      props.hide ? "hidden" : "visible"};
   }
   border: ${DEBUG_MAIN};
 `
@@ -66,9 +73,16 @@ const HeaderTitle = styled.div`
   font-size: 1.6em;
   font-weight: 700;
   color: white;
-  color: ${(props) => {
+  color: ${(props: {
+    searchMode: any
+    bookingMode: any
+    carouselMode: any
+    scrolledDown: any
+  }) => {
     if (props.searchMode || props.bookingMode || props.carouselMode) {
       return "#00000000"
+    } else if (props.scrolledDown) {
+      return "#424242"
     } else {
       return "#ffffff"
     }
@@ -108,7 +122,7 @@ const MainHeaderFiller = styled.div`
 
 const MainMenu = styled.div`
   position: fixed;
-  display: ${(props) => (props.show ? "true" : "none")};
+  display: ${(props: { show: any }) => (props.show ? "true" : "none")};
   align-items: right;
   z-index: 9999;
   right: 0;
@@ -180,7 +194,7 @@ const MainFooter = styled.div`
     flex-direction: column;
     height: auto;
   }
-  background-color: ${(props) => {
+  background-color: ${(props: { searchMode: any; scrolledDown: any }) => {
     if (props.searchMode) {
       return "#000000"
     } else if (props.scrolledDown) {
@@ -393,7 +407,14 @@ const MainDiv = (
             showFull={showFull}
           >
             <Logo onClick={() => navigate("/")} hide={showSearch} />
-            <HeaderTitle scrolledDown={scrolledDown}>{title}</HeaderTitle>
+            <HeaderTitle
+              searchMode={showSearch}
+              bookingMode={showBooking}
+              carouselMode={carouselToDisplay}
+              scrolledDown={scrolledDown}
+            >
+              {title}
+            </HeaderTitle>
             {showSearch && (
               <MainSearchMob>
                 <MainSearchWrapper>
@@ -621,7 +642,7 @@ const MainDiv = (
 //----------------------------------------------------------
 //-- Render
 //----------------------------------------------------------
-export const Main: React.FC = (
+export const Main: any = (
   title,
   showFull,
   videoToPlay,

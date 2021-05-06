@@ -11,6 +11,7 @@ import { Main } from "../../components/Main"
 import { SocialFeed } from "../../components/Social/SocialFeed"
 import { Footer } from "../../components/Layout/Footer"
 import SEO from "../../layouts/partials/seo"
+
 // const SEO:any=require("../../layouts/partials/seo")
 
 //----------------------------------------------------------
@@ -62,7 +63,8 @@ const PatientResServiceItem = styled.div`
     flex-basis: 50%;
   }
   cursor: pointer;
-  background-color: ${(props) => (props.chosen ? "#5091cd" : "white")};
+  background-color: ${(props: { chosen: any }) =>
+    props.chosen ? "#5091cd" : "white"};
   border: 1px solid black;
 `
 const PatientResServiceTitle = styled.p`
@@ -75,7 +77,7 @@ const PatientResServiceTitle = styled.p`
   @media (max-width: ${MAX_WIDTH_PX}) {
     font-size: 0.7em;
   }
-  color: ${(props) => (props.chosen ? "white" : "black")};
+  color: ${(props: { chosen: any }) => (props.chosen ? "white" : "black")};
   border: ${DEBUG_TEAM};
 `
 
@@ -95,9 +97,9 @@ const ServiceDetailImage = styled.img`
   object-fit: cover;
   cursor: pointer;
   transition: filter 2s;
-  filter: ${(props) => (props.chosen ? "none" : "grayscale(1)")};
+  filter: ${(props: any) => (props.chosen ? "none" : "grayscale(1)")};
   &:hover {
-    filter: ${(props) => (props.chosen ? "none" : "none")};
+    filter: ${(props: any) => (props.chosen ? "none" : "none")};
   }
   @media (max-width: ${MAX_WIDTH_PX}) {
     width: 50px;

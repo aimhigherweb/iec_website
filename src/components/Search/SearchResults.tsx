@@ -3,7 +3,7 @@ import { useStaticQuery, graphql } from "gatsby"
 import styled from "styled-components"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faTimes } from "@fortawesome/free-solid-svg-icons"
-import Fuse from "fuse.js"
+import Fuse, { FuseOptions } from "fuse.js"
 
 import { useSession } from "../../state/SessionWrapper"
 import { useMatchMedia } from "../../hooks/useMatchMedia"
@@ -89,8 +89,15 @@ const ResultDetail = styled.div`
   }
   border: ${DEBUG_SEARCH};
 `
+type SearchProps = {
+  resultCallback: any
+  closeCallback: any
+}
 
-export const SearchResults: React.FC = ({ resultCallback, closeCallback }) => {
+export const SearchResults: React.FC<SearchProps> = ({
+  resultCallback,
+  closeCallback,
+}) => {
   const data = useStaticQuery(graphql`
     {
       allMarkdownRemark(
@@ -120,13 +127,14 @@ export const SearchResults: React.FC = ({ resultCallback, closeCallback }) => {
   })
 
   const list = data.allMarkdownRemark.nodes
-  const [matches, setMatches] = useState([])
+  const [matches, setMatches] = useState<unknown[] | any>([])
 
   const session = useSession()
   const searchText = session.current.searchText
 
   const handleSearch = async (value) => {
     console.log(`*** SearchResults.handleSearch... value=${value}`)
+
     const options = {
       shouldSort: true,
       threshold: 0.5,
@@ -139,6 +147,7 @@ export const SearchResults: React.FC = ({ resultCallback, closeCallback }) => {
     }
     const fuse = new Fuse(list, options)
     const results = fuse.search(value)
+
     setMatches({ results: results, searchValue: value })
   }
 
@@ -180,7 +189,7 @@ export const SearchResults: React.FC = ({ resultCallback, closeCallback }) => {
           }}
           onKeyPress={() => closeCallback()}
           role="button"
-          tabIndex="0"
+          tabIndex={0}
         />
         <div>
           <ResultHeader>{title}</ResultHeader>
