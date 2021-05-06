@@ -1,8 +1,7 @@
 on:
   push:
 jobs:
-  prettier:
-    name: Run Prettier Check
+  prettier_and_tsc:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
