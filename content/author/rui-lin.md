@@ -1,6 +1,6 @@
 ---
 title: Rui Lin
-jobtitle: Optometrist
+jobtitle: Dispenser
 photo: /uploads/staff-rui.png
 order: 6
 ---
