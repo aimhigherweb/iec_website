@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: master #local development (=staging)
+  branch: main #local development (=staging)
 
 # local development: when using the default proxy server port
 # local_backend: true
