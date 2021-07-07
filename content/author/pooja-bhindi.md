@@ -4,7 +4,8 @@ jobtitle: Optometrist
 photo: /uploads/staff-pooja.png
 order: 4
 ---
+Pooja is a therapeutically qualified optometrist who graduated from Flinders University and has a keen interest in specialty contact lenses, keratoconus, and myopia management. She is also heavily involved in the eyecare industry, being the current State President for the South Australian division of CCLSA as well as sitting on the ECOV/SA committee for early career optometrists.  
 
-Pooja has joined Innovative Eye Care after graduating from Flinders University in 2019 with outstanding results. During her time at university, she juggled study with a role in the Flinders University Optometry Student Association, of which she was president during her final year, and volunteering for St Vincent de Paul's mobile eye clinic.
+Pooja views helping patients improve their quality of life as the most rewarding part of optometry. She also has a focus on research and has recently been published in renowned scientific journal *Clinical and Experimental Optometry* for her work on angiography.
 
-Pooja views helping patients improve their quality of life as the most rewarding part of optometry. She has a particular interest in complex contact lenses and myopia management, and is a committee member for CCLSA and ECOVicSA. She also has a focus on research and has recently been published in renowned scientific journal <i>Clinical and Experimental Optometry</i> for her work on angiography. Outside of work, Pooja enjoys travelling the globe, keeping active and trying out the many restaurants and wineries that South Australia has on offer.
+Outside of work, Pooja enjoys travelling the globe, keeping active and trying out the many restaurants and wineries that South Australia has on offer.
