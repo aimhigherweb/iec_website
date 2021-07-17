@@ -1,6 +1,6 @@
 ---
 title: Rui Lin
-jobtitle: Dispenser
+jobtitle: Optical Dispenser
 photo: /uploads/staff-rui.png
 order: 6
 ---
