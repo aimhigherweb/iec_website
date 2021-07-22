@@ -16,13 +16,15 @@ Binocular vision disorders are conditions which affect how the eyes work togethe
 
 Some vision problems, such as <a href="https://www.innovativeeyecare.com.au/what-we-do/myopia">short-sightedness</a>, <a href="https://www.innovativeeyecare.com.au/what-we-do/hyperopia/">long-sightedness</a>, and <a href="https://www.innovativeeyecare.com.au/what-we-do/astigmatism/">astigmatism</a> can be corrected with spectacles or <a href="https://www.innovativeeyecare.com.au/what-we-do/contact-lenses/">contact lenses</a>, however many binocular vision disorders require vision training exercises. 
 
+![](/uploads/jeshoots-com-xgthjc_qnjm-unsplash.jpg)
+
 New to the world of vision training comes <a href="https://www.innovativeeyecare.com.au/what-we-do/vivid-vision-virtual-reality-vision-training/">Vivid Vision</a>, a virtual reality (VR) vision training program. Our Adelaide practice is the first practice in South Australia to exclusively offer Vivid Vision to help improve your binocular vision skills. Since the beginning of the 2010s, the next generation of VR headsets have been released and this has led to the development of vision training exercises within virtual reality. The virtual reality inside of Vivid Vision helps your eyes work together and improve your depth perception (or 3D vision).<sup>1, 2</sup>
 
 Our optometrists can develop a personally tailored vision training program for your eyes and track your improvement. The interactive nature of Vision Vision also helps kids stay engaged and allows for longer training sessions.
 
-Patients young and old can benefit from vision training. Vision training is often recommended to school-aged children to assist with their learning in the classroom, however it can be helpful for many other people including athletes and avid readers. Your optometrist will discuss with you at your eye examination if vision training may be beneficial to improve your visual performance and comfort.
+Patients young and old can benefit from vision training. Vision training is often recommended to school-aged children to assist with their learning in the classroom, however it can be helpful for many other people including athletes and avid readers. 
 
-![](/uploads/jeshoots-com-xgthjc_qnjm-unsplash.jpg)
+![](/uploads/alora-griffiths-wx7fsaiyxk8-unsplash.jpg)
 
 To find out more and to see if you or your child is a candidate for Vivid Vision, visit our <a href="https://www.innovativeeyecare.com.au/what-we-do/vivid-vision-virtual-reality-vision-training/">Vivid Vision webpage</a>, or <a href="https://www.innovativeeyecare.com.au/contact">contact</a> our friendly staff. 
 
