@@ -20,6 +20,8 @@ New to the world of vision training comes <a href="https://www.innovativeeyecare
 
 Our optometrists can develop a personally tailored vision training program for your eyes and track your improvement. The interactive nature of Vision Vision also helps kids stay engaged and allows for longer training sessions.
 
+Patients young and old can benefit from vision training. Vision training is often recommended to school-aged children to assist with their learning in the classroom, however it can be helpful for many other people including athletes and avid readers. Your optometrist will discuss with you at your eye examination if vision training may be beneficial to improve your visual performance and comfort.
+
 ![](/uploads/jeshoots-com-xgthjc_qnjm-unsplash.jpg)
 
 To find out more and to see if you or your child is a candidate for Vivid Vision, visit our <a href="https://www.innovativeeyecare.com.au/what-we-do/vivid-vision-virtual-reality-vision-training/">Vivid Vision webpage</a>, or <a href="https://www.innovativeeyecare.com.au/contact">contact</a> our friendly staff. 
