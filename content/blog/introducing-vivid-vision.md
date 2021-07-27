@@ -22,7 +22,7 @@ New to the world of vision training comes <a href="https://www.innovativeeyecare
 
 Our optometrists can develop a personally tailored vision training program for your eyes and track your improvement. The level of difficulty can be changed in sessions, much like adding weights to dumbbell in the gym. The interactive nature of Vision Vision helps kids stay engaged and allows for longer training sessions.<sup>3</sup>
 
-Patients young and old can benefit from vision training.<sup>4/sup> Vision training is often recommended to school-aged children to assist with their learning in the classroom, but it can be helpful for many other people including athletes and avid readers.
+Patients young and old can benefit from vision training.<sup>4</sup> Vision training is often recommended to school-aged children to assist with their learning in the classroom, but it can be helpful for many other people including athletes and avid readers.
 
 ![](/uploads/alora-griffiths-wx7fsaiyxk8-unsplash.jpg)
 
