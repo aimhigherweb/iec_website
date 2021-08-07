@@ -19,9 +19,9 @@ Always wash and rinse your hands thoroughly and dry them with a lint-free towel/
 
 #### Insertion
 
-To avoid confusion make a habit of inserting the same lens - generally the right lens - first. You will notice that the right lens is green and the left lens blue. Minimise the risk of lens loss by plugging the sink or using a paper towel over the drainage opening.
+To avoid confusion make a habit of inserting the same lens - generally the right lens - first. You will notice that the right lens is purple and the left lens blue. Minimise the risk of lens loss by plugging the sink or using a paper towel over the drainage opening.
 
-<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\\\\\\\[if IE]><iframe frameborder="0" type="text/html" src="https://www.youtube.com/embed/YgNS5aE9pAo" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\\\\\\\[endif]--><!--\\\\\\\[if !IE]> <--><object data="https://www.youtube.com/embed/YgNS5aE9pAo" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://www.youtube.com/embed/YgNS5aE9pAo">Scleral Lens Insertion & Removal By EyeSpace Lenses</a></object><!--> <!\\\\\\\[endif]--></div>
+<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\\\\\\\\[if IE]><iframe frameborder="0" type="text/html" src="https://www.youtube.com/embed/YgNS5aE9pAo" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\\\\\\\\[endif]--><!--\\\\\\\\[if !IE]> <--><object data="https://www.youtube.com/embed/YgNS5aE9pAo" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://www.youtube.com/embed/YgNS5aE9pAo">Scleral Lens Insertion & Removal By EyeSpace Lenses</a></object><!--> <!\\\\\\\\[endif]--></div>
 
 <i><b>Step 1.</b></i> Remove your Ortho-K lenses from the cleaning solution case and rinse with saline. If you are using a hydrogen peroxide solution, you can only remove the lenses after a minimum soaking time of six hours.<sup>8</sup>
 
