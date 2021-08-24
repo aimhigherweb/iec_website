@@ -1,13 +1,13 @@
 ---
 title: Strabismus
 category: SE03
+preview_image: /uploads/strabismus.jpg
 ---
 Each eye has 6 external muscles (know as the extraocular muscles) which control the movement and position of the two eyes. To maintain clear and single vision, the muscles and the nerves controlling these muscles must work together.
 
-
 **Strabismus**, also known as a turned eye or squint, is a condition where the two eyes do not align properly when looking at a target. It affects 2-4% of all children in Australia and can be classified by whether the eyes turn inwards (esotropia), outwards (exotropia), upwards (hypertropia) or downwards (hypotropia) (1). They can also be classified by whether the eye turn occurs all the time (constant) or some of the time (intermittent) and whether it affects one eye (unilateral) or both eyes (alternating/bilateral).
 
-![](/uploads/strabismus.jpg)
+![](/uploads/strabismus1.jpg)
 
 Strabismus can affect many aspects of life both educationally and general activities in daily life therefore early diagnosis is crucial (2,3). For example, young children may develop an avoidance to reading leading to poor academic performance (4).
 
@@ -42,7 +42,6 @@ Importantly, some children may even be asymptomatic where they report no ocular 
 The goal for treatment of a strabismus is to improve eye alignment to allow for the eyes to work together more efficiently. Specifically, management should aim to improve vision in one or both eyes, improve a patient’s binocular vision, eliminate the possibility of amblyopia (lazy eye), and obtain a favorable cosmetic appearance to the eyes. There are many treatment options for strabismus, and they often depend on the type and cause of strabismus.
 
 Spectacles and contact lenses are used to treat any refractive error or eye prescription allowing the eyes to relax and can straighten the eyes. Vision training (e.g. Vivid Vision) can also strengthen the eye muscles preventing an eye turn (7). If all other treatment options are unsuccessful, patients may require strabismus surgery which aims to surgically straighten the eyes.
-
 
 On-going follow up are required to monitor how the eyes are working together. If treated early, children can prevent amblyopia and loss of depth perception.
 
