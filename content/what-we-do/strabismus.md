@@ -5,22 +5,21 @@ preview_image: /uploads/strabismus.jpg
 ---
 Each eye has 6 external muscles (know as the extraocular muscles) which control the movement and position of the two eyes. To maintain clear and single vision, the muscles and the nerves controlling these muscles must work together.
 
-**Strabismus**, also known as a turned eye or squint, is a condition where the two eyes do not align properly when looking at a target. It affects 2-4% of all children in Australia and can be classified by whether the eyes turn inwards (esotropia), outwards (exotropia), upwards (hypertropia) or downwards (hypotropia) (1). They can also be classified by whether the eye turn occurs all the time (constant) or some of the time (intermittent) and whether it affects one eye (unilateral) or both eyes (alternating/bilateral).
+**Strabismus**, also known as a turned eye or squint, is a condition where the two eyes do not align properly when looking at a target. It affects 2-4% of all children in Australia and can be classified by whether the eye turns inwards (esotropia), outwards (exotropia), upwards (hypertropia) or downwards (hypotropia).<sup>1</sup> They can also be classified by whether the eye turn occurs all the time (constant) or some of the time (intermittent) and whether it affects one eye (unilateral) or both eyes (alternating/bilateral).<sup>1</sup>
 
 ![](/uploads/strabismus1.jpg)
 
-Strabismus can affect many aspects of life both educationally and general activities in daily life therefore early diagnosis is crucial (2,3). For example, young children may develop an avoidance to reading leading to poor academic performance (4).
+Strabismus can affect many aspects of life including education, hand-eye coordination, social development and other general activities in daily life making early intervention crucial.<sup>2,3</sup> For example, young children may develop an avoidance to reading which could cause poor academic performance.<sup>4</sup>
 
 # Causes
 
-Strabismus is uncommon in the first 3-6 months of life and usually relates to how a child’s eye muscles are controlled by the brain.
-Turned eyes usually present between the ages of 1 to 4. The common causes of strabismus in children include:
+Strabismus is uncommon in the first 3-6 months of life and usually relates to how a child’s eye muscles are controlled by the brain. Turned eyes usually present between the ages of 1 to 4. The common causes of strabismus in children include:
 
-* Uncorrected refractive error or eye prescription (particularly high long-sightedness). This leads to the eyes over focusing and subsequently resulting in a strabismus
+* Uncorrected refractive error or eye prescription (particularly high long-sightedness) causing the muscles that focus and direct the eyes to overexert themselves
 * Excessive nerve stimulation of the muscles controlling eye movements
-* Other rare causes include certain medical conditions or muscular issues
+* Other less common causes including certain medical conditions or muscular issues
 
-Furthermore, it is important to consider a child’s genetics as a family history of strabismus can increase the risk of a child developing a strabismus (5).
+Furthermore, it is important to consider a child’s genetics as a family history of strabismus can increase the risk of developing the condition.<sup>5</sup>
 
 In adults, the main causes of strabismus include thyroid problems and various types of cardiovascular disease. As most types of strabismus in adults are acquired, proper management often includes ruling out these possible causes.
 
@@ -30,18 +29,18 @@ Symptoms of strabismus can be variable and can be dependent on age. They can inc
 
 * Double vision
 * Squinting
-* Excessive head tilt
-* Crossed or turned eyes (although this may be very difficult to identify)]
+* Excessive head tilt or abnormal head position
+* Crossed or turned eyes (although this may be very difficult to identify)
 * Eyes that do not move together
-* Reduced depth perception
+* Poor depth perception
 
-Importantly, some children may even be asymptomatic where they report no ocular symptoms. If untreated, a child can develop suppression, where the brain selectively turns off the signal from the turned eye to ultimately minimise confusion and avoid double vision. This is known as suppression. Although this seems beneficial, the suppressed eye is unable to develop properly and leads to amblyopia, also known as a lazy eye. Importantly, early identification and treatment of strabismus can prevent amblyopia in children (6).
+Importantly, some children may not even be aware they are experiencing these symptoms, and so may not inform their parents. If untreated, a child may suppress one eye – this occurs when the brain selectively 'turns off' visual signals it receives from the turned eye to minimise confusion and avoid double vision. Although this might seem beneficial, suppression of the turned eye leads to [amblyopia, or 'lazy eye'](https://www.innovativeeyecare.com.au/what-we-do/amblyopia), where the suppressed eye does not properly develop. Early identification and treatment of strabismus is therefore vital to prevent amblyopia in children.<sup>6</sup>
 
 # Management
 
-The goal for treatment of a strabismus is to improve eye alignment to allow for the eyes to work together more efficiently. Specifically, management should aim to improve vision in one or both eyes, improve a patient’s binocular vision, eliminate the possibility of amblyopia (lazy eye), and obtain a favorable cosmetic appearance to the eyes. There are many treatment options for strabismus, and they often depend on the type and cause of strabismus.
+The goal when treating strabismus is to improve eye alignment, allowing the eyes to work together more effectively. Often this will boost vision in one or both eyes, improve a patient’s binocular vision, eliminate the possibility of amblyopia and favourably alter the cosmetic appearance of the eyes. There are many treatment options for strabismus, and they often depend on the type and cause of strabismus.
 
-Spectacles and contact lenses are used to treat any refractive error or eye prescription allowing the eyes to relax and can straighten the eyes. Vision training (e.g. Vivid Vision) can also strengthen the eye muscles preventing an eye turn (7). If all other treatment options are unsuccessful, patients may require strabismus surgery which aims to surgically straighten the eyes.
+Spectacles and contact lenses are used to treat any refractive error or eye prescription, which let the eye muscles relax and straighten. Vision training (e.g. Vivid Vision) can also strengthen the eye muscles preventing an eye turn.<sup>7</sup> If all other treatment options are unsuccessful, patients may require strabismus surgery which aims to surgically straighten the eyes.
 
 On-going follow up are required to monitor how the eyes are working together. If treated early, children can prevent amblyopia and loss of depth perception.
 
