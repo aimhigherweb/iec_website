@@ -25,7 +25,7 @@ preview_image: /uploads/contact-lenses-4.jpg
 * Squeeze Test: Gently squeeze the lens between thumb and forefinger. If the edges meet, the lens is positioned the correct way.
 
 ![](/uploads/lenses-1-.jpg)
-_A lens facing the right side up (right), and wrong side up (left)_
+*A lens facing the correct side up (left), and wrong side up (right)*
 
 #### Insertion
 
@@ -48,7 +48,7 @@ _A lens facing the right side up (right), and wrong side up (left)_
 * Gently squeeze the lens between thumb and index finger to remove the lens.
 * An alternative method is to remove the lens directly from the cornea using the thumb and index finger.
 
-<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\\\\\[if IE]><iframe frameborder="0" type="text/html" src="https://www.youtube.com/embed/R2KRU2iMR_Y" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\\\\\[endif]--><!--\\\\\[if !IE]> <--><object data="https://www.youtube.com/embed/R2KRU2iMR_Y" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://www.youtube.com/embed/R2KRU2iMR_Y">Scleral Lens Insertion & Removal By EyeSpace Lenses</a></object><!--> <!\\\\\[endif]--></div>
+<div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><!--\\\\\\[if IE]><iframe frameborder="0" type="text/html" src="https://www.youtube.com/embed/R2KRU2iMR_Y" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe><!\\\\\\[endif]--><!--\\\\\\[if !IE]> <--><object data="https://www.youtube.com/embed/R2KRU2iMR_Y" type="text/html" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;">  alt : <a href="https://www.youtube.com/embed/R2KRU2iMR_Y">Scleral Lens Insertion & Removal By EyeSpace Lenses</a></object><!--> <!\\\\\\[endif]--></div>
 
 <br>
 
