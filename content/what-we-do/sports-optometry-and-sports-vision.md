@@ -28,6 +28,8 @@ Another important consideration is eye protection. Some sports have a much highe
 
 [Contact lenses](https://www.innovativeeyecare.com.au/what-we-do/contact-lenses/) are a popular choice amongst athletes as they allow for excellent field of view and clarity of vision. Innovative Eye Care is a leading contact lens practice and our optometrists can fit and design contact lenses suitable for athletes with both simple and highly challenging prescriptions. These include [soft disposable contact lenses](https://www.innovativeeyecare.com.au/what-we-do/soft-contact-lenses/), [rigid gas permeable lenses](https://www.innovativeeyecare.com.au/what-we-do/gas-permeable-contact-lenses/), [scleral lenses](https://www.innovativeeyecare.com.au/what-we-do/scleral-contact-lenses/), and [orthokeratology lenses](https://www.innovativeeyecare.com.au/what-we-do/orthokeratology-corneal-reshaping/). 
 
+![](/uploads/golf.png)
+
 ### Vision training and Vivid Vision
 
 [Vision training](https://www.innovativeeyecare.com.au/what-we-do/vision-training/) involves a series of activities which are individually prescribed to develop or improve a patient’s binocular visual skills. These important visual skills include accommodation (eye focusing), vergence (eye alignment), eye movements and depth perception. If an athlete has deficiency or weakness in one of these skills, improvement of these skills can improve athletic performance.  
