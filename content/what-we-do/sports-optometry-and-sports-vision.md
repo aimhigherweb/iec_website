@@ -7,6 +7,8 @@ preview_image: /uploads/xfcnvb.png
 
 <p>In sports, the following phrases are often stated for good reason: “your eyes lead the body”, “keep your eye on the ball” and “you can’t hit what you can’t see”. Your vision makes up 80% of your total perceptual input and is the sense which has the most impact on sports performance.<sup>1</sup> Studies have shown that professional athletes have greater visual-perceptual and visual-cognitive skills. <sup>2</sup> 
 
+![](/uploads/karl.png)
+
 The following are aspects of vision which can impact an athlete’s visual potential: 
 
 * **Visual accuracy (acuity).** This can be measured both statically (black letters on white background) or dynamically (introducing motion). 
