@@ -18,7 +18,7 @@ The following are aspects of vision which can impact an athlete’s visual poten
 
 ### Refractive correction (Spectacles and Contact Lenses)
 
-Improving your visual acuity has a significant impact on your overall performance. There are many options that someone can use to correct their refractive error, whether it be for myopia, hyperopia or astigmatism. 
+Improving your visual acuity has a significant impact on your overall performance. There are many options that someone can use to correct their refractive error, whether it be for [myopia](https://www.innovativeeyecare.com.au/what-we-do/myopia/), [hyperopia](https://www.innovativeeyecare.com.au/what-we-do/hyperopia/) or [astigmatism](https://www.innovativeeyecare.com.au/what-we-do/astigmatism/). 
 
 Spectacles are simple and effective. They provide excellent visual clarity and can be used for impact resistance (eye protection). However, it is important to consider that your field of vision through spectacles may be limited, fogging issues can occur and there are limitations with the types of frames chosen. 
 
