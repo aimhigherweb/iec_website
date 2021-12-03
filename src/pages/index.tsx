@@ -211,6 +211,9 @@ const Team = (show, match, whatWeDoCatToggle) => {
           <TeamStaffImage src="/images2/staff-pooja.png" />
         </TeamStaff>
         <TeamStaff onClick={() => navigate("/who-we-are#topteam")}>
+          <TeamStaffImage src="/images2/staff-rui.png" />
+        </TeamStaff>
+        <TeamStaff onClick={() => navigate("/who-we-are#topteam")}>
           <TeamStaffImage src="/images2/staff-joanna.png" />
         </TeamStaff>
         {match && <TeamStaff></TeamStaff>}
