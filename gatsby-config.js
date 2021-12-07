@@ -10,8 +10,7 @@ module.exports = {
     {
       resolve: "@sentry/gatsby",
       options: {
-        dsn:
-          "https://4c1a454d26da427b88743f511014e57e@o447628.ingest.sentry.io/5462810",
+        dsn: "https://4c1a454d26da427b88743f511014e57e@o447628.ingest.sentry.io/5462810",
       },
     },
     {
@@ -22,7 +21,6 @@ module.exports = {
         anonymize: false,
       },
     },
-    "gatsby-plugin-eslint",
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,

@@ -356,7 +356,7 @@ export const query = graphql`
   {
     categoryList: allMarkdownRemark(
       filter: {
-        fileAbsolutePath: { regex: "/(what-we-do-cat)/.*\\\\.md$/" }
+        fileAbsolutePath: { regex: "/what-we-do-cat/.*.md$/" }
         frontmatter: { catno: { nin: "SE00" } }
       }
       sort: { fields: [frontmatter___catno], order: ASC }
