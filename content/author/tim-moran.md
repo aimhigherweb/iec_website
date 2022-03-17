@@ -2,7 +2,7 @@
 title: Tim Moran
 jobtitle: Optical Technician
 photo: /uploads/staff-tim.png
-order: 16
+order: 14
 ---
 
 Tim started Optical Dispensing before some of our other staff members were born! Qualified Optical Technicians and Dispensers are hard to come by these days and we are therefore lucky to have his expertise in practice. The most popular man in the business is on hand to dispense, repair and fit all types of spectacles.
