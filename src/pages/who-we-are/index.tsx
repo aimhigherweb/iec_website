@@ -474,7 +474,7 @@ export default WhoWeAre
 export const query = graphql`
   {
     teamList: allMarkdownRemark(
-      filter: { fileAbsolutePath: { regex: "/(author)/.*\\\\.md$/" } }
+      filter: { fileAbsolutePath: { regex: "/author/.*.md$/" } }
       sort: { fields: frontmatter___order }
     ) {
       edges {
