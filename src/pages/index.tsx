@@ -450,6 +450,7 @@ const Style = (show, match, bookingToggleCallback) => {
           </StyleDescriptionExtra>
           <br />
           <StyleBookingButton
+            data-cy="style-booking-button"
             onClick={() => bookingToggleCallback(true, BOOKING_ADL)}
           >
             Book online today.

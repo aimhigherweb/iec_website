@@ -183,6 +183,7 @@ export const SearchResults: React.FC<SearchProps> = ({
       {match && <Header />}
       <ResultList>
         <CloseIcon
+          data-cy="search-icon-close"
           icon={faTimes}
           onClick={() => {
             closeCallback()

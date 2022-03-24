@@ -30,12 +30,12 @@ const MainHeader = styled.div`
   padding: 16px 10px 10px 20px;
   width: 100%;
   background-color: ${(props: {
-    searchMode: any
-    bookingMode: any
-    carouselMode: any
-    showFull: any
-    scrolledDown: any
-  }) => {
+  searchMode: any
+  bookingMode: any
+  carouselMode: any
+  showFull: any
+  scrolledDown: any
+}) => {
     if (props.searchMode || props.bookingMode || props.carouselMode) {
       return "#000000"
     } else if (!props.showFull || props.scrolledDown) {
@@ -60,7 +60,7 @@ const Logo = styled.img.attrs({
   @media (max-width: ${MAX_WIDTH_PX}) {
     width: 160px;
     visibility: ${(props: { hide: any }) =>
-      props.hide ? "hidden" : "visible"};
+    props.hide ? "hidden" : "visible"};
   }
   border: ${DEBUG_MAIN};
 `
@@ -74,11 +74,11 @@ const HeaderTitle = styled.div`
   font-weight: 700;
   color: white;
   color: ${(props: {
-    searchMode: any
-    bookingMode: any
-    carouselMode: any
-    scrolledDown: any
-  }) => {
+  searchMode: any
+  bookingMode: any
+  carouselMode: any
+  scrolledDown: any
+}) => {
     if (props.searchMode || props.bookingMode || props.carouselMode) {
       return "#00000000"
     } else if (props.scrolledDown) {
@@ -419,6 +419,7 @@ const MainDiv = (
               <MainSearchMob>
                 <MainSearchWrapper>
                   <MainSearchInput
+                    data-cy="search-input"
                     onClick={() => searchToggleCallback(true)}
                     value={session.current.searchText}
                     onChange={(e) => {
@@ -432,14 +433,15 @@ const MainDiv = (
             )}
             <SearchMob>
               <FaSearch
+                data-cy="search-icon-close"
                 onClick={() => searchToggleCallback(true)}
                 style={{
                   color: "white",
                 }}
               />
             </SearchMob>
-            <Menu onClick={() => setShowMenu(!showMenu)}>
-              {!showMenu && <img src={"/images2/icon-menu.png"} />}
+            <Menu data-cy="menu" onClick={() => setShowMenu(!showMenu)}>
+              {!showMenu && <img data-cy="menu-icon" src={"/images2/icon-menu.png"} />}
             </Menu>
           </MainHeader>
 
@@ -548,6 +550,7 @@ const MainDiv = (
             <MainSearchWrapper>
               <span>
                 <MainSearchInput
+
                   onClick={() => searchToggleCallback(true)}
                   value={session.current.searchText}
                   onChange={(e) => {
@@ -558,6 +561,7 @@ const MainDiv = (
                 />
                 <MainSearchIcon onClick={() => searchToggleCallback(true)}>
                   <FaSearch
+                    data-cy="search-icon"
                     style={{
                       color: "white",
                       paddingTop: "4px",
@@ -572,6 +576,7 @@ const MainDiv = (
           <MainBooking>
             <MainBookingItem>
               <MainBookingButton
+                data-cy="booking"
                 onClick={() => bookingToggleCallback(true, BOOKING_ADL)}
               >
                 {match ? "Book Adelaide." : "Book Adelaide."}

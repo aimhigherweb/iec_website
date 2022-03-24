@@ -217,6 +217,7 @@ const What = (show, data, whatWeDoCatId, currentIndex, updateIndex) => {
         </p>
       </WhatDescription>
       <WhatService>
+
         {whatWeDoCategories &&
           whatWeDoCategories.map((category, i) => {
             const chosen = current.index === i
@@ -230,6 +231,7 @@ const What = (show, data, whatWeDoCatId, currentIndex, updateIndex) => {
             }
             return (
               <WhatServiceItem
+                data-cy="what-service"
                 key={i}
                 onClick={() => categoryClick(i, category.catno)}
                 onMouseOver={() => {

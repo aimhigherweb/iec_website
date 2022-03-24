@@ -143,6 +143,7 @@ const BlogList = (show, data) => {
 
           return (
             <ArticleDetail
+              data-cy="article-detail"
               key={i}
               onClick={() => articleClicked(item.node.fields.slug, payload)}
             >

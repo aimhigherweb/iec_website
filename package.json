@@ -66,6 +66,7 @@
     "serve": "gatsby serve -p 8000",
     "clean": "gatsby clean",
     "cy:run": "cypress run",
+    "cy:open": "cypress open",
     "ci": "start-server-and-test serve http://localhost:8000 'cypress run'",
     "format:check": "prettier --check .",
     "format:write": "prettier --write .",

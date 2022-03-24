@@ -187,6 +187,7 @@ const Patient = (show: any, data: any, currentIndex: any, updateIndex: any) => {
             const chosen = current.index === i
             return (
               <PatientResServiceItem
+                data-cy="patient-res-category"
                 key={i}
                 onClick={() => categoryClick(i)}
                 chosen={chosen}

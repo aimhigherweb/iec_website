@@ -301,11 +301,13 @@ const FooterDiv = (show) => {
               >
                 <div>
                   <FooterNewsletterInput
+                    data-cy="newsletter-input-name"
                     id="fieldName"
                     name="cm-name"
                     placeholder="Name"
                   />
                   <FooterNewsletterInput
+                  data-cy="newsletter-input-email"
                     className="js-cm-email-input qa-input-email"
                     id="fieldEmail"
                     name="cm-yuuilky-yuuilky"
