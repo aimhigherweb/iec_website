@@ -4,7 +4,6 @@ jobtitle: Optometrist
 photo: /uploads/millie-22.png
 order: 7
 ---
+Millie joined Innovative Eye Care as a therapeutic optometrist after graduating from Flinders University with a Masters of Optometry. Throughout her studies, she worked closely with the optometric team over a period of 5 years in the care of patients at the clinic. She has also thoroughly enjoyed working with underserved communities in recent years.
 
-Millie has been studying optometry at Flinders University since 2017. Raised locally in a family of health practitioners, she has had an interest in the field since she was an ankle-biter.
-
-Her passion for helping others and her unfailing friendliness mean you will always feel at home when you visit Innovative Eye Care. If you like the music playing in the practice, she likely picked the playlist. Unless you don’t like the music, in which case - Jane picked it.
+As a result, she is proficient in managing patients with keratoconus, myopia, glaucoma and dry eye disease as well as soft and rigid contact lens wearers and children. Millie has an interest in all areas within the scope of optometry, but finds cases where standard of living can be improved the most rewarding.
