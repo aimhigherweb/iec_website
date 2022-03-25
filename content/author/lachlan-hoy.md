@@ -1,7 +1,7 @@
 ---
 title: Lachlan Hoy
 jobtitle: Optometrist BAppSc(Optom)Hons GCOT FIAO FCCLSA
-photo: /uploads/staff-lachie.png
+photo: /uploads/lachie-2022.png
 order: 1
 ---
 
