@@ -1,7 +1,7 @@
 ---
 title: Sheralyn Stillert
 jobtitle: Administration Officer
-photo: /uploads/staff-sheralyn.png
+photo: /uploads/sheralyn-2022.png
 skill1: EASYGOING
 rating1: 100
 skill2: WARM
