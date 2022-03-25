@@ -1,7 +1,7 @@
 ---
 title: Millie Meegan
 jobtitle: Optometrist
-photo: /uploads/staff-millie.png
+photo: /uploads/millie-2022.png
 order: 7
 ---
 
