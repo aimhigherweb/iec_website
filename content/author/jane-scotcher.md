@@ -1,7 +1,7 @@
 ---
 title: Jane Scotcher
 jobtitle: Practice Manager
-photo: /uploads/staff-jane.png
+photo: /uploads/jane-2022.png
 order: 10
 ---
 
