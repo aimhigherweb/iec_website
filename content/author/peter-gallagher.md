@@ -1,7 +1,7 @@
 ---
 title: Peter Gallagher
 jobtitle: Administration Officer
-photo: /uploads/staff-pete.png
+photo: /uploads/pete-2022.png
 order: 16
 ---
 
