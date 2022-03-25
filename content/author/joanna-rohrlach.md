@@ -1,7 +1,7 @@
 ---
 title: Joanna Rohrlach
 jobtitle: Optometrist
-photo: /uploads/staff-joanna.png
+photo: /uploads/jo-2022.png
 order: 5
 ---
 
