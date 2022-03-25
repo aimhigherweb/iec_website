@@ -1,7 +1,7 @@
 ---
 title: Christine Swaine
 jobtitle: Administration Officer
-photo: /uploads/staff-christine.png
+photo: /uploads/christine-2022.png
 order: 9
 ---
 
