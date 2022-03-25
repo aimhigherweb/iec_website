@@ -1,7 +1,7 @@
 ---
 title: Harold Gent
 jobtitle: Operations and Technical Support Manager
-photo: /uploads/staff-harold.png
+photo: /uploads/harold-2022.png
 order: 12
 ---
 
