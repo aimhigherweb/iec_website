@@ -1,7 +1,7 @@
 ---
 title: Dylan Bentley
 jobtitle: Optometrist
-photo: /uploads/dylan-2022.png
+photo: /uploads/dylan-22.png
 order: 3
 ---
 
