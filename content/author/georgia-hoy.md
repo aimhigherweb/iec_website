@@ -1,7 +1,7 @@
 ---
 title: Georgia Hoy
 jobtitle: Operations Manager
-photo: /uploads/georgia-2022.png
+photo: /uploads/g-2022.png
 order: 8
 ---
 
