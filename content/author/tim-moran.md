@@ -1,7 +1,7 @@
 ---
 title: Tim Moran
 jobtitle: Optical Technician
-photo: /uploads/staff-tim.png
+photo: /uploads/tim-2022.png
 order: 14
 ---
 
