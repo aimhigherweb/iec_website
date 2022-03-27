@@ -5,6 +5,8 @@
 //     or @include v-align(250px);
 //     or @include v-align(250px, bottom, before);
 //
+@use "sass:math";
+
 @mixin v-align($va-height: 100%, $va-direction: middle, $va-pseudo: after) {
   white-space: nowrap;
   text-align: center;
@@ -151,8 +153,8 @@
   width: 0;
 
   @if ($direction == up) or ($direction == down) or ($direction == right) or ($direction == left) {
-    $width: $width / 2;
-    $height: if(length($size) > 1, $height, $height/2);
+    $width: $width * 0.5;
+    $height: if(length($size) > 1, $height, $height*0.5);
 
     @if $direction == up {
       border-bottom: $height solid $foreground-color;
@@ -255,5 +257,5 @@ $animation-speed: .3s !default;
 
 @mixin rem-font-size($pxSize) {
   font-size: $pxSize;
-  font-size: ($pxSize / 10px) + rem;
+  font-size: math.div($pxSize, 10px) + rem;
 }
