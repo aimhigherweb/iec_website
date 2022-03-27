@@ -1,6 +1,6 @@
 ---
 title: Karl Evans
-jobtitle: Therapeutic Optometrist
+jobtitle: Optometrist
 photo: /uploads/karl-2022.png
 order: 2
 ---
