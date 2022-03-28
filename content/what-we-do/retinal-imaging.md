@@ -1,6 +1,7 @@
 ---
 title: Retinal Imaging
 category: SE05
+preview_image: /uploads/retina.png
 ---
 <div class="employee-heading">
 <p>At Innovative Eye Care, your optometrist will take photographs of the back of your eyes using a retinal camera. This process is an important part of your <a href="/what-we-do/eye-exam">comprehensive eye examination</a> and is used to identify disease and monitor changes to your eye health in the future.</p>
@@ -19,8 +20,6 @@ Other imaging modalities often use lasers of only a few specific colours, which 
 #### Heidelberg Spectralis
 
 The Heidelberg Spectralis has the ability to take crystal clear photos of the back of the eye by compiling multiple images taken during a 10-20 second scan, capturing an image of the optic nerve, the macula, and the areas beyond. MultiColor photos are also available, using laser imaging on three wavelengths to reveal different layers of the retina.
-
-![](/uploads/heidelberg.png)
 
 Both of these types of scans reveal structures and abnormalities of the eye that allow your optometrist to better pinpoint and manage eye health issues, if any, that can be detected using posterior imaging. These methods of diagnostic imaging are offered at our Adelaide practice.
 
