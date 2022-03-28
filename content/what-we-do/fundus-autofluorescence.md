@@ -15,7 +15,7 @@ The retina contains a metabolic indicator called lipofuscin, commonly referred t
 
 #### Zeiss Clarus
 
-![](/uploads/faf.jpg)
+![](/uploads/faf-clarus.png)
 
 #### Heidelberg Spectralis
 
