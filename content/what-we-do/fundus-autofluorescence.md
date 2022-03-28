@@ -1,6 +1,6 @@
 ---
 title: Fundus Autofluorescence
-category: "SE05"
+category: SE05
 preview_image: baf-oct.jpg
 ---
 <div class="employee-heading">
@@ -11,27 +11,15 @@ and hereditary diseases.
 
 #### What is FAF?
 
-The retina contains a metabolic indicator called lipofuscin, commonly referred to as the "wear and tear" pigment.<sup>1, 2</sup> When light of 488nm is shone onto the retina, lipofuscin fluoresces and the amount of fluorescence corresponds with the amount of lipofuscin present.<sup>1</sup> A number of hereditary and complex retinal diseases (including [macular degeneration](https://innovativeeyecare.com.au/what-we-do/macular-degeneration/) ) have characteristic increases or decreases in the amount of lipofuscin present in the retina.<sup>2, 3, 4</sup>  FAF provides detailed analysis of these conditions that allow the optometrists at Innovative Eye Care to accurately monitor your retinal health. 
+The retina contains a metabolic indicator called lipofuscin, commonly referred to as the "wear and tear" pigment.<sup>1, 2</sup> When light of 488nm is shone onto the retina, lipofuscin fluoresces and the amount of fluorescence corresponds with the amount of lipofuscin present.<sup>1</sup> A number of hereditary and complex retinal diseases (including [macular degeneration](https://innovativeeyecare.com.au/what-we-do/macular-degeneration/), medication toxicity and hereditary retinal disease) have characteristic increases or decreases in the amount of lipofuscin present in the retina.<sup>2, 3, 4</sup> FAF provides detailed analysis of these conditions that allow the optometrists at Innovative Eye Care to accurately monitor your retinal health and potential prevent irreversible vision loss. This can be supplemented with other investigations including [automated visual fields](https://innovativeeyecare.com.au/what-we-do/visual-field-testing/https://innovativeeyecare.com.au/what-we-do/visual-field-testing/) and [OCT](https://innovativeeyecare.com.au/what-we-do/oct/https://innovativeeyecare.com.au/what-we-do/oct/). <sup>5,6,7</sup>
 
-#### FAF image of a healthy eye
+#### Zeiss Clarus
 
 ![](/uploads/faf.jpg)
 
-#### Age Related Macular Degeneration (AMD)
+#### Heidelberg Spectralis
 
-In the western world, wet AMD is a leading cause of legal blindness in those over 50 years of age.<sup>5</sup> Research indicates that approximately 55-70% of patients with AMD are undiagnosed, indicating an inadequacy in current conventional screening methods.<sup>6</sup> 
-
-Accumulation of lipofuscin in the RPE (layer under the retina) is strongly associated with the progression of AMD. Areas of high autofluorescence (i.e. more lipofuscin) correlate to dysfunctional photoreceptors and vision loss.<sup>1</sup> FAF images allow for monitoring of subtle retinal and RPE changes, particularly in early stages. 
-
-#### Hereditary Retinal Diseases
-
-Hereditary retinal conditions, such as retinitis pigmentosa (RP), cone dystrophy, Best's disease, Stargardt's disease and vitelliform macular dystrophy are visually debillitating conditions that manifest with changes in metabolic activity of the RPE (layer under the retina). This can be detected effectively using FAF imaging to monitor for early changes in at risk individuals.
-
-#### Plaquenil Retinopathy
-
-Plaquenil is used commonly for the treatment of systemic lupus erythmatosus (SLE), rheumatoid arthritis, and other inflammatory conditions. Retinal toxicity from plaquenil use has been recognised for many years, with the risk of toxicity being largely dependent on dosage and duration of treatment.<sup>7</sup> Plaquenil toxicity cannot be treated and can potentially cause irreversible loss of central vision.<sup>7</sup> Studies have shown that central vision can be preserved if damage is detected prior to changes in the RPE (layer under the retina).<sup>7</sup> 
-
-The American Academy of Ophthalmology recommend a baseline visual screening within the first year of commencing the drug.<sup>7</sup> Typically, annual visual screenings should commence after there has been five years of exposure to the drug. This may be more frequent if other risk factors are present. Visual screenings for plaquenil toxicity include [automated visual fields](https://innovativeeyecare.com.au/what-we-do/visual-field-testing/https://innovativeeyecare.com.au/what-we-do/visual-field-testing/), [OCT](https://innovativeeyecare.com.au/what-we-do/oct/https://innovativeeyecare.com.au/what-we-do/oct/) and FAF. <sup>7</sup>
+![](/uploads/faf-heidelberg.jpg)
 
 #### References
 
