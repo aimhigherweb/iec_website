@@ -10,7 +10,7 @@ describe("Tests for Who We Are.", function () {
     var servicedata = this.data
     cy.visit("")
     cy.get('[data-cy="menu"]').should("be.visible").click()
-    cy.contains("What We Do").click()
+    cy.contains("What We Do").should("be.visible").click()
     cy.url().should('eq', 'http://localhost:8000/what-we-do')
     cy.contains("What We Do")
 

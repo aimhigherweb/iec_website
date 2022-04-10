@@ -14,7 +14,7 @@ describe("Test Home Page", function () {
 
 
 
-    cy.contains("Home").click()
+    cy.contains("Home").should("be.visible").click()
     // essential data in between pages
     cy.contains("We are a team of industry leaders")
 

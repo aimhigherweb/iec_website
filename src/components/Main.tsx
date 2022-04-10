@@ -17,6 +17,8 @@ import { useMatchMedia } from "../hooks/useMatchMedia"
 import { SearchResults } from "../components/Search/SearchResults"
 import { useMatchScroll } from "../hooks/useMatchScroll"
 
+
+
 //----------------------------------------------------------
 //-- Section 0: Main
 //----------------------------------------------------------
@@ -359,6 +361,7 @@ const MainDiv = (
   bookingToggleCallback
 ) => {
   const [showMenu, setShowMenu] = useState(false)
+  
 
   const session = useSession()
   const searchUpdate = (value) => {
@@ -371,6 +374,8 @@ const MainDiv = (
     console.log(`*** Main.searchClose`)
     searchToggleCallback(false)
   }
+
+  
   useEffect(() => {
     const searchLen = session.current?.searchText?.length
     console.log(`*** Main.useEffect... searchLen=${searchLen}`)
@@ -415,6 +420,7 @@ const MainDiv = (
             >
               {title}
             </HeaderTitle>
+          
             {showSearch && (
               <MainSearchMob>
                 <MainSearchWrapper>

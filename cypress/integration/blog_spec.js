@@ -10,7 +10,7 @@ describe("Tests for Blog.", function () {
         var servicedata = this.data
         cy.visit("")
         cy.get('[data-cy="menu"]').should("be.visible").click()
-        cy.contains("Blog").click()
+        cy.contains("Blog").should("be.visible").click()
         cy.url().should('eq', 'http://localhost:8000/blog')
         cy.contains("Blog")
 

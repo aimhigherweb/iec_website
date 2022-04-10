@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import React, { useEffect, useState } from "react"
 import { navigate } from "gatsby"
 import styled from "styled-components"
 
@@ -9,6 +9,7 @@ import { Main } from "../components/Main"
 import { SocialFeed } from "../components/Social/SocialFeed"
 import { Footer } from "../components/Layout/Footer"
 import SEO from "../layouts/partials/seo"
+import Modal from "../components/Modal"
 
 //----------------------------------------------------------
 //-- Section 1: Team
@@ -23,7 +24,18 @@ const TeamSection = styled.div`
     padding: 20px 0px;
   }
 `
-
+const ModalSection = styled.div`
+text-align: center;
+background-color: yellow;
+font-family: "recoleta";
+font-weight: 250;
+font-size: 1em;
+@media (max-width: ${MAX_WIDTH_PX}) {
+  font-size 1.0em;
+  padding: 0 10px;
+}
+border: ${DEBUG_TEAM};
+`
 const TeamTitle = styled.h1`
   text-align: center;
   font-family: "recoleta";
@@ -142,6 +154,7 @@ const Team = (show, match, whatWeDoCatToggle) => {
     navigate("/what-we-do#topservice")
   }
 
+
   const teamServiceItems = [
     {
       cat: "SE01",
@@ -193,9 +206,21 @@ const Team = (show, match, whatWeDoCatToggle) => {
     },
   ]
   const [hover, setHover] = useState("")
+  const [showModal, setShowModal] = useState(false)
+
+  useEffect(() => {
+    setTimeout(() => setShowModal(true), 1000);
+    setTimeout(() => setShowModal(false), 5000);
+}, []);
+
+    
+     
+
 
   return show ? (
+
     <TeamSection>
+      <ModalSection><Modal showModal={showModal} /></ModalSection>
       <TeamTitle>We are a team of industry leaders</TeamTitle>
       <TeamStaffBar>
         <TeamStaff onClick={() => navigate("/who-we-are#topteam")}>
@@ -252,8 +277,7 @@ const Team = (show, match, whatWeDoCatToggle) => {
                   tag={item.tag}
                   icon={item.icon}
                   iconSel={item.iconSel}
-                  hover={item.tag === hover}
-                />
+                  hover={item.tag === hover} />
                 <TeamServiceTitle hover={item.tag === hover}>
                   {item.title0} <br />
                   {item.title1}
@@ -265,7 +289,9 @@ const Team = (show, match, whatWeDoCatToggle) => {
       <TeamFooter></TeamFooter>
     </TeamSection>
   ) : (
-    <div></div>
+    <div>
+
+    </div>
   )
 }
 
@@ -455,6 +481,7 @@ const Style = (show, match, bookingToggleCallback) => {
           >
             Book online today.
           </StyleBookingButton>
+
         </StyleDescription>
         <div>{!match && StyleFooterPart}</div>
       </StyleSection>
@@ -482,15 +509,16 @@ const Home: React.FC = () => {
   const video = match ? null : "/videos/video-main.mp4"
   const carousel = match
     ? [
-        "videos/main0.png",
-        "videos/main1.png",
-        "videos/main2.png",
-        "videos/main3.png",
-        "videos/main4.png",
-      ]
+      "videos/main0.png",
+      "videos/main1.png",
+      "videos/main2.png",
+      "videos/main3.png",
+      "videos/main4.png",
+    ]
     : null
   return (
     <Container>
+
       <SEO title="Home" />
       {Main(
         "",
