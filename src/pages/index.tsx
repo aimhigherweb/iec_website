@@ -9,7 +9,6 @@ import { Main } from "../components/Main"
 import { SocialFeed } from "../components/Social/SocialFeed"
 import { Footer } from "../components/Layout/Footer"
 import SEO from "../layouts/partials/seo"
-import Modal from "../components/Modal"
 
 //----------------------------------------------------------
 //-- Section 1: Team
@@ -23,18 +22,6 @@ const TeamSection = styled.div`
   @media (max-width: ${MAX_WIDTH_PX}) {
     padding: 20px 0px;
   }
-`
-const ModalSection = styled.div`
-text-align: center;
-background-color: yellow;
-font-family: "recoleta";
-font-weight: 250;
-font-size: 1em;
-@media (max-width: ${MAX_WIDTH_PX}) {
-  font-size 1.0em;
-  padding: 0 10px;
-}
-border: ${DEBUG_TEAM};
 `
 const TeamTitle = styled.h1`
   text-align: center;
@@ -206,21 +193,10 @@ const Team = (show, match, whatWeDoCatToggle) => {
     },
   ]
   const [hover, setHover] = useState("")
-  const [showModal, setShowModal] = useState(false)
-
-  useEffect(() => {
-    setTimeout(() => setShowModal(true), 1000);
-    setTimeout(() => setShowModal(false), 5000);
-}, []);
-
-    
-     
-
-
+ 
   return show ? (
 
     <TeamSection>
-      <ModalSection><Modal showModal={showModal} /></ModalSection>
       <TeamTitle>We are a team of industry leaders</TeamTitle>
       <TeamStaffBar>
         <TeamStaff onClick={() => navigate("/who-we-are#topteam")}>
