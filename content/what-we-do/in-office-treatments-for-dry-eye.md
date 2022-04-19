@@ -1,7 +1,7 @@
 ---
 title: In-Office Treatments for Dry Eye
 category: SE04
-preview_image: /uploads/ipl-machine.jpg
+preview_image: ipl-machine.jpg
 ---
 <div class="employee-heading"><p>
 

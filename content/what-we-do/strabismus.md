@@ -1,7 +1,7 @@
 ---
 title: Strabismus
 category: SE03
-preview_image: /uploads/strabismus.jpg
+preview_image: strabismus.jpg
 ---
 Each eye has 6 external muscles (know as the extraocular muscles) which control the movement and position of the two eyes. To maintain clear and single vision, the muscles and the nerves controlling these muscles must work together.
 

@@ -1,7 +1,7 @@
 ---
 title: "Treating Dry Eye Disease: Step-by-Step "
 category: SE04
-preview_image: /uploads/dryeyetreatment.jpg
+preview_image: dryeyetreatment.jpg
 ---
 <div class="employee-heading"><p>
 

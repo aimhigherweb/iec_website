@@ -1,7 +1,7 @@
 ---
 title: Sports Optometry and Sports Vision
 category: SE10
-preview_image: /uploads/xfcnvb.png
+preview_image: xfcnvb.png
 ---
 <div class="employee-heading">
 

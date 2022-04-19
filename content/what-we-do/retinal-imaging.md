@@ -1,7 +1,7 @@
 ---
 title: Retinal Imaging
 category: SE05
-preview_image: /uploads/retina.png
+preview_image: retina.png
 ---
 <div class="employee-heading">
 <p>At Innovative Eye Care, your optometrist will take photographs of the back of your eyes using a retinal camera. This process is an important part of your <a href="/what-we-do/eye-exam">comprehensive eye examination</a> and is used to identify disease and monitor changes to your eye health in the future.</p>
