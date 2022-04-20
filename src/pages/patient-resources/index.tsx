@@ -96,7 +96,7 @@ const ServiceDetailImage = styled.img`
   border-radius: 50%;
   object-fit: cover;
   cursor: pointer;
-  transition: filter 2s;
+  transition: filter 100ms;
   filter: ${(props: any) => (props.chosen ? "none" : "grayscale(1)")};
   &:hover {
     filter: ${(props: any) => (props.chosen ? "none" : "none")};
