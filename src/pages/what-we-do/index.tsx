@@ -80,7 +80,7 @@ const WhatServiceImage = styled.div`
   background: url(${(props) => (props.hover ? props.iconSel : props.icon)});
   background-size: contain;
   background-repeat: no-repeat;
-  transition: background 1000ms ease-in-out;
+  transition: background 100ms ease-out;
   border: 0;
 `
 const WhatServiceTitle = styled.p`
@@ -94,7 +94,7 @@ const WhatServiceTitle = styled.p`
     text-transform: lowercase;
     padding: 5px;
   }
-  transition: color 1s;
+  transition: color 100ms ease-out;
   color: ${(props) => {
     if (props.chosen) {
       return "white"
@@ -121,7 +121,7 @@ const ServiceDetailImage = styled.img`
   border-radius: 50%;
   object-fit: cover;
   cursor: pointer;
-  transition: filter 2s;
+  transition: filter 100ms;
   filter: ${(props) => (props.chosen ? "none" : "grayscale(1)")};
   &:hover {
     filter: ${(props) => (props.chosen ? "none" : "none")};
