@@ -200,25 +200,25 @@ const Team = (show, match, whatWeDoCatToggle) => {
       <TeamTitle>We are a team of industry leaders</TeamTitle>
       <TeamStaffBar>
         <TeamStaff onClick={() => navigate("/who-we-are#topteam")}>
-          <TeamStaffImage src="/images2/staff-lachie.png" />
+          <TeamStaffImage src="/images2/Staff-Lachlan-2022.png" />
         </TeamStaff>
         <TeamStaff onClick={() => navigate("/who-we-are#topteam")}>
-          <TeamStaffImage src="/images2/staff-karl.png" />
+          <TeamStaffImage src="/images2/Staff-Karl-2022.png" />
         </TeamStaff>
         <TeamStaff onClick={() => navigate("/who-we-are#topteam")}>
-          <TeamStaffImage src="/images2/staff-dylan.png" />
+          <TeamStaffImage src="/images2/Staff-Dylan-2022.png" />
         </TeamStaff>
         <TeamStaff onClick={() => navigate("/who-we-are#topteam")}>
-          <TeamStaffImage src="/images2/staff-pooja.png" />
+          <TeamStaffImage src="/images2/Staff-Pooja-2022.png" />
         </TeamStaff>
         <TeamStaff onClick={() => navigate("/who-we-are#topteam")}>
-          <TeamStaffImage src="/images2/staff-rui.png" />
+          <TeamStaffImage src="/images2/Staff-Rui-2022.png" />
         </TeamStaff>
         <TeamStaff onClick={() => navigate("/who-we-are#topteam")}>
-          <TeamStaffImage src="/images2/staff-millie.png" />
+          <TeamStaffImage src="/images2/Staff-Millie-2022.png" />
         </TeamStaff>
         <TeamStaff onClick={() => navigate("/who-we-are#topteam")}>
-          <TeamStaffImage src="/images2/staff-joanna.png" />
+          <TeamStaffImage src="/images2/Staff-Joanna-2022.png" />
         </TeamStaff>
         {match && <TeamStaff></TeamStaff>}
       </TeamStaffBar>
