@@ -1,6 +1,6 @@
 ---
 title: Freedom of Information
-category: "SE10"
+category: SE10
 preview_image: foi.jpeg
 ---
 <div><p>The South Australian Freedom of Information Act (1991) allows you to access your medical records on request. Your records include present and past spectacle and contact lens prescriptions, referral letters and examination notes.</div></p>
@@ -15,12 +15,10 @@ Print and fill out the form. Send the form to us through fax (8232 1600), email 
 
 In accordance with the South Australia Freedom of Information (Fees and Charges) Regulations 2018.
 
-* $37.50 fee per application for medical records
+* $38.25 fee per application for medical records
 * $0.20 per page of records printed
 * $8.25 per page in a summarised report
 * Cost of postage
-
-
 
 #### Further information
 
