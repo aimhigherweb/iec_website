@@ -46,6 +46,7 @@ const SEO = (post) => {
       <meta property="og:title" content={title} />
       <meta property="og:description" content={description} />
       {image && <meta property="og:image" content={image} />}
+      <script src="https://cdn.usefathom.com/script.js" data-site={process.env.GATSBY_FATHOM_ID} defer></script>
     </Helmet>
   )
 }

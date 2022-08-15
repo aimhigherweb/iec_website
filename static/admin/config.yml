@@ -1,11 +1,10 @@
 backend:
   name: git-gateway
-  branch: main #local development (=staging)
+  branch: prod #local development (=staging)
 
 # local development: when using the default proxy server port
 # local_backend: true
 
-site_url: https://www.innovativeeyecare.com.au
 media_folder: "static/uploads" # Media files stored in repo under images/uploads
 public_folder: "/uploads" # Media files stored in repo under images/uploads
 
