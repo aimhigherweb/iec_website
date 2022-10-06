@@ -5,7 +5,7 @@ preview_image: photo-1516627145497-ae6968895b74-2-.jfif
 ---
 
 <div class="employee-heading">
-<p>Ortho-K is one of the most effective tools available for treating myopia. Results in our Adelaide and Woodville practices show slowing, and in some cases even complete halting, of myopia progression. Our optometrists are often able to achieve much clearer vision and healthier eyes with orthokeratology.</p>
+<p>Ortho-K is one of the most effective tools available for treating myopia. Results in our Adelaide and Henley Beach practices show slowing, and in some cases even complete halting, of myopia progression. Our optometrists are often able to achieve much clearer vision and healthier eyes with orthokeratology.</p>
 </div>
 
 Myopia — or shortsightedness — refers to poor distance vision but clear near vision. This happens when the eyeball grows too long in relation to the power of the eye’s lenses. The light rays then focus at a point in front of the retina, rather than directly on its surface. Myopia usually appears in childhood. The condition does run in families, but some children are becoming shortsighted even though their parents have no vision problems. That means genetics is not the only contributing factor.

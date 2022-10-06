@@ -7,7 +7,7 @@ preview_image: microsoftteams-image-1-.png
 
 <p>Myopia, or shortsightedness, is a common condition where the main symptom is blurred distance vision. This occurs because the focussing power of the eye is too strong or the length of the eye is too long. Myopia in the global population is increasing drastically. Currently, 30% of the Australian population is myopic and it is estimated that by 2050 half of the world's population will be myopic.<sup>1</sup> While blurry distance vision can be corrected with spectacles or contact lenses, the real issue is the structural changes at the back of the eye which increases the risk of irreversible eye disease.<sup>1,2,3</sup> The higher the level of myopia, the higher the risk.</p>
 
-Our optometrists offer a wide range of treatment options to slow the progression of myopia. If you would like to find out more, <a href="/what-we-do/eye-exam">book an appointment</a>[](applewebdata://AF469C8E-E359-4440-AFC6-77B40F773E15/what-we-do/eye-exam) at our Adelaide or Woodville practices or speak to our friendly staff.
+Our optometrists offer a wide range of treatment options to slow the progression of myopia. If you would like to find out more, <a href="/what-we-do/eye-exam">book an appointment</a>[](applewebdata://AF469C8E-E359-4440-AFC6-77B40F773E15/what-we-do/eye-exam) at our Adelaide or Henley Beach practices or speak to our friendly staff.
 
 <p><h4><a href="https://mykidsvision.org/" target="_blank">Assess My Child's Myopia Risk Here</a></h4></p>
 </div>

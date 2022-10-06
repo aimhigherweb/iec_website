@@ -5,7 +5,7 @@ preview_image: book-presbyopia.jpg
 ---
 
 <div class="employee-heading">
-<p>Presbyopia is the gradual reduction in the amount that the eye can change its focus. This reduction is a result of the continued changing of the biological lens inside the eye, and is a normal part of ageing. Patients with presbyopia will have more trouble reading and may get eyestrain and blur for near tasks. Our optometrists in Adelaide City and Woodville have multiple options at their disposal for hyperopia management. <a href="/what-we-do/myopia-control">Book an appointment</a> or contact us to find out more.</p>
+<p>Presbyopia is the gradual reduction in the amount that the eye can change its focus. This reduction is a result of the continued changing of the biological lens inside the eye, and is a normal part of ageing. Patients with presbyopia will have more trouble reading and may get eyestrain and blur for near tasks. Our optometrists in Adelaide City and Henley Beach have multiple options at their disposal for hyperopia management. <a href="/what-we-do/myopia-control">Book an appointment</a> or contact us to find out more.</p>
 
 <p><div class="myWrapper" style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe frameborder="0" type="text/html" src="https://2689-2347.captiv8online.com/animations/embed/one/o-t?player_width=100%&player_height=100%&site_company_language=34&autostart=false" width="100%" height="100%" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe></div></p>
 </div>

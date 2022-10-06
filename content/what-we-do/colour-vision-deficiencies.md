@@ -5,7 +5,7 @@ preview_image: colour-vision.jpeg
 ---
 <div class="employee-heading">
 
-<p>Colour vision deficiencies are the inability for an individual to distinguish various shades of colour. They can come in multiple types but red-green colour vision defects are the most common. Our optometrists at the Adelaide and Woodville branches of Innovative Eye Care use innovative equipment to detect various types of colour vision deficiencies.
+<p>Colour vision deficiencies are the inability for an individual to distinguish various shades of colour. They can come in multiple types but red-green colour vision defects are the most common. Our optometrists at the Adelaide and Henley Beach branches of Innovative Eye Care use innovative equipment to detect various types of colour vision deficiencies.
 
 ### **Physiology of Light**
 

@@ -17,7 +17,7 @@ In May our optometrist Lachlan Hoy jetted off to South Africa to lecture on all 
 
 In July a few of our team members, Lachlan, Jane, Georgia and Charmaine attended the ODMA conference in Sydney. This was a fantastic opportunity to network with others in the industry, share ideas and learn about all the latest technologies and products available to help our Practice evolve.
 
-August was another busy month; Sally moved to our Woodville Practice full time to join Pete. While Christine was turned into bionic woman, getting a brand new knee. Jasmine joined our support team full time at Hutt Street. She has always had a passion for the health industry and has worked with kids with special needs. We also received some more exciting news when Katrina and husband Mark announced the arrival of their gorgeous baby girl, Indianna.
+August was another busy month; Sally moved to our Henley Beach practice full time to join Pete. While Christine was turned into bionic woman, getting a brand new knee. Jasmine joined our support team full time at Hutt Street. She has always had a passion for the health industry and has worked with kids with special needs. We also received some more exciting news when Katrina and husband Mark announced the arrival of their gorgeous baby girl, Indianna.
 
 In October we saw practice owner, Lachlan, and manager of Innovative Eye Care, Georgia, tie the knot in the Adelaide Hills. They jetted off shortly afterwards on their honeymoon to Seminyak, Bali for some much needed rest and relaxation.
 

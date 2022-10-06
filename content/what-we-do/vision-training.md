@@ -5,7 +5,7 @@ preview_image: childrens-vision.jpg
 ---
 <div class="employee-heading">
 
-<p>If your optometrist finds a binocular vision problem during your eye examination, it could be improved with with the use of vision training. These problems are often found in children but can be present in adults. At Innovative Eye Care, both our Adelaide and Woodville practices are equipped to prescribe vision training for a variety of paediatric vision issues.</p></div>
+<p>If your optometrist finds a binocular vision problem during your eye examination, it could be improved with with the use of vision training. These problems are often found in children but can be present in adults. At Innovative Eye Care, both our Adelaide and Henley Beach practices are equipped to prescribe vision training for a variety of paediatric vision issues.</p></div>
 
 The human visual system is complex. Some visual conditions such as short-sightedness ([myopia](https://www.innovativeeyecare.com.au/what-we-do/myopia/)), long-sightedness ([hyperopia](https://www.innovativeeyecare.com.au/what-we-do/hyperopia/)) and [astigmatism](https://www.innovativeeyecare.com.au/what-we-do/astigmatism/) can be corrected through the use of [spectacles](https://www.innovativeeyecare.com.au/what-we-do/glasses/) or [contact lenses](https://www.innovativeeyecare.com.au/what-we-do/contact-lenses/). Other problems with a patient's vision can arise from poor binocular vision skills. These skills relate to how well a patient's two eyes are working together. Symptoms commonly described by patients relating to dysfunction of these skills include:
 
@@ -51,7 +51,7 @@ Adults can also benefit from vision training, not just children. Due to the incr
 
 The length and course of vision training can vary and is dependent on multiple factors including, but not limited to, the severity of the condition and the rate of improvement. Training usually ranges from several months to more extended periods of training. After the initial period of therapy, the optometry will re-evaluate the patient's binocular vision system and assess for signs of improvement. Even after full recovery, exercises may still be needed occasionally to keep your eyes well trained and working effectively.
 
-Forms of vision therapy require specialised equipment in order to train and develop a patient's eye focusing or eye alignment. Theses are available at both our Adelaide and Woodville practices
+Forms of vision therapy require specialised equipment in order to train and develop a patient's eye focusing or eye alignment. Theses are available at both our Adelaide and Henley Beach practices
 
 [Contact us](https://www.innovativeeyecare.com.au/contact) to see one of our friendly optometrists regarding vision therapy.
 

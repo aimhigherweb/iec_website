@@ -4,7 +4,7 @@ category: SE06
 preview_image: myopic-ok-lens.jpg
 ---
 <div class="employee-heading">
-<p>Orthokeratology lenses fitted by our optometrists in Adelaide or Woodville are worn while you sleep, leaving you with clear vision during the day without the need for contact lenses or glasses.</p>
+<p>Orthokeratology lenses fitted by our optometrists in Adelaide or Henley Beach are worn while you sleep, leaving you with clear vision during the day without the need for contact lenses or glasses.</p>
 
 <b>[See this page for more information on orthokeratology lens care.](https://www.innovativeeyecare.com.au/patient-resources/care-of-orthokeratology-lenses/)</b>
 

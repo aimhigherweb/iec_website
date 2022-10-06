@@ -5,7 +5,7 @@ preview_image: innovative-eye-care-medicare-eye.jpg
 ---
 
 <div class="employee-heading">
-<p>The 2014 Budget made significant changes to how optometrists can subsidise by the government in Australia. As a result both our Adelaide and Woodville practices have altered how we bill our <a href="/what-we-do/eye-exam">consultations</a> so that we may continue to provide our patients with the best eye care, vision and access to technology in the future. </p>
+<p>The 2014 Budget made significant changes to how optometrists can subsidise by the government in Australia. As a result both our Adelaide and Henley Beach practices have altered how we bill our <a href="/what-we-do/eye-exam">consultations</a> so that we may continue to provide our patients with the best eye care, vision and access to technology in the future. </p>
 </div>
 
 #### Standard fees

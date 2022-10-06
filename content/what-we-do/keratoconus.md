@@ -6,7 +6,7 @@ preview_image: keratoconus-slit-lamp.jpg
 <div class="employee-heading">
 <p>Keratoconus is an eye disease that can cause distorted and blurry vision, even with glasses. This condition involves the thinning of the cornea (the window at the front of the eye), causing the surface to protrude forward in a cone shape, giving the disease its name ("<i>keras</i>" meaning cornea, and "<i>konos</i>" meaning cone). The condition is progressive, meaning it worsens over time, and with increased severity the cornea becomes more and more irregular.<sup>1</sup> This can lead to <a href="https://www.innovativeeyecare.com.au/what-we-do/astigmatism">astigmatism</a>, scarring and severe vision loss.</p>
 
-<Lp>For the best outcomes, keratoconus requires early detection.<sup>2</sup> At our Adelaide and Woodville practices, all our optometrists have an interest in keratoconus, with one (<a href="https://www.innovativeeyecare.com.au/who-we-are/lachlan-hoy">Lachlan Hoy</a>) having written the chapter on keratoconus in the globally distributed <a href="https://www.sciencedirect.com/science/article/pii/B9780702071683000209">*Contact Lenses*</a> textbook published in 2019.</p>
+<Lp>For the best outcomes, keratoconus requires early detection.<sup>2</sup> At our Adelaide and Henley Beach practices, all our optometrists have an interest in keratoconus, with one (<a href="https://www.innovativeeyecare.com.au/who-we-are/lachlan-hoy">Lachlan Hoy</a>) having written the chapter on keratoconus in the globally distributed <a href="https://www.sciencedirect.com/science/article/pii/B9780702071683000209">*Contact Lenses*</a> textbook published in 2019.</p>
 
 </div>
 

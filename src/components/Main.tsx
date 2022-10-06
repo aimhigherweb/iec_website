@@ -24,33 +24,37 @@ import { useMatchScroll } from "../hooks/useMatchScroll"
 //----------------------------------------------------------
 const DEBUG_MAIN = "0px solid blue"
 const MAX_WIDTH = 768
-const MAX_WIDTH_PX = `${MAX_WIDTH}px`
+const MAX_WIDTH_PX = `${ MAX_WIDTH }px`
 
 const MainHeader = styled.div`
   position: fixed;
   z-index: 9999;
   padding: 16px 10px 10px 20px;
   width: 100%;
-  background-color: ${(props: {
+  background-color: ${ (props: {
   searchMode: any
   bookingMode: any
   carouselMode: any
   showFull: any
   scrolledDown: any
-}) => {
-    if (props.searchMode || props.bookingMode || props.carouselMode) {
+}) =>
+  {
+    if (props.searchMode || props.bookingMode || props.carouselMode)
+    {
       return "#000000"
-    } else if (!props.showFull || props.scrolledDown) {
+    } else if (!props.showFull || props.scrolledDown)
+    {
       return "#424242"
-    } else {
+    } else
+    {
       return "#00000000"
     }
-  }};
-  @media (max-width: ${MAX_WIDTH_PX}) {
+  } };
+  @media (max-width: ${ MAX_WIDTH_PX }) {
     padding: 20px;
     background-color: #00000099;
   }
-  border: ${DEBUG_MAIN};
+  border: ${ DEBUG_MAIN };
 `
 const Logo = styled.img.attrs({
   src: "/images2/icon-logo.png",
@@ -59,12 +63,12 @@ const Logo = styled.img.attrs({
   height: auto;
   background: clear;
   cursor: pointer;
-  @media (max-width: ${MAX_WIDTH_PX}) {
+  @media (max-width: ${ MAX_WIDTH_PX }) {
     width: 160px;
-    visibility: ${(props: { hide: any }) =>
-    props.hide ? "hidden" : "visible"};
+    visibility: ${ (props: { hide: any }) =>
+    props.hide ? "hidden" : "visible" };
   }
-  border: ${DEBUG_MAIN};
+  border: ${ DEBUG_MAIN };
 `
 const HeaderTitle = styled.div`
   position: absolute;
@@ -75,24 +79,28 @@ const HeaderTitle = styled.div`
   font-size: 1.6em;
   font-weight: 700;
   color: white;
-  color: ${(props: {
+  color: ${ (props: {
   searchMode: any
   bookingMode: any
   carouselMode: any
   scrolledDown: any
-}) => {
-    if (props.searchMode || props.bookingMode || props.carouselMode) {
+}) =>
+  {
+    if (props.searchMode || props.bookingMode || props.carouselMode)
+    {
       return "#00000000"
-    } else if (props.scrolledDown) {
+    } else if (props.scrolledDown)
+    {
       return "#424242"
-    } else {
+    } else
+    {
       return "#ffffff"
     }
-  }};
-  @media (max-width: ${MAX_WIDTH_PX}) {
+  } };
+  @media (max-width: ${ MAX_WIDTH_PX }) {
     display: none;
   }
-  border: ${DEBUG_MAIN};
+  border: ${ DEBUG_MAIN };
 `
 const SearchMob = styled.div`
   position: fixed;
@@ -106,7 +114,7 @@ const SearchMob = styled.div`
   @media only screen and (hover: none) and (pointer: coarse) {
     visibility: visible;
   }
-  border: ${DEBUG_MAIN};
+  border: ${ DEBUG_MAIN };
 `
 const Menu = styled.div`
   position: fixed;
@@ -116,7 +124,7 @@ const Menu = styled.div`
   height: 31px;
   background: clear;
   cursor: pointer;
-  border: ${DEBUG_MAIN};
+  border: ${ DEBUG_MAIN };
 `
 const MainHeaderFiller = styled.div`
   height: 88px;
@@ -124,13 +132,13 @@ const MainHeaderFiller = styled.div`
 
 const MainMenu = styled.div`
   position: fixed;
-  display: ${(props: { show: any }) => (props.show ? "true" : "none")};
+  display: ${ (props: { show: any }) => (props.show ? "true" : "none") };
   align-items: right;
   z-index: 9999;
   right: 0;
   top: 0;
   width: 400px;
-  @media (max-width: ${MAX_WIDTH_PX}) {
+  @media (max-width: ${ MAX_WIDTH_PX }) {
     width: 220px;
   }
   height: 100vh;
@@ -148,7 +156,7 @@ const MainMenuItem = styled.div`
   &:hover {
     color: #5091cd;
   }
-  @media (max-width: ${MAX_WIDTH_PX}) {
+  @media (max-width: ${ MAX_WIDTH_PX }) {
     font-size: 1.1em;
     line-height: 1.6;
     margin: 12px 20px;
@@ -165,7 +173,7 @@ const MainMenuItemContact = styled.div`
   &:hover {
     color: #5091cd;
   }
-  @media (max-width: ${MAX_WIDTH_PX}) {
+  @media (max-width: ${ MAX_WIDTH_PX }) {
     font-size: 0.8em;
     margin: 12px 20px;
   }
@@ -192,31 +200,35 @@ const MainFooter = styled.div`
   bottom: 0;
   width: 100%;
   height: 70px;
-  @media (max-width: ${MAX_WIDTH_PX}) {
+  @media (max-width: ${ MAX_WIDTH_PX }) {
     flex-direction: column;
     height: auto;
   }
-  background-color: ${(props: { searchMode: any; scrolledDown: any }) => {
-    if (props.searchMode) {
+  background-color: ${ (props: { searchMode: any; scrolledDown: any }) =>
+  {
+    if (props.searchMode)
+    {
       return "#000000"
-    } else if (props.scrolledDown) {
+    } else if (props.scrolledDown)
+    {
       return "#424242"
-    } else {
+    } else
+    {
       return "#00000000"
     }
-  }};
+  } };
 `
 const MainSearch = styled.div`
   flex: 1;
   margin: 0 0 0 40px;
-  @media (max-width: ${MAX_WIDTH_PX}) {
+  @media (max-width: ${ MAX_WIDTH_PX }) {
     /*display: block;
     margin: 20px 0px 4px 10px;
     width: 100%;
     font-size: 0.8em;*/
     display: none;
   }
-  border: ${DEBUG_MAIN};
+  border: ${ DEBUG_MAIN };
 `
 const MainSearchMob = styled.div`
   position: fixed;
@@ -229,15 +241,15 @@ const MainSearchMob = styled.div`
   @media only screen and (hover: none) and (pointer: coarse) {
     visibility: visible;
   }
-  border: ${DEBUG_MAIN};
+  border: ${ DEBUG_MAIN };
 `
 const MainSearchWrapper = styled.span`
   padding: 12px 0;
-  @media (max-width: ${MAX_WIDTH_PX}) {
+  @media (max-width: ${ MAX_WIDTH_PX }) {
     width: 100%;
     margin: 0px 8px;
   }
-  border: ${DEBUG_MAIN};
+  border: ${ DEBUG_MAIN };
   border: 1px solid white;
 `
 const MainSearchInput = styled.input`
@@ -254,13 +266,13 @@ const MainSearchInput = styled.input`
     font-weight: 800;
     color: white;
   }
-  @media (max-width: ${MAX_WIDTH_PX}) {
+  @media (max-width: ${ MAX_WIDTH_PX }) {
     width: 80%;
   }
-  border: ${DEBUG_MAIN};
+  border: ${ DEBUG_MAIN };
 `
 const MainSearchIcon = styled.span`
-  @media (max-width: ${MAX_WIDTH_PX}) {
+  @media (max-width: ${ MAX_WIDTH_PX }) {
   }
 `
 
@@ -275,7 +287,7 @@ const MainBooking = styled.div`
   flex: 3;
   display: flex;
   margin: 0;
-  @media (max-width: ${MAX_WIDTH_PX}) {
+  @media (max-width: ${ MAX_WIDTH_PX }) {
     /*display: block;
     padding: 0px 20px;
     width: 100%;*/
@@ -285,7 +297,7 @@ const MainBookingItem = styled.div`
   margin: 0 40px;
   padding: 0px;
   flex: 1;
-  @media (max-width: ${MAX_WIDTH_PX}) {
+  @media (max-width: ${ MAX_WIDTH_PX }) {
     margin: 10px 8px 12px 10px;
   }
 `
@@ -299,7 +311,7 @@ const MainBookingButton = styled.div`
   background-color: #5091cd;
   border: none;
   cursor: pointer;
-  @media (max-width: ${MAX_WIDTH_PX}) {
+  @media (max-width: ${ MAX_WIDTH_PX }) {
     margin: 0;
     padding: 8px 50px;
     font-size: 0.9em;
@@ -359,44 +371,53 @@ const MainDiv = (
   showBooking,
   searchToggleCallback,
   bookingToggleCallback
-) => {
+) =>
+{
   const [showMenu, setShowMenu] = useState(false)
-  
+
 
   const session = useSession()
-  const searchUpdate = (value) => {
+  const searchUpdate = (value) =>
+  {
     session.setCurrent({ ...session.current, searchText: value })
   }
-  const searchResult = (slug) => {
+  const searchResult = (slug) =>
+  {
     navigate(slug)
   }
-  const searchClose = () => {
+  const searchClose = () =>
+  {
     console.log(`*** Main.searchClose`)
     searchToggleCallback(false)
   }
 
-  
-  useEffect(() => {
+
+  useEffect(() =>
+  {
     const searchLen = session.current?.searchText?.length
-    console.log(`*** Main.useEffect... searchLen=${searchLen}`)
+    console.log(`*** Main.useEffect... searchLen=${ searchLen }`)
     const searchActive = !(searchLen === 0)
     searchToggleCallback(searchActive)
   }, [session.current.searchText])
 
-  const navTo = (url) => {
+  const navTo = (url) =>
+  {
     setShowMenu(false)
-    if (url.startsWith("http") || url.startsWith("tel")) {
+    if (url.startsWith("http") || url.startsWith("tel"))
+    {
       window.open(url, "_blank")
-    } else {
+    } else
+    {
       navigate(url)
     }
   }
 
   const BOOKING_ADL = "2798"
   const BOOKING_WDV = "2797"
-  const bookingUrl = () => {
+  const bookingUrl = () =>
+  {
     const bookingId = session.current.bookingId
-    const result = `https://www.MyHealth1st.com.au/AppointmentWidget?practice_id=${bookingId}`
+    const result = `https://www.MyHealth1st.com.au/AppointmentWidget?practice_id=${ bookingId }`
     return result
   }
 
@@ -420,7 +441,7 @@ const MainDiv = (
             >
               {title}
             </HeaderTitle>
-          
+
             {showSearch && (
               <MainSearchMob>
                 <MainSearchWrapper>
@@ -428,7 +449,8 @@ const MainDiv = (
                     data-cy="search-input"
                     onClick={() => searchToggleCallback(true)}
                     value={session.current.searchText}
-                    onChange={(e) => {
+                    onChange={(e) =>
+                    {
                       searchUpdate(e.target.value)
                     }}
                     placeholder="Search now."
@@ -508,7 +530,7 @@ const MainDiv = (
               style={{ marginTop: "40px" }}
               onClick={() => navTo("https://g.page/iecwoodville?share")}
             >
-              Woodville.&nbsp;&nbsp;
+              Henley Beach.&nbsp;&nbsp;
               <FaMapMarkerAlt
                 style={{
                   fontSize: "0.7em",
@@ -559,7 +581,8 @@ const MainDiv = (
 
                   onClick={() => searchToggleCallback(true)}
                   value={session.current.searchText}
-                  onChange={(e) => {
+                  onChange={(e) =>
+                  {
                     searchUpdate(e.target.value)
                   }}
                   placeholder="Search now."
@@ -592,7 +615,7 @@ const MainDiv = (
               <MainBookingButton
                 onClick={() => bookingToggleCallback(true, BOOKING_WDV)}
               >
-                {match ? "Book Woodville." : "Book Woodville."}
+                {match ? "Book Henley Beach." : "Book Henley Beach."}
               </MainBookingButton>
             </MainBookingItem>
           </MainBooking>
@@ -663,7 +686,8 @@ export const Main: any = (
   showBooking,
   searchToggleCallback,
   bookingToggleCallback
-) => {
+) =>
+{
   const match = useMatchMedia({
     width: MAX_WIDTH,
   })

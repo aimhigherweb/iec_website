@@ -7,7 +7,7 @@ preview_image: dry-eye-disease.png
 
 Dry eye disease describes a spectrum of conditions that feature ineffective lubrication of the eye. Symptoms range from discomfort through to disabling pain, redness and fluctuating vision and can impact on many visual activities.
 
-The underlying causes of dry eyes are complex and numerous and need a thorough[examination](https://www.innovativeeyecare.com.au/what-we-do/eye-exam)for your optometrist to determine the cause and most appropriate treatment. At our Adelaide and Woodville practices our therapeutic optometrists are equipped with the technology to appropriately diagnose and treat dry eye disease.
+The underlying causes of dry eyes are complex and numerous and need a thorough[examination](https://www.innovativeeyecare.com.au/what-we-do/eye-exam)for your optometrist to determine the cause and most appropriate treatment. At our Adelaide and Henley Beach practices our therapeutic optometrists are equipped with the technology to appropriately diagnose and treat dry eye disease.
 
 </p></div>
 

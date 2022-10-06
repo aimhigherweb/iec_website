@@ -4,7 +4,7 @@ category: "SE08"
 preview_image: driving.jpeg
 ---
 <div class="employee-heading">
-<p>Driving is a skill that is reliant on good vision. The majority of decisions we make behind the wheel are influenced by what our eyes can see on the road, and this depends on a number of factors. Book an <a href="/what-we-do/eye-exam">eye test</a> with an optometrist at our Adelaide or Woodville branch to ensure your vision can accommodate safe and comfortable driving.</p>
+<p>Driving is a skill that is reliant on good vision. The majority of decisions we make behind the wheel are influenced by what our eyes can see on the road, and this depends on a number of factors. Book an <a href="/what-we-do/eye-exam">eye test</a> with an optometrist at our Adelaide or Henley Beach branch to ensure your vision can accommodate safe and comfortable driving.</p>
 </div> 
 
 #### Distance acuity

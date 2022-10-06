@@ -4,7 +4,7 @@ category: "SE09"
 preview_image: cataract.jpg
 ---
 <div class="employee-heading">
-<p>A cataract is a cloudiness of the natural lens of the eye which progresses over time and makes it difficult to see. Cataracts cause light scatter, which can lead to visual problems over time. Almost 1 in 3 Australians over the age of 55 have cataract compared to around 1 in 30 with macular degeneration and and 1 in 40 with glaucoma, making them one of the most common visual problems we see.<sup>1</sup> Optometrists at our Adelaide and Woodville branches have <a href="/what-we-do/anterior-imaging">cutting-edge technology</a> at their disposal that can reveal any changes to the lens of the eye that may lead to cataracts, before symptoms appear. Book an <a href="/what-we-do/eye-exam">eye test</a> for cataract diagnostics and treatment options, or <a href="/contact">contact us</a> for more information. </p>
+<p>A cataract is a cloudiness of the natural lens of the eye which progresses over time and makes it difficult to see. Cataracts cause light scatter, which can lead to visual problems over time. Almost 1 in 3 Australians over the age of 55 have cataract compared to around 1 in 30 with macular degeneration and and 1 in 40 with glaucoma, making them one of the most common visual problems we see.<sup>1</sup> Optometrists at our Adelaide and Henley Beach branches have <a href="/what-we-do/anterior-imaging">cutting-edge technology</a> at their disposal that can reveal any changes to the lens of the eye that may lead to cataracts, before symptoms appear. Book an <a href="/what-we-do/eye-exam">eye test</a> for cataract diagnostics and treatment options, or <a href="/contact">contact us</a> for more information. </p>
 </div>
 
 #### What are cataracts?

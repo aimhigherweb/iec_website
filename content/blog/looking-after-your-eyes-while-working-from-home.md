@@ -8,7 +8,7 @@ preview_image: /uploads/photo-1563986768609-322da13575f3.jpeg
 
 Recently, computer vision syndrome has emerged as a term that describes a group of eye and vision related problems resulting from poor visual hygiene when using a computer. It affects <b>50-90% of computer users</b>, with common symptoms including eye strain, blurred vision, double vision, headaches and dry eyes.<sup>1</sup>
 
-We've put some information together on how to improve your visual hygiene, so computer vision syndrome doesn't affect your day-to-day life. If you are suffering from any of these symptoms or would like to talk to one of our optometrists about visual hygiene, do not hesitate to <a href="https://www.innovativeeyecare.com.au/contact/">book an appointment</a> at either our Adelaide or Woodville practices.</p></div>
+We've put some information together on how to improve your visual hygiene, so computer vision syndrome doesn't affect your day-to-day life. If you are suffering from any of these symptoms or would like to talk to one of our optometrists about visual hygiene, do not hesitate to <a href="https://www.innovativeeyecare.com.au/contact/">book an appointment</a> at either our Adelaide or Henley Beach practices.</p></div>
 
 ###### Working distance
 

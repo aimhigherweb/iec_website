@@ -23,7 +23,7 @@ In July a few of our team members, Lachie, Jane, Georgia and Charmaine attended 
 
 ![](/uploads/7eafc6f2.jpg)
 
-August was another busy month; Sally moved to our Woodville Practice full time to join Pete. While Christine was turned into bionic woman, getting a brand new knee. Jasmine joined our support team full time at Hutt Street. She has always had a passion for the health industry and has worked with kids with special needs. We also received some more exciting news when Katrina and husband Mark announced the arrival of their gorgeous baby girl, Indianna.
+August was another busy month; Sally moved to our Henley Beach practice full time to join Pete. While Christine was turned into bionic woman, getting a brand new knee. Jasmine joined our support team full time at Hutt Street. She has always had a passion for the health industry and has worked with kids with special needs. We also received some more exciting news when Katrina and husband Mark announced the arrival of their gorgeous baby girl, Indianna.
 
 In October we saw practice owner, Lachie, and manager of Innovative Eye Care, Georgia, tie the knot in the Adelaide Hills. They jetted off shortly afterwards on their honeymoon to Seminyak, Bali for some much needed rest and relaxation.
 

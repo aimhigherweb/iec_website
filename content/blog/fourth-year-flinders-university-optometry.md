@@ -7,7 +7,7 @@ preview_image: /uploads/melina-placement.jpg
 
 ![](/uploads/melina.jpg)
 
-My name is Melina and I am an optometry student in my fourth year of study at Flinders University. I have recently begun the placement phase of the degree, and was lucky enough spend six weeks at Innovative Eye Care at Woodville. It is fantastic to have such a specialised practice as a placement partner with Flinders, allowing students to learn and experience through hands on work with patients.
+My name is Melina and I am an optometry student in my fourth year of study at Flinders University. I have recently begun the placement phase of the degree, and was lucky enough spend six weeks at Innovative Eye Care at Henley Beach. It is fantastic to have such a specialised practice as a placement partner with Flinders, allowing students to learn and experience through hands on work with patients.
 
 This has been a great opportunity for me and during my time here I have been exposed to a wide variety of eye problems and, perhaps more importantly, their solutions. I have come to better understand the importance of early management of [dry eyes](/what-we-do/dry-eye-disease) and [blepharitis](/what-we-do/blepharitis), a frequent cause of ocular discomfort particularly in the older population. On the other end of the spectrum, [children’s vision](/what-we-do/childrens-vision) and early detection of visual problems is something that I have found particularly interesting and instructive.
 

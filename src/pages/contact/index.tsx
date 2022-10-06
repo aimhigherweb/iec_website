@@ -1,11 +1,12 @@
 import React from "react"
 import styled from "styled-components"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import {
-  faMapMarker,
-  faClock,
-  faPhoneAlt,
-} from "@fortawesome/free-solid-svg-icons"
+import
+  {
+    faMapMarker,
+    faClock,
+    faPhoneAlt,
+  } from "@fortawesome/free-solid-svg-icons"
 
 import { useSession } from "../../state/SessionWrapper"
 import { useMatchMedia } from "../../hooks/useMatchMedia"
@@ -19,14 +20,14 @@ import SEO from "../../layouts/partials/seo"
 //----------------------------------------------------------
 const DEBUG_CONTACT = "0px solid blue"
 const MAX_WIDTH = 768
-const MAX_WIDTH_PX = `${MAX_WIDTH}px`
+const MAX_WIDTH_PX = `${ MAX_WIDTH }px`
 
 const FooterSection = styled.div`
   padding: 20px 20px;
   margin-bottom: 40px;
-  border: ${DEBUG_CONTACT};
+  border: ${ DEBUG_CONTACT };
   border-top: 1px solid #e2e2e2;
-  @media (max-width: ${MAX_WIDTH_PX}) {
+  @media (max-width: ${ MAX_WIDTH_PX }) {
     padding: 0px 0px;
   }
 `
@@ -36,15 +37,15 @@ const FooterContent = styled.div`
   flex-wrap: wrap;
   justify-content: center;
   padding: 40px;
-  border: ${DEBUG_CONTACT};
+  border: ${ DEBUG_CONTACT };
 `
 const FooterContentItem = styled.div`
   flex: 1;
   margin: 0 20px;
-  @media (max-width: ${MAX_WIDTH_PX}) {
+  @media (max-width: ${ MAX_WIDTH_PX }) {
     flex: 100%;
   }
-  border: ${DEBUG_CONTACT};
+  border: ${ DEBUG_CONTACT };
 `
 
 const MainBookingButton = styled.button`
@@ -55,7 +56,7 @@ const MainBookingButton = styled.button`
   font-weight: 600;
   background-color: #5091cd;
   border: none;
-  @media (max-width: ${MAX_WIDTH_PX}) {
+  @media (max-width: ${ MAX_WIDTH_PX }) {
     width: 100%;
     padding: 8px 24px;
   }
@@ -64,51 +65,52 @@ const MainBookingButton = styled.button`
 const FooterPracticeImg = styled.img`
   width: 100%;
   height: 100%;
-  @media (max-width: ${MAX_WIDTH_PX}) {
+  @media (max-width: ${ MAX_WIDTH_PX }) {
   }
-  border: ${DEBUG_CONTACT};
+  border: ${ DEBUG_CONTACT };
 `
 const FooterContact = styled.div`
   display: flex;
   margin-bottom: 10px;
-  @media (max-width: ${MAX_WIDTH_PX}) {
+  @media (max-width: ${ MAX_WIDTH_PX }) {
   }
-  border: ${DEBUG_CONTACT};
+  border: ${ DEBUG_CONTACT };
 `
 const FooterContactTitle = styled.div`
   flex: 3;
   font-family: "open sans";
   font-size: 1.2em;
   font-weight: 600;
-  @media (max-width: ${MAX_WIDTH_PX}) {
+  @media (max-width: ${ MAX_WIDTH_PX }) {
     flex: 1;
   }
-  border: ${DEBUG_CONTACT};
+  border: ${ DEBUG_CONTACT };
 `
 const FooterContactIcon = styled(FontAwesomeIcon)`
   flex: 0 1 30px;
   margin-top: 8px;
   font-size: 12px;
   color: #d2d2d2;
-  @media (max-width: ${MAX_WIDTH_PX}) {
+  @media (max-width: ${ MAX_WIDTH_PX }) {
   }
-  border: ${DEBUG_CONTACT};
+  border: ${ DEBUG_CONTACT };
 `
 const FooterContactText = styled.div`
   flex: 3;
   font-family: "open sans";
   font-size: 1em;
-  @media (max-width: ${MAX_WIDTH_PX}) {
+  @media (max-width: ${ MAX_WIDTH_PX }) {
   }
-  border: ${DEBUG_CONTACT};
+  border: ${ DEBUG_CONTACT };
 `
 const FooterContactSpacer = styled.div`
   flex: 0;
-  @media (max-width: ${MAX_WIDTH_PX}) {
+  @media (max-width: ${ MAX_WIDTH_PX }) {
   }
 `
 
-const PracticeLocations = (show, bookingToggleCallback) => {
+const PracticeLocations = (show, bookingToggleCallback) =>
+{
   const BOOKING_ADL = "2798"
   const BOOKING_WDV = "2797"
 
@@ -172,7 +174,7 @@ const PracticeLocations = (show, bookingToggleCallback) => {
         </FooterContentItem>
         <FooterContentItem>
           <FooterContact>
-            <FooterContactTitle>Woodville</FooterContactTitle>
+            <FooterContactTitle>Henley Beach</FooterContactTitle>
           </FooterContact>
           <FooterContact>
             <FooterContactSpacer />
@@ -183,9 +185,9 @@ const PracticeLocations = (show, bookingToggleCallback) => {
                 target="_blank"
                 rel="noreferrer"
               >
-                850 Port Road
+                330 Seaview Road
                 <br />
-                Woodville SA 5011
+                Henley Beach SA 5022
               </a>
             </FooterContactText>
             <FooterContactSpacer />
@@ -234,17 +236,19 @@ const Container = styled.div`
 const HeaderSection = styled.div`
   height: 88px;
 `
-const Header = (match) => {
+const Header = (match) =>
+{
   return match ? <HeaderSection /> : <></>
 }
 
-const Contact: React.FC = () => {
+const Contact: React.FC = () =>
+{
   const match = useMatchMedia({ width: MAX_WIDTH })
 
   const session = useSession()
   const show = session.showAll()
 
-  console.log(`*** Contact.RENDER... match=${match}`)
+  console.log(`*** Contact.RENDER... match=${ match }`)
   const video = match ? null : "/videos/location-city.mp4"
 
   const HeaderResult = (props) => Header(match)

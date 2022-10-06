@@ -6,7 +6,7 @@ preview_image: iec-test.jpg
 
 <div class="employee-heading">
 
-<p>Supported by <a href="/what-we-do/oct">cutting edge technology</a>, our Adelaide and Woodville teams work with you to provide quality eye care and vision solutions. Your initial eye test with our optometrists will take approximately 45 minutes and will include an in-depth evaluation to determine your prescription and check for any eye conditions. Please ensure you bring along any glasses or contact lenses you currently use and recent referral letters.
+<p>Supported by <a href="/what-we-do/oct">cutting edge technology</a>, our Adelaide and Henley Beach teams work with you to provide quality eye care and vision solutions. Your initial eye test with our optometrists will take approximately 45 minutes and will include an in-depth evaluation to determine your prescription and check for any eye conditions. Please ensure you bring along any glasses or contact lenses you currently use and recent referral letters.
 
 </div>
 

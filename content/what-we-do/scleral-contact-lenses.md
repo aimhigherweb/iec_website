@@ -4,7 +4,7 @@ category: SE02
 preview_image: scleral-oct-background_preview.jpg
 ---
 <div class="employee-heading">
-<p>At our Adelaide and Woodville practices, optometrists have the ability to fit custom design large diameter scleral contact lenses with <a href="/what-we-do/oct">advanced technologies</a> and materials to treat a range of eye conditions, including <a href="/what-we-do/keratoconus">keratoconus</a>.<sup>1</sup> If you are interested in scleral lenses and would like to know more about whether they are right for you, please make an <a href="/what-we-do/eye-exam">appointment</a> or <a href="/contact">contact us</a>.
+<p>At our Adelaide and Henley Beach practices, optometrists have the ability to fit custom design large diameter scleral contact lenses with <a href="/what-we-do/oct">advanced technologies</a> and materials to treat a range of eye conditions, including <a href="/what-we-do/keratoconus">keratoconus</a>.<sup>1</sup> If you are interested in scleral lenses and would like to know more about whether they are right for you, please make an <a href="/what-we-do/eye-exam">appointment</a> or <a href="/contact">contact us</a>.
 
 **[See this page for more information on scleral lens care.](https://www.innovativeeyecare.com.au/patient-resources/care-of-scleral-lenses/)**
 

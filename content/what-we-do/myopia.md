@@ -8,7 +8,7 @@ preview_image: myopia2-copy.png
 
 ![](/uploads/myopia2.png)
 
-<p>At our Adelaide and Woodville practices, our optometrists offer <a href="/what-we-do/myopia-control">myopia control</a> treatments to prevent the progression of myopia. If you are interested in knowing more, please contact our staff or <a href="/what-we-do/eye-exam">book an appointment</a>.</p>
+<p>At our Adelaide and Henley Beach practices, our optometrists offer <a href="/what-we-do/myopia-control">myopia control</a> treatments to prevent the progression of myopia. If you are interested in knowing more, please contact our staff or <a href="/what-we-do/eye-exam">book an appointment</a>.</p>
 </div>
 
 #### How can I tell if I am myopic?

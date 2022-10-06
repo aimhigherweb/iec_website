@@ -2,11 +2,12 @@ import React from "react"
 import { Link, navigate } from "gatsby"
 import styled from "styled-components"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import {
-  faMapMarkerAlt,
-  faClock,
-  faPhoneAlt,
-} from "@fortawesome/free-solid-svg-icons"
+import
+  {
+    faMapMarkerAlt,
+    faClock,
+    faPhoneAlt,
+  } from "@fortawesome/free-solid-svg-icons"
 import { faFacebook, faInstagram } from "@fortawesome/free-brands-svg-icons"
 
 //----------------------------------------------------------
@@ -14,14 +15,14 @@ import { faFacebook, faInstagram } from "@fortawesome/free-brands-svg-icons"
 //----------------------------------------------------------
 const DEBUG_FOOTER = "0px solid blue"
 const MAX_WIDTH = 768
-const MAX_WIDTH_PX = `${MAX_WIDTH}px`
+const MAX_WIDTH_PX = `${ MAX_WIDTH }px`
 
 const FooterSection = styled.div`
   padding: 20px 20px;
   margin-bottom: 150px;
-  border: ${DEBUG_FOOTER};
+  border: ${ DEBUG_FOOTER };
   border-top: 1px solid #e2e2e2;
-  @media (max-width: ${MAX_WIDTH_PX}) {
+  @media (max-width: ${ MAX_WIDTH_PX }) {
     padding: 20px 40px;
   }
 `
@@ -32,7 +33,7 @@ const FooterLogo = styled.div`
 `
 const FooterLogoItem = styled.div`
   flex: 0 1 20%;
-  @media (max-width: ${MAX_WIDTH_PX}) {
+  @media (max-width: ${ MAX_WIDTH_PX }) {
     flex: 1;
   }
 `
@@ -40,12 +41,12 @@ const FooterLogoImg = styled.img`
   margin-left: 10px;
   width: 120px;
   height: auto;
-  @media (max-width: ${MAX_WIDTH_PX}) {
+  @media (max-width: ${ MAX_WIDTH_PX }) {
     margin: 0;
     padding: 16px;
     width: auto;
   }
-  border: ${DEBUG_FOOTER};
+  border: ${ DEBUG_FOOTER };
 `
 
 const FooterContent = styled.div`
@@ -53,42 +54,42 @@ const FooterContent = styled.div`
   flex-wrap: wrap;
   justify-content: center;
   padding: 0;
-  border: ${DEBUG_FOOTER};
+  border: ${ DEBUG_FOOTER };
 `
 const FooterContentItem = styled.div`
   flex: 1;
   margin: 0 4px;
-  @media (max-width: ${MAX_WIDTH_PX}) {
+  @media (max-width: ${ MAX_WIDTH_PX }) {
     flex: 100%;
   }
-  border: ${DEBUG_FOOTER};
+  border: ${ DEBUG_FOOTER };
 `
 const FooterContact = styled.div`
   display: flex;
   margin-bottom: 10px;
-  @media (max-width: ${MAX_WIDTH_PX}) {
+  @media (max-width: ${ MAX_WIDTH_PX }) {
     justify-content: center;
   }
-  border: ${DEBUG_FOOTER};
+  border: ${ DEBUG_FOOTER };
 `
 const FooterContactIcon = styled(FontAwesomeIcon)`
   flex: 0 1 40px;
   font-size: 1em;
   color: #d2d2d2;
-  border: ${DEBUG_FOOTER};
+  border: ${ DEBUG_FOOTER };
 `
 const FooterContactText = styled.div`
   flex: 3;
   font-size: 1em;
-  @media (max-width: ${MAX_WIDTH_PX}) {
+  @media (max-width: ${ MAX_WIDTH_PX }) {
     flex: 4;
     font-size: 1em;
   }
-  border: ${DEBUG_FOOTER};
+  border: ${ DEBUG_FOOTER };
 `
 const FooterContactSpacer = styled.div`
   flex: 0;
-  @media (max-width: ${MAX_WIDTH_PX}) {
+  @media (max-width: ${ MAX_WIDTH_PX }) {
     flex: 2;
   }
 `
@@ -97,13 +98,13 @@ const FooterMenu = styled.ul`
   margin: 0;
   padding: 0;
   list-style-type: none;
-  border: ${DEBUG_FOOTER};
+  border: ${ DEBUG_FOOTER };
 `
 const FooterMenuItem = styled.li`
-  @media (max-width: ${MAX_WIDTH_PX}) {
+  @media (max-width: ${ MAX_WIDTH_PX }) {
     text-align: center;
   }
-  border: ${DEBUG_FOOTER};
+  border: ${ DEBUG_FOOTER };
 `
 const StyledLink = styled((props) => <Link {...props} />)`
   color: black;
@@ -125,7 +126,7 @@ const FooterNewsletterTitle = styled.div`
   font-weight: 600;
   font-family: "recoleta";
   font-weight: 500;
-  border: ${DEBUG_FOOTER};
+  border: ${ DEBUG_FOOTER };
 `
 const FooterNewsletterInput = styled.input`
   padding: 0 4px;
@@ -133,7 +134,7 @@ const FooterNewsletterInput = styled.input`
   font-family: "open sans";
   font-size: 1em;
   background-color: #f2f2f2;
-  border: ${DEBUG_FOOTER};
+  border: ${ DEBUG_FOOTER };
   border: 1px solid #c2c2c2;
 `
 const FooterNewsletterButton = styled.button`
@@ -151,7 +152,7 @@ const FooterNewsletterIcon = styled(FontAwesomeIcon)`
   font-size: 24px;
   color: #d2d2d2;
   cursor: pointer;
-  border: ${DEBUG_FOOTER};
+  border: ${ DEBUG_FOOTER };
 `
 const FooterGutter = styled.div`
   margin-top: 40px;
@@ -161,12 +162,13 @@ const FooterGutterText = styled.div`
   margin: 20px 0 0px 0;
   font-size: 0.6em;
   color: black;
-  @media (max-width: ${MAX_WIDTH_PX}) {
+  @media (max-width: ${ MAX_WIDTH_PX }) {
     font-size: 0.8em;
   }
 `
 
-const FooterDiv = (show) => {
+const FooterDiv = (show) =>
+{
   const newsletterActionUrl =
     "https://www.createsend.com/t/subscribeerror?description="
   const newsletterDataId =
@@ -223,9 +225,9 @@ const FooterDiv = (show) => {
                 target="_blank"
                 rel="noreferrer"
               >
-                850 Port Road
+                330 Seaview Roac
                 <br />
-                Woodville SA 5011
+                Henley Beach SA 5022
               </StyledRef>
             </FooterContactText>
             <FooterContactSpacer />
@@ -307,7 +309,7 @@ const FooterDiv = (show) => {
                     placeholder="Name"
                   />
                   <FooterNewsletterInput
-                  data-cy="newsletter-input-email"
+                    data-cy="newsletter-input-email"
                     className="js-cm-email-input qa-input-email"
                     id="fieldEmail"
                     name="cm-yuuilky-yuuilky"
@@ -360,7 +362,8 @@ const FooterDiv = (show) => {
 //----------------------------------------------------------
 //-- Render
 //----------------------------------------------------------
-export const Footer: React.FC = (show) => {
+export const Footer: React.FC = (show) =>
+{
   console.log(`*** Footer.RENDER`)
   return FooterDiv(show)
 }
