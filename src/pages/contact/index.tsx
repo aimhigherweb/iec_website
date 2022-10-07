@@ -2,11 +2,11 @@ import React from "react"
 import styled from "styled-components"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import
-  {
-    faMapMarker,
-    faClock,
-    faPhoneAlt,
-  } from "@fortawesome/free-solid-svg-icons"
+{
+  faMapMarker,
+  faClock,
+  faPhoneAlt,
+} from "@fortawesome/free-solid-svg-icons"
 
 import { useSession } from "../../state/SessionWrapper"
 import { useMatchMedia } from "../../hooks/useMatchMedia"
@@ -206,7 +206,7 @@ const PracticeLocations = (show, bookingToggleCallback) =>
             <FooterContactText>
               Mon-Fri 8.30am - 5.30pm
               <br />
-              Sat CLOSED
+              Sat 8.30am - 12pm
             </FooterContactText>
             <FooterContactSpacer />
           </FooterContact>

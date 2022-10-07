@@ -246,7 +246,7 @@ const FooterDiv = (show) =>
             <FooterContactText>
               Mon-Fri 8.30am - 5.30pm
               <br />
-              Sat CLOSED
+              Sat 8.30am - 12pm
             </FooterContactText>
             <FooterContactSpacer />
           </FooterContact>
