@@ -3,11 +3,11 @@ import { Link, navigate } from "gatsby"
 import styled from "styled-components"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import
-  {
-    faMapMarkerAlt,
-    faClock,
-    faPhoneAlt,
-  } from "@fortawesome/free-solid-svg-icons"
+{
+  faMapMarkerAlt,
+  faClock,
+  faPhoneAlt,
+} from "@fortawesome/free-solid-svg-icons"
 import { faFacebook, faInstagram } from "@fortawesome/free-brands-svg-icons"
 
 //----------------------------------------------------------
@@ -225,7 +225,7 @@ const FooterDiv = (show) =>
                 target="_blank"
                 rel="noreferrer"
               >
-                330 Seaview Roac
+                330 Seaview Road
                 <br />
                 Henley Beach SA 5022
               </StyledRef>
