@@ -9,54 +9,6 @@ media_folder: "static/uploads" # Media files stored in repo under images/uploads
 public_folder: "/uploads" # Media files stored in repo under images/uploads
 
 collections:
-  - name: "blog"
-    label: "Blog"
-    folder: "content/blog"
-    create: true #
-    slug: "{{slug}}"
-    fields:
-      - { label: "Title", name: "title", widget: "string", required: false }
-      - {
-          label: "Publish Date",
-          name: "date",
-          widget: "datetime",
-          required: false,
-        }
-      - {
-          label: "Author",
-          name: "author",
-          widget: "relation",
-          collection: "author",
-          searchFields: ["title"],
-          valueField: "title",
-        }
-      - {
-          label: "Preview Image",
-          name: "preview_image",
-          widget: "image",
-          required: false,
-        }
-      - { label: "Body", name: "body", widget: "markdown", required: false }
-  - name: "patient-resources"
-    label: "Patient Resources"
-    folder: "content/patient-resources"
-    create: true
-    slug: "{{slug}}"
-    fields:
-      - { label: "Title", name: "title", widget: "string", required: false }
-      - {
-          label: "Category",
-          name: "category",
-          widget: "string",
-          required: false,
-        }
-      - {
-          label: "Preview Image",
-          name: "preview_image",
-          widget: "image",
-          required: false,
-        }
-      - { label: "Body", name: "body", widget: "markdown", required: false }
   - name: "author"
     label: "Who We Are"
     folder: "content/author"
@@ -149,23 +101,3 @@ collections:
           required: false,
         }
       - { label: "Body", name: "body", widget: "markdown", required: false }
-  - name: "promotion"
-    label: "Promotion"
-    folder: "content/promotion"
-    create: true
-    slug: "{{slug}}"
-    fields:
-      - { label: "Title", name: "title", widget: "string", required: true }
-      - { label: "Image", name: "image", widget: "image", required: true }
-      - {
-          label: "Publish Date",
-          name: "publish_date",
-          widget: "datetime",
-          required: true,
-        }
-      - {
-          label: "Expiry Date",
-          name: "expiry_date",
-          widget: "datetime",
-          required: true,
-        }

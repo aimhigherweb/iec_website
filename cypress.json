@@ -1,6 +1,0 @@
-{
-  "projectId": "ieumap",
-  "baseUrl": "http://localhost:8000",
-  "experimentalFetchPolyfill": true,
-  "viewportHeight": 1400
-}
