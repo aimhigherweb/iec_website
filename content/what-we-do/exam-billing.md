@@ -1,9 +1,8 @@
 ---
 title: Exam Billing
-category: "SE10"
+category: SE10
 preview_image: innovative-eye-care-medicare-eye.jpg
 ---
-
 <div class="employee-heading">
 <p>The 2014 Budget made significant changes to how optometrists can subsidise by the government in Australia. As a result both our Adelaide and Henley Beach practices have altered how we bill our <a href="/what-we-do/eye-exam">consultations</a> so that we may continue to provide our patients with the best eye care, vision and access to technology in the future. </p>
 </div>
@@ -32,12 +31,12 @@ Consultation fees will now be standardised, rather than varying in line with the
   <tr>
     <td class="tg-fdbh">Full Consultation</td>
     <td class="tg-fdbh">$90
-    <td class="tg-fdbh">$29.35 - $58.55 (eligibility dependent)</td>
+    <td class="tg-fdbh">$30.05 - $60.00 (eligibility dependent)</td>
   </tr>
   <tr>
     <td class="tg-fdbh">Short Consultation</td>
     <td class="tg-fdbh">$50
-    <td class="tg-fdbh">$29.35</td>
+    <td class="tg-fdbh">$30.05</td>
   </tr>
   <tr>
     <td class="tg-fdbh">Diagnostic Imaging</td>
@@ -47,7 +46,7 @@ Consultation fees will now be standardised, rather than varying in line with the
 
   <tr>
     <td class="tg-fdbh">Subsequent Diagnostic<br> Imaging</td>
-    <td class="tg-fdbh">$45 per adult<br>$22.50 per child<br>and concession</td>
+    <td class="tg-fdbh">$45 per adult<br>$25 per child<br>and concession</td>
     <td class="tg-fdbh">Not eligible for rebate</td>
   </tr>
 </table>
