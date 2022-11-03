@@ -1,6 +1,6 @@
 ---
 title: Georgia Hoy
-jobtitle: Operations Manager
+jobtitle: Practice Manager
 photo: /uploads/g-2022.png
 order: 8
 ---
