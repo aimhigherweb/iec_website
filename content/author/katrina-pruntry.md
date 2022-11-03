@@ -1,6 +1,6 @@
 ---
 title: Katrina Prunty
-jobtitle: Optical Dispenser
+jobtitle: Practice Manager
 photo: /uploads/kat-2022.png
 order: 15
 ---
