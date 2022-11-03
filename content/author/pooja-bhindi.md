@@ -1,6 +1,6 @@
 ---
 title: Pooja Bhindi
-jobtitle: Optometrist
+jobtitle: Principal Optometrist
 photo: /uploads/pooja-2022.png
 order: 4
 ---
