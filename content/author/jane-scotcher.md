@@ -1,6 +1,6 @@
 ---
 title: Jane Scotcher
-jobtitle: Practice Manager
+jobtitle: Optical Dispenser
 photo: /uploads/jane-2022.png
 order: 10
 ---
