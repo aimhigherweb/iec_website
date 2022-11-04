@@ -1,6 +1,6 @@
 ---
 title: Shaw Lenses
-category: "SE01"
+category: SE03
 preview_image: kid-glasses.jpeg
 ---
 
