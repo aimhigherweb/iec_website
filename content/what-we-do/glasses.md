@@ -1,6 +1,6 @@
 ---
 title: Spectacle Lenses
-category: "SE01"
+category: SE10
 preview_image: spectacle-lenses.jpeg
 ---
 
