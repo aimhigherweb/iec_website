@@ -10,3 +10,5 @@ The Optical Dispensary, brought to you by Innovative Eye Care, is a South Austra
 Our bespoke services encompass personalized service from highly experienced optical dispensers using state-of-the-art technology combined with high end fashion. All combined to form Australia’s most prestigious eyewear destination.
 
 The collection includes LINDBERG, Tom Ford, Barton Perreira, Masunaga and Thierry Lasry.
+
+![](/uploads/img_7519.jpeg)
