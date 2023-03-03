@@ -1,0 +1,19 @@
+@import './fonts';
+@import './typo';
+@import './forms';
+
+body {
+	padding: 0;
+	margin: 0;
+}
+
+.sr-only,
+.sr_only {
+	@include mixins.sr-only;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}

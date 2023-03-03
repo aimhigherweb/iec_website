@@ -1,0 +1,3 @@
+setup:
+        project: iec-website
+        config: dev

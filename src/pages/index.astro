@@ -1,0 +1,13 @@
+---
+import Layout from "@layouts/home.astro";
+import Banner from "@parts/banner.astro";
+
+import content from "@data/home.json";
+
+const { title, banner, sections } = content;
+---
+
+<Layout>
+	<h1 class="sr-only">{title}</h1>
+	<Banner content={banner} />
+</Layout>

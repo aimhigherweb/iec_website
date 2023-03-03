@@ -1,0 +1,31 @@
+form {
+	padding: 20px;
+	width: 100%;
+	max-width: 400px;
+	font-size: 1.1em;
+
+	label,
+	legend {
+		display: block;
+
+		font-family: var.$font_heading;
+		font-weight: 500;
+		margin: 1em 0 0.1em;
+
+		&:first-child {
+			margin-top: 0;
+		}
+	}
+
+	input,
+	select,
+	textarea {
+		width: 100%;
+		padding: 5px 10px;
+	}
+
+	button,
+	input[type="submit"] {
+		margin-top: 20px;
+	}
+}

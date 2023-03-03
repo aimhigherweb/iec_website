@@ -1,0 +1,140 @@
+---
+import SVG from "@parts/svg.astro";
+
+import main from "../../content/menus/main-menu.json";
+---
+
+<style lang="scss">
+	header {
+		position: sticky;
+		top: 0;
+		z-index: 20;
+		width: 100vw;
+		left: 0;
+		right: 0;
+		color: var.$white;
+		padding: 20px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		background: rgba(var.$secondary, 0.6);
+	}
+
+	.logo {
+		height: 50px;
+		width: auto;
+	}
+
+	nav {
+		position: relative;
+		color: var.$secondary;
+
+		a {
+			background: var.$white;
+			padding: 15px 20px;
+			font-weight: 600;
+			font-family: var.$font_headings;
+
+			&:hover {
+				background: var.$secondary;
+				color: var.$white;
+			}
+		}
+
+		li {
+			&:last-child {
+				a {
+					border-radius: 0 0 10px 10px;
+				}
+			}
+
+			&:first-child {
+				a {
+					border-radius: 10px 10px 0 0;
+				}
+			}
+		}
+
+		&:global(.open) {
+			ul {
+				display: block;
+			}
+
+			.hamburger {
+				.open {
+					display: none;
+				}
+
+				.close {
+					display: block;
+				}
+			}
+		}
+	}
+
+	ul {
+		min-width: 200px;
+		max-width: 400px;
+		position: absolute;
+		top: 105%;
+		border-radius: 10px;
+		right: 0;
+		text-align: right;
+		display: none;
+	}
+
+	.hamburger {
+		padding: 10px;
+		background: none;
+		border-color: transparent;
+		font-size: 1.8em;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		line-height: 1;
+
+		svg {
+			height: 1em;
+			width: auto;
+		}
+
+		.close {
+			display: none;
+		}
+	}
+</style>
+
+<header>
+	<SVG name="logo.svg" class="logo" />
+	<nav id="main-menu">
+		<button class="hamburger" onclick="toggleMenu()">
+			<SVG name="icons/hamburger.svg" class="open" />
+			<SVG name="icons/close.svg" class="close" />
+			<span class="sr-only">Toggle Menu</span>
+		</button>
+		<ul>
+			{
+				main.items.map(({ url, text }) => (
+					<li>
+						<a href={url}>{text}</a>
+					</li>
+				))
+			}
+		</ul>
+	</nav>
+</header>
+
+<script is:inline>
+	const toggleNav = (menuSelector) => {
+		const menu = document.querySelector(menuSelector);
+		if (menu.classList.contains("open")) {
+			menu.classList.remove("open");
+		} else {
+			menu.classList.add("open");
+		}
+	};
+
+	const toggleMenu = () => {
+		toggleNav("nav#main-menu");
+	};
+</script>

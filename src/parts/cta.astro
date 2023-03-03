@@ -1,0 +1,40 @@
+---
+const { cta, ...props } = Astro.props;
+---
+
+<style lang="scss">
+	a {
+		@include mixins.button;
+	}
+
+	ul {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		align-content: center;
+		list-style: none;
+		margin: -1em;
+		padding: 0;
+	}
+
+	li {
+		margin: 1em;
+		padding: 0;
+		list-style-type: none;
+	}
+</style>
+
+<ul {...props}>
+	{
+		cta.map((cta) => (
+			<li>
+				<a
+					href={cta.url}
+					target={cta.url.startsWith("http") ? "_blank" : "_self"}
+				>
+					{cta.text}
+				</a>
+			</li>
+		))
+	}
+</ul>

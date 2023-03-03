@@ -1,0 +1,288 @@
+---
+import SVG from "@parts/svg.astro";
+
+import footer from "../../content/menus/footer-menu.json";
+import social from "../../content/menus/social-menu.json";
+import * as newsletterForm from "../../context/data/newsletter.md";
+
+const stores = await Astro.glob("../../context/stores/*.json");
+---
+
+<style lang="scss">
+	footer {
+		padding: 40px 20px;
+		display: flex;
+		flex-wrap: wrap;
+		margin: -10px;
+
+		> * {
+			margin: 10px;
+			flex-grow: 1;
+		}
+
+		h3 {
+			margin-top: 0;
+		}
+
+		:global(form) {
+			padding: 0;
+		}
+	}
+
+	p {
+		width: 100%;
+		text-align: center;
+	}
+
+	.leading {
+		font-family: var.$font_headings;
+		font-weight: 400;
+		font-size: 1.5em;
+		margin-bottom: 30px;
+
+		&:after {
+			content: "";
+			width: 80%;
+			margin: 20px auto 0;
+			border-bottom: 1px solid currentColor;
+			display: block;
+			opacity: 0.5;
+		}
+	}
+
+	.store {
+		flex: 1 1 40%;
+		text-align: left;
+
+		address {
+			font-style: normal;
+		}
+
+		a {
+			color: inherit;
+		}
+	}
+
+	.hours {
+		dt {
+			font-weight: 600;
+		}
+
+		dd {
+			margin-left: 2ch;
+		}
+	}
+
+	.address,
+	.hours,
+	.phone {
+		position: relative;
+		display: block;
+		width: 100%;
+		padding-left: 2.5ch;
+		margin-bottom: 0.5em;
+		text-decoration: none;
+
+		&:is(a) {
+			&:hover {
+				text-decoration: underline;
+			}
+		}
+
+		.icon {
+			height: 1em;
+			display: block;
+			width: auto;
+			color: var.$primary;
+			position: absolute;
+			top: 0.15em;
+			left: 0;
+			opacity: 0.8;
+		}
+	}
+
+	nav {
+		ul {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			flex-wrap: wrap;
+			margin: -10px;
+		}
+
+		li {
+			margin: 10px;
+		}
+
+		a {
+			padding: 5px;
+
+			&:hover {
+				text-decoration: underline;
+				text-decoration-thickness: 2px;
+				text-decoration-color: var.$primary;
+			}
+		}
+
+		&.social {
+			font-size: 2em;
+
+			ul {
+				justify-content: flex-start;
+				margin: 0 -10px;
+			}
+			li {
+				margin: 10px;
+			}
+
+			a {
+				&:hover {
+					color: var.$primary;
+				}
+			}
+		}
+	}
+
+	@media (min-width: 40em) {
+		footer {
+			justify-content: space-between;
+
+			> *:not(p) {
+				max-width: max-content;
+			}
+
+			:global(form) {
+				width: 250px;
+			}
+		}
+		.store {
+		}
+
+		.copyright {
+			text-align: left;
+		}
+
+		.attribution {
+			text-align: right;
+		}
+
+		.leading {
+			margin-bottom: 50px;
+			&:after {
+				width: 50%;
+				max-width: 400px;
+			}
+		}
+
+		nav {
+			&:not(.social) {
+				ul {
+					display: block;
+				}
+			}
+		}
+	}
+
+	@media (min-width: 50em) {
+		footer {
+			padding: 40px;
+		}
+	}
+
+	@media (min-width: 60em) {
+		footer {
+			padding: 40px 5vw;
+		}
+	}
+
+	@media (min-width: 80em) {
+		footer {
+			padding: 40px calc(50vw - 600px);
+		}
+	}
+</style>
+
+<footer>
+	<p class="leading">
+		Follow us on {
+			new Intl.ListFormat("en-AU", {
+				style: "long",
+				type: "conjunction",
+			}).format(social.items.map(({ text }) => text))
+		} to see what we've been up to!
+	</p>
+	{
+		stores.map((store) => (
+			<div class="store">
+				<h3>{store.name}</h3>
+				<address class="address">
+					<SVG name="icons/map.svg" class="icon" />
+					{store.address.address}
+					<br />
+					{store.address.city} {store.address.state}{" "}
+					{store.address.postcode}
+				</address>
+				<a
+					href={`tel:${store.phone.replace(/(\(|\)|\s)/g, "")}`}
+					target="_blank"
+					class="phone"
+				>
+					<SVG name="icons/phone.svg" class="icon" />
+					{store.phone}
+				</a>
+				<dl class="hours">
+					<SVG name="icons/clock.svg" class="icon" />
+					{store.hours.map((day) => (
+						<>
+							<dt>{day.days}</dt>
+							<dd>{day.hours}</dd>
+						</>
+					))}
+				</dl>
+			</div>
+		))
+	}
+	<nav>
+		<ul>
+			{
+				footer.items.map(({ url, text }) => (
+					<li>
+						<a href={url}>{text}</a>
+					</li>
+				))
+			}
+		</ul>
+	</nav>
+	<div>
+		<h3>{newsletterForm.frontmatter.heading}</h3>
+		<newsletterForm.Content />
+		<nav class="social">
+			<ul>
+				{
+					social.items.map(({ url, text }) => (
+						<li>
+							<a href={url}>
+								<>
+									<SVG
+										name={`icons/${text.toLocaleLowerCase()}.svg`}
+									/>
+									<span class="sr-only">{text}</span>
+								</>
+							</a>
+						</li>
+					))
+				}
+			</ul>
+		</nav>
+	</div>
+	<p class="copyright">
+		Copyright © {new Date().getFullYear()} Innovative Eye Care
+	</p>
+	<p class="attribution">
+		Website by <a
+			href="https://aimhigherweb.design"
+			target="_blank"
+			rel="nofollow">AimHigher Web</a
+		>
+	</p>
+</footer>
