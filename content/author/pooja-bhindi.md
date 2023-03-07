@@ -1,7 +1,7 @@
 ---
 title: Pooja Bhindi
 jobtitle: Optometrist
-photo: /public/img/uploads/staff/pooja-2022.png
+photo: /public/img/uploads/staff/Pooja-2022.png
 order: 4
 ---
 Pooja is a therapeutically qualified optometrist who graduated from Flinders University and has a keen interest in specialty contact lenses, keratoconus, and myopia management. She is also heavily involved in the eyecare industry, being the current State President for the South Australian division of CCLSA as well as sitting on the ECOV/SA committee for early career optometrists.  

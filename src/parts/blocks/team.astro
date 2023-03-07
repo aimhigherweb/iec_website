@@ -10,10 +10,15 @@ const profiles = allStaff.filter((profile) =>
 );
 ---
 
-<style lang="scss"></style>
+<style lang="scss">
+	.content {
+		max-width: 800px;
+		margin: 20px auto;
+	}
+</style>
 
 <>
 	<h2>{heading}</h2>
 	<Staff profiles={profiles} />
-	<div set:html={content.html} />
+	<div set:html={content.html} class="content" />
 </>
