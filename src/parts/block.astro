@@ -32,12 +32,21 @@ data.content = {
 		.use(rehypeStringify)
 		.process(Astro.props.content),
 };
+
+data.leading = {
+	markdown: Astro.props.leading,
+	html: unified()
+		.use(markdown)
+		.use(markdownToHtml)
+		.use(rehypeStringify)
+		.process(Astro.props.leading),
+};
 ---
 
 <style lang="scss">
 	.block {
 		padding: 40px 20px;
-		background: var.$background;
+
 		color: var.$secondary;
 		text-align: center;
 
@@ -49,6 +58,10 @@ data.content = {
 		&.theme-dark {
 			background: var.$secondary;
 			color: var.$background;
+		}
+
+		&.theme-light {
+			background: var.$background;
 		}
 	}
 

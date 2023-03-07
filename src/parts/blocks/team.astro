@@ -1,13 +1,19 @@
 ---
 import Staff from "@parts/staff.astro";
 
-const { heading, content, staff } = Astro.props;
+const { heading, content, staff, leading } = Astro.props;
+
+console.log({ props: Astro.props });
 
 const allStaff = await Astro.glob("../../../content/author/*.md");
 
-const profiles = allStaff.filter((profile) =>
-	staff.includes(profile.frontmatter.title)
-);
+const profiles = allStaff
+	.filter((profile) => staff.includes(profile.frontmatter.title))
+	.sort(
+		(a, b) =>
+			staff.indexOf(a.frontmatter.title) -
+			staff.indexOf(b.frontmatter.title)
+	);
 ---
 
 <style lang="scss">
@@ -19,6 +25,7 @@ const profiles = allStaff.filter((profile) =>
 
 <>
 	<h2>{heading}</h2>
+	{leading && <div set:html={leading.html} />}
 	<Staff profiles={profiles} />
 	<div set:html={content.html} class="content" />
 </>

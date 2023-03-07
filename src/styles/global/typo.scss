@@ -1,6 +1,10 @@
 body {
 	font-family: var.$font_main;
 	line-height: 1.25;
+
+	@media(min-width: 60em) {
+		font-size: 1.2em;
+	}
 }
 
 h1,

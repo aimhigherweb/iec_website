@@ -3,6 +3,7 @@ import { Picture } from "@astrojs/image/components";
 import SVG from "@parts/svg.astro";
 
 const { profiles } = Astro.props;
+const full = profiles.length > 7;
 ---
 
 <style lang="scss">
@@ -16,7 +17,6 @@ const { profiles } = Astro.props;
 
 		li {
 			position: relative;
-			z-index: 2;
 			padding: 10px;
 			margin: 10px 0;
 			flex: 1 0 auto;
@@ -24,6 +24,18 @@ const { profiles } = Astro.props;
 
 		img {
 			width: 150px;
+		}
+	}
+
+	button {
+		background: none;
+		border: none;
+		padding: 0;
+		color: inherit;
+
+		&:hover {
+			background: none;
+			color: inherit;
 		}
 	}
 
@@ -60,8 +72,83 @@ const { profiles } = Astro.props;
 		}
 	}
 
-	.content {
-		overflow: auto;
+	.popup {
+		display: none;
+		position: fixed;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		background: var.$white;
+		z-index: 100;
+		width: 100vw;
+		max-width: 500px;
+		padding: 40px 20px;
+		height: 100vh;
+		max-height: 500px;
+
+		&:before {
+			content: "";
+			background: var.$neutral;
+			position: absolute;
+			height: 100vh;
+			width: 100vw;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			z-index: -2;
+			opacity: 0.8;
+		}
+
+		&:after {
+			content: "";
+			background: inherit;
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			z-index: -1;
+		}
+
+		.close {
+			position: absolute;
+			top: 20px;
+			right: 20px;
+
+			svg {
+				height: 20px;
+				width: auto;
+			}
+		}
+
+		&[data-active="true"] {
+			display: block;
+		}
+
+		h3 {
+			visibility: visible;
+			margin-top: 0;
+		}
+
+		.content {
+			text-align: left;
+			overflow: auto;
+			max-height: 100%;
+
+			img {
+				width: 150px;
+				float: left;
+				margin: 0 10px 10px 0;
+				display: block;
+				filter: none;
+			}
+		}
+	}
+
+	@media (min-width: 50em) {
+		.popup {
+			padding: 40px;
+		}
 	}
 
 	@media (min-width: 60em) {
@@ -74,6 +161,13 @@ const { profiles } = Astro.props;
 
 			img {
 				width: 100%;
+			}
+
+			&.full {
+				li {
+					flex-basis: 150px;
+					max-width: 200px;
+				}
 			}
 		}
 
@@ -89,19 +183,58 @@ const { profiles } = Astro.props;
 	}
 </style>
 
-<ul class="profiles">
+<ul class={`profiles ${full && "full"}`}>
 	{
-		profiles.map((profile) => (
-			<li class="person">
-				<Picture
-					src={profile.frontmatter.photo.replace("/public/", "/")}
-					alt={profile.frontmatter.title}
-					widths={[200]}
-					aspectRatio="4:5"
-					formats={["avif", "webp", "png"]}
-				/>
-				<h3>{profile.frontmatter.title}</h3>
-			</li>
-		))
+		profiles.map((profile) => {
+			const id = `p${Math.random().toString(36).substring(2, 9)}`;
+			return (
+				<li id={id} class="person">
+					<button onclick={`togglePopup(${id})`}>
+						<Picture
+							src={profile.frontmatter.photo.replace(
+								"/public/",
+								"/"
+							)}
+							alt={profile.frontmatter.title}
+							widths={[200]}
+							aspectRatio="4:5"
+							formats={["avif", "webp", "png"]}
+						/>
+						<h3>{profile.frontmatter.title}</h3>
+					</button>
+					<div class="popup" data-active={0}>
+						<button class="close" onclick={`togglePopup(${id})`}>
+							<>
+								<span class="sr-only">Close Popup</span>
+								<SVG name="icons/close.svg" />
+							</>
+						</button>
+						<div class="content">
+							<h3>{profile.frontmatter.title}</h3>
+							<Picture
+								src={profile.frontmatter.photo.replace(
+									"/public/",
+									"/"
+								)}
+								alt={profile.frontmatter.title}
+								widths={[200]}
+								aspectRatio="4:5"
+								formats={["avif", "webp", "png"]}
+							/>
+							<profile.Content />
+						</div>
+					</div>
+				</li>
+			);
+		})
 	}
 </ul>
+
+<script is:inline>
+	const togglePopup = (id) => {
+		const popup = id.querySelector(".popup");
+		const active = popup.dataset.active === "true";
+
+		popup.dataset.active = !active;
+	};
+</script>

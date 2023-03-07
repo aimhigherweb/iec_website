@@ -8,7 +8,7 @@ import Block from "@parts/block.astro";
 const { title, banner, sections } = content;
 ---
 
-<Layout>
+<Layout content={content}>
 	<h1 class="sr-only">{title}</h1>
 	<Banner content={banner} />
 	{sections.map((section) => <Block {...section} />)}

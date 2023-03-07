@@ -1,7 +1,7 @@
 ---
 title: Katrina Prunty
 jobtitle: Optical Dispenser
-photo: /uploads/kat-2022.png
+photo: /public/img/uploads/staff/kat-2022.png
 order: 15
 ---
 

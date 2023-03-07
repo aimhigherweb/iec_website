@@ -1,282 +1,647 @@
-backend:
-  name: git-gateway
-  branch: redesign
-
-local_backend: true
-
-media_folder: "public/img/uploads" # Media files stored in repo under images/uploads
-public_folder: "/img/uploads" # Media files stored in repo under images/uploads
-
-collections:
-  - name: "author"
-    label: "Who We Are"
-    folder: "content/author"
-    create: true
-    slug: "{{slug}}"
-    fields:
-      - { label: "Title", name: "title", widget: "string", required: false }
-      - {
-          label: "Job Title",
-          name: "jobtitle",
-          widget: "string",
-          required: false,
+{
+  "backend": {
+    "name": "git-gateway",
+    "branch": "redesign"
+  },
+  "local_backend": true,
+  "media_folder": "public/img/uploads",
+  "public_folder": "/img/uploads",
+  "collections": [
+    {
+      "name": "author",
+      "label": "Who We Are",
+      "folder": "content/author",
+      "create": true,
+      "slug": "{{slug}}",
+      "fields": [
+        {
+          "label": "Title",
+          "name": "title",
+          "widget": "string",
+          "required": false
+        },
+        {
+          "label": "Job Title",
+          "name": "jobtitle",
+          "widget": "string",
+          "required": false
+        },
+        {
+          "label": "Photo",
+          "name": "photo",
+          "widget": "image",
+          "required": false,
+          "media_folder": "/public/img/uploads/staff"
+        },
+        {
+          "label": "Body",
+          "name": "body",
+          "widget": "markdown",
+          "required": false
+        },
+        {
+          "label": "Skill 1",
+          "name": "skill1",
+          "widget": "string",
+          "required": false
+        },
+        {
+          "label": "Rating 1",
+          "name": "rating1",
+          "widget": "number",
+          "valueType": "int",
+          "required": false
+        },
+        {
+          "label": "Skill 2",
+          "name": "skill2",
+          "widget": "string",
+          "required": false
+        },
+        {
+          "label": "Rating 2",
+          "name": "rating2",
+          "widget": "number",
+          "valueType": "int",
+          "required": false
+        },
+        {
+          "label": "Skill 3",
+          "name": "skill3",
+          "widget": "string",
+          "required": false
+        },
+        {
+          "label": "Rating 3",
+          "name": "rating3",
+          "widget": "number",
+          "valueType": "int",
+          "required": false
+        },
+        {
+          "label": "Skill 4",
+          "name": "skill4",
+          "widget": "string",
+          "required": false
+        },
+        {
+          "label": "Rating 4",
+          "name": "rating4",
+          "widget": "number",
+          "valueType": "int",
+          "required": false
+        },
+        {
+          "label": "Order",
+          "name": "order",
+          "widget": "number",
+          "valueType": "int",
+          "required": false
         }
-      - label: "Photo"
-        name: "photo"
-        widget: "image"
-        required: false
-        media_folder: '/public/img/uploads/staff'
-      - { label: "Body", name: "body", widget: "markdown", required: false }
-      - { label: "Skill 1", name: "skill1", widget: "string", required: false }
-      - {
-          label: "Rating 1",
-          name: "rating1",
-          widget: "number",
-          valueType: "int",
-          required: false,
+      ]
+    },
+    {
+      "name": "what-we-do-cat",
+      "label": "What We Do Category",
+      "folder": "content/what-we-do-cat",
+      "create": true,
+      "slug": "{{catno}}-{{slug}}",
+      "summary": "{{catno}} - {{title}}",
+      "fields": [
+        {
+          "label": "Title",
+          "name": "title",
+          "widget": "string"
+        },
+        {
+          "label": "Category No",
+          "name": "catno",
+          "widget": "string",
+          "pattern": [
+            "^([A-Z]{2})([0-9]{2})$",
+            "eg. SE01, SE02,.. SE10"
+          ]
+        },
+        {
+          "label": "Image",
+          "name": "image",
+          "widget": "image"
         }
-      - { label: "Skill 2", name: "skill2", widget: "string", required: false }
-      - {
-          label: "Rating 2",
-          name: "rating2",
-          widget: "number",
-          valueType: "int",
-          required: false,
+      ]
+    },
+    {
+      "name": "what-we-do",
+      "label": "What We Do",
+      "folder": "content/what-we-do",
+      "create": true,
+      "slug": "{{slug}}",
+      "fields": [
+        {
+          "label": "Title",
+          "name": "title",
+          "widget": "string",
+          "required": false
+        },
+        {
+          "label": "Category",
+          "name": "category",
+          "widget": "relation",
+          "collection": "what-we-do-cat",
+          "display_fields": [
+            "catno",
+            "title"
+          ],
+          "searchFields": [
+            "title"
+          ],
+          "valueField": "catno"
+        },
+        {
+          "label": "Preview Image",
+          "name": "preview_image",
+          "widget": "image",
+          "required": false
+        },
+        {
+          "label": "Body",
+          "name": "body",
+          "widget": "markdown",
+          "required": false
         }
-      - { label: "Skill 3", name: "skill3", widget: "string", required: false }
-      - {
-          label: "Rating 3",
-          name: "rating3",
-          widget: "number",
-          valueType: "int",
-          required: false,
-        }
-      - { label: "Skill 4", name: "skill4", widget: "string", required: false }
-      - {
-          label: "Rating 4",
-          name: "rating4",
-          widget: "number",
-          valueType: "int",
-          required: false,
-        }
-      - {
-          label: "Order",
-          name: "order",
-          widget: "number",
-          valueType: "int",
-          required: false,
-        }
-  - name: "what-we-do-cat"
-    label: "What We Do Category"
-    folder: "content/what-we-do-cat"
-    create: true
-    slug: "{{catno}}-{{slug}}"
-    summary: "{{catno}} - {{title}}"
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - {
-          label: "Category No",
-          name: "catno",
-          widget: "string",
-          pattern: ["^([A-Z]{2})([0-9]{2})$", "eg. SE01, SE02,.. SE10"],
-        }
-      - { label: "Image", name: "image", widget: "image" }
-  - name: "what-we-do"
-    label: "What We Do"
-    folder: "content/what-we-do"
-    create: true
-    slug: "{{slug}}"
-    fields:
-      - { label: "Title", name: "title", widget: "string", required: false }
-      - {
-          label: "Category",
-          name: "category",
-          widget: "relation",
-          collection: "what-we-do-cat",
-          display_fields: ["catno", "title"],
-          searchFields: ["title"],
-          valueField: "catno",
-        }
-      - {
-          label: "Preview Image",
-          name: "preview_image",
-          widget: "image",
-          required: false,
-        }
-      - { label: "Body", name: "body", widget: "markdown", required: false }
-  - name: "pages"
-    label: "Pages"
-    files:
-      - label: "Home"
-        name: home
-        file: "content/pages/home.json"
-        fields:
-          - label: Title
-            name: title
-            widget: string
-          - label: Banner
-            name: banner
-            widget: object
-            fields:
-              - label: Image
-                name: image
-                choose_url: false
-                widget: image
-              - label: Video
-                name: video
-                choose_url: false
-                widget: file
-              - label: CTA Buttons
-                name: cta
-                widget: list
-                min: 1
-                max: 4
-                fields:
-                  - label: Text
-                    name: text
-                    widget: string
-                  - label: URL
-                    name: url
-                    widget: string
-          - label: Sections
-            name: sections
-            widget: list
-            summary: "{{fields.heading}}"
-            types:
-              - label: Staff
-                name: staff
-                widget: object
-                fields:
-                  - label: Heading
-                    name: heading
-                    widget: string
-                  - label: Theme
-                    name: theme
-                    widget: select
-                    options: ["Light", "Dark"]
-                  - label: Staff
-                    name: staff
-                    widget: relation
-                    multiple: true
-                    collection: author
-                    search_fields: ["title"]
-                    value_field: title
-                    display_fields: ["title"]
-                  - label: Content
-                    name: content
-                    widget: markdown
-                    buttons:
-                      [
-                        bold,
-                        italic,
-                        link,
-                        heading-three,
-                        bulleted-list,
-                        numbered-list,
+      ]
+    },
+    {
+      "name": "pages",
+      "label": "Pages",
+      "files": [
+        {
+          "label": "Home",
+          "name": "home",
+          "file": "content/pages/home.json",
+          "fields": [
+            {
+              "label": "Title",
+              "name": "title",
+              "widget": "string"
+            },
+            {
+              "label": "Metadata",
+              "name": "meta",
+              "widget": "object",
+              "fields": [
+                {
+                  "label": "Title",
+                  "name": "title",
+                  "widget": "string"
+                },
+                {
+                  "label": "Description",
+                  "name": "description",
+                  "widget": "text"
+                },
+                {
+                  "label": "Image",
+                  "name": "image",
+                  "widget": "image",
+                  "choose_url": false
+                }
+              ]
+            },
+            {
+              "label": "Banner",
+              "name": "banner",
+              "widget": "object",
+              "fields": [
+                {
+                  "label": "Image",
+                  "name": "image",
+                  "choose_url": false,
+                  "widget": "image"
+                },
+                {
+                  "label": "Video",
+                  "name": "video",
+                  "choose_url": false,
+                  "widget": "file"
+                },
+                {
+                  "label": "CTA Buttons",
+                  "name": "cta",
+                  "widget": "list",
+                  "min": 1,
+                  "max": 4,
+                  "fields": [
+                    {
+                      "label": "Text",
+                      "name": "text",
+                      "widget": "string"
+                    },
+                    {
+                      "label": "URL",
+                      "name": "url",
+                      "widget": "string"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Sections",
+              "name": "sections",
+              "widget": "list",
+              "summary": "{{fields.heading}}",
+              "types": [
+                {
+                  "label": "Staff",
+                  "name": "staff",
+                  "widget": "object",
+                  "fields": [
+                    {
+                      "label": "Heading",
+                      "name": "heading",
+                      "widget": "string"
+                    },
+                    {
+                      "label": "Leading Content",
+                      "name": "leading",
+                      "widget": "markdown",
+                      "required": false,
+                      "buttons": [
+                        "bold",
+                        "italic",
+                        "link",
+                        "heading-three",
+                        "bulleted-list",
+                        "numbered-list"
+                      ],
+                      "editor_components": []
+                    },
+                    {
+                      "label": "Theme",
+                      "name": "theme",
+                      "widget": "select",
+                      "options": [
+                        "Light",
+                        "Dark"
                       ]
-                    editor_components: []
-              - label: Content
-                name: content
-                widget: object
-                fields:
-                  - label: Heading
-                    name: heading
-                    widget: string
-                  - label: Theme
-                    name: theme
-                    widget: select
-                    options: ["Light", "Dark"]
-                  - label: Content
-                    name: content
-                    widget: markdown
-                    buttons:
-                      [
-                        bold,
-                        italic,
-                        link,
-                        heading-three,
-                        bulleted-list,
-                        numbered-list,
+                    },
+                    {
+                      "label": "Staff",
+                      "name": "staff",
+                      "widget": "relation",
+                      "multiple": true,
+                      "collection": "author",
+                      "search_fields": [
+                        "title"
+                      ],
+                      "value_field": "title",
+                      "display_fields": [
+                        "title"
                       ]
-                    editor_components: []
-                  - label: Image
-                    name: image
-                    choose_url: false
-                    widget: image
-  - name: "menus"
-    label: Menus
-    folder: "content/menus"
-    create: false
-    format: json
-    fields:
-      - { label: "Title", name: "title", widget: "string", required: false }
-      - name: items
-        label: Menu Items
-        widget: list
-        fields:
-          - name: url
-            label: URL
-            widget: string
-          - name: text
-            label: Text
-            widget: string
-  - name: stores
-    label: Stores
-    folder: context/stores
-    format: json
-    identifier_field: name
-    create: true
-    fields:
-      - label: Name
-        name: name
-        widget: string
-      - label: Address
-        name: address
-        widget: object
-        fields:
-          - label: Address
-            name: address
-            widget: string
-          - label: City
-            name: city
-            widget: string
-          - label: State
-            name: state
-            widget: string
-            default: SA
-          - label: Post Code
-            name: postcode
-            widget: string
-      - label: Phone
-        name: phone
-        widget: string
-      - label: Location
-        name: location
-        widget: string
-        description: Link to Google Maps location
-        default: https://goo.gl/maps/97tZx2V14nAX3wAM8
-      - name: hours
-        label: Opening Hours
-        widget: list
-        fields:
-          - name: days
-            label: Days
-            widget: string
-            default: Mon-Fri
-          - name: hours
-            label: Hours
-            widget: string
-            default: 8.30am - 5.30pm
-  - name: "custom"
-    label: "Custom Content"
-    files:
-      - label: "Newsletter Form"
-        name: newsletter
-        file: "context/data/newsletter.md"
-        fields:
-          - label: Heading
-            name: heading
-            widget: string
-          - label: Form
-            name: body
-            widget: text
+                    },
+                    {
+                      "label": "Content",
+                      "name": "content",
+                      "widget": "markdown",
+                      "buttons": [
+                        "bold",
+                        "italic",
+                        "link",
+                        "heading-three",
+                        "bulleted-list",
+                        "numbered-list"
+                      ],
+                      "editor_components": []
+                    }
+                  ]
+                },
+                {
+                  "label": "Content",
+                  "name": "content",
+                  "widget": "object",
+                  "fields": [
+                    {
+                      "label": "Heading",
+                      "name": "heading",
+                      "widget": "string"
+                    },
+                    {
+                      "label": "Theme",
+                      "name": "theme",
+                      "widget": "select",
+                      "default": "Default",
+                      "options": [
+                        "Default",
+                        "Light",
+                        "Dark"
+                      ]
+                    },
+                    {
+                      "label": "Content",
+                      "name": "content",
+                      "widget": "markdown",
+                      "buttons": [
+                        "bold",
+                        "italic",
+                        "link",
+                        "heading-three",
+                        "bulleted-list",
+                        "numbered-list"
+                      ],
+                      "editor_components": []
+                    },
+                    {
+                      "label": "Image",
+                      "name": "image",
+                      "choose_url": false,
+                      "widget": "image"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Who We Are",
+          "name": "who-we-are",
+          "file": "content/pages/who-we-are.json",
+          "fields": [
+            {
+              "label": "Title",
+              "name": "title",
+              "widget": "string"
+            },
+            {
+              "label": "Metadata",
+              "name": "meta",
+              "widget": "object",
+              "fields": [
+                {
+                  "label": "Title",
+                  "name": "title",
+                  "widget": "string"
+                },
+                {
+                  "label": "Description",
+                  "name": "description",
+                  "widget": "text"
+                },
+                {
+                  "label": "Image",
+                  "name": "image",
+                  "widget": "image",
+                  "choose_url": false
+                }
+              ]
+            },
+            {
+              "label": "Sections",
+              "name": "sections",
+              "widget": "list",
+              "summary": "{{fields.heading}}",
+              "types": [
+                {
+                  "label": "Staff",
+                  "name": "staff",
+                  "widget": "object",
+                  "fields": [
+                    {
+                      "label": "Heading",
+                      "name": "heading",
+                      "widget": "string"
+                    },
+                    {
+                      "label": "Leading Content",
+                      "name": "leading",
+                      "widget": "markdown",
+                      "required": false,
+                      "buttons": [
+                        "bold",
+                        "italic",
+                        "link",
+                        "heading-three",
+                        "bulleted-list",
+                        "numbered-list"
+                      ],
+                      "editor_components": []
+                    },
+                    {
+                      "label": "Theme",
+                      "name": "theme",
+                      "widget": "select",
+                      "default": "Default",
+                      "options": [
+                      "Default",
+                        "Light",
+                        "Dark"
+                      ]
+                    },
+                    {
+                      "label": "Staff",
+                      "name": "staff",
+                      "widget": "relation",
+                      "multiple": true,
+                      "collection": "author",
+                      "search_fields": [
+                        "title"
+                      ],
+                      "value_field": "title",
+                      "display_fields": [
+                        "title"
+                      ]
+                    },
+                    {
+                      "label": "Content",
+                      "name": "content",
+                      "widget": "markdown",
+                      "buttons": [
+                        "bold",
+                        "italic",
+                        "link",
+                        "heading-three",
+                        "bulleted-list",
+                        "numbered-list"
+                      ],
+                      "editor_components": []
+                    }
+                  ]
+                },
+                {
+                  "label": "Content",
+                  "name": "content",
+                  "widget": "object",
+                  "fields": [
+                    {
+                      "label": "Heading",
+                      "name": "heading",
+                      "widget": "string"
+                    },
+                    {
+                      "label": "Theme",
+                      "name": "theme",
+                      "widget": "select",
+                      "options": [
+                        "Light",
+                        "Dark"
+                      ]
+                    },
+                    {
+                      "label": "Content",
+                      "name": "content",
+                      "widget": "markdown",
+                      "buttons": [
+                        "bold",
+                        "italic",
+                        "link",
+                        "heading-three",
+                        "bulleted-list",
+                        "numbered-list"
+                      ],
+                      "editor_components": []
+                    },
+                    {
+                      "label": "Image",
+                      "name": "image",
+                      "choose_url": false,
+                      "widget": "image"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "menus",
+      "label": "Menus",
+      "folder": "content/menus",
+      "create": false,
+      "format": "json",
+      "fields": [
+        {
+          "label": "Title",
+          "name": "title",
+          "widget": "string",
+          "required": false
+        },
+        {
+          "name": "items",
+          "label": "Menu Items",
+          "widget": "list",
+          "fields": [
+            {
+              "name": "url",
+              "label": "URL",
+              "widget": "string"
+            },
+            {
+              "name": "text",
+              "label": "Text",
+              "widget": "string"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "stores",
+      "label": "Stores",
+      "folder": "context/stores",
+      "format": "json",
+      "identifier_field": "name",
+      "create": true,
+      "fields": [
+        {
+          "label": "Name",
+          "name": "name",
+          "widget": "string"
+        },
+        {
+          "label": "Address",
+          "name": "address",
+          "widget": "object",
+          "fields": [
+            {
+              "label": "Address",
+              "name": "address",
+              "widget": "string"
+            },
+            {
+              "label": "City",
+              "name": "city",
+              "widget": "string"
+            },
+            {
+              "label": "State",
+              "name": "state",
+              "widget": "string",
+              "default": "SA"
+            },
+            {
+              "label": "Post Code",
+              "name": "postcode",
+              "widget": "string"
+            }
+          ]
+        },
+        {
+          "label": "Phone",
+          "name": "phone",
+          "widget": "string"
+        },
+        {
+          "label": "Location",
+          "name": "location",
+          "widget": "string",
+          "description": "Link to Google Maps location",
+          "default": "https://goo.gl/maps/97tZx2V14nAX3wAM8"
+        },
+        {
+          "name": "hours",
+          "label": "Opening Hours",
+          "widget": "list",
+          "fields": [
+            {
+              "name": "days",
+              "label": "Days",
+              "widget": "string",
+              "default": "Mon-Fri"
+            },
+            {
+              "name": "hours",
+              "label": "Hours",
+              "widget": "string",
+              "default": "8.30am - 5.30pm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "custom",
+      "label": "Custom Content",
+      "files": [
+        {
+          "label": "Newsletter Form",
+          "name": "newsletter",
+          "file": "context/data/newsletter.md",
+          "fields": [
+            {
+              "label": "Heading",
+              "name": "heading",
+              "widget": "string"
+            },
+            {
+              "label": "Form",
+              "name": "body",
+              "widget": "text"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "title": "Who We Are",
+  "sections": [
+    {
+      "type": "staff",
+      "heading": "Meet the team",
+      "leading": "Our Optometrists are industry leaders. Our special interests include contact lenses, paediatric vision and theraputic optometry.",
+      "theme": "Default",
+      "staff": [
+        "Lachlan Hoy",
+        "Karl Evans",
+        "Dylan Bentley",
+        "Pooja Bhindi",
+        "Joanna Rohrlach",
+        "Rui Lin",
+        "Millie Meegan",
+        "Georgia Hoy",
+        "Jane Scotcher",
+        "Mark Turci",
+        "Harold Gent",
+        "Sheralyn Stillert",
+        "Tim Moran",
+        "Katrina Prunty",
+        "Christine Swaine"
+      ],
+      "content": "As practitioners, we firmly believe in comprehensive care. As innovators, we provide this care with the most up-to-date technology, knowledge, products and services available. As people, we value each one of our patients and their individual needs.\n\nOur practice is proudly independent and South Australian owned and operated. Part of a long legacy of optometry in Adelaide and its surrounds, we welcome generations of family members as they continue in our care."
+    }
+  ],
+  "meta": {
+    "title": "Who We Are - Innovative Eye Care",
+    "description": "As practitioners, we firmly believe in comprehensive care. As innovators, we provide this care with the most up-to-date technology, knowledge, products and services available. As people, we value each one of our patients and their individual needs.",
+    "image": "/img/uploads/video-main.jpg"
+  }
+}

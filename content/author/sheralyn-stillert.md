@@ -1,7 +1,7 @@
 ---
 title: Sheralyn Stillert
 jobtitle: Optical Dispenser
-photo: /uploads/sheralyn-2022.png
+photo: /public/img/uploads/staff/sheralyn.png
 skill1: EASYGOING
 rating1: 100
 skill2: WARM

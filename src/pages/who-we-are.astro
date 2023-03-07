@@ -1,0 +1,34 @@
+---
+import Layout from "@layouts/default.astro";
+
+import content from "@data/who-we-are.json";
+import Block from "@parts/block.astro";
+
+const { title, sections, meta } = content;
+---
+
+<style lang="scss">
+	h1 {
+		margin: 4em 0 1em;
+		text-align: center;
+		color: var.$secondary;
+	}
+
+	@media (min-width: 40em) {
+		h1 {
+			margin: 5em 0 0;
+		}
+	}
+
+	@media (min-width: 60em) {
+		h1 {
+			font-size: 2.5em;
+			margin: 4em 0 0;
+		}
+	}
+</style>
+
+<Layout content={content}>
+	<h1>{title}</h1>
+	{sections.map((section) => <Block {...section} />)}
+</Layout>
