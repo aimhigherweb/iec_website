@@ -1,0 +1,187 @@
+---
+import { Picture } from "@astrojs/image/components";
+import SVG from "@parts/svg.astro";
+
+const { profiles } = Astro.props;
+---
+
+<style lang="scss">
+	.profiles {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+
+		li {
+			position: relative;
+			z-index: 2;
+			padding: 10px;
+			margin: 10px 0;
+			flex: 1 0 auto;
+		}
+
+		img {
+			width: 150px;
+		}
+
+		summary {
+			appearance: none;
+			list-style: none;
+			cursor: pointer;
+		}
+	}
+
+	.person {
+		img {
+			filter: grayscale(1);
+		}
+
+		summary {
+			&:hover {
+				img {
+					filter: grayscale(0);
+				}
+			}
+		}
+
+		&:not([open]) {
+			.close {
+				display: none;
+			}
+		}
+
+		&[open] {
+			position: fixed;
+			top: 50%;
+			transform: translate(-50%, -50%);
+			left: 50%;
+			width: 100vw;
+			max-width: 500px;
+			height: 100vh;
+			z-index: 50;
+			max-height: 500px;
+			padding: 20px;
+
+			&:before,
+			&:after {
+				content: "";
+			}
+
+			&:before {
+				position: fixed;
+				background: var.$neutral;
+				opacity: 0.8;
+				z-index: -2;
+				height: 100vh;
+				width: 100vw;
+				top: 50%;
+				transform: translate(-50%, -50%);
+				left: 50%;
+			}
+
+			&:after {
+				position: absolute;
+				background: var.$white;
+				z-index: -1;
+				top: 0;
+				bottom: 0;
+				right: 0;
+				left: 0;
+			}
+
+			summary {
+				img {
+					display: none;
+				}
+
+				.close {
+					position: absolute;
+					right: 10px;
+					top: 10px;
+					color: var.$neutral;
+
+					svg {
+						height: 20px;
+						width: 20px;
+					}
+				}
+			}
+		}
+	}
+
+	.picture {
+		&:before {
+			content: "";
+			left: 0;
+			right: 0;
+			bottom: 70px;
+			height: 60px;
+			background: var.$secondary;
+			display: block;
+			position: absolute;
+			z-index: -1;
+		}
+	}
+
+	.content {
+		overflow: auto;
+	}
+
+	@media (min-width: 60em) {
+		.profiles {
+			li {
+				padding: 10px;
+				margin: 10px 0;
+				flex: 1 1 100px;
+			}
+
+			img {
+				width: 100%;
+			}
+		}
+
+		.picture {
+			&:before {
+				content: "";
+				bottom: 50px;
+				height: 50px;
+			}
+		}
+	}
+</style>
+
+<ul class="profiles">
+	{
+		profiles.map((profile) => (
+			<li>
+				<details class="person">
+					<summary>
+						<div class="picture">
+							<Picture
+								src={profile.frontmatter.photo.replace(
+									"/public/",
+									"/"
+								)}
+								alt={profile.frontmatter.title}
+								widths={[200]}
+								fit={"contain"}
+								aspectRatio="6:7"
+								formats={["avif", "webp", "png"]}
+							/>
+						</div>
+						<span class="sr-only">{profile.frontmatter.title}</span>
+						<span class="close">
+							<SVG name="icons/close.svg" />
+						</span>
+					</summary>
+					<div class="content">
+						<h3>{profile.frontmatter.title}</h3>
+						<profile.Content />
+					</div>
+				</details>
+			</li>
+		))
+	}
+</ul>

@@ -3,6 +3,7 @@ import Layout from "@layouts/home.astro";
 import Banner from "@parts/banner.astro";
 
 import content from "@data/home.json";
+import Block from "@parts/block.astro";
 
 const { title, banner, sections } = content;
 ---
@@ -10,4 +11,5 @@ const { title, banner, sections } = content;
 <Layout>
 	<h1 class="sr-only">{title}</h1>
 	<Banner content={banner} />
+	{sections.map((section) => <Block {...section} />)}
 </Layout>

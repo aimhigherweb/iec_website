@@ -1,0 +1,46 @@
+---
+import { Picture } from "@astrojs/image/components";
+
+const { heading, content, image } = Astro.props;
+---
+
+<style lang="scss">
+	img {
+		max-width: 100%;
+	}
+
+	.image {
+		max-width: 400px;
+		margin: 0 auto;
+	}
+
+	@media (min-width: 50em) {
+		.image {
+			margin-left: 40px;
+			margin-right: 0;
+			width: 45%;
+			flex-shrink: 0;
+			max-width: max-content;
+		}
+
+		.content {
+			max-width: 400px;
+		}
+	}
+</style>
+
+<>
+	<div class="content">
+		<h2>{heading}</h2>
+		<div set:html={content.html} />
+	</div>
+	<div class="image">
+		<Picture
+			src={image}
+			alt=""
+			widths={[200, 400, 800]}
+			aspectRatio="6:7"
+			formats={["avif", "webp", "jpeg"]}
+		/>
+	</div>
+</>

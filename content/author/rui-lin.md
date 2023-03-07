@@ -1,7 +1,7 @@
 ---
 title: Rui Lin
 jobtitle: Optometrist
-photo: /uploads/rui-22.png
+photo: /public/img/uploads/staff/rui-22.png
 order: 6
 ---
 Rui is a therapeutically endorsed optometrist joining Innovative Eye Care after graduating from Flinders University. He has a particular interest in complex contact lenses and myopia control, which arose from his key involvement in working closely with ophthalmologists in China and training them in the clinical practice of orthokeratology.

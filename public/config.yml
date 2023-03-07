@@ -21,7 +21,11 @@ collections:
           widget: "string",
           required: false,
         }
-      - { label: "Photo", name: "photo", widget: "image", required: false }
+      - label: "Photo"
+        name: "photo"
+        widget: "image"
+        required: false
+        media_folder: '/public/img/uploads/staff'
       - { label: "Body", name: "body", widget: "markdown", required: false }
       - { label: "Skill 1", name: "skill1", widget: "string", required: false }
       - {

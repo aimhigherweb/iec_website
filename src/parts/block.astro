@@ -1,0 +1,91 @@
+---
+import rehypeRaw from "rehype-raw";
+import rehypeStringify from "rehype-stringify";
+import remarkGfm from "remark-gfm";
+import markdown from "remark-parse";
+import markdownToHtml from "remark-rehype";
+import remarkSmartypants from "remark-smartypants";
+import { unified } from "unified";
+import { VFile } from "vfile";
+import Team from "./blocks/team.astro";
+import Content from "./blocks/content.astro";
+
+let Block = Content;
+let classes = ["block", `theme-${Astro.props.theme.toLocaleLowerCase()}`];
+
+switch (Astro.props.type) {
+	case "staff":
+		Block = Team;
+		classes.push("team");
+		break;
+	case "content":
+		classes.push("split");
+}
+
+const data = Astro.props;
+
+data.content = {
+	markdown: Astro.props.content,
+	html: unified()
+		.use(markdown)
+		.use(markdownToHtml)
+		.use(rehypeStringify)
+		.process(Astro.props.content),
+};
+---
+
+<style lang="scss">
+	.block {
+		padding: 40px 20px;
+		background: var.$background;
+		color: var.$secondary;
+		text-align: center;
+
+		:global(h2) {
+			font-size: 1.8em;
+			color: inherit;
+		}
+
+		&.theme-dark {
+			background: var.$secondary;
+			color: var.$background;
+		}
+	}
+
+	@media (min-width: 50em) {
+		.block {
+			padding: 40px;
+
+			&.split {
+				display: flex;
+				text-align: left;
+				justify-content: center;
+				align-items: center;
+			}
+		}
+	}
+
+	@media (min-width: 60em) {
+		.block {
+			padding: 60px 5vw;
+
+			:global(h2) {
+				font-size: 2.3em;
+			}
+		}
+	}
+
+	@media (min-width: 80em) {
+		.block {
+			padding: 100px calc(50vw - 500px);
+
+			&.team {
+				padding: 100px calc(50vw - 600px);
+			}
+		}
+	}
+</style>
+
+<section class={classes.join(" ")}>
+	<Block {...data} />
+</section>
