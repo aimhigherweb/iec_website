@@ -24,6 +24,52 @@
         "Christine Swaine"
       ],
       "content": "As practitioners, we firmly believe in comprehensive care. As innovators, we provide this care with the most up-to-date technology, knowledge, products and services available. As people, we value each one of our patients and their individual needs.\n\nOur practice is proudly independent and South Australian owned and operated. Part of a long legacy of optometry in Adelaide and its surrounds, we welcome generations of family members as they continue in our care."
+    },
+    {
+      "type": "history",
+      "theme": "Default",
+      "events": [
+        {
+          "year": 2016,
+          "title": "The Merger",
+          "text": "North Terrace Optometrists merges with Innovative Eye Care. The team expands."
+        },
+        {
+          "year": 2012,
+          "title": "Fieldhouse Retirement",
+          "text": "Ron Fieldhouse retires from practice."
+        },
+        {
+          "year": 2010,
+          "title": "The Purchase",
+          "text": "Lachlan Scott-Hoy purchases R Fieldhouse and Associates, now known as Innovative Eye Care."
+        },
+        {
+          "year": 2007,
+          "title": "Lachlan - R Fieldhouse",
+          "text": "Lachlan Scott-Hoy begins working at R Fieldhouse and Associates."
+        },
+        {
+          "year": 2007,
+          "title": "Don Noack Award",
+          "text": "Lachlan Scott-Hoy receives the Don Noack Award for excellence in contact lenses."
+        },
+        {
+          "year": 1996,
+          "text": "North Terrace Practice becomes known as North Terrace Optometrists.",
+          "title": "North Tce Optometrists"
+        },
+        {
+          "year": 1984,
+          "title": "North Tce Practice",
+          "text": "Kevin Rooney, Mark Parsons and Simon Leong purchase the North Terrace practice."
+        },
+        {
+          "year": 1959,
+          "title": "R Fieldhouse",
+          "text": "R Fieldhouse and Associates is founded by Ron Fieldhouse."
+        }
+      ]
     }
   ],
   "meta": {

@@ -432,7 +432,7 @@
                       "widget": "select",
                       "default": "Default",
                       "options": [
-                      "Default",
+                        "Default",
                         "Light",
                         "Dark"
                       ]
@@ -505,6 +505,71 @@
                       "name": "image",
                       "choose_url": false,
                       "widget": "image"
+                    }
+                  ]
+                },
+                {
+                  "label": "History",
+                  "name": "history",
+                  "widget": "object",
+                  "fields": [
+                    {
+                      "label": "Heading",
+                      "name": "heading",
+                      "widget": "string",
+                      "required": false
+                    },
+                    {
+                      "label": "Theme",
+                      "name": "theme",
+                      "widget": "select",
+                      "default": "Default",
+                      "options": [
+                        "Default",
+                        "Light",
+                        "Dark"
+                      ]
+                    },
+                    {
+                      "label": "Content",
+                      "name": "content",
+                      "widget": "markdown",
+                      "buttons": [
+                        "bold",
+                        "italic",
+                        "link",
+                        "heading-three",
+                        "bulleted-list",
+                        "numbered-list"
+                      ],
+                      "editor_components": [],
+                      "required": false
+                    },
+                    {
+                      "label": "Events",
+                      "name": "events",
+                      "widget": "list",
+                      "add_to_top": true,
+                      "summary": "{{fields.year}} - {{fields.title}}",
+                      "fields": [
+                        {
+                          "name": "title",
+                          "label": "Title",
+                          "widget": "string"
+                        },
+                        {
+                          "name": "year",
+                          "label": "Year",
+                          "widget": "number",
+                          "value_type": "int",
+                          "default": 2023
+                        },
+                        {
+                          "name": "text",
+                          "label": "Text",
+                          "widget": "text"
+                        }
+                      ]
                     }
                   ]
                 }

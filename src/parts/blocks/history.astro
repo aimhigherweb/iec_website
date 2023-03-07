@@ -1,0 +1,234 @@
+---
+const { heading, content, events } = Astro.props;
+---
+
+<style lang="scss">
+	img {
+		max-width: 100%;
+	}
+
+	.image {
+		max-width: 400px;
+		margin: 0 auto;
+	}
+
+	.history {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		text-align: left;
+
+		summary {
+			list-style: none;
+			padding: 10px 20px;
+			font-weight: 700;
+			cursor: pointer;
+		}
+
+		details {
+			position: relative;
+			margin-bottom: 10px;
+
+			&:before {
+				content: "";
+				height: 10px;
+				width: 10px;
+				display: block;
+				left: 0;
+				top: calc(10px + 0.6em - 5px);
+				border: 1px solid currentColor;
+				position: absolute;
+				border-radius: 50%;
+				background: var.$white;
+			}
+
+			&:after {
+				top: calc(10px + 0.6em);
+				height: calc(100% + 10px);
+				left: 5px;
+				border-left: 1px solid currentColor;
+				position: absolute;
+				z-index: -1;
+			}
+
+			&[open] {
+				summary {
+					&:before {
+						background: currentColor;
+					}
+				}
+			}
+		}
+
+		summary {
+			font-family: var.$font_headings;
+			font-size: 1.17em;
+			font-weight: 700;
+			color: var.$secondary;
+		}
+
+		li {
+			&:not(:last-child) {
+				details {
+					&:after {
+						content: "";
+					}
+				}
+			}
+		}
+
+		.content {
+			padding: 10px 20px;
+
+			h3 {
+				margin-top: 0;
+				display: none;
+				color: var.$secondary;
+			}
+
+			p {
+				margin: 0;
+			}
+		}
+	}
+
+	@media (min-width: 40em) {
+		.history {
+			position: relative;
+
+			details {
+				margin: 0;
+				position: static;
+
+				&:before {
+					content: normal;
+				}
+
+				&[open] {
+					summary {
+						&:before {
+							background: currentColor;
+						}
+					}
+				}
+			}
+
+			li {
+				&:not(:last-child) {
+					details {
+						&:after {
+							content: normal;
+						}
+					}
+
+					summary {
+						&:after {
+							content: "";
+						}
+					}
+				}
+			}
+
+			summary {
+				width: 50%;
+				position: relative;
+				background: var.$secondary;
+				color: var.$white;
+				padding-left: 30px;
+
+				&:before {
+					content: "";
+					height: 10px;
+					width: 10px;
+					display: block;
+					left: 10px;
+					top: calc(10px + 0.6em - 5px);
+					border: 1px solid currentColor;
+					position: absolute;
+					border-radius: 50%;
+					background: var.$secondary;
+					z-index: 2;
+				}
+
+				&:after {
+					top: calc(10px + 0.6em);
+					height: 100%;
+					left: 15px;
+					border-left: 1px solid currentColor;
+					position: absolute;
+					display: block;
+					z-index: 1;
+				}
+			}
+
+			.content {
+				position: absolute;
+				right: 0;
+				width: 50%;
+				top: 0;
+				bottom: 0;
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				background: var.$white;
+				padding: 40px;
+
+				h3 {
+					display: block;
+				}
+			}
+		}
+	}
+
+	@media (min-width: 60em) {
+		.history {
+			summary {
+				padding: 20px 20px 20px 40px;
+
+				&:before {
+					top: calc(20px + 0.6em - 5px);
+					left: 20px;
+				}
+
+				&:after {
+					left: 25px;
+					top: calc(20px + 0.6em);
+				}
+			}
+		}
+	}
+</style>
+
+<>
+	<h2>{heading}</h2>
+	<div set:html={content.html} />
+	<ul class="history">
+		{
+			events.map((event, i) => (
+				<li>
+					<details open={i == 0}>
+						<summary>
+							{event.year} - {event.title}
+						</summary>
+						<div class="content">
+							<h3>{event.title}</h3>
+							<p>{event.text}</p>
+						</div>
+					</details>
+				</li>
+			))
+		}
+	</ul>
+</>
+
+<script is:inline>
+	const details = document.querySelectorAll(".history details");
+
+	details.forEach((targetDetail) => {
+		targetDetail.addEventListener("click", () => {
+			details.forEach((detail) => {
+				if (detail !== targetDetail) detail.removeAttribute("open");
+			});
+		});
+	});
+</script>

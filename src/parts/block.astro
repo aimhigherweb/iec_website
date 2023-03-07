@@ -9,6 +9,7 @@ import { unified } from "unified";
 import { VFile } from "vfile";
 import Team from "./blocks/team.astro";
 import Content from "./blocks/content.astro";
+import History from "./blocks/history.astro";
 
 let Block = Content;
 let classes = ["block", `theme-${Astro.props.theme.toLocaleLowerCase()}`];
@@ -17,6 +18,10 @@ switch (Astro.props.type) {
 	case "staff":
 		Block = Team;
 		classes.push("team");
+		break;
+	case "history":
+		Block = History;
+		classes.push("history");
 		break;
 	case "content":
 		classes.push("split");
