@@ -246,6 +246,11 @@ collections:
       - label: Phone
         name: phone
         widget: string
+      - label: Location
+        name: location
+        widget: string
+        description: Link to Google Maps location
+        default: https://goo.gl/maps/97tZx2V14nAX3wAM8
       - name: hours
         label: Opening Hours
         widget: list

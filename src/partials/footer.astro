@@ -56,6 +56,14 @@ const stores = await Astro.glob("../../context/stores/*.json");
 
 		address {
 			font-style: normal;
+
+			a {
+				text-decoration: none;
+
+				&:hover {
+					text-decoration: underline;
+				}
+			}
 		}
 
 		a {
@@ -215,12 +223,15 @@ const stores = await Astro.glob("../../context/stores/*.json");
 		stores.map((store) => (
 			<div class="store">
 				<h3>{store.name}</h3>
+
 				<address class="address">
-					<SVG name="icons/map.svg" class="icon" />
-					{store.address.address}
-					<br />
-					{store.address.city} {store.address.state}{" "}
-					{store.address.postcode}
+					<a href={store.location} target="_blank">
+						<SVG name="icons/map.svg" class="icon" />
+						{store.address.address}
+						<br />
+						{store.address.city} {store.address.state}{" "}
+						{store.address.postcode}
+					</a>
 				</address>
 				<a
 					href={`tel:${store.phone.replace(/(\(|\)|\s)/g, "")}`}

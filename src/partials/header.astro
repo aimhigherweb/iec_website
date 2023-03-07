@@ -6,7 +6,7 @@ import main from "../../content/menus/main-menu.json";
 
 <style lang="scss">
 	header {
-		position: sticky;
+		position: fixed;
 		top: 0;
 		z-index: 20;
 		width: 100vw;
@@ -23,6 +23,7 @@ import main from "../../content/menus/main-menu.json";
 	.logo {
 		height: 50px;
 		width: auto;
+		color: var.$white;
 	}
 
 	nav {
@@ -102,10 +103,79 @@ import main from "../../content/menus/main-menu.json";
 			display: none;
 		}
 	}
+
+	@media (min-width: 50em) {
+		header {
+			padding: 20px 40px;
+		}
+	}
+
+	@media (min-width: 60em) {
+		header {
+			padding: 20px 5vw;
+		}
+
+		.logo {
+			flex-shrink: 1;
+		}
+
+		.hamburger {
+			display: none;
+		}
+
+		nav {
+			color: var.$white;
+
+			&:global(.open) {
+				ul {
+					display: flex;
+				}
+			}
+
+			a {
+				background: none;
+				border-radius: 0;
+				padding: 10px;
+
+				&:hover {
+					background: none;
+					color: inherit;
+					text-decoration: underline;
+					text-underline-offset: 4px;
+					text-decoration-thickness: 3px;
+					text-decoration-color: var.$primary;
+				}
+			}
+		}
+
+		ul {
+			display: flex;
+			position: static;
+			max-width: unset;
+		}
+	}
+
+	@media (min-width: 70em) {
+		nav {
+			a {
+				padding: 10px 15px;
+			}
+		}
+	}
+
+	@media (min-width: 80em) {
+		header {
+			padding: 20px calc(50vw - 600px);
+		}
+	}
 </style>
 
 <header>
-	<SVG name="logo.svg" class="logo" />
+	<a href="/"
+		><SVG name="logo.svg" class="logo" /><span class="sr-only"
+			>Home page</span
+		></a
+	>
 	<nav id="main-menu">
 		<button class="hamburger" onclick="toggleMenu()">
 			<SVG name="icons/hamburger.svg" class="open" />
