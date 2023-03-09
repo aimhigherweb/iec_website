@@ -36,22 +36,40 @@ data.leading = {
 <style lang="scss">
 	.block {
 		padding: 40px 20px;
-
 		color: var.$secondary;
 		text-align: center;
+		position: relative;
 
 		:global(h2) {
 			font-size: 1.8em;
 			color: inherit;
 		}
 
+		&:before {
+			display: block;
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			left: 50%;
+			transform: translateX(-50%);
+			width: 100vw;
+			z-index: -2;
+		}
+
 		&.theme-dark {
-			background: var.$secondary;
 			color: var.$background;
+
+			&:before {
+				content: "";
+				background: var.$secondary;
+			}
 		}
 
 		&.theme-light {
-			background: var.$background;
+			&:before {
+				content: "";
+				background: var.$background;
+			}
 		}
 	}
 

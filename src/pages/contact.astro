@@ -1,0 +1,194 @@
+---
+import SVG from "@parts/svg.astro";
+import Layout from "@layouts/default.astro";
+import { Picture } from "@astrojs/image/components";
+
+const stores = await Astro.glob("../../context/stores/*.json");
+
+const data = {
+	meta: {
+		title: "Contact Us - Innovative Eye Care",
+	},
+};
+---
+
+<style lang="scss">
+	h1 {
+		margin: 4em 0 1em;
+		text-align: center;
+	}
+
+	ul {
+		padding: 0 20px;
+		margin: 0;
+		list-style: none;
+	}
+
+	.store {
+		text-align: left;
+		margin-bottom: 40px;
+		padding: 20px;
+
+		address {
+			font-style: normal;
+
+			a {
+				text-decoration: none;
+
+				&:hover {
+					text-decoration: underline;
+				}
+			}
+		}
+
+		a {
+			color: inherit;
+		}
+
+		.image {
+			width: 100%;
+			max-width: 400px;
+		}
+	}
+
+	.hours {
+		dt {
+			font-weight: 600;
+		}
+
+		dd {
+			margin-left: 2ch;
+		}
+	}
+
+	.address,
+	.hours,
+	.phone {
+		position: relative;
+		display: block;
+		width: 100%;
+		padding-left: 2.5ch;
+		margin-bottom: 0.5em;
+		text-decoration: none;
+
+		&:is(a) {
+			&:hover {
+				text-decoration: underline;
+			}
+		}
+
+		.icon {
+			height: 1em;
+			display: block;
+			width: auto;
+			color: var.$primary;
+			position: absolute;
+			top: 0.15em;
+			left: 0;
+			opacity: 0.8;
+		}
+	}
+
+	@media (min-width: 40em) {
+		h1 {
+			margin: 5em 0 0;
+		}
+
+		ul {
+			margin-top: 50px;
+		}
+
+		.store {
+			position: relative;
+			padding-left: 50vw;
+			min-height: 45vw;
+
+			.image {
+				width: 45vw;
+				height: auto;
+				position: absolute;
+				top: 50%;
+				transform: translateY(-50%);
+				left: 0;
+			}
+		}
+	}
+
+	@media (min-width: 50em) {
+		ul {
+			padding: 0 40px;
+		}
+	}
+
+	@media (min-width: 60em) {
+		h1 {
+			font-size: 2.5em;
+			margin: 4em 0 0;
+		}
+
+		ul {
+			max-width: 900px;
+			margin: 50px auto;
+		}
+
+		.store {
+			padding-left: 450px;
+			min-height: 400px;
+
+			.image {
+				width: 400px;
+				height: auto;
+			}
+		}
+	}
+
+	@media (min-width: 80em) {
+	}
+</style>
+
+<Layout content={data}>
+	<h1>Contact</h1>
+	<ul>
+		{
+			stores.map((store) => (
+				<li class="store">
+					<Picture
+						src={store.image}
+						alt={store.name}
+						widths={[200, 400, 500]}
+						aspectRatio={1}
+						formats={["avif", "webp", "png"]}
+						class="image"
+					/>
+					<h3>{store.name}</h3>
+					<address class="address">
+						<a href={store.location} target="_blank">
+							<SVG name="icons/map.svg" class="icon" />
+							{store.address.address}
+							<br />
+							{store.address.city} {store.address.state}{" "}
+							{store.address.postcode}
+						</a>
+					</address>
+					<a
+						href={`tel:${store.phone.replace(/(\(|\)|\s)/g, "")}`}
+						target="_blank"
+						class="phone"
+					>
+						<SVG name="icons/phone.svg" class="icon" />
+						{store.phone}
+					</a>
+					<dl class="hours">
+						<SVG name="icons/clock.svg" class="icon" />
+						{store.hours.map((day) => (
+							<>
+								<dt>{day.days}</dt>
+								<dd>{day.hours}</dd>
+							</>
+						))}
+					</dl>
+				</li>
+			))
+		}
+	</ul>
+</Layout>

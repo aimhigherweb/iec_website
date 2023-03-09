@@ -732,6 +732,12 @@
               "default": "8.30am - 5.30pm"
             }
           ]
+        },
+        {
+          "label": "Image",
+          "name": "image",
+          "widget": "image",
+          "choose_url": false
         }
       ]
     },
