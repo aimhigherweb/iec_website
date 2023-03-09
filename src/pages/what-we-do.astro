@@ -1,0 +1,327 @@
+---
+import Layout from "@layouts/default.astro";
+import processMarkdown from "@utils/markdown";
+
+import data from "@data/what-we-do.json";
+import { Image } from "@astrojs/image/components";
+
+const services = await Astro.glob("../../content/what-we-do/*.md");
+const categories = await Astro.glob("../../content/what-we-do-cat/*.md");
+
+const { title, content } = data;
+
+const allServices = {};
+
+categories.forEach((cat) => {
+	allServices[cat.frontmatter.catno.toLowerCase()] = {
+		...cat,
+		services: [],
+	};
+});
+
+services.forEach((service) => {
+	const matches = service.file.match(/\/(?<slug>(?:\w|\w|-)+)\.md$/i);
+	const { slug } = matches?.groups;
+
+	allServices[service.frontmatter.category.toLowerCase()].services.push({
+		...service,
+		slug,
+	});
+});
+---
+
+<style lang="scss">
+	h1 {
+		margin: 4em 0 1em;
+		text-align: center;
+		color: var.$secondary;
+	}
+
+	.page {
+		padding: 0 20px;
+
+		h2 {
+			&:first-of-type {
+				&.cat_title {
+					&:not(:has(~ .cat_title:target)) {
+						display: block;
+
+						& + .services {
+							display: block;
+						}
+					}
+
+					&:has(~ .cat_title:target) {
+						display: none;
+
+						& + .services {
+							display: none;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.content {
+		margin: 0 auto;
+		max-width: 800px;
+	}
+
+	.categories {
+		list-style: none;
+		margin: 40px -10px -10px;
+		padding: 0;
+		color: var.$secondary;
+		display: flex;
+		flex-wrap: wrap;
+		font-size: 1.2em;
+		justify-content: center;
+
+		li {
+			margin: 10px;
+			padding: 0;
+			background: rgba(var.$background, 0.4);
+			flex: 1 1 100px;
+		}
+
+		a {
+			text-decoration: none;
+			color: inherit;
+			display: flex;
+			flex-wrap: wrap;
+			align-content: center;
+			text-align: center;
+			height: 100%;
+			justify-content: center;
+			padding: 10px;
+			font-weight: 600;
+
+			&:hover {
+				background: rgba(var.$primary, 0.7);
+			}
+
+			&:active {
+				background: var.$primary;
+			}
+		}
+
+		img {
+			margin: 0 auto 10px;
+		}
+
+		span {
+			display: block;
+			width: 100%;
+		}
+	}
+
+	.cat_title {
+		display: none;
+
+		&:target {
+			display: block;
+
+			&:before {
+				content: "";
+				height: 200px;
+				display: block;
+				margin: -200px 0 0;
+			}
+
+			& + .services {
+				display: block;
+			}
+		}
+	}
+
+	.services {
+		display: none;
+		margin: 0;
+		padding: 0;
+		list-style: none;
+
+		img {
+			border-radius: 50%;
+			position: absolute;
+			top: 50%;
+			transform: translateY(-50%);
+			left: 0;
+			filter: grayscale(1);
+			width: 60px;
+			height: auto;
+		}
+
+		li {
+			position: relative;
+			padding-left: 60px;
+			min-height: 50px;
+
+			&:hover {
+				img {
+					filter: grayscale(0);
+				}
+			}
+		}
+
+		a {
+			color: inherit;
+			text-decoration: none;
+
+			&:hover {
+				text-decoration: underline;
+				cursor: pointer;
+			}
+
+			&:before {
+				content: "";
+				top: 0;
+				bottom: 0;
+				left: 0;
+				right: 0;
+				position: absolute;
+			}
+		}
+	}
+
+	.description {
+		text-overflow: ellipsis;
+		overflow: hidden;
+		display: -webkit-box;
+		-webkit-line-clamp: 3;
+		-webkit-box-orient: vertical;
+
+		:global(> *:not(:first-child)) {
+			display: none;
+		}
+
+		:global(> div:first-child) {
+			:global(> *:not(:first-child)) {
+				display: none;
+			}
+		}
+
+		:global(p) {
+			&:first-child {
+				margin-top: 0;
+			}
+		}
+	}
+
+	@media (min-width: 40em) {
+		h1 {
+			margin: 5em 0 0;
+		}
+
+		.services {
+			li {
+				padding-left: 120px;
+				min-height: 100px;
+			}
+
+			img {
+				width: 100px;
+			}
+		}
+	}
+
+	@media (min-width: 50em) {
+		.page {
+			padding: 0 40px;
+		}
+
+		.services,
+		.cat_title {
+			padding: 0 40px;
+		}
+	}
+
+	@media (min-width: 60em) {
+		h1 {
+			font-size: 2.5em;
+			margin: 4em 0 0;
+		}
+
+		.page {
+			padding: 0 5vw;
+		}
+
+		.services,
+		.cat_title {
+			padding: 0 60px;
+		}
+
+		.categories {
+			li {
+				flex-basis: min-content;
+				min-width: 160px;
+			}
+		}
+	}
+
+	@media (min-width: 80em) {
+		.page {
+			padding: 0 calc(50vw - 600px);
+		}
+	}
+</style>
+
+<Layout content={data}>
+	<div class="page">
+		<h1>{title}</h1>
+		<div set:html={processMarkdown(content)} class="content" />
+		<ul class="categories">
+			{
+				Object.values(allServices).map((cat) => (
+					<li class="category">
+						<a href={`#${cat.frontmatter.catno.toLowerCase()}`}>
+							<Image
+								src={cat.frontmatter.image}
+								aspectRatio={1}
+								width={40}
+								fit="contain"
+								alt=""
+							/>
+							<span>{cat.frontmatter.title}</span>
+						</a>
+					</li>
+				))
+			}
+		</ul>
+		{
+			Object.values(allServices).map((cat) => (
+				<>
+					<h2
+						class="cat_title"
+						id={cat.frontmatter.catno.toLowerCase()}
+					>
+						{cat.frontmatter.title}
+					</h2>
+					<ul class="services">
+						{cat.services.map((service) => (
+							<li>
+								{service?.frontmatter?.preview_image && (
+									<Image
+										src={service.frontmatter.preview_image}
+										aspectRatio={1}
+										width={100}
+										fit="cover"
+										alt={service.frontmatter.preview_image}
+									/>
+								)}
+								<h3>
+									<a href={`/services/${service.slug}`}>
+										{service.frontmatter.title}
+									</a>
+								</h3>
+								<section class="description">
+									<service.Content />
+								</section>
+							</li>
+						))}
+					</ul>
+				</>
+			))
+		}
+	</div>
+</Layout>

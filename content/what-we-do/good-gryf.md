@@ -7,6 +7,6 @@ Make life simple with Good Gryf. Designed by a Kiwi optometrist with a strong fo
 <p>
 <p>Get the Gryf factor <a href="http://goodgryf.co.nz" target="_">here</a>.
 
-![](/uploads/good-gryf-detail.jpg)
+![](/img/uploads/good-gryf-detail.jpg)
 
 </div>

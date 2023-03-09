@@ -1,7 +1,7 @@
 ---
 title: Glaucoma
 category: "SE09"
-preview_image: glaucoma.jpg
+preview_image: /img/uploads/services/glaucoma.jpg
 ---
 <div class="employee-heading">
 <p>Glaucoma is a debilitating eye disease that causes progressive optic nerve damage, resulting in permanent peripheral vision loss and eventually central vision loss. Glaucoma is called 'the silent thief of sight' as 50% of a patient's retinal nerves can be damaged irreparably before any vision loss is noticed. Glaucoma is one of the main conditions an optometrist checks for at your <a href="/what-we-do/eye-exam">eye examination</a>. Early detection is key as this allows appropriate treatment before too much vision is lost. This condition highlights why it is so important to have a routine eye test at least every two years.</p>
@@ -25,11 +25,11 @@ There is not just one test, but a range of different measurements used to diagno
 
 These days, we have [advanced technology](/what-we-do/oct) at our disposal that grants our optometrists a more detailed look at your eyes. This is especially significant for glaucoma patients as it allows for more accurate diagnosis, more acute progression monitoring, and more personalised treatment. Our Heidelberg Spectralis gives insight into multiple indicators of glaucoma, including <i>anterior chamber angle</i>, <i>retinal nerve fibre layer thickness</i>, <i>minimum rim width thickness</i>, <i>hemisphere thickness asymmetry</i>, and <i>ganglion cell layer thickness</i>.
 
-![](/uploads/glaucoma-optic-nerve.jpg)
+![](/img/uploads/glaucoma-optic-nerve.jpg)
 _Scans taken by the Heidelberg Spectralis OCT that reveals indications of glaucoma, including hemisphere thickness asymmetry, neuroretinal fibre layer thickness and anterior chamber depth._
 
 #### How is glaucoma treated?
 
 Glaucoma can be managed effectively. Early detection is the key, as this increases options for treatment that can significantly slow the progression of the disease. Treatment options include eye drops, laser and surgery. Optometrists at Innovative Eye Care can prescribe the eye drops used to treat glaucoma. If you are prescribed glaucoma eye drops, these need to be used correctly _every day_ to decrease the chance of worsening of the condition. Visit our [page on using eye drops correctly](/what-we-do/eye-drops) for more information on this. Ongoing examinations at least every year are required to ensure your glaucoma is stable.
 
-![](/uploads/eye-drops.jpg)
+![](/img/uploads/eye-drops.jpg)

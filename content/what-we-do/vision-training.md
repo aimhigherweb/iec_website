@@ -1,7 +1,7 @@
 ---
 title: Vision Training
 category: SE03
-preview_image: childrens-vision.jpg
+preview_image: /img/uploads/services/childrens-vision.jpg
 ---
 <div class="employee-heading">
 
@@ -33,7 +33,7 @@ Vergence refers to the ability of the eyes to turn in and out in order to avoid 
 
 Eye movements refer to the ability for the eyes to move accurately from one point to another. These skills are especially important for reading, which involves scanning across a page and then finding the next line below. Vision training specifically targeted for improving eye movement aims to improve and develop the control and accuracy of these movements. Exercises include [VT with saccade pyramids](https://innovativeeyecare.com.au/patient-resources/vision-training-with-saccade-pyramids/), [VT with saccade pens](https://innovativeeyecare.com.au/patient-resources/vision-training-with-saccade-pens/) and [VT for near motility](https://www.innovativeeyecare.com.au/patient-resources/vision-training-for-near-motility/).
 
-![](/uploads/vision-training-implements.jpg)
+![](/img/uploads/vision-training-implements.jpg)
 
 #### How effective is vision training?
 

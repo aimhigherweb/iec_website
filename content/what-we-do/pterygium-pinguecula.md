@@ -1,7 +1,7 @@
 ---
 title: Pterygium and Pinguecula
 category: "SE09"
-preview_image: pterygium.jpg
+preview_image: /img/uploads/services/pterygium.jpg
 ---
 
 <div class="employee-heading">

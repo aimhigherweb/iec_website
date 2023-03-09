@@ -1,10 +1,9 @@
 ---
 title: Vivid Vision
 category: SE03
-preview_image: vividvision.png
+preview_image: /img/uploads/services/vividvision.png
 ---
 <div class="employee-heading"><p>
-
 Innovative Eye Care is the first practice in South Australia to exclusively offer the Vivid Vision virtual reality vision training program. Vivid Vision uses cutting-edge technology to help your eyes work together and improve your 3D vision. At our Adelaide practice, our optometrists can help you see more clearly and comfortably, with an individually tailored program that's highly engaging.</p></div>
 
 Muscles in the eye are just like any other muscle in the body. For many reasons, they can be weaker and fatigue more easily than the general population. This can cause problems like headaches, eye strain, blurry vision, double vision and eye turns. The good news is that like other muscles, the muscles of the eye can also be trained over time and become increasingly resistant to fatigue so that these symptoms become less frequent even with intense amounts of near work involving reading, writing or screens. With Vivid Vision, our optometrists can develop a personally tailored program for your eyes, like a personal trainer. This treatment is revolutionary for patients, regardless of age, with:<sup>1,2,3</sup> 

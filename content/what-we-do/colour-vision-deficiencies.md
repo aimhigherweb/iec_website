@@ -1,7 +1,7 @@
 ---
 title: Colour Vision Testing
 category: "SE10"
-preview_image: colour-vision.jpeg
+preview_image: /img/uploads/services/colour-vision.jpeg
 ---
 <div class="employee-heading">
 
@@ -11,13 +11,13 @@ preview_image: colour-vision.jpeg
 
 Visible light is the part of the electromagnetic spectrum that human eyes are able to detect. Other commonly known examples of rays on the electromagnetic spectrum are seen in the picture below and include X-rays, microwaves, radio waves and UV (ultraviolet) rays. This spectrum is made up of various wavelengths and each wavelength in the visible spectrum of light corresponds to a particular colour. For example, red light has a longer wavelength when compared to blue light.
 
-![](/uploads/visible-spectrum.png)
+![](/img/uploads/visible-spectrum.png)
 
 ***Why do objects appear as different colours?***
 
 Objects can either absorb or reflect specific wavelengths of light. The colour of an object depends on which wavelengths of light are reflected by the object and enter our eyes. Let’s use a red apple as an example. When white light (which is composed of all wavelengths of visible light) shines onto an apple, the molecules within the apple absorb blue and violet wavelengths of light and reflect red wavelengths of light. This results in the apple having a red colour. If we were to shine only blue light onto the apple, all the blue light would be absorbed meaning that the apple would appear black (as seen in the picture).
 
-![](/uploads/apple-colour.png)
+![](/img/uploads/apple-colour.png)
 
 #### **Human Colour Vision**
 
@@ -25,7 +25,7 @@ The cells involved in detecting light within the eye are called photoreceptors. 
 
 There are two main types of photoreceptors, rods and cones. The human retina contains approximately 6 million cones and 110 million rods.<sup>1-2</sup> Rods are responsible for vision at low light levels (also known as scotopic vision). Cones are responsible for vision at high light levels (also known as photopic vision), high acuity vision and colour vision.
 
-![](/uploads/photoreceptors.png)
+![](/img/uploads/photoreceptors.png)
 
 There are three types of cones and similar to how a radio station is tuned to a specific frequency, each cone is tuned to a specific wavelength of light (or colour of light):
 
@@ -35,7 +35,7 @@ There are three types of cones and similar to how a radio station is tuned to a 
 
 When used in combination, these three types of cones allow for humans to see all hues of colour in the visible spectrum of light which is approximately 10 million colours.
 
-![](/uploads/cones-spectrum.png)
+![](/img/uploads/cones-spectrum.png)
 
 ### **Colour Vision Deficiencies**
 
@@ -67,7 +67,7 @@ Therefore the possible colour vision deficiencies are as follows:
 
 For example, if someone has a missing red cone but normal green and blue cones, they would be described as a protanope. If someone has a green cone which detected a different colour than normal but functional red and blue cones, they would be described as a deuteranomalous trichromat.
 
-![](/uploads/protan-deutan-tritan.png)
+![](/img/uploads/protan-deutan-tritan.png)
 
 ### **Frequency and Genetics**
 
@@ -75,7 +75,7 @@ The most common forms of colour vision deficiencies are red-green defects. These
 
 The gene responsible for blue-yellow deficiencies is located on chromosome 7 meaning that both males and females are equally affected and that these defects are much less common (less than 1% of the population).<sup>3</sup>
 
-![](/uploads/x-linked-recessive.png)
+![](/img/uploads/x-linked-recessive.png)
 
 ### **Testing**
 
@@ -91,13 +91,13 @@ This is the most commonly performed colour vision test and involves the identifi
 
 This test consists of 16 coloured caps each containing a piece of paper of different colour. The patient is asked to place one of the caps that is closest in colour to the reference cap in the box next to it. This is continued until all caps are placed in the box. This test, unlike the Ishihara test, is able to detect red-green and blue-yellow defects.
 
-![](/uploads/d15.png)
+![](/img/uploads/d15.png)
 
 ***Medmont C100 Colour Vision Test***
 
 This test requires the patient to look into a small electronic box and adjust a knob located at the top of the box to a point where the yellow light flicker disappears or is at a minimum. This test is able to distinguish protan and deutan but interestingly, it can also diagnose women who may have normal colour vision but are carriers of the abnormal gene for protan or deutan colour defect.<sup>4-6</sup>
 
-![](/uploads/medmont-c100.png)
+![](/img/uploads/medmont-c100.png)
 
 ### **Management and Treatment**
 

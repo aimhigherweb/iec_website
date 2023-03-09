@@ -1,13 +1,13 @@
 ---
 title: Sports Optometry and Sports Vision
 category: SE10
-preview_image: xfcnvb.png
+preview_image: /img/uploads/services/xfcnvb.png
 ---
 <div class="employee-heading">
 
 <p>In sports, the following phrases are often stated for good reason: “your eyes lead the body”, “keep your eye on the ball” and “you can’t hit what you can’t see”. Your vision makes up 80% of your total perceptual input and is the sense which has the most impact on sports performance.<sup>1</sup> Studies have shown that professional athletes have greater visual-perceptual and visual-cognitive skills. <sup>2</sup> 
 
-![](/uploads/karl.png)
+![](/img/uploads/karl.png)
 
 The following are aspects of vision which can impact an athlete’s visual potential: 
 
@@ -28,7 +28,7 @@ Another important consideration is eye protection. Some sports have a much highe
 
 [Contact lenses](https://www.innovativeeyecare.com.au/what-we-do/contact-lenses/) are a popular choice amongst athletes as they allow for excellent field of view and clarity of vision. Innovative Eye Care is a leading contact lens practice and our optometrists can fit and design contact lenses suitable for athletes with both simple and highly challenging prescriptions. These include [soft disposable contact lenses](https://www.innovativeeyecare.com.au/what-we-do/soft-contact-lenses/), [rigid gas permeable lenses](https://www.innovativeeyecare.com.au/what-we-do/gas-permeable-contact-lenses/), [scleral lenses](https://www.innovativeeyecare.com.au/what-we-do/scleral-contact-lenses/), and [orthokeratology lenses](https://www.innovativeeyecare.com.au/what-we-do/orthokeratology-corneal-reshaping/). 
 
-![](/uploads/golf.png)
+![](/img/uploads/golf.png)
 
 ### Vision training and Vivid Vision
 

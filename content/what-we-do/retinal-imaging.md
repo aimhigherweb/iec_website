@@ -1,7 +1,7 @@
 ---
 title: Retinal Imaging
 category: SE05
-preview_image: retina.png
+preview_image: /img/uploads/services/retina.png
 ---
 <div class="employee-heading">
 <p>At Innovative Eye Care, your optometrist will take photographs of the back of your eyes using a retinal camera. This process is an important part of your <a href="/what-we-do/eye-exam">comprehensive eye examination</a> and is used to identify disease and monitor changes to your eye health in the future.</p>
@@ -13,7 +13,7 @@ The real value of retinal photography is that it provides a baseline for the con
 
 Other imaging modalities often use lasers of only a few specific colours, which can alter the appearance of the retina and make it more difficult to detect any issues. Ultra-widefield photos of the retina are captured with the Zeiss Clarus in true colour to best mimic the actual appearance of the retina. These can be further separated into red, green and blue lasers to show different layers of the retina and any potential diseases located at each; infrared imaging highlights the outermost layer, green imaging highlights blood vessels and blue imaging highlights the nerve pathway.
 
-![](/uploads/zeiss-clarus-imaging.jpg)
+![](/img/uploads/zeiss-clarus-imaging.jpg)
 
 *Zeiss Clarus imaging of a healthy retina in true colour (top left), infrared light (top right), green reflectance (bottom left) and blue reflectance (bottom right).*
 
@@ -23,8 +23,8 @@ The Heidelberg Spectralis has the ability to take crystal clear photos of the ba
 
 Both of these types of scans reveal structures and abnormalities of the eye that allow your optometrist to better pinpoint and manage eye health issues, if any, that can be detected using posterior imaging. These methods of diagnostic imaging are offered at our Adelaide practice.
 
-![](/uploads/wavelengths1.png)
-![](/uploads/wavelengths2.png)
+![](/img/uploads/wavelengths1.png)
+![](/img/uploads/wavelengths2.png)
 *Spectralis imaging of a healthy retina with MultiColor (top left), infrared light (top right), green reflectance (bottom left) and blue reflectance (bottom right).*
 
 #### Canon Non-Mydriatic Retinal Camera

@@ -1,17 +1,16 @@
 ---
 title: Children's Vision
 category: SE03
-preview_image: kid-reading.jpeg
+preview_image: /img/uploads/services/kid-reading.jpeg
 ---
 <div class="employee-heading"><p>
-
 During the early stages of life, the visual system undergoes rapid changes and is the dominant sense which leads to development of perceptual, cognitive and social skills.<sup>1</sup> Many vision problems encountered by children are asymptomatic or difficult to recognise.<sup>2</sup> A study in 2002 showed that around 25% of primary school-aged children have some form of ocular condition.<sup>1</sup> Presently, this number may actually be higher due environmental and lifestyle changes like increased screen time and decreased time outdoors compared with children of previous generations.<sup>3-6</sup> Undiagnosed visual problems in children can cause developmental, social and academic challenges.<sup>7</sup> Innovative Eye Care has optometrists at both our Adelaide and Henley Beach practices who are passionate about improving children’s vision and providing high quality paediatric eye care.
 
 <b>[See this page for signs that may indicate that your child has a visual problem.](https://www.innovativeeyecare.com.au/what-we-do/signs-of-vision-problem-children/)</b>
 
 </p></div>
 
-![](/uploads/childrens-vision.jpg)
+![](/img/uploads/childrens-vision.jpg)
 
 Most schools in Australia offer a form of vision screening which are great tools to detect visual problems. However, most school screenings perform a limited assessment of a child’s visual system. The goals of comprehensive paediatric optometry at Innovative Eye Care are to perform an in-depth assessment of the child's visual system and its functional status specific to developmental stage, evaluate the child's ocular health and counsel caregivers about the prevention or management of any visual health concerns that might be present.
 

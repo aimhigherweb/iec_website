@@ -1,5 +1,5 @@
 ---
 title: Dry Eye Clinic
 catno: "SE04"
-image: /images2/service-dry-eye-clinic.png
+image: /img/uploads/services/dry-eye-clinic.png
 ---

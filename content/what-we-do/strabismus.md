@@ -1,13 +1,13 @@
 ---
 title: Strabismus
 category: SE03
-preview_image: strabismus.jpg
+preview_image: /img/uploads/services/strabismus.jpg
 ---
 Each eye has 6 external muscles (know as the extraocular muscles) which control the movement and position of the two eyes. To maintain clear and single vision, the muscles and the nerves controlling these muscles must work together.
 
 **Strabismus**, also known as a turned eye or squint, is a condition where the two eyes do not align properly when looking at a target. It affects 2-4% of all children in Australia and can be classified by whether the eye turns inwards (esotropia), outwards (exotropia), upwards (hypertropia) or downwards (hypotropia).<sup>1</sup> They can also be classified by whether the eye turn occurs all the time (constant) or some of the time (intermittent) and whether it affects one eye (unilateral) or both eyes (alternating/bilateral).<sup>1</sup>
 
-![](/uploads/strabismus1.jpg)
+![](/img/uploads/strabismus1.jpg)
 
 Strabismus can affect many aspects of life including education, hand-eye coordination, social development and other general activities in daily life making early intervention crucial.<sup>2,3</sup> For example, young children may develop an avoidance to reading which could cause poor academic performance.<sup>4</sup>
 

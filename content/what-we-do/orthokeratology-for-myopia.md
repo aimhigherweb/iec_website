@@ -1,7 +1,7 @@
 ---
 title: Orthokeratology for Myopia
 category: "SE06"
-preview_image: photo-1516627145497-ae6968895b74-2-.jfif
+preview_image: /img/uploads/services/photo-1516627145497-ae6968895b74-2-.jfif
 ---
 
 <div class="employee-heading">
@@ -12,7 +12,7 @@ Myopia — or shortsightedness — refers to poor distance vision but clear near
 
 The development of myopia seems to also be influenced by environmental factors, such as near work. Studies show that the more near work performed, the more likely your child will become nearsighted. In one study, boys in Orthodox Jewish schools were found to have a higher rate of myopia (81.3%) compared with boys in general Jewish schools (27.4%). The boys in the Orthodox schools spent upwards of 16 hours a day studying. Lack of time spent outdoors has also been implicated.
 
-![](/uploads/genetics.png)
+![](/img/uploads/genetics.png)
 
 #### Myopia prevalence
 

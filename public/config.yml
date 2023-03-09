@@ -125,7 +125,8 @@
         {
           "label": "Image",
           "name": "image",
-          "widget": "image"
+          "widget": "image",
+          "media_folder": "/public/img/uploads/services"
         }
       ]
     },
@@ -575,6 +576,55 @@
                 }
               ]
             }
+          ]
+        },
+        {
+          "label": "What We Do",
+          "name": "what-we-do",
+          "file": "content/pages/what-we-do.json",
+          "fields": [
+            {
+              "label": "Title",
+              "name": "title",
+              "widget": "string"
+            },
+            {
+              "label": "Metadata",
+              "name": "meta",
+              "widget": "object",
+              "fields": [
+                {
+                  "label": "Title",
+                  "name": "title",
+                  "widget": "string"
+                },
+                {
+                  "label": "Description",
+                  "name": "description",
+                  "widget": "text"
+                },
+                {
+                  "label": "Image",
+                  "name": "image",
+                  "widget": "image",
+                  "choose_url": false
+                }
+              ]
+            },
+            {
+                      "label": "Content",
+                      "name": "content",
+                      "widget": "markdown",
+                      "buttons": [
+                        "bold",
+                        "italic",
+                        "link",
+                        "heading-three",
+                        "bulleted-list",
+                        "numbered-list"
+                      ],
+                      "editor_components": []
+                    },
           ]
         }
       ]

@@ -1,14 +1,14 @@
 ---
 title: Amblyopia
 category: SE03
-preview_image: patching1.jpg
+preview_image: /img/uploads/services/patching1.jpg
 ---
 <div class="employee-heading">
 <p>Amblyopia (sometimes called a 'lazy' eye), named after the Greek word <i>amblus</i> meaning blunt and <i>op</i> meaning eye or vision, is a developmental reduction (or 'blunting') of vision in one or both eyes. Amblyopia occurs as a child while the brain is maturing, often because one eye points in the wrong direction or vision is significantly defocused due to refractive error.<sup>1</sup> In these cases, vision is sub-standard, and as a result the connections made from the eye to the visual cortex in the brain during development are not fully formed.<sup>1</sup> If untreated, this developmental barrier becomes lifelong and will affect vision permanently despite optical correction.</p>
 <p>Our practices in Adelaide and Henley Beach are equipped with <a href="https://www.innovativeeyecare.com.au/what-we-do/auto-phoropter/">new technology</a> and <a href="https://www.innovativeeyecare.com.au/who-we-are">determined optometrists</a> who are able to improve vision and often resolve amblyopia in younger patients, preventing an otherwise lifelong issue.</p>
 </div>
 
-![](/uploads/strabismus.jpg)
+![](/img/uploads/strabismus.jpg)
 
 #### What causes amblyopia?
 
@@ -46,7 +46,7 @@ Atropine 1% eye drops cause blurry vision and pupil dilation. These are instille
 
 This therapy works in exactly the same way as atropine therapy, except it can be used for any level of amblyopia. The good eye is occluded with a patch, which forces the bad eye to take up vision and strengthen connections with the brain. Usually patching is only required for a few hours a day and is best combined with visually stimulating tasks such as video games, reading or television programmes.<sup>2</sup> **Visit our [patching](/patient-resources/patching-therapy-for-amblyopia) page for more information about this therapy.**
 
-![](/uploads/amblyopia-patching.jpg)
+![](/img/uploads/amblyopia-patching.jpg)
 
 <center><i>Patches worn for amblyopia therapy come in many different varieties.</i></center>
 

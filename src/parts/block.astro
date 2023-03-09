@@ -1,15 +1,8 @@
 ---
-import rehypeRaw from "rehype-raw";
-import rehypeStringify from "rehype-stringify";
-import remarkGfm from "remark-gfm";
-import markdown from "remark-parse";
-import markdownToHtml from "remark-rehype";
-import remarkSmartypants from "remark-smartypants";
-import { unified } from "unified";
-import { VFile } from "vfile";
 import Team from "./blocks/team.astro";
 import Content from "./blocks/content.astro";
 import History from "./blocks/history.astro";
+import processMarkdown from "@utils/markdown";
 
 let Block = Content;
 let classes = ["block", `theme-${Astro.props.theme.toLocaleLowerCase()}`];
@@ -31,20 +24,12 @@ const data = Astro.props;
 
 data.content = {
 	markdown: Astro.props.content,
-	html: unified()
-		.use(markdown)
-		.use(markdownToHtml)
-		.use(rehypeStringify)
-		.process(Astro.props.content),
+	html: processMarkdown(Astro.props.content),
 };
 
 data.leading = {
 	markdown: Astro.props.leading,
-	html: unified()
-		.use(markdown)
-		.use(markdownToHtml)
-		.use(rehypeStringify)
-		.process(Astro.props.leading),
+	html: processMarkdown(Astro.props.leading),
 };
 ---
 

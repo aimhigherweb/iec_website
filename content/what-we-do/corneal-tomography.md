@@ -1,7 +1,7 @@
 ---
 title: Corneal Tomography
 category: "SE05"
-preview_image: astig-.jpg
+preview_image: /img/uploads/services/astig-.jpg
 ---
 
 <div class="employee-heading">
@@ -12,7 +12,7 @@ preview_image: astig-.jpg
 
 This machine uses Scheimpflug imaging to map the front and back surfaces of the cornea as well as its thickness and volume, the anterior chamber conformation and volume, and the anterior lens topography and density. This is a step beyond what most reflection-based [topographers](https://www.innovativeeyecare.com.au/what-we-do/corneal-topography) use, which map only the front corneal surface. Its accuracy as a non-contact alternative independent of tear film quality has been proven in countless clinical trials. For this reason, it’s much better for mapping eyes with [dry eye disease](https://www.innovativeeyecare.com.au/what-we-do/dry-eye-disease).
 
-![](/uploads/scheimpflug-db.jpg)
+![](/img/uploads/scheimpflug-db.jpg)
 
 _Figure 1: Scan of the front and back of the cornea, anterior chamber, front surface of the iris and lens, and eyelids._
 
@@ -20,6 +20,6 @@ It also serves as a topographer (maps the eye’s front surface), an imager (cap
 
 Due to its extensive abilities, the Pentacam AXL Wave has applications for all patients, but especially in the management of corneal thinning disease (ectasia) like [keratoconus and PMD](https://www.innovativeeyecare.com.au/what-we-do/keratoconus), in [bespoke contact lens design](https://www.innovativeeyecare.com.au/what-we-do/gas-permeable-contact-lenses), and for the [management of myopia](https://www.innovativeeyecare.com.au/what-we-do/myopia-control), or [short-sightedness](https://www.innovativeeyecare.com.au/what-we-do/myopia). As well as scanning the cornea (the clear structure at the front of the eye that bends light), the Pentacam AXL Wave is able to directly measure the elevation the sclera (the white part of the eye important), making it crucial in the design of [scleral lenses](https://www.innovativeeyecare.com.au/what-we-do/scleral-contact-lenses). It also has many other functions relating to pinpoint accuracy of [glasses and contact lens prescription](https://www.innovativeeyecare.com.au/what-we-do/auto-phoropter), [myopia control](https://www.innovativeeyecare.com.au/what-we-do/myopia-control) and [cataract](https://www.innovativeeyecare.com.au/what-we-do/cataract).
 
-![](/uploads/pentacam-topography.jpg)
+![](/img/uploads/pentacam-topography.jpg)
 
 _Figure 2: Various tomographic maps of a keratoconic eye as taken by the Pentacam AXL Wave._

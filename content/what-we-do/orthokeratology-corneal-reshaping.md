@@ -1,7 +1,7 @@
 ---
 title: "Ortho-K: Corneal Reshaping"
 category: SE06
-preview_image: myopic-ok-lens.jpg
+preview_image: /img/uploads/services/myopic-ok-lens.jpg
 ---
 <div class="employee-heading">
 <p>Orthokeratology lenses fitted by our optometrists in Adelaide or Henley Beach are worn while you sleep, leaving you with clear vision during the day without the need for contact lenses or glasses.</p>
@@ -14,13 +14,13 @@ preview_image: myopic-ok-lens.jpg
 
 “***Ortho***” refers to correction, such as in orthopaedics or orthodontics, and “***kera***” relates to the cornea, the front surface of the eye. Custom-designed orthokeratology contact lenses are worn overnight, reshaping the cornea so that vision is clear the next day without the need for optical aid. This process is completely reversible and aims to reduce or eliminate refractive error (short-sightedness, long-sightedness, presbyopia and astigmatism). It’s also an immensely powerful tool against the progression of short-sightedness in a process known as myopia control.<sup>1</sup> The following diagram illustrates how ortho-K corrects myopia:
 
-![](/uploads/ok-remoulding-expl.png)
+![](/img/uploads/ok-remoulding-expl.png)
 
 #### How does ortho-K work?
 
 Ortho-K uses the tears underneath the lens to change the corneal shape, either flattening the centre and steepening the edge to correct short-sightedness or vice versa for long-sightedness.<sup>2</sup> We can successfully fit ortho-K in children and adults with:
 
-![](/uploads/range.png)
+![](/img/uploads/range.png)
 
 #### Why ortho-K?
 

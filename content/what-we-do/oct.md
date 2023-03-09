@@ -1,7 +1,7 @@
 ---
 title: Optical Coherence Tomography (OCT)
 category: "SE05"
-preview_image: heidelberg-oct.jpg
+preview_image: /img/uploads/services/heidelberg-oct.jpg
 ---
 <div class="employee-heading">
 <p><p>Optical coherence tomography (OCT) is a non-contact, non-invasive technique that scans the structure of your eye and creates a 3D image of every detail, including aspects that cannot be investigated by other methods. In most cases it is able to detect structural damage before patients notice problems themselves so that subsequent treatment may arrest any loss of vision. OCT is also a fantastic way to monitor corneal pathology and the fitting of <a href="/what-we-do/soft-contact-lenses">soft</a> and <a href="/what-we-do/gas-permeable-contact-lenses">rigid contact lenses</a>, from the most simple to the most complicated. Innovative Eye Care has two spectral-domain OCTs available for use at both our Adelaide and Henley Beach practices, and we consider them the ultimate tools for diagnosis and early detection of eye disease and retinal conditions. </p>
@@ -20,7 +20,7 @@ preview_image: heidelberg-oct.jpg
 
 As of September 2017, Innovative Eye Care in Hutt Street are the proud owners of a brand new Heidelberg Spectralis OCT and Heidelberg Edge Perimeter for [visual field testing](/what-we-do/visual-field-testing). This state-of-the-art OCT technology enables your optometrist to obtain incredibly high-quality images at significantly increased speeds, and is some of the most advanced in Australia across optometry and ophthalmology clinics alike. To give you an idea, this machine is also used by NASA to monitor eye health at the International Space Station.
 
-![](/uploads/patient-healthy-retina-1.jpg)
+![](/img/uploads/patient-healthy-retina-1.jpg)
 _A 3D OCT scan of a healthy retina._
 
 Together with the visual field information, your optometrist can assess the structure and function of your retina and peripheral vision with increased accuracy of diagnosis. These features are especially beneficial for providing a more complete picture of glaucoma management and can impart better education and understanding for you, the patient.
@@ -35,7 +35,7 @@ At Innovative Eye Care we recommend every patient over the age of 50 should have
 
 OCT has primarily been used by optometrists and ophthalmologists in the examination of the posterior pole, macula and optic nerve head. As OCT becomes a more regular feature in optometry practices, more equipment suppliers are bringing new models to our shores. Many of the latest OCT machines, although primarily designed for imaging the posterior segment, are capable of both anterior and posterior eye segment imaging.
 
-![](/uploads/anterior-oct-adelaide.jpg)
+![](/img/uploads/anterior-oct-adelaide.jpg)
 _Anterior OCT displaying the anterior eye anatomical structures._
 
 With the ability to image the cornea, limbus, sclera, anterior chamber and contact lenses on eye, OCT is an invaluable tool in contact lens practice. Some OCT machines use Scanning Laser Ophthalmoscopes (SLO) rather than infrared to directly view the fundus and anterior chamber. In contact lens practice, SLO is a bonus addition to OCT, giving a high quality view of the tear film and contact lens surface.
@@ -46,5 +46,5 @@ In bespoke contact lens modalities such as [RGP](/what-we-do/gas-permeable-conta
 
 Conditions where anterior OCT is useful in optometry practice include [keratoconus](/what-we-do/keratoconus), [corneal graft](/what-we-do/corneal-grafts), pellucid marginal corneal degeneration, recurrent corneal erosion, epithelial basement membrane dystophy, Salzmann's nodular corneal degeneration, pterygium and pingueculum. OCT also allows better management of contact lens complications and differential diagnosis of corneal abrasion, [microbial keratitis](/what-we-do/keratitis), and other corneal pathologies.
 
-![](/uploads/anterior-oct-adelaide-angle.jpg)
+![](/img/uploads/anterior-oct-adelaide-angle.jpg)
 _Anterior OCT of a patient's anterior chamber angle. This is an important assessment for anyone at risk of glaucoma._

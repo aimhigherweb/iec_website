@@ -1,0 +1,90 @@
+---
+import Layout from "@layouts/default.astro";
+
+export async function getStaticPaths() {
+	const services = await Astro.glob("../../../content/what-we-do/*.md");
+
+	const allServices = [];
+
+	services.forEach((post) => {
+		if (post?.frontmatter?.external) return;
+
+		const matches = post.file.match(/\/(?<slug>(?:\w|\w|-)+)\.md$/i);
+		const { slug } = matches?.groups;
+
+		allServices.push({ params: { slug } });
+	});
+
+	return allServices;
+}
+
+const { slug } = Astro.params;
+
+const services = await Astro.glob("../../../content/what-we-do/*.md");
+
+const service = services.find(({ file }) =>
+	new RegExp(`${slug}.md`, "i").test(file)
+);
+
+const { frontmatter } = service;
+
+const serviceContent = {
+	...frontmatter,
+	slug,
+};
+---
+
+<style lang="scss">
+	h1 {
+		margin: 4em 0 1em;
+		text-align: center;
+	}
+
+	article {
+		padding: 0 20px;
+
+		:global(img) {
+			width: 100%;
+			max-width: 800px;
+			max-height: 500px;
+			margin: 20px auto;
+			display: block;
+		}
+	}
+
+	@media (min-width: 40em) {
+		h1 {
+			margin: 5em 0 0;
+		}
+	}
+
+	@media (min-width: 50em) {
+		article {
+			padding: 0 40px;
+		}
+	}
+
+	@media (min-width: 60em) {
+		h1 {
+			font-size: 2.5em;
+			margin: 4em 0 0;
+		}
+
+		article {
+			padding: 0 5vw;
+		}
+	}
+
+	@media (min-width: 80em) {
+		article {
+			padding: 0 calc(50vw - 500px);
+		}
+	}
+</style>
+
+<Layout content={serviceContent}>
+	<article>
+		<h1>{frontmatter.title}</h1>
+		<service.Content />
+	</article>
+</Layout>

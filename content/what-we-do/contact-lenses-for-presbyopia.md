@@ -1,7 +1,7 @@
 ---
 title: Contact Lenses For Presbyopia
 category: SE02
-preview_image: color-eye.jpg
+preview_image: /img/uploads/services/color-eye.jpg
 ---
 <div class="employee-heading">
 <p>Spectacles aren't the only option for both distance and near vision! If you're over 45 years of age and typically wear reading glasses, progressive or bifocal spectacles, that doesn't mean you can't wear a pair of contact lenses to provide the same level of vision.</p>
@@ -10,7 +10,7 @@ preview_image: color-eye.jpg
 
 <br>
 
-![](/uploads/presbyopia.png)
+![](/img/uploads/presbyopia.png)
 
 #### Multifocal contact lenses
 
@@ -20,7 +20,7 @@ With these lenses, your eyes are focused for both distance and near vision at th
 
 With monovision, one of your eyes is corrected for distance and the other is corrected for near vision. This means your eyes won't work together as naturally; however, the quality and clarity of the vision at specific distances (e.g. at 6 metres in the distance and at reading distance) tends to be superior compared to multifocals.<sup>2</sup> Monovision also allows significant astigmatism to be corrected better than multifocals. In patients with good distance vision, you may just need a lens in one eye to improve your vision for near or distance tasks.
 
-![](/uploads/soft-lens-finger.jpg)
+![](/img/uploads/soft-lens-finger.jpg)
 
 #### Deciding on the right lens type
 

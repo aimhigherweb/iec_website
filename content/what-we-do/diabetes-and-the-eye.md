@@ -1,7 +1,7 @@
 ---
 title: Diabetes & The Eye
 category: "SE09"
-preview_image: elderly-px.jpg
+preview_image: /img/uploads/services/elderly-px.jpg
 ---
 <div class="employee-heading">
 <p>Diabetes is a condition which can affect many systems in the body. It occurs when the level of sugar (glucose) in our blood is higher than normal. There are two main types of diabetes: type 1 and type 2. Type 1 diabetes is autoimmune, meaning the immune system of your body attacks its own cells in the pancreas that control levels of blood glucose.<sup>1</sup> Type 2 diabetes is a progressive condition where the body becomes resistant to the effects of and/or slowly produces less of the glucose-controlling hormone, insulin.<sup>1</sup> Both type 1 and type 2 diabetes can cause changes to the tissues and blood vessels at the front and back of the eye after a period of time.<sup>1</sup> All diabetics should ensure they visit their optometrist at least annually for a thorough <a href="/what-we-do/eye-exam">examination</a>.</p>
@@ -18,7 +18,7 @@ Diabetic retinopathy (DR) is a condition where high blood sugar levels damage th
 1. Non-proliferative: The capillaries in the retina become weak, leading to small bulges in the vessel wall (microaneurysms) and other vessel wall changes, causing reduced blood circulation in the retina.<sup>3</sup> 
 2. Proliferative: Damage to vessels becomes so severe that the retina is significantly starved of oxygen, leading to the creation of new, leaky vessels to compensate which can cause extensive bleeding and sudden vision loss.<sup>3</sup>
 
-![](/uploads/diabetic-retinopathy.jpg)
+![](/img/uploads/diabetic-retinopathy.jpg)
 
 #### Other complications of diabetes
 
@@ -38,7 +38,7 @@ With the aid of our Heidelberg OCT, we are able to detect signs of diabetic reti
 
 The role of optometry in diabetic management is that of close monitoring and communication with other health professionals involved in your diabetic care. If we detect the development of diabetic retinopathy we can alter diabetic control and management with the help of your GP, endocrinologist and ophthalmologist.
 
-![](/uploads/diabetes-prp-treatment.png) *An image captured by the Heidelberg OCT showing evidence of proliferative diabetic retinopathy (top) and the same retina after treatment with anti-vascular injections.*
+![](/img/uploads/diabetes-prp-treatment.png) *An image captured by the Heidelberg OCT showing evidence of proliferative diabetic retinopathy (top) and the same retina after treatment with anti-vascular injections.*
 
 <br>
 

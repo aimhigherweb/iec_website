@@ -1,7 +1,7 @@
 ---
 title: Driving and Vision
 category: "SE08"
-preview_image: driving.jpeg
+preview_image: /img/uploads/services/driving.jpeg
 ---
 <div class="employee-heading">
 <p>Driving is a skill that is reliant on good vision. The majority of decisions we make behind the wheel are influenced by what our eyes can see on the road, and this depends on a number of factors. Book an <a href="/what-we-do/eye-exam">eye test</a> with an optometrist at our Adelaide or Henley Beach branch to ensure your vision can accommodate safe and comfortable driving.</p>
@@ -15,7 +15,7 @@ Using glasses or contact lenses will give you the best chance of seeing everythi
 
 Drivers who use overnight [orthokeratology contact lenses](/what-we-do/orthokeratology) to see clearly the next day should wear their lenses every night to ensure their vision is sharp enough when behind the wheel. Your optometrist can give you a letter that can be left in your glovebox that explains your form of vision correction to anyone concerned.
 
-![](/uploads/driving-letter-chart.jpg)
+![](/img/uploads/driving-letter-chart.jpg)
 
 #### Depth perception
 
@@ -27,7 +27,7 @@ The ability to ‘see out of the corner of your eye’—to see over a large are
 
 To meet the driving standard you need to see with both eyes at least 110 degrees horizontally, with no visual field problems within 20 degrees of where your eyes point. This means patients with vision in only one eye may still meet the driving standard but with require a period of time (usually 3 months) to adapt to only using one eye first if it is a new condition. Patients with conditions like glaucoma may not meet this standard due to loss of their peripheral vision. At Innovative Eye Care we have special [visual field testing machines](/what-we-do/visual-field-testing) that can check if you meet this driving standard.
 
-![](/uploads/driving-and-vision.jpeg)
+![](/img/uploads/driving-and-vision.jpeg)
 
 #### Muscle balance
 
@@ -45,7 +45,7 @@ As we get older the tissues of our eyes become more opaque, causing conditions s
 
 If glare becomes more problematic then shielding your eyes from light during the day with [quality sunglasses](/what-we-do/sunglasses) can be helpful. The [anti-reflective coating](/what-we-do/spectacle-lenses) on the modern lenses that we use at Innovative Eye Care will also reduce the reflections of light within your lens, especially from behind you, which makes driving easier.
 
-![](/uploads/anti-glare-lenses.jpg)
+![](/img/uploads/anti-glare-lenses.jpg)
 _An illustration to show how a spectacle lens with an anti-reflective coating (right) can reduce glare at night._
 
 <br>

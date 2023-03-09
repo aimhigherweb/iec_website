@@ -8,4 +8,4 @@ With their flagship store in Toulose, France, they have expanded over the years 
 
 To see more, visit their website [here](https://anneetvalentin.com/en/optical/):
 
-![](/uploads/annevalentin.jpg)
+![](/img/uploads/annevalentin.jpg)

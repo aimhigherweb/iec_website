@@ -1,7 +1,7 @@
 ---
 title: Episcleritis & Scleritis
 category: "SE07"
-preview_image: scleritis3.jpg
+preview_image: /img/uploads/services/scleritis3.jpg
 ---
 
 <div class="employee-heading">

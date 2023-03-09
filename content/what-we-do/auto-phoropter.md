@@ -1,7 +1,7 @@
 ---
 title: Automated Refraction
 category: "SE05"
-preview_image: 30e99791d9ccd11df11a37f9446fdee439391556.jpg
+preview_image: /img/uploads/services/30e99791d9ccd11df11a37f9446fdee439391556.jpg
 ---
 <div class="employee-heading">
 <p>Gone are the days of wearing an uncomfortable trial frame during your <a href="https://www.innovativeeyecare.com.au/what-we-do/eye-exam">eye exam</a> as your optometrist tugs and prods a myriad of different lenses in front of your eyes! All consulting rooms at Innovative Eye Care now use state-of-the-art Nidek autophoropters to make this process quick and easy. As well as this, our Hutt Street practice is equipped with a state-of-the-art <i>Pentacam AXL Wave</i> and our Henley Beach practice uses an autorefractor to streamline the process while maintaining the accuracy of your prescription.</p>
@@ -11,7 +11,7 @@ preview_image: 30e99791d9ccd11df11a37f9446fdee439391556.jpg
 
 A phoropter is a machine that stores all the range of lenses optometrists use to check your eye's prescription. These are traditionally operated by hand to rotate different lenses into place. An autophoropter is exactly what it sounds like - it automates this process, so that during your eye exam your optometrist will only need to press buttons on a remote control to change to any combination of different lenses. This speeds up the time it takes to work out your prescription leaving more time to thoroughly check the health of your eyes and discuss other aspects of your vision. The autophoropter head can also test a range of near vision aspects to ensure your multifocals and bifocals give you the appropriate focus.
 
-![](/uploads/30e99791d9ccd11df11a37f9446fdee439391556.jpg)
+![](/img/uploads/30e99791d9ccd11df11a37f9446fdee439391556.jpg)
 
 #### Pentacam AXL Wave
 

@@ -11,6 +11,6 @@ LINDBERG frames are individually crafted and customised to your preferences. The
 
 Explore the world of LINDBERG designs <a href="http://lindberg.com" target="_">here</a>.
 
-![](/uploads/lindberg-detail.jpg)
+![](/img/uploads/lindberg-detail.jpg)
 
 </div>

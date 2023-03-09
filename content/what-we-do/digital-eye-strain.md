@@ -1,7 +1,7 @@
 ---
 title: Digital Eye Strain
 category: "SE08"
-preview_image: digital.jpeg
+preview_image: /img/uploads/services/digital.jpeg
 ---
 <div class="employee-heading">
 <p>Love it or loathe it − the world we live in has become increasingly digital. More and more hours are spent gazing at digital screens including computers, tablets and smart phones. These devices can potentially cause a host of eye and vision problems, with long-term effects on eye health. Digital eye strain (also known as computer vision syndrome) is a group of eye issues created or worsened by the use of digital screens. This ranges from eye strain due to focusing issues, dry eye from lower blink rates, and potential ocular disease.</p>
@@ -15,7 +15,7 @@ Even if your eyes focus well on digital screens, the eye muscles will fatigue ov
 
 Because a computer often sits further away from your normal reading distance, people with multifocals, bifocals or single vision spectacles can struggle. You may find you have to tilt your head or move uncomfortably close to the screen to see it clearly. Having a pair of dedicated computer spectacles or IT occupational lenses designed for the appropriate distance can alleviate strain, allowing you to work more effectively.
 
-![](/uploads/digital-eye-strain-1.jpeg)
+![](/img/uploads/digital-eye-strain-1.jpeg)
 
 #### Short-sightedness and computer use
 
@@ -25,7 +25,7 @@ A disturbing trend has emerged with our ever-increasing use of digital screens. 
 
 The effect of blue light, the higher energy part of the visible spectrum, has been implicated in retinal damage over time. Our modern day screens are increasingly made with LED (light-emitting diode) technology which has a higher amount of blue light than older technologies. While it is not clear to what extent this blue-light exposure will have on long term eye health, it is worth being cautious. Lens suppliers now have optional lens technologies to decrease transmittance of blue light. This may decrease the risk of retinal damage over-time. Talk to us about whether you or your children may benefit from 'blue-blocking' lens technology.
 
-![](/uploads/digital-eye-strain-2.jpeg)
+![](/img/uploads/digital-eye-strain-2.jpeg)
 
 #### Dry eye associated with computer use
 

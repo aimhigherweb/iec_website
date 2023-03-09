@@ -1,10 +1,9 @@
 ---
 title: "Treating Dry Eye Disease: Step-by-Step "
 category: SE04
-preview_image: dryeyetreatment.jpg
+preview_image: /img/uploads/services/dryeyetreatment.jpg
 ---
 <div class="employee-heading"><p>
-
 Dry eye disease *can* be treated. Lubricating eye drops are helpful but are ineffective on their own in most cases. Dry eye disease is best treated with a comprehensive, step-wise management system.<sup>1</sup> This involves restoring proper function to meibomian glands, maintaining good eyelid hygiene, protecting the eyes, *and* using lubricants.
 
 </p></div>

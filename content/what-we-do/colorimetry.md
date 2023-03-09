@@ -1,7 +1,7 @@
 ---
 title: Colorimetry
 category: SE03
-preview_image: pattern-glare-test-2.jpg
+preview_image: /img/uploads/services/pattern-glare-test-2.jpg
 ---
 Normal vision involves more than just good eyesight. Some people find that although they can see perfectly clearly, there are specific patterns that cause visual disturbance and discomfort.<sup>1</sup> The solution is tinted lenses – colour filters that reduce perceptual discomfort and provide relief from symptoms.<sup>2</sup> Our Adelaide practice is equipped with a colorimeter that can assess what tint is best suited to reduce your symptoms. If you suspect you would benefit from tinted lenses, <a href="/what-we-do/eye-exam">book an appointment</a> or <a href="/what-we-do/contact">contact us</a> today.
 
@@ -11,7 +11,7 @@ Normal vision involves more than just good eyesight. Some people find that altho
 
 Pattern glare is caused when repetitive striped patterns overexcite the visual cortex of the brain. It can be tested for using the Pattern Glare Test, which involves presenting the patient with three different pattern on a piece of card. Of these three patterns, the first has spatial frequency that is too low to produce symptoms, and the last has a spatial frequency that is too high. The second pattern has a spatial frequency of 2-5 cycles per degree, which can generate symptoms in a person with pattern glare.
 
-![](/uploads/pattern-glare-test-2.jpg)
+![](/img/uploads/pattern-glare-test-2.jpg)
 *Image courtesy of Cerium Visual Technologies*
 
 #### What are the symptoms of pattern glare?
@@ -33,7 +33,7 @@ When projected on a white page with black text, certain wavelengths of light hel
 
 Pattern glare often occurs without associated health conditions, although it can arise with concussion, epilepsy and dyslexia.<sup>7,8,9</sup> It is important to see an optometrist if you believe you experience pattern glare, both as a step towards management of symptoms and also to affirm your overall well-being.
 
-![](/uploads/coloured-overlay.jpg)
+![](/img/uploads/coloured-overlay.jpg)
 
 
 

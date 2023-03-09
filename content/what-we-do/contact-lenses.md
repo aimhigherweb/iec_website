@@ -1,14 +1,14 @@
 ---
 title: Contact Lenses
 category: SE02
-preview_image: contact-lenses-2.jpg
+preview_image: /img/uploads/services/contact-lenses-2.jpg
 ---
 <div class="employee-heading">
 <p><p>Contact lenses are an alternative option to spectacles for providing clear vision. At our Adelaide and Henley Beach branches, an optometrist can advise you on whether contact lenses are right for you. The following information will answer some of the questions you may have about contact lenses before your <a href="/what-we-do/eye-exam">appointment</a>.</p></div>
 
 <br>
 
-![](/uploads/lenses.jpg)
+![](/img/uploads/lenses.jpg)
 
 #### What kinds of contact lenses are there?
 
@@ -18,7 +18,7 @@ There are several different types of soft disposable lenses. Typically spherical
 
 **Click here to find out more about [soft contact lenses](https://www.innovativeeyecare.com.au/what-we-do/soft-contact-lenses/).**
 
-![](/uploads/contact-lenses-2.jpg)
+![](/img/uploads/contact-lenses-2.jpg)
 
 ##### Rigid gas permeable (RGP) lenses
 
@@ -28,7 +28,7 @@ Innovative Eye Care practitioners have had a keen interest in rigid lens fitting
 
 **Click here to find out more about [RGP lenses](https://www.innovativeeyecare.com.au/what-we-do/gas-permeable-contact-lenses/).**
 
-![](/uploads/rgp-lenses.jpg)
+![](/img/uploads/rgp-lenses.jpg)
 
 ##### Orthokeratology lenses
 
@@ -40,7 +40,7 @@ Ortho-K can treat mild to moderate [myopia](/what-we-do/myopia) (short-sightedne
 
 <center>
 
-![](/uploads/ortho-k-toric.jpg)
+![](/img/uploads/ortho-k-toric.jpg)
 
 </center>
 
@@ -50,7 +50,7 @@ Scleral lenses are larger diameter RGP lenses commonly used in extreme corneal i
 
 **Click here to find out more about [scleral lenses](https://www.innovativeeyecare.com.au/what-we-do/scleral-contact-lenses/).**
 
-![](/uploads/scleral-insertion.jpg)
+![](/img/uploads/scleral-insertion.jpg)
 
 #### How do I know if contact lenses are right for me?
 

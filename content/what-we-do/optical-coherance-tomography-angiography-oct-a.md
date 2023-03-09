@@ -1,7 +1,7 @@
 ---
 title: "Optical Coherance Tomography Angiography (OCT-A) "
 category: "SE05"
-preview_image: heidelberg-oct.jpg
+preview_image: /img/uploads/services/heidelberg-oct.jpg
 ---
 
 <div class="employee-heading">
@@ -16,7 +16,7 @@ Conventional OCT scans assess the eye's structural integrity by analyzing light 
 
 #### OCT-A of a healthy eye
 
-![](/uploads/healthy-eye.png)
+![](/img/uploads/healthy-eye.png)
 
 #### OCT-A in Glaucoma
 
@@ -26,7 +26,7 @@ Recent evidence has shown there is a strong link between the eyes blood vessel n
 
 By analyzing the blood vessels with the high definition OCT-A scans in combination with conventional OCT, we can detect glaucoma and monitor the risk of glaucoma development much earlier and with greater accuracy.<sup>2, 3, 4, 5</sup>
 
-![](/uploads/glauc.png)
+![](/img/uploads/glauc.png)
 
 The above image shows a OCT-A scan of the superficial capillary network in a glaucoma patient, showing loss of perfusion that corresponds with overlying loss of nerve tissue.
 

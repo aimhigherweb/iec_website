@@ -1,7 +1,7 @@
 ---
 title: Myopia Control
 category: SE03
-preview_image: microsoftteams-image-1-.png
+preview_image: /img/uploads/services/microsoftteams-image-1-.png
 ---
 <div class="employee-heading">
 
@@ -16,7 +16,7 @@ Our optometrists offer a wide range of treatment options to slow the progression
 
 In myopic eyes, light is focused in front of the retina rather than on it, causing blurry distance vision. Myopia tends to manifest in children (average age of onset being 8 years old) with younger age at diagnosis being associated with a higher risk of eye disease – as kids grow, so do their eyes.<sup>4,5</sup> Normally our eyes keep growing until the age of 14, after which it stabilises, however it has recently been discovered that 30% develop myopia after the age of 17!<sup>1,4,5</sup> In myopic eyes the normal growth pattern is interrupted and the eye continues to grow exponentially resulting in progressive myopia.<sup>1</sup>
 
-![](/uploads/myopia2.png)
+![](/img/uploads/myopia2.png)
 
 ##### **How bad are the risks, even just for low myopia?**
 
@@ -63,11 +63,11 @@ Success of a chosen treatment is based on how much myopia progresses throughout.
 * Corneal topography and tomography: Maps the shape of the front of the eye to determine its optical power and to fit custom contact lenses like ortho-K.
 * Objective refraction: Measures myopia when focussing is relaxed, giving a truer refractive reading than when measured subjectively.<sup>7</sup>
 
-![](/uploads/measurementds.png)
+![](/img/uploads/measurementds.png)
 
 The most important of these metrics is ocular biometry measuring axial length.It has the least variability and directly relates to the myopic disease process.<sup>7</sup> We can compare your child’s axial length against what is normal for a child of their age, and whether they are at a greater risk of disease.
 
-![](/uploads/axial-length-chart.png)
+![](/img/uploads/axial-length-chart.png)
 
 Rather than rely on subjective refraction alone, these methods combined give us the complete picture; we know exactly what components of the eye are contributing to myopia. We can then better tailor myopia control strategies for your child and closely monitor for any progression throughout.
 

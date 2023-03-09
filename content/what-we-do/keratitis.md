@@ -1,7 +1,7 @@
 ---
 title: Keratitis
 category: "SE07"
-preview_image: dendrites-hsk.jpg
+preview_image: /img/uploads/services/dendrites-hsk.jpg
 ---
 
 <div class="employee-heading">

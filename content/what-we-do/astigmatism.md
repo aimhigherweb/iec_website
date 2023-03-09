@@ -1,7 +1,7 @@
 ---
 title: Astigmatism
 category: "SE08"
-preview_image: astigmatism-topo.jpg
+preview_image: /img/uploads/services/astigmatism-topo.jpg
 ---
 
 <div class="employee-heading">
@@ -20,7 +20,7 @@ Astigmatism causes different amounts of blur in different directions. This cause
 
 Most astigmatism is caused by the shape of the front surface of the eye (the cornea). One cross-section of the eye, or meridian, is more curved than the cross-section perpendicular to it. The result is that one part of the cornea is shaped like the surface of a football and one like a soccer ball. It can also be caused by slight tilting of the lens inside the eye. It may be inherited or a normal variation part of growth.
 
-![](/uploads/football.png)
+![](/img/uploads/football.png)
 
 #### Why does blurred vision occur?
 
@@ -36,7 +36,7 @@ Spectacles and contact lenses can correct low levels of astigmatism with ease. S
 
 High levels of astigmatism are best corrected with [rigid contact lenses](/what-we-do/gas-permeable-contact-lenses). This is because if a [soft lens](https://innovativeeyecare.com.au/what-we-do/soft-contact-lenses) rotates on the eye just a small amount, the vision decreases dramatically. Mild to moderate levels of astigmatism can be effectively treated with [soft contact lenses](/what-we-do/soft-contact-lenses) and [orthokeratology](/what-we-do/orthokeratology-corneal-reshaping) (overnight corneal reshaping lenses).
 
-![](/uploads/astigmatism-topo.jpg)
+![](/img/uploads/astigmatism-topo.jpg)
 
 #### How is astigmatism detected?
 

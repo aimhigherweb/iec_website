@@ -1,7 +1,7 @@
 ---
 title: Conjunctivitis
 category: "SE07"
-preview_image: conjunctivitis-preview.jpg
+preview_image: /img/uploads/services/conjunctivitis-preview.jpg
 ---
 
 <div class="employee-heading">
@@ -31,4 +31,4 @@ To manage allergic conjunctivitis, you should focus on prevention or avoidance o
 * Reduce dust mite exposure in your home
 * Wash hands straight after patting animals
 
-![](/uploads/conjunctivitis.jpg)
+![](/img/uploads/conjunctivitis.jpg)

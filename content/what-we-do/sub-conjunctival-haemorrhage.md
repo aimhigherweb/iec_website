@@ -1,7 +1,7 @@
 ---
 title: Sub-Conjunctival Haemorrhage
 category: "SE07"
-preview_image: sub-conj-haem.jpg
+preview_image: /img/uploads/services/sub-conj-haem.jpg
 ---
 
 <div class="employee-heading">

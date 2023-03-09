@@ -1,7 +1,7 @@
 ---
 title: Freedom of Information
 category: SE10
-preview_image: foi.jpeg
+preview_image: /img/uploads/services/foi.jpeg
 ---
 <div><p>The South Australian Freedom of Information Act (1991) allows you to access your medical records on request. Your records include present and past spectacle and contact lens prescriptions, referral letters and examination notes.</div></p>
 

@@ -1,10 +1,9 @@
 ---
 title: Dry Eye Disease
 category: SE04
-preview_image: dry-eye-disease.png
+preview_image: /img/uploads/services/dry-eye-disease.png
 ---
 <div class="employee-heading"> <p>
-
 Dry eye disease describes a spectrum of conditions that feature ineffective lubrication of the eye. Symptoms range from discomfort through to disabling pain, redness and fluctuating vision and can impact on many visual activities.
 
 The underlying causes of dry eyes are complex and numerous and need a thorough[examination](https://www.innovativeeyecare.com.au/what-we-do/eye-exam)for your optometrist to determine the cause and most appropriate treatment. At our Adelaide and Henley Beach practices our therapeutic optometrists are equipped with the technology to appropriately diagnose and treat dry eye disease.
@@ -21,7 +20,7 @@ The tear film is made up of three elements: the mucin (mucous) layer, the watery
 
 In most dry eye cases, the watery aqueous component is produced at normal quantities but evaporates too quickly. This is called **evaporative dry eye**. There are three main causes: blepharitis, meibomian gland dysfunction and environmental factors.<sup>1</sup>
 
-![](/uploads/dry-eye-causes.png)
+![](/img/uploads/dry-eye-causes.png)
 
 Severe cases of dry eye are due to low production of aqueous tears, referred to as **aqueous deficient dry eye**. This is less common than evaporative dry eye, and may be due to autoimmune disease, dehydration, poor sleep, medication or prior eye surgery.<sup>1</sup>
 

@@ -1,7 +1,7 @@
 ---
 title: Signs of a Vision Problem in Children
 category: SE03
-preview_image: 0aded48b23e39439e9eff0706f97a488b601e42a_child-reading.jpg
+preview_image: /img/uploads/services/0aded48b23e39439e9eff0706f97a488b601e42a_child-reading.jpg
 ---
 <div class="employee-heading"><p>If any of these signs apply to your child and you are concerned about their visual health, feel free to <a href="https://www.innovativeeyecare.com.au/contact">contact us or book online</a> for an evaluation.
 

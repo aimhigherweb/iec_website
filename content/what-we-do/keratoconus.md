@@ -1,7 +1,7 @@
 ---
 title: Keratoconus
 category: "SE09"
-preview_image: keratoconus-slit-lamp.jpg
+preview_image: /img/uploads/services/keratoconus-slit-lamp.jpg
 ---
 <div class="employee-heading">
 <p>Keratoconus is an eye disease that can cause distorted and blurry vision, even with glasses. This condition involves the thinning of the cornea (the window at the front of the eye), causing the surface to protrude forward in a cone shape, giving the disease its name ("<i>keras</i>" meaning cornea, and "<i>konos</i>" meaning cone). The condition is progressive, meaning it worsens over time, and with increased severity the cornea becomes more and more irregular.<sup>1</sup> This can lead to <a href="https://www.innovativeeyecare.com.au/what-we-do/astigmatism">astigmatism</a>, scarring and severe vision loss.</p>
@@ -30,7 +30,7 @@ Your optometrist can detect signs of keratoconus by analysing structural changes
 
 [Corneal tomography](https://www.innovativeeyecare.com.au/what-we-do/corneal-tomography) is a non-invasive way to measure the contours and shape of the cornea. It is the 'gold standard' in diagnosing and assessing keratoconus.<sup>4</sup> Tomography refers to cross-sectional mapping, where the layers of the cornea are seen like layers of a cut cake. This gives a complete view of both the front and back surfaces of the cornea, both of which are needed to make a true diagnosis of keratoconus.<sup>2</sup> This is unlike [corneal topography](https://www.innovativeeyecare.com.au/what-we-do/corneal-topography), which only scans the front of the cornea, although it can still be useful in the management of keratoconus (for example, [contact lens](https://www.innovativeeyecare.com.au/what-we-do/contact-lenses) design).
 
-![](/uploads/kc-tomography.png)
+![](/img/uploads/kc-tomography.png)
 
 *Figure 1: Maps of the front, back and total thickness of the cornea (top), cross-sectional scan of the cornea (middle) and the effect this keratoconic corneal shape would have on vision (bottom).*
 
@@ -38,7 +38,7 @@ Your optometrist can detect signs of keratoconus by analysing structural changes
 
 Another non-invasive technique to map the front surface of the cornea. The images below are the [topographical](https://www.innovativeeyecare.com.au/what-we-do/corneal-topography) results of a relatively normal cornea (top) and keratoconic cornea (bottom). Note the regular rings on the normal scan compared to the distorted and compressed rings in the keratoconic. Areas of yellow and red represent areas that are more curved on the eye, and indicate the presence of a 'cone' in the keratoconic cornea. This has a significant impact on vision quality, especially when the distorted surface is within the pupil zone (the black circle).
 
-![](/uploads/kc-topo-comparison.png)
+![](/img/uploads/kc-topo-comparison.png)
 
 *Figure 2: The front surface map of a normal cornea (left) compared to a cornea with keratoconus (right).*
 
@@ -46,7 +46,7 @@ Another non-invasive technique to map the front surface of the cornea. The image
 
 The structure of the cornea can also be assessed using a [slit lamp](https://www.innovativeeyecare.com.au/what-we-do/anterior-imaging), which takes images of the front of the eye rather than scans. As well as changes in corneal shape and thickness, there are a number of other findings visible under microscopy. These include the presence of prominent corneal nerves, Fleischer's iron ring and Vogt’s striae (corneal stress lines).<sup>8</sup>
 
-![](/uploads/side-profile-of-keratoconus.jpg)
+![](/img/uploads/side-profile-of-keratoconus.jpg)
 
 *Figure 3: The side profile of a keratoconic eye. Note that the shape is not round, but has a 'cone' jutting out toward the bottom of the cornea.*
 
@@ -54,7 +54,7 @@ The structure of the cornea can also be assessed using a [slit lamp](https://www
 
 The [anterior OCT](https://www.innovativeeyecare.com.au/what-we-do/optical-coherance-tomography-angiography-oct-a) is an invaluable tool that provides cross-sectional scans of the cornea, similarly to the corneal tomographer. The scans allow visualisation of the different layers of the cornea (as shown below) and also image the white part of the eye (sclera) close to the cornea. This is useful not only in diagnosing and monitoring keratoconus, but also for assessing the relationship between contact lenses and the eye. With this technology, we can achieve the most comfortable and safe contact lens fit to significantly improve vision.<sup>9</sup> The example below of a custom scleral lens on the eye shows adequate space between the [contact lens](https://www.innovativeeyecare.com.au/what-we-do/contact-lenses) and the cornea, and the area at the edge of the lens where it lands smoothly on the sclera.
 
-![](/uploads/scleral-keratoconus.jpg)
+![](/img/uploads/scleral-keratoconus.jpg)
 
 #### **How is keratoconus managed?**
 
@@ -68,7 +68,7 @@ Vision can be adequately improved in some keratoconics with [glasses](https://ww
 
 **Bespoke contact lenses:** This includes [rigid gas permeable (RGP)](https://www.innovativeeyecare.com.au/what-we-do/gas-permeable-contact-lenses) and [scleral lenses](https://www.innovativeeyecare.com.au/what-we-do/scleral-contact-lenses). All optometrists at Innovative Eye Care have a strong background in keratoconus management and research, using [EyeSpace](https://www.eyespacelenses.com/) to design rigid lenses for our patients. It's important for keratoconic patients to be assessed and fitted by an experienced optometrist. Poorly fitting contact lenses have been shown to promote the progression of the disease in some individuals and can cause permanent vision loss through scarring.<sup>11,12</sup>
 
-![](/uploads/kc-before-after-scleral.png)
+![](/img/uploads/kc-before-after-scleral.png)
 
 *Figure 5: Vision in a keratoconic eye without correction (left) compared to vision in the same eye with a scleral lens (right).*
 

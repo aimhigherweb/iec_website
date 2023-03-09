@@ -1,7 +1,7 @@
 ---
 title: Optical and Ultrasound Biometry
 category: "SE05"
-preview_image: biometry.png
+preview_image: /img/uploads/services/biometry.png
 ---
 <div class="employee-heading">
 <p>An ocular biometer measures the size and shape of the eye, specifically axial lengths (distance from the front to the back of the eye implicated in <a href="/what-we-do/auto-phoropter">refractive error</a>), anterior chamber depth (important for  <a href="/what-we-do/glaucoma">glaucoma</a>) and keratometry (curvature of the cornea, the clear structure at the front of the eye). Each of these measurements aids in the management of diseases like <a href="/what-we-do/cataract">cataract</a>, and the monitoring of progressive <a href="/what-we-do/myopia">myopia</a>. Both our Adelaide and Henley Beach branches are equipped with either optical or ultrasound biometers like the <i>IOL Master</i>, and most recently the <i>Pentacam AXL Wave</i>.</p>
@@ -11,7 +11,7 @@ preview_image: biometry.png
 
 Optical biometry is crucial for our [myopia](/what-we-do/myopia) patients. Axial myopia, or short-sightedness, is a condition that causes the eyeball to elongate, which focusses light in front of the now displaced retina causing blurred distance vision. Axial lengths of 24mm are normal, and anything over 26.5mm increases the risk for [retinal detachment](/what-we-do/flashes-floaters-retinal-tear-detachment) due to the stretching of retinal tissue. The optical biometer measures axial length to monitor [myopia progression](https://www.innovativeeyecare.com.au/what-we-do/myopia-control) and better manage myopic patients to reduce the risk of complications. It's also useful for assessing the impact of [orthokeratology](/what-we-do/orthokeratology-corneal-reshaping) on slowing myopia progression.
 
-![](/uploads/pentacam-axial-length.jpg)
+![](/img/uploads/pentacam-axial-length.jpg)
 
 #### Cataract
 
@@ -21,7 +21,7 @@ The main function of an optical biometer is to calculate the power of the intrao
 
 The health of our patients' eyes is of the utmost importance to us. While we have a range of equipment that tests for a multitude of eye conditions, optical biometry is particularly critical for patients who have been diagnosed with or are suspects for [glaucoma](/what-we-do/glaucoma), who often need their anterior chamber depth measured. Angle-closure glaucoma occurs when the angle of the anterior chamber becomes too narrow, increasing the pressure inside the eye which can potentially damage the optic nerve. With optical biometry at our disposal, we can better identify the signs of glaucoma and manage accordingly.
 
-![](/uploads/anterior-chamber.png)
+![](/img/uploads/anterior-chamber.png)
 
 #### Keratometry
 

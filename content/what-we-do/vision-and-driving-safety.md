@@ -1,13 +1,13 @@
 ---
 title: Vision and Driving Safety
 category: "SE10"
-preview_image: photo-1521136095380-08fbd7be93c8-2-.jfif
+preview_image: /img/uploads/services/photo-1521136095380-08fbd7be93c8-2-.jfif
 ---
 <div class="employee-heading">
 
 Driving is a task that most people perform everyday. This involves judging distances, reading street signs, using our visual field and processing dynamic information. There are many visual factors which affect an individual's driving performance.
 
-![](/uploads/driving-sore-eyes.jpg)
+![](/img/uploads/driving-sore-eyes.jpg)
 
 ### The Facts
 
@@ -29,7 +29,7 @@ Driving is a task that most people perform everyday. This involves judging dista
   * **Visibility** is limited
   * The **ability to detect and response** to dangers is reduced
 
-![](/uploads/night-driving.jpg)
+![](/img/uploads/night-driving.jpg)
 
 ### Glare
 
@@ -38,14 +38,14 @@ Driving is a task that most people perform everyday. This involves judging dista
 * It is **caused by various different ocular diseases** including but not limited to cataracts, uncorrected refractive error (short-sightedness, long-sightedness or astigmatism)
 * When driving, glare **slows detection and reaction time.**<sup>4</sup>
 
-![](/uploads/glare-driving.jpg)
+![](/img/uploads/glare-driving.jpg)
 
 ### Visual Field
 
 * Around 50% of people with some form of visual field loss are unaware of the problem.<sup>5</sup>
 * Studies have shown that people with visual field defects have **double the risk** of road crashes and traffic violations.<sup>5</sup>
 
-![](/uploads/visual-field-driving.png)
+![](/img/uploads/visual-field-driving.png)
 
 ### Colour Vision Deficiencies
 
@@ -53,7 +53,7 @@ Driving is a task that most people perform everyday. This involves judging dista
 * CVD can be due to genetics or can develop over time due to ocular distance.
 * The visibility of road signs for people with colour vision deficiencies is often reduced.<sup>6</sup>
 
-![](/uploads/colour-vision-traffic-lights.jpg)
+![](/img/uploads/colour-vision-traffic-lights.jpg)
 
 ### Recommendations
 

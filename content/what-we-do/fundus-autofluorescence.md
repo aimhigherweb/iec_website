@@ -1,7 +1,7 @@
 ---
 title: Fundus Autofluorescence
 category: SE05
-preview_image: baf-oct.jpg
+preview_image: /img/uploads/services/baf-oct.jpg
 ---
 <div class="employee-heading">
 <p>Fundus autofluorescence (FAF) is a non-invasive, high definition scan of the deeper retinal layers at the back of the eye. FAF highlights areas of metabolic stress in detail that is above and beyond that of conventional retinal cameras. 
@@ -15,11 +15,11 @@ The retina contains a metabolic indicator called lipofuscin, commonly referred t
 
 #### Zeiss Clarus
 
-![](/uploads/faf-clarus.png)
+![](/img/uploads/faf-clarus.png)
 
 #### Heidelberg Spectralis
 
-![](/uploads/faf-heidelberg.jpg)
+![](/img/uploads/faf-heidelberg.jpg)
 
 #### References
 

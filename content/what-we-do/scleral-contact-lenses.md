@@ -1,7 +1,7 @@
 ---
 title: Scleral Contact Lenses
 category: SE02
-preview_image: scleral-oct-background_preview.jpg
+preview_image: /img/uploads/services/scleral-oct-background_preview.jpg
 ---
 <div class="employee-heading">
 <p>At our Adelaide and Henley Beach practices, optometrists have the ability to fit custom design large diameter scleral contact lenses with <a href="/what-we-do/oct">advanced technologies</a> and materials to treat a range of eye conditions, including <a href="/what-we-do/keratoconus">keratoconus</a>.<sup>1</sup> If you are interested in scleral lenses and would like to know more about whether they are right for you, please make an <a href="/what-we-do/eye-exam">appointment</a> or <a href="/contact">contact us</a>.
@@ -14,15 +14,15 @@ preview_image: scleral-oct-background_preview.jpg
 
 Sclerals are a larger type of [RGP lens](/what-we-do/gas-permeable-contact-lenses). It provides more contact with the sclera (white part of the eye) where there is less sensation. The large diameter means that the eyelids do not move across the edges of the lenses as much, which makes scleral lenses surprisingly comfortable to wear while providing more stable vision. Unlike smaller diameter RGPs, scleral lenses are designed to not touch the central cornea (clear structure at the front of the eye). This makes them even more comfortable, as the cornea is the most sensitive part of the eye.
 
-![](/uploads/scleral-oct-background.jpg)
+![](/img/uploads/scleral-oct-background.jpg)
 
 Sclerals are commonly used for conditions such as [keratoconus](/what-we-do/keratoconus) and [corneal grafts](/what-we-do/corneal-grafts).<sup>1,2,3</sup> In these cases the cornea is often irregular and compromised, so scleral lenses are better for vision and the health of the eye as they vault right over the cornea to limit contact. This principle can also be used to effectively correct high prescriptions such as [hyperopia](/what-we-do/hyperopia), [myopia](/what-we-do/myopia) and [astigmatism](/what-we-do/astigmatism).<sup>1,3</sup> Patients with [dry eye](/what-we-do/dry-eye-disease) also benefit from using scleral lenses as the fluid contained between the lens and the eye bathes the cornea during wear, easing symptoms and helping to rehabilitate the ocular surface.<sup>1,3</sup>
 
-![](/uploads/scleral-5.jpg)
+![](/img/uploads/scleral-5.jpg)
 
 Scleral lenses are complex and difficult to design and manufacture. Innovative Eye Care uses a range of technologies including [anterior OCT](https://www.innovativeeyecare.com.au/what-we-do/oct), [corneal topography](/what-we-do/corneal-topography), [corneal tomography](https://www.innovativeeyecare.com.au/what-we-do/corneal-tomography) and [wavefront aberrometry](https://www.innovativeeyecare.com.au/what-we-do/wavefront-aberrometry) to custom design these lenses as accurately as possible to improve comfort, eye physiology and vision.
 
-![](/uploads/esp.jpg)
+![](/img/uploads/esp.jpg)
 
 ##### References
 

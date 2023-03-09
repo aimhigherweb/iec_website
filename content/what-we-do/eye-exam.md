@@ -1,7 +1,7 @@
 ---
 title: Eye Test
 category: "SE10"
-preview_image: iec-test.jpg
+preview_image: /img/uploads/services/iec-test.jpg
 ---
 
 <div class="employee-heading">
@@ -31,7 +31,7 @@ To ensure we can provide the most personalised care for your eyes, we will ask a
 
 <br>
 
-![](/uploads/glasses.jpg)
+![](/img/uploads/glasses.jpg)
 
 <br>
 

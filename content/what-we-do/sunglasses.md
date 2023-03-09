@@ -1,10 +1,10 @@
 ---
 title: Sunglasses
 category: "SE01"
-preview_image: sunglasses.jpg
+preview_image: /img/uploads/services/sunglasses.jpg
 ---
 <div class="employee-heading">
-<p><p>Living in Australia means quality sunglasses are a <i>must</i>. Innovative Eyecare sunglass partner, Maui Jim, is a sophisticated sunglass brand that protects your eyes from harmful ultraviolet light, while offering exceptional performance and style. Protection from UV light is critical, these rays can cause <a href="https://www.innovativeeyecare.com.au/what-we-do/cataract/">cataract</a>, <a href="https://www.innovativeeyecare.com.au/what-we-do/macular-degeneration">macular degeneration</a>, pterygium and cancer. Our entire sunglasses range meets the <a href="https://www.arpansa.gov.au/understanding-radiation/radiation-sources/more-radiation-sources/sun-protection-sunglasses#australian-standards-for-sunglasses" target="_">Australian Sunglasses Standard for UV Protection</a>.</p>
+Living in Australia means quality sunglasses are a <i>must</i>. Innovative Eyecare sunglass partner, Maui Jim, is a sophisticated sunglass brand that protects your eyes from harmful ultraviolet light, while offering exceptional performance and style. Protection from UV light is critical, these rays can cause <a href="https://www.innovativeeyecare.com.au/what-we-do/cataract/">cataract</a>, <a href="https://www.innovativeeyecare.com.au/what-we-do/macular-degeneration">macular degeneration</a>, pterygium and cancer. Our entire sunglasses range meets the <a href="https://www.arpansa.gov.au/understanding-radiation/radiation-sources/more-radiation-sources/sun-protection-sunglasses#australian-standards-for-sunglasses" target="_">Australian Sunglasses Standard for UV Protection</a>.</p>
 </div>
 
 Maui Jim sunglasses are designed with brilliant vision in mind. Their philosophy is centred around finding new ways to reveal more of the vibrant colours of the world while protecting your eyes from the effects of harsh glare and harmful rays. Every pair of Maui’s are fitted with their industry leading proprietary polarised lenses. Your personal prescription can be made into a pair of Maui Jim lenses and frame to ensure that you enjoy clear, comfortable vision that suits your individual personality and lifestyle.

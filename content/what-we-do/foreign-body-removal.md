@@ -1,7 +1,7 @@
 ---
 title: Foreign Body Removal
 category: "SE07"
-preview_image: foreign-body-in-eye.jpg
+preview_image: /img/uploads/services/foreign-body-in-eye.jpg
 ---
 
 <div class="employee-heading">
@@ -12,8 +12,8 @@ Foreign bodies on the cornea or conjunctiva can be removed by your optometrist w
 
 Following a foreign body removal, your optometrist will generally write a prescription for prophylactic antibiotic drops for you to use in the affected eye four times a day for the next few days. This prevents an opportunistic infection from occurring as your eye heals. It is not usual for the eye to be sore for a day or two as the surface cells heal. If this is bothersome, using oral pain-relief medications as you would for a headache is appropriate.
 
-![](/uploads/foreign-body.png)
+![](/img/uploads/foreign-body.png)
 _Metal piece stuck in the cornea as a result of welding (top left), the same metal piece highlighted by fluorescein dye (top right) and an OCT image of the metal piece embedded in the cornea (bottom)._
 
-![](/uploads/removal-foreign-body.jpeg)
+![](/img/uploads/removal-foreign-body.jpeg)
 _The cornea following removal of the metal piece has completely healed, although the cornea has thinned slightly at this point._

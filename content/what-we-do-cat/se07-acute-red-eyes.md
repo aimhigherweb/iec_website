@@ -1,5 +1,5 @@
 ---
 title: Acute Red Eyes
 catno: "SE07"
-image: /images2/service-acute-red-eyes.png
+image: /img/uploads/services/acute-red-eyes.png
 ---

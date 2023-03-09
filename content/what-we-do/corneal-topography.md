@@ -1,7 +1,7 @@
 ---
 title: Corneal Topography
 category: "SE05"
-preview_image: astig-.jpg
+preview_image: /img/uploads/services/astig-.jpg
 ---
 <div class="employee-heading">
 <p>Integral to our Adelaide and Henley Beach practices so heavily involved with <a href="/what-we-do/contact-lenses">contact lenses</a>, the topographer maps the shape of our patients' cornea – the transparent front surface of the eye. The term topography refers to capturing the shape and features of land surfaces, and just like mountains, the front surface of our eyes have unique topographical features. It's not only important to assess the shape of the cornea, but also to accurately assess the shape of the surrounding sclera (the white part of the eye). We're equipped with the latest in this mapping technology, investing in three distinct pieces of equipment to achieve this – the <i>Medmont E300</i>, the <i>OCULUS Pentacam AXL Wave</i>, and the <i>Eaglet Eye: Eye Surface Profiler (ESP)</i>.</p>
@@ -15,7 +15,7 @@ preview_image: astig-.jpg
 
 The Medmont E300 corneal topographer uses Placido disc, or reflection-based, imaging to provide a three-dimensional representation of a patient's cornea, with particular importance paid to the cornea.<sup>1</sup> This information is ideal for fitting rigid gas permeable contact lenses, or RGPs. The most suitable for each patient can be selected – typically through our premier EyeSpace software. This equipment is used extensively for [orthokeratology](/what-we-do/orthokeratology-corneal-reshaping) and RGP fitting in [keratoconus](/what-we-do/keratoconus). 
 
-![](/uploads/topographer.jpg)
+![](/img/uploads/topographer.jpg)
 
 #### Pentacam AXL Wave
 
@@ -27,7 +27,7 @@ The Eaglet-Eye ESP is a corneo-scleral topographer, meaning it maps out the shap
 
 The Eaglet-Eye ESP is also very useful for designing custom-made <a href="/what-we-do/scleral-contact-lenses">scleral contact lenses</a>.<sup>6</sup> These lenses are large diameter lenses that are typically 16-18mm in diameter. Where conventional corneal topographers are limited to an 8-10mm diameter scan, the Eaglet-Eye ESP gives us a much bigger picture, with the ability to capture the entire surface of an open eye! <sup>6, 7</sup> This means the Eaglet-Eye ESP will revolutionize the fitting of all contact lenses for anyone with lumps or bumps on their eyes, such as <a href="/what-we-do/pterygium-pinguecula">pinguecula or pterygiums.</a>
 
-![](/uploads/esp.jpg)
+![](/img/uploads/esp.jpg)
 
 <br>
 

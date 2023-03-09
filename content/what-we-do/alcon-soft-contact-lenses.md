@@ -6,7 +6,7 @@ category: "SE00"
 
 They're at the forefront of soft lens technology and have just released a brand new range of daily disposable soft contact lenses that have been proven to be some of the most comfortable available.<sup>1</sup> That's because contact lenses with higher water content better wet the front surface of the eye – and Precision1 contact lenses have a layer of moisture that's over <i>80%</i> water.
 
-![](/uploads/table-top-02-767x1100.png)
+![](/img/uploads/table-top-02-767x1100.png)
 
 On top of that, the vision they provide is incredibly clear. Your optometrist will determine your contact lens script at your initial consultation and from there, you can begin Alcon's unique trial experience. You'll receive a free 30 day supply so you can get a really clear idea of whether the lenses are suitable. If at the end of that trial period you decide they're not for you, no worries – you can simply discontinue using the lenses.
 

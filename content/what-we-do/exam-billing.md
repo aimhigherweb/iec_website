@@ -1,7 +1,7 @@
 ---
 title: Exam Billing
 category: "SE10"
-preview_image: innovative-eye-care-medicare-eye.jpg
+preview_image: /img/uploads/services/innovative-eye-care-medicare-eye.jpg
 ---
 
 <div class="employee-heading">
@@ -68,6 +68,6 @@ Since 1975, many optometric clinical services have been included in the Medicare
 
 In the 2014 Budget, the government announced significant changes to the Medicare rebates for optometry services, even though these went largely unnoticed in the media. These included a cut of almost five per cent in the rebate you receive and a freezing of the Medicare rebate until this year. This means the rebate has remained unchanged while costs of providing care continue to rise. The changes come on top of many years of inadequate indexing of the rebate, which means the rebate hasn’t increased in line with costs. The government rebate is continuing to fall further behind the true cost of providing quality eye care.
 
-![](/uploads/medicare-rebate-photo.jpg)
+![](/img/uploads/medicare-rebate-photo.jpg)
 
 The other change made is a removal of the Medicare fee-cap for optometry services. Prior to 1st January 2015 optometrists were unable to charge for their professional services beyond the scheduled fee, unlike all other health professions. Now optometrists may set their own fees for clinical services under Medicare. This means that, in line with other healthcare providers, optometrists can charge above the Medicare scheduled fee without impacting the patient’s ability to claim the Medicare rebate.

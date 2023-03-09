@@ -1,7 +1,7 @@
 ---
 title: Soft Contact Lenses
 category: SE02
-preview_image: contact-lens-2-.jfif
+preview_image: /img/uploads/services/contact-lens-2-.jfif
 ---
 <div class="employee-heading">
 <p><p>Soft disposable contact lenses offer clear vision without wearing spectacles. They have high comfort levels and a low risk of infection, along with being easy to insert and remove. Soft disposables come in daily and fortnightly/monthly types. To learn more about whether soft contact lenses are right for you, take a look at our general information page on <a href="/what-we-do/contact-lenses">contact lenses</a> or book an <a href="/what-we-do/eye-exam">appointment</a> with us today.</p>
@@ -18,7 +18,7 @@ preview_image: contact-lens-2-.jfif
 
 Soft contact lenses provide clear vision and lens wetability, and they are generally comfortable enough to wear all day. They are made from a polymer-plastic material combined with water. The water content varies with different lenses. Newer generation soft lenses are made out variants of a material called silicone hydrogel, which allows more oxygen to reach the eye and prevents some of the ocular health issues that older lens materials would cause.<sup>1,2</sup>
 
-![](/uploads/soft-lens-finger.jpg)
+![](/img/uploads/soft-lens-finger.jpg)
 
 #### What types of soft contact lenses are there?
 
@@ -31,7 +31,7 @@ Soft lenses also vary by optics. Most people only require a basic spherical or s
 
 <center>
 
-![](/uploads/contact-lens.jpg)
+![](/img/uploads/contact-lens.jpg)
 
 </center>
 

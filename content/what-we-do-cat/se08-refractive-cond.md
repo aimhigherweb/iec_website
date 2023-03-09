@@ -1,5 +1,5 @@
 ---
 title: Refractive Conditions
 catno: "SE08"
-image: /images2/service-refractive-conditions.png
+image: /img/uploads/services/refractive-conditions.png
 ---

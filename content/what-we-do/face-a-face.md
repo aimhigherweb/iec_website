@@ -11,7 +11,7 @@ category: "SE00"
 <p>
  <p>Enter the world of Face A Face <a href="http://www.faceaface-paris.com/?lang=en" target="_">here</a>.
 
- ![](/uploads/face-a-face-detail.jpg)
+ ![](/img/uploads/face-a-face-detail.jpg)
 
 </div>
 

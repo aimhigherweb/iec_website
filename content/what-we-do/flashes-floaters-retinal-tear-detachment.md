@@ -1,7 +1,7 @@
 ---
 title: "Flashes, Floaters, Retinal Tear & Detachment"
 category: "SE07"
-preview_image: floaters.jpg
+preview_image: /img/uploads/services/floaters.jpg
 ---
 <div class="employee-heading">
 <p>The appearance of floaters and flashes of light in your vision may be alarming, especially if they develop very suddenly. As we grow older, it is more common to experience floaters and flashes as the vitreous (the clear gelatinous fluid that fills the inside of your eye) becomes more liquefied. As it loses its structure, it gradually pulls away from the inside surface of the eye. When this occurs acutely it is called a posterior vitreous detachment. You should see your optometrist for an urgent <a href="/what-we-do/eye-exam">examination</a> if you notice flashes or floaters, as not all cases of these symptoms are caused by innocuous age-related changes.</p>
@@ -39,5 +39,5 @@ When an optometrist examines your eyes for floaters or flashes, they may dilate 
 
 Some people experience flashes of light that appear as jagged lines or ‘heat waves’ in both eyes, often lasting 10 to 20 minutes. These are not flashes from the vitreous gel pulling on the retina; instead, these types of flashes are usually caused by a spasm of blood vessels in the brain, called a <i>migraine</i>. If a headache follows the flashes, it is called a migraine headache. However, jagged lines or heat waves can occur without a headache. In this case, the light flashes are called an ophthalmic migraine, or migraine without headache. Contact your optometrist if you experience these symptoms.
 
-![](/uploads/migraine_aura.jpg)
+![](/img/uploads/migraine_aura.jpg)
 _An artist's depiction of how a migraine aura appears._
