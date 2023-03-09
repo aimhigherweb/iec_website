@@ -51,6 +51,97 @@ const data = {
 		}
 	}
 
+	.book {
+		font-size: 1em;
+		margin-top: 20px;
+	}
+
+	.popup {
+		display: none;
+		position: fixed;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		background: var.$white;
+		z-index: 100;
+		width: 100vw;
+		max-width: 1000px;
+		padding: 40px 20px;
+		height: 100vh;
+		max-height: 800px;
+
+		&:before {
+			content: "";
+			background: var.$neutral;
+			position: absolute;
+			height: 100vh;
+			width: 100vw;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			z-index: -2;
+			opacity: 0.8;
+		}
+
+		&:after {
+			content: "";
+			background: inherit;
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			z-index: -1;
+		}
+
+		.close {
+			position: absolute;
+			top: 20px;
+			right: 20px;
+			background: none;
+			color: var.$secondary;
+			border: none;
+
+			svg {
+				height: 20px;
+				width: auto;
+			}
+
+			&:hover {
+				color: var.$primary;
+			}
+		}
+
+		iframe {
+			width: 100%;
+			height: calc(90vh - 100px);
+			max-height: 700px;
+		}
+
+		&[data-active="true"] {
+			display: block;
+		}
+
+		h3 {
+			visibility: visible;
+			margin-top: 0;
+		}
+
+		.content {
+			text-align: left;
+			overflow: auto;
+			max-height: 100%;
+
+			img {
+				width: 150px;
+				float: left;
+				margin: 0 10px 10px 0;
+				display: block;
+				filter: none;
+			}
+		}
+	}
+
 	.hours {
 		dt {
 			font-weight: 600;
@@ -118,6 +209,10 @@ const data = {
 		ul {
 			padding: 0 40px;
 		}
+
+		.popup {
+			padding: 40px;
+		}
 	}
 
 	@media (min-width: 60em) {
@@ -151,7 +246,7 @@ const data = {
 	<ul>
 		{
 			stores.map((store) => (
-				<li class="store">
+				<li id={`${`contact_${store.id}`}`} class="store">
 					<Picture
 						src={store.image}
 						alt={store.name}
@@ -187,8 +282,40 @@ const data = {
 							</>
 						))}
 					</dl>
+					<button
+						class="book"
+						onclick={`togglePopup(${`contact_${store.id}`})`}
+					>
+						Book Now
+					</button>
+					<div class="popup" data-active={0}>
+						<button
+							class="close"
+							onclick={`togglePopup(${`contact_${store.id}`})`}
+						>
+							<>
+								<span class="sr-only">Close Popup</span>
+								<SVG name="icons/close.svg" />
+							</>
+						</button>
+						<div class="content">
+							<h3>Book Now</h3>
+							<iframe
+								src={`https://www.MyHealth1st.com.au/AppointmentWidget?practice_id=${store.id}`}
+							/>
+						</div>
+					</div>
 				</li>
 			))
 		}
 	</ul>
 </Layout>
+
+<script is:inline>
+	const togglePopup = (id) => {
+		const popup = id.querySelector(".popup");
+		const active = popup.dataset.active === "true";
+
+		popup.dataset.active = !active;
+	};
+</script>

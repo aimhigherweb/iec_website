@@ -715,6 +715,13 @@
           "default": "https://goo.gl/maps/97tZx2V14nAX3wAM8"
         },
         {
+          "label": "Practice ID",
+          "name": "id",
+          "widget": "string",
+          "description": "Link to Google Maps location",
+          "default": "Practice ID for booking embed"
+        },
+        {
           "name": "hours",
           "label": "Opening Hours",
           "widget": "list",
