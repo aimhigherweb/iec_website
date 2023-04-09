@@ -1,6 +1,47 @@
 ---
-import Layout from "@partials/layout.astro";
+import Layout from "@partials/layout";
 ---
+
+<style lang="scss">
+	:global(main) {
+		max-width: 800px;
+		margin: 0 auto;
+		padding: 0 20px;
+	}
+
+	:global(h1) {
+		margin: 4em 0 1em;
+		text-align: center;
+		color: var.$secondary;
+	}
+
+	@media (min-width: 40em) {
+		:global(main) {
+			padding: 0 40px;
+		}
+
+		:global(h1) {
+			margin: 5em 0 0;
+		}
+	}
+
+	@media (min-width: 60em) {
+		:global(main) {
+			padding: 0 5vw;
+		}
+
+		:global(h1) {
+			font-size: 2.5em;
+			margin: 4em 0 0;
+		}
+	}
+
+	@media(min-width: 70em) {
+		:global(main) {
+			padding: 0;
+		}
+	}
+</style>
 
 <Layout {...Astro.props}>
 	<slot />

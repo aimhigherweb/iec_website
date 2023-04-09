@@ -1,9 +1,10 @@
 ---
-import Layout from "@layouts/home.astro";
-import Banner from "@parts/banner.astro";
-
+import Layout from "@layouts/home";
+import Banner from "@parts/banner";
+import Block from "@parts/block";
 import content from "@data/home.json";
-import Block from "@parts/block.astro";
+
+const stores = await Astro.glob("../../context/stores/*.json");
 
 const { title, banner, sections } = content;
 ---
@@ -12,4 +13,13 @@ const { title, banner, sections } = content;
 	<h1 class="sr-only">{title}</h1>
 	<Banner content={banner} />
 	{sections.map((section) => <Block {...section} />)}
+	<Block
+		{...{
+			id: "book-now",
+			type: 'stores',
+			version: 'small',
+			theme: 'dark',
+			title: 'Find us'
+		}}
+	/>
 </Layout>

@@ -1,0 +1,23 @@
+---
+import Logos from '../logos.astro'
+
+const { heading, content, logos } = Astro.props;
+---
+
+<style lang="scss">
+	h2 {
+		margin-top: 0;
+	}
+
+	.content {
+		max-width: 800px;
+		margin: 20px auto 40px;
+	}
+
+</style>
+
+<>
+	<h2>{heading}</h2>
+	{content?.markdown && <div class="content" set:html={content.html} />}
+	<Logos {logos} />	
+</>

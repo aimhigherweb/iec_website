@@ -1,0 +1,21 @@
+---
+import Layout from "@layouts/default";
+import BlogFeed from '@partials/blogFeed'
+import { getCollection } from "astro:content";
+
+export async function getStaticPaths({ paginate }) {
+	const allPosts = await getCollection('blog')
+
+	return paginate(allPosts, {
+		pageSize: 12
+	})
+}
+
+const { page } = Astro.props
+
+---
+
+<Layout>
+	<h1>Blog</h1>
+	<BlogFeed {...page} />
+</Layout>

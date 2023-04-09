@@ -1,9 +1,7 @@
 ---
-import Staff from "@parts/staff.astro";
+import Staff from "@parts/staff";
 
 const { heading, content, staff, leading } = Astro.props;
-
-console.log({ props: Astro.props });
 
 const allStaff = await Astro.glob("../../../content/author/*.md");
 

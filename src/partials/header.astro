@@ -1,12 +1,12 @@
 ---
-import SVG from "@parts/svg.astro";
+import SVG from "@parts/svg";
 
-import main from "../../content/menus/main-menu.json";
+import main from "@content/menus/main-menu.json";
 ---
 
 <style lang="scss">
 	header {
-		position: fixed;
+		position: sticky;
 		top: 0;
 		z-index: 20;
 		width: 100vw;
@@ -17,7 +17,7 @@ import main from "../../content/menus/main-menu.json";
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
-		background: rgba(var.$secondary, 0.6);
+		background: var.$secondary;
 	}
 
 	.logo {
@@ -145,6 +145,18 @@ import main from "../../content/menus/main-menu.json";
 					text-decoration-thickness: 3px;
 					text-decoration-color: var.$primary;
 				}
+
+				&.cta {
+					@include mixins.button;
+				}
+			}
+
+			li {
+				a {
+					&.cta {
+						border-radius: 0.2em;
+					}
+				}
 			}
 		}
 
@@ -184,9 +196,9 @@ import main from "../../content/menus/main-menu.json";
 		</button>
 		<ul>
 			{
-				main.items.map(({ url, text }) => (
+				main.items.map(({ url, text, cta }) => (
 					<li>
-						<a href={url}>{text}</a>
+						<a href={url} class={cta ? 'cta' : ''}>{text}</a>
 					</li>
 				))
 			}

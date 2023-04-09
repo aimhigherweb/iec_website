@@ -1,0 +1,80 @@
+---
+import Layout from "@layouts/default";
+import { Picture } from "@astrojs/image/components"
+import { getCollection } from 'astro:content';
+
+export async function getStaticPaths() {
+  const blogEntries = await getCollection('blog');
+
+  return blogEntries.map(post => ({
+    params: { slug: post.slug }, props: { post },
+  }));
+}
+
+const { data } = Astro.props.post;
+const { Content } = await Astro.props.post.render();
+---
+
+<style lang="scss">
+	.image {
+		display: none;
+	}
+
+	section {
+		:global(img) {
+			max-width: 100%;
+			height: auto;
+		}
+	}
+
+	@media(min-width: 30em) {
+		.image {
+			max-width: 300px; 
+			max-height: 300px;
+			margin: 0 auto;
+			display: block;
+			float: right;
+			margin-left: 20px;
+			margin-bottom: 10px;
+		}
+
+		h1 {
+			margin-bottom: 40px;
+			clear: both;
+		}
+
+		article {
+			clear: both;
+		}
+
+		section {
+			:global(> *:first-child) {
+				margin-top: 0;
+			}
+		}
+	}
+
+	@media(min-width: 60em) {
+		.image {
+			max-width: 400px;
+			max-height: 400px;
+		}
+	}
+</style>
+
+<Layout>
+  <article>
+	<h1>{data.title}</h1>
+	<Picture
+			class="image"
+			src={data.preview_image}
+			alt=""
+			widths={[200, 400]}
+			aspectRatio="4:5"
+			formats={["avif", "webp", "png"]}
+		/>
+	<section>
+		<Content />
+	</section>
+  </article>
+</Layout>

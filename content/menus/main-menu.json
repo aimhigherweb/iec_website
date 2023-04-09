@@ -13,8 +13,17 @@
       "url": "/what-we-do"
     },
     {
+      "text": "Blog",
+      "url": "/blog"
+    },
+    {
       "text": "Contact",
       "url": "/contact"
+    },
+    {
+      "text": "Book Online",
+      "url": "/#book-now",
+      "cta": true
     }
   ],
   "title": "Main Menu"

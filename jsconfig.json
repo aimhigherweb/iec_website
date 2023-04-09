@@ -2,14 +2,38 @@
 	"compilerOptions": {
 		"baseUrl": ".",
 		"paths": {
-			"@*": [
-				"src/*"
+			"@img/*": [
+				"src/img/*"
+			],
+			"@blocks/*": [
+				"src/parts/blocks/*.astro"
 			],
 			"@data/*": [
 				"content/pages/*",
 			],
 			"@content/*": [
 				"content/*",
+			],
+			"@context/*": [
+				"context/*",
+			],
+			"@layouts/*": [
+				"src/layouts/*.astro",
+			],
+			"@pages/*": [
+				"src/pages/*.astro",
+			],
+			"@parts/*": [
+				"src/parts/*.astro",
+			],
+			"@partials/*": [
+				"src/partials/*.astro",
+			],
+			"@utils/*": [
+				"src/utils/*",
+			],
+			"@styles/*": [
+				"src/styles/*",
 			]
 		}
 	}

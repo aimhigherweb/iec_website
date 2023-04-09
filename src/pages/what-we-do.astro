@@ -1,5 +1,5 @@
 ---
-import Layout from "@layouts/default.astro";
+import Layout from "@layouts/landingPage";
 import processMarkdown from "@utils/markdown";
 
 import data from "@data/what-we-do.json";
@@ -185,27 +185,7 @@ services.forEach((service) => {
 	}
 
 	.description {
-		text-overflow: ellipsis;
-		overflow: hidden;
-		display: -webkit-box;
-		-webkit-line-clamp: 3;
-		-webkit-box-orient: vertical;
-
-		:global(> *:not(:first-child)) {
-			display: none;
-		}
-
-		:global(> div:first-child) {
-			:global(> *:not(:first-child)) {
-				display: none;
-			}
-		}
-
-		:global(p) {
-			&:first-child {
-				margin-top: 0;
-			}
-		}
+		@include mixins.clip_lines;
 	}
 
 	@media (min-width: 40em) {

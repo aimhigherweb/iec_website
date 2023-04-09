@@ -1,6 +1,6 @@
 ---
 import { Picture } from "@astrojs/image/components";
-import CTAButtons from "@parts/cta.astro";
+import CTAButtons from "@parts/cta";
 
 const { image, video, cta } = Astro.props.content;
 ---
@@ -95,6 +95,14 @@ const { image, video, cta } = Astro.props.content;
 			max-height: 80vh;
 			max-width: calc(16 / 9 * 80vh);
 			margin: 0 auto;
+		}
+	}
+
+	@media(min-width: 60em) {
+		.video {
+			height: calc(100vh - 90px);
+			max-width: unset;
+			max-height: unset;
 		}
 	}
 </style>

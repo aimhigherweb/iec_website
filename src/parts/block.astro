@@ -1,8 +1,10 @@
 ---
-import Team from "./blocks/team.astro";
-import Content from "./blocks/content.astro";
-import History from "./blocks/history.astro";
+import Team from "@blocks/team";
+import Content from "@blocks/content";
+import History from "@blocks/history";
 import processMarkdown from "@utils/markdown";
+import Logos from '@blocks/logos';
+import Stores from '@parts/stores'
 
 let Block = Content;
 let classes = ["block", `theme-${Astro.props.theme.toLocaleLowerCase()}`];
@@ -18,6 +20,13 @@ switch (Astro.props.type) {
 		break;
 	case "content":
 		classes.push("split");
+		break;
+	case 'logos':
+		Block = Logos;
+		break;
+	case 'stores':
+		Block = Stores;
+		break;
 }
 
 const data = Astro.props;
@@ -40,7 +49,7 @@ data.leading = {
 		text-align: center;
 		position: relative;
 
-		:global(h2) {
+		:global(h2), :global(h3) {
 			font-size: 1.8em;
 			color: inherit;
 		}
@@ -107,6 +116,6 @@ data.leading = {
 	}
 </style>
 
-<section class={classes.join(" ")}>
+<section id={data?.id} class={classes.join(" ")}>
 	<Block {...data} />
 </section>

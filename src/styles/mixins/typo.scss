@@ -15,3 +15,27 @@
 		color: var.$primary;
 	}
 }
+
+@mixin clip_lines($lines: 3) {
+	text-overflow: ellipsis;
+		overflow: hidden;
+		display: -webkit-box;
+		-webkit-line-clamp: $lines;
+		-webkit-box-orient: vertical;
+
+		:global(> *:not(:first-child)) {
+			display: none;
+		}
+
+		:global(> div:first-child) {
+			:global(> *:not(:first-child)) {
+				display: none;
+			}
+		}
+
+		:global(p) {
+			&:first-child {
+				margin-top: 0;
+			}
+		}
+}

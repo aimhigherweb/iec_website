@@ -1,0 +1,105 @@
+---
+import BlogPost from '@parts/blogPost';
+
+const { data: posts, currentPage, lastPage, url } = Astro.props
+const {next, prev} = url
+const totalPages = Array.from(Array(lastPage).keys(), x => x + 1)
+
+---
+
+<style lang="scss">
+	ul {
+		list-style: none;
+		margin: 50px -10px -10px;
+		padding: 0;
+	}
+
+	li {
+		margin: 10px;
+	}
+
+	.feed {
+	}
+
+	.pagination {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+	}
+
+	a {
+		@include mixins.button;
+
+		text-decoration: none;
+		display: block;
+		padding: 10px;
+		line-height: 1;		
+		background: var.$white;
+		color: var.$secondary;
+		border: 2px solid var.$secondary;
+
+		&.active {
+			background-color: var.$secondary;
+			color: var.$white;
+		}
+
+		&:hover {
+			background-color: var.$primary;
+			color: var.$white;
+			border-color: var.$primary;
+		}
+	}
+
+	@media(min-width: 30em) {
+		.feed {
+			li {
+				&:nth-child(2n) {
+					:global(picture) {
+						order: 2;
+						margin-left: 20px;
+						margin-right: 0;
+					}
+				}
+			}
+		}
+	}
+
+	@media(min-width: 50em) {
+		.feed {
+			li {
+				width: 90%;
+
+				&:nth-child(2n - 1) {
+					margin-left: auto;
+				}
+			}
+		}
+	}
+</style>
+
+<>
+	<ul class="feed">
+		{posts.map(post => (
+			<li><BlogPost {...post} /></li>
+		))}
+	</ul>
+
+	<ul class="pagination">
+		{currentPage > 1 && <li><a href={prev}>Previous Page</a></li>}
+		{totalPages.map((page) => {
+			const href = page === 1 ? '/blog' : `/blog/${page}`
+			return (
+				<li>
+					<a 
+						href={href}
+						class={page === currentPage ? 'active' : ''}
+					>
+						{page}
+					</a>
+				</li>
+			)
+		})}
+		{currentPage < lastPage && <li><a href={next}>Next Page</a></li>}
+	</ul>
+</>

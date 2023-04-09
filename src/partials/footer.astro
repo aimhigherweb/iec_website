@@ -1,9 +1,9 @@
 ---
-import SVG from "@parts/svg.astro";
+import SVG from "@parts/svg";
 
-import footer from "../../content/menus/footer-menu.json";
-import social from "../../content/menus/social-menu.json";
-import * as newsletterForm from "../../context/data/newsletter.md";
+import footer from "@content/menus/footer-menu.json";
+import social from "@content/menus/social-menu.json";
+import * as newsletterForm from "@context/data/newsletter.md";
 
 const stores = await Astro.glob("../../context/stores/*.json");
 ---

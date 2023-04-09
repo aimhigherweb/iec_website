@@ -4,7 +4,7 @@
     "cta": [
       {
         "Text": "Book Online",
-        "url": "https://www.innovativeeyecare.com.au/",
+        "url": "#book-now",
         "text": "Book Online"
       },
       {
@@ -45,6 +45,21 @@
       "content": "Passage on soft and hard lenses.\n\nOrthokeratology, scleral and corneal rigid gas permeable lenses. Tailored to fit your eyes. Making complex fits easy with custom lenses, state-of-the-art technology, equipment.\n\nPassage on soft and hard lenses.\n\nOrthokeratology, scleral and corneal rigid gas permeable lenses. Tailored to fit your eyes. Making complex fits easy with custom lenses, state-of-the-art technology, equipment.",
       "image": "/img/uploads/keratoconus-slit-lamp.jpg",
       "theme": "Dark"
+    },
+    {
+      "type": "logos",
+      "theme": "Dark",
+      "heading": "Associated Businesses",
+      "logos": [
+        {
+          "image": "/img/uploads/ophthalmictrialslogo.png",
+          "url": "https://www.ophthalmictrials.com.au"
+        },
+        {
+          "url": "https://www.eye.space/",
+          "image": "/img/uploads/eyespace-logo.svg"
+        }
+      ]
     }
   ],
   "meta": {
