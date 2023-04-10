@@ -3,7 +3,7 @@ const { cta, ...props } = Astro.props;
 ---
 
 <style lang="scss">
-	a {
+	.button {
 		@include mixins.button;
 	}
 
@@ -29,6 +29,7 @@ const { cta, ...props } = Astro.props;
 		cta.map((cta) => (
 			<li>
 				<a
+					class="button"
 					href={cta.url}
 					target={cta.url.startsWith("http") ? "_blank" : "_self"}
 				>

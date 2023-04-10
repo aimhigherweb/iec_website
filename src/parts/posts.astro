@@ -70,7 +70,7 @@ const { posts } = Astro.props
 		font-weight: 600;
 	}
 
-	h3 {
+	.title {
 		color: inherit;
 		margin-bottom: 0;
 
@@ -92,7 +92,7 @@ const { posts } = Astro.props
 
 	@media(min-width: 60em) {
 		.content.content {
-			h3 {
+			.title {
 				font-size: 1.5em;
 			}
 		}
@@ -114,7 +114,7 @@ const { posts } = Astro.props
 					formats={["avif", "webp", "png"]}
 				/>
 				<div class="content">
-					<h3>
+					<h3 class="title">
 						<a href={`/blog/${slug}`}>{data.title}</a>
 					</h3>
 					<p class="date">
