@@ -37,14 +37,14 @@
       "heading": "We know contact lenses.",
       "content": "Passage on soft and hard lenses.\n\nOrthokeratology, scleral and corneal rigid gas permeable lenses. Tailored to fit your eyes. Making complex fits easy with custom lenses, state-of-the-art technology, equipment.\n\nPassage on soft and hard lenses.\n\nOrthokeratology, scleral and corneal rigid gas permeable lenses. Tailored to fit your eyes. Making complex fits easy with custom lenses, state-of-the-art technology, equipment.",
       "image": "/img/uploads/care-of-ortho-k.jpg",
-      "theme": "Light"
+      "theme": "Dark"
     },
     {
       "type": "content",
       "heading": "We know contact lenses",
       "content": "Passage on soft and hard lenses.\n\nOrthokeratology, scleral and corneal rigid gas permeable lenses. Tailored to fit your eyes. Making complex fits easy with custom lenses, state-of-the-art technology, equipment.\n\nPassage on soft and hard lenses.\n\nOrthokeratology, scleral and corneal rigid gas permeable lenses. Tailored to fit your eyes. Making complex fits easy with custom lenses, state-of-the-art technology, equipment.",
       "image": "/img/uploads/keratoconus-slit-lamp.jpg",
-      "theme": "Dark"
+      "theme": "Light"
     },
     {
       "type": "logos",
@@ -58,6 +58,23 @@
         {
           "url": "https://www.eye.space/",
           "image": "/img/uploads/eyespace-logo.svg"
+        }
+      ]
+    },
+    {
+      "type": "blog",
+      "heading": "Latest News",
+      "theme": "Light",
+      "leading": "The optometrists of Innovative Eye Care have a wide scope of expertise. Our blog provides a platform for our practitioners and staff to share a little more about their professional interests and experiences. As well as some weird and wonderful case studies, you’ll be kept up to date with practice news, the latest research and treatment options, products we love and fashion trends in our retail space.",
+      "posts": [
+        "Helpful or hype? Blue light filters",
+        "Contact Lens Recycling",
+        "How do I know if I want a multicoat?"
+      ],
+      "cta": [
+        {
+          "text": "View all posts",
+          "url": "/blog"
         }
       ]
     }

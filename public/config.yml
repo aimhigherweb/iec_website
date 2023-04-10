@@ -361,6 +361,83 @@
                                     ]
                                 },
                                 {
+                                    "label":"Blog/News",
+                                    "name":"blog",
+                                    "widget":"object",
+                                    "fields":[
+                                        {
+                                            "label":"Heading",
+                                            "name":"heading",
+                                            "widget":"string"
+                                        },
+                                        {
+                                            "label":"Leading Content",
+                                            "name":"leading",
+                                            "widget":"markdown",
+                                            "required":false,
+                                            "buttons":[
+                                                "bold",
+                                                "italic",
+                                                "link",
+                                                "heading-three",
+                                                "bulleted-list",
+                                                "numbered-list"
+                                            ],
+                                            "editor_components":[]
+                                        },
+                                        {
+                                            "label":"Theme",
+                                            "name":"theme",
+                                            "widget":"select",
+                                            "options":[
+                                                "Light",
+                                                "Dark"
+                                            ]
+                                        },
+                                        {
+                                            "name":"latest",
+                                            "label":"Show latest posts",
+                                            "widget":"boolean",
+                                            "required":false,
+                                            "default":false,
+                                            "description": "If this is enabled, the selected posts will not necessarily be displayed"
+                                        },
+                                        {
+                                            "label":"Posts",
+                                            "name":"posts",
+                                            "widget":"relation",
+                                            "required": false,
+                                            "multiple":true,
+                                            "collection":"blog",
+                                            "search_fields":[
+                                                "title"
+                                            ],
+                                            "value_field":"title",
+                                            "display_fields":[
+                                                "title"
+                                            ]
+                                        },
+                                        {
+                                            "label":"CTA Buttons",
+                                            "name":"cta",
+                                            "widget":"list",
+                                            "max":4,
+                                            "fields":[
+                                                {
+                                                    "label":"Text",
+                                                    "name":"text",
+                                                    "widget":"string"
+                                                },
+                                                {
+                                                    "label":"URL",
+                                                    "name":"url",
+                                                    "widget":"string"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
                                     "label":"Content",
                                     "name":"content",
                                     "widget":"object",

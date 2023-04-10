@@ -1,0 +1,31 @@
+---
+import CTAButtons from "@parts/cta";
+import Posts from '@parts/posts'
+import { getCollection } from "astro:content";
+
+const { heading, posts, cta, latest = false, leading } = Astro.props;
+// const allPosts = await Astro.glob('../../content/blog/*.md')
+const allPosts = await getCollection('blog')
+
+const blogs = allPosts.filter((post) => posts.includes(post.data.title))
+
+// console.log({posts, blogs, cta, latest})
+---
+
+<style lang="scss">
+	.content {
+		max-width: 800px;
+		margin: 20px auto;
+	}
+
+	.ctas {
+		justify-content: center;
+	}
+</style>
+
+<>
+	<h2>{heading}</h2>
+	{leading && <div class="content" set:html={leading.html} />}
+	<Posts posts={blogs} />
+	<CTAButtons class="ctas" {cta} />
+</>

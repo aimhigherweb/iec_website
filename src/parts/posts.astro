@@ -1,0 +1,129 @@
+---
+import { Picture } from "@astrojs/image/components";
+import { format } from "date-fns";
+import processMarkdown from "@utils/markdown";
+
+const { posts } = Astro.props
+---
+
+<style lang="scss">
+	ul {
+		display: flex;
+		flex-wrap: wrap;
+		list-style: none;
+		margin: 50px -20px;
+		padding: 0;
+		justify-content: center;
+	}
+
+	li {
+		flex: 1 1 300px;
+		max-width: 400px;
+		margin: 20px;
+	}
+
+	article {
+		padding: 20px;
+		background: var.$primary_light;
+		border-radius: 10px;
+		color: var.$secondary;
+		position: relative;
+		text-align: left;
+		height: 100%;
+		border: 3px solid var.$primary_light;
+
+		:global(picture) {
+			width: 100%;
+			overflow: hidden;
+			max-height: 300px;
+			display: block;
+		}
+
+		&:hover {
+			background: var.$secondary;
+			color: var.$white;
+		}
+	}
+
+	.excerpt {
+		@include mixins.clip_lines(6);
+
+		
+
+		:global(a) {
+			text-decoration: none;
+			pointer-events: none;
+			color: inherit;
+		}
+	}
+
+	.image {
+		width: 100%;
+		height: 60vw;
+		max-height: 200px;
+		object-fit: cover;
+		border-radius: 10px;
+	}
+
+	.date {
+		font-family: var.$font_headings;
+		font-weight: 600;
+	}
+
+	h3 {
+		color: inherit;
+		margin-bottom: 0;
+
+		a {
+			&:before {
+				content: '';
+				position: absolute;
+				top: 0;
+				left: 0;
+				right: 0;
+				bottom: 0;
+			}
+
+			&:hover {
+				text-decoration: none;
+			}
+		}
+	}
+
+	@media(min-width: 60em) {
+		.content.content {
+			h3 {
+				font-size: 1.5em;
+			}
+		}
+	}
+</style>
+
+<ul>
+	{posts.map(({data, slug, body}) => {
+		// console.log({file: })
+		return (
+		<li>
+			<article>
+				<Picture
+					class="image"
+					src={data.preview_image}
+					alt=""
+					widths={[200, 400]}
+					aspectRatio="4:5"
+					formats={["avif", "webp", "png"]}
+				/>
+				<div class="content">
+					<h3>
+						<a href={`/blog/${slug}`}>{data.title}</a>
+					</h3>
+					<p class="date">
+						{format(data.date, 'dd MMM yyyy')}
+					</p>
+					<div class="excerpt" set:html={processMarkdown(body)} />
+				</div>
+			</article>
+		</li>
+	)
+	})}
+</ul>

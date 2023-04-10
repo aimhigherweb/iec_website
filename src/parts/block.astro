@@ -5,6 +5,7 @@ import History from "@blocks/history";
 import processMarkdown from "@utils/markdown";
 import Logos from '@blocks/logos';
 import Stores from '@parts/stores'
+import Blog from '@blocks/blog'
 
 let Block = Content;
 let classes = ["block", `theme-${Astro.props.theme.toLocaleLowerCase()}`];
@@ -26,6 +27,9 @@ switch (Astro.props.type) {
 		break;
 	case 'stores':
 		Block = Stores;
+		break;
+	case 'blog':
+		Block = Blog;
 		break;
 }
 
