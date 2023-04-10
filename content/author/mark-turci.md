@@ -1,7 +1,7 @@
 ---
 title: Mark Turci
 jobtitle: Practice Manager
-photo: /public/img/uploads/staff/mark.png
+photo: /img/uploads/staff/mark.png
 order: 11
 ---
 

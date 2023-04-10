@@ -2,7 +2,7 @@
 title: "Research project: ortho-k, myopia & glaucoma"
 date: 2018-01-09
 author: Millie Meegan
-preview_image: /public/img/uploads/children-myopia-glaucoma.jpg
+preview_image: /img/uploads/children-myopia-glaucoma.jpg
 ---
 
 The eye is one of the most complex systems of the human body.<sup>1</sup> Parts of the eye include, but are not limited to, the cornea, sclera, retina and optic nerve, which all work in conjunction with the brain to produce sight, arguably the most important sense (refer to figure 1).<sup>2</sup> The cornea is the transparent outer layer of the front of the eye, which is continuous of the sclera, the tough outer coat of the eyeball.<sup>3</sup> In a perfect eye, the cornea catches light rays and together with the lens, adjusts their focal length to allow the focal point to reach the retina at the back of the eye.<sup>4</sup> The retina contains photoreceptor cells, which give an image colour before the optic nerve transfers the image as neural impulses to the brain for processing.<sup>5</sup> Abnormalities in the shape of the cornea can cause the light rays to be focused in different directions on the retina, causing blurred vision.<sup>6</sup> These refractive errors, also known as ametropic conditions, include myopia, hypermetropia, astigmatism and presbyopia.<sup>7</sup>

@@ -2,7 +2,7 @@
 title: "Spring/summer 2017 trend report"
 date: 2017-09-11
 author: Jane Scotcher
-preview_image: /public/img/uploads/jane-1.jpg
+preview_image: /img/uploads/jane-1.jpg
 ---
 
 “Your frame says a lot about your personality, we want you to be confident, look sensational and smile radiantly when you put them on”. I always look forward to summer because I confess I really dislike the cold weather.

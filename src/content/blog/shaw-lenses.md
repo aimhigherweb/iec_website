@@ -2,7 +2,7 @@
 title: Lazy eyes and Shaw lenses
 date: 2017-09-06
 author: Karl Evans
-preview_image: /public/img/uploads/shaw-lenses.jpg
+preview_image: /img/uploads/shaw-lenses.jpg
 ---
 
 Have you got an eye that’s just been lying about and not getting used much?

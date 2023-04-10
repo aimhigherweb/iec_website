@@ -2,7 +2,7 @@
 title: "Camella's student placement at IEC"
 date: 2018-07-24
 author: Millie Meegan
-preview_image: /public/img/uploads/camella-do-flinders.jpg
+preview_image: /img/uploads/camella-do-flinders.jpg
 ---
 
 My name is Camella Do and I am a final year optometry student from Flinders University. I have been given the opportunity to spend the last 6 weeks at Innovative Eye Care as part of my clinical placement.

@@ -1,7 +1,7 @@
 ---
 title: Karl Evans
 jobtitle: Optometrist
-photo: /public/img/uploads/staff/Karl-2022.png
+photo: /img/uploads/staff/Karl-2022.png
 order: 2
 ---
 

@@ -2,7 +2,7 @@
 title: Dry eye disease and the DEWS II
 date: 2017-11-03
 author: Karl Evans
-preview_image: /public/img/uploads/dry-eye-and-dews-ii.jpg
+preview_image: /img/uploads/dry-eye-and-dews-ii.jpg
 ---
 
 ![](/img/uploads/2075115-dry_eyes.jpg)

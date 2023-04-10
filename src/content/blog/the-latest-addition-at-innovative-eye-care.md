@@ -2,7 +2,7 @@
 title: The latest addition at Innovative Eye Care
 date: 2020-08-12T03:35:52.577Z
 author: Dylan Bentley
-preview_image: /public/img/uploads/blog-cover.png
+preview_image: /img/uploads/blog-cover.png
 ---
 <div class="employee-heading">
 

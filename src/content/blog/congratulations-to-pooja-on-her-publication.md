@@ -2,7 +2,7 @@
 title: Congratulations to Pooja on her publication
 date: 2020-04-27T07:03:45.590Z
 author: Millie Meegan
-preview_image: /public/img/uploads/glauc.png
+preview_image: /img/uploads/glauc.png
 ---
 We’re extremely proud of our optometrist Pooja Bhindi, who recently had her research (developed at Flinders University with a team of colleagues) published in the renowned scientific journal <i>Clinical and Experimental Optometry</i>. Pooja’s research centres around a fast-developing technology we are equipped with at our Adelaide branch – optical coherence tomography angiography, or [OCT-A](https://www.innovativeeyecare.com.au/what-we-do/optical-coherance-tomography-angiography-oct-a).
 

@@ -2,7 +2,7 @@
 title: "Vision training: there's more than meets the eye!"
 date: 2017-08-29
 author: Joanna Rohrlach
-preview_image: /public/img/uploads/visiontraining1.jpg
+preview_image: /img/uploads/visiontraining1.jpg
 ---
 
 Optometrists are here to help you see better! There are a number of ways in which that can be achieved depending on the visual problems that an individual might have. Often, glasses or contact lenses are prescribed for the correction and treatment of certain vision problems. However, some vision problems can be remedied through vision training, which is delivered via an individualised program of exercises to enable a person’s visual system to function more effectively and efficiently. The goal of vision training for the individual is to focus, coordinate and track their eyes with finesse and move within their visual space with confidence. This is a multi-faceted approach that involves the eyes, brain and body. This is well-described by an optometrist from Canada in his TEDx talk.

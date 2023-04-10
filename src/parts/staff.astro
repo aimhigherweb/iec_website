@@ -191,10 +191,7 @@ const full = profiles.length > 7;
 				<li id={id} class="person">
 					<button onclick={`togglePopup(${id})`}>
 						<Picture
-							src={profile.frontmatter.photo.replace(
-								"/public/",
-								"/"
-							)}
+							src={profile.frontmatter.photo}
 							alt={profile.frontmatter.title}
 							widths={[200]}
 							aspectRatio="4:5"

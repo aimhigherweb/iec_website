@@ -2,7 +2,7 @@
 title: Macula Month 2020
 date: 2020-05-28T23:36:43.583Z
 author: Millie Meegan
-preview_image: /public/img/uploads/macmonth2020.jpg
+preview_image: /img/uploads/macmonth2020.jpg
 ---
 Macular Month is about reminding us of the importance of eye health, especially inside our eyes. When light enters our eyes through the pupil, it’s focussed on the back of the eye, or the retina. The most central and highly sensitive part of the retina is called the macula, and it’s this area that we use to look at objects in the middle of our field of view. Light is then converted into electrical signals and interpreted by our brain. Without it, we wouldn’t see a thing.
 

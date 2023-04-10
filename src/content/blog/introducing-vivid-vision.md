@@ -2,7 +2,7 @@
 title: Introducing Vivid Vision
 date: 2021-07-22T01:53:58.750Z
 author: Dylan Bentley
-preview_image: /public/img/uploads/jessica-lewis-deyfdybvqha-unsplash-2-.jpg
+preview_image: /img/uploads/jessica-lewis-deyfdybvqha-unsplash-2-.jpg
 ---
 Binocular vision disorders are conditions which affect how the eyes work together. They can often be associated with symptoms such as:
 

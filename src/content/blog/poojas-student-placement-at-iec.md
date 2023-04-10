@@ -2,7 +2,7 @@
 title: Pooja's student placement at IEC
 date: 2019-03-25T05:33:58.839Z
 author: Pooja Bhindi
-preview_image: /public/img/uploads/55769976_2345343202363394_3360060405807316992_n.jpg
+preview_image: /img/uploads/55769976_2345343202363394_3360060405807316992_n.jpg
 ---
 My name is Pooja and I am currently in my fifth year of Optometry at Flinders University. I have been lucky enough to have had the opportunity to spend the past six weeks with the amazing and talented team at Innovative Eye Care at Hutt Street.
 

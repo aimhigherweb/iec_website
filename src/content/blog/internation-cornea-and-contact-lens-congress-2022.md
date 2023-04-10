@@ -2,7 +2,7 @@
 title: Internation Cornea and Contact Lens Congress 2022
 date: 2022-11-04T05:28:24.991Z
 author: Millie Meegan
-preview_image: /public/img/uploads/b028e1ebc1444670b5d8bb123f3b1bb9-_-62570a0024d85d201e6e2cd67ccae640-copy.jpg
+preview_image: /img/uploads/b028e1ebc1444670b5d8bb123f3b1bb9-_-62570a0024d85d201e6e2cd67ccae640-copy.jpg
 ---
 In October 2022, the IEC optometrists team – Millie, Dylan, Lachlan and Pooja – jetted off to Sydney for the International Cornea and Contact Lens Congress.
 

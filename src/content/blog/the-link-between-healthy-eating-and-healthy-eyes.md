@@ -2,7 +2,7 @@
 title: The link between healthy eating and healthy eyes
 date: 2018-04-07
 author: Millie Meegan
-preview_image: /public/img/uploads/healthy-eating.jpg
+preview_image: /img/uploads/healthy-eating.jpg
 ---
 
 Most people don't immediately associate what they eat with their eye health (unless it's "carrots help me see in the dark"), but the food we eat contains nutrients that impact our vision, the condition of our eyes, and our overall physiological state on almost every level. Many eye diseases such as [diabetic retinopathy](/what-we-do/diabetes), [age related macular degeneration](/what-we-do/macular-degeneration), and [dry eye disease](/what-we-do/dry-eye-disease) can be prevented, slowed, or treated through better diet.

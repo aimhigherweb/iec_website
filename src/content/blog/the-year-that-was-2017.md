@@ -2,7 +2,7 @@
 title: "The year that was: 2017"
 date: 2017-12-22
 author: Georgia Hoy
-preview_image: /public/img/uploads/17426156_1340824506001020_5198645078563428512_n.jpg
+preview_image: /img/uploads/17426156_1340824506001020_5198645078563428512_n.jpg
 ---
 
 As the working year has quickly come to an end, we have been reflecting on the year that was. Here are a few highlights...

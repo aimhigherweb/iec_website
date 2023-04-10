@@ -1,7 +1,7 @@
 ---
 title: Jane Scotcher
 jobtitle: Practice Manager
-photo: /public/img/uploads/staff/jane.png
+photo: /img/uploads/staff/jane.png
 order: 10
 ---
 Jane is our practice manager and resident 'ray of sunshine'. As an optical curator, Jane is responsible for our fashion-forward, exclusive and quality range of frames. She has an eye for detail and makes selecting the perfect frame for you and your prescription a breeze. Jane spent seven years as the practice manager of North Terrace Optometrists and is now the smiling face welcoming you to our Hutt Street location.

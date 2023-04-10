@@ -2,7 +2,7 @@
 title: "Dry or watery eyes? The solution may be a plumbing job"
 date: 2017-08-14
 author: Karl Evans
-preview_image: /public/img/uploads/vibe.jpg
+preview_image: /img/uploads/vibe.jpg
 ---
 
 In some ways your eyes are like a shower. You have a tear gland at the top that makes tears. These tears are constantly washing over the surface of your eye to keep it clean and smooth. They then drain away into a channel through your lower lid into your nose.

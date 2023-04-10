@@ -2,7 +2,7 @@
 title: "Melina's student placement at IEC"
 date: 2017-09-04
 author: Millie Meegan
-preview_image: /public/img/uploads/melina-placement.jpg
+preview_image: /img/uploads/melina-placement.jpg
 ---
 
 ![](/img/uploads/melina.jpg)

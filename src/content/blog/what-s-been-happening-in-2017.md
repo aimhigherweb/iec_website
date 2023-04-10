@@ -2,7 +2,7 @@
 title: What's been happening in 2017
 date: 2017-12-31T00:00:00.000Z
 author: Georgia Hoy
-preview_image: /public/img/uploads/barber_72dpi_600px-1.jpg
+preview_image: /img/uploads/barber_72dpi_600px-1.jpg
 ---
 
 As we kick off into 2018, we have been reflecting on the year that was. Here are a few highlights...

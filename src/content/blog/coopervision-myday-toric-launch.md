@@ -2,7 +2,7 @@
 title: Coopervision MyDay Toric launch
 date: 2017-09-25
 author: Karl Evans
-preview_image: /public/img/uploads/myday-toric-coopervision.jpg
+preview_image: /img/uploads/myday-toric-coopervision.jpg
 ---
 
 Nearly all new contact lenses now use silicone as a vital component of the lens material - an innovation developed in Australia at the Brien Holden Vision Institute. This was the second fundamental shift in soft contact lens technology after the advent of disposable lenses. The thinner and more comfortable disposable lenses allowed people to wear their lenses for longer and longer hours of the day and these long wear times started to cause signs in the eye of oxygen starvation. The front surface of the eye absorbs oxygen directly from the air and this normal source for oxygen is reduced once a contact lens is placed on the eye. Silicone transports oxygen very well and adding silicone dramatically increases the breathability of a contact lens material.

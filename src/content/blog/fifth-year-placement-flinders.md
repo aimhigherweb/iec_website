@@ -2,7 +2,7 @@
 title: "Katie's student placement at IEC"
 date: 2018-03-17
 author: Millie Meegan
-preview_image: /public/img/uploads/katie-preview.jpg
+preview_image: /img/uploads/katie-preview.jpg
 ---
 
 My name is Katie and I am a fifth year optometry student from Flinders University. As part of my final year of studying optometry, I have been lucky enough to spend six weeks of placement at Innovative Eye Care Henley Beach. During this placement I have been exposed to some of the [highest quality equipment](/what-we-do/oct) and optometry practice in South Australia, gaining knowledge and experience in areas not seen in many other general practices, such as [scleral contact lenses](/what-we-do/scleral-contact-lenses), [orthokeratology](/what-we-do/orthokeratology-corneal-reshaping) and [binocular vision training](/what-we-do/vision-training).

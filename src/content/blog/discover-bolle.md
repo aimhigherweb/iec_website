@@ -2,7 +2,7 @@
 title: Discover Bolle
 date: 2022-02-15T22:33:58.718Z
 author: Karl Evans
-preview_image: /public/img/uploads/htdgf.png
+preview_image: /img/uploads/htdgf.png
 ---
 I have been using two pairs of Bolle's current sunglasses range for cycling. Both pairs have angled arms and a shape which plays nice with the range of helmets that I use. They are both very comfortable to wear with lens colours, densities and optics that make them both the sunglasses I reach for first when going out for a ride. 
 

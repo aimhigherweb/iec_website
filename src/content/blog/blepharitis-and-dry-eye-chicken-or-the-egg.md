@@ -2,7 +2,7 @@
 title: "Blepharitis and dry eye, chicken or the egg?"
 date: 2017-12-05
 author: Lachlan Hoy
-preview_image: /public/img/uploads/demodex-preview.jpg
+preview_image: /img/uploads/demodex-preview.jpg
 ---
 
 For many years, [blepharitis](/what-we-do/blepharitis) and [dry eye disease](/what-we-do/dry-eye-disease) (DED) have been thought to be two distinct diseases, and evaporative dry eye distinct from aqueous insufficiency.

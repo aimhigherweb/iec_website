@@ -2,7 +2,7 @@
 title: Visual snow
 date: 2018-04-03
 author: Karl Evans
-preview_image: /public/img/uploads/seurat.jpg
+preview_image: /img/uploads/seurat.jpg
 ---
 
 ![](/img/uploads/visual_snow.gif)

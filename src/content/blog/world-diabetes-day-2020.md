@@ -2,7 +2,7 @@
 title: World Diabetes Day 2020
 date: 2020-11-19T03:51:13.860Z
 author: Dylan Bentley
-preview_image: /public/img/uploads/diabetes-sugar.jpeg
+preview_image: /img/uploads/diabetes-sugar.jpeg
 ---
 <div class="employee-heading">
 

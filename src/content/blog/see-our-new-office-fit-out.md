@@ -2,7 +2,7 @@
 title: "See our new office refurbishment!"
 date: 2017-09-18
 author: Georgia Hoy
-preview_image: /public/img/uploads/barber_72dpi_600px-4.jpg
+preview_image: /img/uploads/barber_72dpi_600px-4.jpg
 ---
 
 We are very excited to show off our new office refurbishment at the Hutt Street premises. This project certainly has been a few years in the making.

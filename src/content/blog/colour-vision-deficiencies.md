@@ -2,7 +2,7 @@
 title: Colour vision deficiencies
 date: 2017-08-21
 author: Karl Evans
-preview_image: /public/img/uploads/cvd.png
+preview_image: /img/uploads/cvd.png
 ---
 
 Colour is not always as simple as it looks. Like many aspects of our perception and even memory, colours are shoehorned by our visual system to fit the context in which we see them. That shoehorning process changes how colours look. The blue/yellow dress debate is a classic example. Colours will look different depending on the colour that surrounds them, the light that falls on them, or colours that you have looked at immediately before or with your memory of what an object should be coloured.

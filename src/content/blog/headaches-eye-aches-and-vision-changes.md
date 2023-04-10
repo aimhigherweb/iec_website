@@ -2,7 +2,7 @@
 title: "Headaches, eye-aches and vision changes"
 date: 2018-05-23
 author: Karl Evans
-preview_image: /public/img/uploads/headache-you-might-have-preview.jpg
+preview_image: /img/uploads/headache-you-might-have-preview.jpg
 ---
 
 A range of different forms of headaches occur with either pain around the eyes or with changes to vision and these headaches can be tricky to diagnose because both eye and vision symptoms may be caused by either an eye disease, a head disease or a systemic disease. Also, the prognosis is spread across harmless, vision threatening or life threatening.

@@ -2,7 +2,7 @@
 title: Why can't I use tap water with my contact lenses?
 date: 2020-08-19T00:09:56.723Z
 author: Pooja Bhindi
-preview_image: /public/img/uploads/macau-photo-agency-szowadu0jxu-unsplash.jpg
+preview_image: /img/uploads/macau-photo-agency-szowadu0jxu-unsplash.jpg
 ---
 <div class="employee-heading">
 

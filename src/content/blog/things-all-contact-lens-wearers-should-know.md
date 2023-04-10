@@ -2,7 +2,7 @@
 title: Things all contact lens wearers should know
 date: 2020-08-18T02:01:36.155Z
 author: Dylan Bentley
-preview_image: /public/img/uploads/contact-lens.jpg
+preview_image: /img/uploads/contact-lens.jpg
 ---
 <div class="employee-heading">
 

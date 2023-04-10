@@ -2,7 +2,7 @@
 title: Why Innovative Eye Care uses the same technology as NASA
 date: 2020-01-25T00:34:50.393Z
 author: Millie Meegan
-preview_image: /public/img/uploads/hhp-iss040e006738.jpg
+preview_image: /img/uploads/hhp-iss040e006738.jpg
 ---
 During prolonged space-flight, astronauts can sometimes develop a condition known as spaceflight-associated neuro-ocular syndrome or SANS. It can involve optic disc oedema, choroidal thickening and folding, globe flattening and consequent shifts in refractive error.
 
