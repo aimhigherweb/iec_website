@@ -25,9 +25,21 @@ const full = profiles.length > 7;
 		img {
 			width: 150px;
 		}
+
+		// button {
+		// 	background: none;
+		// 	border: none;
+		// 	padding: 0;
+		// 	color: inherit;
+
+		// 	&:hover {
+		// 		background: none;
+		// 		color: inherit;
+		// 	}
+		// }
 	}
 
-	button {
+	.button {
 		background: none;
 		border: none;
 		padding: 0;
@@ -189,7 +201,7 @@ const full = profiles.length > 7;
 			const id = `p${Math.random().toString(36).substring(2, 9)}`;
 			return (
 				<li id={id} class="person">
-					<button onclick={`togglePopup(${id})`}>
+					<button class="button" onclick={`togglePopup(${id})`}>
 						<Picture
 							src={profile.frontmatter.photo}
 							alt={profile.frontmatter.title}
