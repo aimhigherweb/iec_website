@@ -9,7 +9,7 @@ preview_image: foi.jpeg
 
 Download the South Australian Request for Access to Documents application <a href="https://archives.sa.gov.au/sites/default/files/public/documents/Request%20for%20Access%20Application%20Form.doc">here</a>.
 
-Print and fill out the form. Send the form to us through fax (8232 1600), email (help@innovativeeyecare.com.au) or post (60 Hutt Street, Adelaide SA 5000).
+Print and fill out the form. Send the form to us through fax (8232 1600), email (help@innovativeeyecare.com.au) or post (300 Wakefield Street, Adelaide SA 5000).
 
 #### What fees apply?
 
