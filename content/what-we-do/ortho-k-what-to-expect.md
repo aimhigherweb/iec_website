@@ -1,6 +1,6 @@
 ---
 title: "Ortho-K: What To Expect"
-category: "SE06"
+category: SE06
 preview_image: ok-mr-gent.jpg
 ---
 <div class="employee-heading">
@@ -77,7 +77,7 @@ Regular appointments are very important when starting ortho-K to ensure the best
 
 **Why should I not just get laser vision correction?**
 
-The cost of ortho-K vision correction is roughly a third of the cost of laser vision correction. It also is completely reversible and does not have the potential to worsen your dry eyes to the same extent as laser correction. As patients reach their mid-forties and start needing help for their near vision (see presbyopia), prtho-K therapy can be modified to give clear vision at all distances without a pair of glasses, unlike a one-off laser procedure.
+The cost of ortho-K vision correction is roughly a third of the cost of laser vision correction. It also is completely reversible and does not have the potential to worsen your dry eyes to the same extent as laser correction. As patients reach their mid-forties and start needing help for their near vision (see presbyopia), ortho-K therapy can be modified to give clear vision at all distances without a pair of glasses, unlike a one-off laser procedure.
 
 **How long does the myopia control effect of ortho-K last?**
 
